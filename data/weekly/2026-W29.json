@@ -1,0 +1,64 @@
+{
+ "skills": [
+  "AI Agent 开发是绝对热点：从 Agent 编排（LangGraph）、记忆系统、工具调用到多智能体协同，几乎所有岗位都要求 Agent 相关经验。",
+  "全栈 + AI 集成能力吃香：大量岗位要求同时掌握前端（React/TypeScript）和后端（Python/Go），并能将 LLM、图像生成等 AI 能力集成到产品中。",
+  "底层优化与推理加速需求上升：KV Cache 优化、CUDA 编程、GPU 调度等岗位增多，反映市场对 AI 推理成本和性能的关注。",
+  "AI 安全与质量保障成为新方向：出现 AI 生成代码质量验证、AI 安全测试等岗位，说明企业开始重视 AI 系统的可靠性和安全性。"
+ ],
+ "gigs": [
+  "远程/兼职岗位集中在 AI 数据标注、Vibe Coding 任务设计、AI 内容策划等方向，报酬在 300-1000 元/任务，适合有 AI 工具使用经验的开发者。",
+  "Shopify 插件开发、前端页面优化等传统外包需求依然存在，但要求结合 AI 能力（如 AI 好评生成）。",
+  "样本有限，但观察到 AI 伴侣、数字人等垂直领域的外包需求增加，需要对话编排、记忆系统等专业技能。"
+ ],
+ "highlights": [
+  {
+   "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+   "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+   "url": "https://www.v2ex.com/t/1226229#reply3",
+   "source": "V2EX 酷工作",
+   "id": "m15",
+   "summary": "悉尼 startup 招 Senior AI Researcher 做 KV Cache 优化，远程+可 relocate，代表 AI 推理优化成为高薪方向。"
+  },
+  {
+   "title": "全栈开发工程师招募；",
+   "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+   "url": "https://www.v2ex.com/t/1225429#reply5",
+   "source": "V2EX 酷工作",
+   "id": "m20",
+   "summary": "Kapibala AI 获 1000 万美元融资，招全栈工程师做 Sales AGI，要求重度使用 AI 工具，代表 AI Native 创业公司对全栈+AI 能力的需求。"
+  },
+  {
+   "title": "[招聘] AI 伴侣产品对话编排工程师",
+   "desc": "我们是专注 NSFW 领域的 AI 伴侣产品，美国华人初创公司 目前针对对话 AI 编排工程师进行招聘，远程/兼职岗位均可，只看有相关经验的大牛哈 工作职责： 1 ，设计并实现对话主链路的编排系统:角色卡 / 世界书 / 记忆 / 状态的动态组装与调度\n2 ，搭建记忆系统\n3 ，用确定性状态机维护关系、剧情进度\n4 ，设计\"导演层\":用规则化逻辑控制剧情推进节奏\n5 ，优化 token 成本与缓存命中率 能力要求： 1 ，3 年以上后端 / 应用开发经验,Python(FastAPI)为主,能独立设计和落地复杂系统\n2 ，真正做过 LLM 应用编排:LangGraph / LangChain ",
+   "url": "https://www.v2ex.com/t/1225426#reply1",
+   "source": "V2EX 酷工作",
+   "id": "m21",
+   "summary": "AI 伴侣产品招对话编排工程师，远程/兼职，要求 LangGraph 经验，代表 AI 伴侣/NSFW 领域对 Agent 编排的专门需求。"
+  },
+  {
+   "title": "[急招] 搞定万卡调度后，我们决定去 Web3 用 Go + Agent 掀翻天花板！（香港 Base/包工签/深港通勤/上不封顶）",
+   "desc": "各位 V 友， 我们是一个处于高速发展期的 Web3 DEX 明星项目。目前团队核心后端全面拥抱 Golang ，信奉极客文化与大厂工程规范的融合。 最近团队在做一件非常酷的事情：我们不仅在构建下一代高性能的去中心化交易底座，还要把 AI Agent 深度注入到我们的“工程研发”和“业务场景”中，真正实现 AI 赋能的未来全自动化工作流！ 简单来说，我们需要一位既懂 Go 语言高并发高性能架构，又对 AI Agent （状态机、工具调用、RAG 记忆机制、Code Agent ）充满热情的 [ AI 工程专家/资深 AI 提效工程师] 。 ---------------------------",
+   "url": "https://www.v2ex.com/t/1224533#reply5",
+   "source": "V2EX 酷工作",
+   "id": "m27",
+   "summary": "Web3 DEX 项目招 Go + Agent 工程师，香港 base，代表 AI Agent 在 Web3 领域的渗透。"
+  },
+  {
+   "title": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Ful",
+   "desc": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Full-time Qase is how engineering teams verify the quality of AI-generated code, so their companies can safely adopt AI-accelerated workflows. Developer Advocate — US-based, remote (North America). We're building the space for how engineering teams verify the quality of AI-generated code. Looking for a QA/quality-engineer",
+   "url": "https://news.ycombinator.com/item?id=48860201",
+   "source": "HN Who is hiring? (July 2026)",
+   "id": "m44",
+   "summary": "Qase 招 Developer Advocate 做 AI 生成代码质量验证，代表 AI 代码质量保障成为新岗位类别。"
+  },
+  {
+   "title": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US)",
+   "desc": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US) | Equity-heavy We compress LLM KV cache. Measured: 8× at 3-bit with 0.43% quality delta (GPU-validated); 22× live end-to-end on a 5-tenant workload, GPU-verified this week (quantization × prefix dedup, decomposition always stated); 16.89× tenant density on a single V100-32GB. Validated across Mistral/Qwen/Llama with z",
+   "url": "https://news.ycombinator.com/item?id=48797747",
+   "source": "HN Who is hiring? (July 2026)",
+   "id": "m74",
+   "summary": "Syntropic 招 Founding CTO/GPU 工程师做 KV Cache 压缩，8x 压缩率，代表 AI 推理优化创业公司的高技术门槛。"
+  }
+ ],
+ "week": "2026-W29"
+}

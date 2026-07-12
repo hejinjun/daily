@@ -1,0 +1,292 @@
+{
+ "date": "2026-07-13",
+ "generated_at": "2026-07-13 07:44",
+ "llm_used": true,
+ "trends": [
+  "AI Agent 效率竞争白热化：Claude Code 和 OpenCode 的 token 消耗对比显示，优化 prompt 设计可大幅降低成本，开发者应关注 token 效率。",
+  "AI 基础设施能耗与隐私问题凸显：爱尔兰数据中心耗电 23% 引发对可持续性的关注；Chromium 的 Math.tanh 指纹识别暴露了 AI 应用的隐私风险。",
+  "AI 芯片与硬件创新加速：苹果自研车用 AI 芯片遗产、Nvidia RTX Spark 落地，表明边缘 AI 和专用芯片是未来方向。",
+  "AI 应用深入家庭与创意领域：OpenAI 布局家庭场景，Lorde 批评 AI 眼镜，显示 AI 产品需平衡实用性与社会接受度。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 1
+  },
+  {
+   "name": "The Verge AI",
+   "count": 3
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 3
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+   "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 412,
+   "id": "n0",
+   "summary": "Claude Code 发送 33k tokens 后才读取 prompt，而 OpenCode 仅需 7k。这意味着 OpenCode 在 token 效率上显著领先，对于开发者来说，选择更高效的 agent 工具能大幅降低 API 成本。"
+  },
+  {
+   "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+   "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 101,
+   "id": "n9",
+   "summary": "将生产环境 AI agent 迁移到 GPT-5.6 后，速度提升 2.2 倍，成本降低 27%。这表明新模型在性能和成本上都有明显优势，开发者应积极评估升级。"
+  },
+  {
+   "title": "Irish datacenters now guzzle 23% of the country's electricity",
+   "url": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 183,
+   "id": "n5",
+   "summary": "爱尔兰数据中心用电量已占全国 23%，AI 算力扩张带来的能源压力日益严峻。这提示行业需关注绿色计算和能效优化，否则可能面临监管限制。"
+  },
+  {
+   "title": "Since Chromium 148, Math.tanh is now fingerprintable to link underlying OS",
+   "url": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 209,
+   "id": "n4",
+   "summary": "Chromium 148 中 Math.tanh 可被用于指纹识别，关联底层操作系统。这暴露了 AI 应用中的隐私风险，开发者需注意浏览器 API 的指纹利用。"
+  },
+  {
+   "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+   "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+   "desc": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "苹果失败的自动驾驶项目留下了强大的 AI 芯片遗产，其车载处理器推动了苹果芯片的 AI 性能。这说明即使项目失败，技术积累仍可能在其他领域开花结果。"
+  },
+  {
+   "title": "老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型",
+   "url": "https://www.qbitai.com/2026/07/447981.html",
+   "desc": "老黄在ComputeX发布的“超级芯片”，已经在真机中落地了",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n35",
+   "summary": "Nvidia RTX Spark 真机亮相，CPU 和 GPU 集成在一起，笔记本即可运行 120B 大模型。这标志着边缘 AI 硬件的重大突破，开发者可探索本地大模型应用。"
+  },
+  {
+   "title": "OpenAI bets on families as ChatGPT goes deeper into households",
+   "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+   "desc": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI 招聘家庭产品经理，推动 ChatGPT 进入家庭场景。这表明 AI 产品正从工具向家庭伴侣演进，开发者可关注家庭自动化、教育等垂直领域。"
+  },
+  {
+   "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+   "desc": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI s",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n31",
+   "summary": "歌手 Lorde 公开批评 Ray-Ban Meta AI 眼镜“不性感”，反映公众对可穿戴 AI 设备的审美和隐私担忧。产品设计需兼顾功能与社交接受度。"
+  },
+  {
+   "title": "98年哈工大教授创业，要做人形灵巧操作世界模型",
+   "url": "https://www.qbitai.com/2026/07/448034.html",
+   "desc": "从采集触觉，到对齐触觉，再到使用触觉",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n34",
+   "summary": "哈工大教授创业，专注人形灵巧操作世界模型，从触觉采集到对齐再到使用。这是具身智能的关键技术方向，创业者可关注触觉传感与机器人操作结合的机会。"
+  },
+  {
+   "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+   "url": "https://www.qbitai.com/2026/07/447914.html",
+   "desc": "为了帮你看清具身数据行业，我们总结了以下十个行业现状",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n36",
+   "summary": "具身数据赛道一年融资 44.7 亿，近百名玩家涌入。数据是具身智能的瓶颈，但“卖数据”能否盈利仍存疑，创业者需谨慎评估商业模式。"
+  },
+  {
+   "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
+   "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 75,
+   "id": "n13",
+   "summary": "机械可解释性研究者将因果理论应用于 LLM，试图理解模型内部机制。这对提升 AI 安全性和可控性至关重要，值得关注因果推断与 LLM 结合的研究进展。"
+  },
+  {
+   "title": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels",
+   "url": "https://nanduruganesh.github.io/flash-msa/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 11,
+   "id": "n27",
+   "summary": "Flash-MSA 提出稀疏注意力内核，加速百万 token 训练。长上下文训练是当前热点，该技术有望降低训练成本，推动更长序列模型的发展。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph20",
+   "title": "GPT-5.6",
+   "url": "https://www.producthunt.com/products/openai",
+   "desc": "A new standard for intelligence and efficiency Discussion | Link",
+   "summary": "GPT-5.6：OpenAI 最新模型，号称在智能和效率上树立新标准，适合追求前沿能力的开发者。"
+  },
+  {
+   "id": "ph29",
+   "title": "Timbal AI",
+   "url": "https://www.producthunt.com/products/timbal-ai",
+   "desc": "Build AI agents, workflows, and apps in one stack Discussion | Link",
+   "summary": "Timbal AI：一站式平台构建 AI 代理、工作流和应用，降低开发门槛，适合快速原型开发。"
+  },
+  {
+   "id": "ph16",
+   "title": "PlugThis",
+   "url": "https://www.producthunt.com/products/plugthis-chrome-extension-generator",
+   "desc": "Create your own Chrome Extensions by chatting with AI Discussion | Link",
+   "summary": "PlugThis：通过聊天式 AI 创建 Chrome 扩展，无需编码，适合非开发者或快速实验。"
+  },
+  {
+   "id": "ph17",
+   "title": "StoryChief Connect",
+   "url": "https://www.producthunt.com/products/storychief-io",
+   "desc": "Publish content from Claude to your website and socials Discussion | Link",
+   "summary": "StoryChief Connect：从 Claude 直接发布内容到网站和社交媒体，简化内容分发流程。"
+  },
+  {
+   "id": "ph22",
+   "title": "Scarlett.",
+   "url": "https://www.producthunt.com/products/tryscarlett",
+   "desc": "Your AI Co-Worker in Slack & iMessage Discussion | Link",
+   "summary": "Scarlett：Slack 和 iMessage 中的 AI 同事，辅助日常沟通和任务，提升协作效率。"
+  },
+  {
+   "id": "ph15",
+   "title": "ConnectMachine 2.0",
+   "url": "https://www.producthunt.com/products/connectmachine-2",
+   "desc": "AI digital business card that remembers everyone you meet Discussion | Link",
+   "summary": "ConnectMachine 2.0：AI 数字名片，自动记住每次会面的人，适合社交和商务场景。"
+  },
+  {
+   "id": "ph28",
+   "title": "Toyo",
+   "url": "https://www.producthunt.com/products/toyo",
+   "desc": "Exec assistant who lives in iMessage and calls your phone Discussion | Link",
+   "summary": "Toyo：iMessage 和电话中的执行助理，处理日程和任务，类似 AI 秘书。"
+  },
+  {
+   "id": "ph27",
+   "title": "Auriko",
+   "url": "https://www.producthunt.com/products/auriko",
+   "desc": "Trading desk for LLM calls Discussion | Link",
+   "summary": "Auriko：LLM 调用的交易台，优化 API 调用成本和性能，适合重度使用 LLM 的开发者。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent 开发是绝对热点：从 Agent 编排（LangGraph）、记忆系统、工具调用到多智能体协同，几乎所有岗位都要求 Agent 相关经验。",
+   "全栈 + AI 集成能力吃香：大量岗位要求同时掌握前端（React/TypeScript）和后端（Python/Go），并能将 LLM、图像生成等 AI 能力集成到产品中。",
+   "底层优化与推理加速需求上升：KV Cache 优化、CUDA 编程、GPU 调度等岗位增多，反映市场对 AI 推理成本和性能的关注。",
+   "AI 安全与质量保障成为新方向：出现 AI 生成代码质量验证、AI 安全测试等岗位，说明企业开始重视 AI 系统的可靠性和安全性。"
+  ],
+  "gigs": [
+   "远程/兼职岗位集中在 AI 数据标注、Vibe Coding 任务设计、AI 内容策划等方向，报酬在 300-1000 元/任务，适合有 AI 工具使用经验的开发者。",
+   "Shopify 插件开发、前端页面优化等传统外包需求依然存在，但要求结合 AI 能力（如 AI 好评生成）。",
+   "样本有限，但观察到 AI 伴侣、数字人等垂直领域的外包需求增加，需要对话编排、记忆系统等专业技能。"
+  ],
+  "highlights": [
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m15",
+    "summary": "悉尼 startup 招 Senior AI Researcher 做 KV Cache 优化，远程+可 relocate，代表 AI 推理优化成为高薪方向。"
+   },
+   {
+    "title": "全栈开发工程师招募；",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1225429#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m20",
+    "summary": "Kapibala AI 获 1000 万美元融资，招全栈工程师做 Sales AGI，要求重度使用 AI 工具，代表 AI Native 创业公司对全栈+AI 能力的需求。"
+   },
+   {
+    "title": "[招聘] AI 伴侣产品对话编排工程师",
+    "desc": "我们是专注 NSFW 领域的 AI 伴侣产品，美国华人初创公司 目前针对对话 AI 编排工程师进行招聘，远程/兼职岗位均可，只看有相关经验的大牛哈 工作职责： 1 ，设计并实现对话主链路的编排系统:角色卡 / 世界书 / 记忆 / 状态的动态组装与调度\n2 ，搭建记忆系统\n3 ，用确定性状态机维护关系、剧情进度\n4 ，设计\"导演层\":用规则化逻辑控制剧情推进节奏\n5 ，优化 token 成本与缓存命中率 能力要求： 1 ，3 年以上后端 / 应用开发经验,Python(FastAPI)为主,能独立设计和落地复杂系统\n2 ，真正做过 LLM 应用编排:LangGraph / LangChain ",
+    "url": "https://www.v2ex.com/t/1225426#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "AI 伴侣产品招对话编排工程师，远程/兼职，要求 LangGraph 经验，代表 AI 伴侣/NSFW 领域对 Agent 编排的专门需求。"
+   },
+   {
+    "title": "[急招] 搞定万卡调度后，我们决定去 Web3 用 Go + Agent 掀翻天花板！（香港 Base/包工签/深港通勤/上不封顶）",
+    "desc": "各位 V 友， 我们是一个处于高速发展期的 Web3 DEX 明星项目。目前团队核心后端全面拥抱 Golang ，信奉极客文化与大厂工程规范的融合。 最近团队在做一件非常酷的事情：我们不仅在构建下一代高性能的去中心化交易底座，还要把 AI Agent 深度注入到我们的“工程研发”和“业务场景”中，真正实现 AI 赋能的未来全自动化工作流！ 简单来说，我们需要一位既懂 Go 语言高并发高性能架构，又对 AI Agent （状态机、工具调用、RAG 记忆机制、Code Agent ）充满热情的 [ AI 工程专家/资深 AI 提效工程师] 。 ---------------------------",
+    "url": "https://www.v2ex.com/t/1224533#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "Web3 DEX 项目招 Go + Agent 工程师，香港 base，代表 AI Agent 在 Web3 领域的渗透。"
+   },
+   {
+    "title": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Ful",
+    "desc": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Full-time Qase is how engineering teams verify the quality of AI-generated code, so their companies can safely adopt AI-accelerated workflows. Developer Advocate — US-based, remote (North America). We're building the space for how engineering teams verify the quality of AI-generated code. Looking for a QA/quality-engineer",
+    "url": "https://news.ycombinator.com/item?id=48860201",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m44",
+    "summary": "Qase 招 Developer Advocate 做 AI 生成代码质量验证，代表 AI 代码质量保障成为新岗位类别。"
+   },
+   {
+    "title": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US)",
+    "desc": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US) | Equity-heavy We compress LLM KV cache. Measured: 8× at 3-bit with 0.43% quality delta (GPU-validated); 22× live end-to-end on a 5-tenant workload, GPU-verified this week (quantization × prefix dedup, decomposition always stated); 16.89× tenant density on a single V100-32GB. Validated across Mistral/Qwen/Llama with z",
+    "url": "https://news.ycombinator.com/item?id=48797747",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m74",
+    "summary": "Syntropic 招 Founding CTO/GPU 工程师做 KV Cache 压缩，8x 压缩率，代表 AI 推理优化创业公司的高技术门槛。"
+   }
+  ],
+  "week": "2026-W29"
+ }
+}
