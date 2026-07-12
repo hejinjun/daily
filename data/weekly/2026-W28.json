@@ -1,0 +1,65 @@
+{
+ "skills": [
+  "AI Agent 开发与编排：大量岗位要求具备 Agent 系统设计经验，包括 LangGraph/LangChain、状态机、工具调用、记忆系统等，从初创到阿里、腾讯都在招，说明 Agent 已从概念进入工程化落地阶段。",
+  "全栈 + AI Native 能力：市场不再区分纯前端或后端，而是要求能独立端到端交付产品，并重度使用 Cursor/Claude Code 等 AI 工具加速开发，典型如 Kapibala、MaaS 平台等岗位。",
+  "AI 推理优化与底层系统：KV Cache 优化、CUDA、GPU 调度等岗位需求增加，代表 AI Infra 层从训练转向推理优化，如悉尼 startup 和 Syntropic 的岗位。",
+  "AI 与垂直行业深度融合：金融（渣打、Adyen）、能源（汇川、MeanderX）、医疗（Tandem Health）、法律（Norm Ai）等行业都在招 AI 工程师，要求既懂业务又懂 AI。",
+  "Prompt 工程与 Vibe Coding 专家：专门招聘 Prompt 工程师和 Vibe Coding 任务设计专家的岗位出现，如 TalentsAI 和多个远程岗位，说明 AI 数据质量和人机协作成为新方向。"
+ ],
+ "gigs": [
+  "远程/兼职 AI 相关项目增多：电鸭社区出现大量 AI 数据标注、Agent 任务设计、Shopify 插件开发等外包项目，预算从几千到两万不等，适合有 AI 工具使用经验的开发者。样本有限，但趋势明显。",
+  "Vibe Coding 和 AI 工具熟练度成为接单加分项：多个外包项目明确要求会用 Cursor/Claude Code，甚至专门招聘“Vibe Coding 任务设计专家”，说明市场对 AI 辅助开发能力的需求正在从全职扩展到自由职业市场。",
+  "全栈远程岗位需求旺盛：新加坡外企、美国初创等提供远程全栈岗位，月薪 12K-20K 人民币，要求独立交付能力，适合有产品思维的开发者。"
+ ],
+ "highlights": [
+  {
+   "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+   "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+   "url": "https://www.v2ex.com/t/1226229#reply3",
+   "source": "V2EX 酷工作",
+   "id": "m14",
+   "summary": "悉尼 startup 招聘 Senior AI Researcher 做 KV Cache 优化，支持远程和 relocate，代表 AI Infra 层从训练转向推理优化的趋势。"
+  },
+  {
+   "title": "[社招] 阿里巴巴-千问事业部-Agent 开发 P6/P7",
+   "desc": "团队招聘，简历直达，HC 机会难得，有疑问的请留言。 邮箱: Buffer.from(\"MTI5ODA5NDk5NEBxcS5jb20=\", 'base64').toString('utf-8') // nodejs ------------------------------------------------------------------------ 职位描述： 1.负责垂域 Agent （音乐、控制、场景识别等）的研发迭代优化工作; 2.结合业务需求，独立进行复杂系统的方案设计和编码实现； 3.负责系统性能调优，提高系统响应速度和稳定性； 4.解决系统优化过程中遇到的各种技术问题。",
+   "url": "https://www.v2ex.com/t/1226083#reply2",
+   "source": "V2EX 酷工作",
+   "id": "m15",
+   "summary": "阿里千问事业部招 Agent 开发 P6/P7，说明大厂在垂域 Agent 上加大投入，Agent 工程化成为核心方向。"
+  },
+  {
+   "title": "全栈开发工程师招募；",
+   "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+   "url": "https://www.v2ex.com/t/1225429#reply5",
+   "source": "V2EX 酷工作",
+   "id": "m19",
+   "summary": "Kapibala AI 招全栈开发，要求重度使用 Claude Code/Cursor，代表 AI Native 开发范式正在成为新标配。"
+  },
+  {
+   "title": "代码智能体工程师-优先坐班北京，优秀可远程",
+   "desc": "关于这个角色 团队正在构建一个「任何人都能创建、所有人都能受益」的 AI 应用社区。Coding Agent 是其中最核心的基础设施：它让没有工程背景的创作者，也能在几分钟内把一个想法变成真实运行的应用。 这个角色的目标只有一个：让 Agent 写出的代码，第一次就能跑起来、部署成功、用户满意。 你将 Own 从 prompt → tool call → code edit → sandbox build → preview → deploy 的完整 agentic loop ，以及它的可靠性、可观测性与持续改进体系。这不是维护一个已经成型的系统 —— 你将参与定义它的架构边界、工具协议与质量",
+   "url": "https://www.v2ex.com/t/1224772#reply0",
+   "source": "V2EX 酷工作",
+   "id": "m24",
+   "summary": "代码智能体工程师岗位，目标让 Agent 写出的代码第一次就能跑起来，代表对 Agent 可靠性的极致追求。"
+  },
+  {
+   "title": "【付费置顶】招募各行业专家｜将日常电脑工作设计成AI Agent任务（300-1000元/任务）",
+   "desc": "今天的 AI 会聊天、会写文章，但它不会用金蝶做账、不会用广联达算量、不会在单一窗口制单报关、不会用 SolidWorks 出图。这些真本事，只在每天真正干这些活的人手里。 而\"AI 会什么、不会什么\"这条线划在哪，眼下正是最该看清的时刻：它决定了你我这样的专业工作者，是被 AI 取代，还是抢先找到一条与它协作、并顺势把职业往上重新定位的路。 所以我们付费请你给 AI Agent 出题，再当它执行",
+   "url": "https://eleduck.com/posts/QZfpd2",
+   "source": "电鸭社区",
+   "id": "m36",
+   "summary": "电鸭社区招募各行业专家将日常电脑工作设计成 AI Agent 任务，300-1000元/任务，说明 AI 数据标注和任务设计市场正在兴起。"
+  },
+  {
+   "title": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US)",
+   "desc": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US) | Equity-heavy We compress LLM KV cache. Measured: 8× at 3-bit with 0.43% quality delta (GPU-validated); 22× live end-to-end on a 5-tenant workload, GPU-verified this week (quantization × prefix dedup, decomposition always stated); 16.89× tenant density on a single V100-32GB. Validated across Mistral/Qwen/Llama with z",
+   "url": "https://news.ycombinator.com/item?id=48797747",
+   "source": "HN Who is hiring? (July 2026)",
+   "id": "m74",
+   "summary": "Syntropic 招聘 Founding CTO 做 KV Cache 压缩，声称实现 8 倍压缩且质量损失极小，代表 AI 推理优化领域的突破性进展。"
+  }
+ ],
+ "week": "2026-W28"
+}
