@@ -1,11 +1,11 @@
 {
  "date": "2026-07-12",
- "generated_at": "2026-07-12 22:34",
+ "generated_at": "2026-07-12 22:43",
  "llm_used": true,
  "trends": [
-  "AI基础设施融资模式引发关注：Nvidia、CoreWeave等通过循环融资推动GPU扩张，需警惕泡沫风险。",
-  "具身数据赛道火热，一年融资44.7亿，但商业模式尚不清晰，数据采集与对齐是关键。",
-  "国产算力突破：中国首个十万卡集群落成，全精度覆盖，支撑大规模AI训练。"
+  "AI基础设施军备竞赛升级：中国首个十万卡集群落成，NVIDIA等GPU厂商通过循环融资推动算力扩张，同时AI数据中心建设引发社会争议，开发者需关注算力成本与可持续性。",
+  "AI应用向家庭与科研渗透：OpenAI瞄准家庭场景，GPT-5.6展示多Agent协作解决数学猜想能力，具身数据赛道融资火热，灵巧操作世界模型成为新方向。",
+  "开源工具与分布式计算活跃：Mesh LLM探索分布式AI计算，Mindwalk可视化编码代理会话，Ant等新运行时出现，开发者可关注降低AI开发门槛的工具。"
  ],
  "github": [
   {
@@ -14,9 +14,9 @@
    "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
    "desc": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
    "lang": "Rust",
-   "stars": "2,461",
+   "stars": "2,468",
    "stars_today": "444 stars today",
-   "summary": "Destructive Command Guard 是一个用 Rust 写的工具，能阻止 AI agent 执行危险的 git 和 shell 命令。火是因为 AI agent 越来越流行，但安全问题突出，这个项目直接解决了 agent 误操作导致数据丢失的痛点。"
+   "summary": "Destructive Command Guard 是一个 Rust 写的工具，能阻止 AI agent 执行危险的 git 和 shell 命令。最近 agent 滥用问题频发，这个安全层很实用。"
   },
   {
    "id": "gh1",
@@ -24,9 +24,9 @@
    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
    "desc": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
    "lang": "TypeScript",
-   "stars": "7,887",
+   "stars": "7,888",
    "stars_today": "207 stars today",
-   "summary": "DesktopCommanderMCP 是一个 MCP 服务器，让 Claude 能控制终端、搜索文件、编辑代码。火是因为它把 Claude 从聊天框解放出来，直接操作开发环境，是 AI 编程助手的重要进化。"
+   "summary": "DesktopCommanderMCP 是 Claude 的 MCP 服务器，赋予它终端控制、文件搜索和 diff 编辑能力。让 Claude 能直接操作本地环境，开发者效率利器。"
   },
   {
    "id": "gh2",
@@ -34,9 +34,9 @@
    "url": "https://github.com/HKUDS/Vibe-Trading",
    "desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
    "lang": "Python",
-   "stars": "20,172",
+   "stars": "20,178",
    "stars_today": "776 stars today",
-   "summary": "Vibe-Trading 是一个个人交易 agent，用 Python 实现。火是因为它把 AI agent 应用到量化交易，而且 star 数暴涨，说明大家对 AI 炒股的热情很高。"
+   "summary": "Vibe-Trading 是一个个人交易 agent，用 Python 实现。AI 炒股概念持续火热，这个项目提供了可运行的交易 agent 框架。"
   },
   {
    "id": "gh4",
@@ -44,9 +44,9 @@
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "desc": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
    "lang": "Python",
-   "stars": "118,301",
+   "stars": "118,304",
    "stars_today": "549 stars today",
-   "summary": "awesome-llm-apps 收集了 100+ 个可运行的 AI agent 和 RAG 应用。火是因为它降低了 AI 应用的门槛，开发者可以直接 clone 下来修改，是学习和快速原型的好资源。"
+   "summary": "awesome-llm-apps 收录了 100+ 可运行的 AI agent 和 RAG 应用。适合开发者快速上手和定制，是 LLM 应用开发的实用资源库。"
   },
   {
    "id": "gh5",
@@ -54,9 +54,9 @@
    "url": "https://github.com/anthropics/claude-cookbooks",
    "desc": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
    "lang": "Jupyter Notebook",
-   "stars": "48,187",
+   "stars": "48,188",
    "stars_today": "464 stars today",
-   "summary": "Anthropic 官方出的 Claude cookbook，包含各种有趣的 Claude 使用案例。火是因为官方出品，质量有保证，而且展示了 Claude 的很多高级玩法，对开发者很有启发。"
+   "summary": "Anthropic 官方的 Claude cookbooks，展示 Claude 的创意用法。官方出品，质量保证，适合学习 Claude 的高级功能。"
   },
   {
    "id": "gh11",
@@ -64,9 +64,9 @@
    "url": "https://github.com/virattt/ai-hedge-fund",
    "desc": "An AI Hedge Fund Team",
    "lang": "Python",
-   "stars": "61,253",
+   "stars": "61,257",
    "stars_today": "109 stars today",
-   "summary": "AI Hedge Fund 是一个 AI 对冲基金团队项目，用 Python 实现。火是因为它把多个 AI agent 组合成投资团队，概念很新，而且 star 数很高，说明大家对 AI 金融应用很感兴趣。"
+   "summary": "AI Hedge Fund 是一个 AI 对冲基金团队项目，用 Python 实现。AI 金融交易方向热门，这个项目提供了多 agent 协作的框架。"
   },
   {
    "id": "gh13",
@@ -74,9 +74,9 @@
    "url": "https://github.com/davila7/claude-code-templates",
    "desc": "CLI tool for configuring and monitoring Claude Code",
    "lang": "Python",
-   "stars": "29,159",
+   "stars": "29,160",
    "stars_today": "274 stars today",
-   "summary": "claude-code-templates 是一个 CLI 工具，用于配置和监控 Claude Code。火是因为它简化了 Claude Code 的使用，让开发者更容易上手和调试，是提升开发效率的实用工具。"
+   "summary": "claude-code-templates 是 Claude Code 的 CLI 配置和监控工具。简化 Claude Code 的使用，适合需要定制化工作流的开发者。"
   },
   {
    "id": "gh16",
@@ -84,9 +84,9 @@
    "url": "https://github.com/Nutlope/hallmark",
    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
    "lang": "CSS",
-   "stars": "4,000",
+   "stars": "4,007",
    "stars_today": "210 stars today",
-   "summary": "hallmark 是一个反 AI 生成低质量设计的 CSS 工具，专门用于 Claude Code、Cursor 等 AI 编程工具。火是因为它解决了 AI 生成代码中 UI 设计粗糙的问题，让 AI 辅助开发更实用。"
+   "summary": "Hallmark 是一个反 AI 生成低质量设计的 CSS 项目，专为 Claude Code、Cursor 等设计。强调设计质量，避免 AI 生成的“塑料感”。"
   },
   {
    "id": "gh8",
@@ -94,9 +94,9 @@
    "url": "https://github.com/ColeMurray/background-agents",
    "desc": "An open-source background agents coding system",
    "lang": "TypeScript",
-   "stars": "2,172",
+   "stars": "2,175",
    "stars_today": "9 stars today",
-   "summary": "background-agents 是一个开源的背景 agent 编码系统，用 TypeScript 实现。火是因为它探索了 AI agent 在后台持续工作的模式，可能改变开发流程。"
+   "summary": "background-agents 是一个开源的后台 agent 编码系统，用 TypeScript 写。支持后台运行 agent 执行任务，适合自动化场景。"
   },
   {
    "id": "gh15",
@@ -104,30 +104,20 @@
    "url": "https://github.com/malisper/pgrust",
    "desc": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
    "lang": "Rust",
-   "stars": "2,307",
+   "stars": "2,309",
    "stars_today": "518 stars today",
-   "summary": "pgrust 是用 Rust 重写的 PostgreSQL，通过了 100% 的回归测试。火是因为它展示了用 Rust 重写关键基础设施的可行性，性能和安全潜力巨大，对数据库和 AI 后端都有影响。"
+   "summary": "pgrust 是用 Rust 重写的 PostgreSQL，已通过 100% 回归测试。Rust 重写数据库是趋势，性能和安全潜力大。"
   }
  ],
  "news": [
   {
-   "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
-   "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 312,
-   "id": "n0",
-   "summary": "Nvidia、CoreWeave和Nebius的GPU繁荣背后存在循环融资现象，即公司间相互投资以维持增长。这揭示了AI基础设施投资的潜在泡沫风险，值得关注。"
-  },
-  {
-   "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
-   "url": "https://www.qbitai.com/2026/07/447914.html",
-   "desc": "为了帮你看清具身数据行业，我们总结了以下十个行业现状",
+   "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
+   "url": "https://www.qbitai.com/2026/07/447873.html",
+   "desc": "神话级大模型驾驭宝典",
    "source": "量子位",
    "lang": "zh",
-   "id": "n34",
-   "summary": "具身数据行业一年融资44.7亿，近百名玩家涌入，但真正靠卖数据赚钱的模式尚未成熟。数据采集、触觉对齐等环节存在创业机会。"
+   "id": "n37",
+   "summary": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent。这意味着大模型在复杂推理和多Agent协作上取得突破，可能改变科研范式，开发者可探索类似多Agent架构的应用。"
   },
   {
    "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
@@ -136,7 +126,17 @@
    "source": "量子位",
    "lang": "zh",
    "id": "n35",
-   "summary": "中国首个十万卡集群落成，采用全国产算力，已跑通300余项应用。这标志着国产AI算力进入大规模部署阶段，对国内AI生态有重大意义。"
+   "summary": "中国首个十万卡集群落成，全国产算力支撑，已跑通300余项应用。这标志着国产AI算力进入新阶段，对依赖进口GPU的开发者是重要信号，需关注国产芯片生态。"
+  },
+  {
+   "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+   "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 314,
+   "id": "n0",
+   "summary": "Nvidia、CoreWeave和Nebius揭示了GPU热潮中的循环融资模式。这意味着AI算力市场存在泡沫风险，但同时也为开发者提供了更多算力获取途径，需谨慎评估成本。"
   },
   {
    "title": "OpenAI bets on families as ChatGPT goes deeper into households",
@@ -145,16 +145,7 @@
    "source": "TechCrunch AI",
    "lang": "en",
    "id": "n30",
-   "summary": "OpenAI招聘产品经理，专注为家庭、看护者和老年人打造ChatGPT体验。这表明AI正深入家庭场景，面向特定人群的AI产品是潜在方向。"
-  },
-  {
-   "title": "The fight against AI data centers is just beginning",
-   "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-   "desc": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threate",
-   "source": "The Verge AI",
-   "lang": "en",
-   "id": "n31",
-   "summary": "反对AI数据中心的斗争刚刚开始，社区对数据中心扩张的担忧加剧。这可能影响未来AI基础设施的选址和建设，值得关注政策动向。"
+   "summary": "OpenAI招聘家庭产品经理，ChatGPT深入家庭场景。这表明AI消费市场从企业向家庭扩展，开发者可关注面向家庭、老人、儿童的AI应用机会。"
   },
   {
    "title": "98年哈工大教授创业，要做人形灵巧操作世界模型",
@@ -163,7 +154,16 @@
    "source": "量子位",
    "lang": "zh",
    "id": "n32",
-   "summary": "哈工大教授创业，研发人形灵巧操作世界模型，从触觉采集到对齐再到使用。这是具身智能领域的前沿探索，技术难度高但潜力大。"
+   "summary": "98年哈工大教授创业，做人形灵巧操作世界模型，从采集触觉到使用触觉。具身智能领域创业活跃，触觉感知成为新热点，开发者可关注相关数据采集与模型训练工具。"
+  },
+  {
+   "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+   "url": "https://www.qbitai.com/2026/07/447914.html",
+   "desc": "为了帮你看清具身数据行业，我们总结了以下十个行业现状",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n34",
+   "summary": "近百名玩家涌入具身数据赛道，一年融资44.7亿。具身数据成为AI创业风口，但盈利模式尚不清晰，开发者需谨慎选择细分方向。"
   },
   {
    "title": "老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型",
@@ -172,26 +172,16 @@
    "source": "量子位",
    "lang": "zh",
    "id": "n33",
-   "summary": "Nvidia RTX Spark真机亮相，CPU和GPU直接集成，笔记本可运行120B大模型。这种超级芯片将推动边缘AI和本地大模型部署。"
+   "summary": "老黄RTX Spark真机现身，CPU和GPU焊在一起，笔记本跑120B大模型。这意味着边缘AI算力大幅提升，开发者可探索在本地运行大模型的应用。"
   },
   {
-   "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
-   "url": "https://www.qbitai.com/2026/07/447873.html",
-   "desc": "神话级大模型驾驭宝典",
-   "source": "量子位",
-   "lang": "zh",
-   "id": "n37",
-   "summary": "GPT-5.6一小时解开50年数学猜想，使用700词Prompt驾驭64个子Agent。展示了大型语言模型在科学发现中的潜力，但需验证可重复性。"
-  },
-  {
-   "title": "AI Boosts Research Careers but Flattens Scientific Discovery",
-   "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
-   "desc": "",
-   "source": "Hacker News",
+   "title": "The fight against AI data centers is just beginning",
+   "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+   "desc": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threate",
+   "source": "The Verge AI",
    "lang": "en",
-   "points": 13,
-   "id": "n27",
-   "summary": "AI提升研究职业发展但扁平化科学发现，意味着AI可能加速论文产出但抑制突破性创新。对科研生态的影响值得深思。"
+   "id": "n31",
+   "summary": "反对AI数据中心的斗争刚刚开始。AI算力扩张引发环境和社会争议，开发者需关注绿色计算和社区关系，可能影响数据中心选址和运营。"
   },
   {
    "title": "Mesh LLM: distributed AI computing on iroh",
@@ -199,19 +189,9 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 294,
+   "points": 296,
    "id": "n2",
-   "summary": "Mesh LLM：基于iroh的分布式AI计算框架，实现去中心化模型推理。这可能改变AI算力分配方式，降低对中心化云服务的依赖。"
-  },
-  {
-   "title": "An agent in 100 lines of Lisp",
-   "url": "https://thebeach.dev/posts/lisp-agent/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 186,
-   "id": "n6",
-   "summary": "100行Lisp代码实现一个AI Agent，展示了简洁实现的可能性。对于开发者理解Agent原理和快速原型设计有参考价值。"
+   "summary": "Mesh LLM：基于iroh的分布式AI计算。分布式AI计算降低了对中心化算力的依赖，开发者可尝试利用闲置设备进行模型推理。"
   },
   {
    "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
@@ -219,67 +199,87 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 109,
+   "points": 111,
    "id": "n12",
-   "summary": "Mindwalk：在代码库3D地图上回放编码代理会话，帮助理解AI编码过程。这是AI辅助开发工具的创新，提升调试和协作效率。"
+   "summary": "Mindwalk：在代码库3D地图上回放编码代理会话。可视化工具帮助理解AI编码代理行为，对调试和优化Agent工作流有价值。"
+  },
+  {
+   "title": "AI Boosts Research Careers but Flattens Scientific Discovery",
+   "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 17,
+   "id": "n26",
+   "summary": "AI提升研究职业但扁平化科学发现。AI加速科研但可能导致同质化，开发者需平衡效率与创新。"
+  },
+  {
+   "title": "An agent in 100 lines of Lisp",
+   "url": "https://thebeach.dev/posts/lisp-agent/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 188,
+   "id": "n6",
+   "summary": "100行Lisp实现一个Agent。简洁的Agent实现展示了AI核心逻辑，适合学习或快速原型开发。"
   }
  ],
  "products": [
   {
-   "id": "ph25",
-   "title": "Muse Spark 1.1 by Meta AI",
-   "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
-   "desc": "Multimodal reasoning model built for agentic tasks Discussion | Link",
-   "summary": "Meta AI 发布的多模态推理模型，专为智能体任务设计，能处理图像、文本等多种输入，提升 AI 的自主决策能力。"
-  },
-  {
-   "id": "ph26",
+   "id": "ph20",
    "title": "GPT-5.6",
    "url": "https://www.producthunt.com/products/openai",
    "desc": "A new standard for intelligence and efficiency Discussion | Link",
-   "summary": "GPT-5.6 号称在智能和效率上树立新标准，可能带来更强的推理能力和更低的计算成本，值得关注其性能提升。"
+   "summary": "GPT-5.6 是 OpenAI 的新一代模型，号称在智能和效率上树立新标准，值得关注其性能提升和潜在应用。"
+  },
+  {
+   "id": "ph26",
+   "title": "Muse Spark 1.1 by Meta AI",
+   "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
+   "desc": "Multimodal reasoning model built for agentic tasks Discussion | Link",
+   "summary": "Muse Spark 1.1 是 Meta 发布的多模态推理模型，专为智能体任务设计，可能推动 AI agent 能力边界。"
+  },
+  {
+   "id": "ph3",
+   "title": "Second Brain for AI v2",
+   "url": "https://www.producthunt.com/products/second-brain-cloudflare",
+   "desc": "AI memory that connects the dots across every tool Discussion | Link",
+   "summary": "Second Brain for AI v2 提供跨工具的记忆连接，让 AI 记住上下文，解决碎片化信息问题。"
+  },
+  {
+   "id": "ph4",
+   "title": "Miora",
+   "url": "https://www.producthunt.com/products/miora-2",
+   "desc": "Scale your creativity on editable canvas with agent memory Discussion | Link",
+   "summary": "Miora 在可编辑画布上结合智能体记忆，支持创意规模化，适合设计或内容创作场景。"
   },
   {
    "id": "ph16",
    "title": "Ship OS by Notion",
    "url": "https://www.producthunt.com/products/notion",
    "desc": "The agent-native way to ship software Discussion | Link",
-   "summary": "Notion 推出的智能体原生软件开发平台，让开发者用自然语言或智能体协作来构建和部署软件，简化开发流程。"
-  },
-  {
-   "id": "ph2",
-   "title": "Second Brain for AI v2",
-   "url": "https://www.producthunt.com/products/second-brain-cloudflare",
-   "desc": "AI memory that connects the dots across every tool Discussion | Link",
-   "summary": "AI 记忆工具，跨工具连接信息，帮助 AI 记住上下文，提升工作流中的连贯性和个性化体验。"
+   "summary": "Ship OS by Notion 是智能体原生的软件交付工具，可能改变开发流程，提升效率。"
   },
   {
    "id": "ph10",
    "title": "Effects SDK",
    "url": "https://www.producthunt.com/products/effects-sdk",
    "desc": "AI video & audio effects SDK for real-time apps Discussion | Link",
-   "summary": "实时 AI 视频和音频特效 SDK，可用于直播、游戏等场景，快速集成智能特效，降低开发门槛。"
+   "summary": "Effects SDK 提供实时 AI 视频和音频特效，适合直播、游戏等实时应用开发。"
   },
   {
-   "id": "ph0",
-   "title": "Miora",
-   "url": "https://www.producthunt.com/products/miora-2",
-   "desc": "Scale your creativity on editable canvas with agent memory Discussion | Link",
-   "summary": "可编辑画布上的创意扩展工具，结合智能体记忆，支持团队协作和创意迭代，适合设计师和内容创作者。"
+   "id": "ph21",
+   "title": "Sim",
+   "url": "https://www.producthunt.com/products/sim-studio",
+   "desc": "Open-source workspace for AI agents and workflows Discussion | Link",
+   "summary": "Sim 是开源 AI 智能体工作空间，支持构建和编排多智能体工作流，适合开发者实验。"
   },
   {
    "id": "ph22",
    "title": "ChatCut",
    "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
    "desc": "Your AI video editor in ChatGPT, desktop, and web Discussion | Link",
-   "summary": "AI 视频编辑器，集成在 ChatGPT、桌面和网页端，通过对话式交互完成视频剪辑，降低专业工具使用门槛。"
-  },
-  {
-   "id": "ph23",
-   "title": "PlugThis",
-   "url": "https://www.producthunt.com/products/plugthis-chrome-extension-generator",
-   "desc": "Create your own Chrome Extensions by chatting with AI Discussion | Link",
-   "summary": "通过聊天与 AI 交互即可创建 Chrome 扩展，无需编码，适合非技术人员快速定制浏览器功能。"
+   "summary": "ChatCut 让用户在 ChatGPT 内直接编辑视频，降低视频创作门槛，集成 AI 能力。"
   }
  ]
 }
