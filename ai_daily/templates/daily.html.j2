@@ -7,13 +7,15 @@
 <style>
   :root {
     --bg: #f6f7f9; --card: #ffffff; --text: #1a1d21; --muted: #6b7280;
-    --accent: #2563eb; --border: #e5e7eb; --trend-bg: #eff6ff;
+    --accent: #2563eb; --border: #e5e7eb;
+    --trend-bg: #dbe7fb; --trend-text: #1d3557;
     --pill: #e9ecf1; --pill-active: #2563eb; --pill-active-text: #fff;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #101216; --card: #1a1e24; --text: #e7e9ec; --muted: #9aa1ab;
-      --accent: #7aa5f8; --border: #2a2f37; --trend-bg: #1b2536;
+      --accent: #7aa5f8; --border: #2a2f37;
+      --trend-bg: #1c2a42; --trend-text: #cddcf7;
       --pill: #232830; --pill-active: #3b6fd6; --pill-active-text: #fff;
     }
   }
@@ -48,7 +50,11 @@
   .tab.active { display: block; animation: fade .15s ease; }
   @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
 
-  .trends { background: var(--trend-bg); border-radius: 12px; padding: 14px 16px; list-style-position: outside; }
+  .trends {
+    background: var(--trend-bg); color: var(--trend-text);
+    border-left: 4px solid var(--accent);
+    border-radius: 12px; padding: 14px 16px; list-style-position: outside;
+  }
   .trends li { margin-left: 1.2em; margin-bottom: 8px; font-size: 15px; }
   .trends li:last-child { margin-bottom: 0; }
   .card {
