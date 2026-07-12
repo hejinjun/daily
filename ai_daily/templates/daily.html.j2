@@ -8,11 +8,13 @@
   :root {
     --bg: #f6f7f9; --card: #ffffff; --text: #1a1d21; --muted: #6b7280;
     --accent: #2563eb; --border: #e5e7eb; --trend-bg: #eff6ff;
+    --pill: #e9ecf1; --pill-active: #2563eb; --pill-active-text: #fff;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #101216; --card: #1a1e24; --text: #e7e9ec; --muted: #9aa1ab;
       --accent: #7aa5f8; --border: #2a2f37; --trend-bg: #1b2536;
+      --pill: #232830; --pill-active: #3b6fd6; --pill-active-text: #fff;
     }
   }
   * { box-sizing: border-box; margin: 0; }
@@ -22,14 +24,32 @@
     -webkit-font-smoothing: antialiased;
   }
   .wrap { max-width: 720px; margin: 0 auto; padding: 16px 14px 48px; }
-  header { display: flex; align-items: baseline; justify-content: space-between; padding: 8px 2px 16px; }
+  header { display: flex; align-items: baseline; justify-content: space-between; padding: 8px 2px 4px; }
   header h1 { font-size: 20px; }
   header a { color: var(--muted); font-size: 14px; text-decoration: none; }
-  .date { color: var(--muted); font-size: 14px; margin: 0 2px 16px; }
-  section { margin-bottom: 28px; }
-  section > h2 { font-size: 17px; margin: 0 2px 10px; }
-  .trends { background: var(--trend-bg); border-radius: 12px; padding: 14px 16px; }
-  .trends li { margin-left: 1.2em; margin-bottom: 6px; font-size: 15px; }
+  .date { color: var(--muted); font-size: 14px; margin: 0 2px 12px; }
+
+  nav.tabs {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; gap: 8px; overflow-x: auto;
+    background: var(--bg); padding: 10px 2px 12px;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  }
+  nav.tabs::-webkit-scrollbar { display: none; }
+  nav.tabs button {
+    flex: 0 0 auto; border: none; cursor: pointer;
+    background: var(--pill); color: var(--text);
+    font: 15px/1 -apple-system, "PingFang SC", sans-serif;
+    padding: 9px 15px; border-radius: 999px;
+  }
+  nav.tabs button.active { background: var(--pill-active); color: var(--pill-active-text); font-weight: 600; }
+
+  .tab { display: none; }
+  .tab.active { display: block; animation: fade .15s ease; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
+  .trends { background: var(--trend-bg); border-radius: 12px; padding: 14px 16px; list-style-position: outside; }
+  .trends li { margin-left: 1.2em; margin-bottom: 8px; font-size: 15px; }
   .trends li:last-child { margin-bottom: 0; }
   .card {
     background: var(--card); border: 1px solid var(--border);
@@ -38,10 +58,10 @@
   .card a.title { color: var(--accent); font-weight: 600; text-decoration: none; word-break: break-word; }
   .card p { margin-top: 4px; font-size: 15px; }
   .meta { margin-top: 6px; color: var(--muted); font-size: 13px; }
-  .empty { color: var(--muted); font-size: 14px; padding: 4px 2px; }
+  .empty { color: var(--muted); font-size: 14px; padding: 12px 2px; }
   .notice {
     background: #fef3c7; color: #713f12; border-radius: 10px;
-    padding: 10px 14px; font-size: 14px; margin-bottom: 20px;
+    padding: 10px 14px; font-size: 14px; margin: 0 0 8px;
   }
   @media (prefers-color-scheme: dark) { .notice { background: #3a2f14; color: #fde68a; } }
   footer { color: var(--muted); font-size: 13px; text-align: center; margin-top: 36px; }
@@ -59,17 +79,22 @@
   <div class="notice">⚠️ 本期未经过 LLM 加工（API 不可用），以下为原始抓取内容。</div>
   {% endif %}
 
-  {% if trends %}
-  <section>
-    <h2>🧭 今日风向</h2>
+  <nav class="tabs">
+    <button data-tab="trends" class="active">🧭 风向</button>
+    <button data-tab="news">📰 新闻{% if news %} {{ news|length }}{% endif %}</button>
+    <button data-tab="github">🔥 GitHub{% if github %} {{ github|length }}{% endif %}</button>
+    <button data-tab="products">🚀 产品{% if products %} {{ products|length }}{% endif %}</button>
+  </nav>
+
+  <section class="tab active" id="tab-trends">
+    {% if trends %}
     <ul class="trends">
       {% for t in trends %}<li>{{ t }}</li>{% endfor %}
     </ul>
+    {% else %}<div class="empty">今天没有风向归纳。</div>{% endif %}
   </section>
-  {% endif %}
 
-  <section>
-    <h2>📰 AI 新闻</h2>
+  <section class="tab" id="tab-news">
     {% for it in news %}
     <div class="card">
       <a class="title" href="{{ it.url }}">{{ it.title }}</a>
@@ -79,8 +104,7 @@
     {% else %}<div class="empty">今天没有抓到新闻。</div>{% endfor %}
   </section>
 
-  <section>
-    <h2>🔥 GitHub 热点</h2>
+  <section class="tab" id="tab-github">
     {% for it in github %}
     <div class="card">
       <a class="title" href="{{ it.url }}">{{ it.title }}</a>
@@ -90,8 +114,7 @@
     {% else %}<div class="empty">今天没有 AI 相关的 trending 项目。</div>{% endfor %}
   </section>
 
-  <section>
-    <h2>🚀 热门 AI 产品</h2>
+  <section class="tab" id="tab-products">
     {% for it in products %}
     <div class="card">
       <a class="title" href="{{ it.url }}">{{ it.title }}</a>
@@ -102,5 +125,14 @@
 
   <footer>{{ generated_at }} 生成</footer>
 </div>
+<script>
+  const tabs = document.querySelectorAll("nav.tabs button");
+  tabs.forEach(btn => btn.addEventListener("click", () => {
+    tabs.forEach(b => b.classList.toggle("active", b === btn));
+    document.querySelectorAll(".tab").forEach(s =>
+      s.classList.toggle("active", s.id === "tab-" + btn.dataset.tab));
+    window.scrollTo(0, 0);
+  }));
+</script>
 </body>
 </html>
