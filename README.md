@@ -25,13 +25,13 @@ open site/index.html
 ## 一次性部署配置
 
 1. **DeepSeek**：在 [platform.deepseek.com](https://platform.deepseek.com) 注册、充值（月消耗约 1-2 元）、创建 API key。
-2. **Cloudflare**：注册后在 dashboard 创建 API Token（模板选 "Cloudflare Pages — Edit"），记下 Account ID（dashboard 右侧栏可见）。
-3. **GitHub**：把本仓库推到 GitHub（私有即可），在 Settings → Secrets and variables → Actions 添加三个 secret：
-   - `DEEPSEEK_API_KEY`
-   - `CLOUDFLARE_API_TOKEN`
-   - `CLOUDFLARE_ACCOUNT_ID`
-4. 在 Actions 页手动触发一次 `daily-digest` 验证，成功后访问 `https://ai-daily.pages.dev`（首次部署时自动创建该 Pages 项目）。
-5. 手机 Safari 打开页面 → 分享 → 添加到主屏幕。
+2. **GitHub**：仓库设为公开（免费账户的 Pages 只支持公开仓库），开启 Pages（Source 选 GitHub Actions），添加 secret `DEEPSEEK_API_KEY`：
+   ```bash
+   gh api -X POST repos/<user>/<repo>/pages -f build_type=workflow
+   gh secret set DEEPSEEK_API_KEY -R <user>/<repo>
+   ```
+3. 在 Actions 页手动触发一次 `daily-digest` 验证，成功后访问 `https://<user>.github.io/<repo>/`。
+4. 手机 Safari 打开页面 → 分享 → 添加到主屏幕。
 
 之后每天早 7 点自动更新，历史日报在"历史"页可回翻（数据以 JSON 形式提交回仓库 `data/` 目录）。
 
