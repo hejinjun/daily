@@ -10,6 +10,7 @@ limits:
   news_keep: 12
   products_candidates: 30
   products_keep: 8
+  market_links: 6          # 需求周报里保留的代表性链接数
 
 llm:
   base_url: https://api.deepseek.com

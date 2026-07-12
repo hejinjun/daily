@@ -102,6 +102,25 @@ def process_news(cfg: dict, items: list[dict], keep: int) -> dict:
     }
 
 
+def process_market(cfg: dict, items: list[dict], keep_links: int) -> dict:
+    user = f"""以下是过去一周多个渠道抓取的 AI 相关招聘、远程岗位、外包/接单信号（中英混杂）：
+
+{_items_block(items, ("title", "desc", "source"))}
+
+读者不是在找具体工作，而是想了解"市场对 AI 的需求方向和演进"。请写一份中文周报：
+1. skills：3-5 条要点——招聘方当前最想要的技能组合和岗位方向，观察到变化趋势的明确点出来。
+2. gigs：2-4 条要点——外包/接单/远程市场在发生什么：什么类型的活多、什么背景的人抢手。样本不足的判断要说明"样本有限"。
+3. highlights：从原始条目挑至多 {keep_links} 条最有代表性的，每条一句话说明它代表什么信号。
+
+返回 JSON：{{"skills": ["..."], "gigs": ["..."], "highlights": [{{"id": "...", "summary": "..."}}]}}"""
+    result = _chat(cfg, SYSTEM, user)
+    return {
+        "skills": [s.strip() for s in result.get("skills", []) if s.strip()],
+        "gigs": [g.strip() for g in result.get("gigs", []) if g.strip()],
+        "highlights": _apply_selection(items, result.get("highlights", []), keep_links),
+    }
+
+
 def process_products(cfg: dict, items: list[dict], keep: int) -> list[dict]:
     user = f"""以下是今天 Product Hunt 上的新产品：
 

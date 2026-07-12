@@ -59,6 +59,9 @@
   .card p { margin-top: 4px; font-size: 15px; }
   .meta { margin-top: 6px; color: var(--muted); font-size: 13px; }
   .empty { color: var(--muted); font-size: 14px; padding: 12px 2px; }
+  .weeknote { color: var(--muted); font-size: 13px; margin: 2px 2px 12px; }
+  .tab h3 { font-size: 16px; margin: 18px 2px 8px; }
+  .tab h3:first-of-type { margin-top: 4px; }
   .notice {
     background: #fef3c7; color: #713f12; border-radius: 10px;
     padding: 10px 14px; font-size: 14px; margin: 0 0 8px;
@@ -84,6 +87,7 @@
     <button data-tab="news">📰 新闻{% if news %} {{ news|length }}{% endif %}</button>
     <button data-tab="github">🔥 GitHub{% if github %} {{ github|length }}{% endif %}</button>
     <button data-tab="products">🚀 产品{% if products %} {{ products|length }}{% endif %}</button>
+    <button data-tab="market">💼 需求</button>
   </nav>
 
   <section class="tab active" id="tab-trends">
@@ -121,6 +125,34 @@
       {% if it.summary %}<p>{{ it.summary }}</p>{% elif it.desc %}<p>{{ it.desc }}</p>{% endif %}
     </div>
     {% else %}<div class="empty">今天 Product Hunt 上没有值得看的 AI 产品。</div>{% endfor %}
+  </section>
+
+  <section class="tab" id="tab-market">
+    {% if market %}
+    <div class="weeknote">{{ market.week }} 需求周报 · 每周一更新</div>
+    {% if market.skills %}
+    <h3>🎯 技能与岗位方向</h3>
+    <ul class="trends">
+      {% for s in market.skills %}<li>{{ s }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if market.gigs %}
+    <h3>🧾 外包与远程行情</h3>
+    <ul class="trends">
+      {% for g in market.gigs %}<li>{{ g }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if market.highlights %}
+    <h3>🔗 代表性信号</h3>
+    {% for it in market.highlights %}
+    <div class="card">
+      <a class="title" href="{{ it.url }}">{{ it.title }}</a>
+      {% if it.summary %}<p>{{ it.summary }}</p>{% endif %}
+      <div class="meta">{{ it.source }}</div>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% else %}<div class="empty">本周需求周报还没有生成（每周一早上自动更新）。</div>{% endif %}
   </section>
 
   <footer>{{ generated_at }} 生成</footer>

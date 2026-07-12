@@ -23,6 +23,33 @@ DATA_DIR = ROOT / "data"
 SITE_DIR = ROOT / "site"
 
 
+def get_market_report(cfg: dict) -> dict | None:
+    """"市场需求"周报：本 ISO 周已生成则直接复用，否则抓取生成。
+
+    生成失败返回 None 且不落盘，下一天的运行会自动重试。
+    """
+    iso = dt.datetime.now(ZoneInfo("Asia/Shanghai")).date().isocalendar()
+    key = f"{iso.year}-W{iso.week:02d}"
+    path = DATA_DIR / "weekly" / f"{key}.json"
+    if path.exists():
+        return json.loads(path.read_text())
+
+    raw = fetchers.fetch_market_signals()
+    if not raw:
+        log.warning("市场信号一条都没抓到，本次跳过周报")
+        return None
+    try:
+        report = llm.process_market(cfg["llm"], raw, cfg["limits"]["market_links"])
+    except llm.LLMUnavailable as e:
+        log.warning("周报 LLM 加工失败，本次跳过：%s", e)
+        return None
+    report["week"] = key
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(report, ensure_ascii=False, indent=1))
+    log.info("weekly market report saved: %s", path)
+    return report
+
+
 def build_digest(cfg: dict, today: str) -> dict:
     limits = cfg["limits"]
 
@@ -52,6 +79,8 @@ def build_digest(cfg: dict, today: str) -> dict:
         digest["github"] = github_raw[: limits["github_keep"]]
         digest["news"] = news_raw[: limits["news_keep"]]
         digest["products"] = products_raw[: limits["products_keep"]]
+
+    digest["market"] = get_market_report(cfg)
     return digest
 
 
