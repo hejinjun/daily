@@ -1,0 +1,258 @@
+{
+ "date": "2026-07-12",
+ "generated_at": "2026-07-12 22:06",
+ "llm_used": false,
+ "trends": [],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "Dicklesworthstone/destructive_command_guard",
+   "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+   "desc": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+   "lang": "Rust",
+   "stars": "2,428",
+   "stars_today": "444 stars today"
+  },
+  {
+   "id": "gh1",
+   "title": "wonderwhy-er/DesktopCommanderMCP",
+   "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+   "desc": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+   "lang": "TypeScript",
+   "stars": "7,887",
+   "stars_today": "207 stars today"
+  },
+  {
+   "id": "gh2",
+   "title": "HKUDS/Vibe-Trading",
+   "url": "https://github.com/HKUDS/Vibe-Trading",
+   "desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
+   "lang": "Python",
+   "stars": "20,145",
+   "stars_today": "776 stars today"
+  },
+  {
+   "id": "gh3",
+   "title": "PrefectHQ/prefect",
+   "url": "https://github.com/PrefectHQ/prefect",
+   "desc": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+   "lang": "Python",
+   "stars": "23,026",
+   "stars_today": "55 stars today"
+  },
+  {
+   "id": "gh4",
+   "title": "Shubhamsaboo/awesome-llm-apps",
+   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "desc": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+   "lang": "Python",
+   "stars": "118,285",
+   "stars_today": "549 stars today"
+  },
+  {
+   "id": "gh5",
+   "title": "anthropics/claude-cookbooks",
+   "url": "https://github.com/anthropics/claude-cookbooks",
+   "desc": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+   "lang": "Jupyter Notebook",
+   "stars": "48,179",
+   "stars_today": "464 stars today"
+  },
+  {
+   "id": "gh6",
+   "title": "home-assistant/core",
+   "url": "https://github.com/home-assistant/core",
+   "desc": "🏡 Open source home automation that puts local control and privacy first.",
+   "lang": "Python",
+   "stars": "88,874",
+   "stars_today": "404 stars today"
+  },
+  {
+   "id": "gh7",
+   "title": "Crosstalk-Solutions/project-nomad",
+   "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+   "desc": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+   "lang": "TypeScript",
+   "stars": "33,626",
+   "stars_today": "122 stars today"
+  },
+  {
+   "id": "gh8",
+   "title": "ColeMurray/background-agents",
+   "url": "https://github.com/ColeMurray/background-agents",
+   "desc": "An open-source background agents coding system",
+   "lang": "TypeScript",
+   "stars": "2,170",
+   "stars_today": "9 stars today"
+  },
+  {
+   "id": "gh9",
+   "title": "k1tbyte/Wand-Enhancer",
+   "url": "https://github.com/k1tbyte/Wand-Enhancer",
+   "desc": "Advanced UX and interoperability extension for Wand (WeMod) app",
+   "lang": "C#",
+   "stars": "6,616",
+   "stars_today": "661 stars today"
+  }
+ ],
+ "news": [
+  {
+   "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+   "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 307,
+   "id": "n0"
+  },
+  {
+   "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+   "url": "https://antjs.org",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 299,
+   "id": "n1"
+  },
+  {
+   "title": "Mesh LLM: distributed AI computing on iroh",
+   "url": "https://www.iroh.computer/blog/mesh-llm",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 293,
+   "id": "n2"
+  },
+  {
+   "title": "Modern decor may be straining people's brains",
+   "url": "https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 230,
+   "id": "n3"
+  },
+  {
+   "title": "We scaled PgBouncer to 4x throughput",
+   "url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 228,
+   "id": "n4"
+  },
+  {
+   "title": "UPI: Anatomy of a Payment Transaction",
+   "url": "https://timeseriesofindia.com/economy/reads/upi-architecture/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 214,
+   "id": "n5"
+  },
+  {
+   "title": "An agent in 100 lines of Lisp",
+   "url": "https://thebeach.dev/posts/lisp-agent/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 184,
+   "id": "n6"
+  },
+  {
+   "title": "Vint Cerf, a “father of the Internet”, is retiring",
+   "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 174,
+   "id": "n7"
+  },
+  {
+   "title": "RISCBoy is an open-source portable games console, designed from scratch",
+   "url": "https://github.com/Wren6991/RISCBoy",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 171,
+   "id": "n8"
+  },
+  {
+   "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+   "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 145,
+   "id": "n9"
+  },
+  {
+   "title": "Old and new apps, via modern coding agents by Terry Tao",
+   "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 133,
+   "id": "n10"
+  },
+  {
+   "title": "The early History of the Singular Value Decomposition (1993) [pdf]",
+   "url": "https://www.math.ucdavis.edu/~saito/courses/229A/stewart-svd.pdf",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 132,
+   "id": "n11"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "Second Brain for AI v2",
+   "url": "https://www.producthunt.com/products/second-brain-cloudflare",
+   "desc": "AI memory that connects the dots across every tool Discussion | Link"
+  },
+  {
+   "id": "ph1",
+   "title": "FetchSandbox",
+   "url": "https://www.producthunt.com/products/fetchsandbox",
+   "desc": "API integration testing that remembers what breaks Discussion | Link"
+  },
+  {
+   "id": "ph2",
+   "title": "Miora",
+   "url": "https://www.producthunt.com/products/miora-2",
+   "desc": "Scale your creativity on editable canvas with agent memory Discussion | Link"
+  },
+  {
+   "id": "ph3",
+   "title": "JustVibe",
+   "url": "https://www.producthunt.com/products/justvibe",
+   "desc": "The search engine for doing, with apps built for you Discussion | Link"
+  },
+  {
+   "id": "ph4",
+   "title": "ServiceBeard",
+   "url": "https://www.producthunt.com/products/servicebeard",
+   "desc": "Sync your mailbox with your issue tracker Discussion | Link"
+  },
+  {
+   "id": "ph5",
+   "title": "Basedash SCIM",
+   "url": "https://www.producthunt.com/products/basedash",
+   "desc": "Your org changes. Access keeps up. Discussion | Link"
+  },
+  {
+   "id": "ph6",
+   "title": "Cloudflare Drop",
+   "url": "https://www.producthunt.com/products/cloudflare",
+   "desc": "Drop your folder in browser & deploy instantly on Cloudflare Discussion | Link"
+  },
+  {
+   "id": "ph7",
+   "title": "San Fran Sim",
+   "url": "https://www.producthunt.com/products/san-fran-sim",
+   "desc": "A startup tycoon game Discussion | Link"
+  }
+ ]
+}

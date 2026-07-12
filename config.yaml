@@ -1,0 +1,39 @@
+site:
+  title: AI 每日情报站
+  # 抓取窗口：只保留最近 N 小时内发布的新闻
+  news_window_hours: 36
+
+limits:
+  github_candidates: 30   # 送给 LLM 筛选的 trending 候选数
+  github_keep: 10         # 日报保留条数
+  news_candidates: 60
+  news_keep: 12
+  products_candidates: 30
+  products_keep: 8
+
+llm:
+  base_url: https://api.deepseek.com
+  model: deepseek-chat
+
+news_feeds:
+  - name: OpenAI News
+    url: https://openai.com/news/rss.xml
+    lang: en
+  - name: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+    lang: en
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    lang: en
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    lang: en
+  - name: The Verge AI
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    lang: en
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    lang: zh
+  - name: 量子位
+    url: https://www.qbitai.com/feed
+    lang: zh

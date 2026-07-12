@@ -1,0 +1,47 @@
+name: daily-digest
+
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 23:00 UTC = 北京时间次日早 7:00
+  workflow_dispatch:        # 手动触发，方便随时补跑
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build digest
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python -m ai_daily.main
+
+      - name: Commit digest data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "digest: $(TZ=Asia/Shanghai date +%F)" || echo "nothing to commit"
+          git push
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          preCommands: wrangler pages project create ai-daily --production-branch=main || true
+          command: pages deploy site --project-name=ai-daily
