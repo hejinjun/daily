@@ -50,8 +50,24 @@ def get_market_report(cfg: dict) -> dict | None:
     return report
 
 
+def load_recent_selections(today: str, days: int = 3) -> tuple[set, list]:
+    """最近几天日报里已选中的内容：URL 集合（硬去重用）+ 新闻标题（给 LLM 参考）。"""
+    urls: set = set()
+    titles: list = []
+    paths = [p for p in sorted(DATA_DIR.glob("*.json"), reverse=True) if p.stem != today]
+    for path in paths[:days]:
+        d = json.loads(path.read_text())
+        for sec in ("github", "news", "products"):
+            for it in d.get(sec) or []:
+                if it.get("url"):
+                    urls.add(it["url"])
+        titles += [it["title"] for it in d.get("news") or [] if it.get("title")]
+    return urls, titles
+
+
 def build_digest(cfg: dict, today: str) -> dict:
     limits = cfg["limits"]
+    seen_urls, seen_titles = load_recent_selections(today)
 
     github_raw = fetchers.fetch_github_trending(limits["github_candidates"])
     hn = fetchers.fetch_hn_front_page(limits["news_candidates"] // 2)
@@ -61,15 +77,28 @@ def build_digest(cfg: dict, today: str) -> dict:
         it["id"] = f"n{i}"
     products_raw = fetchers.fetch_product_hunt(limits["products_candidates"])
 
+    # 源健康度：统计的是原始抓取量，为 0 说明该源可能坏了（或当天真没内容）
+    stats = [("GitHub Trending", len(github_raw)), ("Hacker News", len(hn))]
+    stats += [
+        (f["name"], sum(1 for it in rss if it["source"] == f["name"]))
+        for f in cfg["news_feeds"]
+    ]
+    stats.append(("Product Hunt", len(products_raw)))
+
+    # 跨天去重：最近几天上过日报的 repo/产品不再进候选
+    github_raw = [it for it in github_raw if it["url"] not in seen_urls]
+    products_raw = [it for it in products_raw if it["url"] not in seen_urls]
+
     digest = {
         "date": today,
         "generated_at": dt.datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M"),
         "llm_used": True,
         "trends": [],
+        "source_stats": [{"name": n, "count": c} for n, c in stats],
     }
     try:
         digest["github"] = llm.process_github(cfg["llm"], github_raw, limits["github_keep"])
-        news = llm.process_news(cfg["llm"], news_raw, limits["news_keep"])
+        news = llm.process_news(cfg["llm"], news_raw, limits["news_keep"], seen_titles)
         digest["trends"] = news["trends"]
         digest["news"] = news["items"]
         digest["products"] = llm.process_products(cfg["llm"], products_raw, limits["products_keep"])

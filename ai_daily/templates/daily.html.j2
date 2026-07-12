@@ -74,6 +74,8 @@
   }
   @media (prefers-color-scheme: dark) { .notice { background: #3a2f14; color: #fde68a; } }
   footer { color: var(--muted); font-size: 13px; text-align: center; margin-top: 36px; }
+  footer .stats { margin-bottom: 6px; line-height: 1.9; }
+  footer .dead { color: #d97706; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -161,7 +163,12 @@
     {% else %}<div class="empty">本周需求周报还没有生成（每周一早上自动更新）。</div>{% endif %}
   </section>
 
-  <footer>{{ generated_at }} 生成</footer>
+  <footer>
+    {% if source_stats %}
+    <div class="stats">抓取：{% for s in source_stats %}<span{% if s.count == 0 %} class="dead"{% endif %}>{{ s.name }} {{ s.count }}</span>{{ " · " if not loop.last }}{% endfor %}</div>
+    {% endif %}
+    {{ generated_at }} 生成
+  </footer>
 </div>
 <script>
   const tabs = document.querySelectorAll("nav.tabs button");

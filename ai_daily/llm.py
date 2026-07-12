@@ -84,11 +84,18 @@ def process_github(cfg: dict, items: list[dict], keep: int) -> list[dict]:
     return _apply_selection(items, result.get("items", []), keep)
 
 
-def process_news(cfg: dict, items: list[dict], keep: int) -> dict:
+def process_news(cfg: dict, items: list[dict], keep: int, seen_titles: list[str] | None = None) -> dict:
+    seen_block = ""
+    if seen_titles:
+        recent = "\n".join(f"- {t}" for t in seen_titles[:40])
+        seen_block = f"""
+以下是最近几天日报里已经报道过的标题，讲同一件事的条目不要再选（除非有明显新进展）：
+{recent}
+"""
     user = f"""以下是过去一天多个信息源的 AI 相关新闻/文章（含 Hacker News 首页帖，可能混有非 AI 内容）：
 
 {_items_block(items, ("title", "desc", "source"))}
-
+{seen_block}
 任务：
 1. 剔除与 AI 无关的条目；同一事件多个来源报道的只保留信息量最大的一条。
 2. 挑出最重要的至多 {keep} 条，按重要性排序，每条写 2-3 句中文摘要（发生了什么、意味着什么）。
