@@ -1,6 +1,6 @@
 {
  "date": "2026-07-12",
- "generated_at": "2026-07-12 22:06",
+ "generated_at": "2026-07-12 22:26",
  "llm_used": false,
  "trends": [],
  "github": [
@@ -10,7 +10,7 @@
    "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
    "desc": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
    "lang": "Rust",
-   "stars": "2,428",
+   "stars": "2,451",
    "stars_today": "444 stars today"
   },
   {
@@ -28,7 +28,7 @@
    "url": "https://github.com/HKUDS/Vibe-Trading",
    "desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
    "lang": "Python",
-   "stars": "20,145",
+   "stars": "20,168",
    "stars_today": "776 stars today"
   },
   {
@@ -37,7 +37,7 @@
    "url": "https://github.com/PrefectHQ/prefect",
    "desc": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
    "lang": "Python",
-   "stars": "23,026",
+   "stars": "23,031",
    "stars_today": "55 stars today"
   },
   {
@@ -46,7 +46,7 @@
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "desc": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
    "lang": "Python",
-   "stars": "118,285",
+   "stars": "118,293",
    "stars_today": "549 stars today"
   },
   {
@@ -55,7 +55,7 @@
    "url": "https://github.com/anthropics/claude-cookbooks",
    "desc": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
    "lang": "Jupyter Notebook",
-   "stars": "48,179",
+   "stars": "48,185",
    "stars_today": "464 stars today"
   },
   {
@@ -64,7 +64,7 @@
    "url": "https://github.com/home-assistant/core",
    "desc": "🏡 Open source home automation that puts local control and privacy first.",
    "lang": "Python",
-   "stars": "88,874",
+   "stars": "88,882",
    "stars_today": "404 stars today"
   },
   {
@@ -73,7 +73,7 @@
    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
    "desc": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
    "lang": "TypeScript",
-   "stars": "33,626",
+   "stars": "33,634",
    "stars_today": "122 stars today"
   },
   {
@@ -82,7 +82,7 @@
    "url": "https://github.com/ColeMurray/background-agents",
    "desc": "An open-source background agents coding system",
    "lang": "TypeScript",
-   "stars": "2,170",
+   "stars": "2,172",
    "stars_today": "9 stars today"
   },
   {
@@ -91,7 +91,7 @@
    "url": "https://github.com/k1tbyte/Wand-Enhancer",
    "desc": "Advanced UX and interoperability extension for Wand (WeMod) app",
    "lang": "C#",
-   "stars": "6,616",
+   "stars": "6,628",
    "stars_today": "661 stars today"
   }
  ],
@@ -102,7 +102,7 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 307,
+   "points": 311,
    "id": "n0"
   },
   {
@@ -111,7 +111,7 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 299,
+   "points": 300,
    "id": "n1"
   },
   {
@@ -120,7 +120,7 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 293,
+   "points": 294,
    "id": "n2"
   },
   {
@@ -129,7 +129,7 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 230,
+   "points": 233,
    "id": "n3"
   },
   {
@@ -147,7 +147,7 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 214,
+   "points": 216,
    "id": "n5"
   },
   {
@@ -156,7 +156,7 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 184,
+   "points": 186,
    "id": "n6"
   },
   {
@@ -165,7 +165,7 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 174,
+   "points": 179,
    "id": "n7"
   },
   {
@@ -174,17 +174,8 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 171,
+   "points": 172,
    "id": "n8"
-  },
-  {
-   "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
-   "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 145,
-   "id": "n9"
   },
   {
    "title": "Old and new apps, via modern coding agents by Terry Tao",
@@ -192,8 +183,8 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 133,
-   "id": "n10"
+   "points": 148,
+   "id": "n9"
   },
   {
    "title": "The early History of the Singular Value Decomposition (1993) [pdf]",
@@ -201,40 +192,49 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 132,
+   "points": 133,
+   "id": "n10"
+  },
+  {
+   "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
+   "url": "https://arxiv.org/abs/2607.07267",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 117,
    "id": "n11"
   }
  ],
  "products": [
   {
    "id": "ph0",
-   "title": "Second Brain for AI v2",
-   "url": "https://www.producthunt.com/products/second-brain-cloudflare",
-   "desc": "AI memory that connects the dots across every tool Discussion | Link"
-  },
-  {
-   "id": "ph1",
-   "title": "FetchSandbox",
-   "url": "https://www.producthunt.com/products/fetchsandbox",
-   "desc": "API integration testing that remembers what breaks Discussion | Link"
-  },
-  {
-   "id": "ph2",
    "title": "Miora",
    "url": "https://www.producthunt.com/products/miora-2",
    "desc": "Scale your creativity on editable canvas with agent memory Discussion | Link"
   },
   {
-   "id": "ph3",
+   "id": "ph1",
    "title": "JustVibe",
    "url": "https://www.producthunt.com/products/justvibe",
    "desc": "The search engine for doing, with apps built for you Discussion | Link"
   },
   {
-   "id": "ph4",
+   "id": "ph2",
+   "title": "Second Brain for AI v2",
+   "url": "https://www.producthunt.com/products/second-brain-cloudflare",
+   "desc": "AI memory that connects the dots across every tool Discussion | Link"
+  },
+  {
+   "id": "ph3",
    "title": "ServiceBeard",
    "url": "https://www.producthunt.com/products/servicebeard",
    "desc": "Sync your mailbox with your issue tracker Discussion | Link"
+  },
+  {
+   "id": "ph4",
+   "title": "FetchSandbox",
+   "url": "https://www.producthunt.com/products/fetchsandbox",
+   "desc": "API integration testing that remembers what breaks Discussion | Link"
   },
   {
    "id": "ph5",
@@ -244,15 +244,15 @@
   },
   {
    "id": "ph6",
-   "title": "Cloudflare Drop",
-   "url": "https://www.producthunt.com/products/cloudflare",
-   "desc": "Drop your folder in browser & deploy instantly on Cloudflare Discussion | Link"
+   "title": "SoundPipe",
+   "url": "https://www.producthunt.com/products/soundpipe",
+   "desc": "SoundPipe is a mixing board for your Mac Discussion | Link"
   },
   {
    "id": "ph7",
-   "title": "San Fran Sim",
-   "url": "https://www.producthunt.com/products/san-fran-sim",
-   "desc": "A startup tycoon game Discussion | Link"
+   "title": "Cloudflare Drop",
+   "url": "https://www.producthunt.com/products/cloudflare",
+   "desc": "Drop your folder in browser & deploy instantly on Cloudflare Discussion | Link"
   }
  ]
 }
