@@ -1,0 +1,330 @@
+{
+ "date": "2026-07-14",
+ "generated_at": "2026-07-14 07:16",
+ "llm_used": true,
+ "trends": [
+  "AI安全与信任危机加剧：苹果起诉OpenAI窃密、OpenAI安全主管离职、三星健康威胁删除数据等事件，凸显AI行业在数据安全和伦理方面的信任赤字，开发者需关注合规与隐私保护。",
+  "AI芯片与基础设施竞争白热化：苹果自研AI芯片源于失败造车项目、中国十万卡集群落地、浪潮信息推Agent专用服务器，显示算力成为AI竞争核心，边缘AI和高效推理方案是创业机会。",
+  "Agent与工具链走向实用化：Agent专用搜索、Claude本地化定价、Waze集成Gemini、Nobie Excel兼容运行时等，表明AI Agent正从概念走向产品，降低开发门槛的工具和垂直应用值得关注。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 10
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 6
+  },
+  {
+   "name": "The Verge AI",
+   "count": 6
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [
+  {
+   "id": "gh6",
+   "title": "Graphify-Labs/graphify",
+   "url": "https://github.com/Graphify-Labs/graphify",
+   "desc": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+   "lang": "Python",
+   "stars": "84,620",
+   "stars_today": "1,028 stars today",
+   "summary": "Graphify 是一个 AI 编程助手技能，能将代码、SQL、文档等文件夹转化为可查询的知识图谱，支持 Claude Code、Cursor 等工具。它火了是因为把 AI 编码和知识管理结合，让开发者能快速理解复杂项目结构。"
+  },
+  {
+   "id": "gh0",
+   "title": "OpenCut-app/OpenCut",
+   "url": "https://github.com/OpenCut-app/OpenCut",
+   "desc": "The open-source CapCut alternative",
+   "lang": "TypeScript",
+   "stars": "66,139",
+   "stars_today": "1,077 stars today",
+   "summary": "OpenCut 是开源版 CapCut（剪映），用 TypeScript 构建，今日涨星超千。它火了是因为视频编辑需求大，开源替代品受关注，尤其适合开发者定制或集成。"
+  },
+  {
+   "id": "gh2",
+   "title": "moeru-ai/airi",
+   "url": "https://github.com/moeru-ai/airi",
+   "desc": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+   "lang": "TypeScript",
+   "stars": "41,842",
+   "stars_today": "57 stars today",
+   "summary": "Airi 是一个自托管的 AI 伴侣，类似 Grok，支持实时语音聊天和游戏交互（Minecraft、Factorio）。它火了是因为结合了虚拟角色和 AI 对话，满足个性化陪伴需求。"
+  },
+  {
+   "id": "gh9",
+   "title": "coreyhaines31/marketingskills",
+   "url": "https://github.com/coreyhaines31/marketingskills",
+   "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+   "lang": "JavaScript",
+   "stars": "38,515",
+   "stars_today": "260 stars today",
+   "summary": "MarketingSkills 为 Claude Code 等 AI Agent 提供营销技能（CRO、SEO、文案等）。它火了是因为 AI Agent 需要专业领域知识，这个项目填补了营销自动化空白。"
+  }
+ ],
+ "news": [
+  {
+   "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+   "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+   "desc": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n31",
+   "summary": "苹果起诉OpenAI窃取商业机密，指控其员工在面试时要求携带苹果硬件、内部系统被未授权访问。这起诉讼暴露了AI人才争夺中的灰色地带，也提醒开发者注意竞业协议和数据安全边界。"
+  },
+  {
+   "title": "GPT-5.6刚发布，OpenAI安全主管就跑路了？？",
+   "url": "https://www.qbitai.com/2026/07/448825.html",
+   "desc": "两年内走的第六个",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n49",
+   "summary": "GPT-5.6刚发布，OpenAI安全主管又跑路了，两年内第六位安全高管离职。这反映出OpenAI内部安全文化动荡，可能影响其模型安全策略的连续性，开发者需警惕依赖单一模型的风险。"
+  },
+  {
+   "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+   "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+   "desc": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "苹果失败的自动驾驶项目留下了强大的AI芯片遗产，其自研芯片为如今Apple Intelligence奠定了基础。这说明即使项目失败，底层技术积累仍可能在其他领域开花结果，对创业公司有启示。"
+  },
+  {
+   "title": "Agent专用搜索登顶Product Hunt，Token更省搜得更准",
+   "url": "https://www.qbitai.com/2026/07/449327.html",
+   "desc": "出自中国团队",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n42",
+   "summary": "中国团队推出Agent专用搜索引擎，登顶Product Hunt，声称更省Token且搜得更准。这为Agent开发提供了更高效的检索工具，可能改变Agent与知识库交互的方式，值得关注。"
+  },
+  {
+   "title": "Agent要数量也要脑子！浪潮信息一边单柜养4万Agent，一边让大模型组队答题",
+   "url": "https://www.qbitai.com/2026/07/449311.html",
+   "desc": "同时发布CPU原生液冷整机柜、多模融合超节点",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n43",
+   "summary": "浪潮信息发布单柜可养4万Agent的整机柜，同时推出多模融合超节点让大模型组队答题。这展示了AI基础设施向高密度、多Agent协同方向演进，适合大规模Agent部署场景。"
+  },
+  {
+   "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+   "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+   "desc": "Claude users in India are starting to see Indian rupee-denominated subscription plans.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "Anthropic开始为印度用户提供卢比计价的Claude订阅，这是其美国之外最大市场。本地化定价策略有助于拓展新兴市场，开发者可借鉴此模式进行产品全球化。"
+  },
+  {
+   "title": "Waze adds new AI-powered features and customization updates",
+   "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+   "desc": "Some of the new features are powered by Google's Gemini AI assistant, which reflects the tech giant's broader push to integrate Gemini across its products while also better positioning Waze to compete with rival services such as Apple Maps.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Waze集成Google Gemini，新增AI对话报告事故、个性化路线等功能。AI正深度融入日常应用，提升用户体验，开发者可探索将AI助手集成到现有产品中的机会。"
+  },
+  {
+   "title": "Claude Code砸的坑，蚂蚁安全在尝试填上",
+   "url": "https://www.qbitai.com/2026/07/448925.html",
+   "desc": "最新开源两大安全框架",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n48",
+   "summary": "蚂蚁安全开源两大安全框架，旨在填补Claude Code等AI编程工具带来的安全漏洞。AI生成代码的安全问题日益突出，相关安全工具和最佳实践将成为刚需。"
+  },
+  {
+   "title": "Samsung Health app threatens data deletion if users opt out AI training",
+   "url": "https://neow.in/cWsyMTV3",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 201,
+   "id": "n5",
+   "summary": "三星健康App威胁用户若退出AI训练数据收集将删除数据，引发隐私争议。这警示开发者：强制数据收集可能适得其反，透明和用户选择权才是建立信任的关键。"
+  },
+  {
+   "title": "Show HN: Nobie – an Excel-compatible runtime for agents and humans",
+   "url": "https://nobie.com",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 68,
+   "id": "n14",
+   "summary": "Nobie是一个兼容Excel的运行时，让Agent和人类都能操作电子表格。它降低了非技术人员使用AI的门槛，是AI与办公软件融合的典型案例，适合企业自动化场景。"
+  },
+  {
+   "title": "The real prices of frontier models",
+   "url": "https://playcode.io/blog/real-price-of-frontier-models",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 138,
+   "id": "n7",
+   "summary": "文章分析了前沿AI模型的真实价格，揭示API定价背后的成本结构。开发者选型时需综合考虑推理成本、延迟和性能，避免被表面低价误导。"
+  },
+  {
+   "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
+   "url": "https://github.com/jbwinters/jacquard-lang",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 24,
+   "id": "n21",
+   "summary": "Jacquard是一种专为AI编写、人工审核代码设计的编程语言，旨在平衡AI效率与代码质量。这反映了AI辅助编程的新方向：不是完全自动化，而是人机协作。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph3",
+   "title": "Playground",
+   "url": "https://www.producthunt.com/products/nyx-4",
+   "desc": "Earn $100K+ in weekly rewards for hacking AI agents. Discussion | Link",
+   "summary": "Playground 是一个通过黑客攻击 AI 代理来赚取每周 10 万美元以上奖励的平台。亮点是结合了竞技和实战，适合想测试 AI 安全或赚外快的开发者。"
+  },
+  {
+   "id": "ph0",
+   "title": "AgentKey",
+   "url": "https://www.producthunt.com/products/agentkey",
+   "desc": "One-stop live data marketplace for your agent Discussion | Link",
+   "summary": "AgentKey 为 AI 代理提供一站式实时数据市场。亮点是直接对接实时数据源，让代理更智能，适合需要动态数据的 AI 应用开发者。"
+  },
+  {
+   "id": "ph4",
+   "title": "Fudge MCP",
+   "url": "https://www.producthunt.com/products/fudge-mcp",
+   "desc": "Give your AI agents design taste from existing websites Discussion | Link",
+   "summary": "Fudge MCP 让 AI 代理从现有网站学习设计风格。亮点是赋予代理设计审美，适合快速生成符合品牌调性的 UI 或自动化设计任务。"
+  },
+  {
+   "id": "ph5",
+   "title": "UnitPay",
+   "url": "https://www.producthunt.com/products/unitpay",
+   "desc": "Price, bill, and prove value for your AI product Discussion | Link",
+   "summary": "UnitPay 专为 AI 产品设计定价、计费和证明价值。亮点是解决 AI 产品定价难、价值展示难的问题，适合 AI 创业者。"
+  },
+  {
+   "id": "ph9",
+   "title": "Osaurus",
+   "url": "https://www.producthunt.com/products/osaurus",
+   "desc": "Open source agents that run 100% locally on your Mac Discussion | Link",
+   "summary": "Osaurus 是 100% 在 Mac 本地运行的开源 AI 代理。亮点是隐私安全、无需联网，适合对数据敏感或离线场景的开发者。"
+  },
+  {
+   "id": "ph10",
+   "title": "NoMac.app",
+   "url": "https://www.producthunt.com/products/nomac",
+   "desc": "The headless iOS app publishing pipeline for AI agents. Discussion | Link",
+   "summary": "NoMac.app 提供无头 iOS 应用发布管道，专为 AI 代理设计。亮点是让 AI 代理能直接发布 iOS 应用，适合自动化部署和移动端 AI 应用。"
+  },
+  {
+   "id": "ph7",
+   "title": "Simba Voice Agents",
+   "url": "https://www.producthunt.com/products/speechify",
+   "desc": "Voice agents powered by Simba 3.2 the world's #1 voice model Discussion | Link",
+   "summary": "Simba Voice Agents 基于世界排名第一的语音模型 Simba 3.2 构建语音代理。亮点是顶级语音能力，适合开发高保真语音交互应用。"
+  },
+  {
+   "id": "ph8",
+   "title": "Loomal",
+   "url": "https://www.producthunt.com/products/loomal",
+   "desc": "Monetize any MCP server in 5 minutes with no % skim. Discussion | Link",
+   "summary": "Loomal 让任何 MCP 服务器在 5 分钟内变现，且不抽成。亮点是零抽成、快速变现，适合 MCP 服务提供者或 AI 工具开发者。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent 开发是绝对热点：从 Agent 编排（LangGraph）、记忆系统、工具调用到多智能体协同，几乎所有岗位都要求 Agent 相关经验。",
+   "全栈 + AI 集成能力吃香：大量岗位要求同时掌握前端（React/TypeScript）和后端（Python/Go），并能将 LLM、图像生成等 AI 能力集成到产品中。",
+   "底层优化与推理加速需求上升：KV Cache 优化、CUDA 编程、GPU 调度等岗位增多，反映市场对 AI 推理成本和性能的关注。",
+   "AI 安全与质量保障成为新方向：出现 AI 生成代码质量验证、AI 安全测试等岗位，说明企业开始重视 AI 系统的可靠性和安全性。"
+  ],
+  "gigs": [
+   "远程/兼职岗位集中在 AI 数据标注、Vibe Coding 任务设计、AI 内容策划等方向，报酬在 300-1000 元/任务，适合有 AI 工具使用经验的开发者。",
+   "Shopify 插件开发、前端页面优化等传统外包需求依然存在，但要求结合 AI 能力（如 AI 好评生成）。",
+   "样本有限，但观察到 AI 伴侣、数字人等垂直领域的外包需求增加，需要对话编排、记忆系统等专业技能。"
+  ],
+  "highlights": [
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m15",
+    "summary": "悉尼 startup 招 Senior AI Researcher 做 KV Cache 优化，远程+可 relocate，代表 AI 推理优化成为高薪方向。"
+   },
+   {
+    "title": "全栈开发工程师招募；",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1225429#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m20",
+    "summary": "Kapibala AI 获 1000 万美元融资，招全栈工程师做 Sales AGI，要求重度使用 AI 工具，代表 AI Native 创业公司对全栈+AI 能力的需求。"
+   },
+   {
+    "title": "[招聘] AI 伴侣产品对话编排工程师",
+    "desc": "我们是专注 NSFW 领域的 AI 伴侣产品，美国华人初创公司 目前针对对话 AI 编排工程师进行招聘，远程/兼职岗位均可，只看有相关经验的大牛哈 工作职责： 1 ，设计并实现对话主链路的编排系统:角色卡 / 世界书 / 记忆 / 状态的动态组装与调度\n2 ，搭建记忆系统\n3 ，用确定性状态机维护关系、剧情进度\n4 ，设计\"导演层\":用规则化逻辑控制剧情推进节奏\n5 ，优化 token 成本与缓存命中率 能力要求： 1 ，3 年以上后端 / 应用开发经验,Python(FastAPI)为主,能独立设计和落地复杂系统\n2 ，真正做过 LLM 应用编排:LangGraph / LangChain ",
+    "url": "https://www.v2ex.com/t/1225426#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "AI 伴侣产品招对话编排工程师，远程/兼职，要求 LangGraph 经验，代表 AI 伴侣/NSFW 领域对 Agent 编排的专门需求。"
+   },
+   {
+    "title": "[急招] 搞定万卡调度后，我们决定去 Web3 用 Go + Agent 掀翻天花板！（香港 Base/包工签/深港通勤/上不封顶）",
+    "desc": "各位 V 友， 我们是一个处于高速发展期的 Web3 DEX 明星项目。目前团队核心后端全面拥抱 Golang ，信奉极客文化与大厂工程规范的融合。 最近团队在做一件非常酷的事情：我们不仅在构建下一代高性能的去中心化交易底座，还要把 AI Agent 深度注入到我们的“工程研发”和“业务场景”中，真正实现 AI 赋能的未来全自动化工作流！ 简单来说，我们需要一位既懂 Go 语言高并发高性能架构，又对 AI Agent （状态机、工具调用、RAG 记忆机制、Code Agent ）充满热情的 [ AI 工程专家/资深 AI 提效工程师] 。 ---------------------------",
+    "url": "https://www.v2ex.com/t/1224533#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "Web3 DEX 项目招 Go + Agent 工程师，香港 base，代表 AI Agent 在 Web3 领域的渗透。"
+   },
+   {
+    "title": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Ful",
+    "desc": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Full-time Qase is how engineering teams verify the quality of AI-generated code, so their companies can safely adopt AI-accelerated workflows. Developer Advocate — US-based, remote (North America). We're building the space for how engineering teams verify the quality of AI-generated code. Looking for a QA/quality-engineer",
+    "url": "https://news.ycombinator.com/item?id=48860201",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m44",
+    "summary": "Qase 招 Developer Advocate 做 AI 生成代码质量验证，代表 AI 代码质量保障成为新岗位类别。"
+   },
+   {
+    "title": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US)",
+    "desc": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US) | Equity-heavy We compress LLM KV cache. Measured: 8× at 3-bit with 0.43% quality delta (GPU-validated); 22× live end-to-end on a 5-tenant workload, GPU-verified this week (quantization × prefix dedup, decomposition always stated); 16.89× tenant density on a single V100-32GB. Validated across Mistral/Qwen/Llama with z",
+    "url": "https://news.ycombinator.com/item?id=48797747",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m74",
+    "summary": "Syntropic 招 Founding CTO/GPU 工程师做 KV Cache 压缩，8x 压缩率，代表 AI 推理优化创业公司的高技术门槛。"
+   }
+  ],
+  "week": "2026-W29"
+ }
+}
