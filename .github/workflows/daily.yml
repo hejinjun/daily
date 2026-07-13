@@ -3,6 +3,7 @@ name: daily-digest
 on:
   schedule:
     - cron: '20 22 * * *'  # 22:20 UTC = 北京时间次日早 6:20；避开整点高峰，留出排队余量
+    - cron: '30 0 13 7 *'  # 临时验证用：仅 7 月 13 日 00:30 UTC（北京 8:30）触发一次，验证后删除
   workflow_dispatch:        # 手动触发，方便随时补跑
 
 permissions:
