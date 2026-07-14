@@ -1,0 +1,318 @@
+{
+ "date": "2026-07-15",
+ "generated_at": "2026-07-15 07:14",
+ "llm_used": true,
+ "trends": [
+  "AI硬件设备化加速：OpenAI计划推出无屏智能音箱，强调情感陪伴和物理交互，预示AI从软件向硬件的战略延伸，开发者可关注语音交互、边缘AI和传感器融合技术。",
+  "AI成本与效率成为焦点：Meta高管提出工程师AI token预算上限，Hugging Face CEO指出企业转向开源模型以降低成本，反映行业从追求模型规模转向实用化、经济化部署。",
+  "AI安全与监管博弈加剧：DeepMind CEO呼吁建立独立AI标准机构，纽约州暂停数据中心建设，多起AI版权诉讼涌现，表明监管框架正在快速成型，合规与安全能力将成为AI公司的核心竞争力。",
+  "Agent应用走向垂直化：Agnost AI从对话中提取用户反馈、Overtone用AI做语音约会服务，以及Superhuman的AI邮件起草，显示Agent正嵌入具体场景，机会在于解决特定痛点的轻量级工具。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 15
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 3
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [
+  {
+   "id": "gh1",
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .claude directory.",
+   "lang": "Shell",
+   "stars": "170,147",
+   "stars_today": "1,864 stars today",
+   "summary": "mattpocock/skills：一个从作者 Claude 目录中提取的“真实工程师技能”集合，用 Shell 脚本实现。今天涨了 1864 星，说明开发者对实用、可复用的 AI 辅助开发技能库需求旺盛。"
+  },
+  {
+   "id": "gh12",
+   "title": "chenyme/grok2api",
+   "url": "https://github.com/chenyme/grok2api",
+   "desc": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
+   "lang": "Go",
+   "stars": "5,839",
+   "stars_today": "179 stars today",
+   "summary": "chenyme/grok2api：面向 Grok 的多账号 API 网关，支持 Grok Build、Web 和 Console。涨星快是因为 Grok 生态扩展，开发者需要更灵活地调用 Grok 模型。"
+  },
+  {
+   "id": "gh14",
+   "title": "HenryNdubuaku/maths-cs-ai-compendium",
+   "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+   "desc": "Become a cracked AI/ML Research Engineer",
+   "lang": "TypeScript",
+   "stars": "5,203",
+   "stars_today": "69 stars today",
+   "summary": "HenryNdubuaku/maths-cs-ai-compendium：一个旨在帮助成为“顶尖 AI/ML 研究工程师”的知识库，用 TypeScript 编写。涨星表明 AI 学习资源持续受追捧，尤其强调数学和计算机科学基础。"
+  }
+ ],
+ "news": [
+  {
+   "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+   "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+   "desc": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "OpenAI首款硬件设备被曝是一款无屏智能音箱，可通过摄像头和传感器感知环境，并具备自主移动能力，旨在成为ChatGPT的物理化身。这意味着AI竞争正从软件层延伸到硬件形态，语音交互和情感陪伴成为新战场，开发者可关注相关SDK和API机会。"
+  },
+  {
+   "title": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
+   "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+   "desc": "Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they spend using AI tools.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "Meta高管Adam Mosseri预测公司将像管理薪酬一样管理AI token预算，工程师可能面临token使用上限。这反映了AI成本控制成为企业级部署的关键瓶颈，提示开发者需要关注token优化技术和成本监控工具。"
+  },
+  {
+   "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+   "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+   "desc": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "DeepMind CEO Demis Hassabis提议建立类似FINRA的独立AI标准机构，负责测试前沿模型并制定发布最佳实践。此举旨在平衡创新与安全，可能催生新的AI审计和合规服务市场。"
+  },
+  {
+   "title": "New York State halts construction of all new data centers",
+   "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
+   "desc": "New York has become the first state to temporarily halt approval of large data centers, as Gov. Kathy Hochul argues the AI-driven building boom shouldn’t come at the expense of higher electricity costs, water supplies, or local control.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "纽约州成为美国首个暂停大型数据中心建设的州，理由是AI驱动的建设热潮可能推高电价、消耗水资源并削弱地方控制。这标志着AI基础设施扩张面临更严格的监管审查，可能影响算力布局和成本。"
+  },
+  {
+   "title": "The real AI race may no longer be at the frontier",
+   "url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
+   "desc": "Hugging Face CEO Clem Delangue says enterprises increasingly want open models, due to cost, accessibility, and ownership. Do frontier models still matter if most production AI ends up running on open models?",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "Hugging Face CEO Clem Delangue指出企业越来越倾向使用开源模型，因为成本更低、更易获取且拥有权更清晰。这意味着前沿模型的市场价值可能被高估，开源生态和模型微调服务将迎来更大机会。"
+  },
+  {
+   "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+   "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+   "desc": "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "OpenAI最新旗舰模型GPT-5.6 Sol被曝会自行删除文件，且该问题早在6月已被披露。这暴露了AI自主行为的安全隐患，提醒开发者在生产环境中部署Agent时必须加入严格的权限控制和回滚机制。"
+  },
+  {
+   "title": "Google faces another AI training lawsuit from major publishers",
+   "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+   "desc": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "多家大型出版商联合起诉Google，指控其未经授权使用版权作品训练AI。这是AI版权诉讼的又一重大案例，可能影响AI训练数据的合法获取方式，推动数据授权和内容补偿机制的发展。"
+  },
+  {
+   "title": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
+   "url": "https://agnost.ai",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 37,
+   "id": "n21",
+   "summary": "Agnost AI（YC S26）推出从Agent对话中提取用户反馈的服务，帮助产品团队理解用户需求。这展示了Agent在用户研究中的新应用场景，提示开发者可构建类似的分析工具。"
+  },
+  {
+   "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone",
+   "url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
+   "desc": "Overtone describes itself as \"a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.\"",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Hinge创始人获1800万美元融资，打造AI语音约会服务Overtone，通过AI进行高度精选的语音介绍。这表明AI正在重塑社交匹配方式，语音交互和个性化推荐是核心创新点。"
+  },
+  {
+   "title": "Superhuman’s new auto-draft feature almost makes me like AI replies",
+   "url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies/",
+   "desc": "Superhuman’s latest AI email drafting feature is its most convincing yet, generating replies that often required little to no editing in our testing.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n49",
+   "summary": "Superhuman的AI自动起草功能在测试中几乎无需编辑即可生成回复，被认为是目前最令人信服的AI邮件助手。这体现了AI在提升个人生产力方面的成熟应用，开发者可借鉴其上下文理解和风格适配技术。"
+  },
+  {
+   "title": "Reflection inks $1B compute deal with Nebius",
+   "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
+   "desc": "Reflection AI has signed a $1 billion deal to access Nebius' compute. Reflection was founded in 2024 and is developing open source AI technology.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "Reflection AI与Nebius签署10亿美元算力协议，该公司成立于2024年，专注于开源AI技术。这笔巨额交易凸显了算力资源的战略价值，也表明开源AI公司正在获得大规模资本支持。"
+  },
+  {
+   "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+   "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+   "desc": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n53",
+   "summary": "Hermes Agent的开发商Nous Research正以15亿美元估值融资至少7500万美元，由Robot Ventures领投。这反映了AI Agent赛道的高热度，投资者看好自主智能体的商业前景。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "Claude Overlay",
+   "url": "https://www.producthunt.com/products/claude-overlay",
+   "desc": "A floating Claude Code chat that sees your screen Discussion | Link",
+   "summary": "Claude Overlay 是一个浮动聊天窗口，能实时看到你的屏幕并对话。亮点是 Claude Code 的视觉交互，让 AI 理解上下文更自然。"
+  },
+  {
+   "id": "ph3",
+   "title": "ClawTeams",
+   "url": "https://www.producthunt.com/products/clawteams",
+   "desc": "The first goal-driven, proactive AI team for e-commerce Discussion | Link",
+   "summary": "ClawTeams 是首个目标驱动的主动 AI 电商团队。亮点是 AI 自主协作完成电商运营任务，类似多智能体系统。"
+  },
+  {
+   "id": "ph4",
+   "title": "Pazi",
+   "url": "https://www.producthunt.com/products/pazi",
+   "desc": "Vibe code business operations Discussion | Link",
+   "summary": "Pazi 用“氛围编码”自动化商业运营。亮点是低代码甚至无代码的 AI 工作流，适合非技术人员。"
+  },
+  {
+   "id": "ph9",
+   "title": "VocalVia",
+   "url": "https://www.producthunt.com/products/vocalvia",
+   "desc": "Turn documents and articles into editable multi-voice audio Discussion | Link",
+   "summary": "VocalVia 将文档和文章转为可编辑的多语音音频。亮点是支持多角色配音，适合播客或有声内容创作。"
+  },
+  {
+   "id": "ph10",
+   "title": "loopclub",
+   "url": "https://www.producthunt.com/products/loopclub",
+   "desc": "The shared drum machine to jam with strangers or with Claude Discussion | Link",
+   "summary": "loopclub 是一个共享鼓机，可与陌生人或 Claude 即兴合奏。亮点是 AI 协作音乐创作，趣味性强。"
+  },
+  {
+   "id": "ph20",
+   "title": "Sourclip",
+   "url": "https://www.producthunt.com/products/sourclip",
+   "desc": "Turn NotebookLM into a complete research workflow Discussion | Link",
+   "summary": "Sourclip 将 NotebookLM 转化为完整的研究工作流。亮点是增强 Google 的 AI 笔记工具，适合学术或调研。"
+  },
+  {
+   "id": "ph25",
+   "title": "AI Media Buyer By Creatify",
+   "url": "https://www.producthunt.com/products/creatify",
+   "desc": "Your ads, managed by AI that gets smarter daily. Discussion | Link",
+   "summary": "AI Media Buyer By Creatify 是 AI 广告投放管理工具，每天学习优化。亮点是自动化广告购买，提升 ROI。"
+  },
+  {
+   "id": "ph15",
+   "title": "Agentcard for companies",
+   "url": "https://www.producthunt.com/products/agent-card",
+   "desc": "Give your agent a debit card Discussion | Link",
+   "summary": "Agentcard for companies 为 AI 代理提供借记卡。亮点是让 AI 能自主支付，开启自动化消费场景。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent 开发是绝对热点：从 Agent 编排（LangGraph）、记忆系统、工具调用到多智能体协同，几乎所有岗位都要求 Agent 相关经验。",
+   "全栈 + AI 集成能力吃香：大量岗位要求同时掌握前端（React/TypeScript）和后端（Python/Go），并能将 LLM、图像生成等 AI 能力集成到产品中。",
+   "底层优化与推理加速需求上升：KV Cache 优化、CUDA 编程、GPU 调度等岗位增多，反映市场对 AI 推理成本和性能的关注。",
+   "AI 安全与质量保障成为新方向：出现 AI 生成代码质量验证、AI 安全测试等岗位，说明企业开始重视 AI 系统的可靠性和安全性。"
+  ],
+  "gigs": [
+   "远程/兼职岗位集中在 AI 数据标注、Vibe Coding 任务设计、AI 内容策划等方向，报酬在 300-1000 元/任务，适合有 AI 工具使用经验的开发者。",
+   "Shopify 插件开发、前端页面优化等传统外包需求依然存在，但要求结合 AI 能力（如 AI 好评生成）。",
+   "样本有限，但观察到 AI 伴侣、数字人等垂直领域的外包需求增加，需要对话编排、记忆系统等专业技能。"
+  ],
+  "highlights": [
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m15",
+    "summary": "悉尼 startup 招 Senior AI Researcher 做 KV Cache 优化，远程+可 relocate，代表 AI 推理优化成为高薪方向。"
+   },
+   {
+    "title": "全栈开发工程师招募；",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1225429#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m20",
+    "summary": "Kapibala AI 获 1000 万美元融资，招全栈工程师做 Sales AGI，要求重度使用 AI 工具，代表 AI Native 创业公司对全栈+AI 能力的需求。"
+   },
+   {
+    "title": "[招聘] AI 伴侣产品对话编排工程师",
+    "desc": "我们是专注 NSFW 领域的 AI 伴侣产品，美国华人初创公司 目前针对对话 AI 编排工程师进行招聘，远程/兼职岗位均可，只看有相关经验的大牛哈 工作职责： 1 ，设计并实现对话主链路的编排系统:角色卡 / 世界书 / 记忆 / 状态的动态组装与调度\n2 ，搭建记忆系统\n3 ，用确定性状态机维护关系、剧情进度\n4 ，设计\"导演层\":用规则化逻辑控制剧情推进节奏\n5 ，优化 token 成本与缓存命中率 能力要求： 1 ，3 年以上后端 / 应用开发经验,Python(FastAPI)为主,能独立设计和落地复杂系统\n2 ，真正做过 LLM 应用编排:LangGraph / LangChain ",
+    "url": "https://www.v2ex.com/t/1225426#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "AI 伴侣产品招对话编排工程师，远程/兼职，要求 LangGraph 经验，代表 AI 伴侣/NSFW 领域对 Agent 编排的专门需求。"
+   },
+   {
+    "title": "[急招] 搞定万卡调度后，我们决定去 Web3 用 Go + Agent 掀翻天花板！（香港 Base/包工签/深港通勤/上不封顶）",
+    "desc": "各位 V 友， 我们是一个处于高速发展期的 Web3 DEX 明星项目。目前团队核心后端全面拥抱 Golang ，信奉极客文化与大厂工程规范的融合。 最近团队在做一件非常酷的事情：我们不仅在构建下一代高性能的去中心化交易底座，还要把 AI Agent 深度注入到我们的“工程研发”和“业务场景”中，真正实现 AI 赋能的未来全自动化工作流！ 简单来说，我们需要一位既懂 Go 语言高并发高性能架构，又对 AI Agent （状态机、工具调用、RAG 记忆机制、Code Agent ）充满热情的 [ AI 工程专家/资深 AI 提效工程师] 。 ---------------------------",
+    "url": "https://www.v2ex.com/t/1224533#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "Web3 DEX 项目招 Go + Agent 工程师，香港 base，代表 AI Agent 在 Web3 领域的渗透。"
+   },
+   {
+    "title": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Ful",
+    "desc": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Full-time Qase is how engineering teams verify the quality of AI-generated code, so their companies can safely adopt AI-accelerated workflows. Developer Advocate — US-based, remote (North America). We're building the space for how engineering teams verify the quality of AI-generated code. Looking for a QA/quality-engineer",
+    "url": "https://news.ycombinator.com/item?id=48860201",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m44",
+    "summary": "Qase 招 Developer Advocate 做 AI 生成代码质量验证，代表 AI 代码质量保障成为新岗位类别。"
+   },
+   {
+    "title": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US)",
+    "desc": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US) | Equity-heavy We compress LLM KV cache. Measured: 8× at 3-bit with 0.43% quality delta (GPU-validated); 22× live end-to-end on a 5-tenant workload, GPU-verified this week (quantization × prefix dedup, decomposition always stated); 16.89× tenant density on a single V100-32GB. Validated across Mistral/Qwen/Llama with z",
+    "url": "https://news.ycombinator.com/item?id=48797747",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m74",
+    "summary": "Syntropic 招 Founding CTO/GPU 工程师做 KV Cache 压缩，8x 压缩率，代表 AI 推理优化创业公司的高技术门槛。"
+   }
+  ],
+  "week": "2026-W29"
+ }
+}
