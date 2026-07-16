@@ -1,0 +1,346 @@
+{
+ "date": "2026-07-17",
+ "generated_at": "2026-07-17 07:13",
+ "llm_used": true,
+ "trends": [
+  "中国AI模型加速追赶：Moonshot发布2-3万亿参数Kimi K3，逼近Anthropic Opus 4.8水平，开源模型竞争白热化。",
+  "AI Agent生态爆发：从OpenAI Codex键盘到DoorDash CLI，再到1Password集成Claude，AI Agent正从聊天走向工具调用和任务自动化。",
+  "AI安全与治理成焦点：美国州级AI安全立法推进，微软创纪录修复漏洞归功AI，Suno被曝用YouTube数据训练引发版权争议。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 3
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 5
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 18
+  },
+  {
+   "name": "The Verge AI",
+   "count": 9
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "apache/ossie",
+   "url": "https://github.com/apache/ossie",
+   "desc": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
+   "lang": "Python",
+   "stars": "880",
+   "stars_today": "81 stars today",
+   "summary": "Apache Ossie：一个行业级的语义元数据交换标准，旨在统一AI、BI和分析平台间的数据语义，解决数据孤岛问题。火的原因是它可能成为AI数据互操作性的关键基础设施。"
+  },
+  {
+   "id": "gh3",
+   "title": "PostHog/posthog",
+   "url": "https://github.com/PostHog/posthog",
+   "desc": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+   "lang": "Python",
+   "stars": "35,812",
+   "stars_today": "146 stars today",
+   "summary": "PostHog：领先的自驱动产品构建平台，提供AI可观测性、分析、会话回放等功能，帮助开发者诊断问题、发现机会。火是因为它集成了AI代理所需的上下文捕获能力，是构建智能产品的利器。"
+  },
+  {
+   "id": "gh5",
+   "title": "PrismML-Eng/Bonsai-demo",
+   "url": "https://github.com/PrismML-Eng/Bonsai-demo",
+   "desc": "Bonsai Demo",
+   "lang": "Shell",
+   "stars": "1,494",
+   "stars_today": "323 stars today",
+   "summary": "Bonsai-demo：一个演示项目，可能涉及AI模型或工具。火是因为今天涨了323星，但描述不清晰，需进一步关注。"
+  },
+  {
+   "id": "gh8",
+   "title": "lobehub/lobehub",
+   "url": "https://github.com/lobehub/lobehub",
+   "desc": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+   "lang": "TypeScript",
+   "stars": "80,130",
+   "stars_today": "51 stars today",
+   "summary": "LobeHub：首席代理操作员，将AI代理组织成7x24小时运营，包括招聘、调度和报告。火是因为它提供了一种管理AI团队的新范式，适合企业级AI部署。"
+  },
+  {
+   "id": "gh12",
+   "title": "github/copilot-sdk",
+   "url": "https://github.com/github/copilot-sdk",
+   "desc": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+   "lang": "Java",
+   "stars": "9,632",
+   "stars_today": "62 stars today",
+   "summary": "GitHub Copilot SDK：多平台SDK，用于将GitHub Copilot Agent集成到应用和服务中。火是因为它让开发者能轻松将Copilot能力嵌入自己的产品，扩展AI编程助手的使用场景。"
+  },
+  {
+   "id": "gh13",
+   "title": "ibelick/ui-skills",
+   "url": "https://github.com/ibelick/ui-skills",
+   "desc": "Skills for Design Engineers",
+   "lang": "TypeScript",
+   "stars": "4,221",
+   "stars_today": "141 stars today",
+   "summary": "ui-skills：面向设计工程师的技能库，可能包含AI驱动的UI组件或设计工具。火是因为它结合了设计与AI，满足前端开发者对智能UI的需求。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+   "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+   "desc": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "Moonshot即将发布Kimi K3，参数规模2-3万亿，号称中国最大开源模型，性能接近Anthropic Opus 4.8。这意味着开源大模型竞争进入万亿参数时代，中国AI厂商正快速缩小与前沿模型的差距。"
+  },
+  {
+   "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+   "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+   "desc": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n50",
+   "summary": "OpenAI发布售价230美元的Codex键盘，专为AI编程Agent设计，同时卷入与苹果的硬件商业秘密诉讼。这款硬件标志着AI从软件向专属硬件延伸，但法律纠纷可能影响其市场推广。"
+  },
+  {
+   "title": "Yes, you can now order DoorDash from the command line",
+   "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+   "desc": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "DoorDash推出命令行工具dd-cli，允许开发者和AI Agent在终端搜索、下单，这是继API之后又一面向Agent的接口。意味着传统消费服务正在为AI Agent重塑交互方式，Agent经济的基础设施逐步完善。"
+  },
+  {
+   "title": "Claude can now use your 1Password credentials for you",
+   "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+   "desc": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing onlin",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n59",
+   "summary": "1Password推出Claude浏览器集成，让AI助手可安全访问用户密码完成多步骤任务（如订票）。这是密码管理工具与AI Agent的深度结合，解决了Agent执行任务时的身份认证痛点。"
+  },
+  {
+   "title": "The US is advancing AI safety through state and federal action",
+   "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+   "desc": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n32",
+   "summary": "OpenAI提出“反向联邦主义”AI治理框架，主张州级立法先行，再构建国家统一安全标准。这反映了美国AI监管的务实路径，可能影响全球AI合规策略。"
+  },
+  {
+   "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+   "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+   "desc": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "微软Patch Tuesday修复创纪录的570个安全漏洞，归功于AI辅助发现。表明AI在网络安全领域正从“威胁”转变为“防御利器”，企业安全运营模式可能因此改变。"
+  },
+  {
+   "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
+   "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+   "desc": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n53",
+   "summary": "黑客利用员工凭证入侵AI音乐生成公司Suno，曝光其使用YouTube音频训练模型。这再次引发AI训练数据版权争议，可能影响音乐生成领域的法律和商业模式。"
+  },
+  {
+   "title": "Google Vids now lets you star in your own AI videos",
+   "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+   "desc": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Google Vids新增AI数字人功能，用户可生成以自己为主角的视频，结合Gemini Omni的生成与编辑能力。这是AI视频创作从“生成”到“个性化”的跃升，对内容创作者和营销领域影响深远。"
+  },
+  {
+   "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+   "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+   "desc": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Roblox在移动端推出AI游戏生成功能，用户只需输入文字提示即可创建基础游戏。这降低了游戏开发门槛，可能催生UGC游戏新生态，但质量把控仍是挑战。"
+  },
+  {
+   "title": "Google’s AI Mode now lets you link and interact with select apps",
+   "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+   "desc": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "Google AI Mode升级，可链接并操作第三方应用完成任务，从问答扩展到行动。这是Google将AI从信息检索推进到任务执行的关键一步，与Agent趋势一致。"
+  },
+  {
+   "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n34",
+   "summary": "NVIDIA Nemotron 3 Embed在RTEB基准排名第一，专为Agent检索优化。这意味着企业级AI Agent的检索能力有了更强的基础模型，可提升RAG等应用效果。"
+  },
+  {
+   "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
+   "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+   "desc": "Can a handful of engineers really do the work of an army of consultants? That’s the bet behind Ode with Anthropic — the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by Anthropic, Blackstone, Hellman & Friedman, Goldman Sachs and others.   On this episod",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n56",
+   "summary": "Anthropic与黑石等成立合资公司Ode，向企业派驻AI工程师，赌注是AI服务将取代传统咨询。这代表了一种新的AI商业化模式：不是卖模型，而是卖“AI人力”。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph2",
+   "title": "River",
+   "url": "https://www.producthunt.com/products/river-9",
+   "desc": "AI account executives that demo and close B2B deals Discussion | Link",
+   "summary": "River：AI销售代表，能自动演示和完成B2B交易。亮点是直接替代人工AE，从演示到签单全流程自动化，可能颠覆SaaS销售团队结构。"
+  },
+  {
+   "id": "ph5",
+   "title": "Verse",
+   "url": "https://www.producthunt.com/products/verse-6",
+   "desc": "Build and hire autonomous AI employees from a single prompt Discussion | Link",
+   "summary": "Verse：从单个提示构建和雇佣自主AI员工。亮点是“雇佣”概念，让AI像人类员工一样工作，适合想快速搭建AI团队的企业。"
+  },
+  {
+   "id": "ph0",
+   "title": "Graft AI",
+   "url": "https://www.producthunt.com/products/graft-ai",
+   "desc": "Turn company operations into a living map for agents Discussion | Link",
+   "summary": "Graft AI：将公司运营转化为智能体的活地图。亮点是可视化运营流程，让AI代理理解并执行任务，类似企业级AI操作系统。"
+  },
+  {
+   "id": "ph8",
+   "title": "Breadcromb",
+   "url": "https://www.producthunt.com/products/breadcromb",
+   "desc": "A browser that remembers everything and can act on anything Discussion | Link",
+   "summary": "Breadcromb：能记住一切并执行操作的浏览器。亮点是“记忆+行动”，浏览器成为AI代理，自动完成网页任务，可能改变上网方式。"
+  },
+  {
+   "id": "ph3",
+   "title": "In Parallel MCP",
+   "url": "https://www.producthunt.com/products/in-parallel",
+   "desc": "Your context, available to every agent. Discussion | Link",
+   "summary": "In Parallel MCP：让上下文对所有智能体可用。亮点是统一上下文层，解决AI代理信息孤岛问题，提升协作效率。"
+  },
+  {
+   "id": "ph11",
+   "title": "Cito",
+   "url": "https://www.producthunt.com/products/cito",
+   "desc": "Hybrid academic search over 236M papers, built for agents Discussion | Link",
+   "summary": "Cito：面向智能体的混合学术搜索，覆盖2.36亿论文。亮点是专为AI代理设计，可程序化调用，适合科研自动化。"
+  },
+  {
+   "id": "ph22",
+   "title": "Kit For AI",
+   "url": "https://www.producthunt.com/products/kit-for-ai",
+   "desc": "The memory layer for AI agents Discussion | Link",
+   "summary": "Kit For AI：AI代理的记忆层。亮点是持久化记忆，让代理记住用户偏好和历史，提升个性化体验。"
+  },
+  {
+   "id": "ph24",
+   "title": "Nitrosend",
+   "url": "https://www.producthunt.com/products/nitrosend",
+   "desc": "Email for AI agents. They sign up, send and reply. Discussion | Link",
+   "summary": "Nitrosend：AI代理的电子邮件服务。亮点是代理能自主注册、发送和回复邮件，实现完全自主的邮件沟通。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent 开发是绝对热点：从 Agent 编排（LangGraph）、记忆系统、工具调用到多智能体协同，几乎所有岗位都要求 Agent 相关经验。",
+   "全栈 + AI 集成能力吃香：大量岗位要求同时掌握前端（React/TypeScript）和后端（Python/Go），并能将 LLM、图像生成等 AI 能力集成到产品中。",
+   "底层优化与推理加速需求上升：KV Cache 优化、CUDA 编程、GPU 调度等岗位增多，反映市场对 AI 推理成本和性能的关注。",
+   "AI 安全与质量保障成为新方向：出现 AI 生成代码质量验证、AI 安全测试等岗位，说明企业开始重视 AI 系统的可靠性和安全性。"
+  ],
+  "gigs": [
+   "远程/兼职岗位集中在 AI 数据标注、Vibe Coding 任务设计、AI 内容策划等方向，报酬在 300-1000 元/任务，适合有 AI 工具使用经验的开发者。",
+   "Shopify 插件开发、前端页面优化等传统外包需求依然存在，但要求结合 AI 能力（如 AI 好评生成）。",
+   "样本有限，但观察到 AI 伴侣、数字人等垂直领域的外包需求增加，需要对话编排、记忆系统等专业技能。"
+  ],
+  "highlights": [
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m15",
+    "summary": "悉尼 startup 招 Senior AI Researcher 做 KV Cache 优化，远程+可 relocate，代表 AI 推理优化成为高薪方向。"
+   },
+   {
+    "title": "全栈开发工程师招募；",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1225429#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m20",
+    "summary": "Kapibala AI 获 1000 万美元融资，招全栈工程师做 Sales AGI，要求重度使用 AI 工具，代表 AI Native 创业公司对全栈+AI 能力的需求。"
+   },
+   {
+    "title": "[招聘] AI 伴侣产品对话编排工程师",
+    "desc": "我们是专注 NSFW 领域的 AI 伴侣产品，美国华人初创公司 目前针对对话 AI 编排工程师进行招聘，远程/兼职岗位均可，只看有相关经验的大牛哈 工作职责： 1 ，设计并实现对话主链路的编排系统:角色卡 / 世界书 / 记忆 / 状态的动态组装与调度\n2 ，搭建记忆系统\n3 ，用确定性状态机维护关系、剧情进度\n4 ，设计\"导演层\":用规则化逻辑控制剧情推进节奏\n5 ，优化 token 成本与缓存命中率 能力要求： 1 ，3 年以上后端 / 应用开发经验,Python(FastAPI)为主,能独立设计和落地复杂系统\n2 ，真正做过 LLM 应用编排:LangGraph / LangChain ",
+    "url": "https://www.v2ex.com/t/1225426#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "AI 伴侣产品招对话编排工程师，远程/兼职，要求 LangGraph 经验，代表 AI 伴侣/NSFW 领域对 Agent 编排的专门需求。"
+   },
+   {
+    "title": "[急招] 搞定万卡调度后，我们决定去 Web3 用 Go + Agent 掀翻天花板！（香港 Base/包工签/深港通勤/上不封顶）",
+    "desc": "各位 V 友， 我们是一个处于高速发展期的 Web3 DEX 明星项目。目前团队核心后端全面拥抱 Golang ，信奉极客文化与大厂工程规范的融合。 最近团队在做一件非常酷的事情：我们不仅在构建下一代高性能的去中心化交易底座，还要把 AI Agent 深度注入到我们的“工程研发”和“业务场景”中，真正实现 AI 赋能的未来全自动化工作流！ 简单来说，我们需要一位既懂 Go 语言高并发高性能架构，又对 AI Agent （状态机、工具调用、RAG 记忆机制、Code Agent ）充满热情的 [ AI 工程专家/资深 AI 提效工程师] 。 ---------------------------",
+    "url": "https://www.v2ex.com/t/1224533#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "Web3 DEX 项目招 Go + Agent 工程师，香港 base，代表 AI Agent 在 Web3 领域的渗透。"
+   },
+   {
+    "title": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Ful",
+    "desc": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Full-time Qase is how engineering teams verify the quality of AI-generated code, so their companies can safely adopt AI-accelerated workflows. Developer Advocate — US-based, remote (North America). We're building the space for how engineering teams verify the quality of AI-generated code. Looking for a QA/quality-engineer",
+    "url": "https://news.ycombinator.com/item?id=48860201",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m44",
+    "summary": "Qase 招 Developer Advocate 做 AI 生成代码质量验证，代表 AI 代码质量保障成为新岗位类别。"
+   },
+   {
+    "title": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US)",
+    "desc": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US) | Equity-heavy We compress LLM KV cache. Measured: 8× at 3-bit with 0.43% quality delta (GPU-validated); 22× live end-to-end on a 5-tenant workload, GPU-verified this week (quantization × prefix dedup, decomposition always stated); 16.89× tenant density on a single V100-32GB. Validated across Mistral/Qwen/Llama with z",
+    "url": "https://news.ycombinator.com/item?id=48797747",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m74",
+    "summary": "Syntropic 招 Founding CTO/GPU 工程师做 KV Cache 压缩，8x 压缩率，代表 AI 推理优化创业公司的高技术门槛。"
+   }
+  ],
+  "week": "2026-W29"
+ }
+}
