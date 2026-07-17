@@ -1,0 +1,327 @@
+{
+ "date": "2026-07-18",
+ "generated_at": "2026-07-18 07:11",
+ "llm_used": true,
+ "trends": [
+  "AI基础设施投资从训练转向推理：GPU融资开始押注推理芯片，Databricks估值1880亿美元，表明市场对AI应用落地的信心增强。",
+  "AI agent与工具集成加速：DoorDash CLI、1Password+Claude、Google AI Mode等，AI agent正从对话走向执行任务，开发者应关注agent-native产品机会。",
+  "开源AI模型竞争白热化：Kimi K3参数达2-3万亿，逼近闭源模型；开源模型成本优势被Databricks研究证实，开发者可低成本构建AI应用。",
+  "AI监管与法律风险升级：Apple诉OpenAI、欧盟要求Google开放Android给AI助手，合规与数据安全成为AI公司必须面对的挑战。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 14
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 18
+  },
+  {
+   "name": "The Verge AI",
+   "count": 6
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [
+  {
+   "id": "gh8",
+   "title": "tirth8205/code-review-graph",
+   "url": "https://github.com/tirth8205/code-review-graph",
+   "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+   "lang": "Python",
+   "stars": "19,725",
+   "stars_today": "57 stars today",
+   "summary": "code-review-graph 是一个本地优先的代码智能图工具，为 MCP 和 CLI 设计，能构建代码库的持久映射，让 AI 编码工具只读取相关部分，显著减少上下文。它火了是因为它解决了 AI 代码审查和大型仓库工作流中的上下文窗口瓶颈，实测能降低上下文量。"
+  },
+  {
+   "id": "gh11",
+   "title": "RyanCodrai/turbovec",
+   "url": "https://github.com/RyanCodrai/turbovec",
+   "desc": "A vector index built on TurboQuant, written in Rust with Python bindings",
+   "lang": "Python",
+   "stars": "13,282",
+   "stars_today": "280 stars today",
+   "summary": "turbovec 是一个基于 TurboQuant 的向量索引，用 Rust 编写并提供 Python 绑定。它火了是因为它提供了高性能的向量搜索能力，适合 AI 应用中的相似性检索，且 Rust 实现保证了速度。"
+  },
+  {
+   "id": "gh0",
+   "title": "codecrafters-io/build-your-own-x",
+   "url": "https://github.com/codecrafters-io/build-your-own-x",
+   "desc": "Master programming by recreating your favorite technologies from scratch.",
+   "lang": "Markdown",
+   "stars": "527,284",
+   "stars_today": "1,070 stars today",
+   "summary": "build-your-own-x 是一个通过从零复现流行技术来掌握编程的教程集合。它火了是因为它帮助开发者深入理解底层原理，对 AI 开发者来说，复现 LLM 或向量数据库等项目能提升实战能力。"
+  },
+  {
+   "id": "gh5",
+   "title": "anthropics/cwc-workshops",
+   "url": "https://github.com/anthropics/cwc-workshops",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": "1,575",
+   "stars_today": "37 stars today",
+   "summary": "cwc-workshops 是 Anthropic 的 Code with Claude 工作坊，用 TypeScript 编写。它火了是因为它提供了使用 Claude 进行编码的实践教程，直接关联到 AI 辅助开发的最新实践。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
+   "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+   "desc": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Databricks估值达1880亿美元，并发布研究证明开源AI模型在编码任务上成本更低。这意味着开源模型在商业应用中具有显著经济优势，开发者应优先考虑开源方案降低成本。"
+  },
+  {
+   "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
+   "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+   "desc": "A $400 million chip-backed loan points to the next wave of AI infrastructure deals.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "首批GPU融资者转向推理芯片，达成4亿美元交易。这标志着AI基础设施投资从训练转向推理，推理芯片将成为下一波增长点，相关创业机会涌现。"
+  },
+  {
+   "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+   "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+   "desc": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n50",
+   "summary": "Moonshot即将发布Kimi K3，参数规模2-3万亿，预计接近Anthropic Opus 4.8水平。这是中国最大开源模型，表明开源模型能力正快速追赶闭源，开发者可期待更强大的开源选择。"
+  },
+  {
+   "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
+   "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+   "desc": "Apple filed a trade secrets lawsuit against OpenAI last Friday, and it’s not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI’s chief hardware officer and claims more than 400 former Apple employees now work at the company. OpenAI’s response so far has ",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Apple起诉OpenAI窃取商业机密，指控其挖走400多名Apple员工。此案可能影响OpenAI的IPO计划，并警示AI公司需重视合规与人才竞争的法律风险。"
+  },
+  {
+   "title": "Yes, you can now order DoorDash from the command line",
+   "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+   "desc": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "DoorDash推出命令行工具dd-cli，允许AI agent直接下单。这是AI agent与真实服务集成的典型案例，预示未来软件将同时面向人类和AI agent设计。"
+  },
+  {
+   "title": "Claude can now use your 1Password credentials for you",
+   "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+   "desc": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing onlin",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n56",
+   "summary": "1Password为Claude推出浏览器集成，让AI助手能安全访问用户凭证完成多步骤任务。这降低了AI agent执行实际操作的障碍，是agent落地的重要一步。"
+  },
+  {
+   "title": "Google ordered to open Android and Search to rivals in Europe",
+   "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+   "desc": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bloc's digital antitrust rules. The two decisions, handed down Thursday, could weaken Google's control over two of the tech",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n57",
+   "summary": "欧盟要求Google开放Android和搜索给竞争对手AI助手。这将打破Google的生态壁垒，为第三方AI助手提供更大市场空间，开发者可抓住机会构建跨平台AI服务。"
+  },
+  {
+   "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+   "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+   "desc": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n48",
+   "summary": "前DeepMind研究员Andrew Dai以3亿美元pre-seed估值创立视觉AI公司，尚未发布产品。视觉AI被视为下一前沿，高估值反映资本对多模态AI的强烈信心。"
+  },
+  {
+   "title": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+   "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+   "desc": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Patreon与Cloudflare合作主动阻止AI爬虫，放弃仅依赖robots.txt。这反映了内容平台对AI训练数据使用的强硬态度，开发者需注意数据合规风险。"
+  },
+  {
+   "title": "A scorecard for the AI age",
+   "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+   "desc": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI CFO推出AI记分卡，衡量有用工作、每次成功任务成本、可靠性和计算回报。这为企业评估AI投资回报提供了实用框架，开发者可参考设计产品指标。"
+  },
+  {
+   "title": "Agility Robotics plants its flag in Tesla’s backyard",
+   "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+   "desc": "Agility is opening a new training center for its Digit robots in Fremont, California.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Agility Robotics在特斯拉附近开设Digit机器人训练中心。人形机器人商业化加速，与自动驾驶争夺同一人才和市场，开发者可关注机器人AI的交叉领域。"
+  },
+  {
+   "title": "逛完WAIC 2026我悟了：国产AI芯片的真对手，根本不是英伟达的GPU",
+   "url": "https://www.qbitai.com/2026/07/453352.html",
+   "desc": "发布芯片只是拿到了入场券",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n58",
+   "summary": "WAIC 2026观察：国产AI芯片的真正对手不是英伟达GPU，而是生态和软件栈。开发者应关注国产芯片的软件兼容性，避免被单一硬件锁定。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph4",
+   "title": "Kimi K3",
+   "url": "https://www.producthunt.com/products/kimi-ai-assistant",
+   "desc": "The world's first open 3T-class model Discussion | Link",
+   "summary": "Kimi K3 是全球首个开源的 3T 参数级模型，适合研究者和开发者探索大模型极限，但实际部署成本极高。"
+  },
+  {
+   "id": "ph0",
+   "title": "Pebbles Ai",
+   "url": "https://www.producthunt.com/products/pebbles-ai",
+   "desc": "AI sales platform for modern B2B teams Discussion | Link",
+   "summary": "Pebbles Ai 是面向现代 B2B 团队的 AI 销售平台，自动化销售流程，提升转化效率。"
+  },
+  {
+   "id": "ph1",
+   "title": "Unabyss for Claude",
+   "url": "https://www.producthunt.com/products/unabyss",
+   "desc": "Shared memory across all apps and LLMs. In Claude Discussion | Link",
+   "summary": "Unabyss for Claude 为 Claude 提供跨应用和 LLM 的共享记忆，让 AI 对话更连贯、个性化。"
+  },
+  {
+   "id": "ph2",
+   "title": "Basedash Suggestions",
+   "url": "https://www.producthunt.com/products/basedash",
+   "desc": "Your AI data analyst, now with ideas of its own. Discussion | Link",
+   "summary": "Basedash Suggestions 是能主动提出分析建议的 AI 数据助手，从被动回答变为主动洞察。"
+  },
+  {
+   "id": "ph7",
+   "title": "Aye",
+   "url": "https://www.producthunt.com/products/aye-browser",
+   "desc": "Your teachable AI intern for everyday browser work Discussion | Link",
+   "summary": "Aye 是一个可训练的 AI 实习生，能学习你的操作习惯并自动完成浏览器中的日常任务。"
+  },
+  {
+   "id": "ph14",
+   "title": "Albato AI",
+   "url": "https://www.producthunt.com/products/albato",
+   "desc": "Build AI-driven workflows across 1,000+ apps Discussion | Link",
+   "summary": "Albato AI 让你无需编码即可在 1000+ 应用间构建 AI 驱动的工作流，自动化复杂业务。"
+  },
+  {
+   "id": "ph15",
+   "title": "Manta AI",
+   "url": "https://www.producthunt.com/products/manta-ai",
+   "desc": "Your AI agent for autonomous web app testing Discussion | Link",
+   "summary": "Manta AI 是自主的 Web 应用测试代理，能自动发现并报告 bug，减少手动测试工作量。"
+  },
+  {
+   "id": "ph18",
+   "title": "Zro",
+   "url": "https://www.producthunt.com/products/zro",
+   "desc": "Private inference for coding agents Discussion | Link",
+   "summary": "Zro 为编码代理提供私有推理能力，保护代码隐私，适合企业级 AI 编程场景。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent 开发是绝对热点：从 Agent 编排（LangGraph）、记忆系统、工具调用到多智能体协同，几乎所有岗位都要求 Agent 相关经验。",
+   "全栈 + AI 集成能力吃香：大量岗位要求同时掌握前端（React/TypeScript）和后端（Python/Go），并能将 LLM、图像生成等 AI 能力集成到产品中。",
+   "底层优化与推理加速需求上升：KV Cache 优化、CUDA 编程、GPU 调度等岗位增多，反映市场对 AI 推理成本和性能的关注。",
+   "AI 安全与质量保障成为新方向：出现 AI 生成代码质量验证、AI 安全测试等岗位，说明企业开始重视 AI 系统的可靠性和安全性。"
+  ],
+  "gigs": [
+   "远程/兼职岗位集中在 AI 数据标注、Vibe Coding 任务设计、AI 内容策划等方向，报酬在 300-1000 元/任务，适合有 AI 工具使用经验的开发者。",
+   "Shopify 插件开发、前端页面优化等传统外包需求依然存在，但要求结合 AI 能力（如 AI 好评生成）。",
+   "样本有限，但观察到 AI 伴侣、数字人等垂直领域的外包需求增加，需要对话编排、记忆系统等专业技能。"
+  ],
+  "highlights": [
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m15",
+    "summary": "悉尼 startup 招 Senior AI Researcher 做 KV Cache 优化，远程+可 relocate，代表 AI 推理优化成为高薪方向。"
+   },
+   {
+    "title": "全栈开发工程师招募；",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1225429#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m20",
+    "summary": "Kapibala AI 获 1000 万美元融资，招全栈工程师做 Sales AGI，要求重度使用 AI 工具，代表 AI Native 创业公司对全栈+AI 能力的需求。"
+   },
+   {
+    "title": "[招聘] AI 伴侣产品对话编排工程师",
+    "desc": "我们是专注 NSFW 领域的 AI 伴侣产品，美国华人初创公司 目前针对对话 AI 编排工程师进行招聘，远程/兼职岗位均可，只看有相关经验的大牛哈 工作职责： 1 ，设计并实现对话主链路的编排系统:角色卡 / 世界书 / 记忆 / 状态的动态组装与调度\n2 ，搭建记忆系统\n3 ，用确定性状态机维护关系、剧情进度\n4 ，设计\"导演层\":用规则化逻辑控制剧情推进节奏\n5 ，优化 token 成本与缓存命中率 能力要求： 1 ，3 年以上后端 / 应用开发经验,Python(FastAPI)为主,能独立设计和落地复杂系统\n2 ，真正做过 LLM 应用编排:LangGraph / LangChain ",
+    "url": "https://www.v2ex.com/t/1225426#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "AI 伴侣产品招对话编排工程师，远程/兼职，要求 LangGraph 经验，代表 AI 伴侣/NSFW 领域对 Agent 编排的专门需求。"
+   },
+   {
+    "title": "[急招] 搞定万卡调度后，我们决定去 Web3 用 Go + Agent 掀翻天花板！（香港 Base/包工签/深港通勤/上不封顶）",
+    "desc": "各位 V 友， 我们是一个处于高速发展期的 Web3 DEX 明星项目。目前团队核心后端全面拥抱 Golang ，信奉极客文化与大厂工程规范的融合。 最近团队在做一件非常酷的事情：我们不仅在构建下一代高性能的去中心化交易底座，还要把 AI Agent 深度注入到我们的“工程研发”和“业务场景”中，真正实现 AI 赋能的未来全自动化工作流！ 简单来说，我们需要一位既懂 Go 语言高并发高性能架构，又对 AI Agent （状态机、工具调用、RAG 记忆机制、Code Agent ）充满热情的 [ AI 工程专家/资深 AI 提效工程师] 。 ---------------------------",
+    "url": "https://www.v2ex.com/t/1224533#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "Web3 DEX 项目招 Go + Agent 工程师，香港 base，代表 AI Agent 在 Web3 领域的渗透。"
+   },
+   {
+    "title": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Ful",
+    "desc": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Full-time Qase is how engineering teams verify the quality of AI-generated code, so their companies can safely adopt AI-accelerated workflows. Developer Advocate — US-based, remote (North America). We're building the space for how engineering teams verify the quality of AI-generated code. Looking for a QA/quality-engineer",
+    "url": "https://news.ycombinator.com/item?id=48860201",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m44",
+    "summary": "Qase 招 Developer Advocate 做 AI 生成代码质量验证，代表 AI 代码质量保障成为新岗位类别。"
+   },
+   {
+    "title": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US)",
+    "desc": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US) | Equity-heavy We compress LLM KV cache. Measured: 8× at 3-bit with 0.43% quality delta (GPU-validated); 22× live end-to-end on a 5-tenant workload, GPU-verified this week (quantization × prefix dedup, decomposition always stated); 16.89× tenant density on a single V100-32GB. Validated across Mistral/Qwen/Llama with z",
+    "url": "https://news.ycombinator.com/item?id=48797747",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m74",
+    "summary": "Syntropic 招 Founding CTO/GPU 工程师做 KV Cache 压缩，8x 压缩率，代表 AI 推理优化创业公司的高技术门槛。"
+   }
+  ],
+  "week": "2026-W29"
+ }
+}
