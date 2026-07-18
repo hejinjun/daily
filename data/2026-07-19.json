@@ -1,0 +1,348 @@
+{
+ "date": "2026-07-19",
+ "generated_at": "2026-07-19 07:14",
+ "llm_used": true,
+ "trends": [
+  "AI模型竞争白热化：GPT-5.6和Kimi K3在数学、优化等硬核领域展现突破，开源模型与闭源模型差距缩小，开发者应关注模型能力边界和实际应用场景。",
+  "AI基础设施投资转向推理芯片：GPU融资转向推理芯片，表明AI部署重心从训练转向推理，边缘计算和端侧AI迎来机会。",
+  "AI版权与数据合规成为焦点：Apple起诉OpenAI、Patreon主动封禁爬虫、TikTok检测AI肖像，开发者需重视数据来源合法性和模型训练合规风险。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 11
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 11
+  },
+  {
+   "name": "The Verge AI",
+   "count": 4
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "Robbyant/lingbot-map",
+   "url": "https://github.com/Robbyant/lingbot-map",
+   "desc": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+   "lang": "Python",
+   "stars": "12,891",
+   "stars_today": "827 stars today",
+   "summary": "Robbyant/lingbot-map：一个前馈式3D基础模型，能从流式数据重建场景。火的原因是它实现了实时3D场景理解，对机器人、AR/VR等领域有重大意义。"
+  },
+  {
+   "id": "gh4",
+   "title": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": "39,080",
+   "stars_today": "240 stars today",
+   "summary": "rohitg00/ai-engineering-from-scratch：从零开始学习AI工程，强调动手构建和交付。火是因为它提供了系统化的实战路径，适合想深入AI工程化的开发者。"
+  },
+  {
+   "id": "gh7",
+   "title": "lyogavin/airllm",
+   "url": "https://github.com/lyogavin/airllm",
+   "desc": "AirLLM 70B inference with single 4GB GPU",
+   "lang": "Jupyter Notebook",
+   "stars": "23,317",
+   "stars_today": "234 stars today",
+   "summary": "lyogavin/airllm：AirLLM 70B推理，单张4GB GPU即可运行。火是因为它大幅降低了大型语言模型的硬件门槛，让更多人能本地部署70B模型。"
+  },
+  {
+   "id": "gh8",
+   "title": "KnockOutEZ/wigolo",
+   "url": "https://github.com/KnockOutEZ/wigolo",
+   "desc": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+   "lang": "TypeScript",
+   "stars": "1,205",
+   "stars_today": "192 stars today",
+   "summary": "KnockOutEZ/wigolo：面向AI编码代理的本地优先搜索、抓取、爬虫和研究工具，基于MCP协议，无需API密钥和云服务。火是因为它提供了零成本的本地化数据获取方案，对AI agent开发很有价值。"
+  },
+  {
+   "id": "gh10",
+   "title": "MoonshotAI/kimi-cli",
+   "url": "https://github.com/MoonshotAI/kimi-cli",
+   "desc": "Kimi Code CLI is your next CLI agent.",
+   "lang": "Python",
+   "stars": "9,458",
+   "stars_today": "48 stars today",
+   "summary": "MoonshotAI/kimi-cli：Kimi Code CLI，一个命令行AI代理。火是因为它代表了AI辅助编程的新形态，直接在终端中提供智能交互。"
+  },
+  {
+   "id": "gh6",
+   "title": "elder-plinius/G0DM0D3",
+   "url": "https://github.com/elder-plinius/G0DM0D3",
+   "desc": "LIBERATED AI CHAT",
+   "lang": "TypeScript",
+   "stars": "9,492",
+   "stars_today": "63 stars today",
+   "summary": "elder-plinius/G0DM0D3：一个“解放AI聊天”的项目。火是因为它可能涉及绕过AI聊天限制的技术，引发对AI安全与自由的讨论。"
+  }
+ ],
+ "news": [
+  {
+   "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+   "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 477,
+   "id": "n1",
+   "summary": "GPT-5.6使用一个提示词就解决了凸优化领域30年未解的难题。这意味着大模型在数学和优化等硬核科学领域的能力远超预期，可能加速相关领域的研究突破。"
+  },
+  {
+   "title": "The Kimi K3 Moment",
+   "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 244,
+   "id": "n3",
+   "summary": "中国公司Moonshot AI发布Kimi K3模型，引发业界关注。Kimi K3在多项基准测试中表现优异，被认为可能缩小与Anthropic Opus等顶级模型的差距，显示中国AI公司的追赶速度。"
+  },
+  {
+   "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
+   "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+   "desc": "Apple filed a trade secrets lawsuit against OpenAI last Friday, and it’s not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI’s chief hardware officer and claims more than 400 former Apple employees now work at the company. OpenAI’s response so far has ",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "Apple对OpenAI提起商业秘密诉讼，指控其挖角400多名前员工并窃取技术。此案可能影响OpenAI的IPO计划，也凸显AI人才争夺战的法律风险。"
+  },
+  {
+   "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
+   "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+   "desc": "A $400 million chip-backed loan points to the next wave of AI infrastructure deals.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "首批GPU融资方转向推理芯片，达成4亿美元交易。这表明AI基础设施投资正从训练转向推理，推理芯片和边缘计算将成为下一波增长点。"
+  },
+  {
+   "title": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+   "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+   "desc": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Patreon与Cloudflare合作主动封禁AI爬虫，放弃仅依赖robots.txt。这标志着内容平台对AI训练数据抓取的防御升级，开发者需注意数据合规。"
+  },
+  {
+   "title": "TikTok is testing an AI likeness detection tool",
+   "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+   "desc": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "TikTok开始测试AI肖像检测工具，允许创作者举报AI生成的仿冒内容。这是平台应对深度伪造和肖像权滥用的重要举措，可能成为行业标准。"
+  },
+  {
+   "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+   "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n30",
+   "summary": "NVIDIA NeMo与Hugging Face Diffusers集成，支持大规模微调视频和图像模型。这降低了多模态模型微调门槛，为开发者提供更高效的定制化工具。"
+  },
+  {
+   "title": "WAIC看了一圈，这家公司的机器人在认真打工",
+   "url": "https://www.qbitai.com/2026/07/454040.html",
+   "desc": "机器人真正具备了干活的完整能力",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n46",
+   "summary": "WAIC 2026上，多家公司展示机器人实际工作能力，从实验室走向真实场景。机器人具身智能取得进展，但距离大规模商用仍有距离。"
+  },
+  {
+   "title": "让VLA更懂接触，优理奇UniTac让机器人拥有“触觉想象力”",
+   "url": "https://www.qbitai.com/2026/07/453897.html",
+   "desc": "入选ECCV 2026",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n49",
+   "summary": "优理奇UniTac让机器人拥有触觉想象力，相关研究入选ECCV 2026。触觉感知是机器人操作的关键，这一突破可能推动精细操作任务的自动化。"
+  },
+  {
+   "title": "妙啊！无人机直连卫星传Token",
+   "url": "https://www.qbitai.com/2026/07/453789.html",
+   "desc": "世界人工智能大会最高奖",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n51",
+   "summary": "无人机直连卫星传输Token技术获世界人工智能大会最高奖。该技术解决了偏远地区AI推理的通信瓶颈，对物联网和边缘AI有重要意义。"
+  },
+  {
+   "title": "后摩智能携 M50 Inside 终端亮相 WAIC 2026，支撑端侧 AI 算力与终端创新",
+   "url": "https://www.qbitai.com/2026/07/453705.html",
+   "desc": "本地大模型规模化商用破局",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n52",
+   "summary": "后摩智能发布M50 Inside终端，支撑端侧AI算力。本地大模型规模化商用迎来新硬件方案，端侧AI推理成本有望进一步降低。"
+  },
+  {
+   "title": "商汤大装置联合近20家生态伙伴发起“银河计划”，将共建5个万卡级国产智算集群",
+   "url": "https://www.qbitai.com/2026/07/453697.html",
+   "desc": "加速国产算力从落地可用到规模化盈利",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n53",
+   "summary": "商汤大装置联合近20家生态伙伴发起银河计划，共建5个万卡级国产智算集群。国产算力生态加速整合，从可用走向规模化盈利。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph5",
+   "title": "ZooData",
+   "url": "https://www.producthunt.com/products/zoodata",
+   "desc": "The data layer for AI agents Discussion | Link",
+   "summary": "ZooData 是专为 AI 代理设计的数据层，解决代理访问实时结构化数据的痛点。亮点是提供统一接口，让代理能像查询数据库一样获取外部数据，提升自主决策能力。"
+  },
+  {
+   "id": "ph6",
+   "title": "Clark",
+   "url": "https://www.producthunt.com/products/clark-agent",
+   "desc": "An AI coworker with its own cloud computer Discussion | Link",
+   "summary": "Clark 是一个拥有自己云电脑的 AI 同事，能独立执行任务、运行代码和操作文件。亮点是它像真人同事一样拥有持久的工作环境，适合自动化复杂工作流。"
+  },
+  {
+   "id": "ph0",
+   "title": "LiveDemo",
+   "url": "https://www.producthunt.com/products/livedemo",
+   "desc": "Open-source alternative to Storylane, Navattic, and Arcade Discussion | Link",
+   "summary": "LiveDemo 是 Storylane 等产品的开源替代，用于快速创建交互式产品演示。亮点是开源、可自托管，开发者能完全控制演示数据和样式。"
+  },
+  {
+   "id": "ph4",
+   "title": "Mirage",
+   "url": "https://www.producthunt.com/products/mirage-15",
+   "desc": "Turn your SaaS into a clickable demo in 90 seconds. Discussion | Link",
+   "summary": "Mirage 能在 90 秒内将你的 SaaS 产品转化为可点击的交互式演示。亮点是零代码、极速生成，适合销售和营销团队快速展示产品。"
+  },
+  {
+   "id": "ph8",
+   "title": "OpenMarkdown",
+   "url": "https://www.producthunt.com/products/openmarkdown",
+   "desc": "A markdown editor you and your agent co-edit Discussion | Link",
+   "summary": "OpenMarkdown 是一个你和 AI 代理可以共同编辑的 Markdown 编辑器。亮点是支持实时协作，AI 能直接修改文档，适合写作和知识管理。"
+  },
+  {
+   "id": "ph3",
+   "title": "DocuSmart AI",
+   "url": "https://www.producthunt.com/products/docusmart-ai",
+   "desc": "Turning fragmented knowledge into one simple system Discussion | Link",
+   "summary": "DocuSmart AI 将碎片化知识整合为统一系统，自动分类和关联信息。亮点是智能知识图谱，减少手动整理，适合团队知识库建设。"
+  },
+  {
+   "id": "ph19",
+   "title": "The Eureka Database",
+   "url": "https://www.producthunt.com/products/the-eureka-database",
+   "desc": "Turn a Reddit complaint into your next company Discussion | Link",
+   "summary": "The Eureka Database 从 Reddit 投诉中挖掘创业点子，用 AI 分析痛点并生成商业方案。亮点是数据驱动创意，降低市场调研门槛。"
+  },
+  {
+   "id": "ph27",
+   "title": "Weave",
+   "url": "https://www.producthunt.com/products/weave-9",
+   "desc": "Think out loud and watch it become a living map. Discussion | Link",
+   "summary": "Weave 将你的思维过程实时转化为可视化思维导图。亮点是语音或文字输入即可生成动态地图，适合头脑风暴和项目规划。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent 开发是绝对热点：从 Agent 编排（LangGraph）、记忆系统、工具调用到多智能体协同，几乎所有岗位都要求 Agent 相关经验。",
+   "全栈 + AI 集成能力吃香：大量岗位要求同时掌握前端（React/TypeScript）和后端（Python/Go），并能将 LLM、图像生成等 AI 能力集成到产品中。",
+   "底层优化与推理加速需求上升：KV Cache 优化、CUDA 编程、GPU 调度等岗位增多，反映市场对 AI 推理成本和性能的关注。",
+   "AI 安全与质量保障成为新方向：出现 AI 生成代码质量验证、AI 安全测试等岗位，说明企业开始重视 AI 系统的可靠性和安全性。"
+  ],
+  "gigs": [
+   "远程/兼职岗位集中在 AI 数据标注、Vibe Coding 任务设计、AI 内容策划等方向，报酬在 300-1000 元/任务，适合有 AI 工具使用经验的开发者。",
+   "Shopify 插件开发、前端页面优化等传统外包需求依然存在，但要求结合 AI 能力（如 AI 好评生成）。",
+   "样本有限，但观察到 AI 伴侣、数字人等垂直领域的外包需求增加，需要对话编排、记忆系统等专业技能。"
+  ],
+  "highlights": [
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m15",
+    "summary": "悉尼 startup 招 Senior AI Researcher 做 KV Cache 优化，远程+可 relocate，代表 AI 推理优化成为高薪方向。"
+   },
+   {
+    "title": "全栈开发工程师招募；",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1225429#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m20",
+    "summary": "Kapibala AI 获 1000 万美元融资，招全栈工程师做 Sales AGI，要求重度使用 AI 工具，代表 AI Native 创业公司对全栈+AI 能力的需求。"
+   },
+   {
+    "title": "[招聘] AI 伴侣产品对话编排工程师",
+    "desc": "我们是专注 NSFW 领域的 AI 伴侣产品，美国华人初创公司 目前针对对话 AI 编排工程师进行招聘，远程/兼职岗位均可，只看有相关经验的大牛哈 工作职责： 1 ，设计并实现对话主链路的编排系统:角色卡 / 世界书 / 记忆 / 状态的动态组装与调度\n2 ，搭建记忆系统\n3 ，用确定性状态机维护关系、剧情进度\n4 ，设计\"导演层\":用规则化逻辑控制剧情推进节奏\n5 ，优化 token 成本与缓存命中率 能力要求： 1 ，3 年以上后端 / 应用开发经验,Python(FastAPI)为主,能独立设计和落地复杂系统\n2 ，真正做过 LLM 应用编排:LangGraph / LangChain ",
+    "url": "https://www.v2ex.com/t/1225426#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "AI 伴侣产品招对话编排工程师，远程/兼职，要求 LangGraph 经验，代表 AI 伴侣/NSFW 领域对 Agent 编排的专门需求。"
+   },
+   {
+    "title": "[急招] 搞定万卡调度后，我们决定去 Web3 用 Go + Agent 掀翻天花板！（香港 Base/包工签/深港通勤/上不封顶）",
+    "desc": "各位 V 友， 我们是一个处于高速发展期的 Web3 DEX 明星项目。目前团队核心后端全面拥抱 Golang ，信奉极客文化与大厂工程规范的融合。 最近团队在做一件非常酷的事情：我们不仅在构建下一代高性能的去中心化交易底座，还要把 AI Agent 深度注入到我们的“工程研发”和“业务场景”中，真正实现 AI 赋能的未来全自动化工作流！ 简单来说，我们需要一位既懂 Go 语言高并发高性能架构，又对 AI Agent （状态机、工具调用、RAG 记忆机制、Code Agent ）充满热情的 [ AI 工程专家/资深 AI 提效工程师] 。 ---------------------------",
+    "url": "https://www.v2ex.com/t/1224533#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "Web3 DEX 项目招 Go + Agent 工程师，香港 base，代表 AI Agent 在 Web3 领域的渗透。"
+   },
+   {
+    "title": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Ful",
+    "desc": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Full-time Qase is how engineering teams verify the quality of AI-generated code, so their companies can safely adopt AI-accelerated workflows. Developer Advocate — US-based, remote (North America). We're building the space for how engineering teams verify the quality of AI-generated code. Looking for a QA/quality-engineer",
+    "url": "https://news.ycombinator.com/item?id=48860201",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m44",
+    "summary": "Qase 招 Developer Advocate 做 AI 生成代码质量验证，代表 AI 代码质量保障成为新岗位类别。"
+   },
+   {
+    "title": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US)",
+    "desc": "Syntropic (thesyntropic.com) | Founding CTO / GPU Systems Engineer | Remote (US) | Equity-heavy We compress LLM KV cache. Measured: 8× at 3-bit with 0.43% quality delta (GPU-validated); 22× live end-to-end on a 5-tenant workload, GPU-verified this week (quantization × prefix dedup, decomposition always stated); 16.89× tenant density on a single V100-32GB. Validated across Mistral/Qwen/Llama with z",
+    "url": "https://news.ycombinator.com/item?id=48797747",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m74",
+    "summary": "Syntropic 招 Founding CTO/GPU 工程师做 KV Cache 压缩，8x 压缩率，代表 AI 推理优化创业公司的高技术门槛。"
+   }
+  ],
+  "week": "2026-W29"
+ }
+}
