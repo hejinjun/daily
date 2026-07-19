@@ -1,0 +1,65 @@
+{
+ "skills": [
+  "Agent 系统架构与编排：LangGraph/LangChain/MCP/A2A 协议、Multi-Agent 协作、状态机、记忆系统、导演层等生产级 Agent 工作流设计成为标配，不再只是 demo 阶段。",
+  "AI 全栈与 AI Native 开发：要求熟练使用 Claude Code/Cursor/Codex 等 AI IDE 作为生产力倍增器，从后端到前端到部署一条龙，且强调代码质量与工程化思维。",
+  "RAG 与 LLM 应用落地：端到端 RAG 流水线（向量+BM25+重排序）、知识库构建、Tool Calling、Workflow 编排，从概念验证转向生产级系统。",
+  "垂直行业 AI 融合：金融、物流、能源、医疗、教育、电商等行业的 AI 产品经理、算法工程师需求旺盛，要求懂行业场景+AI 技术。",
+  "AI Infra 与底层优化：KV Cache 优化、CUDA 编程、推理服务部署（vLLM/Dify）、AI Gateway、网络与安全，以及具身智能/机器人平台的全栈工程师需求上升。"
+ ],
+ "gigs": [
+  "远程/兼职/项目制岗位增多：AI 互动产品评测、Vibe Coding 任务设计、Dify/vLLM 私有化部署、网站制作等零活需求活跃，报酬 500-1000 元/任务或按项目包干。",
+  "AI Agent 任务设计专家抢手：需要各行业专家将日常电脑工作设计成 AI Agent 任务（300-1000 元/任务），样本有限但趋势明显——AI 数据标注从简单分类转向复杂流程设计。",
+  "远程全栈/后端岗位持续：Go/Python/Next.js 技术栈为主，接受 Java 转 Go，薪资 10k-25k RMB/月，要求 AI Native 开发文化，注重交付质量。"
+ ],
+ "highlights": [
+  {
+   "title": "部门有 4 个 agent 大模型岗位，欢迎投递",
+   "desc": "一、Agent 系统架构开发\n基于 LangGraph 、LangChain 、LlamaIndex 搭建生产级有状态 Agent 工作流，落地 ReAct 、Plan-and-Execute 、Multi-Agent 等主流架构。设计多智能体协作体系，实现任务委派、权限移交、群组协同，基于 MCP 、A2A 协议完成工具统一接入与跨 Agent 通信。搭建 Agent 持久化执行、人在回路、异常重试、故障恢复等生产能力，提升复杂场景任务执行准确率与系统稳定性。 二、生产级 RAG 体系建设\n搭建端到端生产级 RAG 流水线，实现非结构化文档解析、向量化构建、混合检索（向量+BM25+重排序）",
+   "url": "https://www.v2ex.com/t/1227881#reply4",
+   "source": "V2EX 酷工作",
+   "id": "m17",
+   "summary": "Agent 系统架构开发岗位明确要求基于 LangGraph/LangChain 搭建生产级有状态 Agent 工作流，并涉及 MCP/A2A 协议，代表 Agent 工程从实验走向标准化。"
+  },
+  {
+   "title": "我们正在组建 Agent Computer 核心自研团队。",
+   "desc": "我们正在组建 Agent Computer 核心自研团队。 Agent Computer 不是普通 AI PC ，也不是在 Linux 主机上简单叠加开源工具，而是一台面向开发者、小型 AI 团队和高强度 Agent 使用者的本地 AI 工作流个人计算设备。它需要把 AgentOS 、模型服务、Runtime Adapter 、开发者工具链、Benchmark 、Telemetry 、Gateway 、Sandbox 、官方 Blueprints 、测试套件、离线包和交付保障做成一条真实可运行、可观测、可复现、可安全执行的系统链路。 当前团队围绕 2027 年 1 月 CES 交付目标倒排，计",
+   "url": "https://www.v2ex.com/t/1227173#reply6",
+   "source": "V2EX 酷工作",
+   "id": "m25",
+   "summary": "组建 Agent Computer 核心自研团队，目标 2027 年 CES 交付，代表 AI 硬件与软件深度整合的创业方向，需要系统级全栈能力。"
+  },
+  {
+   "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+   "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+   "url": "https://www.v2ex.com/t/1226229#reply3",
+   "source": "V2EX 酷工作",
+   "id": "m36",
+   "summary": "Senior AI Researcher 岗位专注 KV Cache 优化与 LLM 推理加速，远程/可 relocate 悉尼，代表 AI Infra 底层优化人才稀缺且全球化。"
+  },
+  {
+   "title": "【包月付费置顶】【参加报销电量】TalentsAI｜大量招聘Vibe Coding 任务设计专家/500-1000/任务",
+   "desc": "公司介绍 TalentsAI 是一家专注于专家级 AI 数据的平台，服务全球头部 AI 实验室和前沿大模型团队。（已获国内外顶级资本融资） 我们在找谁 我们要找的不是“会用 AI 写代码的人”，而是每天真的在用 AI Agent ship 东西的人。 你可能每天用 Cursor / Claude Code / Codex 写代码、改项目、调 Bug、做产品；你既被它坑过，也靠它上线过真实东西。 你",
+   "url": "https://eleduck.com/posts/R3f78r",
+   "source": "电鸭社区",
+   "id": "m45",
+   "summary": "TalentsAI 招聘 Vibe Coding 任务设计专家，500-1000 元/任务，代表 AI 数据标注新形态——需要真正用 AI 写代码的人来设计任务。"
+  },
+  {
+   "title": "【外包零活】Dify + vLLM 私有化部署技术专家（远程）",
+   "desc": "我们团队正在寻找一位有 Dify / vLLM 实际部署经验的开发者， 协助完成企业内 AI 平台的私有化搭建。 【工作内容】 1. 内网环境 Dify + vLLM 全栈部署（Docker 或 K8s） 2. 本地大模型（Qwen3/DeepSeek）的推理服务配置 3. Dify 工作流设计与 Agent 应用搭建 4. 部署文档撰写与知识转移 【期望你有】 - 至少 1 个 Dify 生产环",
+   "url": "https://eleduck.com/posts/qzfqqD",
+   "source": "电鸭社区",
+   "id": "m49",
+   "summary": "Dify + vLLM 私有化部署外包需求，代表企业级 AI 私有化部署市场活跃，需要熟悉开源工具链的实战开发者。"
+  },
+  {
+   "title": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're ",
+   "desc": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're a company doing real operational work in e-commerce/3PL logistics. AI usage internally is still basic — decks, spreadsheets, a few people vibe-coding dashboards. No real agentic workflows in production yet. That's what this role is for.\nYou'd be the first dedicated AI engineer here. Two things at once: ship agentic wor",
+   "url": "https://news.ycombinator.com/item?id=48915735",
+   "source": "HN Who is hiring? (July 2026)",
+   "id": "m54",
+   "summary": "Portless 招聘首位 AI 工程师，年薪 $180k-$230k，从零构建 agentic workflows，代表传统行业公司开始设立 AI 工程岗位，需求迫切。"
+  }
+ ],
+ "week": "2026-W30"
+}

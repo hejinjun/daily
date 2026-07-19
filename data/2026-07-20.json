@@ -1,0 +1,289 @@
+{
+ "date": "2026-07-20",
+ "generated_at": "2026-07-20 07:14",
+ "llm_used": true,
+ "trends": [
+  "AI硬件与端侧推理成为焦点：从Moonshot因Kimi K3需求暂停订阅，到国产GPU直通方案实测性能提升，再到WAIC上端侧原生架构共识，表明AI推理正从云端向边缘和终端迁移，创业机会在于高效能、低成本的端侧AI芯片和解决方案。",
+  "AI安全与治理问题凸显：GPT-5.6自动删文件事件、Dave Eggers对OpenAI的批评、以及AI建议降低准确性却增加自信的研究，都指向AI系统可靠性、安全性和伦理问题的紧迫性。开发者需关注AI行为可控性和可解释性，企业应建立更严格的AI使用规范。",
+  "AI与物理世界融合加速：WAIC展示大量机器人、无人机直连卫星传Token、机器人通过人类录像学习等进展，表明具身智能和物理AI正从概念走向落地。创业机会在于机器人训练数据、触觉传感器、以及AI与工业/农业结合的应用。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 19
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 5
+  },
+  {
+   "name": "The Verge AI",
+   "count": 3
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+   "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 179,
+   "id": "n7",
+   "summary": "Moonshot AI因Kimi K3需求过大暂停新订阅。这反映出国产大模型在用户增长和算力瓶颈之间的典型矛盾，也暗示Kimi K3可能确实有突破性体验，值得关注其后续开放节奏。"
+  },
+  {
+   "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+   "url": "https://github.com/openai/codex/pull/33972/files",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 284,
+   "id": "n5",
+   "summary": "OpenAI将Codex模型上下文从372k降至272k，看似缩减实则可能优化了效率或成本。对开发者而言，这意味着Codex在保持能力的同时更轻量，可能降低API调用成本，值得测试新版本的实际表现。"
+  },
+  {
+   "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
+   "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 134,
+   "id": "n10",
+   "summary": "研究发现AI建议让人准确率降低3倍但自信增加2倍。这警示开发者：AI辅助决策可能带来过度依赖和认知偏差，设计人机协作系统时必须考虑如何避免“盲目信任”，比如加入置信度提示或强制验证步骤。"
+  },
+  {
+   "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+   "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+   "desc": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n31",
+   "summary": "苹果诉讼可能影响OpenAI的硬件计划。苹果与OpenAI的法律纠纷若限制后者硬件发展，将改变AI硬件竞争格局，利好其他AI硬件初创公司。开发者应关注诉讼进展对API可用性和生态的影响。"
+  },
+  {
+   "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+   "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+   "desc": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "非营利组织Current AI正在构建“AI万维网”，旨在免费开放给所有人。这类似于AI领域的开源运动，可能打破大厂垄断，为开发者提供更多底层模型和工具选择，值得关注其技术路线和社区进展。"
+  },
+  {
+   "title": "Kimi: Threat or menace?",
+   "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+   "desc": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "Moonshot AI发布新版Kimi模型，引发“AI共产主义”担忧。这指模型能力过强可能颠覆现有经济模式，虽然夸张，但反映出顶级模型能力提升带来的社会冲击。开发者应思考如何利用而非恐惧这种能力。"
+  },
+  {
+   "title": "I hate that I don’t hate this song made with Suno",
+   "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+   "desc": "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that […]",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "作者承认一首用Suno生成的AI歌曲并不讨厌。尽管作者通常反感AI音乐，但这次体验表明AI音乐质量正在突破临界点，可能很快在娱乐领域产生商业价值，值得关注Suno等工具的迭代方向。"
+  },
+  {
+   "title": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+   "desc": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "作家Dave Eggers对OpenAI员工称ChatGPT正在“沉默一代人”。这代表创意产业对AI的深层恐惧，但也是开发者反思产品社会影响的机会。AI工具应设计为增强而非替代人类创造力。"
+  },
+  {
+   "title": "不靠英伟达网卡，国产GPU直通方案实测出炉：吞吐飙升、延迟砍半",
+   "url": "https://www.qbitai.com/2026/07/454932.html",
+   "desc": "奇异摩尔首次亮相WAIC 2026",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n40",
+   "summary": "国产GPU直通方案实测吞吐飙升、延迟砍半，不依赖英伟达网卡。这表明国产AI芯片在互连技术上取得突破，对构建自主算力生态至关重要。开发者可关注该方案在训练和推理场景的实际可用性。"
+  },
+  {
+   "title": "危！GPT-5.6会自动删文件，AI初创老板痛失整台Mac",
+   "url": "https://www.qbitai.com/2026/07/454689.html",
+   "desc": "黎曼动力正式发布Rienmann-1.0",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n45",
+   "summary": "GPT-5.6自动删文件导致AI初创老板痛失整台Mac。这暴露了AI Agent在文件系统操作上的安全漏洞，提醒开发者必须为AI工具设置严格的权限沙箱，防止意外破坏。"
+  },
+  {
+   "title": "看了20万小时「人类干活实录」，机器人悟了",
+   "url": "https://www.qbitai.com/2026/07/454592.html",
+   "desc": "黎曼动力正式发布Riemann-1.0",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n46",
+   "summary": "通过20万小时人类干活录像训练，机器人学会自主操作。这验证了模仿学习在机器人领域的巨大潜力，创业机会在于收集高质量人类操作数据，以及开发高效的行为克隆算法。"
+  },
+  {
+   "title": "不换模型，效果提升104%！上海AI Lab让Harness也能自进化了",
+   "url": "https://www.qbitai.com/2026/07/454441.html",
+   "desc": "Harness本身也可以被搜索、验证和迭代",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n47",
+   "summary": "上海AI Lab让AI Harness自进化，不换模型效果提升104%。这代表了一种新的AI优化范式：通过自动搜索和迭代测试方法（Harness）来提升模型表现，而非修改模型本身。开发者可借鉴此思路改进自己的评估流程。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph2",
+   "title": "BaseRT",
+   "url": "https://www.producthunt.com/products/basert",
+   "desc": "6.4x faster than llama.cpp, 3.9x faster than MLX Discussion | Link",
+   "summary": "BaseRT：一个推理引擎，比llama.cpp快6.4倍，比MLX快3.9倍。对于需要极致推理性能的开发者来说，这是目前最快的选择。"
+  },
+  {
+   "id": "ph27",
+   "title": "ChikitAI",
+   "url": "https://www.producthunt.com/products/chikitai",
+   "desc": "Agentic AI for Healthcare Triage and Care Automation Discussion | Link",
+   "summary": "ChikitAI：用Agentic AI做医疗分诊和护理自动化。能自动处理患者问诊、分诊和护理流程，提升医疗效率。"
+  },
+  {
+   "id": "ph29",
+   "title": "Amami",
+   "url": "https://www.producthunt.com/products/amami",
+   "desc": "Analytics that lives inside your AI assistant Discussion | Link",
+   "summary": "Amami：内置于AI助手的分析工具。直接在AI对话中查看数据洞察，无需切换工具。"
+  },
+  {
+   "id": "ph25",
+   "title": "Paradigm",
+   "url": "https://www.producthunt.com/products/paradigm-3",
+   "desc": "Turn any goal into a personalized, adaptive learning path. Discussion | Link",
+   "summary": "Paradigm：将任何目标转化为个性化自适应学习路径。AI根据你的进度动态调整内容，适合终身学习者。"
+  },
+  {
+   "id": "ph4",
+   "title": "OpenSEO",
+   "url": "https://www.producthunt.com/products/openseo",
+   "desc": "The open source Ahrefs alternative Discussion | Link",
+   "summary": "OpenSEO：开源的Ahrefs替代品。提供SEO分析功能，且完全免费，适合预算有限的站长和营销人员。"
+  },
+  {
+   "id": "ph0",
+   "title": "Rewisp",
+   "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac",
+   "desc": "See it once. Ask forever. Discussion | Link",
+   "summary": "Rewisp：看一次，永久提问。上传视频/文档后，AI可随时回答相关问题，适合学习或会议记录。"
+  },
+  {
+   "id": "ph12",
+   "title": "WX",
+   "url": "https://www.producthunt.com/products/wx",
+   "desc": "An experimental synth for playable generative sound Discussion | Link",
+   "summary": "WX：实验性合成器，用于可玩性生成声音。AI辅助生成音乐，适合音乐制作人和声音设计师。"
+  },
+  {
+   "id": "ph21",
+   "title": "Scribble Party",
+   "url": "https://www.producthunt.com/products/scribble-party",
+   "desc": "A local-first whiteboard studio for teachers and creators Discussion | Link",
+   "summary": "Scribble Party：本地优先的白板工作室，专为教师和创作者设计。支持离线协作，AI辅助绘图和笔记。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 系统架构与编排：LangGraph/LangChain/MCP/A2A 协议、Multi-Agent 协作、状态机、记忆系统、导演层等生产级 Agent 工作流设计成为标配，不再只是 demo 阶段。",
+   "AI 全栈与 AI Native 开发：要求熟练使用 Claude Code/Cursor/Codex 等 AI IDE 作为生产力倍增器，从后端到前端到部署一条龙，且强调代码质量与工程化思维。",
+   "RAG 与 LLM 应用落地：端到端 RAG 流水线（向量+BM25+重排序）、知识库构建、Tool Calling、Workflow 编排，从概念验证转向生产级系统。",
+   "垂直行业 AI 融合：金融、物流、能源、医疗、教育、电商等行业的 AI 产品经理、算法工程师需求旺盛，要求懂行业场景+AI 技术。",
+   "AI Infra 与底层优化：KV Cache 优化、CUDA 编程、推理服务部署（vLLM/Dify）、AI Gateway、网络与安全，以及具身智能/机器人平台的全栈工程师需求上升。"
+  ],
+  "gigs": [
+   "远程/兼职/项目制岗位增多：AI 互动产品评测、Vibe Coding 任务设计、Dify/vLLM 私有化部署、网站制作等零活需求活跃，报酬 500-1000 元/任务或按项目包干。",
+   "AI Agent 任务设计专家抢手：需要各行业专家将日常电脑工作设计成 AI Agent 任务（300-1000 元/任务），样本有限但趋势明显——AI 数据标注从简单分类转向复杂流程设计。",
+   "远程全栈/后端岗位持续：Go/Python/Next.js 技术栈为主，接受 Java 转 Go，薪资 10k-25k RMB/月，要求 AI Native 开发文化，注重交付质量。"
+  ],
+  "highlights": [
+   {
+    "title": "部门有 4 个 agent 大模型岗位，欢迎投递",
+    "desc": "一、Agent 系统架构开发\n基于 LangGraph 、LangChain 、LlamaIndex 搭建生产级有状态 Agent 工作流，落地 ReAct 、Plan-and-Execute 、Multi-Agent 等主流架构。设计多智能体协作体系，实现任务委派、权限移交、群组协同，基于 MCP 、A2A 协议完成工具统一接入与跨 Agent 通信。搭建 Agent 持久化执行、人在回路、异常重试、故障恢复等生产能力，提升复杂场景任务执行准确率与系统稳定性。 二、生产级 RAG 体系建设\n搭建端到端生产级 RAG 流水线，实现非结构化文档解析、向量化构建、混合检索（向量+BM25+重排序）",
+    "url": "https://www.v2ex.com/t/1227881#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "Agent 系统架构开发岗位明确要求基于 LangGraph/LangChain 搭建生产级有状态 Agent 工作流，并涉及 MCP/A2A 协议，代表 Agent 工程从实验走向标准化。"
+   },
+   {
+    "title": "我们正在组建 Agent Computer 核心自研团队。",
+    "desc": "我们正在组建 Agent Computer 核心自研团队。 Agent Computer 不是普通 AI PC ，也不是在 Linux 主机上简单叠加开源工具，而是一台面向开发者、小型 AI 团队和高强度 Agent 使用者的本地 AI 工作流个人计算设备。它需要把 AgentOS 、模型服务、Runtime Adapter 、开发者工具链、Benchmark 、Telemetry 、Gateway 、Sandbox 、官方 Blueprints 、测试套件、离线包和交付保障做成一条真实可运行、可观测、可复现、可安全执行的系统链路。 当前团队围绕 2027 年 1 月 CES 交付目标倒排，计",
+    "url": "https://www.v2ex.com/t/1227173#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m25",
+    "summary": "组建 Agent Computer 核心自研团队，目标 2027 年 CES 交付，代表 AI 硬件与软件深度整合的创业方向，需要系统级全栈能力。"
+   },
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m36",
+    "summary": "Senior AI Researcher 岗位专注 KV Cache 优化与 LLM 推理加速，远程/可 relocate 悉尼，代表 AI Infra 底层优化人才稀缺且全球化。"
+   },
+   {
+    "title": "【包月付费置顶】【参加报销电量】TalentsAI｜大量招聘Vibe Coding 任务设计专家/500-1000/任务",
+    "desc": "公司介绍 TalentsAI 是一家专注于专家级 AI 数据的平台，服务全球头部 AI 实验室和前沿大模型团队。（已获国内外顶级资本融资） 我们在找谁 我们要找的不是“会用 AI 写代码的人”，而是每天真的在用 AI Agent ship 东西的人。 你可能每天用 Cursor / Claude Code / Codex 写代码、改项目、调 Bug、做产品；你既被它坑过，也靠它上线过真实东西。 你",
+    "url": "https://eleduck.com/posts/R3f78r",
+    "source": "电鸭社区",
+    "id": "m45",
+    "summary": "TalentsAI 招聘 Vibe Coding 任务设计专家，500-1000 元/任务，代表 AI 数据标注新形态——需要真正用 AI 写代码的人来设计任务。"
+   },
+   {
+    "title": "【外包零活】Dify + vLLM 私有化部署技术专家（远程）",
+    "desc": "我们团队正在寻找一位有 Dify / vLLM 实际部署经验的开发者， 协助完成企业内 AI 平台的私有化搭建。 【工作内容】 1. 内网环境 Dify + vLLM 全栈部署（Docker 或 K8s） 2. 本地大模型（Qwen3/DeepSeek）的推理服务配置 3. Dify 工作流设计与 Agent 应用搭建 4. 部署文档撰写与知识转移 【期望你有】 - 至少 1 个 Dify 生产环",
+    "url": "https://eleduck.com/posts/qzfqqD",
+    "source": "电鸭社区",
+    "id": "m49",
+    "summary": "Dify + vLLM 私有化部署外包需求，代表企业级 AI 私有化部署市场活跃，需要熟悉开源工具链的实战开发者。"
+   },
+   {
+    "title": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're ",
+    "desc": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're a company doing real operational work in e-commerce/3PL logistics. AI usage internally is still basic — decks, spreadsheets, a few people vibe-coding dashboards. No real agentic workflows in production yet. That's what this role is for.\nYou'd be the first dedicated AI engineer here. Two things at once: ship agentic wor",
+    "url": "https://news.ycombinator.com/item?id=48915735",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m54",
+    "summary": "Portless 招聘首位 AI 工程师，年薪 $180k-$230k，从零构建 agentic workflows，代表传统行业公司开始设立 AI 工程岗位，需求迫切。"
+   }
+  ],
+  "week": "2026-W30"
+ }
+}
