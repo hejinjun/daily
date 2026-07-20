@@ -1,0 +1,392 @@
+{
+ "date": "2026-07-21",
+ "generated_at": "2026-07-21 07:18",
+ "llm_used": true,
+ "trends": [
+  "中国开源模型策略正在全球赢得市场，Kimi K3和Qwen 3.8等模型以低成本对标美国前沿模型，开发者应关注开源生态和成本优势带来的创业机会。",
+  "AI安全与对齐成为焦点，OpenAI分享长周期模型部署经验，同时美国政策层面对中国开源模型的担忧加剧，开发者需注意合规风险。",
+  "AI硬件竞争加剧，Google研发新芯片提升Gemini效率，NVIDIA等厂商转向推理芯片，开发者应关注推理优化和本地部署方案。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 20
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 1
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 11
+  },
+  {
+   "name": "The Verge AI",
+   "count": 5
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [
+  {
+   "id": "gh2",
+   "title": "diegosouzapw/OmniRoute",
+   "url": "https://github.com/diegosouzapw/OmniRoute",
+   "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
+   "lang": "TypeScript",
+   "stars": "21,713",
+   "stars_today": "1,300 stars today",
+   "summary": "OmniRoute 是一个免费的 MIT 协议 AI 网关，支持 268+ 提供商和 500+ 模型，包括 Claude、GPT、Gemini 等，并具有配额感知自动回退和压缩功能，可节省 15-95% 的 token。它火了是因为它极大地降低了调用多种 AI 模型的成本和复杂度，是开发者的实用工具。"
+  },
+  {
+   "id": "gh4",
+   "title": "msitarzewski/agency-agents",
+   "url": "https://github.com/msitarzewski/agency-agents",
+   "desc": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+   "lang": "Shell",
+   "stars": "134,675",
+   "stars_today": "744 stars today",
+   "summary": "agency-agents 是一个完整的 AI 代理框架，包含从前端到 Reddit 社区管理的各种专业代理，每个代理都有个性、流程和可交付成果。它火了是因为它提供了一个开箱即用的多代理系统，适合构建复杂的 AI 工作流。"
+  },
+  {
+   "id": "gh5",
+   "title": "kvcache-ai/ktransformers",
+   "url": "https://github.com/kvcache-ai/ktransformers",
+   "desc": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+   "lang": "Python",
+   "stars": "18,723",
+   "stars_today": "448 stars today",
+   "summary": "ktransformers 是一个灵活的框架，用于体验异构 LLM 推理和微调优化。它火了是因为它支持多种优化技术，帮助开发者更高效地运行和微调大模型。"
+  },
+  {
+   "id": "gh6",
+   "title": "jamiepine/voicebox",
+   "url": "https://github.com/jamiepine/voicebox",
+   "desc": "The open-source AI voice studio. Clone, dictate, create.",
+   "lang": "TypeScript",
+   "stars": "44,130",
+   "stars_today": "839 stars today",
+   "summary": "voicebox 是一个开源的 AI 语音工作室，支持克隆、听写和创作。它火了是因为它提供了全面的语音 AI 功能，且开源，适合构建语音应用。"
+  },
+  {
+   "id": "gh7",
+   "title": "topoteretes/cognee",
+   "url": "https://github.com/topoteretes/cognee",
+   "desc": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+   "lang": "Python",
+   "stars": "28,768",
+   "stars_today": "249 stars today",
+   "summary": "cognee 是开源的 AI 记忆平台，为代理提供持久长期记忆，使用自托管知识图谱引擎。它火了是因为它解决了 AI 代理的长期记忆问题，是构建智能代理的关键组件。"
+  },
+  {
+   "id": "gh11",
+   "title": "AstrBotDevs/AstrBot",
+   "url": "https://github.com/AstrBotDevs/AstrBot",
+   "desc": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+   "lang": "Python",
+   "stars": "37,061",
+   "stars_today": "330 stars today",
+   "summary": "AstrBot 是一个 AI 代理助手和开发框架，集成多种 IM 平台、LLM、插件和 AI 功能，可作为 openclaw 的替代品。它火了是因为它简化了跨平台 AI 代理的开发和部署。"
+  },
+  {
+   "id": "gh12",
+   "title": "PrefectHQ/fastmcp",
+   "url": "https://github.com/PrefectHQ/fastmcp",
+   "desc": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+   "lang": "Python",
+   "stars": "26,520",
+   "stars_today": "77 stars today",
+   "summary": "fastmcp 是一个快速、Pythonic 的 MCP 服务器和客户端构建工具。它火了是因为它简化了 MCP（模型上下文协议）的实现，是构建 AI 工具链的重要组件。"
+  },
+  {
+   "id": "gh18",
+   "title": "handy-computer/transcribe.cpp",
+   "url": "https://github.com/handy-computer/transcribe.cpp",
+   "desc": "ggml speech-to-text inference for 16+ model families",
+   "lang": "C++",
+   "stars": "1,222",
+   "stars_today": "401 stars today",
+   "summary": "transcribe.cpp 是一个基于 ggml 的语音转文本推理库，支持 16+ 模型家族。它火了是因为它提供了高效的本地语音识别方案，适合边缘设备。"
+  },
+  {
+   "id": "gh19",
+   "title": "moonshine-ai/moonshine",
+   "url": "https://github.com/moonshine-ai/moonshine",
+   "desc": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+   "lang": "C++",
+   "stars": "9,797",
+   "stars_today": "264 stars today",
+   "summary": "moonshine 是一个超低延迟的语音转文本、意图识别和文本转语音库，用于构建语音代理和界面。它火了是因为它专注于实时语音 AI，延迟极低，适合语音交互场景。"
+  },
+  {
+   "id": "gh1",
+   "title": "1jehuang/jcode",
+   "url": "https://github.com/1jehuang/jcode",
+   "desc": "The most intelligent agent harness for code",
+   "lang": "Rust",
+   "stars": "9,591",
+   "stars_today": "612 stars today",
+   "summary": "jcode 是一个智能代理工具，用于代码生成。它火了是因为它提供了高效的代码辅助功能，但相对其他项目关注度略低。"
+  }
+ ],
+ "news": [
+  {
+   "title": "China’s open-weights AI strategy is winning",
+   "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 883,
+   "id": "n0",
+   "summary": "中国开源模型策略正在全球赢得胜利，通过开放权重和低成本策略，中国AI模型在性能上逼近美国前沿模型，同时吸引了大量开发者社区。这意味着开发者可以更自由地使用和定制这些模型，降低AI应用门槛，但也可能引发地缘政治风险。"
+  },
+  {
+   "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+   "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 262,
+   "id": "n6",
+   "summary": "Kimi K3、Qwen 3.8等中国模型发布，性能对标Anthropic和OpenAI，但成本大幅降低。这标志着中国AI公司正通过开源和低价策略挑战美国主导地位，开发者应关注这些模型的可用性和生态。"
+  },
+  {
+   "title": "Safety and alignment in an era of long-horizon models",
+   "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+   "desc": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI分享长周期AI模型部署的安全经验，指出新风险并改进防护措施。这对开发者构建可靠AI系统至关重要，尤其是涉及自主决策的Agent应用。"
+  },
+  {
+   "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+   "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+   "desc": "Alphabet, Google's parent company, is reportedly working on a new chip designed to make its Gemini models run much more efficiently.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "Google正在研发新AI芯片，旨在提升Gemini模型效率。这表明硬件优化仍是AI竞争关键，开发者应关注芯片趋势以优化部署成本。"
+  },
+  {
+   "title": "OpenAI is scared of open-weight models. Should the US be?",
+   "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+   "desc": "Talk of banning Chinese-made open-weight LLMs reveals the challenge of  turning AI into a business.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "美国讨论禁止中国开源模型，凸显AI商业化挑战。开发者需关注政策变化，同时开源模型可能面临更多限制，影响技术选型。"
+  },
+  {
+   "title": "China delivers a one-two punch to America’s AI dominance",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+   "desc": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight,",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "中国Moonshot和阿里巴巴发布低成本高性能模型，缩小与美国差距。这为开发者提供了更多选择，但需评估模型质量和长期支持。"
+  },
+  {
+   "title": "Agent swarms and the new model economics",
+   "url": "https://cursor.com/blog/agent-swarm-model-economics",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 86,
+   "id": "n16",
+   "summary": "Agent swarms和新型模型经济正在兴起，多智能体协作和按需付费模式可能改变AI应用格局。开发者应探索Agent架构和商业模式创新。"
+  },
+  {
+   "title": "Nativ: Run frontier open models locally on your Mac",
+   "url": "https://blaizzy.github.io/nativ/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 138,
+   "id": "n12",
+   "summary": "Nativ工具允许在Mac上本地运行前沿开源模型，提升隐私和离线能力。开发者可借此构建本地AI应用，减少对云服务的依赖。"
+  },
+  {
+   "title": "You only need the frontier model for one single edit",
+   "url": "https://stencil.so/blog/prewalk",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 50,
+   "id": "n22",
+   "summary": "文章指出只需一次编辑即可利用前沿模型完成任务，强调模型微调或提示工程的效率。开发者应关注高效利用模型的方法，避免过度工程。"
+  },
+  {
+   "title": "AI语音进入“表演时代”：阿里Qwen-Audio-3.0-TTS登顶全球权威榜单",
+   "url": "https://www.qbitai.com/2026/07/455658.html",
+   "desc": "细粒度标签+ 20 种方言",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n53",
+   "summary": "阿里Qwen-Audio-3.0-TTS登顶全球权威榜单，支持细粒度标签和20种方言。语音AI进入“表演时代”，开发者可集成高质量TTS到产品中。"
+  },
+  {
+   "title": "不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面",
+   "url": "https://www.qbitai.com/2026/07/455805.html",
+   "desc": "大模型时代的共同选择",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n49",
+   "summary": "多家模型厂商采用同一Agentic Infra，AGI时代的基础设施逐渐成型。开发者应关注统一基础设施，降低多模型集成成本。"
+  },
+  {
+   "title": "当AI进入最依赖“人”的行业：一家四线城市康复机构利润增长40%",
+   "url": "https://www.qbitai.com/2026/07/455791.html",
+   "desc": "",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n50",
+   "summary": "AI进入康复行业，四线城市机构利润增长40%。AI在传统行业的落地机会显现，开发者可探索垂直领域AI解决方案。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph7",
+   "title": "Inkling",
+   "url": "https://www.producthunt.com/products/tinker-2",
+   "desc": "Open weights 975B multimodal model built for fine-tuning Discussion | Link",
+   "summary": "Inkling 是一个开源的 975B 多模态模型，专为微调设计。亮点是开放权重，适合开发者定制和部署大规模多模态应用。"
+  },
+  {
+   "id": "ph1",
+   "title": "Skippr AI",
+   "url": "https://www.producthunt.com/products/skippr-3",
+   "desc": "The live AI employee inside your product, serving every user Discussion | Link",
+   "summary": "Skippr AI 是一个嵌入产品的实时 AI 员工，能服务每个用户。亮点是像真人一样在后台工作，提升用户体验。"
+  },
+  {
+   "id": "ph19",
+   "title": "Deck",
+   "url": "https://www.producthunt.com/products/deck-9",
+   "desc": "The most capable AI assistant with its own inbox Discussion | Link",
+   "summary": "Deck 是一个拥有独立收件箱的 AI 助手，号称能力最强。亮点是主动管理任务，类似个人秘书。"
+  },
+  {
+   "id": "ph5",
+   "title": "Backdrop",
+   "url": "https://www.producthunt.com/products/backdrop",
+   "desc": "AI Coworkers that run your projects and operations Discussion | Link",
+   "summary": "Backdrop 提供 AI 同事，自动运行项目和运营。亮点是替代人工操作，适合自动化工作流。"
+  },
+  {
+   "id": "ph4",
+   "title": "Nautis",
+   "url": "https://www.producthunt.com/products/nautis",
+   "desc": "The AI-native Operating System for founders. Discussion | Link",
+   "summary": "Nautis 是面向创始人的 AI 原生操作系统。亮点是整合多种工具，用 AI 驱动创业管理。"
+  },
+  {
+   "id": "ph0",
+   "title": "Fuzzy AI",
+   "url": "https://www.producthunt.com/products/fuzzy-ai-2",
+   "desc": "We warm your prospects before reaching out Discussion | Link",
+   "summary": "Fuzzy AI 在联系客户前预热潜在客户。亮点是智能筛选和预热，提高转化率。"
+  },
+  {
+   "id": "ph14",
+   "title": "Creed",
+   "url": "https://www.producthunt.com/products/creed-2",
+   "desc": "Your personal context file for every agent. Discussion | Link",
+   "summary": "Creed 是个人上下文文件，供所有 AI 代理使用。亮点是统一个人信息，让代理更了解你。"
+  },
+  {
+   "id": "ph15",
+   "title": "Lunen.ai",
+   "url": "https://www.producthunt.com/products/lunen-ai",
+   "desc": "Build AI agents your whole team can run, and control Discussion | Link",
+   "summary": "Lunen.ai 让团队构建、运行和控制 AI 代理。亮点是团队协作和权限管理，适合企业部署。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 系统架构与编排：LangGraph/LangChain/MCP/A2A 协议、Multi-Agent 协作、状态机、记忆系统、导演层等生产级 Agent 工作流设计成为标配，不再只是 demo 阶段。",
+   "AI 全栈与 AI Native 开发：要求熟练使用 Claude Code/Cursor/Codex 等 AI IDE 作为生产力倍增器，从后端到前端到部署一条龙，且强调代码质量与工程化思维。",
+   "RAG 与 LLM 应用落地：端到端 RAG 流水线（向量+BM25+重排序）、知识库构建、Tool Calling、Workflow 编排，从概念验证转向生产级系统。",
+   "垂直行业 AI 融合：金融、物流、能源、医疗、教育、电商等行业的 AI 产品经理、算法工程师需求旺盛，要求懂行业场景+AI 技术。",
+   "AI Infra 与底层优化：KV Cache 优化、CUDA 编程、推理服务部署（vLLM/Dify）、AI Gateway、网络与安全，以及具身智能/机器人平台的全栈工程师需求上升。"
+  ],
+  "gigs": [
+   "远程/兼职/项目制岗位增多：AI 互动产品评测、Vibe Coding 任务设计、Dify/vLLM 私有化部署、网站制作等零活需求活跃，报酬 500-1000 元/任务或按项目包干。",
+   "AI Agent 任务设计专家抢手：需要各行业专家将日常电脑工作设计成 AI Agent 任务（300-1000 元/任务），样本有限但趋势明显——AI 数据标注从简单分类转向复杂流程设计。",
+   "远程全栈/后端岗位持续：Go/Python/Next.js 技术栈为主，接受 Java 转 Go，薪资 10k-25k RMB/月，要求 AI Native 开发文化，注重交付质量。"
+  ],
+  "highlights": [
+   {
+    "title": "部门有 4 个 agent 大模型岗位，欢迎投递",
+    "desc": "一、Agent 系统架构开发\n基于 LangGraph 、LangChain 、LlamaIndex 搭建生产级有状态 Agent 工作流，落地 ReAct 、Plan-and-Execute 、Multi-Agent 等主流架构。设计多智能体协作体系，实现任务委派、权限移交、群组协同，基于 MCP 、A2A 协议完成工具统一接入与跨 Agent 通信。搭建 Agent 持久化执行、人在回路、异常重试、故障恢复等生产能力，提升复杂场景任务执行准确率与系统稳定性。 二、生产级 RAG 体系建设\n搭建端到端生产级 RAG 流水线，实现非结构化文档解析、向量化构建、混合检索（向量+BM25+重排序）",
+    "url": "https://www.v2ex.com/t/1227881#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "Agent 系统架构开发岗位明确要求基于 LangGraph/LangChain 搭建生产级有状态 Agent 工作流，并涉及 MCP/A2A 协议，代表 Agent 工程从实验走向标准化。"
+   },
+   {
+    "title": "我们正在组建 Agent Computer 核心自研团队。",
+    "desc": "我们正在组建 Agent Computer 核心自研团队。 Agent Computer 不是普通 AI PC ，也不是在 Linux 主机上简单叠加开源工具，而是一台面向开发者、小型 AI 团队和高强度 Agent 使用者的本地 AI 工作流个人计算设备。它需要把 AgentOS 、模型服务、Runtime Adapter 、开发者工具链、Benchmark 、Telemetry 、Gateway 、Sandbox 、官方 Blueprints 、测试套件、离线包和交付保障做成一条真实可运行、可观测、可复现、可安全执行的系统链路。 当前团队围绕 2027 年 1 月 CES 交付目标倒排，计",
+    "url": "https://www.v2ex.com/t/1227173#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m25",
+    "summary": "组建 Agent Computer 核心自研团队，目标 2027 年 CES 交付，代表 AI 硬件与软件深度整合的创业方向，需要系统级全栈能力。"
+   },
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m36",
+    "summary": "Senior AI Researcher 岗位专注 KV Cache 优化与 LLM 推理加速，远程/可 relocate 悉尼，代表 AI Infra 底层优化人才稀缺且全球化。"
+   },
+   {
+    "title": "【包月付费置顶】【参加报销电量】TalentsAI｜大量招聘Vibe Coding 任务设计专家/500-1000/任务",
+    "desc": "公司介绍 TalentsAI 是一家专注于专家级 AI 数据的平台，服务全球头部 AI 实验室和前沿大模型团队。（已获国内外顶级资本融资） 我们在找谁 我们要找的不是“会用 AI 写代码的人”，而是每天真的在用 AI Agent ship 东西的人。 你可能每天用 Cursor / Claude Code / Codex 写代码、改项目、调 Bug、做产品；你既被它坑过，也靠它上线过真实东西。 你",
+    "url": "https://eleduck.com/posts/R3f78r",
+    "source": "电鸭社区",
+    "id": "m45",
+    "summary": "TalentsAI 招聘 Vibe Coding 任务设计专家，500-1000 元/任务，代表 AI 数据标注新形态——需要真正用 AI 写代码的人来设计任务。"
+   },
+   {
+    "title": "【外包零活】Dify + vLLM 私有化部署技术专家（远程）",
+    "desc": "我们团队正在寻找一位有 Dify / vLLM 实际部署经验的开发者， 协助完成企业内 AI 平台的私有化搭建。 【工作内容】 1. 内网环境 Dify + vLLM 全栈部署（Docker 或 K8s） 2. 本地大模型（Qwen3/DeepSeek）的推理服务配置 3. Dify 工作流设计与 Agent 应用搭建 4. 部署文档撰写与知识转移 【期望你有】 - 至少 1 个 Dify 生产环",
+    "url": "https://eleduck.com/posts/qzfqqD",
+    "source": "电鸭社区",
+    "id": "m49",
+    "summary": "Dify + vLLM 私有化部署外包需求，代表企业级 AI 私有化部署市场活跃，需要熟悉开源工具链的实战开发者。"
+   },
+   {
+    "title": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're ",
+    "desc": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're a company doing real operational work in e-commerce/3PL logistics. AI usage internally is still basic — decks, spreadsheets, a few people vibe-coding dashboards. No real agentic workflows in production yet. That's what this role is for.\nYou'd be the first dedicated AI engineer here. Two things at once: ship agentic wor",
+    "url": "https://news.ycombinator.com/item?id=48915735",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m54",
+    "summary": "Portless 招聘首位 AI 工程师，年薪 $180k-$230k，从零构建 agentic workflows，代表传统行业公司开始设立 AI 工程岗位，需求迫切。"
+   }
+  ],
+  "week": "2026-W30"
+ }
+}
