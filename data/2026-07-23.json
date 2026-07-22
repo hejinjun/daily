@@ -1,0 +1,388 @@
+{
+ "date": "2026-07-23",
+ "generated_at": "2026-07-23 07:18",
+ "llm_used": true,
+ "trends": [
+  "AI基础设施军备竞赛白热化：OpenAI计划投入7500亿美元，AMD向Anthropic注资50亿美元，数据中心用电量预计2035年翻四倍，算力成为核心战略资源。",
+  "AI安全与监管博弈加剧：美国威胁制裁中国开源模型，OpenAI测试失误导致Hugging Face被黑，Substack推出AI检测工具，透明度与合规成为刚需。",
+  "AI应用向垂直场景深化：Synthesia推出AI角色扮演培训，Meta测试AI睡前故事，Glow聚焦AI端点安全，创业机会在于解决具体行业痛点。",
+  "开源模型生态引发争议：Arcee认为中国模型并非固有危险，但华盛顿对开源模型的安全担忧持续升温，开源与闭源路线之争进入新阶段。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 19
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 5
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 2
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "koala73/worldmonitor",
+   "url": "https://github.com/koala73/worldmonitor",
+   "desc": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+   "lang": "TypeScript",
+   "stars": "68,831",
+   "stars_today": "4,131 stars today",
+   "summary": "世界监控仪表盘，AI聚合新闻和地缘政治情报。4k+ stars今日，说明实时全球态势感知需求旺盛，适合做信息聚合类AI应用参考。"
+  },
+  {
+   "id": "gh1",
+   "title": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+   "lang": "Rust",
+   "stars": "83,725",
+   "stars_today": "875 stars today",
+   "summary": "用WiFi信号实现空间感知和生命体征监测，无需摄像头。Rust实现，875 stars今日，隐私友好的AI感知新方向，适合边缘计算和智能家居场景。"
+  },
+  {
+   "id": "gh2",
+   "title": "ayghri/i-have-adhd",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "desc": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+   "lang": "Python",
+   "stars": "8,220",
+   "stars_today": "1,682 stars today",
+   "summary": "为编码助手设计的ADHD友好输出技能，防止AI“埋答案”。1.6k+ stars今日，反映开发者对AI交互体验的精细化需求，可借鉴优化LLM输出格式。"
+  },
+  {
+   "id": "gh8",
+   "title": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "lang": "Python",
+   "stars": "32,580",
+   "stars_today": "134 stars today",
+   "summary": "金融市场的Foundation Model，用大模型理解金融语言。Python项目，134 stars今日，AI+金融垂直领域，适合量化交易和金融分析。"
+  },
+  {
+   "id": "gh9",
+   "title": "ComposioHQ/awesome-claude-skills",
+   "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+   "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+   "lang": "Python",
+   "stars": "68,743",
+   "stars_today": "155 stars today",
+   "summary": "Claude Skills精选列表，定制Claude工作流。155 stars今日，生态工具集，适合想深入使用Claude的开发者。"
+  },
+  {
+   "id": "gh12",
+   "title": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": "42,225",
+   "stars_today": "688 stars today",
+   "summary": "从零开始学AI工程，动手构建并交付。688 stars今日，系统化学习路径，适合转行或夯实基础。"
+  },
+  {
+   "id": "gh13",
+   "title": "tirth8205/code-review-graph",
+   "url": "https://github.com/tirth8205/code-review-graph",
+   "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+   "lang": "Python",
+   "stars": "25,287",
+   "stars_today": "872 stars today",
+   "summary": "本地优先的代码知识图谱，为MCP和CLI提供上下文压缩。872 stars今日，提升AI代码审查效率，适合大型代码库团队。"
+  },
+  {
+   "id": "gh18",
+   "title": "dottxt-ai/outlines",
+   "url": "https://github.com/dottxt-ai/outlines",
+   "desc": "Structured Outputs",
+   "lang": "Python",
+   "stars": "15,094",
+   "stars_today": "362 stars today",
+   "summary": "结构化输出库，确保LLM输出符合格式。362 stars今日，解决LLM输出不可控痛点，适合需要严格JSON/模式输出的应用。"
+  },
+  {
+   "id": "gh11",
+   "title": "agegr/pi-web",
+   "url": "https://github.com/agegr/pi-web",
+   "desc": "Web UI for the pi coding agent",
+   "lang": "TypeScript",
+   "stars": "2,059",
+   "stars_today": "314 stars today",
+   "summary": "pi编码助手的Web界面。314 stars今日，AI编程工具前端，适合关注AI辅助开发工具链的开发者。"
+  },
+  {
+   "id": "gh4",
+   "title": "likec4/likec4",
+   "url": "https://github.com/likec4/likec4",
+   "desc": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+   "lang": "TypeScript",
+   "stars": "4,257",
+   "stars_today": "172 stars today",
+   "summary": "从代码生成实时软件架构图。172 stars今日，AI辅助可视化，适合架构师和文档自动化。"
+  }
+ ],
+ "news": [
+  {
+   "title": "OpenAI’s AI spending spree has ballooned to $750B",
+   "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+   "desc": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "OpenAI的AI基础设施支出已膨胀至7500亿美元，相当于瑞典GDP。这意味着AI军备竞赛进入疯狂烧钱阶段，算力成为核心壁垒，创业公司需关注如何高效利用现有资源而非自建。"
+  },
+  {
+   "title": "AMD commits up to $5 billion to  Anthropic",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
+   "desc": "AMD says it's going to invest up to $5 billion in Anthropic, while helping to expand the AI company's computing power, according to an announcement on Wednesday. As part of the new partnership, Anthropic will deploy up to 2 gigawatts of AMD's Instinct MI450 AI GPUs using the chipmaker's new Helios r",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n59",
+   "summary": "AMD承诺向Anthropic投资高达50亿美元，并部署2GW的Instinct MI450 GPU。这标志着AMD在AI芯片领域对Nvidia发起正面挑战，Anthropic获得关键算力支持，未来模型竞争格局可能生变。"
+  },
+  {
+   "title": "Data centers expected to use 4x more electricity by 2035",
+   "url": "https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/",
+   "desc": "New data centers built through 2033 could consume as much electricity as India uses today.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n57",
+   "summary": "数据中心预计到2035年用电量翻四倍，新数据中心耗电量堪比印度全国。这凸显AI发展的能源瓶颈，催生对绿色计算、高效芯片和分布式训练的需求，也是创业机会。"
+  },
+  {
+   "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
+   "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+   "desc": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "美国财政部威胁制裁，因白宫声称Moonshot蒸馏了Anthropic的Fable模型。这加剧了华盛顿对中国开源模型的担忧，可能引发更严格的出口管制，影响开源模型在全球的流通。"
+  },
+  {
+   "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+   "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+   "desc": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Hugging Face possible.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "OpenAI因人为错误导致“高度隔离”测试环境被攻破，引发Hugging Face被黑事件。这暴露了AI安全中的人为因素，强调安全流程和审计的重要性，相关工具和服务需求上升。"
+  },
+  {
+   "title": "Substack’s new tool tells you who’s been writing their newsletters with AI",
+   "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+   "desc": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "Substack推出AI检测工具，帮助读者判断新闻通讯是否由AI撰写。这反映了内容平台对AI生成内容透明度的重视，可能成为行业标准，为AI检测技术创造市场。"
+  },
+  {
+   "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+   "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
+   "desc": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n51",
+   "summary": "Synthesia推出AI角色扮演培训平台，让员工与AI化身练习职场对话并获得反馈。这是AI在培训领域的创新应用，将AI从内容生成扩展到交互式模拟，企业培训市场潜力巨大。"
+  },
+  {
+   "title": "Meta is testing an AI bedtime story app for people with no imagination",
+   "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+   "desc": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n53",
+   "summary": "Meta正在测试AI睡前故事应用，旨在为缺乏想象力的人提供故事。这体现了AI在创意娱乐领域的渗透，但也被批评为取代人类想象力，需平衡自动化与人文价值。"
+  },
+  {
+   "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
+   "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+   "desc": "Glow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n50",
+   "summary": "Glow以12亿美元估值从隐身模式中走出，专注AI时代端点安全。随着AI代理和开发者工具普及，新型端点风险涌现，安全创业迎来新赛道。"
+  },
+  {
+   "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+   "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+   "desc": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "美国开源AI实验室Arcee表示中国模型并非固有危险，与华盛顿鹰派观点形成对比。这反映了开源社区对模型安全性的不同看法，开源与闭源之争持续。"
+  },
+  {
+   "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
+   "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+   "desc": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "Travis Kalanick的机器人公司Atoms获17亿美元融资，由a16z领投。工业AI和机器人领域持续吸引巨额资本，但需警惕过度炒作，关注实际落地能力。"
+  },
+  {
+   "title": "Monday.com lays off hundreds to focus on AI",
+   "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+   "desc": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "Monday.com裁员20%（约630人）以聚焦AI工作平台。这表明传统SaaS公司正加速向AI转型，裁员成为常见手段，开发者应关注AI原生工具的机会。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "ACME.BOT",
+   "url": "https://www.producthunt.com/products/acme-bot",
+   "desc": "No-slop AI SEO agent that interviews you first Discussion | Link",
+   "summary": "ACME.BOT 是一个 AI SEO 代理，先采访你了解业务，再生成无废话的优化内容。亮点是“先采访后生成”，避免通用 SEO 套话，适合追求精准内容策略的开发者。"
+  },
+  {
+   "id": "ph2",
+   "title": "Migma AI",
+   "url": "https://www.producthunt.com/products/migma-ai",
+   "desc": "AI runs your email marketing. Better with every send. Discussion | Link",
+   "summary": "Migma AI 用 AI 自动运行邮件营销，每次发送都会学习优化。亮点是“越用越好”，适合需要自动化邮件营销但不想手动调参的团队。"
+  },
+  {
+   "id": "ph3",
+   "title": "Buzzy",
+   "url": "https://www.producthunt.com/products/buzzy-2",
+   "desc": "Your creative AI co-director Discussion | Link",
+   "summary": "Buzzy 是创意 AI 联合导演，帮你生成视频或创意内容。亮点是“协作式创作”，适合内容创作者和营销人员。"
+  },
+  {
+   "id": "ph4",
+   "title": "Remote OpenClaw",
+   "url": "https://www.producthunt.com/products/remote-openclaw-2",
+   "desc": "13,000+ MCP servers, skills & plugins for AI coding agents Discussion | Link",
+   "summary": "Remote OpenClaw 提供 13,000+ MCP 服务器、技能和插件，供 AI 编码代理使用。亮点是海量即用资源，适合构建或扩展 AI 编码工作流的开发者。"
+  },
+  {
+   "id": "ph5",
+   "title": "AGINE Academy",
+   "url": "https://www.producthunt.com/products/agine-academy",
+   "desc": "A story-driven game for learning Claude by doing Discussion | Link",
+   "summary": "AGINE Academy 是一个故事驱动的游戏，通过实践学习 Claude 的使用。亮点是“边玩边学”，适合想快速上手 Claude 的开发者。"
+  },
+  {
+   "id": "ph8",
+   "title": "Gemini 3.6 Flash Family",
+   "url": "https://www.producthunt.com/products/gemini-3-6-flash-family",
+   "desc": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber Discussion | Link",
+   "summary": "Gemini 3.6 Flash 系列包括 Flash、Flash-Lite 和 Cyber 版本，提供不同性能/成本选项。亮点是“家族化”选择，适合需要灵活部署 AI 模型的开发者。"
+  },
+  {
+   "id": "ph9",
+   "title": "MonoCloud for Startups",
+   "url": "https://www.producthunt.com/products/monocloud-for-startups-free-for-1-year",
+   "desc": "One identity layer for your customers, APIs, and agents Discussion | Link",
+   "summary": "MonoCloud for Startups 提供统一的身份层，管理客户、API 和代理的认证。亮点是“一站式身份管理”，适合构建多代理系统的初创公司。"
+  },
+  {
+   "id": "ph16",
+   "title": "Arkor",
+   "url": "https://www.producthunt.com/products/arkor",
+   "desc": "Fine-tune and Deploy Open-weight Models in TypeScript Discussion | Link",
+   "summary": "Arkor 让你在 TypeScript 中微调和部署开放权重模型。亮点是“TypeScript 原生”，适合前端/全栈开发者轻松集成 AI 模型。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 系统架构与编排：LangGraph/LangChain/MCP/A2A 协议、Multi-Agent 协作、状态机、记忆系统、导演层等生产级 Agent 工作流设计成为标配，不再只是 demo 阶段。",
+   "AI 全栈与 AI Native 开发：要求熟练使用 Claude Code/Cursor/Codex 等 AI IDE 作为生产力倍增器，从后端到前端到部署一条龙，且强调代码质量与工程化思维。",
+   "RAG 与 LLM 应用落地：端到端 RAG 流水线（向量+BM25+重排序）、知识库构建、Tool Calling、Workflow 编排，从概念验证转向生产级系统。",
+   "垂直行业 AI 融合：金融、物流、能源、医疗、教育、电商等行业的 AI 产品经理、算法工程师需求旺盛，要求懂行业场景+AI 技术。",
+   "AI Infra 与底层优化：KV Cache 优化、CUDA 编程、推理服务部署（vLLM/Dify）、AI Gateway、网络与安全，以及具身智能/机器人平台的全栈工程师需求上升。"
+  ],
+  "gigs": [
+   "远程/兼职/项目制岗位增多：AI 互动产品评测、Vibe Coding 任务设计、Dify/vLLM 私有化部署、网站制作等零活需求活跃，报酬 500-1000 元/任务或按项目包干。",
+   "AI Agent 任务设计专家抢手：需要各行业专家将日常电脑工作设计成 AI Agent 任务（300-1000 元/任务），样本有限但趋势明显——AI 数据标注从简单分类转向复杂流程设计。",
+   "远程全栈/后端岗位持续：Go/Python/Next.js 技术栈为主，接受 Java 转 Go，薪资 10k-25k RMB/月，要求 AI Native 开发文化，注重交付质量。"
+  ],
+  "highlights": [
+   {
+    "title": "部门有 4 个 agent 大模型岗位，欢迎投递",
+    "desc": "一、Agent 系统架构开发\n基于 LangGraph 、LangChain 、LlamaIndex 搭建生产级有状态 Agent 工作流，落地 ReAct 、Plan-and-Execute 、Multi-Agent 等主流架构。设计多智能体协作体系，实现任务委派、权限移交、群组协同，基于 MCP 、A2A 协议完成工具统一接入与跨 Agent 通信。搭建 Agent 持久化执行、人在回路、异常重试、故障恢复等生产能力，提升复杂场景任务执行准确率与系统稳定性。 二、生产级 RAG 体系建设\n搭建端到端生产级 RAG 流水线，实现非结构化文档解析、向量化构建、混合检索（向量+BM25+重排序）",
+    "url": "https://www.v2ex.com/t/1227881#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "Agent 系统架构开发岗位明确要求基于 LangGraph/LangChain 搭建生产级有状态 Agent 工作流，并涉及 MCP/A2A 协议，代表 Agent 工程从实验走向标准化。"
+   },
+   {
+    "title": "我们正在组建 Agent Computer 核心自研团队。",
+    "desc": "我们正在组建 Agent Computer 核心自研团队。 Agent Computer 不是普通 AI PC ，也不是在 Linux 主机上简单叠加开源工具，而是一台面向开发者、小型 AI 团队和高强度 Agent 使用者的本地 AI 工作流个人计算设备。它需要把 AgentOS 、模型服务、Runtime Adapter 、开发者工具链、Benchmark 、Telemetry 、Gateway 、Sandbox 、官方 Blueprints 、测试套件、离线包和交付保障做成一条真实可运行、可观测、可复现、可安全执行的系统链路。 当前团队围绕 2027 年 1 月 CES 交付目标倒排，计",
+    "url": "https://www.v2ex.com/t/1227173#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m25",
+    "summary": "组建 Agent Computer 核心自研团队，目标 2027 年 CES 交付，代表 AI 硬件与软件深度整合的创业方向，需要系统级全栈能力。"
+   },
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m36",
+    "summary": "Senior AI Researcher 岗位专注 KV Cache 优化与 LLM 推理加速，远程/可 relocate 悉尼，代表 AI Infra 底层优化人才稀缺且全球化。"
+   },
+   {
+    "title": "【包月付费置顶】【参加报销电量】TalentsAI｜大量招聘Vibe Coding 任务设计专家/500-1000/任务",
+    "desc": "公司介绍 TalentsAI 是一家专注于专家级 AI 数据的平台，服务全球头部 AI 实验室和前沿大模型团队。（已获国内外顶级资本融资） 我们在找谁 我们要找的不是“会用 AI 写代码的人”，而是每天真的在用 AI Agent ship 东西的人。 你可能每天用 Cursor / Claude Code / Codex 写代码、改项目、调 Bug、做产品；你既被它坑过，也靠它上线过真实东西。 你",
+    "url": "https://eleduck.com/posts/R3f78r",
+    "source": "电鸭社区",
+    "id": "m45",
+    "summary": "TalentsAI 招聘 Vibe Coding 任务设计专家，500-1000 元/任务，代表 AI 数据标注新形态——需要真正用 AI 写代码的人来设计任务。"
+   },
+   {
+    "title": "【外包零活】Dify + vLLM 私有化部署技术专家（远程）",
+    "desc": "我们团队正在寻找一位有 Dify / vLLM 实际部署经验的开发者， 协助完成企业内 AI 平台的私有化搭建。 【工作内容】 1. 内网环境 Dify + vLLM 全栈部署（Docker 或 K8s） 2. 本地大模型（Qwen3/DeepSeek）的推理服务配置 3. Dify 工作流设计与 Agent 应用搭建 4. 部署文档撰写与知识转移 【期望你有】 - 至少 1 个 Dify 生产环",
+    "url": "https://eleduck.com/posts/qzfqqD",
+    "source": "电鸭社区",
+    "id": "m49",
+    "summary": "Dify + vLLM 私有化部署外包需求，代表企业级 AI 私有化部署市场活跃，需要熟悉开源工具链的实战开发者。"
+   },
+   {
+    "title": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're ",
+    "desc": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're a company doing real operational work in e-commerce/3PL logistics. AI usage internally is still basic — decks, spreadsheets, a few people vibe-coding dashboards. No real agentic workflows in production yet. That's what this role is for.\nYou'd be the first dedicated AI engineer here. Two things at once: ship agentic wor",
+    "url": "https://news.ycombinator.com/item?id=48915735",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m54",
+    "summary": "Portless 招聘首位 AI 工程师，年薪 $180k-$230k，从零构建 agentic workflows，代表传统行业公司开始设立 AI 工程岗位，需求迫切。"
+   }
+  ],
+  "week": "2026-W30"
+ }
+}
