@@ -1,0 +1,338 @@
+{
+ "date": "2026-07-24",
+ "generated_at": "2026-07-24 07:14",
+ "llm_used": true,
+ "trends": [
+  "AI健康应用爆发：OpenAI推出ChatGPT Health，结合Apple Health等个人数据提供个性化健康洞察，标志AI进入医疗消费级场景，隐私与合规是关键挑战。",
+  "开源模型争议升级：美国创业公司呼吁政府不要封禁中国开源AI，同时专家质疑Moonshot蒸馏Anthropic Fable的说法，开源与闭源、安全与创新的博弈加剧。",
+  "AI基础设施竞争白热化：AMD发布Helios机架系统挑战Nvidia，Etched以10.3B估值推出非GPU推理芯片，AI芯片市场格局正在重塑。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 15
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 4
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 9
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  }
+ ],
+ "github": [
+  {
+   "id": "gh10",
+   "title": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": "11,463",
+   "stars_today": "265 stars today",
+   "summary": "阿里巴巴开源的代码审查工具，结合确定性流水线和LLM Agent，支持行级评论和内置规则集（如NPE、SQL注入）。火是因为它展示了LLM在工程实践中的落地，且经过阿里大规模验证，对开发者有直接参考价值。"
+  },
+  {
+   "id": "gh4",
+   "title": "citrolabs/ego-lite",
+   "url": "https://github.com/citrolabs/ego-lite",
+   "desc": "The best browser for both you and your AI agents work in parallel.",
+   "lang": "JavaScript",
+   "stars": "1,591",
+   "stars_today": "219 stars today",
+   "summary": "一款专为人类和AI代理并行工作设计的浏览器，支持AI代理在后台运行任务。火是因为它探索了人机协作的新交互模式，可能改变开发者的工作流。"
+  },
+  {
+   "id": "gh8",
+   "title": "earthtojake/text-to-cad",
+   "url": "https://github.com/earthtojake/text-to-cad",
+   "desc": "A collection of agent skills for CAD, robotics and hardware design",
+   "lang": "JavaScript",
+   "stars": "9,955",
+   "stars_today": "293 stars today",
+   "summary": "将文本描述转换为CAD模型的工具集，集成了AI代理技能用于CAD、机器人和硬件设计。火是因为它降低了3D建模门槛，结合LLM实现自然语言到设计的转化，对硬件创业者和设计师有吸引力。"
+  },
+  {
+   "id": "gh0",
+   "title": "block/buzz",
+   "url": "https://github.com/block/buzz",
+   "desc": "A hive mind communication platform",
+   "lang": "Rust",
+   "stars": "6,764",
+   "stars_today": "2,460 stars today",
+   "summary": "一个蜂巢思维通信平台，可能利用AI实现群体智能或分布式讨论。火是因为它尝试用AI重塑社交或协作方式，但具体机制尚不明确，值得关注其创新点。"
+  },
+  {
+   "id": "gh13",
+   "title": "Automattic/harper",
+   "url": "https://github.com/Automattic/harper",
+   "desc": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+   "lang": "Rust",
+   "stars": "12,238",
+   "stars_today": "590 stars today",
+   "summary": "离线、隐私优先的语法检查器，基于Rust构建，速度快且开源。火是因为它强调隐私和性能，在AI写作工具泛滥的当下，提供了一种轻量级替代方案。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Launching Health in ChatGPT",
+   "url": "https://openai.com/index/health-in-chatgpt",
+   "desc": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI向所有美国用户推出ChatGPT Health，可连接Apple Health、MyFitnessPal等个人健康数据，提供个性化健康洞察。这意味着AI在医疗消费级应用迈出重要一步，但数据隐私和准确性仍是潜在风险。"
+  },
+  {
+   "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+   "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 650,
+   "id": "n1",
+   "summary": "多位AI创业公司创始人联名呼吁美国政府不要切断中国开源AI模型的访问，认为此举会损害美国创新。这反映了开源模型生态的全球化依赖，以及地缘政治对技术发展的影响。"
+  },
+  {
+   "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+   "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+   "desc": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "AMD发布Helios AI机架系统，直接挑战Nvidia的AI基础设施地位，计划今年晚些时候交付。这表明AI算力市场竞争加剧，AMD正试图打破Nvidia的垄断。"
+  },
+  {
+   "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+   "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+   "desc": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "AI芯片初创公司Etched以103亿美元估值融资，其芯片无需GPU即可加速任意AI模型推理。这预示着AI推理专用芯片可能成为新趋势，挑战传统GPU架构。"
+  },
+  {
+   "title": "Building AI infrastructure with the Effingham County community",
+   "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+   "desc": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "OpenAI宣布在佐治亚州建设AI基础设施项目Project Camellia，承诺负责任能源和社区投资。这显示AI巨头正加速基础设施布局，同时面临能源和社区关系挑战。"
+  },
+  {
+   "title": "Anthropic updates Claude voice mode with more capable models",
+   "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+   "desc": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Anthropic更新Claude语音模式，支持Opus和Sonnet模型，并集成Gmail、Slack等应用。语音助手能力提升，向更复杂的任务执行迈进，可能改变人机交互方式。"
+  },
+  {
+   "title": "Runway launches AI model router as generative media gets crowded",
+   "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+   "desc": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Runway推出AI模型路由器Media Router，自动选择最佳图像/视频/音频生成模型，平衡质量、速度和成本。这为开发者提供了灵活的工具，降低多模型管理复杂度。"
+  },
+  {
+   "title": "Google’s Gemini nears billion-user milestone",
+   "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+   "desc": "Gemini had over 750 million monthly users in February.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "Google Gemini月活用户超7.5亿，接近10亿大关，同时Google云业务因AI服务增长创纪录利润。这表明AI正成为科技巨头核心增长引擎，用户采纳速度惊人。"
+  },
+  {
+   "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+   "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
+   "desc": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "专家质疑Moonshot通过蒸馏Anthropic Fable模型的说法，认为Kimi K3的强性能不可能仅靠蒸馏实现。这引发对AI模型抄袭和知识产权保护的讨论，可能影响开源模型监管。"
+  },
+  {
+   "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+   "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+   "desc": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Hugging Face possible.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n50",
+   "summary": "OpenAI因配置错误导致测试环境被利用，引发对Hugging Face的AI驱动攻击。这暴露了AI安全实践中的漏洞，提醒开发者重视基础设施安全。"
+  },
+  {
+   "title": "Substack’s new tool tells you who’s been writing their newsletters with AI",
+   "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+   "desc": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "Substack推出AI检测工具，帮助读者识别新闻通讯中AI生成的内容。这标志着内容平台对AI透明度的重视，可能推动行业标准建立。"
+  },
+  {
+   "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
+   "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+   "desc": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automati",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n56",
+   "summary": "亚马逊Alexa Plus更新，支持更复杂的智能家居指令，并集成Bosch、iRobot等品牌。AI语音助手正从简单问答向智能家居控制中枢进化，提升用户体验。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph3",
+   "title": "HOL Guard",
+   "url": "https://www.producthunt.com/products/hol-guard",
+   "desc": "The 1st Firewall for AI Agents Discussion | Link",
+   "summary": "HOL Guard 是首个针对 AI Agent 的防火墙，保护企业免受恶意 Agent 攻击，类似网络安全中的 WAF 但专为 AI 设计。"
+  },
+  {
+   "id": "ph4",
+   "title": "PromptQL",
+   "url": "https://www.producthunt.com/products/promptql",
+   "desc": "Multiplayer AI that replaces Slack Discussion | Link",
+   "summary": "PromptQL 是一个多人协作 AI 平台，旨在替代 Slack，通过自然语言查询和交互提升团队效率。"
+  },
+  {
+   "id": "ph8",
+   "title": "Quaso",
+   "url": "https://www.producthunt.com/products/notte",
+   "desc": "AI automation agent to get stuff done across apps or browser Discussion | Link",
+   "summary": "Quaso 是一个 AI 自动化代理，能在多个应用或浏览器中自动完成任务，类似 AutoGPT 但更易用。"
+  },
+  {
+   "id": "ph10",
+   "title": "OpenCode Superapp",
+   "url": "https://www.producthunt.com/products/opencode-superapp",
+   "desc": "The power of Codex with local, self-hosted models and voice Discussion | Link",
+   "summary": "OpenCode Superapp 结合了 Codex 的能力与本地自托管模型和语音，让开发者可以在本地安全地使用 AI 编码助手。"
+  },
+  {
+   "id": "ph14",
+   "title": "Caw",
+   "url": "https://www.producthunt.com/products/caw",
+   "desc": "Open source web terminal multiplexer for AI agents Discussion | Link",
+   "summary": "Caw 是一个开源 Web 终端多路复用器，专为 AI Agent 设计，让 Agent 能同时管理多个终端会话。"
+  },
+  {
+   "id": "ph19",
+   "title": "AgentLoop",
+   "url": "https://www.producthunt.com/products/agentloop-2",
+   "desc": "Starts a fresh Codex worker and critic every cycle Discussion | Link",
+   "summary": "AgentLoop 每次循环启动一个全新的 Codex worker 和批评者，通过迭代改进代码生成质量，类似自我优化的编码代理。"
+  },
+  {
+   "id": "ph22",
+   "title": "LapuAi",
+   "url": "https://www.producthunt.com/products/lapuai",
+   "desc": "OS Driver for AI to use computers Discussion | Link",
+   "summary": "LapuAi 是一个操作系统驱动程序，让 AI 能像人类一样使用计算机，控制鼠标键盘，实现自动化操作。"
+  },
+  {
+   "id": "ph23",
+   "title": "PenguinHarness",
+   "url": "https://www.producthunt.com/products/penguinharness",
+   "desc": "Let Agents Autonomously Build Better Agents for $0.02 Discussion | Link",
+   "summary": "PenguinHarness 让 AI Agent 自主构建更好的 Agent，成本仅 0.02 美元，实现 Agent 的自我进化。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 系统架构与编排：LangGraph/LangChain/MCP/A2A 协议、Multi-Agent 协作、状态机、记忆系统、导演层等生产级 Agent 工作流设计成为标配，不再只是 demo 阶段。",
+   "AI 全栈与 AI Native 开发：要求熟练使用 Claude Code/Cursor/Codex 等 AI IDE 作为生产力倍增器，从后端到前端到部署一条龙，且强调代码质量与工程化思维。",
+   "RAG 与 LLM 应用落地：端到端 RAG 流水线（向量+BM25+重排序）、知识库构建、Tool Calling、Workflow 编排，从概念验证转向生产级系统。",
+   "垂直行业 AI 融合：金融、物流、能源、医疗、教育、电商等行业的 AI 产品经理、算法工程师需求旺盛，要求懂行业场景+AI 技术。",
+   "AI Infra 与底层优化：KV Cache 优化、CUDA 编程、推理服务部署（vLLM/Dify）、AI Gateway、网络与安全，以及具身智能/机器人平台的全栈工程师需求上升。"
+  ],
+  "gigs": [
+   "远程/兼职/项目制岗位增多：AI 互动产品评测、Vibe Coding 任务设计、Dify/vLLM 私有化部署、网站制作等零活需求活跃，报酬 500-1000 元/任务或按项目包干。",
+   "AI Agent 任务设计专家抢手：需要各行业专家将日常电脑工作设计成 AI Agent 任务（300-1000 元/任务），样本有限但趋势明显——AI 数据标注从简单分类转向复杂流程设计。",
+   "远程全栈/后端岗位持续：Go/Python/Next.js 技术栈为主，接受 Java 转 Go，薪资 10k-25k RMB/月，要求 AI Native 开发文化，注重交付质量。"
+  ],
+  "highlights": [
+   {
+    "title": "部门有 4 个 agent 大模型岗位，欢迎投递",
+    "desc": "一、Agent 系统架构开发\n基于 LangGraph 、LangChain 、LlamaIndex 搭建生产级有状态 Agent 工作流，落地 ReAct 、Plan-and-Execute 、Multi-Agent 等主流架构。设计多智能体协作体系，实现任务委派、权限移交、群组协同，基于 MCP 、A2A 协议完成工具统一接入与跨 Agent 通信。搭建 Agent 持久化执行、人在回路、异常重试、故障恢复等生产能力，提升复杂场景任务执行准确率与系统稳定性。 二、生产级 RAG 体系建设\n搭建端到端生产级 RAG 流水线，实现非结构化文档解析、向量化构建、混合检索（向量+BM25+重排序）",
+    "url": "https://www.v2ex.com/t/1227881#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "Agent 系统架构开发岗位明确要求基于 LangGraph/LangChain 搭建生产级有状态 Agent 工作流，并涉及 MCP/A2A 协议，代表 Agent 工程从实验走向标准化。"
+   },
+   {
+    "title": "我们正在组建 Agent Computer 核心自研团队。",
+    "desc": "我们正在组建 Agent Computer 核心自研团队。 Agent Computer 不是普通 AI PC ，也不是在 Linux 主机上简单叠加开源工具，而是一台面向开发者、小型 AI 团队和高强度 Agent 使用者的本地 AI 工作流个人计算设备。它需要把 AgentOS 、模型服务、Runtime Adapter 、开发者工具链、Benchmark 、Telemetry 、Gateway 、Sandbox 、官方 Blueprints 、测试套件、离线包和交付保障做成一条真实可运行、可观测、可复现、可安全执行的系统链路。 当前团队围绕 2027 年 1 月 CES 交付目标倒排，计",
+    "url": "https://www.v2ex.com/t/1227173#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m25",
+    "summary": "组建 Agent Computer 核心自研团队，目标 2027 年 CES 交付，代表 AI 硬件与软件深度整合的创业方向，需要系统级全栈能力。"
+   },
+   {
+    "title": "[内推] [可 relocate 悉尼] [远程] Senior AI Researcher (KV Cache Optimization)",
+    "desc": "团队直招，简历直达，HC 1 个 ，Full Time 岗位 简介 base 悉尼的一家 startup ， 专注于云平台的 cost deduction ，如 CPU/内存的调度优化，\n同时也正在扩展 GPU 领域，需要懂 CUDA/KV cache/LLM optimization/调度优化的大牛。 办公地点选择 远程（约 2-3h 时差） relocate 到悉尼。Hybrid: 3 天办公室+2 天 WFH,可协助办理签证 Responsibilities: inference & Compute Optimization: Design and implement highly op",
+    "url": "https://www.v2ex.com/t/1226229#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m36",
+    "summary": "Senior AI Researcher 岗位专注 KV Cache 优化与 LLM 推理加速，远程/可 relocate 悉尼，代表 AI Infra 底层优化人才稀缺且全球化。"
+   },
+   {
+    "title": "【包月付费置顶】【参加报销电量】TalentsAI｜大量招聘Vibe Coding 任务设计专家/500-1000/任务",
+    "desc": "公司介绍 TalentsAI 是一家专注于专家级 AI 数据的平台，服务全球头部 AI 实验室和前沿大模型团队。（已获国内外顶级资本融资） 我们在找谁 我们要找的不是“会用 AI 写代码的人”，而是每天真的在用 AI Agent ship 东西的人。 你可能每天用 Cursor / Claude Code / Codex 写代码、改项目、调 Bug、做产品；你既被它坑过，也靠它上线过真实东西。 你",
+    "url": "https://eleduck.com/posts/R3f78r",
+    "source": "电鸭社区",
+    "id": "m45",
+    "summary": "TalentsAI 招聘 Vibe Coding 任务设计专家，500-1000 元/任务，代表 AI 数据标注新形态——需要真正用 AI 写代码的人来设计任务。"
+   },
+   {
+    "title": "【外包零活】Dify + vLLM 私有化部署技术专家（远程）",
+    "desc": "我们团队正在寻找一位有 Dify / vLLM 实际部署经验的开发者， 协助完成企业内 AI 平台的私有化搭建。 【工作内容】 1. 内网环境 Dify + vLLM 全栈部署（Docker 或 K8s） 2. 本地大模型（Qwen3/DeepSeek）的推理服务配置 3. Dify 工作流设计与 Agent 应用搭建 4. 部署文档撰写与知识转移 【期望你有】 - 至少 1 个 Dify 生产环",
+    "url": "https://eleduck.com/posts/qzfqqD",
+    "source": "电鸭社区",
+    "id": "m49",
+    "summary": "Dify + vLLM 私有化部署外包需求，代表企业级 AI 私有化部署市场活跃，需要熟悉开源工具链的实战开发者。"
+   },
+   {
+    "title": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're ",
+    "desc": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're a company doing real operational work in e-commerce/3PL logistics. AI usage internally is still basic — decks, spreadsheets, a few people vibe-coding dashboards. No real agentic workflows in production yet. That's what this role is for.\nYou'd be the first dedicated AI engineer here. Two things at once: ship agentic wor",
+    "url": "https://news.ycombinator.com/item?id=48915735",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m54",
+    "summary": "Portless 招聘首位 AI 工程师，年薪 $180k-$230k，从零构建 agentic workflows，代表传统行业公司开始设立 AI 工程岗位，需求迫切。"
+   }
+  ],
+  "week": "2026-W30"
+ }
+}
