@@ -51,3 +51,21 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # 放在部署之后：降级的页面照常上线，但让本次 run 标红，
+      # 触发 GitHub 的 workflow 失败邮件，避免再像 7/25、7/26 那样悄无声息坏掉。
+      - name: Alert on degradation
+        run: |
+          DATE=$(TZ=Asia/Shanghai date +%F)
+          python - "$DATE" <<'PY'
+          import json, sys
+          date = sys.argv[1]
+          d = json.load(open(f"data/{date}.json"))
+          bad = d.get("degraded")
+          if bad is None:  # 兼容旧数据：没有 degraded 字段时看 llm_used
+              bad = [] if d.get("llm_used", True) else ["(unknown)"]
+          if bad:
+              print(f"::error::{date} 日报有板块降级（未经过 LLM 加工）：{', '.join(bad)}")
+              sys.exit(1)
+          print(f"{date} 全部板块正常加工")
+          PY

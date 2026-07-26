@@ -92,24 +92,43 @@ def build_digest(cfg: dict, today: str) -> dict:
     digest = {
         "date": today,
         "generated_at": dt.datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M"),
-        "llm_used": True,
         "trends": [],
         "source_stats": [{"name": n, "count": c} for n, c in stats],
     }
-    try:
-        digest["github"] = llm.process_github(cfg["llm"], github_raw, limits["github_keep"])
+    # 每个板块独立加工：某个板块 LLM 失败只降级它自己，不牵连其余板块
+    degraded: list[str] = []
+
+    def section(name: str, produce, fallback: list[dict]) -> list[dict]:
+        try:
+            return produce()
+        except llm.LLMUnavailable as e:
+            log.warning("板块「%s」LLM 加工失败，降级为原始列表：%s", name, e)
+            degraded.append(name)
+            return fallback
+
+    def produce_news() -> list[dict]:
         news = llm.process_news(cfg["llm"], news_raw, limits["news_keep"], seen_titles)
         digest["trends"] = news["trends"]
-        digest["news"] = news["items"]
-        digest["products"] = llm.process_products(cfg["llm"], products_raw, limits["products_keep"])
-    except llm.LLMUnavailable as e:
-        log.warning("LLM 不可用，降级为原始列表：%s", e)
-        digest["llm_used"] = False
-        digest["github"] = github_raw[: limits["github_keep"]]
-        digest["news"] = news_raw[: limits["news_keep"]]
-        digest["products"] = products_raw[: limits["products_keep"]]
+        return news["items"]
+
+    digest["github"] = section(
+        "github",
+        lambda: llm.process_github(cfg["llm"], github_raw, limits["github_keep"]),
+        github_raw[: limits["github_keep"]],
+    )
+    digest["news"] = section("news", produce_news, news_raw[: limits["news_keep"]])
+    digest["products"] = section(
+        "products",
+        lambda: llm.process_products(cfg["llm"], products_raw, limits["products_keep"]),
+        products_raw[: limits["products_keep"]],
+    )
 
     digest["market"] = get_market_report(cfg)
+    if digest["market"] is None:
+        degraded.append("market")
+
+    digest["llm_used"] = not degraded
+    digest["degraded"] = degraded
     return digest
 
 
