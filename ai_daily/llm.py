@@ -34,7 +34,11 @@ def _chat(cfg: dict, system: str, user: str) -> dict:
             },
             timeout=TIMEOUT,
         )
-        resp.raise_for_status()
+        if resp.status_code >= 400:
+            # 带上响应正文，否则 raise_for_status 只给状态码，看不到 DeepSeek 的具体报错
+            raise LLMUnavailable(
+                f"HTTP {resp.status_code} from {cfg['model']}: {resp.text[:500]}"
+            )
         content = resp.json()["choices"][0]["message"]["content"]
         return json.loads(content)
     except LLMUnavailable:
