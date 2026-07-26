@@ -1,8 +1,13 @@
 {
  "date": "2026-07-26",
- "generated_at": "2026-07-26 14:58",
- "llm_used": false,
- "trends": [],
+ "generated_at": "2026-07-26 15:00",
+ "llm_used": true,
+ "trends": [
+  "具身智能数据开源和Agent产品化加速，中国团队贡献大量高质量开源资源（如3万小时触觉数据、吴恩达桌面Agent），推动行业从学术走向实用。",
+  "小模型和边缘部署成为新热点，28.9M参数LLM可在8美元MCU上运行，语音模型仅9.36M参数，预示AI硬件化趋势。",
+  "AI基础设施矛盾凸显：数据中心电力紧张、反AI社会运动兴起，迫使行业重新思考可持续性和用户信任。",
+  "AI创业融资活跃，新实验室（Prentis）获1亿美元，Midjourney跨界收购，但关于Agent能力（工业vs学术）存在认知鸿沟。"
+ ],
  "source_stats": [
   {
    "name": "GitHub Trending",
@@ -45,89 +50,34 @@
    "count": 30
   }
  ],
- "github": [
-  {
-   "id": "gh4",
-   "title": "anthropics/claude-cookbooks",
-   "url": "https://github.com/anthropics/claude-cookbooks",
-   "desc": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-   "lang": "Jupyter Notebook",
-   "stars": "49,972",
-   "stars_today": "132 stars today"
-  },
-  {
-   "id": "gh7",
-   "title": "obra/superpowers",
-   "url": "https://github.com/obra/superpowers",
-   "desc": "An agentic skills framework & software development methodology that works.",
-   "lang": "Shell",
-   "stars": "261,228",
-   "stars_today": "479 stars today"
-  },
-  {
-   "id": "gh9",
-   "title": "permissionlesstech/bitchat",
-   "url": "https://github.com/permissionlesstech/bitchat",
-   "desc": "bluetooth mesh chat, IRC vibes",
-   "lang": "Swift",
-   "stars": "28,910",
-   "stars_today": "1,720 stars today"
-  },
-  {
-   "id": "gh11",
-   "title": "palmier-io/palmier-pro",
-   "url": "https://github.com/palmier-io/palmier-pro",
-   "desc": "macOS video editor built for AI",
-   "lang": "Swift",
-   "stars": "12,312",
-   "stars_today": "412 stars today"
-  },
-  {
-   "id": "gh14",
-   "title": "RyanCodrai/turbovec",
-   "url": "https://github.com/RyanCodrai/turbovec",
-   "desc": "A vector index built on TurboQuant, written in Rust with Python bindings",
-   "lang": "Python",
-   "stars": "14,333",
-   "stars_today": "86 stars today"
-  },
-  {
-   "id": "gh16",
-   "title": "andrewyng/aisuite",
-   "url": "https://github.com/andrewyng/aisuite",
-   "desc": "Simple, unified interface to multiple Generative AI providers",
-   "lang": "Python",
-   "stars": "15,273",
-   "stars_today": "77 stars today"
-  },
-  {
-   "id": "gh17",
-   "title": "affaan-m/ECC",
-   "url": "https://github.com/affaan-m/ECC",
-   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-   "lang": "JavaScript",
-   "stars": "233,413",
-   "stars_today": "377 stars today"
-  }
- ],
+ "github": [],
  "news": [
   {
-   "title": "Android May Soon Restrict On-Device ADB",
-   "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 906,
-   "id": "n0"
+   "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
+   "url": "https://www.qbitai.com/2026/07/460962.html",
+   "desc": "项目数据模型均开源",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n36",
+   "summary": "新智具身与复旦联合发布3万小时触觉数据集，覆盖多种操作场景，数据及模型全部开源。这是具身智能领域最大规模触觉数据，补齐了机器人‘手感’短板，将显著推动模仿学习和灵巧操作研究，创业公司可基于此开发落地产品。"
   },
   {
-   "title": "Did They Ghost You?",
-   "url": "https://didtheyghostyou.com/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 366,
-   "id": "n1"
+   "title": "100%开源！吴恩达做了个个人桌面Agent",
+   "url": "https://www.qbitai.com/2026/07/460892.html",
+   "desc": "开源、隐私、本地优先、模型无关",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n37",
+   "summary": "吴恩达发布100%开源的桌面Agent项目，支持本地运行、隐私保护、模型无关。这意味着个人级AI助手进入开源时代，开发者可自由定制和集成，降低Agent开发门槛，未来可能替代部分办公自动化工具。"
+  },
+  {
+   "title": "全新统一流式架构，Vivix灵动时刻正式发布首个实时互动模型",
+   "url": "https://www.qbitai.com/2026/07/460174.html",
+   "desc": "单卡突破10000 video tokens/s，Vivix打通实时多模态生成全链路",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n42",
+   "summary": "Vivix发布首个实时互动模型‘灵动时刻’，采用统一流式架构，单卡突破10000 video tokens/s，支持多模态实时生成。这是多模态AI的低延迟里程碑，为实时视频对话、虚拟互动等应用铺平道路，值得关注其生态发展。"
   },
   {
    "title": "Open-weight AI is having its Kubernetes moment",
@@ -136,79 +86,8 @@
    "source": "Hacker News",
    "lang": "en",
    "points": 365,
-   "id": "n2"
-  },
-  {
-   "title": "Zero roadkill as Amazon canopy bridges secure 15,000 crossings",
-   "url": "https://news.mongabay.com/2026/07/zero-roadkill-as-amazon-canopy-bridges-secure-15000-crossings/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 346,
-   "id": "n3"
-  },
-  {
-   "title": "The new rules of context engineering for Claude 5 generation models",
-   "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 277,
-   "id": "n4"
-  },
-  {
-   "title": "Bitchat is now on Radicle",
-   "url": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 232,
-   "id": "n5"
-  },
-  {
-   "title": "Turn And Face The Strange",
-   "url": "https://fly.io/blog/kurt-scott-money-sprites/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 189,
-   "id": "n6"
-  },
-  {
-   "title": "Show HN: Brolly, a plain-text weather forecast site",
-   "url": "https://brolly.sh/forecast/RWFP2qW8",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 170,
-   "id": "n7"
-  },
-  {
-   "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
-   "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 166,
-   "id": "n8"
-  },
-  {
-   "title": "JetZero",
-   "url": "https://www.jetzero.aero",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 163,
-   "id": "n9"
-  },
-  {
-   "title": "Show HN: I made some transistor animations",
-   "url": "https://brandonli.net/semisim/animations",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 157,
-   "id": "n10"
+   "id": "n2",
+   "summary": "文章将开源权重AI比作Kubernetes——尽管存在混乱和碎片化，却成为行业实际标准。开源模型（如Llama、Falcon）正主导企业部署，类似K8s生态，开发者应重视开源权重模型的兼容性和工具链投资。"
   },
   {
    "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
@@ -217,59 +96,74 @@
    "source": "Hacker News",
    "lang": "en",
    "points": 149,
-   "id": "n11"
+   "id": "n11",
+   "summary": "研究者将28.9M参数的LLM成功运行在8美元微控制器（如ESP32）上。这证明端侧AI可以极致低成本，适合IoT、传感器等场景，开发者可探索在资源受限设备上集成轻量LLM的新方向。"
+  },
+  {
+   "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+   "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+   "desc": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "Reid Hoffman和Mark Pincus联合创立AI实验室Prentis，正谈判融资1亿美元，专注于自动化计算机日常任务，认为其商业价值将超过代码生成。这意味着投资界看好‘AI操作电脑’赛道，类似RPA的升级版，相关创业机会浮现。"
+  },
+  {
+   "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+   "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+   "desc": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "弗吉尼亚州一次电网故障暴露AI数据中心的脆弱性：单一输电线故障即可导致大范围宕机。文章提出通过微电网、储能和负荷管理来加固供电。对于AI基础设施开发者，理解能源弹性将成为数据中心设计的核心。"
+  },
+  {
+   "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+   "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+   "desc": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n31",
+   "summary": "美国各地图书馆举办‘避开AI’工作坊，需求空前火爆，反映民众对Big Tech和AI的抵触情绪。这是AI普及中的社会阻力信号，开发者需在产品设计中考虑伦理与用户控制权，否则可能面临反噬。"
+  },
+  {
+   "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+   "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+   "desc": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "OpenAI推出实体AI键盘配件，面向程序员提供快捷操作，但对非技术用户较神秘。这是AI硬件化的新尝试，类似苹果‘Touch Bar’但更AI原生，可关注其如何拓宽AI交互入口。"
+  },
+  {
+   "title": "Midjourney bought the astrology app Co-Star",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
+   "desc": "Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is getting into a new field: astrology. The AI startup announced on Thursday that it has acquired the personalized astrology app Co-Star, as reported earlier by Bloomberg. Co-Star is a free app that offers daily ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Midjourney收购占星应用Co-Star，布局个性化和玄学领域。AI生成内容公司开始跨界获取用户数据和场景，暗示AI工具将向生活与娱乐渗透，而非仅限创作。"
+  },
+  {
+   "title": "美国具身也没成熟！PI：中国公司何必总当“中国版XX”｜RSS 2026",
+   "url": "https://www.qbitai.com/2026/07/460542.html",
+   "desc": "这是机器人领域最好的时代",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n38",
+   "summary": "PI机器人创始人指出美国具身智能也未成熟，中国公司不必盲目模仿成为‘中国版XX’。当前是机器人领域最佳时代，应基于真实需求差异化创新，给国内创业团队以信心。"
+  },
+  {
+   "title": "北京说Agent已经能造世界，杭州却说它是刚发明的电灯泡",
+   "url": "https://www.qbitai.com/2026/07/460186.html",
+   "desc": "工业圈和学术圈“唱反调”",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n41",
+   "summary": "北京学界称Agent已能‘造世界’，而杭州工业界则认为Agent只是新发明的电灯泡。这种认知鸿沟揭示Agent技术虽然惊艳但离可靠落地甚远，开发者应警惕过度炒作，聚焦具体场景打磨。"
   }
  ],
- "products": [
-  {
-   "id": "ph0",
-   "title": "Islet",
-   "url": "https://www.producthunt.com/products/islet-2",
-   "desc": "iPhone's Dynamic Island, brought to your Mac's notch Discussion | Link"
-  },
-  {
-   "id": "ph1",
-   "title": "ShellMate",
-   "url": "https://www.producthunt.com/products/shellmate-2",
-   "desc": "The SSH workspace you'll actually enjoy using Discussion | Link"
-  },
-  {
-   "id": "ph2",
-   "title": "Capsomnia",
-   "url": "https://www.producthunt.com/products/capsomnia",
-   "desc": "Caps Lock keeps your Mac awake, even with the lid closed Discussion | Link"
-  },
-  {
-   "id": "ph3",
-   "title": "Speechius",
-   "url": "https://www.producthunt.com/products/speechius",
-   "desc": "The teleprompter that actually listens Discussion | Link"
-  },
-  {
-   "id": "ph4",
-   "title": "Banquish — Make the web your workspace",
-   "url": "https://www.producthunt.com/products/banquish-make-the-web-your-workspace",
-   "desc": "Clip living pieces of the web onto one canvas Discussion | Link"
-  },
-  {
-   "id": "ph5",
-   "title": "Browser FX:",
-   "url": "https://www.producthunt.com/products/browser-fx-chrome-audio-effects-midi",
-   "desc": "Transform your web audio with real-time effects Discussion | Link"
-  },
-  {
-   "id": "ph6",
-   "title": "Wisprkey",
-   "url": "https://www.producthunt.com/products/wisprkey-mac-ai-assistant",
-   "desc": "Talk to any app on your Mac Discussion | Link"
-  },
-  {
-   "id": "ph7",
-   "title": "Speech To Markdown",
-   "url": "https://www.producthunt.com/products/speech-to-markdown",
-   "desc": "Harness local AI for notes Discussion | Link"
-  }
- ],
+ "products": [],
  "market": {
   "skills": [
    "Agent 系统架构与编排：LangGraph/LangChain/MCP/A2A 协议、Multi-Agent 协作、状态机、记忆系统、导演层等生产级 Agent 工作流设计成为标配，不再只是 demo 阶段。",
