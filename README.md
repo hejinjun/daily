@@ -36,6 +36,32 @@ open site/index.html
 
 之后每天清晨自动更新（定时北京时间 6:20 触发，Actions 排队后稍晚出稿），历史日报在"历史"页可回翻（数据以 JSON 形式提交回仓库 `data/` 目录）。
 
+## 怎么自己加博主
+
+「👤 博主」板块就是一份精选 RSS 订阅（`config.yaml` 的 `bloggers`）。想加一个人，判断两步：
+
+1. **他有没有 RSS/Atom feed？** 常见规律：
+   - Substack / 很多 Newsletter：`域名/feed`（如 `https://xxx.substack.com/feed`）
+   - 独立博客：试 `/feed`、`/rss`、`/atom.xml`、`/index.xml`、`/feed.xml`
+   - YouTube 频道：`https://www.youtube.com/feeds/videos.xml?channel_id=<频道ID>`
+   - Twitter/X：**没有可靠 RSS，别加**——挑那些把推文汇编成 Newsletter 的人代替
+2. **feed 近期有没有内容？** 停更的人加了也是空。用下面这条命令验证（抓到几条、最新一条多久前）：
+   ```bash
+   .venv/bin/python - 'https://那个人的/feed' <<'PY'
+   import sys, time, calendar, requests, feedparser
+   r = requests.get(sys.argv[1], headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
+   p = feedparser.parse(r.content); now = time.time()
+   print(f"HTTP {r.status_code}, {len(p.entries)} 条")
+   for e in p.entries[:3]:
+       ts = e.get("published_parsed") or e.get("updated_parsed")
+       age = f"{(now-calendar.timegm(ts))/86400:.0f}天前" if ts else "无日期"
+       print(f"  {age} · {e.get('title','')[:60]}")
+   PY
+   ```
+   `0 条` 或最新一条几百天前 → 别加。加进 `config.yaml` 后，日报页脚的**源健康度**也会显示每个源抓到几条，`0` 一眼看出填错的 URL。
+
+几个可调参数（都在 `config.yaml`）：`blogger_window_hours`（抓多久内的新帖，默认 7 天）、`bloggers_per_author`（每人最多几条，防高产者刷屏）、`bloggers_keep`（板块总条数上限）。注意窗口别超过去重回看的 8 天，否则同一篇会重复出现。
+
 ## 调口味
 
 - 增删新闻源、调每个板块条数：改 `config.yaml`
