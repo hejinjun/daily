@@ -67,6 +67,12 @@ bloggers:
   - name: Matt Pocock（AI Hero）  # newsletter 低频，多数时候窗口内无新帖
     url: https://www.aihero.dev/rss.xml
     lang: en
+  - name: Latent Space（swyx）
+    url: https://www.latent.space/feed
+    lang: en
+  - name: Peter Yang（Creator Economy）
+    url: https://creatoreconomy.so/feed
+    lang: en
 
 # 关注名录：值得关注、但主要活跃在 X/播客（我们抓不到动态）的人，只在页面列静态链接，
 # 自己点进去看。来源：github.com/zarazhangrui/follow-builders
