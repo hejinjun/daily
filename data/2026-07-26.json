@@ -1,12 +1,10 @@
 {
  "date": "2026-07-26",
- "generated_at": "2026-07-26 15:19",
- "llm_used": true,
+ "generated_at": "2026-07-26 16:14",
  "trends": [
-  "开放权重AI进入标准化阶段：Open-weight AI的Kubernetes时刻类比容器编排标准化，Debian的LLM使用提案为社区建立规范，预示开放模型将像Kubernetes一样成为基础设施。",
-  "边缘AI极限突破：8美元微控制器跑28.9M参数LLM和9.36M参数的完整语音模型，证明AI推理可在极低成本设备上运行，推动物联网和离线场景。",
-  "具身智能从数据到落地全面加速：3万小时触觉数据开源、吴恩达桌面Agent开源、科沃斯拆解机器人体现务实路径，同时美国业界承认尚未成熟，中国公司有空间。",
-  "AI基础设施与公众情绪成隐忧：数据中心电网问题暴露扩张瓶颈，图书馆'避开AI'工作坊火爆显示反AI情绪，但新实验室仍获融资支持自动化办公方向。"
+  "具身智能与边缘AI成为热点：触觉数据补全、轻量级语音模型、微控制器推理等突破，表明行业正从云端向真实物理世界和低功耗设备延伸。",
+  "中美AI竞争与开源策略较量：DeepSeek暂停融资暴露算力差距，吴恩达推本地Agent，美国新实验室重金入局，开源与封闭路线博弈加剧。",
+  "AI基础设施与社会影响并重：数据中心电力危机、图书馆抵制AI运动、就业争议等问题浮出水面，技术落地需同步解决配套挑战。"
  ],
  "source_stats": [
   {
@@ -53,91 +51,14 @@
  "github": [],
  "news": [
   {
-   "title": "Open-weight AI is having its Kubernetes moment",
-   "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+   "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+   "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 366,
-   "id": "n2",
-   "summary": "Open-weight AI正在经历它的Kubernetes时刻。文章类比Kubernetes如何标准化容器编排，认为开放权重模型将催生类似生态系统，成为AI部署的标准层。对开发者意味着关注开放模型生态的成熟机遇。"
-  },
-  {
-   "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
-   "url": "https://github.com/slvDev/esp32-ai",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 152,
-   "id": "n11",
-   "summary": "在8美元的微控制器上运行28.9M参数的LLM。这展示了极致的模型压缩和边缘推理能力，使得在低成本、低功耗设备上部署本地AI成为可能。对物联网和嵌入式开发者是重大突破口。"
-  },
-  {
-   "title": "The new rules of context engineering for Claude 5 generation models",
-   "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 289,
-   "id": "n3",
-   "summary": "Claude 5代模型带来了上下文工程的新规则。文章详细介绍了如何利用Claude 5的扩展上下文和指令遵循能力进行高效Prompt设计。开发者需要更新自己对长上下文和复杂任务编排的理解。"
-  },
-  {
-   "title": "LLM Usage in Debian: Three Proposals",
-   "url": "https://www.debian.org/vote/2026/vote_002",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 132,
-   "id": "n12",
-   "summary": "Debian社区提出三项关于LLM使用的提案。分别涉及打包LLM工具、规范AI辅助软件维护、以及伦理指南。这标志着开源社区开始正视LLM的集成与管控，对Linux生态影响深远。"
-  },
-  {
-   "title": "Cloudflare's new AI traffic options for customers",
-   "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 96,
-   "id": "n16",
-   "summary": "Cloudflare推出了新的AI流量调控选项，允许客户自定义AI爬虫的访问策略。这反映了网站所有者对AI数据采集的担忧日益增长，也为CDN服务商开辟了新的商业功能。"
-  },
-  {
-   "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
-   "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 93,
-   "id": "n17",
-   "summary": "Inflect-Micro-v2以仅9.36M参数实现了完整的语音生成。这比之前的小模型更小，同时保持高自然度，适合本地部署。语音AI的门槛将进一步降低。"
-  },
-  {
-   "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
-   "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
-   "desc": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "id": "n32",
-   "summary": "一起数据中心电网事故暴露了AI基础设施的脆弱性。文章分析了如何通过分布式电源、储能和智能调度加固电网。AI的能耗问题已经不是理论威胁，而是现实挑战。"
-  },
-  {
-   "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
-   "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-   "desc": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "id": "n34",
-   "summary": "Reid Hoffman与Mark Pincus联合创立新AI实验室Prentis，正在融资1亿美元。实验室押注自动化日常办公任务将成为比编程更大的AI应用场景。这代表了对AI代理商业前景的持续看好。"
-  },
-  {
-   "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
-   "url": "https://www.qbitai.com/2026/07/460962.html",
-   "desc": "项目数据模型均开源",
-   "source": "量子位",
-   "lang": "zh",
-   "id": "n35",
-   "summary": "新智具身与复旦发布了3万小时触觉数据集，覆盖多种操作任务，模型和数据完全开源。这是具身智能领域罕见的大规模触觉数据，能加速机器人精细操作技能学习。"
+   "points": 127,
+   "id": "n8",
+   "summary": "DeepSeek因计算差距泄露暂停融资。一份泄露的对话显示DeepSeek高管承认在算力上与美国差距巨大，随后公司暂停了新一轮融资。这暴露了中国AI公司在硬件限制下的真实竞争力，也解释了为何近期本土模型屡遭质疑。"
   },
   {
    "title": "100%开源！吴恩达做了个个人桌面Agent",
@@ -146,28 +67,162 @@
    "source": "量子位",
    "lang": "zh",
    "id": "n36",
-   "summary": "吴恩达发布了个人桌面Agent项目，100%开源且本地优先，支持多种模型。强调隐私和离线运行，为开发者提供了一个可定制的自主助手框架，适合个人和工作站场景。"
+   "summary": "吴恩达发布100%开源的个人桌面Agent。该Agent本地优先、保护隐私、不依赖特定模型，支持用户通过自然语言控制桌面操作。这意味着普通人也能拥有自己的AI助手，而无需担心数据外泄，或成为未来个人计算的新范式。"
   },
   {
-   "title": "美国具身也没成熟！PI：中国公司何必总当“中国版XX”｜RSS 2026",
-   "url": "https://www.qbitai.com/2026/07/460542.html",
-   "desc": "这是机器人领域最好的时代",
+   "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
+   "url": "https://www.qbitai.com/2026/07/460962.html",
+   "desc": "项目数据模型均开源",
    "source": "量子位",
    "lang": "zh",
-   "id": "n37",
-   "summary": "Physical Intelligence指出美国具身智能也远未成熟，建议中国公司不必总做'中国版XX'。文章认为当下是机器人领域最好的时代，鼓励直接创新而非跟随。对创业者有启发意义。"
+   "id": "n35",
+   "summary": "新智具身与复旦发布3万小时触觉数据集，补齐机器人‘手感’。项目数据与模型全部开源，覆盖抓取、操作等精细动作。触觉是具身智能缺失的关键一环，补上后有望加速机器人从实验室走向家庭和工厂。"
   },
   {
-   "title": "全新统一流式架构，Vivix灵动时刻正式发布首个实时互动模型",
-   "url": "https://www.qbitai.com/2026/07/460174.html",
-   "desc": "单卡突破10000 video tokens/s，Vivix打通实时多模态生成全链路",
-   "source": "量子位",
-   "lang": "zh",
-   "id": "n41",
-   "summary": "Vivix发布首个实时互动模型，采用统一流式架构，单卡可达10000 video tokens/s。打通了实时多模态生成的端到端链路，对视频对话、交互式应用是重要技术突破。"
+   "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+   "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+   "desc": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "Reid Hoffman与Mark Pincus联合创立新AI实验室Prentis，正寻求1亿美元融资。该实验室押注自动化日常电脑操作将超越编程成为AI最大用例。这意味着顶级投资人和创业者认为AI的下一个杀手应用是‘替代鼠标和键盘’，而非写代码。"
+  },
+  {
+   "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+   "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+   "desc": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "OpenAI发布AI键盘外设，对开发者有趣但对大众可能困惑。该实体键盘通过专用按钮快速调用ChatGPT，支持语音和文本输入。产品定位尴尬：对极客是玩具，对普通用户缺乏明确价值，反映出AI硬件尝试仍处于早期试水阶段。"
+  },
+  {
+   "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+   "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+   "desc": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "弗吉尼亚州一条断电电线暴露了AI数据中心的电力脆弱性。文章指出数据中心对电网故障响应极差，需加强备用电源和智能调度。随着AI算力需求暴涨，电力基础设施正成为比芯片更重要的瓶颈，也是创业和投资的巨大机会。"
+  },
+  {
+   "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+   "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+   "desc": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n31",
+   "summary": "全美图书馆推出‘避开AI’工作坊，报名火爆。参与者出于对科技巨头操控、隐私泄露和失业的担忧，希望学习在没有AI的环境中生活。这种现象说明AI普及已引发强烈反冲，技术开发者需正视公众焦虑，设计更透明可控的产品。"
+  },
+  {
+   "title": "What is happening to jobs? Separating AI hype from reality",
+   "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 76,
+   "id": "n18",
+   "summary": "文章呼吁把AI对就业的影响从炒作中剥离出来，理性分析。作者认为当前很多‘被AI取代’的案例实为经济周期或管理决策，AI真正的替代效应尚需数年。开发者应关注哪些岗位确实面临重构，而不是被恐慌情绪带偏。"
+  },
+  {
+   "title": "Cloudflare's new AI traffic options for customers",
+   "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 103,
+   "id": "n14",
+   "summary": "Cloudflare推出面向AI流量的新客户选项，优化推理和训练的网络性能。作为全球CDN巨头，此举标志着AI工作负载已成为网络基础设施的核心场景。对于开发者和企业，这意味着可以更低成本、更低延迟地部署AI服务。"
+  },
+  {
+   "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
+   "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 109,
+   "id": "n13",
+   "summary": "Inflect-Micro-v2仅用9.36M参数实现完整体验的文本转语音。这是迄今为止参数最小的全功能语音模型，可在低功耗设备上实时运行。它意味着边缘设备上的语音交互将不再需要云端支持，为智能家居、可穿戴设备带来新可能。"
+  },
+  {
+   "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+   "url": "https://github.com/slvDev/esp32-ai",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 166,
+   "id": "n6",
+   "summary": "成功在8美元微控制器上运行2890万参数的LLM。研究者通过极致量化和优化，让大模型在几乎没有内存的芯片上也能推理。这解锁了物联网、智能传感器等超低功耗场景的AI应用，但当前模型能力有限，主要适合简单分类或生成。"
+  },
+  {
+   "title": "The new rules of context engineering for Claude 5 generation models",
+   "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 301,
+   "id": "n0",
+   "summary": "针对Claude 5系列模型发布了新的上下文工程规则。文章列举了如何通过结构化提示、角色扮演和任务分解来最大化模型表现。这意味着前沿模型的‘编程方式’正在从传统的prompt工程转向更精细的‘上下文设计’，开发者需要更新知识。"
   }
  ],
- "products": [],
+ "products": [
+  {
+   "id": "ph2",
+   "title": "Openbase",
+   "url": "https://www.producthunt.com/products/openbase-2",
+   "desc": "Manage your team of AI agents by voice, from anywhere Discussion | Link",
+   "summary": "Openbase：通过语音管理你的AI代理团队，免提指挥多个代理协同工作。对于构建复杂AI工作流的开发者来说，极大提升管理效率。"
+  },
+  {
+   "id": "ph3",
+   "title": "Athena by Shoplazza",
+   "url": "https://www.producthunt.com/products/athena-by-shoplazza",
+   "desc": "An orchestrator agent for your entire commerce stack Discussion | Link",
+   "summary": "Athena by Shoplazza：电商全栈编排代理，自动协调商品、订单、物流等环节。专注电商场景，可替代多个独立工具，降低集成成本。"
+  },
+  {
+   "id": "ph15",
+   "title": "OpenComputer",
+   "url": "https://www.producthunt.com/products/opencomputer",
+   "desc": "The easiest way to deploy a managed agent. Discussion | Link",
+   "summary": "OpenComputer：最简单的方式部署托管AI代理，无需运维基础设施。适合快速原型验证或小规模生产，降低代理部署门槛。"
+  },
+  {
+   "id": "ph26",
+   "title": "ADE",
+   "url": "https://www.producthunt.com/products/ade-agentic-development-environment",
+   "desc": "All your coding agents, synced everywhere, free forever Discussion | Link",
+   "summary": "ADE：所有编码代理同步在云端，免费永不掉线。跨设备共享代码补全、审查等AI协作上下文，提升团队开发一致性。"
+  },
+  {
+   "id": "ph19",
+   "title": "Velane",
+   "url": "https://www.producthunt.com/products/velane",
+   "desc": "Cloud for your AI Agent's tools and functions Discussion | Link",
+   "summary": "Velane：为AI代理提供云端的工具与函数托管，类似“代理的云函数”。方便复用和编排自定义工具，加速代理开发。"
+  },
+  {
+   "id": "ph20",
+   "title": "FluentDB",
+   "url": "https://www.producthunt.com/products/fluentdb-2",
+   "desc": "The AI database client for Mac Discussion | Link",
+   "summary": "FluentDB：Mac上的AI数据库客户端，用自然语言查询数据库。直接对话式操作，无需记忆SQL语法，适合非专业DBA的开发者。"
+  },
+  {
+   "id": "ph21",
+   "title": "Second Brain for Mac and Windows",
+   "url": "https://www.producthunt.com/products/second-brain-cloudflare",
+   "desc": "Your AI memory, everywhere you work Discussion | Link",
+   "summary": "Second Brain：跨Mac和Windows的AI记忆系统，自动保存和检索工作上下文。解决信息碎片化问题，让AI理解你的完整工作流。"
+  },
+  {
+   "id": "ph25",
+   "title": "Heard",
+   "url": "https://www.producthunt.com/products/heard-2",
+   "desc": "Give Claude Code and Codex a voice Discussion | Link",
+   "summary": "Heard：给Claude Code和Codex装上语音，说话就能控制编码代理。适合边思考边口述编码指令，提升交互自然度。"
+  }
+ ],
  "market": {
   "skills": [
    "Agent 系统架构与编排：LangGraph/LangChain/MCP/A2A 协议、Multi-Agent 协作、状态机、记忆系统、导演层等生产级 Agent 工作流设计成为标配，不再只是 demo 阶段。",
@@ -232,5 +287,7 @@
    }
   ],
   "week": "2026-W30"
- }
+ },
+ "llm_used": true,
+ "degraded": []
 }
