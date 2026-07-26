@@ -1,8 +1,13 @@
 {
  "date": "2026-07-25",
  "generated_at": "2026-07-25 07:27",
- "llm_used": false,
- "trends": [],
+ "llm_used": true,
+ "trends": [
+  "前沿闭源模型继续快速迭代：Claude Opus 5 登场，头部厂商在编码/agent 能力上的刷新节奏没有放缓。",
+  "开放权重模型的监管成为焦点：英伟达、微软、Meta 联手反对过度监管，open-weight 生态进入政策与商业博弈的深水区。",
+  "AI coding 进入“祛魅”期：一边是“编程已被解决”的乐观，一边是“软件反而更烂”的反思，连 agent 安全叙事都开始被质疑——务实和质量重新被强调。",
+  "多模态从“生成画面”转向“生成动作”：Flux 3 Mimic 这类 video-action 模型，把 AI 往机器人和可执行 agent 的方向推。"
+ ],
  "source_stats": [
   {
    "name": "GitHub Trending",
@@ -47,58 +52,14 @@
  ],
  "github": [
   {
-   "id": "gh3",
-   "title": "Pumpkin-MC/Pumpkin",
-   "url": "https://github.com/Pumpkin-MC/Pumpkin",
-   "desc": "Empowering everyone to host fast and efficient Minecraft servers.",
-   "lang": "Rust",
-   "stars": "9,322",
-   "stars_today": "472 stars today"
-  },
-  {
-   "id": "gh8",
-   "title": "yorukot/superfile",
-   "url": "https://github.com/yorukot/superfile",
-   "desc": "Pretty fancy and modern terminal file manager",
-   "lang": "Go",
-   "stars": "19,553",
-   "stars_today": "312 stars today"
-  },
-  {
-   "id": "gh10",
-   "title": "CoreBunch/Instatic",
-   "url": "https://github.com/CoreBunch/Instatic",
-   "desc": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
-   "lang": "TypeScript",
-   "stars": "4,261",
-   "stars_today": "250 stars today"
-  },
-  {
-   "id": "gh11",
-   "title": "chrislgarry/Apollo-11",
-   "url": "https://github.com/chrislgarry/Apollo-11",
-   "desc": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
-   "lang": "Assembly",
-   "stars": "71,393",
-   "stars_today": "409 stars today"
-  },
-  {
    "id": "gh12",
    "title": "mattpocock/skills",
    "url": "https://github.com/mattpocock/skills",
    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
    "lang": "Shell",
    "stars": "186,650",
-   "stars_today": "2,224 stars today"
-  },
-  {
-   "id": "gh13",
-   "title": "Lordog/dive-into-llms",
-   "url": "https://github.com/Lordog/dive-into-llms",
-   "desc": "《动手学大模型Dive into LLMs》系列编程实践教程",
-   "lang": "Jupyter Notebook",
-   "stars": "44,978",
-   "stars_today": "654 stars today"
+   "stars_today": "2,224 stars today",
+   "summary": "把资深工程师日常用的 AI agent “skills”（可复用的指令/工作流）整理开源，直接来自作者自己的 .agents 目录。单日暴涨 2200+ star、总量已 18 万，反映“给 coding agent 喂结构化技能”正成为开发者新的折腾方向。"
   },
   {
    "id": "gh14",
@@ -107,7 +68,18 @@
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
    "lang": "TypeScript",
    "stars": "28,781",
-   "stars_today": "1,843 stars today"
+   "stars_today": "1,843 stars today",
+   "summary": "免费 MIT 协议的 AI 网关：一个 endpoint 接入 290+ 家供应商、500+ 模型（Kimi、Claude、GPT、Gemini、DeepSeek 等），兼容 Claude Code、Cursor 等工具。单日 +1800 star，说明“统一多模型入口 + 省钱”的痛点很真实。"
+  },
+  {
+   "id": "gh13",
+   "title": "Lordog/dive-into-llms",
+   "url": "https://github.com/Lordog/dive-into-llms",
+   "desc": "《动手学大模型Dive into LLMs》系列编程实践教程",
+   "lang": "Jupyter Notebook",
+   "stars": "44,978",
+   "stars_today": "654 stars today",
+   "summary": "中文的《动手学大模型 Dive into LLMs》系列编程实战教程，从原理到代码带你把 LLM 跑起来。近 4.5 万 star，是中文圈入门大模型的高热资源。"
   },
   {
    "id": "gh15",
@@ -116,7 +88,18 @@
    "desc": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
    "lang": "Java",
    "stars": "26,314",
-   "stars_today": "129 stars today"
+   "stars_today": "129 stars today",
+   "summary": "AI 驱动的数据库管理与 SQL 客户端，支持 MySQL、PostgreSQL、ClickHouse 等一大票数据库，能用自然语言查/写 SQL。老牌 AI+DB 工具，持续有热度。"
+  },
+  {
+   "id": "gh10",
+   "title": "CoreBunch/Instatic",
+   "url": "https://github.com/CoreBunch/Instatic",
+   "desc": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+   "lang": "TypeScript",
+   "stars": "4,261",
+   "stars_today": "250 stars today",
+   "summary": "自称 Webflow/Framer/WordPress 的开源替代：一个 agentic 的自托管可视化 CMS，输出干净的静态页面，用户/权限/插件/数据库全内置。主打“AI 帮你搭站”，适合想自托管建站的人关注。"
   }
  ],
  "news": [
@@ -127,25 +110,8 @@
    "source": "Hacker News",
    "lang": "en",
    "points": 1184,
-   "id": "n0"
-  },
-  {
-   "title": "My security camera shipped a GitHub admin token in its login page",
-   "url": "https://hhh.hn/hanwha-github-token/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 485,
-   "id": "n1"
-  },
-  {
-   "title": "India's first privately-developed rocket reaches orbit on debut launch",
-   "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 458,
-   "id": "n2"
+   "id": "n0",
+   "summary": "Anthropic 发布 Claude Opus 5。作为最强旗舰的又一次迭代，在 HN 以 1184 分登顶，说明头部闭源模型的能力刷新节奏依然很快，值得关注它在编码和 agent 场景的实际提升。"
   },
   {
    "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
@@ -154,7 +120,8 @@
    "source": "Hacker News",
    "lang": "en",
    "points": 450,
-   "id": "n3"
+   "id": "n3",
+   "summary": "英伟达、微软、Meta 公开警告不要对“开放权重”模型过度监管。三巨头罕见联手表态，说明 open-weight 已成商业与政策博弈的主战场，监管走向会直接影响开源生态和创业者可用的模型。"
   },
   {
    "title": "If coding has been solved, why does software keep getting worse?",
@@ -163,7 +130,8 @@
    "source": "Hacker News",
    "lang": "en",
    "points": 418,
-   "id": "n4"
+   "id": "n4",
+   "summary": "一篇热议长文：如果 AI 已经“解决”了编程，为什么软件反而越来越难用？作者戳破“人人都很兴奋但啥都不好使”的现状。对高喊 AI coding 的行业是一盆冷水，做产品的人值得反思质量而非只追速度。"
   },
   {
    "title": "Be skeptical of OpenAI's rogue hacker agent story",
@@ -172,16 +140,8 @@
    "source": "Hacker News",
    "lang": "en",
    "points": 372,
-   "id": "n5"
-  },
-  {
-   "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
-   "url": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 340,
-   "id": "n6"
+   "id": "n5",
+   "summary": "《卫报》提醒对 OpenAI “AI 黑客失控”的叙事保持怀疑，暗示这类耸动故事可能带有营销/叙事成分。提醒我们关注 AI 安全时要分清真实风险和公关话术。"
   },
   {
    "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
@@ -190,43 +150,8 @@
    "source": "Hacker News",
    "lang": "en",
    "points": 305,
-   "id": "n7"
-  },
-  {
-   "title": "Half-Life 2 running natively on HaikuOS",
-   "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 244,
-   "id": "n8"
-  },
-  {
-   "title": "IRGC claims it destroyed Amazon's Bahrain data center",
-   "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 221,
-   "id": "n9"
-  },
-  {
-   "title": "Firefox Containers Preview",
-   "url": "https://blog.mozilla.org/en/firefox/firefox-containers-preview/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 191,
-   "id": "n10"
-  },
-  {
-   "title": "Postgres LISTEN/NOTIFY actually scales",
-   "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 157,
-   "id": "n11"
+   "id": "n7",
+   "summary": "Black Forest Labs 推出 Flux 3 X Mimic，号称新一代“视频-动作”模型——把生成从画面推进到可执行的动作序列。多模态从“看/画”走向“做”，对机器人和 agent 落地是重要信号。"
   }
  ],
  "products": [
@@ -234,49 +159,43 @@
    "id": "ph0",
    "title": "Freesolo Flash",
    "url": "https://www.producthunt.com/products/freesolo-flash",
-   "desc": "Full-Stack Platform for Training Small Language Models Discussion | Link"
-  },
-  {
-   "id": "ph1",
-   "title": "Hotspot Meter",
-   "url": "https://www.producthunt.com/products/hotspot-meter-track-wi-fi-and-hotspots",
-   "desc": "A private data-usage meter for your Mac menu bar Discussion | Link"
-  },
-  {
-   "id": "ph2",
-   "title": "Prosed",
-   "url": "https://www.producthunt.com/products/prosed-turn-your-content-into-a-book",
-   "desc": "The AI book service that shows its work Discussion | Link"
-  },
-  {
-   "id": "ph3",
-   "title": "Pushary",
-   "url": "https://www.producthunt.com/products/pushary",
-   "desc": "Approve AI requests from your lock screen Discussion | Link"
+   "desc": "Full-Stack Platform for Training Small Language Models Discussion | Link",
+   "summary": "训练小语言模型（SLM）的全栈平台。在“大模型太贵、小模型够用”的趋势下，帮团队自己训练可控的小模型，方向踩得很准。"
   },
   {
    "id": "ph4",
    "title": "HarnessRouter",
    "url": "https://www.producthunt.com/products/epsilla",
-   "desc": "Bring the world's best AI agents into your app, with one API Discussion | Link"
+   "desc": "Bring the world's best AI agents into your app, with one API Discussion | Link",
+   "summary": "用一个 API 把“全球最好的 AI agents”接进你的应用。主打 agent 能力的聚合分发，适合想快速给产品加 agent 功能的开发者。"
   },
   {
    "id": "ph5",
    "title": "The new Firecrawl /search",
    "url": "https://www.producthunt.com/products/extract-by-firecrawl",
-   "desc": "Our most accurate Search API for AI agents. Discussion | Link"
+   "desc": "Our most accurate Search API for AI agents. Discussion | Link",
+   "summary": "Firecrawl 新推的 Search API，专为 AI agent 设计、主打检索准确度。给 agent 喂高质量网页搜索结果是 RAG/agent 的刚需，做 agent 的人值得留意。"
   },
   {
    "id": "ph6",
    "title": "Fluree AI",
    "url": "https://www.producthunt.com/products/fluree",
-   "desc": "Give every AI agent trusted context Discussion | Link"
+   "desc": "Give every AI agent trusted context Discussion | Link",
+   "summary": "给每个 AI agent 提供“可信上下文”。在 agent 幻觉和数据可信度成痛点的当下，主打“可验证的上下文数据”是个有意思的切入点。"
   },
   {
-   "id": "ph7",
-   "title": "Fedica 2.0",
-   "url": "https://www.producthunt.com/products/fedica",
-   "desc": "Publish and grow your profile across social apps Discussion | Link"
+   "id": "ph2",
+   "title": "Prosed",
+   "url": "https://www.producthunt.com/products/prosed-turn-your-content-into-a-book",
+   "desc": "The AI book service that shows its work Discussion | Link",
+   "summary": "会“展示推理过程”的 AI 写书服务——把你的内容变成一本书，并让你看到它是怎么写的。透明化的 AI 内容生成，适合内容创作者尝鲜。"
+  },
+  {
+   "id": "ph3",
+   "title": "Pushary",
+   "url": "https://www.producthunt.com/products/pushary",
+   "desc": "Approve AI requests from your lock screen Discussion | Link",
+   "summary": "在锁屏上审批 AI 的请求。给自主 agent 加一道“人类确认”关卡，切中 agent 放权与安全之间的平衡，交互点子很巧。"
   }
  ],
  "market": {
