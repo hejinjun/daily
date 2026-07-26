@@ -1,6 +1,6 @@
 {
  "date": "2026-07-26",
- "generated_at": "2026-07-26 07:16",
+ "generated_at": "2026-07-26 14:58",
  "llm_used": false,
  "trends": [],
  "source_stats": [
@@ -26,11 +26,11 @@
   },
   {
    "name": "TechCrunch AI",
-   "count": 11
+   "count": 5
   },
   {
    "name": "The Verge AI",
-   "count": 5
+   "count": 1
   },
   {
    "name": "机器之心",
@@ -38,7 +38,7 @@
   },
   {
    "name": "量子位",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Product Hunt",
@@ -52,8 +52,8 @@
    "url": "https://github.com/anthropics/claude-cookbooks",
    "desc": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
    "lang": "Jupyter Notebook",
-   "stars": "49,863",
-   "stars_today": "144 stars today"
+   "stars": "49,972",
+   "stars_today": "132 stars today"
   },
   {
    "id": "gh7",
@@ -61,8 +61,8 @@
    "url": "https://github.com/obra/superpowers",
    "desc": "An agentic skills framework & software development methodology that works.",
    "lang": "Shell",
-   "stars": "261,074",
-   "stars_today": "507 stars today"
+   "stars": "261,228",
+   "stars_today": "479 stars today"
   },
   {
    "id": "gh9",
@@ -70,8 +70,8 @@
    "url": "https://github.com/permissionlesstech/bitchat",
    "desc": "bluetooth mesh chat, IRC vibes",
    "lang": "Swift",
-   "stars": "28,667",
-   "stars_today": "1,695 stars today"
+   "stars": "28,910",
+   "stars_today": "1,720 stars today"
   },
   {
    "id": "gh11",
@@ -79,8 +79,8 @@
    "url": "https://github.com/palmier-io/palmier-pro",
    "desc": "macOS video editor built for AI",
    "lang": "Swift",
-   "stars": "12,194",
-   "stars_today": "346 stars today"
+   "stars": "12,312",
+   "stars_today": "412 stars today"
   },
   {
    "id": "gh14",
@@ -88,8 +88,8 @@
    "url": "https://github.com/RyanCodrai/turbovec",
    "desc": "A vector index built on TurboQuant, written in Rust with Python bindings",
    "lang": "Python",
-   "stars": "14,271",
-   "stars_today": "89 stars today"
+   "stars": "14,333",
+   "stars_today": "86 stars today"
   },
   {
    "id": "gh16",
@@ -97,8 +97,8 @@
    "url": "https://github.com/andrewyng/aisuite",
    "desc": "Simple, unified interface to multiple Generative AI providers",
    "lang": "Python",
-   "stars": "15,212",
-   "stars_today": "75 stars today"
+   "stars": "15,273",
+   "stars_today": "77 stars today"
   },
   {
    "id": "gh17",
@@ -106,8 +106,8 @@
    "url": "https://github.com/affaan-m/ECC",
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
    "lang": "JavaScript",
-   "stars": "233,286",
-   "stars_today": "364 stars today"
+   "stars": "233,413",
+   "stars_today": "377 stars today"
   }
  ],
  "news": [
@@ -117,16 +117,16 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 856,
+   "points": 906,
    "id": "n0"
   },
   {
-   "title": "Stolen Buttons",
-   "url": "https://anatolyzenkov.com/stolen-buttons",
+   "title": "Did They Ghost You?",
+   "url": "https://didtheyghostyou.com/",
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 505,
+   "points": 366,
    "id": "n1"
   },
   {
@@ -135,7 +135,7 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 283,
+   "points": 365,
    "id": "n2"
   },
   {
@@ -144,71 +144,8 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 250,
+   "points": 346,
    "id": "n3"
-  },
-  {
-   "title": "Building a Tiny 3D Renderer for a Tiny Handheld",
-   "url": "https://saffroncr.itch.io/katavatis/devlog/1534514/building-a-tiny-3d-renderer-for-a-tiny-handheld",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 229,
-   "id": "n4"
-  },
-  {
-   "title": "How My Images Are Dithered",
-   "url": "https://dead.garden/blog/how-my-images-are-dithered.html",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 209,
-   "id": "n5"
-  },
-  {
-   "title": "Bitchat is now on Radicle",
-   "url": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 189,
-   "id": "n6"
-  },
-  {
-   "title": "The growing vigilante movement to knock out Flock surveillance cameras",
-   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/jul/25/flock-surveillance-cameras",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 146,
-   "id": "n7"
-  },
-  {
-   "title": "The Dark Night of Mathematics",
-   "url": "https://kirwinhampshire.substack.com/p/the-dark-night-of-mathematics",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 145,
-   "id": "n8"
-  },
-  {
-   "title": "Did They Ghost You?",
-   "url": "https://didtheyghostyou.com/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 135,
-   "id": "n9"
-  },
-  {
-   "title": "Fly.io CEO Kurt Mackey is stepping down",
-   "url": "https://fly.io/blog/kurt-scott-money-sprites/",
-   "desc": "",
-   "source": "Hacker News",
-   "lang": "en",
-   "points": 113,
-   "id": "n10"
   },
   {
    "title": "The new rules of context engineering for Claude 5 generation models",
@@ -216,58 +153,121 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 103,
+   "points": 277,
+   "id": "n4"
+  },
+  {
+   "title": "Bitchat is now on Radicle",
+   "url": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 232,
+   "id": "n5"
+  },
+  {
+   "title": "Turn And Face The Strange",
+   "url": "https://fly.io/blog/kurt-scott-money-sprites/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 189,
+   "id": "n6"
+  },
+  {
+   "title": "Show HN: Brolly, a plain-text weather forecast site",
+   "url": "https://brolly.sh/forecast/RWFP2qW8",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 170,
+   "id": "n7"
+  },
+  {
+   "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+   "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 166,
+   "id": "n8"
+  },
+  {
+   "title": "JetZero",
+   "url": "https://www.jetzero.aero",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 163,
+   "id": "n9"
+  },
+  {
+   "title": "Show HN: I made some transistor animations",
+   "url": "https://brandonli.net/semisim/animations",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 157,
+   "id": "n10"
+  },
+  {
+   "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+   "url": "https://github.com/slvDev/esp32-ai",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 149,
    "id": "n11"
   }
  ],
  "products": [
   {
    "id": "ph0",
-   "title": "Wisprkey",
-   "url": "https://www.producthunt.com/products/wisprkey-mac-ai-assistant",
-   "desc": "Talk to any app on your Mac Discussion | Link"
-  },
-  {
-   "id": "ph1",
    "title": "Islet",
    "url": "https://www.producthunt.com/products/islet-2",
    "desc": "iPhone's Dynamic Island, brought to your Mac's notch Discussion | Link"
   },
   {
+   "id": "ph1",
+   "title": "ShellMate",
+   "url": "https://www.producthunt.com/products/shellmate-2",
+   "desc": "The SSH workspace you'll actually enjoy using Discussion | Link"
+  },
+  {
    "id": "ph2",
-   "title": "OpenComputer",
-   "url": "https://www.producthunt.com/products/opencomputer",
-   "desc": "The easiest way to deploy a managed agent. Discussion | Link"
-  },
-  {
-   "id": "ph3",
-   "title": "Heard",
-   "url": "https://www.producthunt.com/products/heard-2",
-   "desc": "Give Claude Code and Codex a voice Discussion | Link"
-  },
-  {
-   "id": "ph4",
-   "title": "Seller by Facebook",
-   "url": "https://www.producthunt.com/products/seller-by-facebook",
-   "desc": "The easiest way to sell on Facebook Marketplace Discussion | Link"
-  },
-  {
-   "id": "ph5",
-   "title": "FluentDB",
-   "url": "https://www.producthunt.com/products/fluentdb-2",
-   "desc": "The AI database client for Mac Discussion | Link"
-  },
-  {
-   "id": "ph6",
-   "title": "Second Brain for Mac and Windows",
-   "url": "https://www.producthunt.com/products/second-brain-cloudflare",
-   "desc": "Your AI memory, everywhere you work Discussion | Link"
-  },
-  {
-   "id": "ph7",
    "title": "Capsomnia",
    "url": "https://www.producthunt.com/products/capsomnia",
    "desc": "Caps Lock keeps your Mac awake, even with the lid closed Discussion | Link"
+  },
+  {
+   "id": "ph3",
+   "title": "Speechius",
+   "url": "https://www.producthunt.com/products/speechius",
+   "desc": "The teleprompter that actually listens Discussion | Link"
+  },
+  {
+   "id": "ph4",
+   "title": "Banquish — Make the web your workspace",
+   "url": "https://www.producthunt.com/products/banquish-make-the-web-your-workspace",
+   "desc": "Clip living pieces of the web onto one canvas Discussion | Link"
+  },
+  {
+   "id": "ph5",
+   "title": "Browser FX:",
+   "url": "https://www.producthunt.com/products/browser-fx-chrome-audio-effects-midi",
+   "desc": "Transform your web audio with real-time effects Discussion | Link"
+  },
+  {
+   "id": "ph6",
+   "title": "Wisprkey",
+   "url": "https://www.producthunt.com/products/wisprkey-mac-ai-assistant",
+   "desc": "Talk to any app on your Mac Discussion | Link"
+  },
+  {
+   "id": "ph7",
+   "title": "Speech To Markdown",
+   "url": "https://www.producthunt.com/products/speech-to-markdown",
+   "desc": "Harness local AI for notes Discussion | Link"
   }
  ],
  "market": {
