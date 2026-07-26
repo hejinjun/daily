@@ -2,6 +2,8 @@ site:
   title: AI 每日情报站
   # 抓取窗口：只保留最近 N 小时内发布的新闻
   news_window_hours: 36
+  # 博主动态窗口更长：博主发帖低频，窗口太短会漏掉低频高质作者
+  blogger_window_hours: 168
 
 limits:
   github_candidates: 30   # 送给 LLM 筛选的 trending 候选数
@@ -11,6 +13,8 @@ limits:
   products_candidates: 30
   products_keep: 8
   market_links: 6          # 需求周报里保留的代表性链接数
+  bloggers_keep: 12        # 博主动态保留条数
+  bloggers_per_author: 4   # 每个博主最多保留最近几条，防高产作者刷屏
 
 llm:
   base_url: https://api.deepseek.com
@@ -38,3 +42,22 @@ news_feeds:
   - name: 量子位
     url: https://www.qbitai.com/feed
     lang: zh
+
+# AI 博主/作者：特意订阅的个人，不做相关性筛选，只翻译成中文一句话摘要。
+# 加人前先验证 feed 有效（见 README「怎么自己加博主」）。
+bloggers:
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    lang: en
+  - name: Interconnects（Nathan Lambert）
+    url: https://www.interconnects.ai/feed
+    lang: en
+  - name: Ahead of AI（Sebastian Raschka）
+    url: https://magazine.sebastianraschka.com/feed
+    lang: en
+  - name: One Useful Thing（Ethan Mollick）
+    url: https://www.oneusefulthing.org/feed
+    lang: en
+  - name: Lilian Weng
+    url: https://lilianweng.github.io/index.xml
+    lang: en

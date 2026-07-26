@@ -114,6 +114,29 @@ def fetch_news_feeds(feeds: list[dict], window_hours: int) -> list[dict]:
     return items
 
 
+def fetch_blogger_posts(
+    bloggers: list[dict], window_hours: int, per_author: int = 4
+) -> list[dict]:
+    """按 config 里的博主 RSS 列表抓最近窗口期内的新帖。
+
+    复用 fetch_news_feeds 的 RSS 解析（item 结构一致）。不做 AI 相关性筛选
+    ——博主是特意订阅的，默认都要。但每个博主最多保留最近 per_author 条，
+    避免 Simon Willison 这类高产作者刷屏、淹没低频博主。
+    """
+    posts = fetch_news_feeds(bloggers, window_hours)
+    kept: list[dict] = []
+    seen: dict[str, int] = {}
+    for it in posts:  # 同一作者的条目在源内已按时间倒序，前 per_author 条即最新
+        src = it["source"]
+        if seen.get(src, 0) >= per_author:
+            continue
+        seen[src] = seen.get(src, 0) + 1
+        kept.append(it)
+    for i, it in enumerate(kept):
+        it["id"] = f"b{i}"
+    return kept
+
+
 AI_RE = re.compile(
     r"\b(ai|llm|ml|gpt|rag|agents?|genai|machine.learning|deep.learning|nlp|"
     r"computer.vision|pytorch|diffusion|transformer)\b",

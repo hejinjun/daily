@@ -132,6 +132,17 @@ def process_market(cfg: dict, items: list[dict], keep_links: int) -> dict:
     }
 
 
+def process_bloggers(cfg: dict, items: list[dict], keep: int) -> list[dict]:
+    user = f"""以下是特意订阅的一批 AI 博主/作者最近发布的新内容（多为英文）：
+
+{_items_block(items, ("title", "desc", "source"))}
+
+这些作者都是精选订阅的，不要做相关性筛选、尽量不要丢条目。为每一条写一句中文摘要：这篇在讲什么、有什么值得看的点（不用翻译标题，直接概括）。按新鲜/重要程度排序，最多 {keep} 条。
+返回 JSON：{{"items": [{{"id": "...", "summary": "..."}}]}}"""
+    result = _chat(cfg, SYSTEM, user)
+    return _apply_selection(items, result.get("items", []), keep)
+
+
 def process_products(cfg: dict, items: list[dict], keep: int) -> list[dict]:
     user = f"""以下是今天 Product Hunt 上的新产品：
 

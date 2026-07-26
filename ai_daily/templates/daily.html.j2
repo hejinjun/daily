@@ -95,6 +95,7 @@
     <button data-tab="news">📰 新闻{% if news %} {{ news|length }}{% endif %}</button>
     <button data-tab="github">🔥 GitHub{% if github %} {{ github|length }}{% endif %}</button>
     <button data-tab="products">🚀 产品{% if products %} {{ products|length }}{% endif %}</button>
+    <button data-tab="bloggers">👤 博主{% if bloggers %} {{ bloggers|length }}{% endif %}</button>
     <button data-tab="market">💼 需求</button>
   </nav>
 
@@ -133,6 +134,16 @@
       {% if it.summary %}<p>{{ it.summary }}</p>{% elif it.desc %}<p>{{ it.desc }}</p>{% endif %}
     </div>
     {% else %}<div class="empty">今天 Product Hunt 上没有值得看的 AI 产品。</div>{% endfor %}
+  </section>
+
+  <section class="tab" id="tab-bloggers">
+    {% for it in bloggers or [] %}
+    <div class="card">
+      <a class="title" href="{{ it.url }}">{{ it.title }}</a>
+      {% if it.summary %}<p>{{ it.summary }}</p>{% elif it.desc %}<p>{{ it.desc }}</p>{% endif %}
+      <div class="meta">{{ it.source }}</div>
+    </div>
+    {% else %}<div class="empty">最近几天没有关注的博主更新。</div>{% endfor %}
   </section>
 
   <section class="tab" id="tab-market">
