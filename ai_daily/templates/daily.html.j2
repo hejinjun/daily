@@ -103,6 +103,7 @@
     <button data-tab="products">🚀 产品{% if products %} {{ products|length }}{% endif %}</button>
     <button data-tab="bloggers">👤 博主{% if bloggers %} {{ bloggers|length }}{% endif %}</button>
     <button data-tab="market">💼 需求</button>
+    {% if watchlist %}<button data-tab="watchlist">📇 名录</button>{% endif %}
   </nav>
 
   <section class="tab active" id="tab-trends">
@@ -150,22 +151,6 @@
       <div class="meta">{{ it.source }}</div>
     </div>
     {% else %}<div class="empty">最近几天没有关注的博主更新。</div>{% endfor %}
-
-    {% if watchlist %}
-    <h3>📇 关注名录</h3>
-    <div class="watch-note">主要活跃在 X / 播客，抓不到动态，点进去自己看。</div>
-    {% if watchlist.builders %}
-    <div class="links">
-      {% for p in watchlist.builders %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}
-    </div>
-    {% endif %}
-    {% if watchlist.podcasts %}
-    <div class="watch-note">🎙️ 播客</div>
-    <div class="links">
-      {% for p in watchlist.podcasts %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}
-    </div>
-    {% endif %}
-    {% endif %}
   </section>
 
   <section class="tab" id="tab-market">
@@ -195,6 +180,24 @@
     {% endif %}
     {% else %}<div class="empty">本周需求周报还没有生成（每周一早上自动更新）。</div>{% endif %}
   </section>
+
+  {% if watchlist %}
+  <section class="tab" id="tab-watchlist">
+    <div class="watch-note">值得关注、但主要活跃在 X / 播客，抓不到动态，点进去自己看。</div>
+    {% if watchlist.builders %}
+    <h3>👥 Builders</h3>
+    <div class="links">
+      {% for p in watchlist.builders %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}
+    </div>
+    {% endif %}
+    {% if watchlist.podcasts %}
+    <h3>🎙️ 播客</h3>
+    <div class="links">
+      {% for p in watchlist.podcasts %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
 
   <footer>
     {% if source_stats %}
