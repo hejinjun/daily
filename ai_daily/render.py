@@ -10,7 +10,9 @@ from jinja2 import Environment, FileSystemLoader
 WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 
 
-def render_site(data_dir: Path, site_dir: Path, site_title: str) -> None:
+def render_site(
+    data_dir: Path, site_dir: Path, site_title: str, watchlist: dict | None = None
+) -> None:
     env = Environment(
         loader=FileSystemLoader(Path(__file__).parent / "templates"),
         autoescape=True,
@@ -25,7 +27,9 @@ def render_site(data_dir: Path, site_dir: Path, site_title: str) -> None:
         date = digest["date"]
         dates.append(date)
         weekday = WEEKDAYS[dt.date.fromisoformat(date).weekday()]
-        html = daily_tpl.render(site_title=site_title, weekday=weekday, **digest)
+        html = daily_tpl.render(
+            site_title=site_title, weekday=weekday, watchlist=watchlist, **digest
+        )
         (site_dir / f"{date}.html").write_text(html)
 
     if not dates:

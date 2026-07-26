@@ -175,7 +175,7 @@ def main() -> None:
         out.write_text(json.dumps(digest, ensure_ascii=False, indent=1))
         log.info("digest saved: %s", out)
 
-    render.render_site(DATA_DIR, SITE_DIR, cfg["site"]["title"])
+    render.render_site(DATA_DIR, SITE_DIR, cfg["site"]["title"], cfg.get("watchlist"))
     log.info("site rendered to %s", SITE_DIR)
 
 

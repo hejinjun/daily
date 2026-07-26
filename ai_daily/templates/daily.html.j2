@@ -66,6 +66,12 @@
   .meta { margin-top: 6px; color: var(--muted); font-size: 13px; }
   .empty { color: var(--muted); font-size: 14px; padding: 12px 2px; }
   .weeknote { color: var(--muted); font-size: 13px; margin: 2px 2px 12px; }
+  .watch-note { color: var(--muted); font-size: 13px; margin: 4px 2px 8px; }
+  .links { display: flex; flex-wrap: wrap; gap: 7px 8px; margin: 0 2px 14px; }
+  .links a {
+    color: var(--accent); text-decoration: none; font-size: 14px;
+    background: var(--pill); padding: 4px 11px; border-radius: 999px;
+  }
   .tab h3 { font-size: 16px; margin: 18px 2px 8px; }
   .tab h3:first-of-type { margin-top: 4px; }
   .notice {
@@ -144,6 +150,22 @@
       <div class="meta">{{ it.source }}</div>
     </div>
     {% else %}<div class="empty">最近几天没有关注的博主更新。</div>{% endfor %}
+
+    {% if watchlist %}
+    <h3>📇 关注名录</h3>
+    <div class="watch-note">主要活跃在 X / 播客，抓不到动态，点进去自己看。</div>
+    {% if watchlist.builders %}
+    <div class="links">
+      {% for p in watchlist.builders %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}
+    </div>
+    {% endif %}
+    {% if watchlist.podcasts %}
+    <div class="watch-note">🎙️ 播客</div>
+    <div class="links">
+      {% for p in watchlist.podcasts %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}
+    </div>
+    {% endif %}
+    {% endif %}
   </section>
 
   <section class="tab" id="tab-market">

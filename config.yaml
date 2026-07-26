@@ -67,3 +67,41 @@ bloggers:
   - name: Matt Pocock（AI Hero）  # newsletter 低频，多数时候窗口内无新帖
     url: https://www.aihero.dev/rss.xml
     lang: en
+
+# 关注名录：值得关注、但主要活跃在 X/播客（我们抓不到动态）的人，只在页面列静态链接，
+# 自己点进去看。来源：github.com/zarazhangrui/follow-builders
+watchlist:
+  builders:
+    - { name: Andrej Karpathy, url: https://x.com/karpathy }
+    - { name: Swyx, url: https://x.com/swyx }
+    - { name: Josh Woodward, url: https://x.com/joshwoodward }
+    - { name: Boris Cherny, url: https://x.com/bcherny }
+    - { name: Thibault Sottiaux, url: https://x.com/thsottiaux }
+    - { name: Peter Yang, url: https://x.com/petergyang }
+    - { name: Nan Yu, url: https://x.com/thenanyu }
+    - { name: Madhu Guru, url: https://x.com/realmadhuguru }
+    - { name: Amanda Askell, url: https://x.com/AmandaAskell }
+    - { name: Cat Wu, url: https://x.com/_catwu }
+    - { name: Thariq, url: https://x.com/trq212 }
+    - { name: Google Labs, url: https://x.com/GoogleLabs }
+    - { name: Amjad Masad, url: https://x.com/amasad }
+    - { name: Guillermo Rauch, url: https://x.com/rauchg }
+    - { name: Alex Albert, url: https://x.com/alexalbert__ }
+    - { name: Aaron Levie, url: https://x.com/levie }
+    - { name: Ryo Lu, url: https://x.com/ryolu_ }
+    - { name: Garry Tan, url: https://x.com/garrytan }
+    - { name: Matt Turck, url: https://x.com/mattturck }
+    - { name: Zara Zhang, url: https://x.com/zarazhangrui }
+    - { name: Nikunj Kothari, url: https://x.com/nikunj }
+    - { name: Peter Steinberger, url: https://x.com/steipete }
+    - { name: Dan Shipper, url: https://x.com/danshipper }
+    - { name: Aditya Agarwal, url: https://x.com/adityaag }
+    - { name: Sam Altman, url: https://x.com/sama }
+    - { name: Claude, url: https://x.com/claudeai }
+  podcasts:
+    - { name: Latent Space, url: https://www.youtube.com/@LatentSpacePod }
+    - { name: Training Data, url: "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8" }
+    - { name: No Priors, url: https://www.youtube.com/@NoPriorsPodcast }
+    - { name: Unsupervised Learning, url: https://www.youtube.com/@RedpointAI }
+    - { name: The MAD Podcast, url: https://www.youtube.com/@DataDrivenNYC }
+    - { name: AI & I, url: "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" }
