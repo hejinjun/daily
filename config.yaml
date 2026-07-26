@@ -61,3 +61,9 @@ bloggers:
   - name: Lilian Weng
     url: https://lilianweng.github.io/index.xml
     lang: en
+  - name: Geoffrey Huntley
+    url: https://ghuntley.com/rss/
+    lang: en
+  - name: Matt Pocock（AI Hero）  # newsletter 低频，多数时候窗口内无新帖
+    url: https://www.aihero.dev/rss.xml
+    lang: en
