@@ -1,0 +1,64 @@
+{
+ "skills": [
+  "Agent 架构与工程化：LangGraph/LangChain/LlamaIndex 搭建生产级 Agent 工作流，ReAct、Plan-and-Execute、Multi-Agent 架构，MCP/A2A 协议，持久化执行、人在回路、容错恢复等技能成为标配。信号：Agent 从 demo 走向生产，需要能落地复杂场景的工程师。",
+  "全栈 AI 开发：Go/Python/Next.js/Rust 后端 + 前端能力，熟练使用 Cursor、Claude Code、Codex 等 AI 编程工具，要求“AI Native”开发方式。信号：招聘方期望开发效率倍增，全栈 + AI 工具链能力是加分项。",
+  "垂直行业 AI 应用：金融、电商、物流、能源、教育、医疗等行业 AI 岗位增多，要求理解业务场景（如风控、供应链、客服、广告、交易策略）。信号：行业 Know-how 成为 AI 人才差异化优势。",
+  "AI 基础设施与管理：MLOps/LLMOps 平台建设，模型服务化与推理成本优化，可信 AI/安全/隐私。信号：企业关心 AI 的可靠性、可控性与成本。",
+  "产品与市场导向：AI 产品经理、DevRel、客户增长等角色需求上升，强调将 AI 能力转化为业务价值。信号：纯技术人才需要补产品思维，市场正从“技术驱动”转向“价值驱动”。"
+ ],
+ "gigs": [
+  "远程兼职岗位增多，尤其是 UI/UX 设计、AI 产品销售副业、行业专家设计 Agent 任务（300-1000元/任务）。信号：AI 应用落地需要大量非技术专家参与数据标注与任务设计，样本有限但趋势明显。",
+  "高薪全职远程岗位仍集中在北美（如 Portless 230k USD、Cora AI 250k USD），要求有生产级 Agent 交付经验。信号：远程高薪岗位对英文沟通和跨时区协作有要求，中国开发者需注意。"
+ ],
+ "highlights": [
+  {
+   "title": "Tether: AI Research Engineer",
+   "desc": "Headquarters: El Salvador URL: https://careers.tether.io/ Why Join Us? Our team is a global talent powerhouse, working remotely from every corner of the world. If you’re passionate about making a mark in the fintech space, this is your opportunity to collaborate with some of the brightest minds, pus",
+   "url": "https://weworkremotely.com/remote-jobs/tether-ai-research-engineer",
+   "source": "WeWorkRemotely",
+   "id": "m0",
+   "summary": "Tether 招聘 AI Research Engineer（全球远程），代表加密巨头对 AI 人才的需求，薪资有竞争力。"
+  },
+  {
+   "title": "Elevenlabs: Product Marketing - Agents",
+   "desc": "Headquarters: United Kingdom About ElevenLabs ElevenLabs is a research and product company defining the frontier of audio AI. Millions of people use our technology to read articles, voice over videos, and restore voices lost to disability. Leading developers and enterprises worldwide use ElevenLabs ",
+   "url": "https://weworkremotely.com/remote-jobs/elevenlabs-product-marketing-agents",
+   "source": "WeWorkRemotely",
+   "id": "m1",
+   "summary": "Elevenlabs 招聘 Product Marketing - Agents，说明音频 AI 头部公司开始重视 Agent 产品的市场推广。"
+  },
+  {
+   "title": "[南京] SHEIN 内推：算法、 Java 后台、测试、数据/数仓、安全、架构、前端等， 20-90k",
+   "desc": "整理一波 南京 base 技术岗，岗位接近 60 个，整体薪资大致在 20K-90K 。南京是 SHEIN 总部所在地，技术岗 HC 相较其他城市也确实更多一些。 方向覆盖算法、Java 后台、测试、数据/数仓、安全、架构、前端等，适合想看跨境电商、平台治理、广告商业化、智能客服、供应链、风控等复杂业务场景的技术同学。 岗位结构&薪资速览： 1️⃣ 算法 / AI 方向｜约 30%｜ 35K-90K 广告商业化、海外广告、搜推、NLP 、智能客服、商品治理、营销/商家风控、活动选品、价格策略、流量反作弊、供应链算法等。 其中算法专家/TL 、搜推、广告投放方向薪资更高，部分可到 60K-90K",
+   "url": "https://www.v2ex.com/t/1229938#reply2",
+   "source": "V2EX 酷工作",
+   "id": "m10",
+   "summary": "SHEIN 南京大量招聘算法岗（35-90K），覆盖搜推、NLP、智能客服等，反映跨境电商 AI 人才需求旺盛。"
+  },
+  {
+   "title": "[base 深圳 10k-20k 14~16 薪] Agent 开发工程师",
+   "desc": "工作职责 参与 AI Agent 系统的设计与研发，负责任务规划（ Planning ）、工具调用（ Tool Use ）、上下文管理（ Context Management ）、记忆机制（ Memory ）等核心模块的开发与迭代； 基于 TypeScript / Node.js 技术栈，开发和维护 Agent Runtime 、CLI 工具、SDK 及相关工程基础设施； 负责 Agent 工具调用能力的开发与集成，包括浏览器、Shell 、文件系统、数据库、第三方 API 、MCP 、Skills 等工具生态； 参与 Agent 工作流、状态管理、模型调用策略及上下文处理机制的设计和实现，提",
+   "url": "https://www.v2ex.com/t/1229845#reply6",
+   "source": "V2EX 酷工作",
+   "id": "m12",
+   "summary": "深圳 Agent 开发工程师（10-20K 14-16薪），要求 TypeScript/Node.js 栈，代表中小公司对 Agent 落地人才的急迫需求。"
+  },
+  {
+   "title": "部门有 4 个 agent 大模型岗位，欢迎投递",
+   "desc": "一、Agent 系统架构开发\n基于 LangGraph 、LangChain 、LlamaIndex 搭建生产级有状态 Agent 工作流，落地 ReAct 、Plan-and-Execute 、Multi-Agent 等主流架构。设计多智能体协作体系，实现任务委派、权限移交、群组协同，基于 MCP 、A2A 协议完成工具统一接入与跨 Agent 通信。搭建 Agent 持久化执行、人在回路、异常重试、故障恢复等生产能力，提升复杂场景任务执行准确率与系统稳定性。 二、生产级 RAG 体系建设\n搭建端到端生产级 RAG 流水线，实现非结构化文档解析、向量化构建、混合检索（向量+BM25+重排序）",
+   "url": "https://www.v2ex.com/t/1227881#reply5",
+   "source": "V2EX 酷工作",
+   "id": "m29",
+   "summary": "部门有 4 个 Agent 大模型岗位，涵盖 Agent 架构、RAG 体系建设，显示大型企业内部 Agent 团队组建加速。"
+  },
+  {
+   "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time \nLiveKit is ",
+   "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time \nLiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production.\nHiring: >> Staff Developer Advocate - Community & Events: https://jobs.ashbyhq.com/livekit/8ce9b064-e20b-4c71-8c53-385... >> Staff ",
+   "url": "https://news.ycombinator.com/item?id=48822697",
+   "source": "HN Who is hiring? (July 2026)",
+   "id": "m80",
+   "summary": "LiveKit 招聘 VoiceAI 基础设施岗位，说明语音 AI 和 WebRTC 方向在 Agent 时代迎来新机会。"
+  }
+ ],
+ "week": "2026-W31"
+}
