@@ -92,7 +92,10 @@
   </header>
   <div class="date">{{ date }} · {{ weekday }}</div>
 
-  {% if not llm_used %}
+  {% set sec_names = {"github": "GitHub", "news": "新闻", "products": "产品", "bloggers": "博主", "market": "需求周报"} %}
+  {% if degraded %}
+  <div class="notice">⚠️ 本期「{% for d in degraded %}{{ sec_names.get(d, d) }}{{ "、" if not loop.last }}{% endfor %}」板块 API 加工失败，仅该板块为原始内容，其余正常。</div>
+  {% elif llm_used is defined and not llm_used %}
   <div class="notice">⚠️ 本期未经过 LLM 加工（API 不可用），以下为原始抓取内容。</div>
   {% endif %}
 

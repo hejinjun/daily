@@ -15,36 +15,47 @@ class LLMUnavailable(Exception):
     pass
 
 
+MAX_ATTEMPTS = 3  # 含首次，最多请求 3 次
+
+
 def _chat(cfg: dict, system: str, user: str) -> dict:
     key = os.environ.get("DEEPSEEK_API_KEY")
     if not key:
         raise LLMUnavailable("DEEPSEEK_API_KEY not set")
-    try:
-        resp = requests.post(
-            f"{cfg['base_url']}/chat/completions",
-            headers={"Authorization": f"Bearer {key}"},
-            json={
-                "model": cfg["model"],
-                "messages": [
-                    {"role": "system", "content": system},
-                    {"role": "user", "content": user},
-                ],
-                "response_format": {"type": "json_object"},
-                "temperature": 0.3,
-            },
-            timeout=TIMEOUT,
-        )
-        if resp.status_code >= 400:
-            # 带上响应正文，否则 raise_for_status 只给状态码，看不到 DeepSeek 的具体报错
-            raise LLMUnavailable(
-                f"HTTP {resp.status_code} from {cfg['model']}: {resp.text[:500]}"
+
+    last_err: Exception | None = None
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            resp = requests.post(
+                f"{cfg['base_url']}/chat/completions",
+                headers={"Authorization": f"Bearer {key}"},
+                json={
+                    "model": cfg["model"],
+                    "messages": [
+                        {"role": "system", "content": system},
+                        {"role": "user", "content": user},
+                    ],
+                    "response_format": {"type": "json_object"},
+                    "temperature": 0.3,
+                },
+                timeout=TIMEOUT,
             )
-        content = resp.json()["choices"][0]["message"]["content"]
-        return json.loads(content)
-    except LLMUnavailable:
-        raise
-    except Exception as e:
-        raise LLMUnavailable(f"LLM call failed: {e}") from e
+            body = f"HTTP {resp.status_code} from {cfg['model']}: {resp.text[:500]}"
+            if 400 <= resp.status_code < 500:
+                # 4xx 是请求本身的问题（模型下线/余额不足/参数非法），重试无意义，直接抛
+                raise LLMUnavailable(body)
+            if resp.status_code >= 500:
+                # 5xx 是服务端临时故障，值得重试
+                raise RuntimeError(body)
+            content = resp.json()["choices"][0]["message"]["content"]
+            return json.loads(content)  # 偶发坏 JSON 会抛 ValueError → 触发重试
+        except LLMUnavailable:
+            raise  # 无 key / 4xx：不重试
+        except Exception as e:
+            last_err = e
+            log.warning("LLM 调用第 %d/%d 次失败：%s", attempt, MAX_ATTEMPTS, e)
+
+    raise LLMUnavailable(f"LLM call failed after {MAX_ATTEMPTS} attempts: {last_err}")
 
 
 def _items_block(items: list[dict], fields: tuple[str, ...]) -> str:
