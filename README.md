@@ -1,6 +1,6 @@
 # AI 每日情报站
 
-自用的 AI 信息聚合日报：每天早 7 点（北京时间）自动抓取 → DeepSeek 筛选并生成中文摘要 → 静态页面发布到 Cloudflare Pages，手机浏览器直接看。
+自用的 AI 信息聚合日报：每天清晨（北京时间）自动抓取 → DeepSeek 筛选并生成中文摘要 → 静态页面发布到 GitHub Pages，手机浏览器直接看。
 
 ## 板块（一期）
 
@@ -8,8 +8,9 @@
 - 📰 **AI 新闻** — Hacker News 首页 + OpenAI/DeepMind/HuggingFace 官博 + TechCrunch/The Verge AI + 机器之心/量子位，去重排序后的中文摘要
 - 🔥 **GitHub 热点** — 当日 trending 中的 AI 相关项目
 - 🚀 **热门 AI 产品** — Product Hunt 当日 AI 产品
+- 📊 **市场需求** — 每周汇总招聘/远程岗位/外包接单信号，LLM 归纳技能与需求走向（周报，本 ISO 周内复用）
 
-二期计划：AI 博主动态、技能要求趋势、外包/接单机会。
+二期计划：AI 博主动态。（技能要求趋势、外包/接单机会已并入"市场需求"周报）
 
 ## 本地运行
 
@@ -24,7 +25,7 @@ open site/index.html
 
 ## 一次性部署配置
 
-1. **DeepSeek**：在 [platform.deepseek.com](https://platform.deepseek.com) 注册、充值（月消耗约 1-2 元）、创建 API key。
+1. **DeepSeek**：在 [platform.deepseek.com](https://platform.deepseek.com) 注册、充值（月消耗约 1-2 元）、创建 API key。模型在 `config.yaml` 的 `llm.model` 配置（当前 `deepseek-v4-flash`）；DeepSeek 若下线模型名会返回 400，届时改这里即可。
 2. **GitHub**：仓库设为公开（免费账户的 Pages 只支持公开仓库），开启 Pages（Source 选 GitHub Actions），添加 secret `DEEPSEEK_API_KEY`：
    ```bash
    gh api -X POST repos/<user>/<repo>/pages -f build_type=workflow
@@ -33,7 +34,7 @@ open site/index.html
 3. 在 Actions 页手动触发一次 `daily-digest` 验证，成功后访问 `https://<user>.github.io/<repo>/`。
 4. 手机 Safari 打开页面 → 分享 → 添加到主屏幕。
 
-之后每天早 7 点自动更新，历史日报在"历史"页可回翻（数据以 JSON 形式提交回仓库 `data/` 目录）。
+之后每天清晨自动更新（定时北京时间 6:20 触发，Actions 排队后稍晚出稿），历史日报在"历史"页可回翻（数据以 JSON 形式提交回仓库 `data/` 目录）。
 
 ## 调口味
 
