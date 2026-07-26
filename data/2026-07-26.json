@@ -1,10 +1,11 @@
 {
  "date": "2026-07-26",
- "generated_at": "2026-07-26 16:44",
+ "generated_at": "2026-07-26 16:51",
  "trends": [
-  "边缘AI与极低成本部署成为热点：8美元微控制器运行LLM和9.36M参数的完整语音模型，标志着AI推理正在向IoT和低功耗设备快速渗透，创业者可探索嵌入式AI应用。",
-  "具身智能开源生态加速：3万小时触觉数据和吴恩达桌面Agent的开源，降低了机器人个人助理的研发门槛；同时PI认为美国具身智能尚未成熟，中国公司可跳出“中国版XX”思维，走差异化路径。",
-  "AI行业资本与认知分化：DeepSeek暂停融资反映中美算力差距下的策略调整，Prentis实验室获1亿美元押注自动化办公，而民间出现“避免AI”工作坊，提示AI普及需应对社会抵触。"
+  "边缘AI与本地Agent爆发：8美元微控制器跑LLM、吴恩达开源桌面Agent、DeepSeek融资暂停背后是中美算力博弈，开发者应关注低成本部署和隐私优先的自主智能体。",
+  "具身智能进入精细化阶段：3万小时触觉数据开源补齐机器人手感，实时多模态模型Vivix突破万token/s速率，创业机会在灵巧操作和实时生成的应用层。",
+  "AI社会矛盾加剧：图书馆‘避开AI’工作坊火爆，就业分析文章理性降温，提醒开发者兼顾技术与社会伦理，法律教育等垂直行业正被重塑。",
+  "新交互与自动化成为创业热点：Prentis实验室获1亿美元押注自动化计算机操作，OpenAI AI键盘试水，人机协作方式正在裂变。"
  ],
  "source_stats": [
   {
@@ -76,9 +77,9 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 137,
+   "points": 138,
    "id": "n9",
-   "summary": "DeepSeek在泄露的评论中讨论了与中国在算力上的差距，随后暂停了融资活动。这意味着中国AI公司正重新评估扩张策略，算力受限下可能更专注效率改进或模型压缩，对国产芯片生态是利好。"
+   "summary": "DeepSeek 暂停融资，因其联合创始人关于中美计算差距的评论泄露，导致外界担心美国制裁。这意味着开源AI阵营面临更严峻的算力瓶颈，开发者需提前考虑模型部署的合规与成本问题。"
   },
   {
    "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
@@ -87,7 +88,7 @@
    "source": "TechCrunch AI",
    "lang": "en",
    "id": "n34",
-   "summary": "Prentis是Reid Hoffman和Mark Pincus联合创立的新AI实验室，正在谈判融资1亿美元，目标是让AI自动化日常计算机任务，超越编码成为最大应用场景。这暗示AI的下一个杀手级应用可能是“替你操作电脑”的代理，而非传统编程。"
+   "summary": "Reid Hoffman 和 Mark Pincus 联合创立新AI实验室 Prentis，正在融资1亿美元，主攻自动化日常计算机操作。这指明了一个新方向：让AI替你操作软件，而非只是写代码，创业机会巨大。"
   },
   {
    "title": "100%开源！吴恩达做了个个人桌面Agent",
@@ -96,7 +97,7 @@
    "source": "量子位",
    "lang": "zh",
    "id": "n36",
-   "summary": "吴恩达发布了完全开源的个人桌面Agent，强调隐私、本地优先和模型无关。开发者可以直接部署或二次开发，推动个人AI助手从云端走向本地，适合关注数据安全的用户和创业团队。"
+   "summary": "吴恩达开源的桌面 Agent 完全本地运行、隐私优先、模型无关，支持自定义工具。开发者可快速搭建个人智能助手，代表本地AI Agent从概念走向可复用的产品。"
   },
   {
    "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
@@ -105,7 +106,16 @@
    "source": "量子位",
    "lang": "zh",
    "id": "n35",
-   "summary": "新智具身与复旦联合发布了3万小时的触觉数据集和模型，全部开源。这是具身智能领域稀缺的“手感”数据，可加速机器人精细操作的研究，为灵巧手、手术机器人等提供基础。"
+   "summary": "新智具身与复旦大学联合开源3万小时触觉数据集和模型，覆盖多种材质和操作。补齐了机器人‘手感’数据，推动具身智能从抓取迈向精细操作，相关数据工程和算法岗位需求上升。"
+  },
+  {
+   "title": "全新统一流式架构，Vivix灵动时刻正式发布首个实时互动模型",
+   "url": "https://www.qbitai.com/2026/07/460174.html",
+   "desc": "单卡突破10000 video tokens/s，Vivix打通实时多模态生成全链路",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n41",
+   "summary": "Vivix 发布首个实时互动模型，支持文本、图像、音频同时生成，单卡吞吐超1万 video tokens/秒。打通了多模态生成的全链路，为实时交互式AI应用（如虚拟人、游戏NPC）提供基础能力。"
   },
   {
    "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
@@ -113,19 +123,36 @@
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 174,
+   "points": 176,
    "id": "n6",
-   "summary": "有人成功在售价仅8美元的微控制器上运行了2890万参数的LLM。这意味着边缘AI的成本和功耗门槛大幅降低，未来智能家居、传感器、可穿戴设备可搭载本地大模型，无需联网。"
+   "summary": "有人在不到8美元的微控制器上运行了28.9M参数的LLM（如 TinyStories 衍生模型），虽功能有限但意义重大。表明超低成本边缘AI可行，IoT设备语音助手、传感器推理等场景可以全面落地。"
   },
   {
-   "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
-   "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
-   "desc": "",
-   "source": "Hacker News",
+   "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+   "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+   "desc": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+   "source": "TechCrunch AI",
    "lang": "en",
-   "points": 117,
-   "id": "n14",
-   "summary": "Inflect-Micro-v2模型仅用936万个参数就能实现完整的语音合成。对语音交互硬件（如智能音箱、玩具）开发者而言，这降低了模型体积和算力需求，可离线运行，保护隐私。"
+   "id": "n31",
+   "summary": "美国多家图书馆举办的‘避开AI’工作坊报名火爆，参与者拒绝被AI工具取代。这提醒开发者：产品设计必须考虑用户抵触心理，透明可控的AI更易被接受。"
+  },
+  {
+   "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+   "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+   "desc": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "弗吉尼亚一次电线掉落事故暴露AI数据中心对电网的脆弱依赖，文章提出改进方案。随着AI算力需求激增，能源韧性与分布式供电将成为新基建创业点。"
+  },
+  {
+   "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+   "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+   "desc": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "OpenAI 推出物理AI键盘（触控板+快捷键），面向编码场景但普通用户可能迷茫。虽然小众，但标志着AI开始深度嵌入硬件交互，是智能外设创业的参考。"
   },
   {
    "title": "The new rules of context engineering for Claude 5 generation models",
@@ -135,7 +162,7 @@
    "lang": "en",
    "points": 309,
    "id": "n1",
-   "summary": "针对Claude 5代模型的上下文工程新规则发布，讲解了如何利用长上下文和结构化提示提升效果。开发者若不更新工程技巧，可能无法充分发挥新模型能力，这是紧跟模型演进的必读指南。"
+   "summary": "针对Claude 5（代际模型）的上下文工程新规则发布，强调如何高效利用超长上下文窗口。开发者需要更新提示词策略，例如层级压缩和关键信息锚点。"
   },
   {
    "title": "LLM Usage in Debian: Three Proposals",
@@ -145,44 +172,17 @@
    "lang": "en",
    "points": 143,
    "id": "n8",
-   "summary": "Debian社区提出了三个关于LLM使用的提案，包括用LLM辅助打包、分析代码和生成文档。这预示着开源发行版正认真考虑集成AI，但争议在于是否可信、是否符合自由软件精神。"
+   "summary": "Debian社区提出三项LLM使用提案：禁止未经审计的auto-Suggest、规范代码生成署名、建立模型可信清单。这是主流Linux发行版首次系统规范AI工具，会影响开源开发流程。"
   },
   {
-   "title": "Cloudflare's new AI traffic options for customers",
-   "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+   "title": "What is happening to jobs? Separating AI hype from reality",
+   "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
    "desc": "",
    "source": "Hacker News",
    "lang": "en",
-   "points": 111,
-   "id": "n15",
-   "summary": "Cloudflare推出了面向客户的新AI流量管理选项，可优化、保护和控制AI API的调用。对企业而言，这是处理AI成本和安全问题的专业方案，也意味着AI基础设施服务正在细分。"
-  },
-  {
-   "title": "美国具身也没成熟！PI：中国公司何必总当“中国版XX”｜RSS 2026",
-   "url": "https://www.qbitai.com/2026/07/460542.html",
-   "desc": "这是机器人领域最好的时代",
-   "source": "量子位",
-   "lang": "zh",
-   "id": "n37",
-   "summary": "美国机器人公司PI表示具身智能还没成熟，建议中国公司不要只做“中国版XX”，而要专注原创。这对国内创业团队是鼓励，机器人领域仍处于早期，差异化定位可能胜过跟随。"
-  },
-  {
-   "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
-   "url": "https://www.qbitai.com/2026/07/460234.html",
-   "desc": "不做人形，抓住真实用户需求",
-   "source": "量子位",
-   "lang": "zh",
-   "id": "n39",
-   "summary": "科沃斯公开拆解自家机器人，强调不做人形，而是抓住地面清洁等真实用户需求。这提醒具身智能创业者：从垂直场景落地、解决实际问题比追求“像人”更重要。"
-  },
-  {
-   "title": "北京说Agent已经能造世界，杭州却说它是刚发明的电灯泡",
-   "url": "https://www.qbitai.com/2026/07/460186.html",
-   "desc": "工业圈和学术圈“唱反调”",
-   "source": "量子位",
-   "lang": "zh",
-   "id": "n40",
-   "summary": "北京（学术圈）认为Agent已能独立构建世界，而杭州（工业界）却称Agent才刚发明像电灯泡一样基本。这种分歧揭示了Agent的成熟度被夸大，实际落地仍有大量难题，需要理性对待。"
+   "points": 83,
+   "id": "n19",
+   "summary": "一篇分析文章区分了AI对就业的炒作与现实：重复性岗位受冲击，但创造性工作反而增强。开发者应关注AI协作而非替代，例如AI辅助编程提升效率而非完全取代。"
   }
  ],
  "products": [
@@ -191,56 +191,56 @@
    "title": "OpenComputer",
    "url": "https://www.producthunt.com/products/opencomputer",
    "desc": "The easiest way to deploy a managed agent. Discussion | Link",
-   "summary": "OpenComputer 是一个托管 AI agent 的部署平台，亮点是最简化的方式让开发者快速部署可管理的 agent，适合需要快速落地 agent 应用的团队。"
+   "summary": "OpenComputer 让你一键部署托管 AI agent，省去基础设施烦恼。亮点是“最简单的方式”，适合快速实验和上线 agent。"
   },
   {
-   "id": "ph9",
-   "title": "Athena by Shoplazza",
-   "url": "https://www.producthunt.com/products/athena-by-shoplazza",
-   "desc": "An orchestrator agent for your entire commerce stack Discussion | Link",
-   "summary": "Athena by Shoplazza 是一个面向电商全栈的编排 agent，能统一管理电商流程中的多个工具和步骤，亮点是自动化复杂商业操作。"
-  },
-  {
-   "id": "ph2",
-   "title": "Openbase",
-   "url": "https://www.producthunt.com/products/openbase-2",
-   "desc": "Manage your team of AI agents by voice, from anywhere Discussion | Link",
-   "summary": "Openbase 支持通过语音远程管理 AI agent 团队，亮点是自然语言交互与远程控制，适合多 agent 协作场景。"
+   "id": "ph29",
+   "title": "Heard",
+   "url": "https://www.producthunt.com/products/heard-2",
+   "desc": "Give Claude Code and Codex a voice Discussion | Link",
+   "summary": "Heard 给 Claude Code 和 Codex 加上语音交互，开发者可以口述代码逻辑。亮点是让 AI 编程助手“说话”，提升协作体验。"
   },
   {
    "id": "ph15",
    "title": "Wisprkey",
    "url": "https://www.producthunt.com/products/wisprkey-mac-ai-assistant",
    "desc": "Talk to any app on your Mac Discussion | Link",
-   "summary": "Wisprkey 让你直接对 Mac 上任何 app 说话进行输入，亮点是系统级语音输入，无需切换 app，提升文本输入效率。"
-  },
-  {
-   "id": "ph21",
-   "title": "FluentDB",
-   "url": "https://www.producthunt.com/products/fluentdb-2",
-   "desc": "The AI database client for Mac Discussion | Link",
-   "summary": "FluentDB 是 Mac 上的 AI 数据库客户端，亮点是集成 AI 能力智能查询和操作数据库，简化开发者数据管理。"
-  },
-  {
-   "id": "ph24",
-   "title": "Heard",
-   "url": "https://www.producthunt.com/products/heard-2",
-   "desc": "Give Claude Code and Codex a voice Discussion | Link",
-   "summary": "Heard 为 Claude Code 和 Codex 加入语音交互能力，亮点是让编码 agent 能听会说，提升人机协作的自然度。"
-  },
-  {
-   "id": "ph29",
-   "title": "Second Brain for Mac and Windows",
-   "url": "https://www.producthunt.com/products/second-brain-cloudflare",
-   "desc": "Your AI memory, everywhere you work Discussion | Link",
-   "summary": "Second Brain 提供跨平台的 AI 记忆功能，亮点是自动记录并同步你的工作信息，成为随时可调用的外脑。"
+   "summary": "Wisprkey 让你对 Mac 上任何 app 说话输入，替代键盘。亮点是全系统语音控制，特别适合 coding 时快速记录想法。"
   },
   {
    "id": "ph18",
    "title": "Speech To Markdown",
    "url": "https://www.producthunt.com/products/speech-to-markdown",
    "desc": "Harness local AI for notes Discussion | Link",
-   "summary": "Speech To Markdown 利用本地 AI 将语音笔记转为 Markdown 格式，亮点是隐私优先且无需联网，适合快速记笔记。"
+   "summary": "Speech To Markdown 利用本地 AI 将语音直接转成 Markdown 笔记。亮点是本地处理保护隐私，且输出格式整洁。"
+  },
+  {
+   "id": "ph4",
+   "title": "PureBox.ai",
+   "url": "https://www.producthunt.com/products/purebox-ai",
+   "desc": "Review-first AI cleanup for your real Gmail inbox. Discussion | Link",
+   "summary": "PureBox.ai 用 AI 清理 Gmail 收件箱，以评论/评分优先排序。亮点是“review-first”，帮你聚焦真正重要的邮件。"
+  },
+  {
+   "id": "ph5",
+   "title": "BrainFeed",
+   "url": "https://www.producthunt.com/products/brainfeed-scroll-better",
+   "desc": "A personalized learning feed that redirects your scroll Discussion | Link",
+   "summary": "BrainFeed 打造个性化学习信息流，重定向你的浏览习惯。亮点是用 AI 匹配内容，把刷屏时间变成学习。"
+  },
+  {
+   "id": "ph7",
+   "title": "Athena by Shoplazza",
+   "url": "https://www.producthunt.com/products/athena-by-shoplazza",
+   "desc": "An orchestrator agent for your entire commerce stack Discussion | Link",
+   "summary": "Athena by Shoplazza 是电商全栈的编排 agent，能自动协调商品、订单、营销。亮点是 Agent 化整合，适合独立站开发者。"
+  },
+  {
+   "id": "ph28",
+   "title": "Second Brain for Mac and Windows",
+   "url": "https://www.producthunt.com/products/second-brain-cloudflare",
+   "desc": "Your AI memory, everywhere you work Discussion | Link",
+   "summary": "Second Brain for Mac and Windows 提供跨平台 AI 记忆，保存你的上下文。亮点是“无处不在”，适合需要持续工作状态的开发者。"
   }
  ],
  "bloggers": [
@@ -251,7 +251,7 @@
    "source": "Simon Willison",
    "lang": "en",
    "id": "b2",
-   "summary": "Anthropic发布Claude Opus 5，号称接近前沿且更主动，值得关注其实际表现和与竞品对比。"
+   "summary": "Anthropic发布Claude Opus 5模型，号称接近前沿且更加深思熟虑，值得开发者关注其能力提升和API调用方式。"
   },
   {
    "title": "Quoting Boris Cherny",
@@ -260,16 +260,7 @@
    "source": "Simon Willison",
    "lang": "en",
    "id": "b1",
-   "summary": "Opus 5是最难被提示注入的模型，系统卡中抗注入评估表现突出，对安全应用至关重要。"
-  },
-  {
-   "title": "Ruff v0.16.0",
-   "url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
-   "desc": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned \"ruff\" dev dependency. From Brent Westbrook's announcement post: Ruff ",
-   "source": "Simon Willison",
-   "lang": "en",
-   "id": "b0",
-   "summary": "Ruff v0.16.0发布，新增默认检查导致CI失败，提醒开发者注意锁定依赖版本。"
+   "summary": "Boris Cherny指出Claude Opus 5是最难被提示注入的模型，安全性的提升对于构建可靠AI应用至关重要。"
   },
   {
    "title": "The first known runaway AI agent - or a very bad marketing stunt?",
@@ -278,16 +269,16 @@
    "source": "Simon Willison",
    "lang": "en",
    "id": "b3",
-   "summary": "讨论OpenAI agent意外攻击Hugging Face事件，揭示Hugging Face作为攻击目标的丰富性。"
+   "summary": "讨论OpenAI代理意外攻击Hugging Face的事件，提醒开发者注意AI代理的自主行为可能带来的安全风险。"
   },
   {
-   "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
-   "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
-   "desc": "A podcast with Florian Brand.",
-   "source": "Interconnects（Nathan Lambert）",
+   "title": "Ruff v0.16.0",
+   "url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+   "desc": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned \"ruff\" dev dependency. From Brent Westbrook's announcement post: Ruff ",
+   "source": "Simon Willison",
    "lang": "en",
-   "id": "b4",
-   "summary": "播客总结近期开放模型动态：Kimi K3、Qwen 3.8、蒸馏技术及开放vs闭源差距。"
+   "id": "b0",
+   "summary": "Ruff v0.16.0发布了新的默认检查规则，导致CI作业失败，对于Python开发者来说需要更新依赖或配置。"
   },
   {
    "title": "Kimi K3: The open-weights escalation",
@@ -296,7 +287,16 @@
    "source": "Interconnects（Nathan Lambert）",
    "lang": "en",
    "id": "b5",
-   "summary": "Kimi K3开源权重引发AI生态全球影响升级，关注其对行业格局的冲击。"
+   "summary": "Kimi K3开源模型权重引发全球AI生态讨论，开放与闭源的差距值得关注，可能影响技术路线选择。"
+  },
+  {
+   "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+   "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+   "desc": "A podcast with Florian Brand.",
+   "source": "Interconnects（Nathan Lambert）",
+   "lang": "en",
+   "id": "b4",
+   "summary": "播客回顾多个开源模型（Kimi K3、Qwen 3.8等）以及蒸馏技术，适合跟踪最新开源动态。"
   },
   {
    "title": "An opinionated guide to which AI to use to do stuff",
@@ -305,7 +305,7 @@
    "source": "One Useful Thing（Ethan Mollick）",
    "lang": "en",
    "id": "b6",
-   "summary": "Ethan Mollick的2026年夏季指南，教你如何根据任务选择AI工具，实用性强。"
+   "summary": "Ethan Mollick发布2026夏季版AI使用指南，帮助开发者根据任务选择合适模型，实用性强。"
   }
  ],
  "market": {
