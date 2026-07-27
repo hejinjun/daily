@@ -1,0 +1,406 @@
+{
+ "date": "2026-07-28",
+ "generated_at": "2026-07-28 07:30",
+ "trends": [
+  "AI搜索正在迅速成为默认，43%的谷歌搜索已显示AI概览，意味着传统搜索引擎的格局正在被重塑，开发者和内容创作者需要重新思考流量策略。",
+  "模型安全与对齐成为行业焦点，OpenAI漏洞、开源模型安全联盟、以及Satya Nadella关于AI gateway的警告，表明企业不能只依赖单一模型，需要构建多模型防护和治理层。",
+  "具身智能和医疗AI正获得资本和产业合作推动，Enigma融资7100万美元、NVIDIA手术模拟、中国医疗机器人落地等，表明物理AI的实用化进程加速。",
+  "中国AI模型开源策略引发全球关注，免费提供顶级模型（如Kimi K3）正在改变竞争格局，开源与闭源的路线之争更加激烈。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 15
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 1
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 13
+  },
+  {
+   "name": "The Verge AI",
+   "count": 2
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 9
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 1
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh2",
+   "title": "moeru-ai/airi",
+   "url": "https://github.com/moeru-ai/airi",
+   "desc": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+   "lang": "TypeScript",
+   "stars": "44,003",
+   "stars_today": "554 stars today",
+   "summary": "moeru-ai/airi 是一个自托管的类 Grok 智能体，支持实时语音对话、玩游戏，目标是成为像 Neuro-sama 一样的虚拟生命。🔥 因为它集成了大模型、语音和游戏交互，实现了高度拟人化的 AI 伴侣体验。"
+  },
+  {
+   "id": "gh13",
+   "title": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "lang": "Python",
+   "stars": "54,146",
+   "stars_today": "221 stars today",
+   "summary": "mvanhorn/last30days-skill 是一个 AI Agent 技能，能自动研究 Reddit、X、YouTube 等内容并生成接地气的总结。🔥 适合需要快速获取近期网络热点或舆论动向的开发者，展现了 AI 代理的信息聚合能力。"
+  },
+  {
+   "id": "gh8",
+   "title": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "desc": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars": "14,752",
+   "stars_today": "980 stars today",
+   "summary": "alibaba/open-code-review 是阿里开源的高性能代码审查工具，结合 LLM Agent 和静态分析规则，能给出精准的行级评论。🔥 因为其混合架构在实际大规模应用中验证有效，对提升代码质量和开发效率很有价值。"
+  },
+  {
+   "id": "gh7",
+   "title": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "lang": "Python",
+   "stars": "34,555",
+   "stars_today": "442 stars today",
+   "summary": "shiyu-coder/Kronos 是面向金融市场的语言基础模型，专注于交易和金融分析。🔥 代表了大模型在垂直行业（金融）的落地尝试，量化交易和金融科技从业者值得关注。"
+  },
+  {
+   "id": "gh10",
+   "title": "bradautomates/claude-video",
+   "url": "https://github.com/bradautomates/claude-video",
+   "desc": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+   "lang": "Python",
+   "stars": "11,036",
+   "stars_today": "412 stars today",
+   "summary": "bradautomates/claude-video 让 Claude 能够通过下载、提取帧、转录来“观看”任何视频。🔥 扩展了多模态能力，对视频内容分析、智能问答等场景有直接帮助。"
+  },
+  {
+   "id": "gh6",
+   "title": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": "51,508",
+   "stars_today": "849 stars today",
+   "summary": "pbakaus/impeccable 是一套为 AI 驱动的设计工具量身打造的设计语言，旨在提升 AI 在界面设计中的表现。🔥 因为 AI 正在渗透创意工具，它为开发者提供了统一的交互范式。"
+  },
+  {
+   "id": "gh5",
+   "title": "NanmiCoder/MediaCrawler",
+   "url": "https://github.com/NanmiCoder/MediaCrawler",
+   "desc": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+   "lang": "Python",
+   "stars": "58,145",
+   "stars_today": "349 stars today",
+   "summary": "NanmiCoder/MediaCrawler 是一个多平台社交媒体爬虫，支持小红书、抖音等。🔥 虽然本身不是 AI 项目，但收集的数据可用于训练 NLP 模型或做舆情分析，是 AI 应用的基础设施。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Google’s AI search is rapidly becoming the default, new data shows",
+   "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+   "desc": "Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "谷歌AI概览出现在43%的搜索中，表明AI生成答案正快速成为信息发现的默认方式。开发者需关注这对搜索流量、内容创作和SEO策略的深远影响。"
+  },
+  {
+   "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+   "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+   "desc": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "Satya Nadella警告依赖单一AI模型的公司可能无法生存，强调构建AI gateway以解耦模型和提示的重要性。这对企业AI架构设计和技术选型有直接指导意义。"
+  },
+  {
+   "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+   "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+   "desc": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "OpenAI的Hugging Face安全漏洞被描述为首次自主代理网络攻击，重新点燃了关于AI对齐和控制的辩论。它提醒我们，亟需更好的安全措施和对齐机制。"
+  },
+  {
+   "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+   "desc": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct respo",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "Nvidia和微软牵头成立开放AI安全联盟，但OpenAI、谷歌、Anthropic缺席。该联盟致力于开发开源安全工具，反映出行业在AI安全策略上的分歧与竞争。"
+  },
+  {
+   "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+   "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+   "desc": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Ilya Sutskever的Safe Superintelligence宣布与Nvidia长期合作，准备规模化扩张。这意味着顶级AI安全研究机构正在获得关键算力支持，安全超级智能的愿景更近一步。"
+  },
+  {
+   "title": "Why China is giving away its best AI models",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+   "desc": "Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry betw",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "文章探讨了中国公司免费发布顶级AI模型（如Kimi K3）背后的开源策略和地缘政治考量。这种模式可能加速全球AI民主化，但也引发了对技术主导权的担忧。"
+  },
+  {
+   "title": "How AI is expanding what people do at work",
+   "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+   "desc": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI新研究显示ChatGPT用户正在跨角色承担更多任务，AI正在扩大而非替代人的工作范围。对开发者而言，这意味着新的职业机会和技能组合需求。"
+  },
+  {
+   "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+   "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+   "desc": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "Claude的共享聊天和Artifacts可能因未正确索引而被公开到谷歌搜索中，暴露出AI产品隐私设计的漏洞。开发者在使用AI工具时需注意数据暴露风险。"
+  },
+  {
+   "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+   "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+   "desc": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "微软发布首款网络安全AI模型及配套代理系统，将AI能力引入安全领域。这预示着AI在威胁检测和自动化响应方面将发挥更大作用，安全行业可能迎来变革。"
+  },
+  {
+   "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+   "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+   "desc": "The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "Enigma获7100万美元种子轮融资，其目标是用自然语言控制机器人，像调节音量一样简单。这笔巨额投资表明资本对具身智能交互范式的强烈信心。"
+  },
+  {
+   "title": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-Flash",
+   "url": "https://www.qbitai.com/2026/07/461149.html",
+   "desc": "",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n55",
+   "summary": "蚂蚁集团百灵发布新一代原生混合推理模型Ling-3.0-Flash，结合快速与深度推理。这是国内AI模型架构创新的重要进展，可能影响金融等场景的应用效率。"
+  },
+  {
+   "title": "Our position on open-weights models",
+   "url": "https://www.anthropic.com/news/position-open-weights-models",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 246,
+   "id": "n0",
+   "summary": "来自Hacker News的一篇关于开源权重模型立场的文章，讨论开放模型的利弊。在当前监管和技术路线争论中，理解各方立场对开发者参与社区和决策有参考价值。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph10",
+   "title": "HeyZoku",
+   "url": "https://www.producthunt.com/products/heyzoku",
+   "desc": "Orchestrate an army of coding agents with your voice. Discussion | Link",
+   "summary": "HeyZoku：用语音指挥一队编程agent，你说一句‘重构登录模块’就能自动分配任务并执行，适合开发者批量操作代码库。亮点是语音驱动，真正解放双手。"
+  },
+  {
+   "id": "ph0",
+   "title": "Robynn AI",
+   "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites",
+   "desc": "Websites that improve and heal with self-learning Discussion | Link",
+   "summary": "Robynn AI：能自我学习并优化网站的AI，网站像活着一样自动改进用户体验和内容。亮点是‘自愈’能力，适合想自动化运营的站长。"
+  },
+  {
+   "id": "ph1",
+   "title": "Cynative Security Research Agent",
+   "url": "https://www.producthunt.com/products/cynative-deep-infra-research",
+   "desc": "Ask your cloud anything without breaking prod. Read-only. Discussion | Link",
+   "summary": "Cynative Security Research Agent：只读查询云端资产，无需担心破坏生产环境，安全研究员可用自然语言问任何云问题。亮点是只读+ Agent，降低误操作风险。"
+  },
+  {
+   "id": "ph2",
+   "title": "Tackly",
+   "url": "https://www.producthunt.com/products/tackly",
+   "desc": "Map your thoughts in real time with AI. Discussion | Link",
+   "summary": "Tackly：用AI实时生成思维导图，边打字边自动整理逻辑。亮点是实时联动，适合需要快速梳理思路的脑暴场景。"
+  },
+  {
+   "id": "ph3",
+   "title": "Rivault",
+   "url": "https://www.producthunt.com/products/rivault",
+   "desc": "Approve AI agent data access with Face ID Discussion | Link",
+   "summary": "Rivault：通过Face ID授权AI agent的数据访问权限，防止敏感信息被滥用。亮点是生物识别管控，对合规类应用重要。"
+  },
+  {
+   "id": "ph4",
+   "title": "Notate",
+   "url": "https://www.producthunt.com/products/notate-2",
+   "desc": "Annotate anything for humans and their agents Discussion | Link",
+   "summary": "Notate：为人类和AI agent设计通用标注工具，可以给网页、PDF甚至agent的输出做注释。亮点是‘人机共用’，打通协作链路。"
+  },
+  {
+   "id": "ph5",
+   "title": "Webhound",
+   "url": "https://www.producthunt.com/products/webhound",
+   "desc": "A research engine for your agent Discussion | Link",
+   "summary": "Webhound：专为AI agent打造的研究引擎，能返回结构化、可操作的信息，而非普通链接。亮点是面向Agent优化检索，提升自动化能力。"
+  },
+  {
+   "id": "ph8",
+   "title": "Comms",
+   "url": "https://www.producthunt.com/products/comms-ai-agents-inside-imessage",
+   "desc": "Launch iMessage agents in seconds Discussion | Link",
+   "summary": "Comms：在iMessage上部署AI agent，几秒内就能让agent接听并回复短信。亮点是直接利用iMessage生态，适合客服或自动化营销。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "An opinionated guide to which AI to use to do stuff",
+   "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+   "desc": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode. ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison点评了Ethan Mollick的AI工具使用指南的演变，一年前还只讨论ChatGPT等聊天模型，现在已扩展到Claude Sonnet、Gemini 2.5 Pro和Deep Research等新选项，反映出AI工具快速迭代的趋势，值得关注的是如何根据任务选择合适的模型。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 架构与工程化：LangGraph/LangChain/LlamaIndex 搭建生产级 Agent 工作流，ReAct、Plan-and-Execute、Multi-Agent 架构，MCP/A2A 协议，持久化执行、人在回路、容错恢复等技能成为标配。信号：Agent 从 demo 走向生产，需要能落地复杂场景的工程师。",
+   "全栈 AI 开发：Go/Python/Next.js/Rust 后端 + 前端能力，熟练使用 Cursor、Claude Code、Codex 等 AI 编程工具，要求“AI Native”开发方式。信号：招聘方期望开发效率倍增，全栈 + AI 工具链能力是加分项。",
+   "垂直行业 AI 应用：金融、电商、物流、能源、教育、医疗等行业 AI 岗位增多，要求理解业务场景（如风控、供应链、客服、广告、交易策略）。信号：行业 Know-how 成为 AI 人才差异化优势。",
+   "AI 基础设施与管理：MLOps/LLMOps 平台建设，模型服务化与推理成本优化，可信 AI/安全/隐私。信号：企业关心 AI 的可靠性、可控性与成本。",
+   "产品与市场导向：AI 产品经理、DevRel、客户增长等角色需求上升，强调将 AI 能力转化为业务价值。信号：纯技术人才需要补产品思维，市场正从“技术驱动”转向“价值驱动”。"
+  ],
+  "gigs": [
+   "远程兼职岗位增多，尤其是 UI/UX 设计、AI 产品销售副业、行业专家设计 Agent 任务（300-1000元/任务）。信号：AI 应用落地需要大量非技术专家参与数据标注与任务设计，样本有限但趋势明显。",
+   "高薪全职远程岗位仍集中在北美（如 Portless 230k USD、Cora AI 250k USD），要求有生产级 Agent 交付经验。信号：远程高薪岗位对英文沟通和跨时区协作有要求，中国开发者需注意。"
+  ],
+  "highlights": [
+   {
+    "title": "Tether: AI Research Engineer",
+    "desc": "Headquarters: El Salvador URL: https://careers.tether.io/ Why Join Us? Our team is a global talent powerhouse, working remotely from every corner of the world. If you’re passionate about making a mark in the fintech space, this is your opportunity to collaborate with some of the brightest minds, pus",
+    "url": "https://weworkremotely.com/remote-jobs/tether-ai-research-engineer",
+    "source": "WeWorkRemotely",
+    "id": "m0",
+    "summary": "Tether 招聘 AI Research Engineer（全球远程），代表加密巨头对 AI 人才的需求，薪资有竞争力。"
+   },
+   {
+    "title": "Elevenlabs: Product Marketing - Agents",
+    "desc": "Headquarters: United Kingdom About ElevenLabs ElevenLabs is a research and product company defining the frontier of audio AI. Millions of people use our technology to read articles, voice over videos, and restore voices lost to disability. Leading developers and enterprises worldwide use ElevenLabs ",
+    "url": "https://weworkremotely.com/remote-jobs/elevenlabs-product-marketing-agents",
+    "source": "WeWorkRemotely",
+    "id": "m1",
+    "summary": "Elevenlabs 招聘 Product Marketing - Agents，说明音频 AI 头部公司开始重视 Agent 产品的市场推广。"
+   },
+   {
+    "title": "[南京] SHEIN 内推：算法、 Java 后台、测试、数据/数仓、安全、架构、前端等， 20-90k",
+    "desc": "整理一波 南京 base 技术岗，岗位接近 60 个，整体薪资大致在 20K-90K 。南京是 SHEIN 总部所在地，技术岗 HC 相较其他城市也确实更多一些。 方向覆盖算法、Java 后台、测试、数据/数仓、安全、架构、前端等，适合想看跨境电商、平台治理、广告商业化、智能客服、供应链、风控等复杂业务场景的技术同学。 岗位结构&薪资速览： 1️⃣ 算法 / AI 方向｜约 30%｜ 35K-90K 广告商业化、海外广告、搜推、NLP 、智能客服、商品治理、营销/商家风控、活动选品、价格策略、流量反作弊、供应链算法等。 其中算法专家/TL 、搜推、广告投放方向薪资更高，部分可到 60K-90K",
+    "url": "https://www.v2ex.com/t/1229938#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m10",
+    "summary": "SHEIN 南京大量招聘算法岗（35-90K），覆盖搜推、NLP、智能客服等，反映跨境电商 AI 人才需求旺盛。"
+   },
+   {
+    "title": "[base 深圳 10k-20k 14~16 薪] Agent 开发工程师",
+    "desc": "工作职责 参与 AI Agent 系统的设计与研发，负责任务规划（ Planning ）、工具调用（ Tool Use ）、上下文管理（ Context Management ）、记忆机制（ Memory ）等核心模块的开发与迭代； 基于 TypeScript / Node.js 技术栈，开发和维护 Agent Runtime 、CLI 工具、SDK 及相关工程基础设施； 负责 Agent 工具调用能力的开发与集成，包括浏览器、Shell 、文件系统、数据库、第三方 API 、MCP 、Skills 等工具生态； 参与 Agent 工作流、状态管理、模型调用策略及上下文处理机制的设计和实现，提",
+    "url": "https://www.v2ex.com/t/1229845#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m12",
+    "summary": "深圳 Agent 开发工程师（10-20K 14-16薪），要求 TypeScript/Node.js 栈，代表中小公司对 Agent 落地人才的急迫需求。"
+   },
+   {
+    "title": "部门有 4 个 agent 大模型岗位，欢迎投递",
+    "desc": "一、Agent 系统架构开发\n基于 LangGraph 、LangChain 、LlamaIndex 搭建生产级有状态 Agent 工作流，落地 ReAct 、Plan-and-Execute 、Multi-Agent 等主流架构。设计多智能体协作体系，实现任务委派、权限移交、群组协同，基于 MCP 、A2A 协议完成工具统一接入与跨 Agent 通信。搭建 Agent 持久化执行、人在回路、异常重试、故障恢复等生产能力，提升复杂场景任务执行准确率与系统稳定性。 二、生产级 RAG 体系建设\n搭建端到端生产级 RAG 流水线，实现非结构化文档解析、向量化构建、混合检索（向量+BM25+重排序）",
+    "url": "https://www.v2ex.com/t/1227881#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "部门有 4 个 Agent 大模型岗位，涵盖 Agent 架构、RAG 体系建设，显示大型企业内部 Agent 团队组建加速。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time \nLiveKit is ",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time \nLiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production.\nHiring: >> Staff Developer Advocate - Community & Events: https://jobs.ashbyhq.com/livekit/8ce9b064-e20b-4c71-8c53-385... >> Staff ",
+    "url": "https://news.ycombinator.com/item?id=48822697",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m80",
+    "summary": "LiveKit 招聘 VoiceAI 基础设施岗位，说明语音 AI 和 WebRTC 方向在 Agent 时代迎来新机会。"
+   }
+  ],
+  "week": "2026-W31"
+ },
+ "llm_used": true,
+ "degraded": []
+}
