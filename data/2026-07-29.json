@@ -1,0 +1,430 @@
+{
+ "date": "2026-07-29",
+ "generated_at": "2026-07-29 07:18",
+ "trends": [
+  "AI安全与治理加速：Sam Altman表态减速、行业联名要求政府监管、Hugging Face深度伪造滥用事件频发，安全与监管成为行业焦点。",
+  "算力瓶颈与成本压力：数据中心面临断电风险，谷歌资本支出飙升令华尔街紧张，高效模型（如LFM2.5）和边缘推理成为刚需。",
+  "中国AI开源与Agent生态崛起：Kimi K3和Unlimited OCR包揽全球前二，豆包搜索开放Agent能力，本地化竞争加剧。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 12
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 1
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 18
+  },
+  {
+   "name": "The Verge AI",
+   "count": 7
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 8
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 1
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh3",
+   "title": "andrewyng/aisuite",
+   "url": "https://github.com/andrewyng/aisuite",
+   "desc": "Simple, unified interface to multiple Generative AI providers",
+   "lang": "Python",
+   "stars": "15,664",
+   "stars_today": "92 stars today",
+   "summary": "aisuite 是 Andrew Ng 推出的统一接口，让你用同一套代码切换调用 OpenAI、Anthropic、Google 等多家大模型。吴恩达背书+简化多模型切换，开发者关注度极高。"
+  },
+  {
+   "id": "gh4",
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "234,762",
+   "stars_today": "692 stars today",
+   "summary": "ECC 是 AI agent 的性能优化系统，整合了技能、本能、记忆、安全等模块，专为 Claude Code、Cursor 等框架打造。今天飙升 692 星，说明 agent 开发对底层优化工具需求旺盛。"
+  },
+  {
+   "id": "gh5",
+   "title": "huggingface/speech-to-speech",
+   "url": "https://github.com/huggingface/speech-to-speech",
+   "desc": "Build local voice agents with open-source models",
+   "lang": "Python",
+   "stars": "7,193",
+   "stars_today": "177 stars today",
+   "summary": "Hugging Face 开源的语音到语音框架，用本地模型搭建实时语音 agent。直接对标 OpenAI 的语音模式，但完全本地化、开源，隐私敏感场景的开发者需要它。"
+  },
+  {
+   "id": "gh6",
+   "title": "virgiliojr94/book-to-skill",
+   "url": "https://github.com/virgiliojr94/book-to-skill",
+   "desc": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+   "lang": "Python",
+   "stars": "11,275",
+   "stars_today": "366 stars today",
+   "summary": "book-to-skill 能把技术 PDF 转换为 Claude Code 可用的 Skill，实现边读边用。知识库与 AI 工作流无缝衔接，适合开发者快速将书本知识变成可调用的工具。"
+  },
+  {
+   "id": "gh9",
+   "title": "microsoft/agent-governance-toolkit",
+   "url": "https://github.com/microsoft/agent-governance-toolkit",
+   "desc": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+   "lang": "Python",
+   "stars": "5,171",
+   "stars_today": "17 stars today",
+   "summary": "微软开源的 AI Agent 治理工具包，涵盖策略执行、零信任身份、沙箱执行和可靠性工程，对标 OWASP Agentic Top 10。企业级 agent 部署的合规和安全刚需，适合关注生产化落地的读者。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Sam Altman is ready to decelerate",
+   "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
+   "desc": "His change of position comes after \"the first security incident that I have felt very viscerally.\"",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "OpenAI CEO Sam Altman经历重大安全事件后公开支持AI减速，表示需要更谨慎地推进。这意味着头部公司态度可能转变，行业监管压力进一步加大。"
+  },
+  {
+   "title": "AI leaders sign a statement asking the government to do something about automated AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+   "desc": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance e",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n51",
+   "summary": "OpenAI、Anthropic、Google等多家AI公司员工联名致信美国政府，呼吁加速全球AI治理。这意味着行业内部对AI风险的共识增强，未来法规可能收紧。"
+  },
+  {
+   "title": "AI’s finally expensive enough to make Wall Street nervous",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+   "desc": "It's earnings season, and investors got an unpleasant surprise from Google: an increase on its spending estimate, to as much as $205 billion - from the last quarter's projection of up to $190 billion. Even the lower end of Google's new projected range - $195 billion - is much more than the company h",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n52",
+   "summary": "谷歌将资本支出上限提高至2050亿美元，远超预期，引发投资者对AI成本过高的担忧。这意味着AI基础设施建设成本飙升，可能导致行业洗牌。"
+  },
+  {
+   "title": "Data centers may face temporary power cuts to prevent blackouts on largest US grid",
+   "url": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+   "desc": "The decision arrives as the breakneck pace of data center construction has grid operators scrambling to generate power.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "美国最大电网运营商考虑临时切断数据中心供电以防止大停电，能源瓶颈日益严峻。这意味着算力成本将进一步上升，分布式和小型模型需求增加。"
+  },
+  {
+   "title": "Recursive Superintelligence signs $410M compute deal with Amazon",
+   "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+   "desc": "Recursive’s emphasis on self-improving AI systems means much of the budget that would traditionally go toward headcount and operations is put straight into compute, as the company seeks to automate its own product development process.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "Recursive Superintelligence与亚马逊签署4.1亿美元计算合同，押注自我改进AI，几乎将所有资金投入算力。这意味着极端重算力的新范式可能推动AI自主进化，但风险极高。"
+  },
+  {
+   "title": "Hugging Face is being used to easily undress women and children",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+   "desc": "Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That's according to a new report published by the European nonprofit AI Forensics, which found that seven out of the top nine image editing models hosted by",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "报告显示Hugging Face平台模型被用于制作非自愿深度伪造，包括儿童色情内容，平台监管不足。这意味着开源模型的安全与合规问题凸显，开发者需警惕责任风险。"
+  },
+  {
+   "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+   "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+   "desc": "Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "AI编码助手Cursor在印度推出本地化定价，并加大招聘，印度已成第三大市场。这意味着AI工具全球化竞争加剧，新兴市场成为增长点。"
+  },
+  {
+   "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+   "desc": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n53",
+   "summary": "Perplexity将Personal Computer AI代理功能扩展到Windows，可本地运行作为数字工人。这意味着AI agent正从云端走向个人电脑，改变人机交互模式。"
+  },
+  {
+   "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+   "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+   "desc": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Anthropic CEO Dario Amodei表态不反对开源权重，但担忧中国AI能力增长。这意味着地缘政治因素影响AI开源策略，开发者需关注出口管制与模型选择。"
+  },
+  {
+   "title": "豆包搜索，走出了豆包",
+   "url": "https://www.qbitai.com/2026/07/461961.html",
+   "desc": "把搜索能力开放给Agent了",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n58",
+   "summary": "字节跳动豆包搜索将搜索能力开放给AI Agent，支持智能体调用。这意味着中国AI Agent生态加速，开发者可低成本集成搜索增强能力。"
+  },
+  {
+   "title": "Kimi K3、Unlimited OCR包揽全球前二，中国开源模型持续刷屏海外",
+   "url": "https://www.qbitai.com/2026/07/461949.html",
+   "desc": "",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n59",
+   "summary": "Moonshot AI的Kimi K3和Unlimited OCR在开源模型排行榜中包揽前两名，显示中国开源模型在性价比上实现突破。这意味着低成本高性能路线正在挑战美国主导地位。"
+  },
+  {
+   "title": "MCP 2026-07-28 Specification: transport going stateless",
+   "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 92,
+   "id": "n14",
+   "summary": "MCP协议2026-07-28规范将传输改为无状态，简化设计并提升可扩展性。这对Agent开发至关重要，标志着协议走向成熟。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph28",
+   "title": "G.I.A.ac",
+   "url": "https://www.producthunt.com/products/g-i-a-ac",
+   "desc": "Build real, working apps from a single sentence Discussion | Link",
+   "summary": "一句话生成完整的可工作应用，从自然语言描述直接构建，类似vibe-coding的终极形态。"
+  },
+  {
+   "id": "ph10",
+   "title": "Lamoom",
+   "url": "https://www.producthunt.com/products/lamoom",
+   "desc": "Run agent apps inside your Claude or sell your own Discussion | Link",
+   "summary": "在Claude聊天界面内运行agent应用，也可以打包出售自己的agent，让AI agent像插件一样分发。"
+  },
+  {
+   "id": "ph22",
+   "title": "Phantom",
+   "url": "https://www.producthunt.com/products/phantom-6",
+   "desc": "Voice-first AI agent that operates your Mac Discussion | Link",
+   "summary": "语音优先的AI agent，可以直接操作你的Mac电脑，实现语音控制桌面任务。"
+  },
+  {
+   "id": "ph5",
+   "title": "FlowTask 2.0",
+   "url": "https://www.producthunt.com/products/flowtask",
+   "desc": "Company brain for AI Agents Discussion | Link",
+   "summary": "公司级的AI agent管理平台，作为所有agent的‘大脑’，协调任务和数据流。"
+  },
+  {
+   "id": "ph11",
+   "title": "Conduit",
+   "url": "https://www.producthunt.com/products/conduit-ai",
+   "desc": "AI agents purpose-built for Hospitality Discussion | Link",
+   "summary": "专为酒店行业设计的AI agent，自动处理预订、客服等，垂直场景落地。"
+  },
+  {
+   "id": "ph18",
+   "title": "Pinery Prose",
+   "url": "https://www.producthunt.com/products/pinery",
+   "desc": "AI co-author for books + every edit is a diff you approve Discussion | Link",
+   "summary": "AI合著书籍，每次编辑都生成diff并需你批准，像代码review一样写书。"
+  },
+  {
+   "id": "ph13",
+   "title": "SUB/WAVE",
+   "url": "https://www.producthunt.com/products/sub-wave",
+   "desc": "Self-hosted radio with an AI DJ and one shared stream Discussion | Link",
+   "summary": "自托管网络电台，内置AI DJ自动选曲和播报，打造个人电台。"
+  },
+  {
+   "id": "ph4",
+   "title": "Ycode AI Agents",
+   "url": "https://www.producthunt.com/products/ycode",
+   "desc": "Build websites with AI Discussion | Link",
+   "summary": "用AI直接搭建网站，输入描述即可生成完整前端，快速原型。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+   "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+   "desc": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document d",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "Hugging Face 详细分析了 OpenAI 2026年7月的一次意外网络攻击事件，展示了前沿实验室智能体入侵的技术细节，对研究 AI 安全很有价值。"
+  },
+  {
+   "title": "Quoting Akshat Bubna",
+   "url": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+   "desc": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters abo",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Modal 客户暴露了未认证端点导致被恶意利用，但 Modal 平台本身未被攻破，这对部署 AI 服务的开发者是个安全警示。"
+  },
+  {
+   "title": "Discovering cryptographic weaknesses with Claude",
+   "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+   "desc": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Anthropic 研究者用 Claude Mythos 发现了 HAWK 和简化版 AES 的数学漏洞，虽无实际影响，但展示了 AI 辅助密码学分析的能力。"
+  },
+  {
+   "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+   "url": "https://www.latent.space/p/chatgpt-work",
+   "desc": "OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "OpenAI 产品工程负责人分享 ChatGPT Work 从0到1000万用户的构建经验，涉及 Sites、记忆、子代理、金融和低代码等方向。"
+  },
+  {
+   "title": "[AINews] Much ado about Open Weights",
+   "url": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
+   "desc": "Everyone is writing a lot, but only Kimi K3 shipped today",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "AI新闻汇总：大家都在讨论开放权重，但只有 Kimi K3 今天真正发布了模型，值得关注开源动态。"
+  },
+  {
+   "title": "uv 0.12.0",
+   "url": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
+   "desc": "uv 0.12.0 Some interesting breaking changes in this release of uv , in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv , version 0.11.x, produced this directory when you ran uv init uv-init . Here's ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "uv 0.12.0 发布，包含破坏性变更，特别是 uv init 的默认项目结构变了，Python 开发者需要留意。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 架构与工程化：LangGraph/LangChain/LlamaIndex 搭建生产级 Agent 工作流，ReAct、Plan-and-Execute、Multi-Agent 架构，MCP/A2A 协议，持久化执行、人在回路、容错恢复等技能成为标配。信号：Agent 从 demo 走向生产，需要能落地复杂场景的工程师。",
+   "全栈 AI 开发：Go/Python/Next.js/Rust 后端 + 前端能力，熟练使用 Cursor、Claude Code、Codex 等 AI 编程工具，要求“AI Native”开发方式。信号：招聘方期望开发效率倍增，全栈 + AI 工具链能力是加分项。",
+   "垂直行业 AI 应用：金融、电商、物流、能源、教育、医疗等行业 AI 岗位增多，要求理解业务场景（如风控、供应链、客服、广告、交易策略）。信号：行业 Know-how 成为 AI 人才差异化优势。",
+   "AI 基础设施与管理：MLOps/LLMOps 平台建设，模型服务化与推理成本优化，可信 AI/安全/隐私。信号：企业关心 AI 的可靠性、可控性与成本。",
+   "产品与市场导向：AI 产品经理、DevRel、客户增长等角色需求上升，强调将 AI 能力转化为业务价值。信号：纯技术人才需要补产品思维，市场正从“技术驱动”转向“价值驱动”。"
+  ],
+  "gigs": [
+   "远程兼职岗位增多，尤其是 UI/UX 设计、AI 产品销售副业、行业专家设计 Agent 任务（300-1000元/任务）。信号：AI 应用落地需要大量非技术专家参与数据标注与任务设计，样本有限但趋势明显。",
+   "高薪全职远程岗位仍集中在北美（如 Portless 230k USD、Cora AI 250k USD），要求有生产级 Agent 交付经验。信号：远程高薪岗位对英文沟通和跨时区协作有要求，中国开发者需注意。"
+  ],
+  "highlights": [
+   {
+    "title": "Tether: AI Research Engineer",
+    "desc": "Headquarters: El Salvador URL: https://careers.tether.io/ Why Join Us? Our team is a global talent powerhouse, working remotely from every corner of the world. If you’re passionate about making a mark in the fintech space, this is your opportunity to collaborate with some of the brightest minds, pus",
+    "url": "https://weworkremotely.com/remote-jobs/tether-ai-research-engineer",
+    "source": "WeWorkRemotely",
+    "id": "m0",
+    "summary": "Tether 招聘 AI Research Engineer（全球远程），代表加密巨头对 AI 人才的需求，薪资有竞争力。"
+   },
+   {
+    "title": "Elevenlabs: Product Marketing - Agents",
+    "desc": "Headquarters: United Kingdom About ElevenLabs ElevenLabs is a research and product company defining the frontier of audio AI. Millions of people use our technology to read articles, voice over videos, and restore voices lost to disability. Leading developers and enterprises worldwide use ElevenLabs ",
+    "url": "https://weworkremotely.com/remote-jobs/elevenlabs-product-marketing-agents",
+    "source": "WeWorkRemotely",
+    "id": "m1",
+    "summary": "Elevenlabs 招聘 Product Marketing - Agents，说明音频 AI 头部公司开始重视 Agent 产品的市场推广。"
+   },
+   {
+    "title": "[南京] SHEIN 内推：算法、 Java 后台、测试、数据/数仓、安全、架构、前端等， 20-90k",
+    "desc": "整理一波 南京 base 技术岗，岗位接近 60 个，整体薪资大致在 20K-90K 。南京是 SHEIN 总部所在地，技术岗 HC 相较其他城市也确实更多一些。 方向覆盖算法、Java 后台、测试、数据/数仓、安全、架构、前端等，适合想看跨境电商、平台治理、广告商业化、智能客服、供应链、风控等复杂业务场景的技术同学。 岗位结构&薪资速览： 1️⃣ 算法 / AI 方向｜约 30%｜ 35K-90K 广告商业化、海外广告、搜推、NLP 、智能客服、商品治理、营销/商家风控、活动选品、价格策略、流量反作弊、供应链算法等。 其中算法专家/TL 、搜推、广告投放方向薪资更高，部分可到 60K-90K",
+    "url": "https://www.v2ex.com/t/1229938#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m10",
+    "summary": "SHEIN 南京大量招聘算法岗（35-90K），覆盖搜推、NLP、智能客服等，反映跨境电商 AI 人才需求旺盛。"
+   },
+   {
+    "title": "[base 深圳 10k-20k 14~16 薪] Agent 开发工程师",
+    "desc": "工作职责 参与 AI Agent 系统的设计与研发，负责任务规划（ Planning ）、工具调用（ Tool Use ）、上下文管理（ Context Management ）、记忆机制（ Memory ）等核心模块的开发与迭代； 基于 TypeScript / Node.js 技术栈，开发和维护 Agent Runtime 、CLI 工具、SDK 及相关工程基础设施； 负责 Agent 工具调用能力的开发与集成，包括浏览器、Shell 、文件系统、数据库、第三方 API 、MCP 、Skills 等工具生态； 参与 Agent 工作流、状态管理、模型调用策略及上下文处理机制的设计和实现，提",
+    "url": "https://www.v2ex.com/t/1229845#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m12",
+    "summary": "深圳 Agent 开发工程师（10-20K 14-16薪），要求 TypeScript/Node.js 栈，代表中小公司对 Agent 落地人才的急迫需求。"
+   },
+   {
+    "title": "部门有 4 个 agent 大模型岗位，欢迎投递",
+    "desc": "一、Agent 系统架构开发\n基于 LangGraph 、LangChain 、LlamaIndex 搭建生产级有状态 Agent 工作流，落地 ReAct 、Plan-and-Execute 、Multi-Agent 等主流架构。设计多智能体协作体系，实现任务委派、权限移交、群组协同，基于 MCP 、A2A 协议完成工具统一接入与跨 Agent 通信。搭建 Agent 持久化执行、人在回路、异常重试、故障恢复等生产能力，提升复杂场景任务执行准确率与系统稳定性。 二、生产级 RAG 体系建设\n搭建端到端生产级 RAG 流水线，实现非结构化文档解析、向量化构建、混合检索（向量+BM25+重排序）",
+    "url": "https://www.v2ex.com/t/1227881#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "部门有 4 个 Agent 大模型岗位，涵盖 Agent 架构、RAG 体系建设，显示大型企业内部 Agent 团队组建加速。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time \nLiveKit is ",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time \nLiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production.\nHiring: >> Staff Developer Advocate - Community & Events: https://jobs.ashbyhq.com/livekit/8ce9b064-e20b-4c71-8c53-385... >> Staff ",
+    "url": "https://news.ycombinator.com/item?id=48822697",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m80",
+    "summary": "LiveKit 招聘 VoiceAI 基础设施岗位，说明语音 AI 和 WebRTC 方向在 Agent 时代迎来新机会。"
+   }
+  ],
+  "week": "2026-W31"
+ },
+ "llm_used": true,
+ "degraded": []
+}
