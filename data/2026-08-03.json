@@ -1,0 +1,321 @@
+{
+ "date": "2026-08-03",
+ "generated_at": "2026-08-03 07:16",
+ "trends": [
+  "AI版权与内容来源争议持续升温，从艺术家到音乐榜单，行业急需规则明确。",
+  "AI模型轻量化、本地化趋势明显，微型编码Agent和其他低资源模型打开新的创业空间。",
+  "AI依赖对心理健康的影响开始被公开讨论，连AI从业人员和KOL也开始反思。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 15
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 5
+  },
+  {
+   "name": "The Verge AI",
+   "count": 3
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 0
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 3
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "Is paying artists enough to convince them to embrace AI?",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+   "desc": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the tec",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "艺术家付费能让他们接受AI吗？本文探讨了生成式AI公司向艺术家付费是否足以换取训练授权，核心是版权与补偿的公平性问题。这关系到AI内容生成的合法性，值得关注。"
+  },
+  {
+   "title": "Is this Billboard Hot 100 hit AI slop?",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+   "desc": "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles. But he's recently found solo success with the track \"Rubberz,\" which has climbed to number 58 on the Billboard Hot 100. Almost immediately, though, questions were raised about the song's origins, with many specula",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "一首来自说唱歌手Fenix Flexin的歌曲“Rubberz”登上Billboard Hot 100第58位，但被质疑是AI生成的。这件事说明AI生成内容已经渗透到主流商业音乐，引发关于“AI垃圾”和行业规则的讨论。"
+  },
+  {
+   "title": "Show HN: MicroCodex Coding Agent – OpenAI/codex reimplemented in C++ <1MB binary",
+   "url": "https://github.com/paoloanzn/microcodex",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 12,
+   "id": "n28",
+   "summary": "MicroCodex是一个用C++重新实现的OpenAI Codex编码代理，整个二进制不到1MB，可以本地运行。它代表AI工具在追求轻量化和低成本，让个人开发者也能跑起编码助手，是值得关注的创业方向。"
+  },
+  {
+   "title": "Autoregressive Language Model on the 6502 Processor",
+   "url": "https://mattbeton.com/blog/bitnet-6502.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 16,
+   "id": "n24",
+   "summary": "有人在6502处理器（8位古董CPU）上跑了一个自回归语言模型，虽然只是玩具级，但展示了极端资源限制下AI模型的可行性。这提示我们模型压缩和低功耗AI还有很大拓展空间。"
+  },
+  {
+   "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+   "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+   "desc": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "知名YouTuber Hank Green坦承自己用LLM获得了不健康的多巴胺刺激，说“这对我和世界都不好”。他提醒大家AI成瘾问题正在真实发生，需要警惕过度依赖。"
+  },
+  {
+   "title": "Sam Altman is still making the case for parenting via ChatGPT",
+   "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+   "desc": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "Sam Altman在宣传用ChatGPT辅助育儿的用例，虽然听起来很酷，但引发了关于AI是否适合介入儿童教育的讨论。作为OpenAI CEO，他的态度会影响大众认知。"
+  },
+  {
+   "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+   "desc": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Fender CEO在75周年Telecaster专访中说乐队成员是“模拟AI”，这种比喻招致批评。这反映出传统行业领导者对AI的理解存在误区，也说明AI概念正被滥用。"
+  },
+  {
+   "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+   "url": "https://frogs.vaguespac.es/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 76,
+   "id": "n14",
+   "summary": "作者用“生成一个哈布斯堡下巴的青蛙SVG”作为自己的AI测试基准，直观地检验模型对复杂描述的理解和输出能力。这种有意思的评测方式能帮助大家直观看到LLM的进步和局限。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "Zinley",
+   "url": "https://www.producthunt.com/products/zinley",
+   "desc": "Your Personal AI Representative for calls, email, and tasks Discussion | Link",
+   "summary": "一个能替你接打电话、回邮件、跑任务的AI助理，相当于雇了个私人秘书。亮点是把日常零碎事务打包交给AI，省时省力。"
+  },
+  {
+   "id": "ph6",
+   "title": "Bolcho AI",
+   "url": "https://www.producthunt.com/products/bolcho-ai",
+   "desc": "Build Voice AI agents that actually speak India Discussion | Link",
+   "summary": "一个能构建语音AI代理的平台，尤其擅长说印度语言。亮点是解决印度口音和方言识别问题，适合本地化语音应用。"
+  },
+  {
+   "id": "ph3",
+   "title": "Zen Whisper",
+   "url": "https://www.producthunt.com/products/zen-whisper",
+   "desc": "On-device Mac dictation that types into any app Discussion | Link",
+   "summary": "Mac上的本地语音听写工具，能在任何App里打字。亮点是全程在设备端处理，不用上传云端，隐私安全。"
+  },
+  {
+   "id": "ph1",
+   "title": "Lumichats",
+   "url": "https://www.producthunt.com/products/lumichats-offline",
+   "desc": "A Claude Code alternative for people who avoid the terminal Discussion | Link",
+   "summary": "为不想用终端的人打造的Claude Code替代品，图形界面里点一点就能完成代码任务。亮点是降低AI编程助手的使用门槛。"
+  },
+  {
+   "id": "ph17",
+   "title": "Tandem",
+   "url": "https://www.producthunt.com/products/tandem-11",
+   "desc": "AI-native office leasing brokerage Discussion | Link",
+   "summary": "AI驱动的办公室租赁中介，自动匹配房源和租户需求。亮点是用AI替代传统人工经纪，让找办公室更高效。"
+  },
+  {
+   "id": "ph4",
+   "title": "Termexo",
+   "url": "https://www.producthunt.com/products/termexo",
+   "desc": "A local Windows workbench for Claude Code and Codex Discussion | Link",
+   "summary": "专为Windows打造的Claude Code/Codex工作台，把AI编码代理放进本地窗口。亮点是弥补了Windows上缺少官方工具的短板。"
+  },
+  {
+   "id": "ph7",
+   "title": "Finamie",
+   "url": "https://www.producthunt.com/products/finamie-know-your-money-for-real",
+   "desc": "Speak your expenses and get instant spending insights Discussion | Link",
+   "summary": "对着手机说一句“买了杯咖啡”，它就能记下支出并给出分析。亮点是语音记账+智能洞察，懒人理财神器。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "July 2026 newsletter",
+   "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+   "desc": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-073",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Simon Willison 的七月通讯：盘点意外网络攻击、GPT-5.6/Claude Opus 5 等新模型，值得关注的是这些模型在测试中引发的安全事故，以及前沿模型迭代速度。"
+  },
+  {
+   "title": "Open letters about AI development",
+   "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+   "desc": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent comp",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "关于 AI 发展的公开信总结，尤其是微软牵头的“开放权重与美国 AI 领导力”联名信，反映了产业界对开源与监管的立场博弈，值得追踪。"
+  },
+  {
+   "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+   "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+   "desc": "Capacity to train strong models is proliferating.",
+   "source": "Interconnects（Nathan Lambert）",
+   "lang": "en",
+   "id": "b4",
+   "summary": "最新开放模型盘点：Laguna S2.1、Inkling、Kimi K3 展示了开放模型在帕累托前沿的效用，说明训练强模型的能力正在扩散，值得关心中小玩家机会。"
+  },
+  {
+   "title": "Hermes Co-Founder on Building an AI Agent That Improves Itself | Karan Malhotra",
+   "url": "https://creatoreconomy.so/p/hermes-co-founder-on-building-an-ai-agent-that-improves-itself-karan-malhotra",
+   "desc": "How Hermes keeps your context portable across models, builds and cleans up its own skills, and helped Karan modify his childhood Sonic game",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "访谈 Hermes 联合创始人：AI 代理如何自我改进、跨模型保持上下文，甚至自己编写技能，对做 agent 方向的开发者有启发。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent开发成为招聘主旋律：从Multi-Agent工作流编排、防幻觉设计到模型路由/成本工程，要求用TypeScript/Node.js或Python落地生产级系统。值得关注的是，招聘方不再满足于'调API跑通demo'，而是要能设计带校验和自动修复的确定性闭环。",
+   "AI Coding工具（Claude Code、Cursor等）从'加分项'变成'硬性要求'：有公司直接写'必须用AI，Token不限量'，还有前端负责人岗位要求熟练运用AI Agent辅助开发。这说明AI原生开发文化正在渗透到传统岗位，开发者需要把AI工具当成日常生产力。",
+   "全栈+AI融合需求明显：大量岗位要求同时掌握Go/Rust/Python/Next.js，并具备数据库、消息队列等工程能力，且带AI相关经验优先。纯前端或纯后端岗位在减少，能独立打通从接口到AI能力的'全能型'选手更吃香。",
+   "行业垂直AI岗位增多且薪资跨度大：金融风控、量化交易、医疗、物流等场景开始要'懂业务的AI工程师'，甚至开出年薪500万找算法一号位。这说明AI落地进入深水区，行业知识+算法能力的复合背景价值凸显。",
+   "具身智能/物理AI初现苗头：优诺智行、Lumen Labs、Cargo Robotics等团队在招机器人大脑、模拟+RL、机械工程师，虽然样本量不大，但代表前沿方向，值得开发者留意。"
+  ],
+  "gigs": [
+   "外包/接单市场出现'AI Agent任务设计'新型付费角色：平台花300-1000元/任务招募各行业专家，把金蝶做账、SolidWorks出图等日常电脑工作转化为Agent能执行的任务。这个信号值得关注：AI不会用垂直软件，但知道怎么干活的人可以教AI。样本有限，但可能形成新兼职品类。",
+   "远程全职/接单中，AI工程岗明显更抢手：海外有公司开$180k-$230k找第一个专职AI工程师，从0搭生产级agentic workflow；国内电鸭上也有'web3+ai agent远程全职40-50K'的需求。不过样本有限，大部分高薪远程岗仍集中在北美和头部项目。",
+   "接单项目更偏'具体问题'：比如OpenCV长粒种子分割算法、加密货币交易平台UI，都是小而美的外包，价格不透明。对于接单者来说，能展示AI解决垂直问题的能力比泛泛的'大模型应用'更能拿单，但这类需求比较分散，需要自己挖掘。"
+  ],
+  "highlights": [
+   {
+    "title": "招聘 Agent 架构/资深开发",
+    "desc": "工作内容： Multi-Agent 工作流编排：摒弃 “单一超长 Prompt” 的粗暴方式，设计并落地专职 Agent 阵列（如：意图拆解 Agent 、规则合成 Agent 、逻辑自洽校验 Agent 、资产匹配 Agent ），构建基于图或状态机的调度系统。 “幻觉” 防御与确定性闭环：针对 LLM 输出的不确定性，设计强约束的结构化输出策略（ JSON Schema / Function Calling ），重点设计 Reviewer Agent 的静态逻辑推演机制，拦截 “死锁、不可达状态、数值崩溃” 等致命逻辑错误，并设计错误打回与自动修复链路。 模型路由与成本工程：基于各种主流模",
+    "url": "https://www.v2ex.com/t/1231571#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m8",
+    "summary": "招聘Agent架构师，强调防幻觉、状态机调度和模型路由，代表国内Agent开发从'跑通流程'转向'工程化、确定性'。"
+   },
+   {
+    "title": "[西安/全职] 移山科技招 2 位 AI 应用工程师：必须用 AI， Token 不限量，不限技术栈",
+    "desc": "大家好，我是移山科技的技术负责人。我们在西安做 GEO 产品，这次想直接招两位工程师。 AI 应用核心工程师（ GEO 方向），1 人，12–20K ； AI 应用工程师（成长型），1 人，8–12K ； 地点在碑林区永宁门地铁站，长安国际中心 E 座； 全职现场办公，不支持远程或混合。 产品官网： https://www.geokeji.com/ 。 我们做的事情和传统 SEO 不完全一样。现在用户会直接向 DeepSeek 、豆包、Kimi 等模型提问，我们需要持续观察品牌在回答里有没有被提到、引用和推荐，再通过可信数据、内容结构、RAG 、评估和工具链改善结果。 我们是因为玩 AI 做的",
+    "url": "https://www.v2ex.com/t/1231065#reply14",
+    "source": "V2EX 酷工作",
+    "id": "m13",
+    "summary": "西安初创要求'必须用AI，Token不限量'，把AI原生开发当成招人硬指标，说明AI Coding文化开始辐射到二线城市小团队。"
+   },
+   {
+    "title": "【包月付费置顶】【参加报销电量】TalentsAI｜大量招聘Vibe Coding 任务设计专家/500-1000/任务",
+    "desc": "公司介绍 TalentsAI 是一家专注于专家级 AI 数据的平台，服务全球头部 AI 实验室和前沿大模型团队。（已获国内外顶级资本融资） 我们在找谁 我们要找的不是“会用 AI 写代码的人”，而是每天真的在用 AI Agent ship 东西的人。 你可能每天用 Cursor / Claude Code / Codex 写代码、改项目、调 Bug、做产品；你既被它坑过，也靠它上线过真实东西。 你",
+    "url": "https://eleduck.com/posts/R3f78r",
+    "source": "电鸭社区",
+    "id": "m46",
+    "summary": "TalentsAI招募Vibe Coding任务设计专家，每天用AI Agent写代码的人可以帮平台生成任务，这是一种全新职业方向。"
+   },
+   {
+    "title": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're ",
+    "desc": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're a company doing real operational work in e-commerce/3PL logistics. AI usage internally is still basic — decks, spreadsheets, a few people vibe-coding dashboards. No real agentic workflows in production yet. That's what this role is for.\nYou'd be the first dedicated AI engineer here. Two things at once: ship agentic wor",
+    "url": "https://news.ycombinator.com/item?id=48915735",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m51",
+    "summary": "Portless要找第一个专职AI工程师，底薪$180k-$230k，任务是从0到1搭建生产级Agentic工作流，反映传统运营公司开始补AI原生能力。"
+   },
+   {
+    "title": "别卷 PPT 了，来给机器人造大脑，零食咖啡管够｜优诺智行硬核招人",
+    "desc": "🤖 优诺智行招聘｜来做机器人的\"大脑架构师\" 纯视觉 · 具身智能 · 端侧大模型 · 真落地 官网： younuozhixing.com ｜坐标：苏州 🧠 我们是谁 优诺智行，一家 拒绝堆料、死磕纯视觉 的具身智能公司。 别人用激光雷达\"凑\"感知，我们用摄像头+AI 让机器人 真正看懂世界 。自研核心产品 UnoBox ——不只是一个边缘计算盒子，而是赋予机器人\"感知-决策-控制\"全栈能力的数字大脑。 代码写在 Jetson 上，算法跑在 Isaac Sim 里，最终落地在物流车、巡检机器人、农业机械的真机现场。 从 Sim 到 Real ，没有中间商赚差价。 🎯 四个席位，等你入座 01 ",
+    "url": "https://www.v2ex.com/t/1230730#reply7",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "优诺智行招'机器人大脑'架构师，纯视觉加端侧大模型，真机落地，具身智能领域的招聘开始活跃。"
+   },
+   {
+    "title": "Cargo Robotics (withcargo.com) | Menlo Park, CA | ONSITE | Full-time | Senior Me",
+    "desc": "Cargo Robotics (withcargo.com) | Menlo Park, CA | ONSITE | Full-time | Senior Mechanical Engineer |Competitive salary and meaningful early-stage equity| Cargo Robotics has emerged from stealth! We're building the X1 Robotic Cargo Bay, which is frontier physical AI inside delivery vans. The founders worked undercover within UPS/FedEx operations before starting the company; one of the largest parcel",
+    "url": "https://news.ycombinator.com/item?id=48820118",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m80",
+    "summary": "Cargo Robotics从隐秘状态出来，做送货卡车里的机器货舱，founder曾在UPS/FedEx卧底观察运营，物理AI在物流场景的商业化尝试值得关注。"
+   }
+  ],
+  "week": "2026-W32"
+ },
+ "llm_used": true,
+ "degraded": []
+}

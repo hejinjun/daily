@@ -1,0 +1,65 @@
+{
+ "skills": [
+  "AI Agent开发成为招聘主旋律：从Multi-Agent工作流编排、防幻觉设计到模型路由/成本工程，要求用TypeScript/Node.js或Python落地生产级系统。值得关注的是，招聘方不再满足于'调API跑通demo'，而是要能设计带校验和自动修复的确定性闭环。",
+  "AI Coding工具（Claude Code、Cursor等）从'加分项'变成'硬性要求'：有公司直接写'必须用AI，Token不限量'，还有前端负责人岗位要求熟练运用AI Agent辅助开发。这说明AI原生开发文化正在渗透到传统岗位，开发者需要把AI工具当成日常生产力。",
+  "全栈+AI融合需求明显：大量岗位要求同时掌握Go/Rust/Python/Next.js，并具备数据库、消息队列等工程能力，且带AI相关经验优先。纯前端或纯后端岗位在减少，能独立打通从接口到AI能力的'全能型'选手更吃香。",
+  "行业垂直AI岗位增多且薪资跨度大：金融风控、量化交易、医疗、物流等场景开始要'懂业务的AI工程师'，甚至开出年薪500万找算法一号位。这说明AI落地进入深水区，行业知识+算法能力的复合背景价值凸显。",
+  "具身智能/物理AI初现苗头：优诺智行、Lumen Labs、Cargo Robotics等团队在招机器人大脑、模拟+RL、机械工程师，虽然样本量不大，但代表前沿方向，值得开发者留意。"
+ ],
+ "gigs": [
+  "外包/接单市场出现'AI Agent任务设计'新型付费角色：平台花300-1000元/任务招募各行业专家，把金蝶做账、SolidWorks出图等日常电脑工作转化为Agent能执行的任务。这个信号值得关注：AI不会用垂直软件，但知道怎么干活的人可以教AI。样本有限，但可能形成新兼职品类。",
+  "远程全职/接单中，AI工程岗明显更抢手：海外有公司开$180k-$230k找第一个专职AI工程师，从0搭生产级agentic workflow；国内电鸭上也有'web3+ai agent远程全职40-50K'的需求。不过样本有限，大部分高薪远程岗仍集中在北美和头部项目。",
+  "接单项目更偏'具体问题'：比如OpenCV长粒种子分割算法、加密货币交易平台UI，都是小而美的外包，价格不透明。对于接单者来说，能展示AI解决垂直问题的能力比泛泛的'大模型应用'更能拿单，但这类需求比较分散，需要自己挖掘。"
+ ],
+ "highlights": [
+  {
+   "title": "招聘 Agent 架构/资深开发",
+   "desc": "工作内容： Multi-Agent 工作流编排：摒弃 “单一超长 Prompt” 的粗暴方式，设计并落地专职 Agent 阵列（如：意图拆解 Agent 、规则合成 Agent 、逻辑自洽校验 Agent 、资产匹配 Agent ），构建基于图或状态机的调度系统。 “幻觉” 防御与确定性闭环：针对 LLM 输出的不确定性，设计强约束的结构化输出策略（ JSON Schema / Function Calling ），重点设计 Reviewer Agent 的静态逻辑推演机制，拦截 “死锁、不可达状态、数值崩溃” 等致命逻辑错误，并设计错误打回与自动修复链路。 模型路由与成本工程：基于各种主流模",
+   "url": "https://www.v2ex.com/t/1231571#reply0",
+   "source": "V2EX 酷工作",
+   "id": "m8",
+   "summary": "招聘Agent架构师，强调防幻觉、状态机调度和模型路由，代表国内Agent开发从'跑通流程'转向'工程化、确定性'。"
+  },
+  {
+   "title": "[西安/全职] 移山科技招 2 位 AI 应用工程师：必须用 AI， Token 不限量，不限技术栈",
+   "desc": "大家好，我是移山科技的技术负责人。我们在西安做 GEO 产品，这次想直接招两位工程师。 AI 应用核心工程师（ GEO 方向），1 人，12–20K ； AI 应用工程师（成长型），1 人，8–12K ； 地点在碑林区永宁门地铁站，长安国际中心 E 座； 全职现场办公，不支持远程或混合。 产品官网： https://www.geokeji.com/ 。 我们做的事情和传统 SEO 不完全一样。现在用户会直接向 DeepSeek 、豆包、Kimi 等模型提问，我们需要持续观察品牌在回答里有没有被提到、引用和推荐，再通过可信数据、内容结构、RAG 、评估和工具链改善结果。 我们是因为玩 AI 做的",
+   "url": "https://www.v2ex.com/t/1231065#reply14",
+   "source": "V2EX 酷工作",
+   "id": "m13",
+   "summary": "西安初创要求'必须用AI，Token不限量'，把AI原生开发当成招人硬指标，说明AI Coding文化开始辐射到二线城市小团队。"
+  },
+  {
+   "title": "【包月付费置顶】【参加报销电量】TalentsAI｜大量招聘Vibe Coding 任务设计专家/500-1000/任务",
+   "desc": "公司介绍 TalentsAI 是一家专注于专家级 AI 数据的平台，服务全球头部 AI 实验室和前沿大模型团队。（已获国内外顶级资本融资） 我们在找谁 我们要找的不是“会用 AI 写代码的人”，而是每天真的在用 AI Agent ship 东西的人。 你可能每天用 Cursor / Claude Code / Codex 写代码、改项目、调 Bug、做产品；你既被它坑过，也靠它上线过真实东西。 你",
+   "url": "https://eleduck.com/posts/R3f78r",
+   "source": "电鸭社区",
+   "id": "m46",
+   "summary": "TalentsAI招募Vibe Coding任务设计专家，每天用AI Agent写代码的人可以帮平台生成任务，这是一种全新职业方向。"
+  },
+  {
+   "title": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're ",
+   "desc": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're a company doing real operational work in e-commerce/3PL logistics. AI usage internally is still basic — decks, spreadsheets, a few people vibe-coding dashboards. No real agentic workflows in production yet. That's what this role is for.\nYou'd be the first dedicated AI engineer here. Two things at once: ship agentic wor",
+   "url": "https://news.ycombinator.com/item?id=48915735",
+   "source": "HN Who is hiring? (July 2026)",
+   "id": "m51",
+   "summary": "Portless要找第一个专职AI工程师，底薪$180k-$230k，任务是从0到1搭建生产级Agentic工作流，反映传统运营公司开始补AI原生能力。"
+  },
+  {
+   "title": "别卷 PPT 了，来给机器人造大脑，零食咖啡管够｜优诺智行硬核招人",
+   "desc": "🤖 优诺智行招聘｜来做机器人的\"大脑架构师\" 纯视觉 · 具身智能 · 端侧大模型 · 真落地 官网： younuozhixing.com ｜坐标：苏州 🧠 我们是谁 优诺智行，一家 拒绝堆料、死磕纯视觉 的具身智能公司。 别人用激光雷达\"凑\"感知，我们用摄像头+AI 让机器人 真正看懂世界 。自研核心产品 UnoBox ——不只是一个边缘计算盒子，而是赋予机器人\"感知-决策-控制\"全栈能力的数字大脑。 代码写在 Jetson 上，算法跑在 Isaac Sim 里，最终落地在物流车、巡检机器人、农业机械的真机现场。 从 Sim 到 Real ，没有中间商赚差价。 🎯 四个席位，等你入座 01 ",
+   "url": "https://www.v2ex.com/t/1230730#reply7",
+   "source": "V2EX 酷工作",
+   "id": "m17",
+   "summary": "优诺智行招'机器人大脑'架构师，纯视觉加端侧大模型，真机落地，具身智能领域的招聘开始活跃。"
+  },
+  {
+   "title": "Cargo Robotics (withcargo.com) | Menlo Park, CA | ONSITE | Full-time | Senior Me",
+   "desc": "Cargo Robotics (withcargo.com) | Menlo Park, CA | ONSITE | Full-time | Senior Mechanical Engineer |Competitive salary and meaningful early-stage equity| Cargo Robotics has emerged from stealth! We're building the X1 Robotic Cargo Bay, which is frontier physical AI inside delivery vans. The founders worked undercover within UPS/FedEx operations before starting the company; one of the largest parcel",
+   "url": "https://news.ycombinator.com/item?id=48820118",
+   "source": "HN Who is hiring? (July 2026)",
+   "id": "m80",
+   "summary": "Cargo Robotics从隐秘状态出来，做送货卡车里的机器货舱，founder曾在UPS/FedEx卧底观察运营，物理AI在物流场景的商业化尝试值得关注。"
+  }
+ ],
+ "week": "2026-W32"
+}
