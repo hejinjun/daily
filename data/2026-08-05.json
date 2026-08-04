@@ -1,0 +1,437 @@
+{
+ "date": "2026-08-05",
+ "generated_at": "2026-08-05 07:28",
+ "trends": [
+  "AI 算力和电力正成为最稀缺资源：德州开始限制数据中心接入电网，Anthropic 花 100 亿美元绑定云创业公司，AMD 与 SpaceX 的财报都显示算力收入暴增。未来围绕算力的创业和基础设施机会会继续爆发。",
+  "开源模型能力快速逼近闭源，但安全措施严重落后。GLM-5.2 接近前沿却缺乏防护，Mistral 推出专用审核模型，Nvidia 成立安全联盟。开源生态若不能先解决安全，可能面临更严格的监管。",
+  "端侧 AI 进入实用阶段：20B MoE 在 iPhone 上跑到 120 token/s，DeepSeek 也能在单张 AMD 卡上运行，小型化和本地化部署成为技术热门。开发者应关注模型压缩和硬件适配，这可能是新的产品机会。",
+  "AI 商业化开始产生真实收入，但规范滞后：SpaceX 卖算力赚了 26 亿美元，OpenAI 和苹果打法律战，AI 诈骗在非洲激增。赚钱的同时，治理和法律风险也在加速显现。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 18
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 3
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 17
+  },
+  {
+   "name": "The Verge AI",
+   "count": 8
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 3
+  }
+ ],
+ "github": [
+  {
+   "id": "gh4",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": "266,448",
+   "stars_today": "777 stars today",
+   "summary": "一个可用的 agentic 技能框架与软件开发方法论，为 AI 编程代理提供结构化技能库，最近因 AI 编程助手热潮而受到广泛关注。"
+  },
+  {
+   "id": "gh3",
+   "title": "uber/ADR",
+   "url": "https://github.com/uber/ADR",
+   "desc": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+   "lang": "Python",
+   "stars": "663",
+   "stars_today": "140 stars today",
+   "summary": "Uber 开源的 AI 代理安全工具，提供可观测性、安全基准和威胁检测，用于保护企业级 AI 代理，因企业 AI 落地安全需求而迅速走红。"
+  },
+  {
+   "id": "gh2",
+   "title": "firecrawl/pdf-inspector",
+   "url": "https://github.com/firecrawl/pdf-inspector",
+   "desc": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+   "lang": "Rust",
+   "stars": "9,941",
+   "stars_today": "2,524 stars today",
+   "summary": "用 Rust 写的超快 PDF 检查、分类和文本提取库，能智能识别扫描版 vs 文本版 PDF，以便路由到合适的处理流程，在 AI 文档处理管线中非常实用。"
+  },
+  {
+   "id": "gh1",
+   "title": "zhaoxuya520/reverse-skill",
+   "url": "https://github.com/zhaoxuya520/reverse-skill",
+   "desc": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+   "lang": "PowerShell",
+   "stars": "17,800",
+   "stars_today": "2,310 stars today",
+   "summary": "逆向/渗透/安全测试技能路由包，AI 自动路由 + 按需自举工具链，支持 Claude Code、Cursor 等 AI 客户端，火了是因为 AI+安全自动化需求大增。"
+  },
+  {
+   "id": "gh15",
+   "title": "browser-use/video-use",
+   "url": "https://github.com/browser-use/video-use",
+   "desc": "Edit videos with coding agents",
+   "lang": "Python",
+   "stars": "19,291",
+   "stars_today": "306 stars today",
+   "summary": "来自 browser-use 团队，让编码代理直接编辑视频，主打通过自然语言驱动视频处理，现在很火是因为 AI 代理的应用领域在不断扩展。"
+  },
+  {
+   "id": "gh17",
+   "title": "EveryInc/compound-engineering-plugin",
+   "url": "https://github.com/EveryInc/compound-engineering-plugin",
+   "desc": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+   "lang": "TypeScript",
+   "stars": "23,858",
+   "stars_today": "33 stars today",
+   "summary": "专为 Claude Code、Codex、Cursor 等打造的官方 Compound Engineering 插件，提供完整工程实践支持，因 AI 编程工具生态日渐成熟而备受青睐。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+   "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+   "desc": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "Anthropic 与 AI 云初创公司 Volta 达成 100 亿美元合作协议。这笔交易凸显 OpenAI 等实验室正在依赖定制云资源来训练和部署模型，也说明算力已成 AI 竞争的核心壁垒。"
+  },
+  {
+   "title": "Texas says data centers must pass an audit before connecting to the grid",
+   "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
+   "desc": "Texas announced new a audit on data centers that could slow approval for new facilities seeking to connect to the state energy grid. Governor Greg Abbott (R) on Monday directed the Public Utility Commission of Texas (PUCT) and the Electric Reliability Council of Texas (ERCOT) to verify and audit new",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "德州要求数据中心在接入电网前必须通过审计，州长呼吁对新建项目进行核查。这意味着 AI 集群的电力瓶颈开始倒逼监管，未来数据中心选址和审批会变慢，可能抬高算力成本。"
+  },
+  {
+   "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+   "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+   "desc": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "SaferAI 报告指出，Z.ai 的开源模型 GLM-5.2 已接近前沿闭源模型能力，但缺乏关键安全缓解措施。开源模型能力追赶的同时，安全治理却跟不上，这会让风险敞口越来越大。"
+  },
+  {
+   "title": "SpaceX made more revenue as an AI company than a space company",
+   "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+   "desc": "SpaceX's AI revenue grew more than three times to $2.6 billion from the year before, mostly because of deals that the company made to provide compute to other AI companies, according to SpaceX's quarterly earnings. The AI division, which the company said in its documents to go public was the source ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n52",
+   "summary": "SpaceX 的 AI 收入同比增长三倍达 26 亿美元，主要来自向其他 AI 公司出售算力。连太空公司都变成了 AI 基础设施商，说明算力转售是一门高利润生意。"
+  },
+  {
+   "title": "AMD&#8217;s data center business is booming while gaming takes a backseat",
+   "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+   "desc": "Driven by demand for AI capacity, AMD's data center revenue more than doubled year-over-year in its latest earnings report, reaching $6.7 billion. That's up from $5.8 billion in Q1, and jumping 107 percent from the $3.2 billion it reported for the same period a year ago. During Tuesday's earnings ca",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n51",
+   "summary": "AMD 数据中心业务收入 67 亿美元，同比翻倍，游戏业务则继续下滑。AI 需求让半导体公司的业务结构发生剧变，AMD 正在成为英伟达之外的重要选择。"
+  },
+  {
+   "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+   "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 361,
+   "id": "n3",
+   "summary": "开发者展示了 DeepSeek V4 Flash 在单个 AMD MI300X 上运行。这个尝试说明高性能模型不一定非英伟达不可，也降低了本地部署的门槛。"
+  },
+  {
+   "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+   "url": "https://mistral.ai/news/shieldstral/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 275,
+   "id": "n7",
+   "summary": "Mistral 发布 3B 开源模型 Shieldstral，用于多模态内容审核。它能让开发者以低成本部署自己的审核系统，是内容安全领域一个实用的轻量级工具。"
+  },
+  {
+   "title": "Show HN: Maple-Preview – ternary 20B MoE running at 120 tok/s on a iPhone",
+   "url": "https://deepgrove.ai/maple-preview",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 19,
+   "id": "n24",
+   "summary": "Maple-Preview 把一个 20B MoE 模型在 iPhone 上跑到了 120 token/s。这意味着手机端也能流畅运行大模型，端侧 AI 的应用场景会大幅打开。"
+  },
+  {
+   "title": "Apple is getting this wrong",
+   "url": "https://openai.com/index/apple-is-getting-this-wrong",
+   "desc": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n32",
+   "summary": "OpenAI 公开回应苹果的窃密诉讼，称其‘毫无根据’并晒出沟通记录。苹果则宣称调查扩大，更多前员工可能涉案。这场纠纷关系到硅谷人才流动和公司边界。"
+  },
+  {
+   "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+   "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+   "desc": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "Nvidia 牵头的 Open Secure AI Alliance 成立一周就有 120 多家公司加入，已提出防御 AI 代理的提案。AI 安全正从单打独斗走向行业标准。"
+  },
+  {
+   "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+   "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 85,
+   "id": "n15",
+   "summary": "Interpol 报告称 AI 助长了非洲一半以上的网络犯罪，诈骗激增。AI 降低了攻击门槛，开发者需要把安全内置到产品中，否则很容易被滥用。"
+  },
+  {
+   "title": "Gwern reties from fulltime writing to launch Guardian Angel Inc",
+   "url": "https://twitter.com/i/status/2084739205071343837",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 51,
+   "id": "n19",
+   "summary": "知名 AI 研究者 Gwern 结束全职写作，创办 Guardian Angel Inc。他从写分析转向做项目，这可能是 AI 研究者将思想落地的新模式。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph3",
+   "title": "MOTHER",
+   "url": "https://www.producthunt.com/products/mother-claude-code-terminal",
+   "desc": "A terminal built for Claude Code w/ one-click session resume Discussion | Link",
+   "summary": "MOTHER 是一个专门为 Claude Code 打造的终端，亮点是一键恢复会话，解决 AI 编程时反复重建上下文的痛点，对重度使用 Claude 写代码的开发者非常实用。"
+  },
+  {
+   "id": "ph20",
+   "title": "Atlaso",
+   "url": "https://www.producthunt.com/products/atlaso",
+   "desc": "One memory for every AI you use Discussion | Link",
+   "summary": "Atlaso 是一个统一管理所有 AI 工具记忆的层，让 ChatGPT、Claude 等共享上下文，解决 AI 记忆碎片化问题，是 Agent 生态里值得关注的基础设施。"
+  },
+  {
+   "id": "ph16",
+   "title": "SpeakoFlow",
+   "url": "https://www.producthunt.com/products/speakoflow",
+   "desc": "Open-source local voice assistant for your desktop Discussion | Link",
+   "summary": "SpeakoFlow 是开源的本地桌面语音助手，支持本地运行、隐私友好且可自定义；在云端助手扎堆时，这种 local-first 的语音方案很有意思。"
+  },
+  {
+   "id": "ph8",
+   "title": "Finyuus",
+   "url": "https://www.producthunt.com/products/finyuus",
+   "desc": "A code-first language for durable, governed AI workflows Discussion | Link",
+   "summary": "Finyuus 是一门面向持久、可治理 AI 工作流的 code-first 语言，把工作流写成可版本化、可审计的代码，适合需要稳定交付 AI 项目的团队。"
+  },
+  {
+   "id": "ph21",
+   "title": "Glasp MCP Connector",
+   "url": "https://www.producthunt.com/products/glasp-mcp-connector",
+   "desc": "Search your highlights and notes inside Claude and ChatGPT Discussion | Link",
+   "summary": "Glasp MCP Connector 是一个 MCP 插件，让 Claude/ChatGPT 能直接搜索你的高亮和笔记，打通个人知识库与对话式 AI，是 MCP 生态里很实用的落地例子。"
+  },
+  {
+   "id": "ph7",
+   "title": "Domo",
+   "url": "https://www.producthunt.com/products/domo-a-claude-agent-for-your-calendar",
+   "desc": "Build and customize your own calendar agent you can text Discussion | Link",
+   "summary": "Domo 是一个支持短信交互、可自定义的日历 Agent，你发条消息它就帮你安排日程，代表 AI Agent 从聊天走向真实任务执行的方向。"
+  },
+  {
+   "id": "ph24",
+   "title": "space ocr",
+   "url": "https://www.producthunt.com/products/space-ocr",
+   "desc": "OCR that checks its own answers, as an app or an API Discussion | Link",
+   "summary": "space ocr 是一款会自我校验识别结果的 OCR 工具，支持 App 和 API；最大亮点是自动降低识别错误，对做文档解析的开发者很有参考价值。"
+  },
+  {
+   "id": "ph18",
+   "title": "Vibe Buddy",
+   "url": "https://www.producthunt.com/products/vibe-buddy",
+   "desc": "Hardware for AI coding Discussion | Link",
+   "summary": "Vibe Buddy 是一个为 AI 编程设计的硬件设备，把 AI 编程从 IDE 带到物理世界，概念很新，值得关注 AI 编程与硬件交叉的早期机会。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+   "url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
+   "desc": "Qwen is so back!",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "这篇讲阿里Qwen发布新开源模型Qwen3-Max（2.4T参数）和27B版本，重点面向代码生成和协作场景。值得关注：2.4T超大规模开源模型意味着开源能力追上闭源，开发者有了更强大的本地/私有化选择。"
+  },
+  {
+   "title": "PipeNetwork/minimax-h3-mlx",
+   "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+   "desc": "PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included. This Python pa",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "这篇介绍MiniMax-H3，一个通用全模态生成系统，能同时处理文本、图像、音频和视频，并可生成带声音的15秒视频片段。值得关注：多模态生成从‘看懂’进化到‘生成’，而且自带音频，给创意工具和Agent带来新玩法，附带的Python包降低了上手门槛。"
+  },
+  {
+   "title": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+   "url": "https://www.latent.space/p/unpacking-chatgpt-work",
+   "desc": "An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b6",
+   "summary": "这篇外部逆向解析了ChatGPT Work中的记忆、主动性、日程、浏览器、插件、技能和工具是如何协同工作的。值得关注：对于想复制类似Agent工作流的人来说，这是一份绝佳参考，能帮助理解OpenAI产品背后的设计哲学和实现细节。"
+  },
+  {
+   "title": "Quoting Steve Yegge",
+   "url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+   "desc": "Gas Town was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the \"just two more things\" tic, which prevented Opus from ever converging on being r",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "这篇引述Steve Yegge对Claude Opus 4.7的吐槽：他自建的工具Gas Town在4.6里跑得很顺，升级4.7后却因为模型总说‘还差两件事’而无法收敛。值得关注：模型版本升级可能带来隐性能力退化，对依赖特定模型做自动化的人是个警醒。"
+  },
+  {
+   "title": "Don't be a meat proxy",
+   "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+   "desc": "Don't be a meat proxy Niklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers. By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a d",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "这篇提出‘meat proxy’这个新词，指的是那些不经过大脑直接把AI输出转发给别人的人。值得关注：作者提醒我们真正的价值在于理解、验证再输出，AI是辅助而非替代思考，这对所有用AI搬砖的开发者都是清醒剂。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent开发成为招聘主旋律：从Multi-Agent工作流编排、防幻觉设计到模型路由/成本工程，要求用TypeScript/Node.js或Python落地生产级系统。值得关注的是，招聘方不再满足于'调API跑通demo'，而是要能设计带校验和自动修复的确定性闭环。",
+   "AI Coding工具（Claude Code、Cursor等）从'加分项'变成'硬性要求'：有公司直接写'必须用AI，Token不限量'，还有前端负责人岗位要求熟练运用AI Agent辅助开发。这说明AI原生开发文化正在渗透到传统岗位，开发者需要把AI工具当成日常生产力。",
+   "全栈+AI融合需求明显：大量岗位要求同时掌握Go/Rust/Python/Next.js，并具备数据库、消息队列等工程能力，且带AI相关经验优先。纯前端或纯后端岗位在减少，能独立打通从接口到AI能力的'全能型'选手更吃香。",
+   "行业垂直AI岗位增多且薪资跨度大：金融风控、量化交易、医疗、物流等场景开始要'懂业务的AI工程师'，甚至开出年薪500万找算法一号位。这说明AI落地进入深水区，行业知识+算法能力的复合背景价值凸显。",
+   "具身智能/物理AI初现苗头：优诺智行、Lumen Labs、Cargo Robotics等团队在招机器人大脑、模拟+RL、机械工程师，虽然样本量不大，但代表前沿方向，值得开发者留意。"
+  ],
+  "gigs": [
+   "外包/接单市场出现'AI Agent任务设计'新型付费角色：平台花300-1000元/任务招募各行业专家，把金蝶做账、SolidWorks出图等日常电脑工作转化为Agent能执行的任务。这个信号值得关注：AI不会用垂直软件，但知道怎么干活的人可以教AI。样本有限，但可能形成新兼职品类。",
+   "远程全职/接单中，AI工程岗明显更抢手：海外有公司开$180k-$230k找第一个专职AI工程师，从0搭生产级agentic workflow；国内电鸭上也有'web3+ai agent远程全职40-50K'的需求。不过样本有限，大部分高薪远程岗仍集中在北美和头部项目。",
+   "接单项目更偏'具体问题'：比如OpenCV长粒种子分割算法、加密货币交易平台UI，都是小而美的外包，价格不透明。对于接单者来说，能展示AI解决垂直问题的能力比泛泛的'大模型应用'更能拿单，但这类需求比较分散，需要自己挖掘。"
+  ],
+  "highlights": [
+   {
+    "title": "招聘 Agent 架构/资深开发",
+    "desc": "工作内容： Multi-Agent 工作流编排：摒弃 “单一超长 Prompt” 的粗暴方式，设计并落地专职 Agent 阵列（如：意图拆解 Agent 、规则合成 Agent 、逻辑自洽校验 Agent 、资产匹配 Agent ），构建基于图或状态机的调度系统。 “幻觉” 防御与确定性闭环：针对 LLM 输出的不确定性，设计强约束的结构化输出策略（ JSON Schema / Function Calling ），重点设计 Reviewer Agent 的静态逻辑推演机制，拦截 “死锁、不可达状态、数值崩溃” 等致命逻辑错误，并设计错误打回与自动修复链路。 模型路由与成本工程：基于各种主流模",
+    "url": "https://www.v2ex.com/t/1231571#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m8",
+    "summary": "招聘Agent架构师，强调防幻觉、状态机调度和模型路由，代表国内Agent开发从'跑通流程'转向'工程化、确定性'。"
+   },
+   {
+    "title": "[西安/全职] 移山科技招 2 位 AI 应用工程师：必须用 AI， Token 不限量，不限技术栈",
+    "desc": "大家好，我是移山科技的技术负责人。我们在西安做 GEO 产品，这次想直接招两位工程师。 AI 应用核心工程师（ GEO 方向），1 人，12–20K ； AI 应用工程师（成长型），1 人，8–12K ； 地点在碑林区永宁门地铁站，长安国际中心 E 座； 全职现场办公，不支持远程或混合。 产品官网： https://www.geokeji.com/ 。 我们做的事情和传统 SEO 不完全一样。现在用户会直接向 DeepSeek 、豆包、Kimi 等模型提问，我们需要持续观察品牌在回答里有没有被提到、引用和推荐，再通过可信数据、内容结构、RAG 、评估和工具链改善结果。 我们是因为玩 AI 做的",
+    "url": "https://www.v2ex.com/t/1231065#reply14",
+    "source": "V2EX 酷工作",
+    "id": "m13",
+    "summary": "西安初创要求'必须用AI，Token不限量'，把AI原生开发当成招人硬指标，说明AI Coding文化开始辐射到二线城市小团队。"
+   },
+   {
+    "title": "【包月付费置顶】【参加报销电量】TalentsAI｜大量招聘Vibe Coding 任务设计专家/500-1000/任务",
+    "desc": "公司介绍 TalentsAI 是一家专注于专家级 AI 数据的平台，服务全球头部 AI 实验室和前沿大模型团队。（已获国内外顶级资本融资） 我们在找谁 我们要找的不是“会用 AI 写代码的人”，而是每天真的在用 AI Agent ship 东西的人。 你可能每天用 Cursor / Claude Code / Codex 写代码、改项目、调 Bug、做产品；你既被它坑过，也靠它上线过真实东西。 你",
+    "url": "https://eleduck.com/posts/R3f78r",
+    "source": "电鸭社区",
+    "id": "m46",
+    "summary": "TalentsAI招募Vibe Coding任务设计专家，每天用AI Agent写代码的人可以帮平台生成任务，这是一种全新职业方向。"
+   },
+   {
+    "title": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're ",
+    "desc": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're a company doing real operational work in e-commerce/3PL logistics. AI usage internally is still basic — decks, spreadsheets, a few people vibe-coding dashboards. No real agentic workflows in production yet. That's what this role is for.\nYou'd be the first dedicated AI engineer here. Two things at once: ship agentic wor",
+    "url": "https://news.ycombinator.com/item?id=48915735",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m51",
+    "summary": "Portless要找第一个专职AI工程师，底薪$180k-$230k，任务是从0到1搭建生产级Agentic工作流，反映传统运营公司开始补AI原生能力。"
+   },
+   {
+    "title": "别卷 PPT 了，来给机器人造大脑，零食咖啡管够｜优诺智行硬核招人",
+    "desc": "🤖 优诺智行招聘｜来做机器人的\"大脑架构师\" 纯视觉 · 具身智能 · 端侧大模型 · 真落地 官网： younuozhixing.com ｜坐标：苏州 🧠 我们是谁 优诺智行，一家 拒绝堆料、死磕纯视觉 的具身智能公司。 别人用激光雷达\"凑\"感知，我们用摄像头+AI 让机器人 真正看懂世界 。自研核心产品 UnoBox ——不只是一个边缘计算盒子，而是赋予机器人\"感知-决策-控制\"全栈能力的数字大脑。 代码写在 Jetson 上，算法跑在 Isaac Sim 里，最终落地在物流车、巡检机器人、农业机械的真机现场。 从 Sim 到 Real ，没有中间商赚差价。 🎯 四个席位，等你入座 01 ",
+    "url": "https://www.v2ex.com/t/1230730#reply7",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "优诺智行招'机器人大脑'架构师，纯视觉加端侧大模型，真机落地，具身智能领域的招聘开始活跃。"
+   },
+   {
+    "title": "Cargo Robotics (withcargo.com) | Menlo Park, CA | ONSITE | Full-time | Senior Me",
+    "desc": "Cargo Robotics (withcargo.com) | Menlo Park, CA | ONSITE | Full-time | Senior Mechanical Engineer |Competitive salary and meaningful early-stage equity| Cargo Robotics has emerged from stealth! We're building the X1 Robotic Cargo Bay, which is frontier physical AI inside delivery vans. The founders worked undercover within UPS/FedEx operations before starting the company; one of the largest parcel",
+    "url": "https://news.ycombinator.com/item?id=48820118",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m80",
+    "summary": "Cargo Robotics从隐秘状态出来，做送货卡车里的机器货舱，founder曾在UPS/FedEx卧底观察运营，物理AI在物流场景的商业化尝试值得关注。"
+   }
+  ],
+  "week": "2026-W32"
+ },
+ "llm_used": true,
+ "degraded": []
+}
