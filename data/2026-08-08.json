@@ -1,0 +1,458 @@
+{
+ "date": "2026-08-08",
+ "generated_at": "2026-08-08 06:57",
+ "trends": [
+  "模型安全与监管成为焦点：OpenAI 因安全顾虑暂停 Astra 研发，新墨西哥州法院对 Meta 开出巨额罚单，Oracle 禁止 AI 生成代码进入 OpenJDK。这表明 AI 发展必须更重视安全、合规和社会责任，监管压力正在加大。",
+  "Agent 基础设施和工具链加速成型：Cloudflare 推出专为 AI agent 设计的浏览器 Kitesurf，谷歌地图等应用也开始整合 agentic 能力。围绕 agent 的底层平台、浏览器、编排工具存在巨大创业机会。",
+  "企业 AI 降本增效成为刚需：Databricks 将 AI 编码支出降低 70%，Rippling 发布 AI 支出管理工具，Airbnb 利用 AI 加速功能迭代。企业不再盲目堆叠 AI，而是关注 ROI，省钱和提效的工具将是新赛道。",
+  "算力与硬件供应链紧张加剧：2027 年内存产能已售罄，AI 对存储和算力的需求正在挤压供应链，内存价格可能上涨并制约 AI 规模化。芯片、存储和基础设施领域的投资和创业机会凸显。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 16
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 4
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "PrimeIntellect-ai/prime-agent",
+   "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+   "desc": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+   "lang": "TypeScript",
+   "stars": "6,376",
+   "stars_today": "2,271 stars today",
+   "summary": "一个能自我改进的编码RLM智能体，专为长时自主任务设计。火是因为代表着AI编程从工具到自主体的趋势，今天涨了2000多star。"
+  },
+  {
+   "id": "gh3",
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": "208,742",
+   "stars_today": "2,180 stars today",
+   "summary": "来自著名TS开发者mattpocock的.prompts目录，专注真实工程师场景的技能。火是因为他本人影响力大，且直接给出可复用的agent技能。"
+  },
+  {
+   "id": "gh1",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": "83,856",
+   "stars_today": "1,131 stars today",
+   "summary": "给AI编程智能体用的生产级工程技能集锦。火是因为大家发现AI写代码的瓶颈在技能输入，这类skills库成为新热点。"
+  },
+  {
+   "id": "gh2",
+   "title": "cloudflare/computer",
+   "url": "https://github.com/cloudflare/computer",
+   "desc": "Give your agent a computer 👾",
+   "lang": "TypeScript",
+   "stars": "5,630",
+   "stars_today": "894 stars today",
+   "summary": "让AI智能体拥有电脑，操作浏览器和桌面的工具。火是因为Computer Use是当前AI应用的热门方向，Cloudflare背书。"
+  },
+  {
+   "id": "gh16",
+   "title": "google/skills",
+   "url": "https://github.com/google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "lang": "Python",
+   "stars": "16,216",
+   "stars_today": "305 stars today",
+   "summary": "谷歌出品的Agent Skills，覆盖自家产品生态。火是因为Google官方入局，给agent开发提供标准化技能。"
+  },
+  {
+   "id": "gh10",
+   "title": "Significant-Gravitas/AutoGPT",
+   "url": "https://github.com/Significant-Gravitas/AutoGPT",
+   "desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+   "lang": "Python",
+   "stars": "186,305",
+   "stars_today": "363 stars today",
+   "summary": "老牌自主AI智能体项目，让AI自己拆解任务并执行。火是因为AGI浪潮中它依然活跃，今天还有363新增。"
+  },
+  {
+   "id": "gh12",
+   "title": "unclebob/swarm-forge",
+   "url": "https://github.com/unclebob/swarm-forge",
+   "desc": "A simple tool for coordinating several AI agents.",
+   "lang": "Clojure",
+   "stars": "1,816",
+   "stars_today": "85 stars today",
+   "summary": "一个协调多个AI智能体的简单工具，基于Clojure。火是因为多智能体协作是热点，而且出自Bob大叔（unclebob），有极客影响力。"
+  },
+  {
+   "id": "gh6",
+   "title": "semantica-agi/semantica",
+   "url": "https://github.com/semantica-agi/semantica",
+   "desc": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+   "lang": "Python",
+   "stars": "2,322",
+   "stars_today": "118 stars today",
+   "summary": "图原生的上下文与可问责AI系统基础设施。火是因为可解释性和上下文管理是AI落地痛点，这个方向很前沿。"
+  },
+  {
+   "id": "gh7",
+   "title": "666ghj/MiroFish",
+   "url": "https://github.com/666ghj/MiroFish",
+   "desc": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+   "lang": "Python",
+   "stars": "70,477",
+   "stars_today": "126 stars today",
+   "summary": "一个通用群体智能引擎，号称能预测万物。火是因为群体智能与预测结合，加上中文项目高星，引发好奇。"
+  },
+  {
+   "id": "gh8",
+   "title": "chenyme/grok2api",
+   "url": "https://github.com/chenyme/grok2api",
+   "desc": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
+   "lang": "Go",
+   "stars": "7,136",
+   "stars_today": "62 stars today",
+   "summary": "Grok的多账号API网关，支持Build、Web和Console。火是因为可以方便地接入Grok，解决官方API限制问题。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Responding to the next frontier of critical cyber capabilities",
+   "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+   "desc": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI 公布了其新模型 Astra 的初步网络安全评估，并承认因安全顾虑已暂停该模型的部分内部研发工作。这意味着前沿模型在追求能力的同时，安全评估正成为决定发布节奏的关键因素，也反映出 AI 安全竞争已进入白热化阶段。"
+  },
+  {
+   "title": "DeepSeek V4 Flash 0731",
+   "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 360,
+   "id": "n2",
+   "summary": "DeepSeek 发布了 V4 Flash 0731 版本，这是一个新的模型迭代。它可能延续 DeepSeek 在开源/高效模型上的激进路线，提供更低的推理成本或更强的性能，对依赖大模型的开发者和企业来说值得关注和测试。"
+  },
+  {
+   "title": "ChatGPT brings unlimited text chats to free users",
+   "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+   "desc": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "OpenAI 宣布 ChatGPT 免费版和 Go 版用户将获得无限量文字聊天，并新增“思考”按钮用于处理复杂查询。这大幅降低了普通人的使用门槛，可能带来用户量激增，也加剧了与 Google Gemini 等免费 AI 助手的竞争，推动对话式 AI 成为默认入口。"
+  },
+  {
+   "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+   "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+   "desc": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "Cloudflare 推出了 Kitesurf，一个专为 AI agent 设计的云托管浏览器，运行在 V8 隔离环境中，比 Chromium 更省算力。这标志着 agent 时代的基础设施正在成型，开发者可以用更高效的方式构建浏览器自动化任务，是 agent 生态的重要补全。"
+  },
+  {
+   "title": "Databricks drove down AI coding spend 70%",
+   "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 140,
+   "id": "n13",
+   "summary": "Databricks 报告其通过采用 AI 编码工具，将 AI 编码支出降低了 70%。这是一个极具参考价值的 ROI 案例，说明合理使用 AI 编码不仅能提升效率，还能显著节约成本，但需要正确的工具链和落地策略。"
+  },
+  {
+   "title": "Oracle bans AI-generated code from OpenJDK",
+   "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 336,
+   "id": "n4",
+   "summary": "Oracle 宣布禁止在 OpenJDK 中接受 AI 生成代码。这是大型科技公司对 AI 代码版权和质量问题的一次明确表态，可能会影响开源社区对 AI 贡献代码的审查政策，也为 AI 生成内容的合法性讨论添加了实际案例。"
+  },
+  {
+   "title": "2027 memory capacity is reportedly sold out",
+   "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 188,
+   "id": "n10",
+   "summary": "据行业报告，2027 年的内存产能已全部售罄。这说明 AI 算力需求正在疯狂挤压 DRAM/HBM 供应，未来内存价格可能上涨，甚至成为制约 AI 训练和推理扩展的瓶颈，值得所有 AI 从业者警惕。"
+  },
+  {
+   "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+   "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+   "desc": "Meta's total fine has racked up to $942 million in this case.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "新墨西哥州法院命令 Meta 支付额外 5.67 亿美元，因其对儿童心理健康造成的伤害，累计罚款已达 9.42 亿美元。这不仅是法律事件，更代表社会对算法推荐和 AI 系统负面影响的问责在升级，科技公司必须重新审视算法的伦理与社会责任。"
+  },
+  {
+   "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+   "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+   "desc": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Rippling 在自身 AI 支出数月内暴涨后，推出了 AI Spend Console，用于追踪个人和团队的 AI 花销。这反映了企业对 AI 成本管控的需求正在快速增长，是一个新兴的 SaaS 品类，未来可能成为企业必备的财务工具。"
+  },
+  {
+   "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+   "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+   "desc": "Airbnb will debut a new AI-powered search experience with a toggle.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Airbnb 表示 AI 正在帮助他们更快地发布新功能，并开始测试新的 AI 搜索体验。这表明 AI 已从聊天机器人渗透到核心业务功能中，大公司利用 AI 加速产品迭代的案例越来越具体，也为 AI 应用落地提供了范本。"
+  },
+  {
+   "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+   "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
+   "desc": "The startup's platform predicts which product a shopper wants next, learns their general taste, and fine-tunes continuously based on what they do in real time.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "前 Spotify 员工创立的电商推荐公司获得 1000 万美元融资，其技术类似 Spotify 的音乐推荐，但应用于商品推荐。这种跨场景的个性化推荐 AI 正在获得资本认可，可能成为电商增长的新引擎。"
+  },
+  {
+   "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+   "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+   "desc": "Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a former engineer’s iCloud account after he left the company —undermine its claims that the allegedly st",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "OpenAI 在苹果的商业机密诉讼中反击，指出苹果自身的安全和离职流程存在漏洞，例如允许经理访问前工程师的 iCloud 账户。这是两大科技巨头的法律交锋，可能影响 AI 人才流动、商业秘密保护和公司安全制度的未来走向。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph9",
+   "title": "HAR",
+   "url": "https://www.producthunt.com/products/har",
+   "desc": "Open Source harness for multi-agent coding workflows Discussion | Link",
+   "summary": "开源的多智能体编码工作流工具，能协调多个AI代理一起写代码，适合拆解复杂任务。亮点是开源可自托管，程序员可以定制自己的AI团队。"
+  },
+  {
+   "id": "ph0",
+   "title": "BrowserOS neo",
+   "url": "https://www.producthunt.com/products/browseros_ai",
+   "desc": "The Missing Browser for Claude, Cowork & Codex Discussion | Link",
+   "summary": "面向Claude和Codex等AI助手的专用浏览器，解决AI工具在普通浏览器中割裂的问题，可能是未来AI操作系统的新入口。"
+  },
+  {
+   "id": "ph16",
+   "title": "Crew",
+   "url": "https://www.producthunt.com/products/crew-a-tiny-crew-for-claude-code",
+   "desc": "A tiny crew of monsters for your Claude Code agents Discussion | Link",
+   "summary": "为Claude Code代理添加的一组小助手，类似“怪物团队”插件，帮你管理普通代理做不了的事，扩展编码流程，很有意思。"
+  },
+  {
+   "id": "ph17",
+   "title": "The new Firecrawl MCP",
+   "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+   "desc": "Agent-ready web context for any MCP client. Discussion | Link",
+   "summary": "Firecrawl的MCP版本，把网页抓取转换成标准模型上下文协议，让任何AI代理都能轻松获取网页数据，相当于给代理配了统一搜索引擎。"
+  },
+  {
+   "id": "ph1",
+   "title": "Progress AI Observability",
+   "url": "https://www.producthunt.com/products/progress-ai-observability",
+   "desc": "Trace, evaluate, and improve AI agents in production Discussion | Link",
+   "summary": "专门追踪和评估AI代理在线上表现的监控平台，能debug代理的逻辑，对跑生产AI应用的团队非常实用。"
+  },
+  {
+   "id": "ph10",
+   "title": "Rescript for Desktop",
+   "url": "https://www.producthunt.com/products/rescript-edit-videos-like-you-edit-text",
+   "desc": "A free, open source, Descript alternative. Runs on-device. Discussion | Link",
+   "summary": "开源的Descript替代品，在本地设备上运行，做视频剪辑和字幕转录，保护隐私，适合想要免费AI剪辑工具的创作者。"
+  },
+  {
+   "id": "ph14",
+   "title": "Soloop",
+   "url": "https://www.producthunt.com/products/soloop",
+   "desc": "Approval-first Agent OS for solo founders Discussion | Link",
+   "summary": "面向独立开发者设计的“审批优先”代理操作系统，让AI代理在行动前先征求你的同意，避免失控，适合一个人管理多个代理的场景。"
+  },
+  {
+   "id": "ph15",
+   "title": "Orite",
+   "url": "https://www.producthunt.com/products/orite",
+   "desc": "Give your AI Agent money. Not a blank check. Discussion | Link",
+   "summary": "给AI代理设定预算和支付接口，让它们能自己花钱调用外部API或服务，同时控制成本，而不是无限制消费。亮点是“给钱”的机制，可能是未来Agent经济的基础设施。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+   "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+   "desc": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5 , where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago . I decided to pose the exact same ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "作者用 Codex 和 GPT-5.6 Sol Ultra 重制了之前用 Claude Fable 5 做过的浣熊抢劫游戏，对比不同模型从同一创意生成完整游戏的能力。值得关注的是多模型协作和快速原型验证的玩法，适合搞 AI 应用开发的人看。"
+  },
+  {
+   "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+   "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+   "desc": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI There's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th: “We’re seeing from some of the data internally at least that it’s actually not our engine",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "讲企业开始因 token 消耗太贵而缩减 AI 开支，引用了 Accenture 内部泄露的会议音频，提到他们的引擎实际不是主要成本。值得关注的是大厂在真实落地时对 AI 成本的控制和反思，说明光烧 token 不赚钱的模式正在被修正。"
+  },
+  {
+   "title": "[AINews] AMD buys Taalas",
+   "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+   "desc": "The Inference Inflection is HEATING up.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "AINews 报道 AMD 收购了 Taalas，说推理领域的转折点正在升温。值得关注的是 AI 芯片公司并购加速，可能影响未来推理成本和技术路线，对做模型部署或创业的人有参考价值。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent开发成为招聘主旋律：从Multi-Agent工作流编排、防幻觉设计到模型路由/成本工程，要求用TypeScript/Node.js或Python落地生产级系统。值得关注的是，招聘方不再满足于'调API跑通demo'，而是要能设计带校验和自动修复的确定性闭环。",
+   "AI Coding工具（Claude Code、Cursor等）从'加分项'变成'硬性要求'：有公司直接写'必须用AI，Token不限量'，还有前端负责人岗位要求熟练运用AI Agent辅助开发。这说明AI原生开发文化正在渗透到传统岗位，开发者需要把AI工具当成日常生产力。",
+   "全栈+AI融合需求明显：大量岗位要求同时掌握Go/Rust/Python/Next.js，并具备数据库、消息队列等工程能力，且带AI相关经验优先。纯前端或纯后端岗位在减少，能独立打通从接口到AI能力的'全能型'选手更吃香。",
+   "行业垂直AI岗位增多且薪资跨度大：金融风控、量化交易、医疗、物流等场景开始要'懂业务的AI工程师'，甚至开出年薪500万找算法一号位。这说明AI落地进入深水区，行业知识+算法能力的复合背景价值凸显。",
+   "具身智能/物理AI初现苗头：优诺智行、Lumen Labs、Cargo Robotics等团队在招机器人大脑、模拟+RL、机械工程师，虽然样本量不大，但代表前沿方向，值得开发者留意。"
+  ],
+  "gigs": [
+   "外包/接单市场出现'AI Agent任务设计'新型付费角色：平台花300-1000元/任务招募各行业专家，把金蝶做账、SolidWorks出图等日常电脑工作转化为Agent能执行的任务。这个信号值得关注：AI不会用垂直软件，但知道怎么干活的人可以教AI。样本有限，但可能形成新兼职品类。",
+   "远程全职/接单中，AI工程岗明显更抢手：海外有公司开$180k-$230k找第一个专职AI工程师，从0搭生产级agentic workflow；国内电鸭上也有'web3+ai agent远程全职40-50K'的需求。不过样本有限，大部分高薪远程岗仍集中在北美和头部项目。",
+   "接单项目更偏'具体问题'：比如OpenCV长粒种子分割算法、加密货币交易平台UI，都是小而美的外包，价格不透明。对于接单者来说，能展示AI解决垂直问题的能力比泛泛的'大模型应用'更能拿单，但这类需求比较分散，需要自己挖掘。"
+  ],
+  "highlights": [
+   {
+    "title": "招聘 Agent 架构/资深开发",
+    "desc": "工作内容： Multi-Agent 工作流编排：摒弃 “单一超长 Prompt” 的粗暴方式，设计并落地专职 Agent 阵列（如：意图拆解 Agent 、规则合成 Agent 、逻辑自洽校验 Agent 、资产匹配 Agent ），构建基于图或状态机的调度系统。 “幻觉” 防御与确定性闭环：针对 LLM 输出的不确定性，设计强约束的结构化输出策略（ JSON Schema / Function Calling ），重点设计 Reviewer Agent 的静态逻辑推演机制，拦截 “死锁、不可达状态、数值崩溃” 等致命逻辑错误，并设计错误打回与自动修复链路。 模型路由与成本工程：基于各种主流模",
+    "url": "https://www.v2ex.com/t/1231571#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m8",
+    "summary": "招聘Agent架构师，强调防幻觉、状态机调度和模型路由，代表国内Agent开发从'跑通流程'转向'工程化、确定性'。"
+   },
+   {
+    "title": "[西安/全职] 移山科技招 2 位 AI 应用工程师：必须用 AI， Token 不限量，不限技术栈",
+    "desc": "大家好，我是移山科技的技术负责人。我们在西安做 GEO 产品，这次想直接招两位工程师。 AI 应用核心工程师（ GEO 方向），1 人，12–20K ； AI 应用工程师（成长型），1 人，8–12K ； 地点在碑林区永宁门地铁站，长安国际中心 E 座； 全职现场办公，不支持远程或混合。 产品官网： https://www.geokeji.com/ 。 我们做的事情和传统 SEO 不完全一样。现在用户会直接向 DeepSeek 、豆包、Kimi 等模型提问，我们需要持续观察品牌在回答里有没有被提到、引用和推荐，再通过可信数据、内容结构、RAG 、评估和工具链改善结果。 我们是因为玩 AI 做的",
+    "url": "https://www.v2ex.com/t/1231065#reply14",
+    "source": "V2EX 酷工作",
+    "id": "m13",
+    "summary": "西安初创要求'必须用AI，Token不限量'，把AI原生开发当成招人硬指标，说明AI Coding文化开始辐射到二线城市小团队。"
+   },
+   {
+    "title": "【包月付费置顶】【参加报销电量】TalentsAI｜大量招聘Vibe Coding 任务设计专家/500-1000/任务",
+    "desc": "公司介绍 TalentsAI 是一家专注于专家级 AI 数据的平台，服务全球头部 AI 实验室和前沿大模型团队。（已获国内外顶级资本融资） 我们在找谁 我们要找的不是“会用 AI 写代码的人”，而是每天真的在用 AI Agent ship 东西的人。 你可能每天用 Cursor / Claude Code / Codex 写代码、改项目、调 Bug、做产品；你既被它坑过，也靠它上线过真实东西。 你",
+    "url": "https://eleduck.com/posts/R3f78r",
+    "source": "电鸭社区",
+    "id": "m46",
+    "summary": "TalentsAI招募Vibe Coding任务设计专家，每天用AI Agent写代码的人可以帮平台生成任务，这是一种全新职业方向。"
+   },
+   {
+    "title": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're ",
+    "desc": "Portless | AI Engineer | Remote (North America) | $180k-$230k | Full-time We're a company doing real operational work in e-commerce/3PL logistics. AI usage internally is still basic — decks, spreadsheets, a few people vibe-coding dashboards. No real agentic workflows in production yet. That's what this role is for.\nYou'd be the first dedicated AI engineer here. Two things at once: ship agentic wor",
+    "url": "https://news.ycombinator.com/item?id=48915735",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m51",
+    "summary": "Portless要找第一个专职AI工程师，底薪$180k-$230k，任务是从0到1搭建生产级Agentic工作流，反映传统运营公司开始补AI原生能力。"
+   },
+   {
+    "title": "别卷 PPT 了，来给机器人造大脑，零食咖啡管够｜优诺智行硬核招人",
+    "desc": "🤖 优诺智行招聘｜来做机器人的\"大脑架构师\" 纯视觉 · 具身智能 · 端侧大模型 · 真落地 官网： younuozhixing.com ｜坐标：苏州 🧠 我们是谁 优诺智行，一家 拒绝堆料、死磕纯视觉 的具身智能公司。 别人用激光雷达\"凑\"感知，我们用摄像头+AI 让机器人 真正看懂世界 。自研核心产品 UnoBox ——不只是一个边缘计算盒子，而是赋予机器人\"感知-决策-控制\"全栈能力的数字大脑。 代码写在 Jetson 上，算法跑在 Isaac Sim 里，最终落地在物流车、巡检机器人、农业机械的真机现场。 从 Sim 到 Real ，没有中间商赚差价。 🎯 四个席位，等你入座 01 ",
+    "url": "https://www.v2ex.com/t/1230730#reply7",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "优诺智行招'机器人大脑'架构师，纯视觉加端侧大模型，真机落地，具身智能领域的招聘开始活跃。"
+   },
+   {
+    "title": "Cargo Robotics (withcargo.com) | Menlo Park, CA | ONSITE | Full-time | Senior Me",
+    "desc": "Cargo Robotics (withcargo.com) | Menlo Park, CA | ONSITE | Full-time | Senior Mechanical Engineer |Competitive salary and meaningful early-stage equity| Cargo Robotics has emerged from stealth! We're building the X1 Robotic Cargo Bay, which is frontier physical AI inside delivery vans. The founders worked undercover within UPS/FedEx operations before starting the company; one of the largest parcel",
+    "url": "https://news.ycombinator.com/item?id=48820118",
+    "source": "HN Who is hiring? (July 2026)",
+    "id": "m80",
+    "summary": "Cargo Robotics从隐秘状态出来，做送货卡车里的机器货舱，founder曾在UPS/FedEx卧底观察运营，物理AI在物流场景的商业化尝试值得关注。"
+   }
+  ],
+  "week": "2026-W32"
+ },
+ "llm_used": true,
+ "degraded": []
+}
