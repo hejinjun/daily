@@ -1,0 +1,458 @@
+{
+ "date": "2026-08-12",
+ "generated_at": "2026-08-12 07:06",
+ "trends": [
+  "AI能力正在突破传统边界：Anthropic模型在黎曼猜想上取得意外进展，表明LLM已从聊天助手逼近数学研究前沿，未来可能重塑科研范式。",
+  "安全与信任成为主线：从窃取LLM推理轨迹、AI提示词攻破Zoom，再到水印和防深伪验证，行业正从对抗性攻击转向建立可追溯、可验证的AI生态。",
+  "商业格局剧烈变动：OpenAI高管离职、巨额员工套现、Google Gemini用户破10亿、ChatGPT测试广告，头部玩家在商业化与人才争夺上进入新阶段。",
+  "开发者工具链加速普及：ChatGPT登陆Linux、Nvidia开源Nemotron模型，加上融资热潮，AI基础设施和开源生态正变得更易获取，创业窗口持续打开。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 5
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 14
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 4
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh16",
+   "title": "PrimeIntellect-ai/prime-agent",
+   "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+   "desc": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+   "lang": "TypeScript",
+   "stars": "14,036",
+   "stars_today": "1,148 stars today",
+   "summary": "prime-agent 是一个能自我改进的强化学习代理，专为编码工作流和长期自主任务设计。今天涨了1千多星，说明社区很看好这种能自我进化的Agent，可能是AI编程的下一个方向。"
+  },
+  {
+   "id": "gh1",
+   "title": "semantica-agi/semantica",
+   "url": "https://github.com/semantica-agi/semantica",
+   "desc": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+   "lang": "Python",
+   "stars": "4,833",
+   "stars_today": "884 stars today",
+   "summary": "semantica 是图原生的AI基础设施，目标是构建可问责的AI系统，让上下文管理更透明。它用图结构组织知识和推理，可能是解决AI“胡说八道”问题的新思路，所以关注度很高。"
+  },
+  {
+   "id": "gh9",
+   "title": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "desc": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+   "lang": "TypeScript",
+   "stars": "42,709",
+   "stars_today": "881 stars today",
+   "summary": "orca 是一个并行Agent开发环境（ADE），你可以用自己的订阅跑任意编码Agent，支持桌面、移动和VPS。它相当于给Agent团队一个“操作系统”，火了是因为大家都在找多Agent协作的效率工具。"
+  },
+  {
+   "id": "gh8",
+   "title": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
+   "lang": "Python",
+   "stars": "34,667",
+   "stars_today": "829 stars today",
+   "summary": "DeepTutor 是港大数据科学系推出的终身个性化辅导系统，能根据学习者情况长期定制教学。它结合了大模型和个性化学习，教育AI赛道最近很热，所以值得一看。"
+  },
+  {
+   "id": "gh10",
+   "title": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars": "77,125",
+   "stars_today": "743 stars today",
+   "summary": "paperclip 是开源的管理Agent的应用，用来在工作场景中统一管理各种AI代理。它解决了Agent多了不好管的问题，相当于Agent的“控制台”，所以社区很关心。"
+  },
+  {
+   "id": "gh6",
+   "title": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": "168,092",
+   "stars_today": "468 stars today",
+   "summary": "anthropics/skills 是Anthropic官方的Agent Skill仓库，专门存放可复用的技能包。大厂亲自下场定标准，说明Agent Skills可能是下一波AI应用的基石，开发者也该尽早接触。"
+  },
+  {
+   "id": "gh3",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": "86,198",
+   "stars_today": "571 stars today",
+   "summary": "agent-skills 是给AI编码代理用的生产级工程技能库，用JavaScript写的。它比官方更接地气，里面都是能直接用的技能，让编码Agent更懂工程实践，今天涨粉不少。"
+  },
+  {
+   "id": "gh14",
+   "title": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "lang": "Python",
+   "stars": "47,288",
+   "stars_today": "436 stars today",
+   "summary": "OpenMontage 号称全球首个开源智能体视频制作系统，包含12条生产管线、100多个工具和700多个Agent技能。它把AI代理变成视频工作室，适合做内容创作的人关注。"
+  },
+  {
+   "id": "gh11",
+   "title": "huggingface/transformers",
+   "url": "https://github.com/huggingface/transformers",
+   "desc": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+   "lang": "Python",
+   "stars": "163,776",
+   "stars_today": "69 stars today",
+   "summary": "transformers 是Hugging Face的模型框架库，支持所有主流深度学习模型。虽然今天星星涨得不多，但它是AI开发的“地基”，任何LLM项目都离不开，必须长期关注。"
+  }
+ ],
+ "news": [
+  {
+   "title": "An unreleased Anthropic model made progress on one of math’s biggest unsolved problems",
+   "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+   "desc": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it — but the company's models made more progress than you might expect.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "Anthropic的未发布模型在黎曼猜想这个150年未解的数学难题上取得了超出预期的进展。虽然没有完全解决，但模型展现出了类数学家的推理能力，说明AI正在进入真正的科研发现领域，数学界和AI界都得认真对待这个趋势了。"
+  },
+  {
+   "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
+   "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+   "desc": "One of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance the mission from a different vantage point.\"",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "OpenAI的长期COO Brad Lightcap宣布离职，去‘开始新事业’。他是OpenAI核心运营人物，八年间主导了商业化和特殊项目，他的离开意味着OpenAI高层持续动荡，可能会影响公司战略稳定性。"
+  },
+  {
+   "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
+   "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+   "desc": "River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "xAI联合创始人Igor Babuschkin创立的River AI，仅2个月就拿到General Catalyst领投的11亿美元融资。这个估值速度说明资本极度看好‘个人代理’这个方向，也反映出顶级AI人才自带吸金效应。"
+  },
+  {
+   "title": "Google’s Gemini app surges to 1 billion users",
+   "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+   "desc": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice feature. Plus, Gemini now generates more than 150 million images every day, according to Google.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Google的Gemini月活用户突破10亿，成为继ChatGPT之后第二个达到这个量级的AI应用，且是Google史上增长最快的产品。63%用户用语音交互，每天生成1.5亿张图，说明AI应用正在从文本走向多模态和语音优先。"
+  },
+  {
+   "title": "Testing ads in ChatGPT",
+   "url": "https://openai.com/index/testing-ads-in-chatgpt",
+   "desc": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI开始在ChatGPT中测试广告，为免费用户提供支持，但承诺清晰标注、答案独立、隐私保护。这是ChatGPT商业化的重要一步，意味着AI助手将不仅是订阅制，广告可能成为新的收入来源，但也会影响用户体验和信任。"
+  },
+  {
+   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+   "url": "https://stolen-thoughts.com/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 443,
+   "id": "n1",
+   "summary": "研究者展示了如何从专有LLM API中窃取推理轨迹，这是一种新的侧信道攻击。这暴露了闭源模型的推理过程并非完全不可见，对依赖API的开发者来说是个重要安全提醒，也促使模型提供商加强防护。"
+  },
+  {
+   "title": "Anthropic says it will watermark text generated by its AI models",
+   "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+   "desc": "Anthropic will extend support for watermarking AI generations for older models as well.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "Anthropic宣布将对Claude生成的文本和图像添加不可见水印，并支持数字签名元数据。这是为了符合欧洲AI透明度法规，也代表AI内容溯源从讨论走向落地，未来所有AI内容都可能被标记。"
+  },
+  {
+   "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+   "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+   "desc": "San Francisco's housing market is in trouble again.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "OpenAI reportedly completed a $7 billion employee tender offer, allowing employees to cash out shares. This is a massive liquidity event that reflects OpenAI's valuation and also signals potential internal financial pressures or succession planning. 对员工是好事，但也可能加剧人才流动。"
+  },
+  {
+   "title": "OpenAI launches ChatGPT desktop app for Linux",
+   "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 26,
+   "id": "n23",
+   "summary": "OpenAI终于发布了ChatGPT的Linux桌面应用。这对开发者是重大利好，以前在Linux上只能用网页版，现在可以原生使用，说明OpenAI在努力覆盖开发者生态，尤其是那些用Linux做AI开发的用户。"
+  },
+  {
+   "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+   "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 142,
+   "id": "n10",
+   "summary": "Nvidia发布了Nemotron 3.5 Lightning模型和NeMo Switchyard工具链，主打轻量化和部署控制。Nvidia不只卖硬件，还在开源模型和开发工具上加码，试图构建从芯片到模型的完整AI栈，开发者可以更高效地在Nvidia平台上做推理优化。"
+  },
+  {
+   "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+   "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+   "desc": "Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture - ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n54",
+   "summary": "苹果正在开发‘Apple Reference Image’系统，通过iOS 27为iPhone照片嵌入来源元数据，帮助用户证明照片不是deepfake。这是从设备端解决AI伪造问题的思路，比之后加水印更主动，对新闻摄影和证据链很重要。"
+  },
+  {
+   "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+   "desc": "Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The e",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "研究人员用不到20条AI提示词就发现了一个Zoom的高危漏洞，能劫持会议中任意设备。这展示了AI驱动的自动化漏洞挖掘能力，攻击者利用公开模型就能快速找到0day，安全行业需要加速采用AI防御了。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph19",
+   "title": "Gitar",
+   "url": "https://www.producthunt.com/products/gitar",
+   "desc": "AI code review that fixes what it finds Discussion | Link",
+   "summary": "AI 代码审查工具，不仅能发现问题还能自动修复。亮点在于直接把审查结果变成修改，省去手动改代码的时间。"
+  },
+  {
+   "id": "ph6",
+   "title": "Xirp",
+   "url": "https://www.producthunt.com/products/spotify",
+   "desc": "The agentic development environment built by Spotify Discussion | Link",
+   "summary": "Spotify 推出的 agentic 开发环境，让 agent 深度参与编码流程。亮点是名厂出品，可能改变 IDE 的交互方式。"
+  },
+  {
+   "id": "ph5",
+   "title": "bb",
+   "url": "https://www.producthunt.com/products/bb",
+   "desc": "The IDE that builds itself Discussion | Link",
+   "summary": "一个“自己构建自己”的 IDE 概念，用 AI 驱动开发环境自动化。亮点是理念超前，重新定义开发者工具。"
+  },
+  {
+   "id": "ph8",
+   "title": "Bullet",
+   "url": "https://www.producthunt.com/products/bullet-6",
+   "desc": "30-60% faster than Claude Code and Codex Discussion | Link",
+   "summary": "声称比 Claude Code 和 Codex 快 30-60% 的 agentic 编程工具。亮点是性能直接对标主流，值得实测。"
+  },
+  {
+   "id": "ph0",
+   "title": "Gotcha",
+   "url": "https://www.producthunt.com/products/gotcha-5",
+   "desc": "World's First AI Copilot for Android. You talk. It acts. Discussion | Link",
+   "summary": "安卓上的首款 AI 副驾驶，用户直接说话它就执行操作。亮点是把语音控制提升到系统级，交互范式新颖。"
+  },
+  {
+   "id": "ph4",
+   "title": "Octomind Cloud and Hub",
+   "url": "https://www.producthunt.com/products/octomind-plug-n-play-ai-agents",
+   "desc": "One login, zero API keys — cloud agents + 27 models Discussion | Link",
+   "summary": "一个登录搞定 27 种模型的云 agent 平台，无需 API 密钥。亮点是大大降低多模型调用的门槛。"
+  },
+  {
+   "id": "ph2",
+   "title": "VoiceGecko",
+   "url": "https://www.producthunt.com/products/voice-gecko",
+   "desc": "Open source, local voice-to-text Discussion | Link",
+   "summary": "开源本地语音转文字工具，数据不出设备。亮点是隐私保护和离线可用性，适合集成到自己的应用。"
+  },
+  {
+   "id": "ph10",
+   "title": "agent-manager",
+   "url": "https://www.producthunt.com/products/agent-manager",
+   "desc": "The fastest workflow for developing with AI Discussion | Link",
+   "summary": "为 AI 开发设计的工作流管理器，号称最快上手。亮点是把 agent 开发流程系统化，提升效率。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Introducing Muse Glimmer",
+   "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+   "desc": "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agenti",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Meta 发布全新 30B 开源模型 Muse Glimmer，采用 Apache 2.0 协议，主打端到端智能体能力，号称能跑在 RTX 3090 上，对本地部署和智能体开发是重大利好。"
+  },
+  {
+   "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+   "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+   "desc": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b11",
+   "summary": "AINews 报道 Muse Glimmer 和 Spark 的发布，强调 Glimmer 单卡可跑，被视为美国开源模型的一次回归，值得关注其实际性能和生态支持。"
+  },
+  {
+   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+   "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+   "desc": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model,",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "一篇论文揭示从 Anthropic、OpenAI 和 Google 的闭源 API 中可以‘窃取’思维链推理痕迹，且这些加密块可在会话、用户和模型间重放，引发对商用模型安全性和隐私边界的担忧。"
+  },
+  {
+   "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+   "url": "https://www.latent.space/p/chai-discovery",
+   "desc": "Pharma is suddenly paying for Bio × AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "Chai Discovery 团队分享生物×AI 领域的商业化趋势，称制药公司开始为这类工具付费，他们一个夏天签了四单，说明 BioAI 正从研究走向落地，是创业和职业方向的新信号。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 开发成为核心关键词：从单一 Prompt 进化到 Multi-Agent 编排、图/状态机调度、幻觉防御、模型路由和成本工程，招聘方在找能把 Agent 做成生产级系统的人。",
+   "全栈能力是基础盘：前端 React/Vue + 后端 Node/Python/Go，还得懂 PostgreSQL、Redis、Docker、CI/CD，很多岗位要求独立负责过真实上线的系统，纯前端或纯后端的空间在收缩。",
+   "AI 工程化（MLOps / 可观测性 / 稳定性）需求上升：模型训练之外，老板们更关心高并发、限流熔断、日志监控、SLO 这些让 AI 真正跑起来的本事，尤其金融、电商场景。",
+   "垂直行业经验成为硬门槛：电商（SHEIN、拼多多）、金融（银行风控）、法律、医疗等领域的 AI 岗位，明确要求业务背景，纯算法或纯开发越来越难直接够到高薪。",
+   "AI 工具使用能力变成隐性要求：不少公司直接在 JD 里写平常用 Claude Code、Codex 干活，甚至要求候选人会用 AI 提效，这正在成为默认技能。"
+  ],
+  "gigs": [
+   "远程岗位全球化：新加坡 FinTech 招远程 Tech Lead，北美 AI 创业公司招 macOS 开发（应届可投），国内也有远程 Go 开发、AI Agent 工程师，薪资跨度大（20K-37K 人民币到 $170K-$210K 美元）。",
+   "外包/接单市场偏向小切口自动化：样本里有人求 AI 自动选品+上架的电商工具，也有大模型 API 聚合网关的项目外包，这类活需要全栈能力加快速交付，个人开发者或小团队更有优势。",
+   "合同制/项目制合作正在变多：有公司明确开放合同制（如 Stellar AI），也有 AIGC 社区支持按周/月合作，优秀匹配可到 40 万年包，灵活用工在 AI 领域越来越常见。",
+   "注意：样本主要来自 V2EX、电鸭和 HN，只有 80 多条，远程和外包的真实规模不好判断，但能看出需求集中在 Agent 开发、全栈工程和垂直场景提效。",
+   "出现转行信号：一位 5 年前端被裁后发帖求助，感觉纯前端岗位几乎消失，在纠结学 AI 还是全栈，侧面反映传统前端岗位正在被 AI 工具挤压。"
+  ],
+  "highlights": [
+   {
+    "title": "招聘 Agent 架构/资深开发",
+    "desc": "工作内容： Multi-Agent 工作流编排：摒弃 “单一超长 Prompt” 的粗暴方式，设计并落地专职 Agent 阵列（如：意图拆解 Agent 、规则合成 Agent 、逻辑自洽校验 Agent 、资产匹配 Agent ），构建基于图或状态机的调度系统。 “幻觉” 防御与确定性闭环：针对 LLM 输出的不确定性，设计强约束的结构化输出策略（ JSON Schema / Function Calling ），重点设计 Reviewer Agent 的静态逻辑推演机制，拦截 “死锁、不可达状态、数值崩溃” 等致命逻辑错误，并设计错误打回与自动修复链路。 模型路由与成本工程：基于各种主流模",
+    "url": "https://www.v2ex.com/t/1231571#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m23",
+    "summary": "招聘 Agent 架构/资深开发，要求 Multi-Agent 编排、幻觉防御和成本工程，代表 Agent 开发从跑通 demo 转向生产级工程化。"
+   },
+   {
+    "title": "TapNow 正在招聘一名 Agent 工程师（QA 方向）",
+    "desc": "我们不想再招一个亲自做测试的人，而是想招一个让 Agent 学会做测试的人 TapNow 招聘：Agent 工程师（ QA 方向） / Agentic Quality Engineer ｜深圳 从去年 12 月开始，我们一直在探索一件事：AI 时代，一家软件科技公司应该如何生产和协作。 今天的 Agent 已经很强，但大多数 Agent 仍然只是个人助手：等待人的指令，运行在某位同事的电脑上，只拥有这个人当下提供的 context 。个人效率提高了，组织仍然依靠会议和文档传递信息，Agent 的生产力也依然受限于人的设备、注意力和作息。 我们认为这不应该是终局。 TapNow 是一个完全 AI",
+    "url": "https://www.v2ex.com/t/1232468#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m12",
+    "summary": "TapNow 招 Agent 工程师（QA 方向）——不是让人做测试，而是让 Agent 学会做测试，AI 正在重塑软件开发流程本身。"
+   },
+   {
+    "title": "「广州·珠江新城」省属国企数科公司｜应用(15W-25W) / 平台(25W-35W)/测开(15W-25W)/产品(18W-28W),聊聊你自己?",
+    "desc": "我们是省属 Top 3 国企下属的全资数科公司,在珠江新城北区集团大厦办公,做集团内外的大模型应用和数字化项目。正式员工,双休,基本不加班,平时也用 Claude Code 、Codex 干活,不算古板。 现在主要在做通用办公、审计、法务、财务、投资经营分析等办公场景 Agent,会研究和实践前沿热门技术(harness 、loop engineering)。 AI 部门 20 人，继续扩招，有四个岗位: 均需全日制统招。 应用开发(本科+):前端+后端（熟练）,有自己的审美观,做过实际的 Agent 开发。年薪 15-25 万。 平台/架构(编制要求硕士+):有技术品味,主要负责 PaaS ",
+    "url": "https://www.v2ex.com/t/1231333#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m26",
+    "summary": "省属国企数科公司招 Agent 应用开发，年薪 15-35 万，平时用 Claude Code/Codex 干活，说明传统企业开始认真落地 AI Agent 并接受 AI 原生工作方式。"
+   },
+   {
+    "title": "There is a massive competitive advantage right now in building 'boring' infrastr",
+    "desc": "There is a massive competitive advantage right now in building 'boring' infrastructure manually instead of rushing to wrap an AI API. While the trend is to build a conversational interface for everything, I've found that real businesses are still bleeding time on core sales friction. For example, moving away from static PDFs to interactive live sales quotations requires rock-solid, hand-coded data",
+    "url": "https://news.ycombinator.com/item?id=49224620",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m49",
+    "summary": "HN 上有开发者直言：手动构建‘无聊’的基础设施比急着套 AI API 更有优势，市场开始反思炒概念、回到解决真实业务痛点的务实路线。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+    "url": "https://news.ycombinator.com/item?id=49217319",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m51",
+    "summary": "LiveKit 招 VoiceAI 基础设施工程师，语音驱动计算的时代正在拉开，语音交互和实时 AI Agent 的基础层成为新机会。"
+   },
+   {
+    "title": "Confido | ML Ops, AI, Platform/Core | NYC (Chelsea) | $200k–$350k+ Base We're bu",
+    "desc": "Confido | ML Ops, AI, Platform/Core | NYC (Chelsea) | $200k–$350k+ Base We're building the AI operating system for CPG brands like OLIPOP, Tropicana, Dr. Squatch, Chobani, and 200+ others. Our customers manage over $40B in revenue on Confido. We grew 5x last year and are on track to 4x again this year.\nWe're hiring across multiple engineering teams: Applied AI Engineers MLOps Engineers Backend & F",
+    "url": "https://news.ycombinator.com/item?id=49174463",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Confido 为 CPG 品牌做 AI 操作系统，工程师薪资 $200K-$350K，垂直行业 AI 应用获得高估值和高薪资，是当下 AI 商业化的最佳样本。"
+   }
+  ],
+  "week": "2026-W33"
+ },
+ "llm_used": true,
+ "degraded": []
+}
