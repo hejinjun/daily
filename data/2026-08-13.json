@@ -1,0 +1,486 @@
+{
+ "date": "2026-08-13",
+ "generated_at": "2026-08-13 07:04",
+ "trends": [
+  "开源大模型竞争白热化：DeepSeek、Qwen轮番上新，Grok 4.6也发布，模型能力差距缩小，开发者可低成本获取顶级能力。",
+  "AI编程/Agent赛道吸金：Lovable、Cognition等动辄数十亿美元估值，资本重注AI重构软件，创业机会在工具链和垂直应用。",
+  "AI治理与数据权利博弈：Twitch默认训练、Spotify标签、Anthropic水印等动作，表明AI合规从边缘走向主流，产品设计必须考虑伦理与法律。",
+  "AI从对话走向执行与实体：企业Agent、手语翻译、Pixel硬件、材料发现等，AI正嵌入真实任务和场景，多模态与端侧AI是下一波红利。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 3
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 9
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 3
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 2
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh16",
+   "title": "cactus-compute/needle",
+   "url": "https://github.com/cactus-compute/needle",
+   "desc": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+   "lang": "Python",
+   "stars": "4,186",
+   "stars_today": "346 stars today",
+   "summary": "Needle 是一个仅 14MB 的基础模型，能直接跑在手机、手表、智能家居和机器人上。它代表了小型化模型的新趋势，让端侧 AI 不再依赖云端，意义重大。"
+  },
+  {
+   "id": "gh14",
+   "title": "Lightricks/LTX-2",
+   "url": "https://github.com/Lightricks/LTX-2",
+   "desc": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+   "lang": "Python",
+   "stars": "8,693",
+   "stars_today": "40 stars today",
+   "summary": "LTX-2 是 Lightricks 开源的音频-视频生成模型，支持推理和 LoRA 训练。多模态生成是当前最热的方向，这个模型又给创作者提供了新武器。"
+  },
+  {
+   "id": "gh5",
+   "title": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "lang": "Python",
+   "stars": "36,928",
+   "stars_today": "277 stars today",
+   "summary": "Kronos 是专为金融市场设计的基础模型，能理解交易语言和市场走势。金融垂直领域的 AI 一直是高价值场景，这个项目的 star 涨得快说明大家很看好。"
+  },
+  {
+   "id": "gh8",
+   "title": "infiniflow/ragflow",
+   "url": "https://github.com/infiniflow/ragflow",
+   "desc": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+   "lang": "Go",
+   "stars": "87,522",
+   "stars_today": "182 stars today",
+   "summary": "RAGFlow 是领先的开源 RAG 引擎，把检索增强生成和 Agent 能力结合，为 LLM 提供上下文层。RAG 是企业落地最实用的技术，热度高是必然的。"
+  },
+  {
+   "id": "gh7",
+   "title": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
+   "desc": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+   "lang": "Python",
+   "stars": "45,529",
+   "stars_today": "364 stars today",
+   "summary": "ppt-master 可以把文档或主题直接生成真正的 PowerPoint，带有原生形状、动画、图表和音频旁白。它解决的是职场刚需，AI 办公工具里很亮眼。"
+  },
+  {
+   "id": "gh1",
+   "title": "macro-inc/macro",
+   "url": "https://github.com/macro-inc/macro",
+   "desc": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+   "lang": "Rust",
+   "stars": "1,717",
+   "stars_today": "325 stars today",
+   "summary": "Macro 是一个用 Rust 写的统一团队工作区，把邮件、聊天、文档、任务和 Agent 串在一起，还有共享 AI 记忆。这标志着 AI 正在深入改造协作工具。"
+  },
+  {
+   "id": "gh0",
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+   "lang": "HTML",
+   "stars": "10,135",
+   "stars_today": "2,951 stars today",
+   "summary": "diagram-design 提供了 29 种为 Claude Code 设计的编辑级图表模板，纯 HTML+SVG，避免 AI 生成图表时的“Mermaid 丑图”。今天涨了 2951 star，说明AI编程后处理需求很旺。"
+  },
+  {
+   "id": "gh10",
+   "title": "NVIDIA-NeMo/Switchyard",
+   "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+   "desc": "",
+   "lang": "Rust",
+   "stars": "793",
+   "stars_today": "370 stars today",
+   "summary": "Switchyard 是 NVIDIA NeMo 推出的 Rust 项目，虽然细节不多，但背靠 NeMo 生态，大概率是用于高性能 LLM 服务或调度的基础设施。Rust + LLM 是值得关注的技术交叉点。"
+  },
+  {
+   "id": "gh15",
+   "title": "embabel/embabel-agent",
+   "url": "https://github.com/embabel/embabel-agent",
+   "desc": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
+   "lang": "Kotlin",
+   "stars": "4,217",
+   "stars_today": "29 stars today",
+   "summary": "embabel-agent 是 JVM 上的 Agent 框架，适合 Java/Kotlin 开发者。企业级 AI Agent 开发又多了一个新选择，对现有 Java 技术栈友好。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Grok 4.6",
+   "url": "https://x.ai/news/grok-4-6",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 344,
+   "id": "n6",
+   "summary": "xAI发布了Grok 4.6，在Artificial Analysis Intelligence Index上得分61，是目前最强的模型之一。这意味着马斯克的xAI正在快速追赶OpenAI和Google，开发者可以关注其API能力。"
+  },
+  {
+   "title": "DeepSeek V4 Pro 0813",
+   "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 667,
+   "id": "n1",
+   "summary": "DeepSeek发布了V4 Pro模型，性能上不断逼近美国头部模型，且成本更低。作为中国AI力量的代表，DeepSeek的开源路线为开发者提供了高性价比的模型选择。"
+  },
+  {
+   "title": "Qwen3.8-2.4T",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 438,
+   "id": "n5",
+   "summary": "阿里发布了Qwen3.8-2.4T，这是一个超大规模参数模型。阿里在开源大模型上继续加码，为社区提供更强的基座，对应用开发者是重大利好。"
+  },
+  {
+   "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+   "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+   "desc": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "AI编程公司Cognition传正在洽谈融资，估值高达400亿美元，距上一轮260亿仅几个月。资本疯狂押注AI编程智能体，说明软件工程自动化是确定性赛道。"
+  },
+  {
+   "title": "Lovable confirms new $13.3B valuation, raises another $400M",
+   "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+   "desc": "This new funding comes after Lovable hit $500 million in annualized run rate revenue in June, the startup told TechCrunch.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "Lovable确认以133亿美元估值再融4亿美元，其年化收入已达5亿美元。作为AI应用生成平台，Lovable的爆发式增长表明用自然语言做应用的需求真实存在。"
+  },
+  {
+   "title": "Twitch streamers can now opt out from training Amazon’s AI",
+   "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+   "desc": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or s",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n56",
+   "summary": "Twitch主播可以默认选择退出被Amazon用内容训练AI，但默认是加入的。这一默认策略引发争议，也体现了AI训练数据的伦理与法律困境。"
+  },
+  {
+   "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+   "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+   "desc": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Hinton、李飞飞、吴恩达在Ai4大会上辩论，主张保持AI开源。开源与闭源的路线之争将决定AI生态走向，开发者需要关注未来平台选择。"
+  },
+  {
+   "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+   "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+   "desc": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "Google发布Pixel 11、Pixel Watch 5等硬件，并推出大量Gemini AI功能，包括语音交互、图像生成。Google正把AI全面塞进消费硬件，抢占端侧入口。"
+  },
+  {
+   "title": "Putting sign language AI into users’ hands",
+   "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+   "desc": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n32",
+   "summary": "DeepMind推出手语转文字模型SL2T，为聋哑用户提供实时翻译。这是AI赋能无障碍的典型案例，也说明多模态模型在细分场景有巨大潜力。"
+  },
+  {
+   "title": "AI is removing the middle class of software engineering?",
+   "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 657,
+   "id": "n2",
+   "summary": "Hacker News热议AI是否正在消灭软件工程的中产阶级。初级程序员的工作可能被AI取代，而高级工程师的需求上升，开发者需要调整职业规划。"
+  },
+  {
+   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Hugging Face博客探讨如何用更少token实现类似ACE的Agentic能力。Token效率直接影响成本，是AI应用规模化的关键，对开发者有直接指导意义。"
+  },
+  {
+   "title": "From assistance to execution: How enterprises put AI to work",
+   "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+   "desc": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI调研显示企业正在从辅助走向执行，用Agent自动完成任务。这说明AI已从聊天机器人升级为生产工具，企业服务市场将迎来重构。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph18",
+   "title": "Unsloth Desktop",
+   "url": "https://www.producthunt.com/products/unsloth",
+   "desc": "Run and train AI models locally on your desktop Discussion | Link",
+   "summary": "在桌面本地运行和微调 AI 模型，无需云 GPU，隐私好又省钱，适合开发者折腾。"
+  },
+  {
+   "id": "ph3",
+   "title": "LaraCopilot",
+   "url": "https://www.producthunt.com/products/laracopilot",
+   "desc": "Agentic AI Engineer that builds real apps Discussion | Link",
+   "summary": "一个人工智能工程师，能自动构建真实应用，相当于有个 24 小时的免费程序员助理。"
+  },
+  {
+   "id": "ph17",
+   "title": "Click",
+   "url": "https://www.producthunt.com/products/click-6",
+   "desc": "Live research context for ChatGPT and Claude Discussion | Link",
+   "summary": "给 ChatGPT/Claude 装上实时联网研究能力，对话时自动获取最新信息，回答更靠谱。"
+  },
+  {
+   "id": "ph12",
+   "title": "CodeBurn",
+   "url": "https://www.producthunt.com/products/codeburn",
+   "desc": "See where your AI coding spend actually goes Discussion | Link",
+   "summary": "分析 AI 编程工具的支出，告诉你钱都花在哪，帮团队优化 AI 成本。"
+  },
+  {
+   "id": "ph2",
+   "title": "Media Sharing",
+   "url": "https://www.producthunt.com/products/argos",
+   "desc": "Let AI agents put screenshots and videos on pull requests Discussion | Link",
+   "summary": "让 AI 代理在提交 PR 时自动附上截图和视频，代码审查更直观，省去手动截图的麻烦。"
+  },
+  {
+   "id": "ph9",
+   "title": "Ballet",
+   "url": "https://www.producthunt.com/products/ballet",
+   "desc": "Agentic workflows that deliver the same outcome every time Discussion | Link",
+   "summary": "让 Agentic 工作流每次跑出相同结果，解决 AI 输出随机、不可控的痛点。"
+  },
+  {
+   "id": "ph10",
+   "title": "Chat Agent by Trigger.dev",
+   "url": "https://www.producthunt.com/products/trigger-dev",
+   "desc": "AI chat that keeps running after you close the tab Discussion | Link",
+   "summary": "AI 聊天助手在标签页关闭后还能继续干活，适合长期后台任务。"
+  },
+  {
+   "id": "ph8",
+   "title": "Cohesor",
+   "url": "https://www.producthunt.com/products/cohesor",
+   "desc": "A neutral control plane for enterprise AI agents Discussion | Link",
+   "summary": "企业级 AI 代理的统一控制平面，集中管理所有智能体，解决混乱。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+   "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+   "desc": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model,",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "讲的是从专有大模型API偷推理轨迹的研究：Anthropic、OpenAI和Google返回的加密思维链其实可以被跨会话、跨用户甚至跨模型重放攻击。这个论文值得关注，因为它暴露了推理过程的安全漏洞，对使用闭源模型做复杂推理的开发者是个重要提醒。"
+  },
+  {
+   "title": "[AINews] How to steal a Reasoning Trace",
+   "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+   "desc": "Speculative Decoding by any other name would distil as sweet",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "Latent Space的AI新闻，标题是“如何偷推理轨迹”，内容拿投机解码做类比，点破蒸馏和窃取之间的模糊地带。值得看是因为它把安全和模型蒸馏技术串起来聊，角度挺新鲜。"
+  },
+  {
+   "title": "How We Use Computers Is About to Change Forever",
+   "url": "https://creatoreconomy.so/p/how-we-use-computers-is-about-to-change-forever-ai",
+   "desc": "Why we'll soon be orchestrating agents in the cloud with voice instead of manually using our keyboard, mouse, and laptop",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b13",
+   "summary": "Peter Yang预测人机交互要变了：未来我们用语音在云端编排一堆AI代理干活，而不是自己动键盘鼠标和笔记本。这文章值得关注是因为它描绘了AI Agent落地的真实形态，对个人工作流和创业方向都有启发。"
+  },
+  {
+   "title": "There are no lossless transformations of natural-language text",
+   "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
+   "desc": "There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule seems",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Sophie Alpert提出一个观点：自然语言文本的任何转换都不可能无损，并且分享了工程师“可接受的AI写作使用”内部准则。短小精悍，值得AI辅助写作的人读一下，能帮你守住表达质量的底线。"
+  },
+  {
+   "title": "Quoting Florian Herrengt",
+   "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
+   "desc": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "一个挺真实的技术吐槽：用户报了个诡异bug，团队让AI修了四次都没搞定，最后发现是数据来源本身有问题。值得关注的点是它说明AI在调试复杂系统时很容易陷进局部错误，给人debug留下很大空间。"
+  },
+  {
+   "title": "I wrote an AI textbook — how long until AI can do it better?",
+   "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+   "desc": "Reflections on AI's writing ability and how AI models get more capable.",
+   "source": "Interconnects（Nathan Lambert）",
+   "lang": "en",
+   "id": "b4",
+   "summary": "Nathan Lambert反思自己写的AI教科书，问“AI什么时候能比我自己写得好”。内容围绕AI写作能力边界展开，适合关注模型创作能力的读者，能帮你看清当前LLM在长文写作上的真实水平。"
+  },
+  {
+   "title": "datasette-upload-dbs 0.5a0",
+   "url": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/",
+   "desc": "Release: datasette-upload-dbs 0.5a0 This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance. It can also be used to atomically swap a database with a more recent v",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "Datasette插件datasette-upload-dbs发布0.5a0版本，功能是让用户上传SQLite数据库并原子替换现有实例。对玩数据发布和临时演示的开发者挺实用，一个小版本更新但解决了数据库热更新痛点。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 开发成为核心关键词：从单一 Prompt 进化到 Multi-Agent 编排、图/状态机调度、幻觉防御、模型路由和成本工程，招聘方在找能把 Agent 做成生产级系统的人。",
+   "全栈能力是基础盘：前端 React/Vue + 后端 Node/Python/Go，还得懂 PostgreSQL、Redis、Docker、CI/CD，很多岗位要求独立负责过真实上线的系统，纯前端或纯后端的空间在收缩。",
+   "AI 工程化（MLOps / 可观测性 / 稳定性）需求上升：模型训练之外，老板们更关心高并发、限流熔断、日志监控、SLO 这些让 AI 真正跑起来的本事，尤其金融、电商场景。",
+   "垂直行业经验成为硬门槛：电商（SHEIN、拼多多）、金融（银行风控）、法律、医疗等领域的 AI 岗位，明确要求业务背景，纯算法或纯开发越来越难直接够到高薪。",
+   "AI 工具使用能力变成隐性要求：不少公司直接在 JD 里写平常用 Claude Code、Codex 干活，甚至要求候选人会用 AI 提效，这正在成为默认技能。"
+  ],
+  "gigs": [
+   "远程岗位全球化：新加坡 FinTech 招远程 Tech Lead，北美 AI 创业公司招 macOS 开发（应届可投），国内也有远程 Go 开发、AI Agent 工程师，薪资跨度大（20K-37K 人民币到 $170K-$210K 美元）。",
+   "外包/接单市场偏向小切口自动化：样本里有人求 AI 自动选品+上架的电商工具，也有大模型 API 聚合网关的项目外包，这类活需要全栈能力加快速交付，个人开发者或小团队更有优势。",
+   "合同制/项目制合作正在变多：有公司明确开放合同制（如 Stellar AI），也有 AIGC 社区支持按周/月合作，优秀匹配可到 40 万年包，灵活用工在 AI 领域越来越常见。",
+   "注意：样本主要来自 V2EX、电鸭和 HN，只有 80 多条，远程和外包的真实规模不好判断，但能看出需求集中在 Agent 开发、全栈工程和垂直场景提效。",
+   "出现转行信号：一位 5 年前端被裁后发帖求助，感觉纯前端岗位几乎消失，在纠结学 AI 还是全栈，侧面反映传统前端岗位正在被 AI 工具挤压。"
+  ],
+  "highlights": [
+   {
+    "title": "招聘 Agent 架构/资深开发",
+    "desc": "工作内容： Multi-Agent 工作流编排：摒弃 “单一超长 Prompt” 的粗暴方式，设计并落地专职 Agent 阵列（如：意图拆解 Agent 、规则合成 Agent 、逻辑自洽校验 Agent 、资产匹配 Agent ），构建基于图或状态机的调度系统。 “幻觉” 防御与确定性闭环：针对 LLM 输出的不确定性，设计强约束的结构化输出策略（ JSON Schema / Function Calling ），重点设计 Reviewer Agent 的静态逻辑推演机制，拦截 “死锁、不可达状态、数值崩溃” 等致命逻辑错误，并设计错误打回与自动修复链路。 模型路由与成本工程：基于各种主流模",
+    "url": "https://www.v2ex.com/t/1231571#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m23",
+    "summary": "招聘 Agent 架构/资深开发，要求 Multi-Agent 编排、幻觉防御和成本工程，代表 Agent 开发从跑通 demo 转向生产级工程化。"
+   },
+   {
+    "title": "TapNow 正在招聘一名 Agent 工程师（QA 方向）",
+    "desc": "我们不想再招一个亲自做测试的人，而是想招一个让 Agent 学会做测试的人 TapNow 招聘：Agent 工程师（ QA 方向） / Agentic Quality Engineer ｜深圳 从去年 12 月开始，我们一直在探索一件事：AI 时代，一家软件科技公司应该如何生产和协作。 今天的 Agent 已经很强，但大多数 Agent 仍然只是个人助手：等待人的指令，运行在某位同事的电脑上，只拥有这个人当下提供的 context 。个人效率提高了，组织仍然依靠会议和文档传递信息，Agent 的生产力也依然受限于人的设备、注意力和作息。 我们认为这不应该是终局。 TapNow 是一个完全 AI",
+    "url": "https://www.v2ex.com/t/1232468#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m12",
+    "summary": "TapNow 招 Agent 工程师（QA 方向）——不是让人做测试，而是让 Agent 学会做测试，AI 正在重塑软件开发流程本身。"
+   },
+   {
+    "title": "「广州·珠江新城」省属国企数科公司｜应用(15W-25W) / 平台(25W-35W)/测开(15W-25W)/产品(18W-28W),聊聊你自己?",
+    "desc": "我们是省属 Top 3 国企下属的全资数科公司,在珠江新城北区集团大厦办公,做集团内外的大模型应用和数字化项目。正式员工,双休,基本不加班,平时也用 Claude Code 、Codex 干活,不算古板。 现在主要在做通用办公、审计、法务、财务、投资经营分析等办公场景 Agent,会研究和实践前沿热门技术(harness 、loop engineering)。 AI 部门 20 人，继续扩招，有四个岗位: 均需全日制统招。 应用开发(本科+):前端+后端（熟练）,有自己的审美观,做过实际的 Agent 开发。年薪 15-25 万。 平台/架构(编制要求硕士+):有技术品味,主要负责 PaaS ",
+    "url": "https://www.v2ex.com/t/1231333#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m26",
+    "summary": "省属国企数科公司招 Agent 应用开发，年薪 15-35 万，平时用 Claude Code/Codex 干活，说明传统企业开始认真落地 AI Agent 并接受 AI 原生工作方式。"
+   },
+   {
+    "title": "There is a massive competitive advantage right now in building 'boring' infrastr",
+    "desc": "There is a massive competitive advantage right now in building 'boring' infrastructure manually instead of rushing to wrap an AI API. While the trend is to build a conversational interface for everything, I've found that real businesses are still bleeding time on core sales friction. For example, moving away from static PDFs to interactive live sales quotations requires rock-solid, hand-coded data",
+    "url": "https://news.ycombinator.com/item?id=49224620",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m49",
+    "summary": "HN 上有开发者直言：手动构建‘无聊’的基础设施比急着套 AI API 更有优势，市场开始反思炒概念、回到解决真实业务痛点的务实路线。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+    "url": "https://news.ycombinator.com/item?id=49217319",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m51",
+    "summary": "LiveKit 招 VoiceAI 基础设施工程师，语音驱动计算的时代正在拉开，语音交互和实时 AI Agent 的基础层成为新机会。"
+   },
+   {
+    "title": "Confido | ML Ops, AI, Platform/Core | NYC (Chelsea) | $200k–$350k+ Base We're bu",
+    "desc": "Confido | ML Ops, AI, Platform/Core | NYC (Chelsea) | $200k–$350k+ Base We're building the AI operating system for CPG brands like OLIPOP, Tropicana, Dr. Squatch, Chobani, and 200+ others. Our customers manage over $40B in revenue on Confido. We grew 5x last year and are on track to 4x again this year.\nWe're hiring across multiple engineering teams: Applied AI Engineers MLOps Engineers Backend & F",
+    "url": "https://news.ycombinator.com/item?id=49174463",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Confido 为 CPG 品牌做 AI 操作系统，工程师薪资 $200K-$350K，垂直行业 AI 应用获得高估值和高薪资，是当下 AI 商业化的最佳样本。"
+   }
+  ],
+  "week": "2026-W33"
+ },
+ "llm_used": true,
+ "degraded": []
+}
