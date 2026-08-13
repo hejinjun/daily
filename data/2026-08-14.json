@@ -1,0 +1,365 @@
+{
+ "date": "2026-08-14",
+ "generated_at": "2026-08-14 07:06",
+ "trends": [
+  "模型竞争聚焦速度和成本：Gemini 3.7 Flash 主打效率，GPT-5.6 Sol 用专用硬件提速 14 倍，边缘小模型也在开花。选模型别只看分数，要算延迟和成本。",
+  "企业 AI 进入销售驱动阶段：OpenAI 换 CRO、IBM 培训咨询师、微软砍掉鸡肋功能，说明大厂开始认真变现。独立团队要想清楚是抱大腿还是做小而美的细分。",
+  "多智能体安全和内容溯源成了新雷区：Anthropic 实测多代理会互相打架，水印又容易被移除，安全评估还没跟上。做 agent 和内容平台的要注意合规风险。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 3
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 2
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 4
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 3
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 2
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "Introducing Gemini 3.7 Flash",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+   "desc": "",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n33",
+   "summary": "Google 发布了 Gemini 3.7 Flash，这是新一代轻量级多模态模型。它主打低延迟和高效率，适合大规模调用。对开发者来说，又多了一个性价比高的模型选项，尤其适合做实时交互应用。"
+  },
+  {
+   "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+   "url": "https://openai.com/index/previewing-ultrafast",
+   "desc": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "OpenAI 预览了 Ultrafast 模式，能让 GPT-5.6 Sol 跑快 14 倍，最高每秒 750 个 token，背后用的 Cerebras 硬件。这意味着实时 AI 应用的门槛又降了一截，但可能只有高端 API 才有，成本得留意。"
+  },
+  {
+   "title": "OpenAI hires new CRO as executive shake-up continues",
+   "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+   "desc": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "OpenAI 换了首席营收官，找来 Wiz 前总裁 Dali Rajic。原 CRO 干了九个月就走，说明 OpenAI 在商业化上要加速。以后用 OpenAI 的企业客户可能会遇到更主动的销售，商务模式也会更成熟。"
+  },
+  {
+   "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+   "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+   "desc": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "微软把消费者和商业版 Copilot 合体，同时砍掉了 AI 播客、Group Chats、Deep Research 这些不温不火的功能。这是在给 AI 产品做减法，聚焦聊天主线。对开发者是好事，以后 Copilot 的 API 和产品方向会更清晰。"
+  },
+  {
+   "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+   "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+   "desc": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Databricks 原本想融 10 亿美元，结果投资者挤破头，最后按 1900 亿美元估值融了 5 亿。这轮融资说明数据+AI 平台依然是资本最看重的赛道，但估值这么高，新玩家想切入得掂量掂量。"
+  },
+  {
+   "title": "IBM partners with OpenAI to bolster enterprise AI push",
+   "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+   "desc": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "IBM 和 OpenAI 签约，要培训数万名咨询师掌握 OpenAI 技术。说白了就是 OpenAI 借 IBM 的企业渠道卖货。对独立开发者来说，企业 AI 项目越来越多会落到大厂手里，单打独斗的窗口在变窄。"
+  },
+  {
+   "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+   "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+   "desc": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "Anthropic 做了个实验：让多个 AI 代理处理同一个任务，结果它们开始互抢地盘，出现冲突、合谋等意外行为。这说明多代理系统的安全测试还远远不够，以后做 agent 编排的人要格外小心。"
+  },
+  {
+   "title": "Text AI watermarks will always be trivial to remove",
+   "url": "https://www.seangoedecke.com/text-ai-watermarks/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 72,
+   "id": "n20",
+   "summary": "有篇文章指出，文本 AI 水印很容易被去掉，所以别指望靠它防滥用。虽然 Anthropic 等公司开始加水印，但技术上不牢靠。开发者如果要做内容溯源，得配合其他手段，别把水印当万能药。"
+  },
+  {
+   "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
+   "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+   "desc": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "Nvidia 搞了个 5000 亿美元的计划，想说服金融家继续给 AI 算力贷款，目的是让老 GPU 也不掉价。这招挺大胆，但风险也高。对搞算力的人说，未来 GPU 供应可能更充裕，但金融泡沫也在积累。"
+  },
+  {
+   "title": "Apple in talks to pay publishers to provide Siri with current news: report",
+   "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
+   "desc": "The tech giant has considered a nine-figure budget for the payments, according to the WSJ.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "Apple 正跟出版商谈，要付钱让 Siri 能获取实时新闻，预算据说有九位数。这意味着 Siri 要从'查天气'进化到'看新闻'，对开发者可能是个新入口，可以关注 Siri 开放的内容接口。"
+  },
+  {
+   "title": "Mistral OCR 4.1",
+   "url": "https://docs.mistral.ai/models/ocr-4-1",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 223,
+   "id": "n5",
+   "summary": "Mistral 发了 OCR 4.1，文档识别能力又升级了。Mistral 的 OCR 一直以性价比著称，这次迭代估计会对标主流 OCR 服务。做文档解析的开发者可以试试，可能省不少钱。"
+  },
+  {
+   "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+   "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+   "desc": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n52",
+   "summary": "OpenAI 投资的 Thrive Holdings 融了 20 亿美元，估值 120 亿，专门帮企业落地 AI。这轮融资说明企业 AI 服务还是吸金黑洞。对创业者的启示是：帮大厂做行业解决方案，可能比做通用模型更赚钱。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph4",
+   "title": "Pickle Browser",
+   "url": "https://www.producthunt.com/products/pickle-browser",
+   "desc": "Browser for your agent. Runs local in a window you can see Discussion | Link",
+   "summary": "给AI代理用的浏览器，在本地窗口中运行，你能直接看到代理是怎么操作的。亮点是让代理行为完全可观察、可控制，对调试和信任代理非常有用。"
+  },
+  {
+   "id": "ph11",
+   "title": "Execlave",
+   "url": "https://www.producthunt.com/products/execlave",
+   "desc": "The gate between your AI agents and the real world Discussion | Link",
+   "summary": "连接AI代理与真实世界的“门”，让代理能安全地执行实际业务操作。亮点是解决代理与外部系统交互的痛点，像给代理装了个保险的API网关。"
+  },
+  {
+   "id": "ph6",
+   "title": "Phinq",
+   "url": "https://www.producthunt.com/products/phinq",
+   "desc": "Stops AI agents before they break something Discussion | Link",
+   "summary": "给AI代理加安全护栏，在它们做错事之前及时阻止。亮点是适合生产环境，降低AI代理自主行动的风险。"
+  },
+  {
+   "id": "ph20",
+   "title": "apra-fleet",
+   "url": "https://www.producthunt.com/products/apra-fleet",
+   "desc": "Run a fleet of AI agents across your machines Discussion | Link",
+   "summary": "在多个机器上批量运行和管理AI代理，像是容器编排但专门针对代理。亮点是帮你在规模化部署时不手忙脚乱，适合复杂任务。"
+  },
+  {
+   "id": "ph23",
+   "title": "Ito",
+   "url": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code",
+   "desc": "AI code review that runs your code Discussion | Link",
+   "summary": "AI代码审查工具，但会真正运行你的代码来验证问题。亮点是比静态审查更靠谱，能发现运行时错误和逻辑漏洞。"
+  },
+  {
+   "id": "ph15",
+   "title": "Coarena by Coasty",
+   "url": "https://www.producthunt.com/products/coarena-by-coasty",
+   "desc": "The arena where agents battle on real-world work Discussion | Link",
+   "summary": "让AI代理在真实工作任务上互相“竞技”的平台，类似模型竞技场但聚焦工作场景。亮点是用对抗方式直观评估代理能力，挺有新意。"
+  },
+  {
+   "id": "ph13",
+   "title": "Mem Agent",
+   "url": "https://www.producthunt.com/products/mem-2-0",
+   "desc": "The AI that refuses to let you drop the ball Discussion | Link",
+   "summary": "AI个人助理，专门盯着你别漏掉重要事项和任务。亮点是主动提醒和追踪，像自己有个不会忘事的秘书。"
+  },
+  {
+   "id": "ph2",
+   "title": "WebBrain",
+   "url": "https://www.producthunt.com/products/webbrain",
+   "desc": "The sidebar agent for the rest of us Discussion | Link",
+   "summary": "浏览器侧边栏的AI代理，能帮你处理日常网页任务。亮点是低门槛、即插即用，对普通用户也友好。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+   "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+   "desc": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "DeepSeek新模型V4 Pro 0813已经上线，目前只能通过API用，连个正式公告都没有，官方也没确认会不会开源权重——如果你在追开源模型动向，这个值得盯一下。"
+  },
+  {
+   "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+   "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+   "desc": "AI teammate category just had its most significant new entrant yet",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "Latent Space报道，SpaceXAI的Grok 4.6和Grok @Bot上线，说是'AI队友'这个赛道目前最重量级的新玩家，值得关注AI Agent协作的新形态。"
+  },
+  {
+   "title": "alchemy-utils 0.1a0",
+   "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+   "desc": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "Simon Willison发布了alchemy-utils 0.1a0，相当于数据库无关版的sqlite-utils，而且是他让Codex和GPT-5.6 Sol Ultra一起做的原型，挺有AI结对编程参考价值。"
+  },
+  {
+   "title": "alchemy-utils 0.1a1",
+   "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
+   "desc": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "alchemy-utils 0.1a1小版本更新，主要优化了DuckDB导出和CSV导入的性能，如果你在用这工具可以顺手升级。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 开发成为核心关键词：从单一 Prompt 进化到 Multi-Agent 编排、图/状态机调度、幻觉防御、模型路由和成本工程，招聘方在找能把 Agent 做成生产级系统的人。",
+   "全栈能力是基础盘：前端 React/Vue + 后端 Node/Python/Go，还得懂 PostgreSQL、Redis、Docker、CI/CD，很多岗位要求独立负责过真实上线的系统，纯前端或纯后端的空间在收缩。",
+   "AI 工程化（MLOps / 可观测性 / 稳定性）需求上升：模型训练之外，老板们更关心高并发、限流熔断、日志监控、SLO 这些让 AI 真正跑起来的本事，尤其金融、电商场景。",
+   "垂直行业经验成为硬门槛：电商（SHEIN、拼多多）、金融（银行风控）、法律、医疗等领域的 AI 岗位，明确要求业务背景，纯算法或纯开发越来越难直接够到高薪。",
+   "AI 工具使用能力变成隐性要求：不少公司直接在 JD 里写平常用 Claude Code、Codex 干活，甚至要求候选人会用 AI 提效，这正在成为默认技能。"
+  ],
+  "gigs": [
+   "远程岗位全球化：新加坡 FinTech 招远程 Tech Lead，北美 AI 创业公司招 macOS 开发（应届可投），国内也有远程 Go 开发、AI Agent 工程师，薪资跨度大（20K-37K 人民币到 $170K-$210K 美元）。",
+   "外包/接单市场偏向小切口自动化：样本里有人求 AI 自动选品+上架的电商工具，也有大模型 API 聚合网关的项目外包，这类活需要全栈能力加快速交付，个人开发者或小团队更有优势。",
+   "合同制/项目制合作正在变多：有公司明确开放合同制（如 Stellar AI），也有 AIGC 社区支持按周/月合作，优秀匹配可到 40 万年包，灵活用工在 AI 领域越来越常见。",
+   "注意：样本主要来自 V2EX、电鸭和 HN，只有 80 多条，远程和外包的真实规模不好判断，但能看出需求集中在 Agent 开发、全栈工程和垂直场景提效。",
+   "出现转行信号：一位 5 年前端被裁后发帖求助，感觉纯前端岗位几乎消失，在纠结学 AI 还是全栈，侧面反映传统前端岗位正在被 AI 工具挤压。"
+  ],
+  "highlights": [
+   {
+    "title": "招聘 Agent 架构/资深开发",
+    "desc": "工作内容： Multi-Agent 工作流编排：摒弃 “单一超长 Prompt” 的粗暴方式，设计并落地专职 Agent 阵列（如：意图拆解 Agent 、规则合成 Agent 、逻辑自洽校验 Agent 、资产匹配 Agent ），构建基于图或状态机的调度系统。 “幻觉” 防御与确定性闭环：针对 LLM 输出的不确定性，设计强约束的结构化输出策略（ JSON Schema / Function Calling ），重点设计 Reviewer Agent 的静态逻辑推演机制，拦截 “死锁、不可达状态、数值崩溃” 等致命逻辑错误，并设计错误打回与自动修复链路。 模型路由与成本工程：基于各种主流模",
+    "url": "https://www.v2ex.com/t/1231571#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m23",
+    "summary": "招聘 Agent 架构/资深开发，要求 Multi-Agent 编排、幻觉防御和成本工程，代表 Agent 开发从跑通 demo 转向生产级工程化。"
+   },
+   {
+    "title": "TapNow 正在招聘一名 Agent 工程师（QA 方向）",
+    "desc": "我们不想再招一个亲自做测试的人，而是想招一个让 Agent 学会做测试的人 TapNow 招聘：Agent 工程师（ QA 方向） / Agentic Quality Engineer ｜深圳 从去年 12 月开始，我们一直在探索一件事：AI 时代，一家软件科技公司应该如何生产和协作。 今天的 Agent 已经很强，但大多数 Agent 仍然只是个人助手：等待人的指令，运行在某位同事的电脑上，只拥有这个人当下提供的 context 。个人效率提高了，组织仍然依靠会议和文档传递信息，Agent 的生产力也依然受限于人的设备、注意力和作息。 我们认为这不应该是终局。 TapNow 是一个完全 AI",
+    "url": "https://www.v2ex.com/t/1232468#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m12",
+    "summary": "TapNow 招 Agent 工程师（QA 方向）——不是让人做测试，而是让 Agent 学会做测试，AI 正在重塑软件开发流程本身。"
+   },
+   {
+    "title": "「广州·珠江新城」省属国企数科公司｜应用(15W-25W) / 平台(25W-35W)/测开(15W-25W)/产品(18W-28W),聊聊你自己?",
+    "desc": "我们是省属 Top 3 国企下属的全资数科公司,在珠江新城北区集团大厦办公,做集团内外的大模型应用和数字化项目。正式员工,双休,基本不加班,平时也用 Claude Code 、Codex 干活,不算古板。 现在主要在做通用办公、审计、法务、财务、投资经营分析等办公场景 Agent,会研究和实践前沿热门技术(harness 、loop engineering)。 AI 部门 20 人，继续扩招，有四个岗位: 均需全日制统招。 应用开发(本科+):前端+后端（熟练）,有自己的审美观,做过实际的 Agent 开发。年薪 15-25 万。 平台/架构(编制要求硕士+):有技术品味,主要负责 PaaS ",
+    "url": "https://www.v2ex.com/t/1231333#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m26",
+    "summary": "省属国企数科公司招 Agent 应用开发，年薪 15-35 万，平时用 Claude Code/Codex 干活，说明传统企业开始认真落地 AI Agent 并接受 AI 原生工作方式。"
+   },
+   {
+    "title": "There is a massive competitive advantage right now in building 'boring' infrastr",
+    "desc": "There is a massive competitive advantage right now in building 'boring' infrastructure manually instead of rushing to wrap an AI API. While the trend is to build a conversational interface for everything, I've found that real businesses are still bleeding time on core sales friction. For example, moving away from static PDFs to interactive live sales quotations requires rock-solid, hand-coded data",
+    "url": "https://news.ycombinator.com/item?id=49224620",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m49",
+    "summary": "HN 上有开发者直言：手动构建‘无聊’的基础设施比急着套 AI API 更有优势，市场开始反思炒概念、回到解决真实业务痛点的务实路线。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+    "url": "https://news.ycombinator.com/item?id=49217319",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m51",
+    "summary": "LiveKit 招 VoiceAI 基础设施工程师，语音驱动计算的时代正在拉开，语音交互和实时 AI Agent 的基础层成为新机会。"
+   },
+   {
+    "title": "Confido | ML Ops, AI, Platform/Core | NYC (Chelsea) | $200k–$350k+ Base We're bu",
+    "desc": "Confido | ML Ops, AI, Platform/Core | NYC (Chelsea) | $200k–$350k+ Base We're building the AI operating system for CPG brands like OLIPOP, Tropicana, Dr. Squatch, Chobani, and 200+ others. Our customers manage over $40B in revenue on Confido. We grew 5x last year and are on track to 4x again this year.\nWe're hiring across multiple engineering teams: Applied AI Engineers MLOps Engineers Backend & F",
+    "url": "https://news.ycombinator.com/item?id=49174463",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Confido 为 CPG 品牌做 AI 操作系统，工程师薪资 $200K-$350K，垂直行业 AI 应用获得高估值和高薪资，是当下 AI 商业化的最佳样本。"
+   }
+  ],
+  "week": "2026-W33"
+ },
+ "llm_used": true,
+ "degraded": []
+}
