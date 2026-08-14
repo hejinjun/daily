@@ -1,0 +1,403 @@
+{
+ "date": "2026-08-15",
+ "generated_at": "2026-08-15 06:43",
+ "trends": [
+  "开源模型持续下放：Qwen3.8-27B 在家用 GPU 可跑，Meta 的 Glimmer 走开放路线，Writer 也用开源基座做低成本方案，开源与闭源的边界在部署方式和价格上重新划分。",
+  "隐私与安全成为 AI 竞争新维度：Google 把同态加密带入实际推理，GLM-5.3 出现网络能力，水印可以关闭，安全评估不再只是合规问题，而是产品差异化能力。",
+  "AI 公司进入组织和人才高压期：DeepMind 被拆、Meta 高薪研究员离职创业、OpenAI 更换高管，巨头拼命调整架构抢速度，创业者也开始从大厂挖人。",
+  "AI 工具从“生成”走向“专业工作流”：Suno 加入 MIDI 向 DAW 靠拢，Writer 控制 token 成本，Kog 优化 GPU 推理，应用层开始比拼可控性和成本。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 1
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 14
+  },
+  {
+   "name": "The Verge AI",
+   "count": 9
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 4
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 2
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "Qwen 3.8 27B",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 766,
+   "id": "n1",
+   "summary": "阿里开源 Qwen3.8-27B，普通家用显卡就能跑，免费下载且可商用。这意味着中等规模开源模型的推理门槛大幅降低，端侧和私有化部署会变得更常见。"
+  },
+  {
+   "title": "谷歌开始肢解DeepMind，数个团队被划归总部",
+   "url": "https://www.qbitai.com/2026/08/473153.html",
+   "desc": "布林亲自下场督战",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n59",
+   "summary": "谷歌开始拆分 DeepMind，多个团队被划归总部，布林亲自督战。说明谷歌认为 AI 组织效率优先于研究独立性，也反映其在 AGI 竞赛中的焦虑和调整。"
+  },
+  {
+   "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+   "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+   "desc": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyon",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Meta 发布开权重模型 Glimmer，任何人都能下载本地运行，但更强大的 Muse Spark 仍只通过 API 提供。扎克伯格声称 AI 应属于所有人，但开放策略依然保留商业边界。"
+  },
+  {
+   "title": "Apple trained its own AI model for China with help from Alibaba",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+   "desc": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained wi",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n50",
+   "summary": "苹果与阿里合作训练面向中国市场的定制 AI 模型，用于设备端服务。这是罕见的跨国合作，既要满足本地合规和生态适配，也面临地缘政治风险。"
+  },
+  {
+   "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+   "url": "https://z.ai/blog/glm-5.3",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 1010,
+   "id": "n0",
+   "summary": "智谱发布 GLM-5.3，主打前沿编程能力，并涌现出网络自主能力。这意味着模型不再只是写代码，还可能自主执行网络操作，安全评估和 AI agent 风险需要重新审视。"
+  },
+  {
+   "title": "Google is making private AI practical with homomorphic encryption",
+   "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 224,
+   "id": "n5",
+   "summary": "Google 宣布让同态加密在私有 AI 推理中变得实用，数据可以加密状态参与计算，无需解密。这解决云端 AI 的隐私合规痛点，但性能开销依然是落地挑战。"
+  },
+  {
+   "title": "State of Open Models: Summer 2026 Observations",
+   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n32",
+   "summary": "Hugging Face 发布 2026 年夏季开源模型观察，梳理开源与闭源的能力差距、社区生态和商业化进展。开源模型正在快速逼近闭源，是判断基座模型格局的关键参考。"
+  },
+  {
+   "title": "Suno is trying to look more like a real music production tool",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+   "desc": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's b",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n53",
+   "summary": "Suno 发布 Studio 2.0，加入 MIDI 支持，更像真正的数字音频工作站。AI 音乐创作从玩具级走向专业级，创作者对旋律和编排的控制力更强。"
+  },
+  {
+   "title": "Google will now allow users to remove visible watermark from its AI generations",
+   "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+   "desc": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "Google 允许用户关闭 Gemini 和 Flow 生成内容的可见水印，但不可见标记仍会保留。这让 AI 内容更易传播，也引发关于真实性和溯源信任的讨论。"
+  },
+  {
+   "title": "Kog is going deeper to squeeze more inference out of GPUs",
+   "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+   "desc": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "法国创业公司 Kog 认为 GPU 不适合 agentic 工作流可能是误解，他们通过底层优化从同样的 GPU 里挤出更多推理性能。对推理成本敏感的 agent 应用来说，这是一个新的效率机会。"
+  },
+  {
+   "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+   "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+   "desc": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Writer 发布基于开源 GLM-5.2 的新模型和升级版 harness，主打部署可用性和更低 token 成本。企业 AI 正在用开源基座加后训练，做出比通用模型更便宜的垂直方案。"
+  },
+  {
+   "title": "7亿年薪留不住！余家辉离职Meta创业",
+   "url": "https://www.qbitai.com/2026/08/473261.html",
+   "desc": "真就只待了一年",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n58",
+   "summary": "Meta 的 AI 研究员余家辉在入职一年后离职创业，高薪也没能留住。顶尖人才从大厂流向创业，预示新一波 AI 创业项目正在酝酿。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph10",
+   "title": "Gemini 3.7 Flash",
+   "url": "https://www.producthunt.com/products/gemini-3-7-flash",
+   "desc": "Google's smartest workhorse yet for coding & agents Discussion | Link",
+   "summary": "谷歌最新的 Gemini 3.7 Flash，号称最强编码和代理模型。速度快、能力强，可能改变你写代码和搞 AI 应用的方式。"
+  },
+  {
+   "id": "ph3",
+   "title": "Freebuff",
+   "url": "https://www.producthunt.com/products/freebuff-2",
+   "desc": "Free coding agents to kill Claude, Cursor, Replit, and Devin Discussion | Link",
+   "summary": "Freebuff 是免费编码代理，要干掉 Claude、Cursor 这些收费工具。对个人开发者来说，成本直接降到零，值得关注。"
+  },
+  {
+   "id": "ph9",
+   "title": "DeepSeek Harness",
+   "url": "https://www.producthunt.com/products/deepseek",
+   "desc": "Composable agent harness where everything is a plugin Discussion | Link",
+   "summary": "DeepSeek Harness 是一个可组合的代理框架，所有东西都是插件。灵活度极高，适合喜欢 DIY 的开发者搭自己的 AI 工作流。"
+  },
+  {
+   "id": "ph11",
+   "title": "Port22",
+   "url": "https://www.producthunt.com/products/port22",
+   "desc": "Claude Code, Codex & more on your phone Discussion | Link",
+   "summary": "Port22 把 Claude Code、Codex 这些编码代理搬到了手机上。随时随地改代码，移动办公党的福音。"
+  },
+  {
+   "id": "ph4",
+   "title": "Munder Difflin",
+   "url": "https://www.producthunt.com/products/munder-difflin",
+   "desc": "Make clones with Claude Code and Codex to do your work Discussion | Link",
+   "summary": "Munder Difflin 用 Claude Code 和 Codex 克隆出多个“你”，替你干活。等于把你的工作自动化，解放双手。"
+  },
+  {
+   "id": "ph17",
+   "title": "Suno Studio 2.0",
+   "url": "https://www.producthunt.com/products/suno",
+   "desc": "Browser-based generative DAW Discussion | Link",
+   "summary": "Suno Studio 2.0 是浏览器里的生成式 DAW，直接创作音乐。从生成到编辑一站式搞定，音乐制作门槛大幅降低。"
+  },
+  {
+   "id": "ph12",
+   "title": "Openmotion",
+   "url": "https://www.producthunt.com/products/openmotion",
+   "desc": "Turn product screenshots and prompts into motion videos Discussion | Link",
+   "summary": "Openmotion 把产品截图和提示词变成动态视频。产品演示、营销素材秒生成，省去剪辑麻烦。"
+  },
+  {
+   "id": "ph20",
+   "title": "ThreadPort",
+   "url": "https://www.producthunt.com/products/threadport",
+   "desc": "Move AI chats between ChatGPT, Claude & Gemini in one click Discussion | Link",
+   "summary": "ThreadPort 一键在 ChatGPT、Claude、Gemini 之间迁移 AI 聊天记录。再也不怕换工具丢上下文，实用小工具。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+   "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+   "desc": "Down, but not out!",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "这期AINews聚焦Gemini 3.7 Flash，称它让GDM重新回到前沿。虽然之前不被看好，但这次更新很强势，关注多模态或生成式AI的开发者值得重点看。"
+  },
+  {
+   "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+   "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+   "desc": "Hint: It’s really not a distillation story.",
+   "source": "Interconnects（Nathan Lambert）",
+   "lang": "en",
+   "id": "b4",
+   "summary": "这篇分析讨论GLM-5.3，指出中国实验室并非靠蒸馏追赶，而是有独特路线。想了解国产模型真实技术水平和竞争态势，这篇值得一读。"
+  },
+  {
+   "title": "llm-gemini 0.33",
+   "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+   "desc": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also upgraded",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "llm-gemini插件更新到0.33，支持Gemini 3.7 Flash等新模型和两种embedding模型。方便你在命令行里快速体验最新Gemini能力，实用性强。"
+  },
+  {
+   "title": "Don't classify. Hallucinate!",
+   "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+   "desc": "Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\". Doug Turnbull has a neat solution. Tell the model to ou",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "这篇博客讲了一个反直觉的做法：不做文本分类，而是让LLM直接生成标签。亮点是解决了多标签分类难题，省去训练分类器，这种思路值得借鉴。"
+  },
+  {
+   "title": "sqlite-utils 4.2",
+   "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+   "desc": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array o",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "sqlite-utils 4.2版本改进了transform()，支持更复杂的表结构变更，通过新建表再替换的方式。这个功能让SQLite改表更安全灵活，适合做数据迁移或重构时使用。"
+  },
+  {
+   "title": "The /wizard Skill",
+   "url": "https://www.aihero.dev/skills-wizard",
+   "desc": "Generate a script that walks a human through setup.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "介绍一个'/wizard'技能，能生成引导人类完成设置的脚本。对于开发工具或教程类场景很有用，能降低用户的上手难度。"
+  },
+  {
+   "title": "The /to-questionnaire Skill",
+   "url": "https://www.aihero.dev/skills-to-questionnaire",
+   "desc": "Turn open questions into a doc someone else fills in.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "介绍'/to-questionnaire'技能，把开放性问题转变为一个可填写的文档。适合收集需求或做调查问卷，能提高信息收集效率。"
+  },
+  {
+   "title": "sqlite-utils 4.2.1",
+   "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+   "desc": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the d",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "这是sqlite-utils 4.2.1的快速修复版，解决了一个因缺少依赖导致的崩溃bug。如果你在用4.2版本，建议升级到这个修复版。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 开发成为核心关键词：从单一 Prompt 进化到 Multi-Agent 编排、图/状态机调度、幻觉防御、模型路由和成本工程，招聘方在找能把 Agent 做成生产级系统的人。",
+   "全栈能力是基础盘：前端 React/Vue + 后端 Node/Python/Go，还得懂 PostgreSQL、Redis、Docker、CI/CD，很多岗位要求独立负责过真实上线的系统，纯前端或纯后端的空间在收缩。",
+   "AI 工程化（MLOps / 可观测性 / 稳定性）需求上升：模型训练之外，老板们更关心高并发、限流熔断、日志监控、SLO 这些让 AI 真正跑起来的本事，尤其金融、电商场景。",
+   "垂直行业经验成为硬门槛：电商（SHEIN、拼多多）、金融（银行风控）、法律、医疗等领域的 AI 岗位，明确要求业务背景，纯算法或纯开发越来越难直接够到高薪。",
+   "AI 工具使用能力变成隐性要求：不少公司直接在 JD 里写平常用 Claude Code、Codex 干活，甚至要求候选人会用 AI 提效，这正在成为默认技能。"
+  ],
+  "gigs": [
+   "远程岗位全球化：新加坡 FinTech 招远程 Tech Lead，北美 AI 创业公司招 macOS 开发（应届可投），国内也有远程 Go 开发、AI Agent 工程师，薪资跨度大（20K-37K 人民币到 $170K-$210K 美元）。",
+   "外包/接单市场偏向小切口自动化：样本里有人求 AI 自动选品+上架的电商工具，也有大模型 API 聚合网关的项目外包，这类活需要全栈能力加快速交付，个人开发者或小团队更有优势。",
+   "合同制/项目制合作正在变多：有公司明确开放合同制（如 Stellar AI），也有 AIGC 社区支持按周/月合作，优秀匹配可到 40 万年包，灵活用工在 AI 领域越来越常见。",
+   "注意：样本主要来自 V2EX、电鸭和 HN，只有 80 多条，远程和外包的真实规模不好判断，但能看出需求集中在 Agent 开发、全栈工程和垂直场景提效。",
+   "出现转行信号：一位 5 年前端被裁后发帖求助，感觉纯前端岗位几乎消失，在纠结学 AI 还是全栈，侧面反映传统前端岗位正在被 AI 工具挤压。"
+  ],
+  "highlights": [
+   {
+    "title": "招聘 Agent 架构/资深开发",
+    "desc": "工作内容： Multi-Agent 工作流编排：摒弃 “单一超长 Prompt” 的粗暴方式，设计并落地专职 Agent 阵列（如：意图拆解 Agent 、规则合成 Agent 、逻辑自洽校验 Agent 、资产匹配 Agent ），构建基于图或状态机的调度系统。 “幻觉” 防御与确定性闭环：针对 LLM 输出的不确定性，设计强约束的结构化输出策略（ JSON Schema / Function Calling ），重点设计 Reviewer Agent 的静态逻辑推演机制，拦截 “死锁、不可达状态、数值崩溃” 等致命逻辑错误，并设计错误打回与自动修复链路。 模型路由与成本工程：基于各种主流模",
+    "url": "https://www.v2ex.com/t/1231571#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m23",
+    "summary": "招聘 Agent 架构/资深开发，要求 Multi-Agent 编排、幻觉防御和成本工程，代表 Agent 开发从跑通 demo 转向生产级工程化。"
+   },
+   {
+    "title": "TapNow 正在招聘一名 Agent 工程师（QA 方向）",
+    "desc": "我们不想再招一个亲自做测试的人，而是想招一个让 Agent 学会做测试的人 TapNow 招聘：Agent 工程师（ QA 方向） / Agentic Quality Engineer ｜深圳 从去年 12 月开始，我们一直在探索一件事：AI 时代，一家软件科技公司应该如何生产和协作。 今天的 Agent 已经很强，但大多数 Agent 仍然只是个人助手：等待人的指令，运行在某位同事的电脑上，只拥有这个人当下提供的 context 。个人效率提高了，组织仍然依靠会议和文档传递信息，Agent 的生产力也依然受限于人的设备、注意力和作息。 我们认为这不应该是终局。 TapNow 是一个完全 AI",
+    "url": "https://www.v2ex.com/t/1232468#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m12",
+    "summary": "TapNow 招 Agent 工程师（QA 方向）——不是让人做测试，而是让 Agent 学会做测试，AI 正在重塑软件开发流程本身。"
+   },
+   {
+    "title": "「广州·珠江新城」省属国企数科公司｜应用(15W-25W) / 平台(25W-35W)/测开(15W-25W)/产品(18W-28W),聊聊你自己?",
+    "desc": "我们是省属 Top 3 国企下属的全资数科公司,在珠江新城北区集团大厦办公,做集团内外的大模型应用和数字化项目。正式员工,双休,基本不加班,平时也用 Claude Code 、Codex 干活,不算古板。 现在主要在做通用办公、审计、法务、财务、投资经营分析等办公场景 Agent,会研究和实践前沿热门技术(harness 、loop engineering)。 AI 部门 20 人，继续扩招，有四个岗位: 均需全日制统招。 应用开发(本科+):前端+后端（熟练）,有自己的审美观,做过实际的 Agent 开发。年薪 15-25 万。 平台/架构(编制要求硕士+):有技术品味,主要负责 PaaS ",
+    "url": "https://www.v2ex.com/t/1231333#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m26",
+    "summary": "省属国企数科公司招 Agent 应用开发，年薪 15-35 万，平时用 Claude Code/Codex 干活，说明传统企业开始认真落地 AI Agent 并接受 AI 原生工作方式。"
+   },
+   {
+    "title": "There is a massive competitive advantage right now in building 'boring' infrastr",
+    "desc": "There is a massive competitive advantage right now in building 'boring' infrastructure manually instead of rushing to wrap an AI API. While the trend is to build a conversational interface for everything, I've found that real businesses are still bleeding time on core sales friction. For example, moving away from static PDFs to interactive live sales quotations requires rock-solid, hand-coded data",
+    "url": "https://news.ycombinator.com/item?id=49224620",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m49",
+    "summary": "HN 上有开发者直言：手动构建‘无聊’的基础设施比急着套 AI API 更有优势，市场开始反思炒概念、回到解决真实业务痛点的务实路线。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+    "url": "https://news.ycombinator.com/item?id=49217319",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m51",
+    "summary": "LiveKit 招 VoiceAI 基础设施工程师，语音驱动计算的时代正在拉开，语音交互和实时 AI Agent 的基础层成为新机会。"
+   },
+   {
+    "title": "Confido | ML Ops, AI, Platform/Core | NYC (Chelsea) | $200k–$350k+ Base We're bu",
+    "desc": "Confido | ML Ops, AI, Platform/Core | NYC (Chelsea) | $200k–$350k+ Base We're building the AI operating system for CPG brands like OLIPOP, Tropicana, Dr. Squatch, Chobani, and 200+ others. Our customers manage over $40B in revenue on Confido. We grew 5x last year and are on track to 4x again this year.\nWe're hiring across multiple engineering teams: Applied AI Engineers MLOps Engineers Backend & F",
+    "url": "https://news.ycombinator.com/item?id=49174463",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Confido 为 CPG 品牌做 AI 操作系统，工程师薪资 $200K-$350K，垂直行业 AI 应用获得高估值和高薪资，是当下 AI 商业化的最佳样本。"
+   }
+  ],
+  "week": "2026-W33"
+ },
+ "llm_used": true,
+ "degraded": []
+}
