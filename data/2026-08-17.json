@@ -1,0 +1,385 @@
+{
+ "date": "2026-08-17",
+ "generated_at": "2026-08-17 06:40",
+ "trends": [
+  "AI行业进入并购整合与资本狂热期：Stripe 70亿美元收购OpenRouter、Anthropic单季营收115亿美元、Nvidia缩减对OpenAI的融资担保，资本正加速押注头部模型公司和AI基础设施层。",
+  "安全与信任危机成为焦点：OpenAI解散安全评估团队，Anthropic CEO承认行业面临信任危机，AI治理和透明度问题已从技术讨论变成影响公司战略和公众认知的核心矛盾。",
+  "AI产品从聊天助手进化为深度工作智能体：ChatGPT记录操作历史、办公智能体多智能体协作、系统提示透明化，未来AI将更深度参与工作流，隐私和可控性也会成为新挑战。",
+  "创业机会集中在中间层和垂直工具：AI积分转售、API聚合网关、数学编码智能体等新商业模式和技术方向浮现，围绕模型效率、成本优化和垂直场景的创业窗口正在打开。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 7
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 6
+  },
+  {
+   "name": "The Verge AI",
+   "count": 4
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 5
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 3
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 2
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh2",
+   "title": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "desc": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+   "lang": "Python",
+   "stars": "72,527",
+   "stars_today": "580 stars today",
+   "summary": "这是 unslothai/unsloth，一个本地 UI 工具，能跑能训练 Qwen、Kimi、Gemma、DeepSeek 这些主流大模型和扩散模型。今天涨了 580 星，因为支持最新模型而且用起来方便，正成为社区玩本地 AI 的最爱。"
+  },
+  {
+   "id": "gh6",
+   "title": "cactus-compute/needle",
+   "url": "https://github.com/cactus-compute/needle",
+   "desc": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+   "lang": "Python",
+   "stars": "6,533",
+   "stars_today": "447 stars today",
+   "summary": "这是 cactus-compute/needle，一个只有 14MB 的微型基础模型，专为手机、手表、智能家居和机器人等小设备设计。今天涨了 447 星，说明大家越来越关注端侧 AI，这么小体积还能干大活的模型是未来方向。"
+  },
+  {
+   "id": "gh5",
+   "title": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "desc": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+   "lang": "JavaScript",
+   "stars": "39,991",
+   "stars_today": "446 stars today",
+   "summary": "这是 ToolJet/ToolJet，一个开源的企业应用生成平台，主打快速搭内部工具、仪表盘和工作流，还集成了 AI agent 能力。今天涨了 446 星，因为低代码 + AI 工具链是现在企业落地的热门场景，它正好卡在这个点上。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+   "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+   "desc": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n30",
+   "summary": "支付巨头Stripe以超70亿美元收购AI网关初创公司OpenRouter，OpenRouter相当于AI API的中转站，让开发者用统一接口访问多个模型。这是AI基础设施领域迄今最大的并购之一，说明资本看好AI应用分发层，开发者需留意模型价格和API策略可能随之变化。"
+  },
+  {
+   "title": "牛来！A社营收暴涨1400%，最新季度入账115亿美元",
+   "url": "https://www.qbitai.com/2026/08/473947.html",
+   "desc": "将超越马斯克的SpaceX，成为史上上市估值最高的IPO。",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n44",
+   "summary": "Anthropic（A社）最新季度营收达115亿美元，同比增长1400%，并有望超越SpaceX成为史上估值最高的IPO。这证明前沿模型公司的商业变现远超预期，也意味着AI算力与订阅市场的爆发力正在重塑科技投资格局。"
+  },
+  {
+   "title": "OpenAI reportedly disbanded its preparedness team",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+   "desc": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "据金融时报报道，OpenAI上月底解散了负责评估模型严重风险并制定缓解措施的“preparedness”团队。在自主智能体和越狱风险频发的当下，这一举动被视为AGI安全治理的重大倒退，可能加剧监管审查和公众不信任。"
+  },
+  {
+   "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+   "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 36,
+   "id": "n22",
+   "summary": "Nvidia大幅减少了可能为OpenAI基础设施融资提供的担保金额。Nvidia是OpenAI最大的算力伙伴，此举可能反映双方关系降温，或Nvidia对OpenAI的回报前景信心不足，并直接影响OpenAI的数据中心扩张计划。"
+  },
+  {
+   "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+   "desc": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you ma",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "ChatGPT桌面应用（macOS）新增“Computer History”功能，会记录用户的点击和键盘操作，用于训练模型、学习工作流、建议自动化甚至代劳未完成任务。这标志着AI从聊天工具转向个人数字管家，但全面记录操作也带来巨大隐私隐患。"
+  },
+  {
+   "title": "Claude: System Prompts",
+   "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 465,
+   "id": "n2",
+   "summary": "Anthropic公开了Claude的系统提示（System Prompts），详细展示了模型被赋予的身份、行为准则和输出约束。对开发者来说，这是一份罕见的Prompt Engineering实战教材，能直观了解顶级实验室如何设计系统级指令来塑造模型行为。"
+  },
+  {
+   "title": "Models Are Getting Dumber on Purpose",
+   "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 196,
+   "id": "n6",
+   "summary": "文章指出，部分模型表现变差并非能力衰减，而是厂商故意限制，比如为节省推理成本或降低安全越狱风险。这提醒开发者不要盲目迷信基准分数，模型能力波动背后可能存在商业动机，评测时需要更谨慎。"
+  },
+  {
+   "title": "The AI Credit Resale Economy",
+   "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 198,
+   "id": "n5",
+   "summary": "本文揭露了一个围绕AI API额度（credits）进行转售和套利的灰色经济，有人低价囤积额度再高价卖出。这反映出API定价不透明存在巨大套利空间，创业者可考虑做额度管理或调度优化工具，但也要注意合规风险。"
+  },
+  {
+   "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+   "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+   "desc": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "Anthropic CEO Dario Amodei公开回应外界对AI的强烈反弹，认为问题本质是信任危机。这标志着AI领袖首次正面承认行业公信力受挫，未来企业采购、用户采纳和监管都会更加谨慎，构建透明可信的AI品牌变得更重要。"
+  },
+  {
+   "title": "李飞飞最新访谈：AI咋能代替人呢？",
+   "url": "https://www.qbitai.com/2026/08/474140.html",
+   "desc": "AI不是替代者，而是个人能力的放大镜",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n41",
+   "summary": "李飞飞在最新访谈中强调，AI不是替代者，而是个人能力的放大器。作为AI视觉和伦理领域的权威，她的观点有助于校准公众预期，也启示开发者应更多思考如何打造“增强人”而非“取代人”的产品。"
+  },
+  {
+   "title": "WorkSwarm：引领办公智能体新范式，让AI从一个助手，进化为一支与你并肩作战的团队",
+   "url": "https://www.qbitai.com/2026/08/473972.html",
+   "desc": "背后是四项关键能力",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n43",
+   "summary": "WorkSwarm提出办公智能体新范式，让AI从单一助手进化为一支多智能体协作团队，背后涉及任务分解、角色分工等四项关键能力。这代表了办公AI产品的新形态，多智能体协作正成为创业和产品创新的热门方向。"
+  },
+  {
+   "title": "MathCode, Mathematical Coding Agent",
+   "url": "https://math-ai-org.github.io/mathcode/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 42,
+   "id": "n19",
+   "summary": "MathCode是一个面向数学问题求解和代码生成的智能体（或框架），专注将数学推理与代码执行结合。数学+代码是AI最具挑战性和价值的应用场景，这类工具可能为科研、教育和工程计算带来新的自动化能力。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph2",
+   "title": "Chert",
+   "url": "https://www.producthunt.com/products/chert",
+   "desc": "Vapi for FaceTime: AI video agents in a few lines Discussion | Link",
+   "summary": "几行代码就能接入 FaceTime 的 AI 视频代理，类似 Vapi 但面向视频通话，能快速构建有视觉和对话能力的智能体，极具创新性。"
+  },
+  {
+   "id": "ph3",
+   "title": "HarnessRouter Community Edition",
+   "url": "https://www.producthunt.com/products/epsilla",
+   "desc": "Open-source unified interface for agent harnesses Discussion | Link",
+   "summary": "开源的统一接口，用于连接和管理各种 agent harness，帮助开发者标准化集成不同 AI 代理框架，是 AI 工程化的重要基础设施。"
+  },
+  {
+   "id": "ph4",
+   "title": "CostLogic",
+   "url": "https://www.producthunt.com/products/costlogic",
+   "desc": "AI-powered construction takeoffs, estimates, and invoices Discussion | Link",
+   "summary": "用 AI 自动完成建筑业的工程量估算、报价和发票生成，大幅减少手工流程的时间和错误，垂直领域创业潜力大。"
+  },
+  {
+   "id": "ph6",
+   "title": "Vidaya",
+   "url": "https://www.producthunt.com/products/vidaya",
+   "desc": "Healthspan score from your wearables, labs, and DNA. Discussion | Link",
+   "summary": "结合可穿戴设备、实验室数据和 DNA，利用 AI 生成个性化健康寿命评分，帮助用户全面理解和改善长期健康。"
+  },
+  {
+   "id": "ph23",
+   "title": "NS1",
+   "url": "https://www.producthunt.com/products/ns1",
+   "desc": "Personalized Nervous System Training Discussion | Link",
+   "summary": "个性化神经系统训练，运用 AI 根据用户状态动态调整方案，助力压力调节和专注力提升，是数字健康的新方向。"
+  },
+  {
+   "id": "ph24",
+   "title": "Outcome",
+   "url": "https://www.producthunt.com/products/contentblocks",
+   "desc": "Turn your content into a personal outcome for every lead Discussion | Link",
+   "summary": "通过 AI 将内容转化为每个潜在客户的个性化结果，显著提升营销转化率，适合内容驱动的增长策略。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+   "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+   "desc": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "这是阿里发布的27B参数视觉语言模型Qwen 3.8，可在笔记本上运行，但默认会过度思考；值得关注是因为它开源且尺寸适合本地部署，性能出色。"
+  },
+  {
+   "title": "CORS Chat",
+   "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+   "desc": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "这是他当天用GPT-5.6-Sol构建的测试工具，提供一个Web UI来调试本地跑Qwen 3.8；值得关注是因为能让开发者在浏览器里轻松测试LM Studio的模型。"
+  },
+  {
+   "title": "How I Run My 1.5M+ Follower Content Business With Codex | Riley Brown",
+   "url": "https://creatoreconomy.so/p/how-i-run-my-content-business-with-codex-riley-brown",
+   "desc": "Riley revealed his full AI stack including how he uses Codex to research topics, write video hooks, and create viral thumbnails.",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b14",
+   "summary": "这是Riley Brown分享用Codex运营150万粉丝内容业务的完整AI工作流，包括选题、写视频钩子和做缩略图；值得关注因为它展示了内容创业者如何用AI工具规模化生产。"
+  },
+  {
+   "title": "Quoting Dario Amodei",
+   "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+   "desc": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks.  I think it is fundamentally a crisis of trust.  I think that ordinary people don’t trust companies, governments, or ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "这是对Anthropic CEO Dario Amodei的引用，他认为公众对AI的负面印象源于信任危机而非AI领袖的警告；值得关注因为它引发对AI风险沟通和公众信任的反思。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化是最大热点：字节、快手、讯飞及创业公司都在招 Agent 工程师，要求掌握 RAG、Memory、Tool Use 等核心机制，而不是简单调 API。",
+   "AI Infra 需求激增：大模型训练/推理优化、Kubernetes 调度、GPU 集群管理等岗位增多，通义、讯飞等专门开设 AI Infra 职位。",
+   "『AI Native 开发』成为必备技能：多家公司明确要求能用 Codex/Cursor/Claude 辅助编程，并会审查、优化 AI 生成代码，传统后端（Java/Go）也在向此转型。",
+   "垂直行业『AI+领域知识』走俏：量化金融、广告营销、生命科学、跨境电商都在招懂业务又懂大模型的人才，如量化私募招预训练/Agent 专家。",
+   "管理型 AI 岗位出现：不少创业团队找『AI 算法一号位』『技术合伙人』，要求既懂大模型又能带队，偏重从 0 到 1 的交付能力。"
+  ],
+  "gigs": [
+   "远程/外包市场上，AI Agent 定制开发需求旺盛：比如用 Dify 搭建智能体小程序、企业内部文档自动化提效，单子预算从几千到几万元不等（样本有限，但长尾需求可见）。",
+   "合同制/兼职岗位增多：部分早期公司提供 equity-only 或 fractional 职位（如 m52），也有按小时计费的 AI 工程外包，适合想参与创业的资深工程师。",
+   "特定技术难题的外包单子多：例如征信 OCR 表格识别（20K+）、kdb+/q 专家等，只要解决具体问题，报酬明确，但样本量小，需谨慎判断。",
+   "远程全球化协作成常态：有新加坡和美国公司招远程 AI 工程师，中国开发者有机会，但需注意时区、语言和合规（样本主要来自 V2EX 和电鸭）。"
+  ],
+  "highlights": [
+   {
+    "title": "大疆 4 大招聘通道开放：社招 473、校招 139、构建者计划、实习",
+    "desc": "[通道一：社会招聘] 官网\"社会招聘\"频道 473 个岗位在招 算法 59 、软件 45 、供应链管理 43 、嵌入式 33 、数字化建设 30 、财务 26 、销售 27 、市场 24 ，覆盖 40+ 职能方向 地点：深圳 449 、上海 70 、北京 23 （多岗可选） 海外岗 12+：欧洲/北美/东南亚/日韩/拉美/中东非的销售、渠道 BP 、GTM 、税务等，部分接受外派 热招：云端大模型算法、计算机视觉、SLAM 、决策规划、芯片验证、电池/天线/热设计硬件、ESL 系统仿真（ 8/6 新发） [通道二：2027\"拓疆者\"校园招聘] 139 个职位，算法主导（ 54 岗：大模型推理部",
+    "url": "https://www.v2ex.com/t/1234181#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m16",
+    "summary": "大疆大规模开放 AI 算法、大模型推理等 473 个社招岗位，说明 AI 正深入硬件和实体产业。"
+   },
+   {
+    "title": "快手组内直推，招聘 AI 应用开发工程师",
+    "desc": "base 快手商业化，北京总部\n职位描述\n1 、参与广告业务中大模型能力的研发与落地，包括广告商品识别、广告素材理解及生成、智能创编、智能助手等核心场景；\n2 、应用先进的大模型训练技术（如 SFT 、LoRA 、RLHF 、Prompt Engineering 等），构建面向广告场景的垂类大模型；\n3 、参与推动大模型在广告行业中的文本、内容可控生成等关键问题的算法突破；\n4 、参与推动 AIGC 与广告业务结合的创新应用，提升投放效率与用户体验。 任职要求\n1 、计算机、人工智能、电子工程、数学等相关专业本科及以上学历，至少具备 1-2 年大模型或相关研发经验；\n2 、扎实的机器学习与深度",
+    "url": "https://www.v2ex.com/t/1234123#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m18",
+    "summary": "快手商业化招大模型应用工程师，要求掌握 SFT/LoRA/RLHF 并落地广告商品识别与素材生成，代表大厂垂类模型投入。"
+   },
+   {
+    "title": "[社招] 字节跳动 agent 工程师 aime",
+    "desc": "内推链接： https://job.toutiao.com/s/SZ2N3hxX494 职位描述\n1 、负责字节跳动 AI Agent 产品 Aime 的 Agent 主架构研发与优化，包括但不限于上下文组装与压缩、Memory 机制（短期/长期/情景记忆）、调度机制等业务模块的设计与落地；\n2 、负责 Skill 体系与扩展能力建设，涵盖 Skill 框架设计、插件化生态、Skill 自进化机制等方向的研究与工程化；\n3 、负责 Agent 端到端效果调优与效率优化；\n4 、进行 AI 前沿技术的调研与落地。\n职位要求\n1 、本科及以上学历，计算机、软件工程、人工智能等相关专业；\n2 、思维",
+    "url": "https://www.v2ex.com/t/1233379#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "字节跳动为 AI Agent 产品 Aime 招聘 Agent 主架构工程师，强调 Memory、Skill 体系，体现 Agent 从演示走向产品化。"
+   },
+   {
+    "title": "[社招] [北上深] 头部私募高薪招聘 预训练/后训练/agent 算法专家/infra",
+    "desc": "国内知名量化私募基金管理公司，管理资金百亿以上。 技术团队 90%毕业于美国常青藤、清北复交等知名院校，核心团队包括海外知名对冲基金优质人才，数学、物理、计算机等领域资深专家，国际顶会论文作者，国际知名数学及计算机竞赛如 CMO 、NOI 、ACM-ICPC 、CPhO 、APhO 、Kaggle 竞赛高手等。 感兴趣邮件至： jxiao@hiringby.com 电话&微信：15210750729 大模型预训练算法研究员\n职位描述\n1 、大语言模型预训练与迭代：主导/参与千亿至万亿级参数 LLM 的预训练工作。深入探索 Scaling Law ，指导模型结构设计与超参调优，并针对复杂代码和逻",
+    "url": "https://www.v2ex.com/t/1233331#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "百亿量化私募高薪招聘预训练/后训练/Agent 算法专家，显示 AI 人才竞争已蔓延到对冲基金领域。"
+   },
+   {
+    "title": "TapNow 正在招聘一名 Agent 工程师（QA 方向）",
+    "desc": "我们不想再招一个亲自做测试的人，而是想招一个让 Agent 学会做测试的人 TapNow 招聘：Agent 工程师（ QA 方向） / Agentic Quality Engineer ｜深圳 从去年 12 月开始，我们一直在探索一件事：AI 时代，一家软件科技公司应该如何生产和协作。 今天的 Agent 已经很强，但大多数 Agent 仍然只是个人助手：等待人的指令，运行在某位同事的电脑上，只拥有这个人当下提供的 context 。个人效率提高了，组织仍然依靠会议和文档传递信息，Agent 的生产力也依然受限于人的设备、注意力和作息。 我们认为这不应该是终局。 TapNow 是一个完全 AI",
+    "url": "https://www.v2ex.com/t/1232468#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m37",
+    "summary": "TapNow 招聘 Agent 工程师（QA 方向），目的是让 Agent 学会做测试，说明 AI 原生公司正用 Agent 重构内部研发流程。"
+   },
+   {
+    "title": "30k-50k/远程居家办公（AI agent方向）-大模型聚合业务负责人",
+    "desc": "关于我们 AIsa成立于2025年，需梯子打开网址：https://aisa.one/zh-cn 总部位于美国旧金山。公司背后汇聚了顶尖的投资阵容，包括阿里巴巴、Tribe Capital、Draper Associates、Sumitomo Corporation（住友商事）以及Saison Capital等知名机构投资人，是一家专注于 AI 智能体的基础设施的创业公司，为智能体生态提供统一的 ",
+    "url": "https://eleduck.com/posts/VvfpN8",
+    "source": "电鸭社区",
+    "id": "m49",
+    "summary": "新公司 AIsa 专注 AI Agent 基础设施，获阿里、住友等投资，支持远程，反映出 Agent infra 成为创业融资热门赛道。"
+   }
+  ],
+  "week": "2026-W34"
+ },
+ "llm_used": true,
+ "degraded": []
+}
