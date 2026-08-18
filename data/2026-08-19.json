@@ -1,0 +1,405 @@
+{
+ "date": "2026-08-19",
+ "generated_at": "2026-08-19 06:44",
+ "trends": [
+  "AI 商业化进入加速兑现期：Anthropic 年化营收 650 亿美元、Etched 估值一个月翻倍至 210 亿、内存价格暴涨 500%，显示资金和成本都在向 AI 基础层集中。",
+  "安全与合规成为 AI 产品发布的基础配置：OpenAI 一天内发布青少年保护、国家安全民主监督、以及针对 Hugging Face 破解事件的新防护措施，监管压力正在转化为具体产品功能。",
+  "AI 开发工具从单点走向全流程：Cursor 做代码托管、Warp 做软件工厂、Asana 用 Codex 两周干完五年工程，AI 原生的研发协作和 DevOps 链路是明确的创业机会。",
+  "消费级 AI 硬件开始用设计规避隐私风险：苹果带摄像头 AirPods 可能主动限制录像，Perplexity 靠免费策略在印度获客，说明贴近用户信任比堆参数更关键。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 13
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 5
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 3
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 13
+  },
+  {
+   "name": "The Verge AI",
+   "count": 9
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 3
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh3",
+   "title": "volcengine/OpenViking",
+   "url": "https://github.com/volcengine/OpenViking",
+   "desc": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+   "lang": "Python",
+   "stars": "29,321",
+   "stars_today": "298 stars today",
+   "summary": "OpenViking 是一个为 AI 代理设计的自进化上下文数据库，统一了代理记忆、知识 RAG 和技能。它火是因为解决了代理长期记忆和知识管理的关键问题，是当前 AI 代理落地的重要基础设施。"
+  },
+  {
+   "id": "gh10",
+   "title": "bojieli/ai-agent-book",
+   "url": "https://github.com/bojieli/ai-agent-book",
+   "desc": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+   "lang": "Python",
+   "stars": "39,077",
+   "stars_today": "556 stars today",
+   "summary": "《深入理解 AI Agent》这本书开源了全文、PDF 和配套代码，是系统学习 AI 代理原理与实践的极佳资源。火是因为 AI Agent 是当下热点，作者李博杰是知名技术人，内容实战性强。"
+  },
+  {
+   "id": "gh1",
+   "title": "chaitanyagiri/munder-difflin",
+   "url": "https://github.com/chaitanyagiri/munder-difflin",
+   "desc": "local multi-agent harness",
+   "lang": "TypeScript",
+   "stars": "1,984",
+   "stars_today": "256 stars today",
+   "summary": "munder-difflin 是一个本地多代理协调工具（harness），用于构建和管理多个 AI 代理的协作。火是因为它让开发者能轻松在本地搭建多代理系统，符合当前对代理编排的需求。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Anthropic’s annualized revenue surges to $65B",
+   "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+   "desc": "The model maker added $18 billion in annualized revenue in two months.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "Anthropic 的年度化营收飙到 650 亿美元，两个月内新增 180 亿。这是当前 AI 商业化最强劲的信号，说明 Claude 的企业付费意愿远超预期，也给整个大模型赛道带来估值想象空间。"
+  },
+  {
+   "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+   "desc": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n52",
+   "summary": "OpenAI 公布了新的安全机制：针对此前 AI 意外攻破 Hugging Face 的事件，加强了研发环境监控、对齐和后续安全措施。这说明前沿模型的安全风险已经从理论变成现实，监管和行业都会更关注模型发布前的红队测试。"
+  },
+  {
+   "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+   "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+   "desc": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "Cursor 推出名为 Origin 的代码托管平台，正面挑战 GitHub。Cursor 本就是 AI 编辑器明星，此举是把 AI 能力从编辑器延伸到协作托管，可能改变开发者的工作流，并倒逼 GitHub 加快 AI 化。"
+  },
+  {
+   "title": "Etched’s valuation doubles to $21B in a month",
+   "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+   "desc": "Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "AI 芯片公司 Etched 估值一个月翻倍至 210 亿美元，Jane Street 领投，并已部署其首套 AI 集群系统。这家公司专做 Transformer 专用芯片，说明“专用硬件替代通用 GPU”终于有了真实客户买单。"
+  },
+  {
+   "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+   "url": "https://openai.com/index/asana",
+   "desc": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n34",
+   "summary": "Asana 用 OpenAI Codex 两周完成了原本预计五年的工程工作量，成本仅约 1.2 万美元。这是企业级 AI 编程 agent 的标杆案例，证明 AI 能接管大型遗留系统重构，会让更多企业为 AI 编程工具付费。"
+  },
+  {
+   "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+   "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+   "desc": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "OpenAI 正式推出青少年版 ChatGPT，内置更强的保护、家长控制和健康使用功能。虽然青少年早就在用，但这次是官方对未成年人 AI 安全争议的正面回应，教育市场和合规要求都会随之更明确。"
+  },
+  {
+   "title": "Strengthening democratic oversight in national security",
+   "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+   "desc": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI 启动新项目，用工具、培训和专家支持加强 AI 在国家安全领域的民主监督。这显示 AI 与国家安全的交集正成为政策焦点，也是 OpenAI 在政府关系上加码的重要信号。"
+  },
+  {
+   "title": "Warp’s new system is an out-of-the-box software factory for AI development",
+   "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+   "desc": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "Warp 发布 Warp Factories，号称开箱即用的 AI 软件开发工厂基础设施。它想降低搭建 AI 应用从代码到部署的工程门槛，对创业团队来说，以后可能不用自己拼一堆 CI/CD、沙箱和模型服务工具。"
+  },
+  {
+   "title": "Turbovec – Google's TurboQuant for vector search in Rust",
+   "url": "https://github.com/RyanCodrai/turbovec",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 181,
+   "id": "n10",
+   "summary": "Turbovec 是 Google 自家 TurboQuant 算法的 Rust 版向量搜索库，通过量化压缩向量索引来省内存并保持召回率。对做 RAG、推荐系统和向量检索的开发者来说，这是个值得关注的高性能基础设施。"
+  },
+  {
+   "title": "How Much Memory Does Your Agent Actually Need?",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Hugging Face 发文讨论 AI agent 到底需要多大记忆，并给出衡量和优化方向。现在很多 agent 把所有东西都塞进上下文，成本高又容易跑偏，这篇文章对设计 agent 架构很有参考价值。"
+  },
+  {
+   "title": "Memory prices climb 500% in 12 months",
+   "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 409,
+   "id": "n4",
+   "summary": "内存价格 12 个月涨了 500%，虽然不全是 AI 的锅，但 AI 服务器对 HBM 和普通 DRAM 的旺盛需求绝对是主要推手。这会直接抬高模型训练和推理成本，做 AI 创业或建集群的团队需要重新做预算。"
+  },
+  {
+   "title": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
+   "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+   "desc": "Apple’s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "苹果带摄像头的 AirPods 被曝光，但分析认为它可能不会变成“偷拍神器”，因为系统会防止主动录像。这说明 AI 可穿戴设备正在重新定义隐私边界，也预示着 Visual Intelligence 这类 AI 交互将更贴身。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph1",
+   "title": "Controller AI",
+   "url": "https://www.producthunt.com/products/insight-ai",
+   "desc": "Build deterministic agents that actually follow your process Discussion | Link",
+   "summary": "构建确定性 AI agent，确保其严格遵循预设流程，解决 agent 失控和不可预测的问题。对需要稳定自动化流程的开发者非常有价值。"
+  },
+  {
+   "id": "ph12",
+   "title": "Shepherd Terminal",
+   "url": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent",
+   "desc": "A persistent terminal for Codex and Claude side by side Discussion | Link",
+   "summary": "为 Codex 和 Claude 提供持久终端环境，两个 AI 可并行协作，大幅提升复杂任务的开发效率。适合重度使用命令行 AI 的开发者。"
+  },
+  {
+   "id": "ph17",
+   "title": "Open Index",
+   "url": "https://www.producthunt.com/products/open-brain",
+   "desc": "Build Smarter Agents using Structured Context Discussion | Link",
+   "summary": "通过结构化上下文构建更聪明的 agent，让 agent 利用知识图谱和关系数据增强决策能力，是探索下一代 agent 架构的有趣方向。"
+  },
+  {
+   "id": "ph27",
+   "title": "Treg",
+   "url": "https://www.producthunt.com/products/treg-openrouter-for-tools",
+   "desc": "OpenRouter for tools with 2,600 APIs, 0% markup Discussion | Link",
+   "summary": "像 OpenRouter 一样聚合 2600+ 工具 API，零加价，统一接口调用，大幅降低工具集成成本。对 AI 应用开发者是省時省力的基础设施。"
+  },
+  {
+   "id": "ph16",
+   "title": "Meterless.ai",
+   "url": "https://www.producthunt.com/products/meterless-ai",
+   "desc": "Run AI locally and own the whole workflow Discussion | Link",
+   "summary": "完全本地运行 AI，数据不出本机，用户拥有整个工作流。适合隐私敏感场景，也是成本可控的本地化 AI 方案。"
+  },
+  {
+   "id": "ph14",
+   "title": "ElevenLabs MCP in Claude",
+   "url": "https://www.producthunt.com/products/elevenlabs-mcp-2",
+   "desc": "Create and manage ElevenLabs voice agents in your chat Discussion | Link",
+   "summary": "在 Claude 聊天中直接创建和管理 ElevenLabs 语音 agent，简化语音交互开发流程。适合快速构建语音助手的开发者。"
+  },
+  {
+   "id": "ph24",
+   "title": "Skim Recap",
+   "url": "https://www.producthunt.com/products/skim-recap",
+   "desc": "Recaps what you skipped and explains where you get stuck Discussion | Link",
+   "summary": "总结你跳过的内容和卡住的地方，帮助快速补课，尤其适合技术学习场景。AI 能主动找出知识盲点，很有趣。"
+  },
+  {
+   "id": "ph0",
+   "title": "Whisperstream",
+   "url": "https://www.producthunt.com/products/whisperstream",
+   "desc": "Local AI dictation for Windows Discussion | Link",
+   "summary": "本地 AI 听写工具，支持 Windows，离线完成语音转文字，保护隐私且零延迟。适合需要高效输入又注重数据安全的用户。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Stripe buys OpenRouter for $7B",
+   "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+   "desc": "No GPUs, no Agents, just really, really, really good infra and distribution.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "Stripe 以 7B 美元收购 OpenRouter，说明在 AI 时代，分销和基础设施比模型本身更值钱；对开发者来说，以后调用模型可能会更便捷，但也可能影响价格。"
+  },
+  {
+   "title": "Mojo🔥 is now open source",
+   "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+   "desc": "Mojo🔥 is now open source Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. W",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Mojo 语言终于开源了，编译器工具链采用 Apache 2 许可，这是从 2023 年就承诺的，现在兑现；值得关注的是它作为 Python 的超集，性能接近 C，对高性能 AI 应用开发是个好选择。"
+  },
+  {
+   "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+   "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+   "desc": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigge",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Qwen 3.8 27B 在 Artificial Analysis 智能指数上拿到 52 分，和 GPT-5.6 Luna 持平，只比 GLM-5.2 (753B) 和 DeepSeek V4 Pro (1.7T) 低一分，体现了小模型通过训练达到超大模型效果的能力，对部署成本和效率意义重大。"
+  },
+  {
+   "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
+   "url": "https://www.latent.space/p/glean-model-routing",
+   "desc": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "Glean CEO 谈模型路由：面对前端模型成本高、开源权重模型又受欢迎，企业需要动态路由来控制 AI 成本，并且通过大规模人类反馈环持续优化路由；这篇文章解释了为什么模型路由会成为企业 AI 架构的关键组件。"
+  },
+  {
+   "title": "AI Coding Crash Course",
+   "url": "https://www.aihero.dev/workshops/ai-coding-crash-course",
+   "desc": "Ship faster than ever before by taking control of your code, with software engineering fundamentals.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "Matt Pocock 推出《AI 编程速成课》，重点不是学 AI 工具，而是补上软件工程基础，让你在 AI 辅助下更快地交付代码；适合有一定经验但想系统掌握工程实践的开发者。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化是最大热点：字节、快手、讯飞及创业公司都在招 Agent 工程师，要求掌握 RAG、Memory、Tool Use 等核心机制，而不是简单调 API。",
+   "AI Infra 需求激增：大模型训练/推理优化、Kubernetes 调度、GPU 集群管理等岗位增多，通义、讯飞等专门开设 AI Infra 职位。",
+   "『AI Native 开发』成为必备技能：多家公司明确要求能用 Codex/Cursor/Claude 辅助编程，并会审查、优化 AI 生成代码，传统后端（Java/Go）也在向此转型。",
+   "垂直行业『AI+领域知识』走俏：量化金融、广告营销、生命科学、跨境电商都在招懂业务又懂大模型的人才，如量化私募招预训练/Agent 专家。",
+   "管理型 AI 岗位出现：不少创业团队找『AI 算法一号位』『技术合伙人』，要求既懂大模型又能带队，偏重从 0 到 1 的交付能力。"
+  ],
+  "gigs": [
+   "远程/外包市场上，AI Agent 定制开发需求旺盛：比如用 Dify 搭建智能体小程序、企业内部文档自动化提效，单子预算从几千到几万元不等（样本有限，但长尾需求可见）。",
+   "合同制/兼职岗位增多：部分早期公司提供 equity-only 或 fractional 职位（如 m52），也有按小时计费的 AI 工程外包，适合想参与创业的资深工程师。",
+   "特定技术难题的外包单子多：例如征信 OCR 表格识别（20K+）、kdb+/q 专家等，只要解决具体问题，报酬明确，但样本量小，需谨慎判断。",
+   "远程全球化协作成常态：有新加坡和美国公司招远程 AI 工程师，中国开发者有机会，但需注意时区、语言和合规（样本主要来自 V2EX 和电鸭）。"
+  ],
+  "highlights": [
+   {
+    "title": "大疆 4 大招聘通道开放：社招 473、校招 139、构建者计划、实习",
+    "desc": "[通道一：社会招聘] 官网\"社会招聘\"频道 473 个岗位在招 算法 59 、软件 45 、供应链管理 43 、嵌入式 33 、数字化建设 30 、财务 26 、销售 27 、市场 24 ，覆盖 40+ 职能方向 地点：深圳 449 、上海 70 、北京 23 （多岗可选） 海外岗 12+：欧洲/北美/东南亚/日韩/拉美/中东非的销售、渠道 BP 、GTM 、税务等，部分接受外派 热招：云端大模型算法、计算机视觉、SLAM 、决策规划、芯片验证、电池/天线/热设计硬件、ESL 系统仿真（ 8/6 新发） [通道二：2027\"拓疆者\"校园招聘] 139 个职位，算法主导（ 54 岗：大模型推理部",
+    "url": "https://www.v2ex.com/t/1234181#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m16",
+    "summary": "大疆大规模开放 AI 算法、大模型推理等 473 个社招岗位，说明 AI 正深入硬件和实体产业。"
+   },
+   {
+    "title": "快手组内直推，招聘 AI 应用开发工程师",
+    "desc": "base 快手商业化，北京总部\n职位描述\n1 、参与广告业务中大模型能力的研发与落地，包括广告商品识别、广告素材理解及生成、智能创编、智能助手等核心场景；\n2 、应用先进的大模型训练技术（如 SFT 、LoRA 、RLHF 、Prompt Engineering 等），构建面向广告场景的垂类大模型；\n3 、参与推动大模型在广告行业中的文本、内容可控生成等关键问题的算法突破；\n4 、参与推动 AIGC 与广告业务结合的创新应用，提升投放效率与用户体验。 任职要求\n1 、计算机、人工智能、电子工程、数学等相关专业本科及以上学历，至少具备 1-2 年大模型或相关研发经验；\n2 、扎实的机器学习与深度",
+    "url": "https://www.v2ex.com/t/1234123#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m18",
+    "summary": "快手商业化招大模型应用工程师，要求掌握 SFT/LoRA/RLHF 并落地广告商品识别与素材生成，代表大厂垂类模型投入。"
+   },
+   {
+    "title": "[社招] 字节跳动 agent 工程师 aime",
+    "desc": "内推链接： https://job.toutiao.com/s/SZ2N3hxX494 职位描述\n1 、负责字节跳动 AI Agent 产品 Aime 的 Agent 主架构研发与优化，包括但不限于上下文组装与压缩、Memory 机制（短期/长期/情景记忆）、调度机制等业务模块的设计与落地；\n2 、负责 Skill 体系与扩展能力建设，涵盖 Skill 框架设计、插件化生态、Skill 自进化机制等方向的研究与工程化；\n3 、负责 Agent 端到端效果调优与效率优化；\n4 、进行 AI 前沿技术的调研与落地。\n职位要求\n1 、本科及以上学历，计算机、软件工程、人工智能等相关专业；\n2 、思维",
+    "url": "https://www.v2ex.com/t/1233379#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "字节跳动为 AI Agent 产品 Aime 招聘 Agent 主架构工程师，强调 Memory、Skill 体系，体现 Agent 从演示走向产品化。"
+   },
+   {
+    "title": "[社招] [北上深] 头部私募高薪招聘 预训练/后训练/agent 算法专家/infra",
+    "desc": "国内知名量化私募基金管理公司，管理资金百亿以上。 技术团队 90%毕业于美国常青藤、清北复交等知名院校，核心团队包括海外知名对冲基金优质人才，数学、物理、计算机等领域资深专家，国际顶会论文作者，国际知名数学及计算机竞赛如 CMO 、NOI 、ACM-ICPC 、CPhO 、APhO 、Kaggle 竞赛高手等。 感兴趣邮件至： jxiao@hiringby.com 电话&微信：15210750729 大模型预训练算法研究员\n职位描述\n1 、大语言模型预训练与迭代：主导/参与千亿至万亿级参数 LLM 的预训练工作。深入探索 Scaling Law ，指导模型结构设计与超参调优，并针对复杂代码和逻",
+    "url": "https://www.v2ex.com/t/1233331#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "百亿量化私募高薪招聘预训练/后训练/Agent 算法专家，显示 AI 人才竞争已蔓延到对冲基金领域。"
+   },
+   {
+    "title": "TapNow 正在招聘一名 Agent 工程师（QA 方向）",
+    "desc": "我们不想再招一个亲自做测试的人，而是想招一个让 Agent 学会做测试的人 TapNow 招聘：Agent 工程师（ QA 方向） / Agentic Quality Engineer ｜深圳 从去年 12 月开始，我们一直在探索一件事：AI 时代，一家软件科技公司应该如何生产和协作。 今天的 Agent 已经很强，但大多数 Agent 仍然只是个人助手：等待人的指令，运行在某位同事的电脑上，只拥有这个人当下提供的 context 。个人效率提高了，组织仍然依靠会议和文档传递信息，Agent 的生产力也依然受限于人的设备、注意力和作息。 我们认为这不应该是终局。 TapNow 是一个完全 AI",
+    "url": "https://www.v2ex.com/t/1232468#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m37",
+    "summary": "TapNow 招聘 Agent 工程师（QA 方向），目的是让 Agent 学会做测试，说明 AI 原生公司正用 Agent 重构内部研发流程。"
+   },
+   {
+    "title": "30k-50k/远程居家办公（AI agent方向）-大模型聚合业务负责人",
+    "desc": "关于我们 AIsa成立于2025年，需梯子打开网址：https://aisa.one/zh-cn 总部位于美国旧金山。公司背后汇聚了顶尖的投资阵容，包括阿里巴巴、Tribe Capital、Draper Associates、Sumitomo Corporation（住友商事）以及Saison Capital等知名机构投资人，是一家专注于 AI 智能体的基础设施的创业公司，为智能体生态提供统一的 ",
+    "url": "https://eleduck.com/posts/VvfpN8",
+    "source": "电鸭社区",
+    "id": "m49",
+    "summary": "新公司 AIsa 专注 AI Agent 基础设施，获阿里、住友等投资，支持远程，反映出 Agent infra 成为创业融资热门赛道。"
+   }
+  ],
+  "week": "2026-W34"
+ },
+ "llm_used": true,
+ "degraded": []
+}
