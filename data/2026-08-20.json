@@ -1,0 +1,347 @@
+{
+ "date": "2026-08-20",
+ "generated_at": "2026-08-20 06:45",
+ "trends": [
+  "AI竞争焦点从模型能力转向数据隐私与安全信任：OpenAI推出零数据保留、收紧安全访问等举措，都在回应企业客户和监管对数据安全的担忧，未来模型服务商会把“敢不敢交数据”当核心卖点。",
+  "消费级AI产品加速铺向学生、普通用户和桌面端：Google、Meta、Replit、Amazon纷纷把AI免费或预装，降低使用门槛，教育场景和日常助手成为新战场。",
+  "AI基础设施的瓶颈从算力蔓延到能源、传输和成本定价：核电站、空心光纤、算力定价服务等新玩家出现，说明AI不只是模型竞赛，更是能源和金融的竞争。",
+  "开源与本地推理持续进化：Unsloth、Ornith-1.5等工具让开发者更高效地部署和探索AI，自我改进和量化优化成为新趋势。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 13
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 7
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 18
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "Offering Zero Data Retention for frontier models",
+   "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+   "desc": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI宣布面向符合条件的API客户提供零数据保留（ZDR），并预览“私密安全处理”，在保障安全的同时不牺牲数据隐私。这是OpenAI在企业数据隐私上直接叫板Anthropic的关键动作，客户可以用最敏感的数据调前沿模型，且不会用于训练。对做企业级AI应用的人，这可能是选择模型供应商的重要参考。"
+  },
+  {
+   "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+   "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+   "desc": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "传闻SpaceX试图收购AI编程公司Cognition，CEO否认此事；但SpaceX一直在企业AI领域追赶OpenAI和Anthropic，凸显AI编程工具的战略价值。Cognition是Devin的开发商，如果真被收购，将改变编程助手竞争格局。"
+  },
+  {
+   "title": "Google packs Search and Gemini with new AI study tools",
+   "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+   "desc": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "Google在Search和Gemini里加入一批AI学习工具，比如为Gemini设置学生中心，支持把资料整理进学习笔记本、做闪卡、模拟测验等。这是Google和OpenAI抢学生用户的最新动作，直接把AI辅导嵌入搜索流程，对教育场景影响很大。"
+  },
+  {
+   "title": "Replit expands access to software creation with GPT-5.6 Luna",
+   "url": "https://openai.com/index/replit",
+   "desc": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "Replit推出免费模式，由GPT-5.6 Luna驱动，让用户不用再为token成本担心，直接把想法变成能跑的软件。这意味着AI编程门槛进一步降低，对独立开发者和非程序员都是福音，也加剧了AI编程工具的价格战。"
+  },
+  {
+   "title": "Meta AI is getting a Mac app",
+   "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+   "desc": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n59",
+   "summary": "Meta AI发布Mac桌面应用，可以共享你的屏幕并在上面回答问题、生成内容，还支持全局听写。Meta正在把AI助手做成更贴近用户工作和创作流程的桌面伙伴，与ChatGPT桌面端直接竞争。"
+  },
+  {
+   "title": "Researchers say OpenAI revoked their access to limited cyber program",
+   "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+   "desc": "The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "有研究人员称OpenAI收回了他们访问受限网络防御项目的权限。OpenAI的“可信访问”计划本意是给防御者更好的模型来报漏洞，但现在对访问收紧，可能引发安全社区对开放性的担忧，也说明国家安全与AI安全之间的张力。"
+  },
+  {
+   "title": "Meet the startup helping Wall Street put a price on AI compute",
+   "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+   "desc": "The AI buildout shows no signs of slowing. And with hundreds of billions of dollars a year going into data centers and GPUs, compute has become the single biggest cost for anyone building AI products. But for all that spending, there still isn’t a straightforward way to put a price on compute — or f",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "一家创业公司专门帮华尔街为AI算力定价，因为每年数千亿美元投入数据中心和GPU，但计算力本身缺少定价机制。这个赛道本质是给算力做金融基础设施，说明AI算力已经成为可交易的大宗商品，存在巨大创业机会。"
+  },
+  {
+   "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
+   "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+   "desc": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "TerraPower（比尔·盖茨的核能公司）的核反应堆在争夺AI数据中心供电合同上有独特优势。AI数据中心耗电惊人，核能是清洁稳定的大规模供电方案，TerraPower的先进反应堆设计可能成为未来AI基础设施的关键一环。"
+  },
+  {
+   "title": "Perplexity’s free AI offer left it with millions more users in India",
+   "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
+   "desc": "Perplexity's India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n56",
+   "summary": "Perplexity在印度与Airtel的合作到期后，免费AI服务仍带来了数百万新增用户，印度收入上涨约60%。这说明免费策略在新兴市场非常有效，也为AI搜索公司提供了增长样本：靠免费获客再靠API/广告变现。"
+  },
+  {
+   "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+   "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+   "desc": "It's the data, stupid.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n48",
+   "summary": "一家创业公司认为AI离治愈癌症还很远，关键是数据而非模型。肿瘤治疗需要高质量、结构化的临床数据，AI才能发挥作用。这个观点提醒我们，AI医疗的核心瓶颈是数据获取和标准化，也是创业切入点。"
+  },
+  {
+   "title": "Unsloth Dynamic 3.0 GGUFs",
+   "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 143,
+   "id": "n12",
+   "summary": "Unsloth发布Dynamic 3.0 GGUFs，这是本地大模型推理优化的重要更新，让GGUF格式的量化/反量化更动态、更灵活。对于想在消费级GPU上跑更大模型的开发者来说，这意味着更好的内存效率和加载速度，降低本地部署门槛。"
+  },
+  {
+   "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+   "url": "https://ornith.ai/ornith_1_5.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 155,
+   "id": "n10",
+   "summary": "一个名为Ornith-1.5的项目展示了从Self-Scaffolding（自我脚手架）到Self-Improvement（自我改进）的路径，意味着AI模型可以在运行时自主扩展结构从而提升能力。这是AI自我进化方向上的探索，值得关注它是否真的带来超越训练时上限的性能。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph19",
+   "title": "Origin by Cursor",
+   "url": "https://www.producthunt.com/products/cursor",
+   "desc": "The Git forge built for the age of coding agents Discussion | Link",
+   "summary": "Coding agents need a Git forge built for them, not humans. Origin by Cursor reimagines collaborative development for the AI era, making it a must-watch for agent-centric workflows."
+  },
+  {
+   "id": "ph14",
+   "title": "Sider 6.0",
+   "url": "https://www.producthunt.com/products/chatgpt-sidebar-chrome-extension",
+   "desc": "Your AI Agent for the Browser Discussion | Link",
+   "summary": "Sider 6.0 turns your browser into an AI agent, automating cross-page tasks and streamlining daily web workflows. This upgrade from side panel to true agent is a practical leap for general users."
+  },
+  {
+   "id": "ph4",
+   "title": "Cherry Blossom",
+   "url": "https://www.producthunt.com/products/cherry-blossom",
+   "desc": "Build Fab-ready Custom PCBs with one prompt Discussion | Link",
+   "summary": "Turns a natural language prompt into a Fab-ready custom PCB, dramatically lowering the barrier for hardware prototyping. This could let software developers quickly realize custom circuits without deep electronics knowledge."
+  },
+  {
+   "id": "ph9",
+   "title": "Zyntax IDE",
+   "url": "https://www.producthunt.com/products/zyntax-coding-ide-for-android",
+   "desc": "Code Editor, Terminal, Git, AI Agent for Android Discussion | Link",
+   "summary": "A full-featured IDE with code editor, terminal, Git, and AI agent all on Android. It brings a powerful coding environment to your pocket, enabling on-the-go development and AI assistance."
+  },
+  {
+   "id": "ph3",
+   "title": "Cronloop AI",
+   "url": "https://www.producthunt.com/products/cronloop-ai",
+   "desc": "AI agents that run in a loop Discussion | Link",
+   "summary": "AI agents that run in a loop, introducing a new persistent and autonomous automation pattern. This is a fresh approach for recurring tasks, opening up possibilities for background agents."
+  },
+  {
+   "id": "ph13",
+   "title": "Clipto MCP",
+   "url": "https://www.producthunt.com/products/clipto-ai",
+   "desc": "Let agents source clips from terabytes of your local video Discussion | Link",
+   "summary": "An MCP server that lets AI agents search and source clips from terabytes of local video. It solves the pain of finding the right footage without manual browsing, a boon for content creators and editors."
+  },
+  {
+   "id": "ph18",
+   "title": "AgentR 3.0",
+   "url": "https://www.producthunt.com/products/agentr",
+   "desc": "Hiring evaluation built for the AI cheating era Discussion | Link",
+   "summary": "Hiring evaluation built for the AI cheating era, helping companies assess real skills rather than AI-generated answers. This is directly relevant to developers who want fairer interview processes."
+  },
+  {
+   "id": "ph5",
+   "title": "Ressearch AI",
+   "url": "https://www.producthunt.com/products/ressearch-ai",
+   "desc": "AI workspace for reproducible scientific research Discussion | Link",
+   "summary": "An AI workspace for reproducible scientific research, making experiments transparent and repeatable. It tackles the reproducibility crisis, appealing to researchers and data scientists."
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Memory prices up 500% in 12 months",
+   "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+   "desc": "the Memory crunch continues - Moore’s Law reversed to 2007 levels",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "这篇讲的是内存价格在12个月内暴涨500%，摩尔定律逆转回2007年水平，说明AI算力需求导致的内存短缺危机，值得关注的是它对AI基础设施成本和未来硬件趋势的影响。"
+  },
+  {
+   "title": "My Mom Survived Breast Cancer Three Times. Now We're Fighting It Again With AI's Help",
+   "url": "https://creatoreconomy.so/p/my-mom-survived-breast-cancer-three",
+   "desc": "My mom’s story and how I’m using AI to navigate the healthcare system",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b12",
+   "summary": "这篇是作者分享母亲三次患乳腺癌的经历，以及如何利用AI工具来导航和优化医疗系统，值得关注的是AI在现实医疗场景中的实际应用和患者视角的体验。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化是最大热点：字节、快手、讯飞及创业公司都在招 Agent 工程师，要求掌握 RAG、Memory、Tool Use 等核心机制，而不是简单调 API。",
+   "AI Infra 需求激增：大模型训练/推理优化、Kubernetes 调度、GPU 集群管理等岗位增多，通义、讯飞等专门开设 AI Infra 职位。",
+   "『AI Native 开发』成为必备技能：多家公司明确要求能用 Codex/Cursor/Claude 辅助编程，并会审查、优化 AI 生成代码，传统后端（Java/Go）也在向此转型。",
+   "垂直行业『AI+领域知识』走俏：量化金融、广告营销、生命科学、跨境电商都在招懂业务又懂大模型的人才，如量化私募招预训练/Agent 专家。",
+   "管理型 AI 岗位出现：不少创业团队找『AI 算法一号位』『技术合伙人』，要求既懂大模型又能带队，偏重从 0 到 1 的交付能力。"
+  ],
+  "gigs": [
+   "远程/外包市场上，AI Agent 定制开发需求旺盛：比如用 Dify 搭建智能体小程序、企业内部文档自动化提效，单子预算从几千到几万元不等（样本有限，但长尾需求可见）。",
+   "合同制/兼职岗位增多：部分早期公司提供 equity-only 或 fractional 职位（如 m52），也有按小时计费的 AI 工程外包，适合想参与创业的资深工程师。",
+   "特定技术难题的外包单子多：例如征信 OCR 表格识别（20K+）、kdb+/q 专家等，只要解决具体问题，报酬明确，但样本量小，需谨慎判断。",
+   "远程全球化协作成常态：有新加坡和美国公司招远程 AI 工程师，中国开发者有机会，但需注意时区、语言和合规（样本主要来自 V2EX 和电鸭）。"
+  ],
+  "highlights": [
+   {
+    "title": "大疆 4 大招聘通道开放：社招 473、校招 139、构建者计划、实习",
+    "desc": "[通道一：社会招聘] 官网\"社会招聘\"频道 473 个岗位在招 算法 59 、软件 45 、供应链管理 43 、嵌入式 33 、数字化建设 30 、财务 26 、销售 27 、市场 24 ，覆盖 40+ 职能方向 地点：深圳 449 、上海 70 、北京 23 （多岗可选） 海外岗 12+：欧洲/北美/东南亚/日韩/拉美/中东非的销售、渠道 BP 、GTM 、税务等，部分接受外派 热招：云端大模型算法、计算机视觉、SLAM 、决策规划、芯片验证、电池/天线/热设计硬件、ESL 系统仿真（ 8/6 新发） [通道二：2027\"拓疆者\"校园招聘] 139 个职位，算法主导（ 54 岗：大模型推理部",
+    "url": "https://www.v2ex.com/t/1234181#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m16",
+    "summary": "大疆大规模开放 AI 算法、大模型推理等 473 个社招岗位，说明 AI 正深入硬件和实体产业。"
+   },
+   {
+    "title": "快手组内直推，招聘 AI 应用开发工程师",
+    "desc": "base 快手商业化，北京总部\n职位描述\n1 、参与广告业务中大模型能力的研发与落地，包括广告商品识别、广告素材理解及生成、智能创编、智能助手等核心场景；\n2 、应用先进的大模型训练技术（如 SFT 、LoRA 、RLHF 、Prompt Engineering 等），构建面向广告场景的垂类大模型；\n3 、参与推动大模型在广告行业中的文本、内容可控生成等关键问题的算法突破；\n4 、参与推动 AIGC 与广告业务结合的创新应用，提升投放效率与用户体验。 任职要求\n1 、计算机、人工智能、电子工程、数学等相关专业本科及以上学历，至少具备 1-2 年大模型或相关研发经验；\n2 、扎实的机器学习与深度",
+    "url": "https://www.v2ex.com/t/1234123#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m18",
+    "summary": "快手商业化招大模型应用工程师，要求掌握 SFT/LoRA/RLHF 并落地广告商品识别与素材生成，代表大厂垂类模型投入。"
+   },
+   {
+    "title": "[社招] 字节跳动 agent 工程师 aime",
+    "desc": "内推链接： https://job.toutiao.com/s/SZ2N3hxX494 职位描述\n1 、负责字节跳动 AI Agent 产品 Aime 的 Agent 主架构研发与优化，包括但不限于上下文组装与压缩、Memory 机制（短期/长期/情景记忆）、调度机制等业务模块的设计与落地；\n2 、负责 Skill 体系与扩展能力建设，涵盖 Skill 框架设计、插件化生态、Skill 自进化机制等方向的研究与工程化；\n3 、负责 Agent 端到端效果调优与效率优化；\n4 、进行 AI 前沿技术的调研与落地。\n职位要求\n1 、本科及以上学历，计算机、软件工程、人工智能等相关专业；\n2 、思维",
+    "url": "https://www.v2ex.com/t/1233379#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "字节跳动为 AI Agent 产品 Aime 招聘 Agent 主架构工程师，强调 Memory、Skill 体系，体现 Agent 从演示走向产品化。"
+   },
+   {
+    "title": "[社招] [北上深] 头部私募高薪招聘 预训练/后训练/agent 算法专家/infra",
+    "desc": "国内知名量化私募基金管理公司，管理资金百亿以上。 技术团队 90%毕业于美国常青藤、清北复交等知名院校，核心团队包括海外知名对冲基金优质人才，数学、物理、计算机等领域资深专家，国际顶会论文作者，国际知名数学及计算机竞赛如 CMO 、NOI 、ACM-ICPC 、CPhO 、APhO 、Kaggle 竞赛高手等。 感兴趣邮件至： jxiao@hiringby.com 电话&微信：15210750729 大模型预训练算法研究员\n职位描述\n1 、大语言模型预训练与迭代：主导/参与千亿至万亿级参数 LLM 的预训练工作。深入探索 Scaling Law ，指导模型结构设计与超参调优，并针对复杂代码和逻",
+    "url": "https://www.v2ex.com/t/1233331#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "百亿量化私募高薪招聘预训练/后训练/Agent 算法专家，显示 AI 人才竞争已蔓延到对冲基金领域。"
+   },
+   {
+    "title": "TapNow 正在招聘一名 Agent 工程师（QA 方向）",
+    "desc": "我们不想再招一个亲自做测试的人，而是想招一个让 Agent 学会做测试的人 TapNow 招聘：Agent 工程师（ QA 方向） / Agentic Quality Engineer ｜深圳 从去年 12 月开始，我们一直在探索一件事：AI 时代，一家软件科技公司应该如何生产和协作。 今天的 Agent 已经很强，但大多数 Agent 仍然只是个人助手：等待人的指令，运行在某位同事的电脑上，只拥有这个人当下提供的 context 。个人效率提高了，组织仍然依靠会议和文档传递信息，Agent 的生产力也依然受限于人的设备、注意力和作息。 我们认为这不应该是终局。 TapNow 是一个完全 AI",
+    "url": "https://www.v2ex.com/t/1232468#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m37",
+    "summary": "TapNow 招聘 Agent 工程师（QA 方向），目的是让 Agent 学会做测试，说明 AI 原生公司正用 Agent 重构内部研发流程。"
+   },
+   {
+    "title": "30k-50k/远程居家办公（AI agent方向）-大模型聚合业务负责人",
+    "desc": "关于我们 AIsa成立于2025年，需梯子打开网址：https://aisa.one/zh-cn 总部位于美国旧金山。公司背后汇聚了顶尖的投资阵容，包括阿里巴巴、Tribe Capital、Draper Associates、Sumitomo Corporation（住友商事）以及Saison Capital等知名机构投资人，是一家专注于 AI 智能体的基础设施的创业公司，为智能体生态提供统一的 ",
+    "url": "https://eleduck.com/posts/VvfpN8",
+    "source": "电鸭社区",
+    "id": "m49",
+    "summary": "新公司 AIsa 专注 AI Agent 基础设施，获阿里、住友等投资，支持远程，反映出 Agent infra 成为创业融资热门赛道。"
+   }
+  ],
+  "week": "2026-W34"
+ },
+ "llm_used": true,
+ "degraded": []
+}
