@@ -1,0 +1,454 @@
+{
+ "date": "2026-08-21",
+ "generated_at": "2026-08-21 06:48",
+ "trends": [
+  "商业层面：OpenAI 与 Anthropic 在企业市场贴身竞争加剧，客户忠诚度存疑；Stripe 收购 OpenRouter 显示 AI 基础设施成为支付和开发者工具巨头的新前沿。",
+  "技术层面：Mojo 开源、DiffusionGemma 和 LFM2.5-DSpark 推理加速，分别指向语言、架构和性能三方面的底层创新；AI 软件栈正在快速迭代。",
+  "生态与信任：AI 生成内容大量充斥网页，公众对 AI 的信任度不升反降，数学等科学界也面临 AI 带来的职业危机；行业需要在速度和可靠之间重新校准。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 3
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 7
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 0
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "modular/modular",
+   "url": "https://github.com/modular/modular",
+   "desc": "The Modular Platform (includes MAX & Mojo)",
+   "lang": "Mojo",
+   "stars": "27,888",
+   "stars_today": "340 stars today",
+   "summary": "Mojo 语言和 MAX 平台的官方仓库，主打 Python 语法 + 极致性能，是 LLM 推理和 AI 基础设施的热门选择。现在火是因为 AI 原生语言稀缺，Mojo 正把性能优势变成开发者日常工具。"
+  },
+  {
+   "id": "gh3",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": "274,903",
+   "stars_today": "749 stars today",
+   "summary": "一个 agentic 技能的框架和开发方法论，声称让 AI 编程真正可行。今天涨 749 星，说明开发者都在找能落地的 agent 工作流。"
+  },
+  {
+   "id": "gh1",
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": "226,317",
+   "stars_today": "2,267 stars today",
+   "summary": "一个来自资深工程师的 .agents 技能目录，全是实践总结。今天暴涨 2267 星，证明大家想直接抄作业，学怎么给 AI 配技能。"
+  },
+  {
+   "id": "gh13",
+   "title": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+   "lang": "Go",
+   "stars": "99,593",
+   "stars_today": "309 stars today",
+   "summary": "一个 Claude Code 技能，用‘穴居人语’写提示词能砍掉 65% token。火是因为省 token 就是省成本，这技巧又搞笑又实用。"
+  },
+  {
+   "id": "gh4",
+   "title": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": "4,058",
+   "stars_today": "473 stars today",
+   "summary": "Cursor 官方插件规范，让 AI 编辑器生态更开放。随着 Cursor 成主流，插件市场是开发者创业和提效的机会点。"
+  },
+  {
+   "id": "gh10",
+   "title": "PostHog/posthog",
+   "url": "https://github.com/PostHog/posthog",
+   "desc": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+   "lang": "Python",
+   "stars": "37,968",
+   "stars_today": "100 stars today",
+   "summary": "领先的自驱产品平台，重点加了 AI 可观测性能力，能帮 agent 诊断问题。火是因为大家都在做 AI 应用，监控 agent 行为成了刚需。"
+  },
+  {
+   "id": "gh8",
+   "title": "agent-substrate/substrate",
+   "url": "https://github.com/agent-substrate/substrate",
+   "desc": "Agent Substrate: the core system",
+   "lang": "Go",
+   "stars": "1,378",
+   "stars_today": "66 stars today",
+   "summary": "Agent Substrate 的核心系统，用 Go 写，面向 agent 的底层基础设施。虽然年轻但方向明确，多 agent 协同可能是未来的架构。"
+  },
+  {
+   "id": "gh15",
+   "title": "Tencent/AI-Infra-Guard",
+   "url": "https://github.com/Tencent/AI-Infra-Guard",
+   "desc": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+   "lang": "Python",
+   "stars": "4,922",
+   "stars_today": "28 stars today",
+   "summary": "腾讯开源的 AI 红队平台，覆盖 agent 扫描、技能扫描、MCP 扫描、LLM 越狱评估。安全是 AI 落地的关键，这个项目刚好踩在合规和对抗的风口。"
+  }
+ ],
+ "news": [
+  {
+   "title": "It’s Greg Brockman’s OpenAI now",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+   "desc": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a ste",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n54",
+   "summary": "The Verge 发长文分析 OpenAI 当前权力结构，认为 Greg Brockman 已成为公司实际主导者；经历马斯克诉讼、苹果起诉和模型安全风波后，OpenAI 正为 IPO 做铺垫，安全问题和商业化之间的拉扯将是最大变量。"
+  },
+  {
+   "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+   "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+   "desc": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "支付巨头 Stripe 收购了 AI 模型路由公司 OpenRouter。官方说是为了迎接 AGI，真实意图是借助模型分发入口深入开发者的 AI 工作流，并掌握模型调用、计费和支付通道；这可能是 AI 基础设施并购潮的开始。"
+  },
+  {
+   "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
+   "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+   "desc": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "一项研究显示，自 ChatGPT 发布以来，互联网上约三分之一的新网页带有人工智能创作痕迹。AI 生成内容已从实验变成内容生产主流，这既污染未来模型的训练数据，也加剧了读者对信息真实性的信任危机。"
+  },
+  {
+   "title": "Welcome to the AI crisis in math",
+   "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+   "desc": "Today on Decoder, I’m talking with Robert Hart, The Verge’s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off li",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "The Verge 的 Decoder 节目讨论 AI 对数学界的冲击：OpenAI 已能生成一些长期未解数学问题的解题路径，数学家开始怀疑自身工作的不可替代性。AI 进入形式推理意味着它不只是聊天工具，而是科学发现的工具，同时也挑战数学界的价值体系。"
+  },
+  {
+   "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+   "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+   "desc": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "最新数据显示，OpenAI 在企业客户市场正快速追近 Anthropic。但同一批企业会随着新模型发布反复切换供应商，说明企业 AI 付费的粘性并不强；这给两家公司的高估值和后续增长带来不确定性。"
+  },
+  {
+   "title": "AI was supposed to win people over by now — it hasn’t",
+   "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+   "desc": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n50",
+   "summary": "TechCrunch 指出，尽管 AI 使用量在增加，消费者对技术的戒心也在增强，硅谷‘用了就会接受’的假设正在落空。AI 产品需要把可解释性、隐私和真实价值放在营销之前，才能建立长期信任。"
+  },
+  {
+   "title": "Mojo is now open source",
+   "url": "https://www.modular.com/blog/mojo-open-source",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 316,
+   "id": "n6",
+   "summary": "Modular 宣布将 AI 编程语言 Mojo 开源。Mojo 语法贴近 Python，但性能接近 C/C++，此前闭源限制了社区采用；开源后有望成为 AI 基础设施的工具链新选择，也可能挑战 PyTorch 的生态位。"
+  },
+  {
+   "title": "DiffusionGemma Technical Report",
+   "url": "https://arxiv.org/abs/2608.00146",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 122,
+   "id": "n15",
+   "summary": "Google 发布 DiffusionGemma 技术报告，将扩散模型用于文本生成，而非传统的逐个词预测。这种路线有机会实现并行生成、更快推理和更可控的文风，是语言模型底层架构的一次重要探索。"
+  },
+  {
+   "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n33",
+   "summary": "Hugging Face 博客公布 LFM2.5-DSpark 的推理优化方案，声称可带来最高 3.2 倍的推理加速。在模型越做越大、成本越来越高的背景下，这类推理优化对中小团队落地 AI 应用非常关键。"
+  },
+  {
+   "title": "Slack is launching collaborative vibe-coding channels",
+   "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+   "desc": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and pre",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n56",
+   "summary": "Slack 推出面向团队协作的 vibe-coding 频道，允许成员在聊天会话中与 AI agent 共同写代码，并附带代码对比等工具。AI 编程正从个人副驾变成团队工作流的一等公民，协作工具的集成会成为新的竞争点。"
+  },
+  {
+   "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+   "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+   "desc": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Google 给出版商一个新按钮，让读者可把特定来源设为 Search、Discover、News 的优先来源，以缓解 AI 搜索带来的流量下滑。这表明 Google 不得不在 AI 推荐和传统内容生态之间找平衡，但按钮能带来多少实际点击还难说。"
+  },
+  {
+   "title": "Introducing AI Futures",
+   "url": "https://openai.com/index/introducing-ai-futures",
+   "desc": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI 推出新博客 'AI Futures'，专门探讨变革性 AI 对权力、治理、经济和个体自由的影响。这相当于 OpenAI 在模型发布之外，主动争夺 AI 社会议题的话语权，为后续政策和伦理争议定调。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph2",
+   "title": "Grok 4.6",
+   "url": "https://www.producthunt.com/products/grok-4-6-7",
+   "desc": "Frontier Intelligence for Long-Running Agents Discussion | Link",
+   "summary": "Grok 4.6 是面向长期运行 Agent 的前沿智能模型，能处理复杂多步任务，是当前 agent 赛道最值得关注的新模型。"
+  },
+  {
+   "id": "ph6",
+   "title": "NobodyWho",
+   "url": "https://www.producthunt.com/products/nobodywho",
+   "desc": "Run AI models on any device Discussion | Link",
+   "summary": "NobodyWho 让你在任何设备上跑 AI 模型，本地推理，数据不出门，面向隐私敏感和边缘部署场景。"
+  },
+  {
+   "id": "ph20",
+   "title": "MiniMax Design",
+   "url": "https://www.producthunt.com/products/minimax",
+   "desc": "Your own agent team for open-ended creation Discussion | Link",
+   "summary": "MiniMax Design 提供你自己的 Agent 团队，开放式创意生成，适合做设计、内容等创作任务。"
+  },
+  {
+   "id": "ph17",
+   "title": "Shape",
+   "url": "https://www.producthunt.com/products/shape-5",
+   "desc": "The agentic IDE for designers and programmers Discussion | Link",
+   "summary": "Shape 是面向设计师和程序员的 Agentic IDE，让 AI 深度参与设计和开发流程，提升创作效率。"
+  },
+  {
+   "id": "ph7",
+   "title": "Berd",
+   "url": "https://www.producthunt.com/products/berd",
+   "desc": "Weird, playful desktop app for building with AI agents Discussion | Link",
+   "summary": "Berd 是个搞怪好玩的桌面应用，用来和 AI Agent 一起玩耍/构建，降低入门门槛，适合探索 agent 交互。"
+  },
+  {
+   "id": "ph3",
+   "title": "Aloud",
+   "url": "https://www.producthunt.com/products/aloud-4",
+   "desc": "Turn spoken feedback into tasks your coding agent can run Discussion | Link",
+   "summary": "Aloud 把口头反馈直接转成编码 Agent 可执行的任务，省去写描述的时间，让协作更自然。"
+  },
+  {
+   "id": "ph12",
+   "title": "Checksum AI",
+   "url": "https://www.producthunt.com/products/checksum-ai",
+   "desc": "Your coding agent’s testing buddy Discussion | Link",
+   "summary": "Checksum AI 是编码 Agent 的测试搭档，自动补测试、查边界，让 AI 写代码更靠谱。"
+  },
+  {
+   "id": "ph15",
+   "title": "MeetStream AI",
+   "url": "https://www.producthunt.com/products/meetstream-ai",
+   "desc": "Unified API & Infra for AI Meeting Agents Discussion | Link",
+   "summary": "MeetStream AI 是统一 API 和基础设施，帮助开发者快速构建 AI 会议 Agent，适合做会议纪要、任务提取等。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+   "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+   "desc": "Every lab CEO is on X now",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "报道 Z.ai CEO 谈 GLM 5.3 和“后训练扩展定律”，核心观点是参数规模不再是关键，后训练带来的智能增长更值得关注——这直接冲击了“堆参数”的传统认知，对模型选型和技术趋势判断很重要。"
+  },
+  {
+   "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+   "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+   "desc": "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Pyt",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "介绍 smolmachines/smolvm 这个沙箱项目，用于安全运行不受信任的 Python 和 JavaScript 代码，并探索用它来跑 AI agent 的可行性——安全沙箱是智能体落地的关键基础设施，值得开发者重点关注。"
+  },
+  {
+   "title": "Quoting Jeremy Morrell",
+   "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+   "desc": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow user",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "引用 Jeremy Morrell 的观点，认为 LLM 大幅降低了扩展开发成本，加上现代沙箱原语，让“核心+用户扩展”的软件模式在 Web 上迎来新机会——这为 AI 时代的软件架构设计提供了新思路。"
+  },
+  {
+   "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+   "url": "https://www.latent.space/p/wayfinder-skill",
+   "desc": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "介绍 Matt Pocock 的 /wayfinder 技能，专门用于项目方向不明或绿地项目时，帮 AI 理清规划路径——对用 AI 辅助项目启动和决策的开发者很有参考价值。"
+  },
+  {
+   "title": "Conceptual integrity and counting lines of code",
+   "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+   "desc": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove dis",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "来自 Talking Postgres 播客，讨论 AI 如何改变软件开发，重点聊了“概念完整性”和代码行数的关系——对于用 AI 写代码时如何维持系统一致性有启发。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化是最大热点：字节、快手、讯飞及创业公司都在招 Agent 工程师，要求掌握 RAG、Memory、Tool Use 等核心机制，而不是简单调 API。",
+   "AI Infra 需求激增：大模型训练/推理优化、Kubernetes 调度、GPU 集群管理等岗位增多，通义、讯飞等专门开设 AI Infra 职位。",
+   "『AI Native 开发』成为必备技能：多家公司明确要求能用 Codex/Cursor/Claude 辅助编程，并会审查、优化 AI 生成代码，传统后端（Java/Go）也在向此转型。",
+   "垂直行业『AI+领域知识』走俏：量化金融、广告营销、生命科学、跨境电商都在招懂业务又懂大模型的人才，如量化私募招预训练/Agent 专家。",
+   "管理型 AI 岗位出现：不少创业团队找『AI 算法一号位』『技术合伙人』，要求既懂大模型又能带队，偏重从 0 到 1 的交付能力。"
+  ],
+  "gigs": [
+   "远程/外包市场上，AI Agent 定制开发需求旺盛：比如用 Dify 搭建智能体小程序、企业内部文档自动化提效，单子预算从几千到几万元不等（样本有限，但长尾需求可见）。",
+   "合同制/兼职岗位增多：部分早期公司提供 equity-only 或 fractional 职位（如 m52），也有按小时计费的 AI 工程外包，适合想参与创业的资深工程师。",
+   "特定技术难题的外包单子多：例如征信 OCR 表格识别（20K+）、kdb+/q 专家等，只要解决具体问题，报酬明确，但样本量小，需谨慎判断。",
+   "远程全球化协作成常态：有新加坡和美国公司招远程 AI 工程师，中国开发者有机会，但需注意时区、语言和合规（样本主要来自 V2EX 和电鸭）。"
+  ],
+  "highlights": [
+   {
+    "title": "大疆 4 大招聘通道开放：社招 473、校招 139、构建者计划、实习",
+    "desc": "[通道一：社会招聘] 官网\"社会招聘\"频道 473 个岗位在招 算法 59 、软件 45 、供应链管理 43 、嵌入式 33 、数字化建设 30 、财务 26 、销售 27 、市场 24 ，覆盖 40+ 职能方向 地点：深圳 449 、上海 70 、北京 23 （多岗可选） 海外岗 12+：欧洲/北美/东南亚/日韩/拉美/中东非的销售、渠道 BP 、GTM 、税务等，部分接受外派 热招：云端大模型算法、计算机视觉、SLAM 、决策规划、芯片验证、电池/天线/热设计硬件、ESL 系统仿真（ 8/6 新发） [通道二：2027\"拓疆者\"校园招聘] 139 个职位，算法主导（ 54 岗：大模型推理部",
+    "url": "https://www.v2ex.com/t/1234181#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m16",
+    "summary": "大疆大规模开放 AI 算法、大模型推理等 473 个社招岗位，说明 AI 正深入硬件和实体产业。"
+   },
+   {
+    "title": "快手组内直推，招聘 AI 应用开发工程师",
+    "desc": "base 快手商业化，北京总部\n职位描述\n1 、参与广告业务中大模型能力的研发与落地，包括广告商品识别、广告素材理解及生成、智能创编、智能助手等核心场景；\n2 、应用先进的大模型训练技术（如 SFT 、LoRA 、RLHF 、Prompt Engineering 等），构建面向广告场景的垂类大模型；\n3 、参与推动大模型在广告行业中的文本、内容可控生成等关键问题的算法突破；\n4 、参与推动 AIGC 与广告业务结合的创新应用，提升投放效率与用户体验。 任职要求\n1 、计算机、人工智能、电子工程、数学等相关专业本科及以上学历，至少具备 1-2 年大模型或相关研发经验；\n2 、扎实的机器学习与深度",
+    "url": "https://www.v2ex.com/t/1234123#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m18",
+    "summary": "快手商业化招大模型应用工程师，要求掌握 SFT/LoRA/RLHF 并落地广告商品识别与素材生成，代表大厂垂类模型投入。"
+   },
+   {
+    "title": "[社招] 字节跳动 agent 工程师 aime",
+    "desc": "内推链接： https://job.toutiao.com/s/SZ2N3hxX494 职位描述\n1 、负责字节跳动 AI Agent 产品 Aime 的 Agent 主架构研发与优化，包括但不限于上下文组装与压缩、Memory 机制（短期/长期/情景记忆）、调度机制等业务模块的设计与落地；\n2 、负责 Skill 体系与扩展能力建设，涵盖 Skill 框架设计、插件化生态、Skill 自进化机制等方向的研究与工程化；\n3 、负责 Agent 端到端效果调优与效率优化；\n4 、进行 AI 前沿技术的调研与落地。\n职位要求\n1 、本科及以上学历，计算机、软件工程、人工智能等相关专业；\n2 、思维",
+    "url": "https://www.v2ex.com/t/1233379#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "字节跳动为 AI Agent 产品 Aime 招聘 Agent 主架构工程师，强调 Memory、Skill 体系，体现 Agent 从演示走向产品化。"
+   },
+   {
+    "title": "[社招] [北上深] 头部私募高薪招聘 预训练/后训练/agent 算法专家/infra",
+    "desc": "国内知名量化私募基金管理公司，管理资金百亿以上。 技术团队 90%毕业于美国常青藤、清北复交等知名院校，核心团队包括海外知名对冲基金优质人才，数学、物理、计算机等领域资深专家，国际顶会论文作者，国际知名数学及计算机竞赛如 CMO 、NOI 、ACM-ICPC 、CPhO 、APhO 、Kaggle 竞赛高手等。 感兴趣邮件至： jxiao@hiringby.com 电话&微信：15210750729 大模型预训练算法研究员\n职位描述\n1 、大语言模型预训练与迭代：主导/参与千亿至万亿级参数 LLM 的预训练工作。深入探索 Scaling Law ，指导模型结构设计与超参调优，并针对复杂代码和逻",
+    "url": "https://www.v2ex.com/t/1233331#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "百亿量化私募高薪招聘预训练/后训练/Agent 算法专家，显示 AI 人才竞争已蔓延到对冲基金领域。"
+   },
+   {
+    "title": "TapNow 正在招聘一名 Agent 工程师（QA 方向）",
+    "desc": "我们不想再招一个亲自做测试的人，而是想招一个让 Agent 学会做测试的人 TapNow 招聘：Agent 工程师（ QA 方向） / Agentic Quality Engineer ｜深圳 从去年 12 月开始，我们一直在探索一件事：AI 时代，一家软件科技公司应该如何生产和协作。 今天的 Agent 已经很强，但大多数 Agent 仍然只是个人助手：等待人的指令，运行在某位同事的电脑上，只拥有这个人当下提供的 context 。个人效率提高了，组织仍然依靠会议和文档传递信息，Agent 的生产力也依然受限于人的设备、注意力和作息。 我们认为这不应该是终局。 TapNow 是一个完全 AI",
+    "url": "https://www.v2ex.com/t/1232468#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m37",
+    "summary": "TapNow 招聘 Agent 工程师（QA 方向），目的是让 Agent 学会做测试，说明 AI 原生公司正用 Agent 重构内部研发流程。"
+   },
+   {
+    "title": "30k-50k/远程居家办公（AI agent方向）-大模型聚合业务负责人",
+    "desc": "关于我们 AIsa成立于2025年，需梯子打开网址：https://aisa.one/zh-cn 总部位于美国旧金山。公司背后汇聚了顶尖的投资阵容，包括阿里巴巴、Tribe Capital、Draper Associates、Sumitomo Corporation（住友商事）以及Saison Capital等知名机构投资人，是一家专注于 AI 智能体的基础设施的创业公司，为智能体生态提供统一的 ",
+    "url": "https://eleduck.com/posts/VvfpN8",
+    "source": "电鸭社区",
+    "id": "m49",
+    "summary": "新公司 AIsa 专注 AI Agent 基础设施，获阿里、住友等投资，支持远程，反映出 Agent infra 成为创业融资热门赛道。"
+   }
+  ],
+  "week": "2026-W34"
+ },
+ "llm_used": true,
+ "degraded": []
+}
