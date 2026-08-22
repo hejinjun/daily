@@ -1,0 +1,446 @@
+{
+ "date": "2026-08-23",
+ "generated_at": "2026-08-23 06:42",
+ "trends": [
+  "AI 安全与对齐成为行业焦点：OpenAI 转手支持加州法案，前沿实验室却拿不出失控预案，越狱和黑客案例曝光，倒逼安全成为硬性合规指标。",
+  "Agent 生态开始拼基础设施：MCP 路线图更新、Claude Code 降本实验、Inherent 科研代理，都说明 AI Agent 正从聊天玩具走向生产力工具，开发范式在快速标准化。",
+  "具身智能进入落地验证期：优必选把产线搬进展厅、神经接口、果蝇脑模拟，机器人不再是 demo，真实工业场景成为新战场。",
+  "AI 资本与基础设施持续高烧，但风险初现：Nvidia 下注数据中心、太空数据中心融资，同时风投遭遇反垄断调查，大泡沫里需要辨别真需求。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 9
+  },
+  {
+   "name": "The Verge AI",
+   "count": 2
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 9
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "openai/codex",
+   "url": "https://github.com/openai/codex",
+   "desc": "Lightweight coding agent that runs in your terminal",
+   "lang": "Rust",
+   "stars": "113,222",
+   "stars_today": "1,978 stars today",
+   "summary": "OpenAI 官方推出的终端轻量级编码代理，能在本地帮你改代码、跑命令。它在终端里直接干活，star 数爆表，是 AI 编程助手里的当红炸子鸡。"
+  },
+  {
+   "id": "gh7",
+   "title": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "Python",
+   "stars": "142,506",
+   "stars_today": "141 stars today",
+   "summary": "Anthropic 的 Claude Code，一个住在终端里的代理编程工具，能理解代码库、执行任务和处理 git 流程。和 Codex 正面对标，关注度极高。"
+  },
+  {
+   "id": "gh10",
+   "title": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "lang": "",
+   "stars": "205,270",
+   "stars_today": "379 stars today",
+   "summary": "一个 CLAUDE.md 文件，把 Karpathy 对 LLM 编码陷阱的观察提炼成规则，让 Claude Code 表现更好。用极简方式提升 AI 编程质量，思路很妙。"
+  },
+  {
+   "id": "gh4",
+   "title": "Wei-Shaw/sub2api",
+   "url": "https://github.com/Wei-Shaw/sub2api",
+   "desc": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+   "lang": "Go",
+   "stars": "38,773",
+   "stars_today": "264 stars today",
+   "summary": "Sub2API 是一站式开源中转服务，把 Claude、OpenAI、Gemini、Grok 订阅统一转成 API，还支持拼车共享。对开发者来说能大幅省成本，很实用。"
+  },
+  {
+   "id": "gh6",
+   "title": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+   "lang": "TypeScript",
+   "stars": "201,790",
+   "stars_today": "202 stars today",
+   "summary": "n8n 是带原生 AI 能力的工作流自动化平台，可视化编排 + 自定义代码，400+ 集成，能自托管也能云。AI 工作流自动化越来越重要，它正中风口。"
+  }
+ ],
+ "news": [
+  {
+   "title": "New MCP Roadmap",
+   "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 164,
+   "id": "n8",
+   "summary": "Anthropic 发布了 MCP 协议的官方路线图更新，明确了未来连接工具和数据源的方向。MCP 已成为 AI agent 生态的事实标准，路线图直接影响所有做 AI 工具集成的开发者，值得跟进。"
+  },
+  {
+   "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+   "url": "https://twitter.com/argofowl/status/2091150597374537729",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 146,
+   "id": "n9",
+   "summary": "有人在 Claude Code 里发现 Anthropic 正在 A/B 测试降低模型'努力程度'的选项，疑似是为了控制成本。这可能意味着同样提示词下输出质量会打折，开发者需要留意自己的编程助手会不会变笨，也是 AI 产品调优的一个观察窗口。"
+  },
+  {
+   "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+   "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+   "desc": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "由 DeepMind 前员工创立的 Inherent 发布 AI 代理 Faraday，号称在复现科学论文实验上超过了 Anthropic 和 OpenAI 的模型。这意味着 AI 不仅能读论文，还能动手跑实验，科研自动化的拐点可能来了，学术和研发场景会受影响。"
+  },
+  {
+   "title": "OpenAI says California should strengthen its AI safety bill",
+   "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+   "desc": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "OpenAI 一改之前的反对态度，公开呼吁加州加强 SB 53 人工智能安全法案。目前法案处于关键节点，OpenAI 的倒戈可能推动更严格监管，安全能力将成为 AI 公司的硬性门槛。"
+  },
+  {
+   "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+   "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+   "desc": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "一项新研究发现，主流 AI 实验室几乎没有公开任何应对失控模型的预案。随着模型能力越来越强，如果真出问题没人知道怎么收场，这事比单个模型越狱更让人不安，行业需要更透明的安全设计。"
+  },
+  {
+   "title": "Why your local LLM feels dumber than it is",
+   "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 106,
+   "id": "n14",
+   "summary": "这篇文章解释了为什么本地跑的 LLM 总觉得比 API 版更\"蠢\"——多半不是模型问题，而是量化、采样参数、上下文长度等工程细节在作怪。对想本地部署的开发者来说，这是很实用的避坑指南。"
+  },
+  {
+   "title": "Mythic's analog compute-in-memory architecture",
+   "url": "https://www.mythic.ai",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 40,
+   "id": "n23",
+   "summary": "Mythic 展示了模拟存算一体架构，直接在存储里做矩阵运算，大幅减少数据搬运功耗。这类芯片可能让边缘 AI 跑得更快更省电，未来手机、IoT 设备上的模型推理方式和硬件选型都会变。"
+  },
+  {
+   "title": "不是Demo！优必选把客户产线1:1搬进WRC，解锁具身智能真落地路径",
+   "url": "https://www.qbitai.com/2026/08/477253.html",
+   "desc": "端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n42",
+   "summary": "优必选在世界机器人大会上把自己客户的生产线 1:1 搬进展厅，展示具身智能从 demo 到真实产线落地的路径。这传递出国内人形机器人不再喊口号，而是在工厂里实际干活了，对关注机器人应用创业的人是个风向标。"
+  },
+  {
+   "title": "Guess which of these LLM outputs is watermarked",
+   "url": "https://sgoedecke.github.io/watermark-quiz/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 55,
+   "id": "n19",
+   "summary": "这是个互动测试，让你猜哪些 LLM 输出被加了水印，直观展示检测水印的难度。水印是 AI 内容溯源的关键技术，现在各家都在推，但效果如何需要实际体验，这篇文章给了一个判断样本。"
+  },
+  {
+   "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+   "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+   "desc": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surface, except the Department of Justice has reportedly been investigating the arrangement for almost a y",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "DOJ 正在调查 a16z 的基金合伙人在相互竞争的公司同时担任董事，可能涉及反垄断。这事如果持续发酵，会改变风投圈的游戏规则，AI 初创公司的融资和董事会安排都得更小心。"
+  },
+  {
+   "title": "Major YouTube creators are facing backlash for accepting AI money",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+   "desc": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch th",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "多位知名 YouTube 创作者因为给 AI 平台 Higgsfield 恰饭视频而遭粉丝抵制，争议点在于他们声称的\"AI 创作革命\"与真实体验不符。这说明 AI 产品过度营销会反噬，技术布道需要更务实。"
+  },
+  {
+   "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+   "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+   "desc": "There's about to be a big fight to secure access to space.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "Starcloud 融资 2.5 亿美元建设轨道数据中心，原因是地面新建数据中心太慢、卫星发射资源紧张。太空数据中心听起来科幻，但 AI 计算需求巨大，谁能拿到轨道资源可能就是下一个基础设施巨头。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph11",
+   "title": "Zero",
+   "url": "https://www.producthunt.com/products/zero-15",
+   "desc": "Vercel's programming language built for AI agents Discussion | Link",
+   "summary": "Zero 是 Vercel 推出的专为 AI 代理设计的编程语言，旨在让 AI 更高效地写代码。这可能是未来开发范式的风向标，值得关注。"
+  },
+  {
+   "id": "ph0",
+   "title": "Pocket by Meta",
+   "url": "https://www.producthunt.com/products/pocket-by-meta",
+   "desc": "Vibe-code games, then share them like TikToks Discussion | Link",
+   "summary": "Pocket by Meta 是 Meta 推出的 AI 游戏创造工具，能用自然语言“vibe-code”生成游戏并像短视频一样分享。把 AI 编程变成社交娱乐，创意十足。"
+  },
+  {
+   "id": "ph5",
+   "title": "AutoClaw",
+   "url": "https://www.producthunt.com/products/z-ai",
+   "desc": "An AI work agent across desktop, browser, and chat Discussion | Link",
+   "summary": "AutoClaw 是一个横跨桌面、浏览器和聊天的 AI 工作代理，帮你一站式处理跨应用任务。对日常效率提升很有想象空间。"
+  },
+  {
+   "id": "ph17",
+   "title": "Epho",
+   "url": "https://www.producthunt.com/products/epho-claude-code-in-the-cloud",
+   "desc": "Run Claude Code, Codex or Opencode in cloud with your repo Discussion | Link",
+   "summary": "Epho 让你在云端直接运行 Claude Code、Codex 等 AI 工具，无需本地配置。对于重环境依赖的开发者，是省心的选择。"
+  },
+  {
+   "id": "ph12",
+   "title": "Wizstar",
+   "url": "https://www.producthunt.com/products/wizstar",
+   "desc": "Digital avatars that move and act like professional actors Discussion | Link",
+   "summary": "Wizstar 能生成行为动作像专业演员的数字人，适合视频内容制作。可能重塑直播和影视行业。"
+  },
+  {
+   "id": "ph10",
+   "title": "Pawvis",
+   "url": "https://www.producthunt.com/products/pawvis",
+   "desc": "Control your Mac via camera & train gestures, local & FOSS Discussion | Link",
+   "summary": "Pawvis 通过摄像头识别手势控制 Mac，完全本地化且开源，既酷又保护隐私。"
+  },
+  {
+   "id": "ph25",
+   "title": "OneCLI",
+   "url": "https://www.producthunt.com/products/onecli",
+   "desc": "Give every employee a secured, sandboxed pro assistant agent Discussion | Link",
+   "summary": "OneCLI 为每个员工提供一个安全沙箱化的 AI 助手代理，企业可以放心让 AI 帮忙干活。对企业落地 AI 很有价值。"
+  },
+  {
+   "id": "ph15",
+   "title": "Project SKY",
+   "url": "https://www.producthunt.com/products/project-sky",
+   "desc": "Your ambient AI companion for Windows. Discussion | Link",
+   "summary": "Project SKY 是 Windows 上的环境感知 AI 伴侣，默默陪在身边提供帮助。虽然概念不是最新，但生态位置值得关注。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+   "url": "https://www.latent.space/p/simile",
+   "desc": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "这篇讲Simile AI CEO Joon Sung Park的访谈，他从生成式智能体做到要造80亿个数字孪生。值得看：模拟智能正在变成新的scaling law，不只是好玩，背后有严肃的商业模式和愿景。"
+  },
+  {
+   "title": "The Evolution of the Agent Harness",
+   "url": "https://www.latent.space/p/attention-interface",
+   "desc": "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "这篇讨论Agent Harness的演化，说模型正在把外部框架逐步吸收到自己的权重里，未来可能变成人类注意力的harness。值得看：对AI代理架构未来走向的深刻洞察，适合做方向判断。"
+  },
+  {
+   "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+   "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+   "desc": "Did you think RSI stopped at model training?",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "这是AINews汇总，标题很抓人：效果差10%、成本便宜100倍、速度快10000倍，模拟正在接管。值得看：AI训练里模拟数据的新趋势，可能颠覆传统scaling思路。"
+  },
+  {
+   "title": "More than just code review",
+   "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+   "desc": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "这篇讲用好编码代理的关键不是只会审查代码，而是能清楚地指示改动并自信地验证结果。值得看：给出了除逐行审查之外更高效的验证思路，对日常用AI写代码的开发者很实用。"
+  },
+  {
+   "title": "Quoting Linus Torvalds",
+   "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+   "desc": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it. I suspect those things have been ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "这篇引用Linus Torvalds，讲一次地狱级调试会话，AI干了很多苦活但几次说这问题无解。值得看：展示AI在复杂排错时的边界，以及人类判断仍然不可替代。"
+  },
+  {
+   "title": "How Claude Watermarks AI-Generated Text",
+   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+   "desc": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+   "source": "Ahead of AI（Sebastian Raschka）",
+   "lang": "en",
+   "id": "b5",
+   "summary": "这是Sebastian Raschka的48分钟视频，详细拆解Claude怎么给AI生成文本加水印，包括token采样、检测和移除。值得看：想了解水印原理和攻防细节的，这是目前最深入的一份。"
+  },
+  {
+   "title": "llm 0.33",
+   "url": "https://simonwillison.net/2026/Aug/22/llm/",
+   "desc": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "这是llm工具0.33的发布说明，升级到OpenAI Python库3.x并且换了HTTP客户端。值得看：如果你在用llm命令行工具，这个版本修复了兼容性问题，值得跟进升级。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化是最大热点：字节、快手、讯飞及创业公司都在招 Agent 工程师，要求掌握 RAG、Memory、Tool Use 等核心机制，而不是简单调 API。",
+   "AI Infra 需求激增：大模型训练/推理优化、Kubernetes 调度、GPU 集群管理等岗位增多，通义、讯飞等专门开设 AI Infra 职位。",
+   "『AI Native 开发』成为必备技能：多家公司明确要求能用 Codex/Cursor/Claude 辅助编程，并会审查、优化 AI 生成代码，传统后端（Java/Go）也在向此转型。",
+   "垂直行业『AI+领域知识』走俏：量化金融、广告营销、生命科学、跨境电商都在招懂业务又懂大模型的人才，如量化私募招预训练/Agent 专家。",
+   "管理型 AI 岗位出现：不少创业团队找『AI 算法一号位』『技术合伙人』，要求既懂大模型又能带队，偏重从 0 到 1 的交付能力。"
+  ],
+  "gigs": [
+   "远程/外包市场上，AI Agent 定制开发需求旺盛：比如用 Dify 搭建智能体小程序、企业内部文档自动化提效，单子预算从几千到几万元不等（样本有限，但长尾需求可见）。",
+   "合同制/兼职岗位增多：部分早期公司提供 equity-only 或 fractional 职位（如 m52），也有按小时计费的 AI 工程外包，适合想参与创业的资深工程师。",
+   "特定技术难题的外包单子多：例如征信 OCR 表格识别（20K+）、kdb+/q 专家等，只要解决具体问题，报酬明确，但样本量小，需谨慎判断。",
+   "远程全球化协作成常态：有新加坡和美国公司招远程 AI 工程师，中国开发者有机会，但需注意时区、语言和合规（样本主要来自 V2EX 和电鸭）。"
+  ],
+  "highlights": [
+   {
+    "title": "大疆 4 大招聘通道开放：社招 473、校招 139、构建者计划、实习",
+    "desc": "[通道一：社会招聘] 官网\"社会招聘\"频道 473 个岗位在招 算法 59 、软件 45 、供应链管理 43 、嵌入式 33 、数字化建设 30 、财务 26 、销售 27 、市场 24 ，覆盖 40+ 职能方向 地点：深圳 449 、上海 70 、北京 23 （多岗可选） 海外岗 12+：欧洲/北美/东南亚/日韩/拉美/中东非的销售、渠道 BP 、GTM 、税务等，部分接受外派 热招：云端大模型算法、计算机视觉、SLAM 、决策规划、芯片验证、电池/天线/热设计硬件、ESL 系统仿真（ 8/6 新发） [通道二：2027\"拓疆者\"校园招聘] 139 个职位，算法主导（ 54 岗：大模型推理部",
+    "url": "https://www.v2ex.com/t/1234181#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m16",
+    "summary": "大疆大规模开放 AI 算法、大模型推理等 473 个社招岗位，说明 AI 正深入硬件和实体产业。"
+   },
+   {
+    "title": "快手组内直推，招聘 AI 应用开发工程师",
+    "desc": "base 快手商业化，北京总部\n职位描述\n1 、参与广告业务中大模型能力的研发与落地，包括广告商品识别、广告素材理解及生成、智能创编、智能助手等核心场景；\n2 、应用先进的大模型训练技术（如 SFT 、LoRA 、RLHF 、Prompt Engineering 等），构建面向广告场景的垂类大模型；\n3 、参与推动大模型在广告行业中的文本、内容可控生成等关键问题的算法突破；\n4 、参与推动 AIGC 与广告业务结合的创新应用，提升投放效率与用户体验。 任职要求\n1 、计算机、人工智能、电子工程、数学等相关专业本科及以上学历，至少具备 1-2 年大模型或相关研发经验；\n2 、扎实的机器学习与深度",
+    "url": "https://www.v2ex.com/t/1234123#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m18",
+    "summary": "快手商业化招大模型应用工程师，要求掌握 SFT/LoRA/RLHF 并落地广告商品识别与素材生成，代表大厂垂类模型投入。"
+   },
+   {
+    "title": "[社招] 字节跳动 agent 工程师 aime",
+    "desc": "内推链接： https://job.toutiao.com/s/SZ2N3hxX494 职位描述\n1 、负责字节跳动 AI Agent 产品 Aime 的 Agent 主架构研发与优化，包括但不限于上下文组装与压缩、Memory 机制（短期/长期/情景记忆）、调度机制等业务模块的设计与落地；\n2 、负责 Skill 体系与扩展能力建设，涵盖 Skill 框架设计、插件化生态、Skill 自进化机制等方向的研究与工程化；\n3 、负责 Agent 端到端效果调优与效率优化；\n4 、进行 AI 前沿技术的调研与落地。\n职位要求\n1 、本科及以上学历，计算机、软件工程、人工智能等相关专业；\n2 、思维",
+    "url": "https://www.v2ex.com/t/1233379#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "字节跳动为 AI Agent 产品 Aime 招聘 Agent 主架构工程师，强调 Memory、Skill 体系，体现 Agent 从演示走向产品化。"
+   },
+   {
+    "title": "[社招] [北上深] 头部私募高薪招聘 预训练/后训练/agent 算法专家/infra",
+    "desc": "国内知名量化私募基金管理公司，管理资金百亿以上。 技术团队 90%毕业于美国常青藤、清北复交等知名院校，核心团队包括海外知名对冲基金优质人才，数学、物理、计算机等领域资深专家，国际顶会论文作者，国际知名数学及计算机竞赛如 CMO 、NOI 、ACM-ICPC 、CPhO 、APhO 、Kaggle 竞赛高手等。 感兴趣邮件至： jxiao@hiringby.com 电话&微信：15210750729 大模型预训练算法研究员\n职位描述\n1 、大语言模型预训练与迭代：主导/参与千亿至万亿级参数 LLM 的预训练工作。深入探索 Scaling Law ，指导模型结构设计与超参调优，并针对复杂代码和逻",
+    "url": "https://www.v2ex.com/t/1233331#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "百亿量化私募高薪招聘预训练/后训练/Agent 算法专家，显示 AI 人才竞争已蔓延到对冲基金领域。"
+   },
+   {
+    "title": "TapNow 正在招聘一名 Agent 工程师（QA 方向）",
+    "desc": "我们不想再招一个亲自做测试的人，而是想招一个让 Agent 学会做测试的人 TapNow 招聘：Agent 工程师（ QA 方向） / Agentic Quality Engineer ｜深圳 从去年 12 月开始，我们一直在探索一件事：AI 时代，一家软件科技公司应该如何生产和协作。 今天的 Agent 已经很强，但大多数 Agent 仍然只是个人助手：等待人的指令，运行在某位同事的电脑上，只拥有这个人当下提供的 context 。个人效率提高了，组织仍然依靠会议和文档传递信息，Agent 的生产力也依然受限于人的设备、注意力和作息。 我们认为这不应该是终局。 TapNow 是一个完全 AI",
+    "url": "https://www.v2ex.com/t/1232468#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m37",
+    "summary": "TapNow 招聘 Agent 工程师（QA 方向），目的是让 Agent 学会做测试，说明 AI 原生公司正用 Agent 重构内部研发流程。"
+   },
+   {
+    "title": "30k-50k/远程居家办公（AI agent方向）-大模型聚合业务负责人",
+    "desc": "关于我们 AIsa成立于2025年，需梯子打开网址：https://aisa.one/zh-cn 总部位于美国旧金山。公司背后汇聚了顶尖的投资阵容，包括阿里巴巴、Tribe Capital、Draper Associates、Sumitomo Corporation（住友商事）以及Saison Capital等知名机构投资人，是一家专注于 AI 智能体的基础设施的创业公司，为智能体生态提供统一的 ",
+    "url": "https://eleduck.com/posts/VvfpN8",
+    "source": "电鸭社区",
+    "id": "m49",
+    "summary": "新公司 AIsa 专注 AI Agent 基础设施，获阿里、住友等投资，支持远程，反映出 Agent infra 成为创业融资热门赛道。"
+   }
+  ],
+  "week": "2026-W34"
+ },
+ "llm_used": true,
+ "degraded": []
+}
