@@ -1,0 +1,439 @@
+{
+ "date": "2026-08-24",
+ "generated_at": "2026-08-24 06:41",
+ "trends": [
+  "具身智能/机器人创业正在快速产品化：香港教授下场、天使投资人再次押注、个人机器人开启预订，赛道正从Demo走向真实商业场景。",
+  "本地小模型的价值被重新发现：Qwen本地模型做逆向工程、NanoGPT训练提速挑战、ProgramBench等基准出现，说明小模型+工程优化可以承接过去只有大模型/云端才能完成的复杂任务。",
+  "AI安全和监管进入'真问题'阶段：学生曝光失控AI、版权训练争议、匿名模型溯源、前沿实验室缺乏失控预案，行业和监管都需要新的规则与工具。",
+  "算力成本进入上升通道：英伟达AI服务器因内存成本上涨将涨价，1GW数据中心成本激增50亿美元，直接影响AI训练/推理的定价和创业公司毛利。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 18
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 8
+  },
+  {
+   "name": "The Verge AI",
+   "count": 0
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh7",
+   "title": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "desc": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+   "lang": "Python",
+   "stars": "47,915",
+   "stars_today": "1,040 stars today",
+   "summary": "免费使用 Claude Code 等 AI 编程工具，提供 1.3B+ 免费 token，支持语音，协议友好。因为能白嫖且功能强大，今日涨星 1040。"
+  },
+  {
+   "id": "gh17",
+   "title": "NousResearch/hermes-agent",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "desc": "The agent that grows with you",
+   "lang": "Python",
+   "stars": "234,938",
+   "stars_today": "519 stars today",
+   "summary": "NousResearch 出品的通用 AI agent，主打“与你一起成长”，总星数高达 234k，可能刚开源或有大版本更新，引发了高度关注。"
+  },
+  {
+   "id": "gh1",
+   "title": "freestylefly/awesome-gpt-image-2",
+   "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+   "desc": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+   "lang": "JavaScript",
+   "stars": "12,658",
+   "stars_today": "440 stars today",
+   "summary": "工业级 GPT-Image2 提示词引擎与模板库，逆向 470+ 案例并提炼出 Skills。图像提示词工程正值风口，实用性强。"
+  },
+  {
+   "id": "gh12",
+   "title": "virgiliojr94/book-to-skill",
+   "url": "https://github.com/virgiliojr94/book-to-skill",
+   "desc": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+   "lang": "Python",
+   "stars": "24,609",
+   "stars_today": "423 stars today",
+   "summary": "把技术书 PDF 变成 Claude Code skill，边学边用，降低学习成本。思路新颖，将书籍转化为可交互技能，很受开发者欢迎。"
+  },
+  {
+   "id": "gh14",
+   "title": "anthropics/claude-plugins-community",
+   "url": "https://github.com/anthropics/claude-plugins-community",
+   "desc": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+   "lang": "Python",
+   "stars": "904",
+   "stars_today": "257 stars today",
+   "summary": "Claude 社区插件市场，用于扩展 Claude Cowork 和 Code 的功能。插件生态是未来竞争力，发布后涨星迅速。"
+  },
+  {
+   "id": "gh11",
+   "title": "VoltAgent/awesome-agent-skills",
+   "url": "https://github.com/VoltAgent/awesome-agent-skills",
+   "desc": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+   "lang": "",
+   "stars": "31,252",
+   "stars_today": "223 stars today",
+   "summary": "收录 1000+ agent 技能，兼容 Claude Code、Codex、Gemini CLI 等主流工具。一站式资源库，让 agent 开发如虎添翼。"
+  },
+  {
+   "id": "gh16",
+   "title": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+   "lang": "Python",
+   "stars": "129,352",
+   "stars_today": "179 stars today",
+   "summary": "最强大的模块化扩散模型 GUI、API 和后端，采用节点/图界面。ComfyUI 始终是图像生成工作流的核心工具，更新频繁。"
+  },
+  {
+   "id": "gh8",
+   "title": "tinyhumansai/openhuman",
+   "url": "https://github.com/tinyhumansai/openhuman",
+   "desc": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+   "lang": "Rust",
+   "stars": "36,699",
+   "stars_today": "106 stars today",
+   "summary": "个人 AI 超级智能，构建本地优先的记忆系统，编排 agent 群并具备深度研究能力。愿景宏大，但今日涨星相对温和，仍值得关注。"
+  }
+ ],
+ "news": [
+  {
+   "title": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
+   "url": "https://www.qbitai.com/2026/08/478164.html",
+   "desc": "内存成本飙升逼涨硬件",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n42",
+   "summary": "英伟达AI服务器将涨价约15%，内存成本飙升导致1GW数据中心建设成本增加约50亿美元。这意味着AI算力采购和云服务成本会进一步抬高，做大规模训练/推理的团队需要重新评估成本模型和资源规划。"
+  },
+  {
+   "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+   "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+   "desc": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "围绕AI用版权书训练是否合法的讨论升温：大量作者的作品未经同意被用于训练，但这桩官司的结论还很不确定。无论结果如何，它都会影响AI数据合规、开源模型训练数据和内容创作者的权益边界。"
+  },
+  {
+   "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+   "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+   "desc": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n30",
+   "summary": "一个名为Ox Alpha的神秘新模型引发社区狂热猜测，很多人都在试图扒出它背后的实验室。这种'匿名/隐身发布'正在成为模型发布和社区营销的新形态，值得关注其技术来源和真实水平。"
+  },
+  {
+   "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+   "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 188,
+   "id": "n9",
+   "summary": "一名得州学生曝光了一次失控AI发起的黑客尝试，引发对AI Agent自主作恶的担忧。这说明AI agent的安全风险已经从实验室假设变成现实事件，普通用户也可能成为发现和拦截问题的第一道防线。"
+  },
+  {
+   "title": "NanoGPT Speedrun Frontier",
+   "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 127,
+   "id": "n16",
+   "summary": "NanoGPT Speedrun Frontier是围绕'最快训练nanoGPT'展开的极速挑战，目的是把小型GPT训练时间压缩到极限。它展示了通过工程优化大幅提升训练效率的可行路径，也是学习训练加速技术的好素材。"
+  },
+  {
+   "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+   "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 159,
+   "id": "n11",
+   "summary": "有人让Qwen 3的8B/27B级别本地模型做逆向工程任务，30分钟内就完成了。这说明本地小模型在安全研究等复杂任务上已经具备可用性，而且在隐私保护和成本上比云端API更有优势。"
+  },
+  {
+   "title": "ProgramBench Vetted: Reverse Engineering from a Runnable Binary",
+   "url": "https://vetto.ai/companies/programbench-vetted.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 27,
+   "id": "n25",
+   "summary": "ProgramBench Vetted是一个更严格的AI逆向工程基准，要求模型从可执行二进制中还原程序逻辑。这类基准能帮助开发者判断模型在真实二进制分析中的能力，对安全研究场景尤其有价值。"
+  },
+  {
+   "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
+   "url": "https://www.qbitai.com/2026/08/478191.html",
+   "desc": "Tokenizer、视频编码、API报错全扒一遍",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n41",
+   "summary": "一个匿名发布的大模型被社区通过tokenizer、视频编码、API报错等细节扒出与智谱GLM有关联，还有人怀疑Cursor用开源GLM做训练。这反映了国内大模型开源的'马甲'现象，也说明模型溯源技术成了竞品分析和社区吃瓜的新手段。"
+  },
+  {
+   "title": "不做硅谷follower：几个读博的年轻人，押注双足人形的一体化大脑",
+   "url": "https://www.qbitai.com/2026/08/478020.html",
+   "desc": "机器人开卡丁车连续过弯，一镜到底全自主",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n44",
+   "summary": "几位博士创业者选择押注双足人形机器人的'一体化大脑'，试图走出与硅谷不同的技术路线。他们的机器人能全自主开卡丁车连续过弯，说明一体化智能在真实场景中的进展，是具身智能创业的一个新样本。"
+  },
+  {
+   "title": "你的第一个个人机器人开启预订！上纬新材拉开家庭机器人消费时代序幕",
+   "url": "https://www.qbitai.com/2026/08/478017.html",
+   "desc": "",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n45",
+   "summary": "上纬新材宣布个人机器人开启预订，主打进入家庭场景，被视为家庭机器人消费时代的一个信号。对开发者来说，个人/家庭机器人可能是继扫地机之后的下一个消费级AI硬件品类，值得关注产品定义和生态机会。"
+  },
+  {
+   "title": "他给了王兴兴第一个200万，现在给下一个「宇树」当董事长",
+   "url": "https://www.qbitai.com/2026/08/478234.html",
+   "desc": "多多支持像王兴兴这样优秀的具身机器人创业者",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n40",
+   "summary": "曾给宇树科技创始人王兴兴第一笔200万投资的人，如今给另一家具身机器人创业公司当董事长，试图复制下一个宇树。这表明具身机器人赛道的天使投资和导师资源正在形成产业链，创业者可以关注这类'连续押注'的产业资本。"
+  },
+  {
+   "title": "具身创业里的香港教授们",
+   "url": "https://www.qbitai.com/2026/08/478289.html",
+   "desc": "香港的大学里冒出了一批很特别的人",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n39",
+   "summary": "香港高校里涌现出一批教授投身具身智能创业，形成一种独特的创业类型。大学教授亲自下场做机器人，意味着技术壁垒和学术资源成为早期优势，但也面临商业化落地和管理上的挑战。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph9",
+   "title": "Construct Computer",
+   "url": "https://www.producthunt.com/products/construct-computer",
+   "desc": "Your AI coworker gets a computer. You get your day back. Discussion | Link",
+   "summary": "给AI同事配了一台电脑，它能自己操作屏幕完成任务，帮你省出时间。亮点是让AI真正成为‘干活’的同事，而非聊天工具。"
+  },
+  {
+   "id": "ph22",
+   "title": "Agents Never Sleep",
+   "url": "https://www.producthunt.com/products/agents-never-sleep",
+   "desc": "Agents keep running with the lid closed Discussion | Link",
+   "summary": "让AI Agent在笔记本合盖后继续运行。亮点是解决了本地Agent挂起的问题，适合无人值守跑任务。"
+  },
+  {
+   "id": "ph4",
+   "title": "Claude Academy",
+   "url": "https://www.producthunt.com/products/claude-academy",
+   "desc": "The Official Learning Hub by Anthropic Discussion | Link",
+   "summary": "Anthropic官方的Claude学习中心，提供系统课程和最佳实践。亮点是权威、体系化，适合想深入用Claude的开发者。"
+  },
+  {
+   "id": "ph6",
+   "title": "FetchSandbox MCP",
+   "url": "https://www.producthunt.com/products/fetchsandbox",
+   "desc": "The MCP that proves your AI's integration fixes work Discussion | Link",
+   "summary": "一个MCP服务器，用沙箱证明AI的集成修复真的有效。亮点是给AI开发者的测试验证环节补上了关键一环。"
+  },
+  {
+   "id": "ph18",
+   "title": "Open Analytics",
+   "url": "https://www.producthunt.com/products/open-analytics-2",
+   "desc": "AI-Native Google Analytics alternative for the modern web Discussion | Link",
+   "summary": "AI原生的Google Analytics替代品，面向现代Web。亮点是用AI自动分析数据，而不是只给你一堆图表。"
+  },
+  {
+   "id": "ph17",
+   "title": "Port Radar for macOS",
+   "url": "https://www.producthunt.com/products/port-radar-for-macos",
+   "desc": "An AI port manager for your Mac. Discussion | Link",
+   "summary": "Mac上的AI端口管理器，负责监控和清理占用端口的进程。亮点是省去手动lsof、kill的麻烦，一条命令搞定。"
+  },
+  {
+   "id": "ph23",
+   "title": "Maccess",
+   "url": "https://www.producthunt.com/products/maccess",
+   "desc": "Your Mac, in your pocket — trackpad, screen, and AI Discussion | Link",
+   "summary": "把Mac装进口袋：用iPhone远程操控Mac的触控板、屏幕，还引入AI辅助。亮点是随时随地用手机管电脑，AI能帮你自动做操作。"
+  },
+  {
+   "id": "ph14",
+   "title": "SubtitleGenerator",
+   "url": "https://www.producthunt.com/products/subtitlegenerator",
+   "desc": "From video to publish-ready AI subtitles—all in one browser Discussion | Link",
+   "summary": "纯浏览器里把视频自动生成可直接发布的AI字幕。亮点是无需上传服务器，隐私安全，本地处理一步到位。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+   "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+   "desc": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here . An",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "这篇引用FT报道，讲Anthropic最强模型虽技术牛但用户被便宜工具抢走，并透露月化年收入从5月470亿涨到7月650亿。看点：高端模型与性价比工具的竞争，以及对Anthropic商业化前景的观察。"
+  },
+  {
+   "title": "Quoting Drew Breunig",
+   "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+   "desc": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was go",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "这是引用Drew Breunig的一段话，吐槽以前花时间优化coding harness和上下文策略像在做无用功，因为新模型便宜又能解决大部分问题，但Fable虽然效果惊艳却太贵。值得关注：模型成本/性能权衡对开发流程的影响。"
+  },
+  {
+   "title": "How to Build Better AI Evals with Claude Code in 5 Steps | Shreya & Hamel",
+   "url": "https://creatoreconomy.so/p/how-to-build-better-ai-evals-with-claude-code-shreya-hamel",
+   "desc": "Watch my favorite eval experts do a live audit of the evals that I built for my skills and I promise you’ll learn something new. Plus, their new free skill to build evals in Claude Code.",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b11",
+   "summary": "这篇讲如何用Claude Code在5步内构建更好的AI评估体系，有专家直播审查现有evals并发布免费skill。适合想提升AI应用质量的开发者，能直接上手用。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent/大模型应用开发绝对主流，所有AI岗几乎都要求Agent、RAG、多模态等经验；从早期调API变成要能构建生产级Agent系统（编排、工具调用、可观测性）。",
+   "“AI Native”从理念变成硬性要求：很多岗位明确要求日常用Claude Code、Codex等AI编码工具，甚至用Agentic Workflow重构研发流程（如蚂蚁、Tessellate），工程师工作方式本身被AI重塑。",
+   "全栈+AI复合背景最抢手：大量“AI产品工程师”/“Full Stack AI Engineer”岗，要求前端（Next.js/React）+后端（Python/Go/Node）+LLM集成，能独立交付功能。",
+   "AI Infra/平台工程需求明显上升：大模型训练容器调度、GPU集群、MLOps/LLMOps、向量数据库等岗位增多（如ClickHouse、Ai2、通义），行业从应用层向基础设施层深入。",
+   "垂直行业“Forward Deployed Engineer”走红：深入客户现场做AI落地，覆盖医疗、金融、政府、供应链等方向（如Statecraft、Matterhaul），既懂技术又懂业务的人才稀缺。"
+  ],
+  "gigs": [
+   "外包/接单市场出现不少“AI从0到1”小而全的项目：用Dify/n8n搭智能体、ComfyUI做图像生产、OCR识别等（m43、m44、m49），通常1-2人独立交付完整MVP，预算几千到几万不等。",
+   "独立开发者能搞定“前端+后端+AI集成”整套链路最吃香；纯算法调参需求少，重点是把AI能力工程化封装成产品（微信小程序、短剧生产线、私有化部署）。",
+   "出现一批跟大模型账号/API资源相关的灰色需求（Claude账号运营、号池、AI中转站，m17/m36/m38），薪资不低但合规风险需自判；样本有限，仅代表现象存在。",
+   "远程全职岗依然有但门槛高：大多要求5年以上经验+架构能力，且明确要会用AI工具提效；不少岗位还要求远程协作自驱力强（如m25/m40/m45）。"
+  ],
+  "highlights": [
+   {
+    "title": "[上海&杭州] 蚂蚁集团-大前端研发工程师（AI Native）-财富",
+    "desc": "职级：P6-P7 （ 12-14 级） 职位描述： 参与财富核心业务的建设，围绕黄金业务增长、积存金机构服务等方向，负责财富移动端 H5 、Nodejs 等全栈研发的设计、研发、优化与演进，保障实时交易等系统稳定性、性能与业务体验； 采用 AI Native 研发模式，参与 Agent 工程体系建设，将 AI Coding 、Agentic Workflow 等能力应用于需求分析、架构设计、编码开发、测试验证、上线交付等端到端全流程，推动研发模式持续升级； 参与大前端 Agent 、Context 、Knowledge 、Skill 等组织级 AI 能力建设，探索前端智能（如数字员工自主交付、",
+    "url": "https://www.v2ex.com/t/1235062#reply7",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "蚂蚁集团招“大前端研发工程师（AI Native）”，说明大厂已把AI Native写进岗位要求，研发模式本身在重构。"
+   },
+   {
+    "title": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Eng",
+    "desc": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k–$230k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. Thi",
+    "url": "https://news.ycombinator.com/item?id=49215237",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m83",
+    "summary": "Deepline宣称“User interfaces are dead”，做统一API层把数据和工作流暴露给Agent，代表Agent正成为新的交互入口。"
+   },
+   {
+    "title": "Matterhaul | Founding Applied AI Engineer | San Francisco, CA | Onsite (4x/week)",
+    "desc": "Matterhaul | Founding Applied AI Engineer | San Francisco, CA | Onsite (4x/week) | $200-260K | https://www.matterhaul.com/ Looking for opportunities to develop an AI-powered product with a practical impact? Look no further. Matterhaul is building the AI-native ERP for industrial distribution and the hard goods supply chain. In other words, we're making it much, MUCH easier for materials manufactur",
+    "url": "https://news.ycombinator.com/item?id=49211731",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Matterhaul招Founding Applied AI Engineer做AI-native ERP，说明AI重构传统企业软件（供应链/ERP）的赛道在升温。"
+   },
+   {
+    "title": "[新加坡/可远程] 智能体垂类赛道 - 寻找 AI 与数据工程师 / 技术合伙人",
+    "desc": "大家好，我们是一家位于新加坡的早期科技公司，正在为生命科学行业开发生态智能 AI Agent 。 我们正在构建面向创新生态的 AI Agent 与数据库产品，探索如何运用人工智能和数据智能，更高效地理解创新生态、发现潜在机会并促进真实的落地合作。目前项目正在持续开发和验证中。 现寻找一位 AI 与数据方向的核心成员或潜在技术合伙人，希望你具备以下部分经验： AI Agent （智能体）、大模型应用或智能体工作流； 数据工程、数据科学或数据库开发； 知识图谱、搜索推荐或行业智能产品； 从 0 到 1 的产品开发或创业经历。 有生命科学、医药数据或行业数据库经验是加分项。 我们更看重实际能力、学习",
+    "url": "https://www.v2ex.com/t/1234683#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "新加坡早期公司为生命科学行业做AI Agent，找技术合伙人，说明垂直行业Agent创业机会多，且面向全球市场。"
+   },
+   {
+    "title": "“AI仿真人短剧全自动生产线”智能体搭建",
+    "desc": "寻找有n8n+Mulit-Agent实战经验独立开发者，直接受个人开发者，外包公司勿扰。 ",
+    "url": "https://eleduck.com/posts/ARfEaO",
+    "source": "电鸭社区",
+    "id": "m44",
+    "summary": "外包找“AI仿真人短剧全自动生产线”智能体搭建，要求n8n+Multi-Agent实战，说明内容生产自动化已从概念变成真实小生意。"
+   },
+   {
+    "title": "招 cladue max 号池负责人｜ 30K+｜北京/远程",
+    "desc": "招 claude max 号池负责人｜ 30K+｜北京/远程 现状\n目前已经有十几家大厂客户，业务量持续增长，现阶段需要一位能把 claude max 号池搭建稳定的负责人，负责核心技术架构和后续团队建设。 具体包括： 设计并持续迭代整体系统架构 负责账号/资源池的统一管理与智能调度 建立自动化的健康检测、故障识别和恢复体系 根据实时状态进行动态路由、负载分配和并发控制 处理高并发下的限流、排队、超时、熔断等问题 完善监控、日志、告警以及故障定位体系 对现有系统进行二开，也可以根据实际需求重新设计核心模块 随业务增长，把系统从目前规模逐步做到数千级资源规模 后续可以自己搭建技术团队，开发、运维",
+    "url": "https://www.v2ex.com/t/1236289#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "招“Claude max号池负责人”薪资30K+，说明底层模型API资源的管理调度已成为一个新工种（略带灰色，但需求真实）。"
+   }
+  ],
+  "week": "2026-W35"
+ },
+ "llm_used": true,
+ "degraded": []
+}
