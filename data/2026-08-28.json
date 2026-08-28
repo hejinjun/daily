@@ -1,0 +1,440 @@
+{
+ "date": "2026-08-28",
+ "generated_at": "2026-08-28 14:10",
+ "trends": [
+  "AI 安全从倡议走向行动：上百家公司联合呼吁防御“失控 AI”，双盲评估也开始试点，安全与评测将成为 AI 公司的新基础能力。",
+  "模型走向分裂：一边是 Gemini Omni 1.1 等大模型持续升级，一边是“小模型已够用”的端侧趋势；加上 Android 内存限制和国产算力迁移，开发者需要按场景重新选择模型大小和部署位置。",
+  "AI 开始接管真实任务：搜索变成旅行代理、机器人进入消费市场，软硬件结合和 Agent 落地成为创业和产品化的明确机会。",
+  "人才洗牌持续：OpenAI 高层变动、Barret Zoph 转投 Google，头部实验室的组织稳定性直接影响行业未来六到十二个月的竞争格局。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 19
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 2
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 16
+  },
+  {
+   "name": "The Verge AI",
+   "count": 8
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 2
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh3",
+   "title": "tt-a1i/archify",
+   "url": "https://github.com/tt-a1i/archify",
+   "desc": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+   "lang": "JavaScript",
+   "stars": "24,459",
+   "stars_today": "4,239 stars today",
+   "summary": "Archify 是一个 Agent 技能，让 AI 直接生成漂亮、可验证的架构图、流程图、时序图等，输出自带动画的 HTML 且可清晰导出。今天暴增 4 千多星，说明 AI 生成技术图表的需求非常旺盛。"
+  },
+  {
+   "id": "gh2",
+   "title": "freestylefly/awesome-gpt-image-2",
+   "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+   "desc": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+   "lang": "JavaScript",
+   "stars": "23,455",
+   "stars_today": "2,096 stars today",
+   "summary": "awesome-gpt-image-2 是 GPT-Image 提示词引擎和模板库，逆向工程了 530+ 真实案例，提炼出 20+ 套工业级模板。今天涨 2 千星，因为 GPT-Image 生成图片太火，大家都想系统学习怎么写提示词。"
+  },
+  {
+   "id": "gh7",
+   "title": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": "114,365",
+   "stars_today": "1,613 stars today",
+   "summary": "Ponytail 让 AI agent 像最懒的资深开发一样思考——最好的代码是没写的代码。这个反直觉的理念很吸睛，今天涨了 1600 多星，反映大家开始关注如何让 AI 少写代码、少犯错。"
+  },
+  {
+   "id": "gh8",
+   "title": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "lang": "Python",
+   "stars": "52,628",
+   "stars_today": "1,292 stars today",
+   "summary": "OpenMontage 号称世界第一个开源 agentic 视频生产系统，内置 12 条生产管线、100+ 工具和 700+ 技能文件，能把 AI 编程助手变成完整视频制作工作流。今天涨了 1292 星，说明 AI 视频方向正在爆发。"
+  },
+  {
+   "id": "gh13",
+   "title": "AgriciDaniel/claude-obsidian",
+   "url": "https://github.com/AgriciDaniel/claude-obsidian",
+   "desc": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+   "lang": "Python",
+   "stars": "14,140",
+   "stars_today": "634 stars today",
+   "summary": "claude-obsidian 是一个让 Claude 自动把任何内容整理进 Obsidian 的 AI 第二大脑工具，所有笔记连通成 Markdown 知识图谱，可当开源 Notion 用。今天涨 634 星，基于 Karpathy 的 LLM Wiki 模式，知识管理场景很火。"
+  },
+  {
+   "id": "gh6",
+   "title": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "lang": "Python",
+   "stars": "35,489",
+   "stars_today": "498 stars today",
+   "summary": "scientific-agent-skills 是号称最大的科学类 Agent 技能库，包含 163 个现成技能和 100+ 科学数据库，兼容 Cursor、Claude Code、Codex 等主流 agent。今天涨 498 星，因为科研领域对 AI 自动化工具的需求越来越强。"
+  },
+  {
+   "id": "gh9",
+   "title": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": "50,304",
+   "stars_today": "552 stars today",
+   "summary": "ai-engineering-from-scratch 是一个从零学习 AI 工程的开源课程/项目，学了就动手做、做完了就部署给别人用。今天涨 552 星，说明很多人想在 AI 工程领域系统入门并做出实际作品。"
+  },
+  {
+   "id": "gh10",
+   "title": "ConardLi/garden-skills",
+   "url": "https://github.com/ConardLi/garden-skills",
+   "desc": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+   "lang": "CSS",
+   "stars": "11,406",
+   "stars_today": "415 stars today",
+   "summary": "garden-skills 是 ConardLi 的开源技能集合，覆盖 Web 设计、知识检索、图像生成等场景。今天涨 415 星，Agent Skills 生态正在快速膨胀，大家都在囤高质量的技能包。"
+  },
+  {
+   "id": "gh4",
+   "title": "JetBrains/go-modern-guidelines",
+   "url": "https://github.com/JetBrains/go-modern-guidelines",
+   "desc": "Help AI coding agents write modern Go",
+   "lang": "Go",
+   "stars": "2,269",
+   "stars_today": "300 stars today",
+   "summary": "go-modern-guidelines 是 JetBrains 出的指南，专门用来教 AI 编码 agent 写符合现代惯例的 Go 代码。今天涨 300 星，说明 AI 写代码越来越普遍，大家开始要求它按语言最佳实践来写。"
+  },
+  {
+   "id": "gh5",
+   "title": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars": "34,763",
+   "stars_today": "292 stars today",
+   "summary": "claude-plugins-official 是 Anthropic 官方维护的 Claude Code 插件目录，只收录高质量插件。今天涨 292 星，官方出手规范生态，开发者都在关注这个可信的插件来源。"
+  }
+ ],
+ "news": [
+  {
+   "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+   "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+   "desc": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "OpenAI、Anthropic、Google 等百家 AI 公司联合呼吁业界采取行动，防御失控/恶意 AI 带来的网络威胁。这是行业罕见的集体表态，背后是真实发生的 AI 攻击事件，意味着安全将成为所有 AI 公司的刚需。"
+  },
+  {
+   "title": "Gemini Omni 1.1 Flash lets you build with more control",
+   "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+   "desc": "",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n32",
+   "summary": "谷歌发布了 Gemini Omni 1.1 Flash，主打给开发者更多控制权，面向实时多模态交互场景。它可能进一步降低语音、视频 AI 应用的调用成本和延迟，是构建下一代人机交互的重要模型选项。"
+  },
+  {
+   "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
+   "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 212,
+   "id": "n10",
+   "summary": "一位美国法官裁定，特朗普政府将 Anthropic 列入黑名单的行为非法。这为 AI 公司挑战行政干预提供了司法先例，也影响未来美国政府对 AI 行业的监管边界。"
+  },
+  {
+   "title": "Piloting the world's first double-blind AI evaluations",
+   "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+   "desc": "Piloting the world's first double-blind AI evaluations",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n33",
+   "summary": "Google DeepMind 开始试点全球首个双盲 AI 评估，避免因品牌或背景导致评估偏见。这有望成为 AI 模型横向对比的新标准，对行业透明度和可信度都很关键。"
+  },
+  {
+   "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
+   "url": "https://www.terminal-bench-science.ai/announcement",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 62,
+   "id": "n26",
+   "summary": "Terminal-Bench-Science 是一个新基准，专门测试 AI 智能体在科研工作流中的执行能力，比如处理数据、跑分析、写结论。它为“AI 科学家”的落地提供了可量化指标，也值得研究机构关注。"
+  },
+  {
+   "title": "OpenAI&#8217;s executive exodus has one big winner",
+   "url": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus",
+   "desc": "Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While Sam Altman is the CEO and still OpenAI’s",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n52",
+   "summary": "OpenAI 的连续高层出走中，最大赢家是联合创始人兼总裁 Greg Brockman，权力进一步集中。这轮组织地震可能改变 OpenAI 的产品优先级和对外合作方式，密切观察其后续走向。"
+  },
+  {
+   "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+   "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+   "desc": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "曾被赶出 Thinking Machines 的联合创始人 Barret Zoph，短暂待过 OpenAI 后，现在加入了 Google。这种顶尖人才的频繁换东家，反映出实验室间的激烈争夺和内部动荡。"
+  },
+  {
+   "title": "AI’s memory crunch is coming for Android apps",
+   "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+   "desc": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Google 开始给 Android 应用设置新的内存上限，因为 AI 数据中心加剧了存储芯片短缺，低端手机可能被迫减少内存。开发者做端侧 AI 时，必须更早考虑模型量化和内存效率，否则应用会被系统限制。"
+  },
+  {
+   "title": "Small Models Have Arrived",
+   "url": "https://calv.info/small-models-have-arrived",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 576,
+   "id": "n3",
+   "summary": "业界开始普遍认为小模型已经达到实用水平，能在端侧跑出不输大模型的效果。对个人开发者和创业团队来说，这意味着可以避开高昂的云端推理成本，用更小的模型做出隐私更好、延迟更低的产品。"
+  },
+  {
+   "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+   "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+   "desc": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "Hugging Face 推出售价 399 美元的桌面开源机器人 Microduck，支持强化学习教新技能。它是一个会滑轮的鸭子机器人，堪称目前最便宜的消费级强化学习硬件，适合入门具身智能和机器人产品。"
+  },
+  {
+   "title": "商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移",
+   "url": "https://www.qbitai.com/2026/08/480227.html",
+   "desc": "国产算力跑通视频生成规模化应用",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n58",
+   "summary": "商汤大装置帮视觉生成公司智象未来把视频生成业务迁移到国产算力上，并做到无感切换。这说明国产 AI 芯片/算力已经可以支撑视频生成这类重负载场景，未来更多国内企业可能选择国产化路线以降低供应链风险。"
+  },
+  {
+   "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+   "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+   "desc": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Google 的 AI Mode 新增机票价格追踪和酒店预订能力，从搜索工具变成能直接执行交易的 AI 旅行代理。这是 AI 从“回答问题”进化到“替你做事”的关键一步，Agent 商业化落地越来越近。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph4",
+   "title": "Qwen3.8-Flash-Next",
+   "url": "https://www.producthunt.com/products/qwen3",
+   "desc": "The open-weight preview of Qwen4 Discussion | Link",
+   "summary": "这是 Qwen4 的开放权重预览版，主打轻量级快速推理，开发者可以提前体验并部署下一代开源模型。"
+  },
+  {
+   "id": "ph18",
+   "title": "GLM-5.3-Flash",
+   "url": "https://www.producthunt.com/products/z-ai",
+   "desc": "The first natively multimodal model in GLM-5 series Discussion | Link",
+   "summary": "GLM-5 系列首个原生多模态模型，预计在图像、视频、音频理解上有突破，值得关注国产大模型的最新方向。"
+  },
+  {
+   "id": "ph8",
+   "title": "GitNexus (Akon Labs)",
+   "url": "https://www.producthunt.com/products/gitnexus-akon-labs",
+   "desc": "The open-source kernel for coding agents Discussion | Link",
+   "summary": "面向编码代理的开源内核，提供构建 AI 编程助手的核心组件，降低开发自定义 coding agent 的门槛。"
+  },
+  {
+   "id": "ph11",
+   "title": "Traccia",
+   "url": "https://www.producthunt.com/products/traccia",
+   "desc": "Finally, a vendor-neutral AI Agent Control Plane. Discussion | Link",
+   "summary": "厂商中立型 AI Agent 控制平面，解决多代理编排和跨平台管理问题，是 Agent 基础设施的重要拼图。"
+  },
+  {
+   "id": "ph22",
+   "title": "IQ Routing",
+   "url": "https://www.producthunt.com/products/iq-routing",
+   "desc": "Trajectory-aware LLM routing that cuts agent cost Discussion | Link",
+   "summary": "基于轨迹感知的 LLM 路由方案，能根据请求复杂度智能分配模型，显著降低 Agent 调用成本。"
+  },
+  {
+   "id": "ph23",
+   "title": "Speko",
+   "url": "https://www.producthunt.com/products/speko",
+   "desc": "OpenRouter for Voice Discussion | Link",
+   "summary": "为语音模型提供统一的 API 路由，类似 OpenRouter 但专攻语音，让开发者轻松接入多家语音服务。"
+  },
+  {
+   "id": "ph9",
+   "title": "Lenz",
+   "url": "https://www.producthunt.com/products/lenz-2",
+   "desc": "Independent, multi-model fact-checking API for AI workflows Discussion | Link",
+   "summary": "面向 AI 工作流的独立多模型事实核查 API，可验证生成内容，提升大模型输出的可信度。"
+  },
+  {
+   "id": "ph13",
+   "title": "Ojin",
+   "url": "https://www.producthunt.com/products/ojin",
+   "desc": "Talk to an AI Agent with a real face and voice, in real time Discussion | Link",
+   "summary": "实时对话 AI Agent，配有真实面孔和声音，提供更具沉浸感的人机交互体验，适合虚拟助手等场景。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Breaking Claude Code Opus 5 Auto Mode",
+   "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+   "desc": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "这篇讲的是 Anthropic 对 Claude Code 的 auto 模式在防提示注入攻击上很有信心，还把它设成了默认，但研究员 Johann Rehberger 发现了问题。值得关注的是，这关系到 AI 编程助手的安全边界，开发者用 auto 模式时得留个心眼，别被恶意指令带偏。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent/大模型应用开发绝对主流，所有AI岗几乎都要求Agent、RAG、多模态等经验；从早期调API变成要能构建生产级Agent系统（编排、工具调用、可观测性）。",
+   "“AI Native”从理念变成硬性要求：很多岗位明确要求日常用Claude Code、Codex等AI编码工具，甚至用Agentic Workflow重构研发流程（如蚂蚁、Tessellate），工程师工作方式本身被AI重塑。",
+   "全栈+AI复合背景最抢手：大量“AI产品工程师”/“Full Stack AI Engineer”岗，要求前端（Next.js/React）+后端（Python/Go/Node）+LLM集成，能独立交付功能。",
+   "AI Infra/平台工程需求明显上升：大模型训练容器调度、GPU集群、MLOps/LLMOps、向量数据库等岗位增多（如ClickHouse、Ai2、通义），行业从应用层向基础设施层深入。",
+   "垂直行业“Forward Deployed Engineer”走红：深入客户现场做AI落地，覆盖医疗、金融、政府、供应链等方向（如Statecraft、Matterhaul），既懂技术又懂业务的人才稀缺。"
+  ],
+  "gigs": [
+   "外包/接单市场出现不少“AI从0到1”小而全的项目：用Dify/n8n搭智能体、ComfyUI做图像生产、OCR识别等（m43、m44、m49），通常1-2人独立交付完整MVP，预算几千到几万不等。",
+   "独立开发者能搞定“前端+后端+AI集成”整套链路最吃香；纯算法调参需求少，重点是把AI能力工程化封装成产品（微信小程序、短剧生产线、私有化部署）。",
+   "出现一批跟大模型账号/API资源相关的灰色需求（Claude账号运营、号池、AI中转站，m17/m36/m38），薪资不低但合规风险需自判；样本有限，仅代表现象存在。",
+   "远程全职岗依然有但门槛高：大多要求5年以上经验+架构能力，且明确要会用AI工具提效；不少岗位还要求远程协作自驱力强（如m25/m40/m45）。"
+  ],
+  "highlights": [
+   {
+    "title": "[上海&杭州] 蚂蚁集团-大前端研发工程师（AI Native）-财富",
+    "desc": "职级：P6-P7 （ 12-14 级） 职位描述： 参与财富核心业务的建设，围绕黄金业务增长、积存金机构服务等方向，负责财富移动端 H5 、Nodejs 等全栈研发的设计、研发、优化与演进，保障实时交易等系统稳定性、性能与业务体验； 采用 AI Native 研发模式，参与 Agent 工程体系建设，将 AI Coding 、Agentic Workflow 等能力应用于需求分析、架构设计、编码开发、测试验证、上线交付等端到端全流程，推动研发模式持续升级； 参与大前端 Agent 、Context 、Knowledge 、Skill 等组织级 AI 能力建设，探索前端智能（如数字员工自主交付、",
+    "url": "https://www.v2ex.com/t/1235062#reply7",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "蚂蚁集团招“大前端研发工程师（AI Native）”，说明大厂已把AI Native写进岗位要求，研发模式本身在重构。"
+   },
+   {
+    "title": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Eng",
+    "desc": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k–$230k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. Thi",
+    "url": "https://news.ycombinator.com/item?id=49215237",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m83",
+    "summary": "Deepline宣称“User interfaces are dead”，做统一API层把数据和工作流暴露给Agent，代表Agent正成为新的交互入口。"
+   },
+   {
+    "title": "Matterhaul | Founding Applied AI Engineer | San Francisco, CA | Onsite (4x/week)",
+    "desc": "Matterhaul | Founding Applied AI Engineer | San Francisco, CA | Onsite (4x/week) | $200-260K | https://www.matterhaul.com/ Looking for opportunities to develop an AI-powered product with a practical impact? Look no further. Matterhaul is building the AI-native ERP for industrial distribution and the hard goods supply chain. In other words, we're making it much, MUCH easier for materials manufactur",
+    "url": "https://news.ycombinator.com/item?id=49211731",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Matterhaul招Founding Applied AI Engineer做AI-native ERP，说明AI重构传统企业软件（供应链/ERP）的赛道在升温。"
+   },
+   {
+    "title": "[新加坡/可远程] 智能体垂类赛道 - 寻找 AI 与数据工程师 / 技术合伙人",
+    "desc": "大家好，我们是一家位于新加坡的早期科技公司，正在为生命科学行业开发生态智能 AI Agent 。 我们正在构建面向创新生态的 AI Agent 与数据库产品，探索如何运用人工智能和数据智能，更高效地理解创新生态、发现潜在机会并促进真实的落地合作。目前项目正在持续开发和验证中。 现寻找一位 AI 与数据方向的核心成员或潜在技术合伙人，希望你具备以下部分经验： AI Agent （智能体）、大模型应用或智能体工作流； 数据工程、数据科学或数据库开发； 知识图谱、搜索推荐或行业智能产品； 从 0 到 1 的产品开发或创业经历。 有生命科学、医药数据或行业数据库经验是加分项。 我们更看重实际能力、学习",
+    "url": "https://www.v2ex.com/t/1234683#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "新加坡早期公司为生命科学行业做AI Agent，找技术合伙人，说明垂直行业Agent创业机会多，且面向全球市场。"
+   },
+   {
+    "title": "“AI仿真人短剧全自动生产线”智能体搭建",
+    "desc": "寻找有n8n+Mulit-Agent实战经验独立开发者，直接受个人开发者，外包公司勿扰。 ",
+    "url": "https://eleduck.com/posts/ARfEaO",
+    "source": "电鸭社区",
+    "id": "m44",
+    "summary": "外包找“AI仿真人短剧全自动生产线”智能体搭建，要求n8n+Multi-Agent实战，说明内容生产自动化已从概念变成真实小生意。"
+   },
+   {
+    "title": "招 cladue max 号池负责人｜ 30K+｜北京/远程",
+    "desc": "招 claude max 号池负责人｜ 30K+｜北京/远程 现状\n目前已经有十几家大厂客户，业务量持续增长，现阶段需要一位能把 claude max 号池搭建稳定的负责人，负责核心技术架构和后续团队建设。 具体包括： 设计并持续迭代整体系统架构 负责账号/资源池的统一管理与智能调度 建立自动化的健康检测、故障识别和恢复体系 根据实时状态进行动态路由、负载分配和并发控制 处理高并发下的限流、排队、超时、熔断等问题 完善监控、日志、告警以及故障定位体系 对现有系统进行二开，也可以根据实际需求重新设计核心模块 随业务增长，把系统从目前规模逐步做到数千级资源规模 后续可以自己搭建技术团队，开发、运维",
+    "url": "https://www.v2ex.com/t/1236289#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "招“Claude max号池负责人”薪资30K+，说明底层模型API资源的管理调度已成为一个新工种（略带灰色，但需求真实）。"
+   }
+  ],
+  "week": "2026-W35"
+ },
+ "llm_used": true,
+ "degraded": []
+}
