@@ -1,0 +1,348 @@
+{
+ "date": "2026-08-29",
+ "generated_at": "2026-08-29 11:44",
+ "trends": [
+  "大模型开源与商业化并行：GLM-5.3开源权重发布，开源权重AI公司成为收购热点，显示开源模式在技术迭代与商业变现上的双重驱动。",
+  "AI算力军备竞赛加剧，但环境与政策风险浮出：Lambda获10亿美元融资购买芯片，同时EPA拟允许数据中心隐藏污染，算力扩张与公众监督的博弈迎来关键节点。",
+  "AI正从“生成内容”迈向“物理操作”：Claude已能控制机械臂执行真实世界任务，具身智能的落地速度超预期，相关创业与硬件机会值得关注。",
+  "AI自我改进与科学发现成为前沿焦点：Anthropic研究员展示自我改进AI，多智能体环境实现自主数学发现，推动AI自主性边界，但需警惕风险。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 20
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 9
+  },
+  {
+   "name": "The Verge AI",
+   "count": 4
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 2
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "GLM-5.3 is now open-weight",
+   "url": "https://huggingface.co/zai-org/GLM-5.3",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 616,
+   "id": "n1",
+   "summary": "GLM-5.3 开源权重发布。智谱AI正式开放GLM-5.3模型权重，开发者可免费下载用于商用或研究。这是继GLM-5.3-Flash后又一重要版本，表明国产大模型在追赶闭源性能的同时，也在积极拥抱开源生态。"
+  },
+  {
+   "title": "Our decision on Cursor following its acquisition by SpaceX",
+   "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+   "desc": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI终止向Cursor提供模型。OpenAI宣布由于Cursor被SpaceX收购，将逐步停止向其供应OpenAI模型。Cursor是一款流行的AI编程工具，此举可能影响其用户体验，也反映AI模型供应商对客户归属的敏感态度。"
+  },
+  {
+   "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+   "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+   "desc": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Anthropic研究员透露自我改进AI进展。在10个特定对齐基准上，自动化系统全部提升性能且不损伤总体能力。这意味着AI可能自主优化自身行为，但安全性和可控性成为更紧迫的问题。"
+  },
+  {
+   "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+   "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+   "desc": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "Neocloud Lambda获10亿美元债务融资购买AI芯片。资金将用于采购Nvidia GPU并租赁给微软，表明AI算力需求依然旺盛，独立云服务商通过资本手段扩大供给。"
+  },
+  {
+   "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+   "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+   "desc": "There's a lot of capital pouring into the business of giving models away.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "开源权重AI公司成为硅谷最热收购目标。大量资金涌入“免费送模型”的生意，比如Stability AI等。科技巨头希望通过收购获得顶尖技术团队和开源生态影响力，行业整合预计加速。"
+  },
+  {
+   "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+   "url": "https://arxiv.org/abs/2608.23691",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 87,
+   "id": "n13",
+   "summary": "多智能体环境实现自主数学发现。研究展示了AI在开放世界中进行自主探索和数学定理发现的能力。这可能是AI科学发现的重要方向，但距离实际应用尚有距离。"
+  },
+  {
+   "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
+   "url": "https://www.qbitai.com/2026/08/480487.html",
+   "desc": "Claude觉醒超体",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n53",
+   "summary": "Claude通过机械臂阻止5000万美元打款。大模型与机器人控制的结合实现真实世界的安全干预，标志着具身智能从演示走向任务执行，未来或用于金融风控等领域。"
+  },
+  {
+   "title": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
+   "desc": "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as \"senseless.\" He's right. For the suppo",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "黄仁勋再次宣布“实现AGI”，后又表示“无关紧要”。这反映业界对AGI定义的混乱，也暗示英伟达作为算力卖方对AGI话题的利用，实际意义有限。"
+  },
+  {
+   "title": "Google’s AI note-taking app now allows you to interact with books",
+   "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+   "desc": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions about the material, as well as generate pla",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "Google AI笔记应用Gemini Notebook支持与书籍交互。新功能“专家智能”可导入Google Play Books并提问、总结。AI笔记工具正在进化为个人知识工作流的核心入口。"
+  },
+  {
+   "title": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
+   "url": "https://www.qbitai.com/2026/08/480600.html",
+   "desc": "企业智能化服务撑起基本盘，第二增长曲线冒头",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n49",
+   "summary": "港股AGI第一股业绩亮眼。Agent业务半年营收近5亿，Token收入Q2环比暴涨500%，证明企业级AI应用已具备真实盈利能力，市场进入兑现期。"
+  },
+  {
+   "title": "Trump’s EPA wants to let data centers hide their air pollution",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+   "desc": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to co",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "美国EPA拟允许数据中心隐藏空气污染。新规将取消公众通知和评论环节，环境影响被削弱监督。AI数据中心的高速扩张正引发环境正义争议。"
+  },
+  {
+   "title": "Processing in Memory: DRAM Is About to Do Math",
+   "url": "https://ben3d.ca/blog/processing-in-memory",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 78,
+   "id": "n16",
+   "summary": "存内处理技术兴起。DRAM即将在存储内直接执行计算，缓解AI推理/训练的内存带宽瓶颈。这一硬件趋势可能重塑AI芯片格局，值得开发者关注。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "Caddi",
+   "url": "https://www.producthunt.com/products/caddi-3",
+   "desc": "Agent that builds agents by only showing your work only once Discussion | Link",
+   "summary": "只需演示一次就能构建AI代理的工具，省去重复配置，适合快速搭建自动化流程。"
+  },
+  {
+   "id": "ph9",
+   "title": "screenpipe",
+   "url": "https://www.producthunt.com/products/screenpipe",
+   "desc": "AI that records your computer work to power agents. Discussion | Link",
+   "summary": "记录你电脑操作并喂给AI代理，相当于给代理装一双眼睛，能实现更智能的自动化。"
+  },
+  {
+   "id": "ph13",
+   "title": "Firecrawl Developer Index",
+   "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+   "desc": "A curated index of 70M+ artifacts for coding agents. Discussion | Link",
+   "summary": "收集7000万+代码制品索引，专门给编码代理用，让AI写代码更准确。"
+  },
+  {
+   "id": "ph1",
+   "title": "Gemini Omni 1.1 Flash",
+   "url": "https://www.producthunt.com/products/gemini-omni-1-1-flash",
+   "desc": "Our newest multimodal model for video generation and editing Discussion | Link",
+   "summary": "谷歌最新的多模态视频生成编辑模型，能直接生成和修改视频，效果很惊艳。"
+  },
+  {
+   "id": "ph2",
+   "title": "Almanac",
+   "url": "https://www.producthunt.com/products/almanac-5",
+   "desc": "The agent with a second brain Discussion | Link",
+   "summary": "带第二大脑的AI代理，能记住和检索你的历史信息，像私人助理一样靠谱。"
+  },
+  {
+   "id": "ph19",
+   "title": "Revalvo",
+   "url": "https://www.producthunt.com/products/revalvo",
+   "desc": "Run prompts on every model at once. Score. Version. Ship. Discussion | Link",
+   "summary": "一个同时跑遍所有模型的工具，可以对比、打分、版本控制，选模型神器。"
+  },
+  {
+   "id": "ph3",
+   "title": "SuperIntern",
+   "url": "https://www.producthunt.com/products/super-intern-4",
+   "desc": "Your email and meeting assistant, inside your chat apps Discussion | Link",
+   "summary": "直接集成在聊天应用里的邮件和会议助手，不用切换App就能处理事务。"
+  },
+  {
+   "id": "ph20",
+   "title": "Gemini 3.5 Transcribe",
+   "url": "https://www.producthunt.com/products/gemini-3-5-transcribe",
+   "desc": "Our most precise speech-to-text model yet Discussion | Link",
+   "summary": "谷歌最精准的语音转文字模型，转写准确率大幅提升，适合会议记录等场景。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+   "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+   "desc": "It’s Time. We’re in the Endgame now.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "这篇是Latent Space的AI新闻汇总，头条是OpenAI有望在2026年底达到AGI标准，是个重大且具体的时间点预测，值得关注。"
+  },
+  {
+   "title": "Just a rumour of a bug is enough to find a security exploit these days",
+   "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+   "desc": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted expl",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "这篇讲OCaml项目里光是流传一个漏洞传言就足以引来真实攻击，说明安全利用已高度自动化、攻击者反应极快，值得开发者警惕。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "AI Agent/大模型应用开发绝对主流，所有AI岗几乎都要求Agent、RAG、多模态等经验；从早期调API变成要能构建生产级Agent系统（编排、工具调用、可观测性）。",
+   "“AI Native”从理念变成硬性要求：很多岗位明确要求日常用Claude Code、Codex等AI编码工具，甚至用Agentic Workflow重构研发流程（如蚂蚁、Tessellate），工程师工作方式本身被AI重塑。",
+   "全栈+AI复合背景最抢手：大量“AI产品工程师”/“Full Stack AI Engineer”岗，要求前端（Next.js/React）+后端（Python/Go/Node）+LLM集成，能独立交付功能。",
+   "AI Infra/平台工程需求明显上升：大模型训练容器调度、GPU集群、MLOps/LLMOps、向量数据库等岗位增多（如ClickHouse、Ai2、通义），行业从应用层向基础设施层深入。",
+   "垂直行业“Forward Deployed Engineer”走红：深入客户现场做AI落地，覆盖医疗、金融、政府、供应链等方向（如Statecraft、Matterhaul），既懂技术又懂业务的人才稀缺。"
+  ],
+  "gigs": [
+   "外包/接单市场出现不少“AI从0到1”小而全的项目：用Dify/n8n搭智能体、ComfyUI做图像生产、OCR识别等（m43、m44、m49），通常1-2人独立交付完整MVP，预算几千到几万不等。",
+   "独立开发者能搞定“前端+后端+AI集成”整套链路最吃香；纯算法调参需求少，重点是把AI能力工程化封装成产品（微信小程序、短剧生产线、私有化部署）。",
+   "出现一批跟大模型账号/API资源相关的灰色需求（Claude账号运营、号池、AI中转站，m17/m36/m38），薪资不低但合规风险需自判；样本有限，仅代表现象存在。",
+   "远程全职岗依然有但门槛高：大多要求5年以上经验+架构能力，且明确要会用AI工具提效；不少岗位还要求远程协作自驱力强（如m25/m40/m45）。"
+  ],
+  "highlights": [
+   {
+    "title": "[上海&杭州] 蚂蚁集团-大前端研发工程师（AI Native）-财富",
+    "desc": "职级：P6-P7 （ 12-14 级） 职位描述： 参与财富核心业务的建设，围绕黄金业务增长、积存金机构服务等方向，负责财富移动端 H5 、Nodejs 等全栈研发的设计、研发、优化与演进，保障实时交易等系统稳定性、性能与业务体验； 采用 AI Native 研发模式，参与 Agent 工程体系建设，将 AI Coding 、Agentic Workflow 等能力应用于需求分析、架构设计、编码开发、测试验证、上线交付等端到端全流程，推动研发模式持续升级； 参与大前端 Agent 、Context 、Knowledge 、Skill 等组织级 AI 能力建设，探索前端智能（如数字员工自主交付、",
+    "url": "https://www.v2ex.com/t/1235062#reply7",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "蚂蚁集团招“大前端研发工程师（AI Native）”，说明大厂已把AI Native写进岗位要求，研发模式本身在重构。"
+   },
+   {
+    "title": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Eng",
+    "desc": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k–$230k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. Thi",
+    "url": "https://news.ycombinator.com/item?id=49215237",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m83",
+    "summary": "Deepline宣称“User interfaces are dead”，做统一API层把数据和工作流暴露给Agent，代表Agent正成为新的交互入口。"
+   },
+   {
+    "title": "Matterhaul | Founding Applied AI Engineer | San Francisco, CA | Onsite (4x/week)",
+    "desc": "Matterhaul | Founding Applied AI Engineer | San Francisco, CA | Onsite (4x/week) | $200-260K | https://www.matterhaul.com/ Looking for opportunities to develop an AI-powered product with a practical impact? Look no further. Matterhaul is building the AI-native ERP for industrial distribution and the hard goods supply chain. In other words, we're making it much, MUCH easier for materials manufactur",
+    "url": "https://news.ycombinator.com/item?id=49211731",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Matterhaul招Founding Applied AI Engineer做AI-native ERP，说明AI重构传统企业软件（供应链/ERP）的赛道在升温。"
+   },
+   {
+    "title": "[新加坡/可远程] 智能体垂类赛道 - 寻找 AI 与数据工程师 / 技术合伙人",
+    "desc": "大家好，我们是一家位于新加坡的早期科技公司，正在为生命科学行业开发生态智能 AI Agent 。 我们正在构建面向创新生态的 AI Agent 与数据库产品，探索如何运用人工智能和数据智能，更高效地理解创新生态、发现潜在机会并促进真实的落地合作。目前项目正在持续开发和验证中。 现寻找一位 AI 与数据方向的核心成员或潜在技术合伙人，希望你具备以下部分经验： AI Agent （智能体）、大模型应用或智能体工作流； 数据工程、数据科学或数据库开发； 知识图谱、搜索推荐或行业智能产品； 从 0 到 1 的产品开发或创业经历。 有生命科学、医药数据或行业数据库经验是加分项。 我们更看重实际能力、学习",
+    "url": "https://www.v2ex.com/t/1234683#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "新加坡早期公司为生命科学行业做AI Agent，找技术合伙人，说明垂直行业Agent创业机会多，且面向全球市场。"
+   },
+   {
+    "title": "“AI仿真人短剧全自动生产线”智能体搭建",
+    "desc": "寻找有n8n+Mulit-Agent实战经验独立开发者，直接受个人开发者，外包公司勿扰。 ",
+    "url": "https://eleduck.com/posts/ARfEaO",
+    "source": "电鸭社区",
+    "id": "m44",
+    "summary": "外包找“AI仿真人短剧全自动生产线”智能体搭建，要求n8n+Multi-Agent实战，说明内容生产自动化已从概念变成真实小生意。"
+   },
+   {
+    "title": "招 cladue max 号池负责人｜ 30K+｜北京/远程",
+    "desc": "招 claude max 号池负责人｜ 30K+｜北京/远程 现状\n目前已经有十几家大厂客户，业务量持续增长，现阶段需要一位能把 claude max 号池搭建稳定的负责人，负责核心技术架构和后续团队建设。 具体包括： 设计并持续迭代整体系统架构 负责账号/资源池的统一管理与智能调度 建立自动化的健康检测、故障识别和恢复体系 根据实时状态进行动态路由、负载分配和并发控制 处理高并发下的限流、排队、超时、熔断等问题 完善监控、日志、告警以及故障定位体系 对现有系统进行二开，也可以根据实际需求重新设计核心模块 随业务增长，把系统从目前规模逐步做到数千级资源规模 后续可以自己搭建技术团队，开发、运维",
+    "url": "https://www.v2ex.com/t/1236289#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m17",
+    "summary": "招“Claude max号池负责人”薪资30K+，说明底层模型API资源的管理调度已成为一个新工种（略带灰色，但需求真实）。"
+   }
+  ],
+  "week": "2026-W35"
+ },
+ "llm_used": true,
+ "degraded": []
+}
