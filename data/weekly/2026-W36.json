@@ -1,0 +1,65 @@
+{
+ "skills": [
+  "Agent 工程化和 LLM 应用开发成为主流需求，广泛要求熟悉 LangChain / LangGraph / Dify 等框架，以及 RAG、多模态、模型接入等落地能力。",
+  "后端岗位需求量最大，强调强类型语言（Rust、Go、Java）和分布式系统经验，同时越来越多岗位要求 AI 集成或 Agent 开发背景，纯 CRUD 后端竞争力下降。",
+  "ML 基础设施和数据工程岗位持续增长，覆盖特征存储、ML 平台、数据管道，以及 LLM 后训练（SFT / 偏好优化）、评测等专门技能，量化、金融、医疗等行业高薪岗位集中。",
+  "AI 编码工具（Claude Code、Codex 等）已成为基本要求，多岗位明确要求通过 AI 工具提升开发效率，甚至开设专门负责 AI coding 体系建设的角色。",
+  "全栈工程师需求旺盛，但要兼具 AI 能力和业务理解，特别是能将大模型能力嵌入医疗、金融、电商等具体场景的人才，薪资开价普遍较高。"
+ ],
+ "gigs": [
+  "远程接单和外包市场对 AI 应用开发（尤其 Agent / RAG）需求量大，具备完整项目交付经验的独立开发者很抢手，有个人作品的求职者更容易获得机会。",
+  "平台型远程机会增多，A.Team、Lemon.io 等专门匹配高级 AI 工程师，但门槛高，要求独立完成从设计到部署的全流程能力。",
+  "样本有限，但可看出短期 MVP 和验证型项目开始出现（如 AI 产品共创、7 天 MVP），部分买方愿意为快速原型支付溢价。"
+ ],
+ "highlights": [
+  {
+   "title": "Senior Backend Engineer Build AI Agents @ Salesforge",
+   "desc": "golang, senior, sales, engineer, backend",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114",
+   "source": "RemoteOK",
+   "id": "m3",
+   "summary": "Salesforge 招后端 Agent 工程师，说明纯 AI Agent 产品开始重视生产级可靠性和工程化能力，而非仅仅 demo。"
+  },
+  {
+   "title": "[长沙] 上市公司证券方向 - 不限制语言（AI Coding）",
+   "desc": "💼 岗位列表\n📌 岗位职责\n券商服务端开发工程师 [岗位职责]\n1 、负责券商核心业务系统（如股票/期权交易、资产结算、账户管理、风控等模块）的后端方案设计、编码实现与单元测试；\n2 、持续优化系统性能，解决高并发、低延迟下的技术挑战，确保系统的高可用性和稳定；\n性，满足金融级业务要求；\n3 、与产品、合规、业务团队紧密协作，深入理解券商业务逻辑与合规要求；\n4 、负责解决系统中碰到的各类技术难点。 [任职要求]\n1 、具备 5 年以上后端开发经验，有券商、金融、支付或电商核心业务（如订单、搜索）等相关行业系统开发经验者优先；\n2 、编程语言不限（ Java 、Go 等均可），具备扎实的编程基",
+   "url": "https://www.v2ex.com/t/1237782#reply12",
+   "source": "V2EX 酷工作",
+   "id": "m22",
+   "summary": "长沙券商岗位不限编程语言但明确要求 AI Coding，显示传统金融行业普遍接受 AI 辅助开发，并作为核心技能。"
+  },
+  {
+   "title": "招聘： LLM 后训练工程师 (角色扮演对话模型类型)",
+   "desc": "在 V2 已经招到 5 个以上全职远程的小伙伴了，目前都已经稳定在职，团队还在继续扩充 目前的缺口有 LLM 后训练的算法工程师岗位，AIGC 创作的内容运营岗位，AI 伴侣产品岗位 美国主体公司，有自己的 GPU 集群，支持远程全职，欢迎投递 岗位薪资标准：20-40k/月 ## 岗位职责 - 负责大语言模型的 SFT 、偏好优化及相关后训练工作； - 建设训练数据的采集、清洗、去重、标注和质量评估流程； - 设计模型评测集和评价指标，分析训练前后的能力变化； - 组织候选回答生成、人工评审和高质量训练样本生产； - 优化训练参数、数据配比、上下文长度和 Chat Template ； - ",
+   "url": "https://www.v2ex.com/t/1237578#reply4",
+   "source": "V2EX 酷工作",
+   "id": "m27",
+   "summary": "LLM 后训练岗位独立成岗，角色扮演对话模型需自建 GPU 集群和完整后训练 pipeline，垂直场景模型调优成为新方向。"
+  },
+  {
+   "title": "招 cladue max 号池负责人｜ 30K+｜北京/远程",
+   "desc": "招 claude max 号池负责人｜ 30K+｜北京/远程 现状\n目前已经有十几家大厂客户，业务量持续增长，现阶段需要一位能把 claude max 号池搭建稳定的负责人，负责核心技术架构和后续团队建设。 具体包括： 设计并持续迭代整体系统架构 负责账号/资源池的统一管理与智能调度 建立自动化的健康检测、故障识别和恢复体系 根据实时状态进行动态路由、负载分配和并发控制 处理高并发下的限流、排队、超时、熔断等问题 完善监控、日志、告警以及故障定位体系 对现有系统进行二开，也可以根据实际需求重新设计核心模块 随业务增长，把系统从目前规模逐步做到数千级资源规模 后续可以自己搭建技术团队，开发、运维",
+   "url": "https://www.v2ex.com/t/1236289#reply3",
+   "source": "V2EX 酷工作",
+   "id": "m42",
+   "summary": "Claude max 号池负责人岗位说明 Agent 基础设施已细分出账号资源池管理，反映大模型 API 规模化运营的刚需。"
+  },
+  {
+   "title": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Eng",
+   "desc": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k–$230k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. Thi",
+   "url": "https://news.ycombinator.com/item?id=49215237",
+   "source": "HN Who is hiring? (August 2026)",
+   "id": "m86",
+   "summary": "Deepline 宣称 'UI 已死'，专注做 agent 接口层，代表一种极端观点：未来知识工作者交互将从图形界面转向智能体。"
+  },
+  {
+   "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+   "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+   "url": "https://news.ycombinator.com/item?id=49217319",
+   "source": "HN Who is hiring? (August 2026)",
+   "id": "m84",
+   "summary": "LiveKit 招聘 VoiceAI 基础设施工程师，表明语音驱动的 Agent 交互正在成为资本市场关注的下一个高增长赛道。"
+  }
+ ],
+ "week": "2026-W36"
+}

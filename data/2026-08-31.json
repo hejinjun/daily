@@ -1,0 +1,403 @@
+{
+ "date": "2026-08-31",
+ "generated_at": "2026-08-31 08:39",
+ "trends": [
+  "AI安全成为焦点：HuggingFace被黑事件催生行业复盘，供应链攻击风险敲响警钟。",
+  "生成模型架构探索新方向：连续扩散语言模型等研究挑战自回归范式，效率突破值得期待。",
+  "AI落地进入行业深耕期：传统工业巨头输出AI部署方法论，教育、监控等垂直场景迎来机会与争议。",
+  "AI治理与隐私争议升温：政府开始对AI监控设限，平衡技术创新与公众权益成为关键议题。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 19
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 5
+  },
+  {
+   "name": "The Verge AI",
+   "count": 2
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 3
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 2
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "THU-MAIC/OpenMAIC",
+   "url": "https://github.com/THU-MAIC/OpenMAIC",
+   "desc": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+   "lang": "TypeScript",
+   "stars": "23,980",
+   "stars_today": "1,370 stars today",
+   "summary": "OpenMAIC 是一个多智能体交互课堂项目，想让用户一键进入沉浸式的多智能体学习环境。今天涨了 1370 星，说明大家对多智能体在教育场景的应用特别好奇，而且它还是 TypeScript 写的，对前端开发者很友好。"
+  },
+  {
+   "id": "gh16",
+   "title": "tashfeenahmed/freellmapi",
+   "url": "https://github.com/tashfeenahmed/freellmapi",
+   "desc": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+   "lang": "TypeScript",
+   "stars": "22,770",
+   "stars_today": "504 stars today",
+   "summary": "freellmapi 把 34 个免费 LLM 提供商的 635 个模型端点聚合到一个 /v1 接口后面，还带智能路由和自动故障转移。今天涨了 504 星，因为现在大家做应用最烦的就是 API 成本和锁死，这工具相当于白嫖大模型的瑞士军刀。"
+  },
+  {
+   "id": "gh4",
+   "title": "p-e-w/heretic",
+   "url": "https://github.com/p-e-w/heretic",
+   "desc": "Fully automatic censorship removal for language models",
+   "lang": "Python",
+   "stars": "29,165",
+   "stars_today": "369 stars today",
+   "summary": "heretic 号称能全自动移除语言模型的安全审查，让模型“原汁原味”输出。今天涨了 369 星，热度高是因为它踩中了 AI 对齐和审查这个争议点，开发者想看技术实现，也好奇边界在哪。"
+  },
+  {
+   "id": "gh5",
+   "title": "unclecode/crawl4ai",
+   "url": "https://github.com/unclecode/crawl4ai",
+   "desc": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN",
+   "lang": "Python",
+   "stars": "80,225",
+   "stars_today": "221 stars today",
+   "summary": "crawl4ai 是一个专门为 LLM 设计的开源爬虫和抓取工具，能高效地把网页内容转成模型友好的格式。它 Star 已经 8 万多了还每天涨 221，因为大模型训练和 RAG 都需要大量干净数据，这种工具是刚需。"
+  },
+  {
+   "id": "gh6",
+   "title": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "lang": "Python",
+   "stars": "60,499",
+   "stars_today": "230 stars today",
+   "summary": "last30days-skill 是一个 AI agent 技能，可以自动研究 Reddit、X、YouTube、HN 等平台最近 30 天的内容，并输出有依据的总结。今天涨 230 星，火是因为大家受够碎片化信息，想要 agent 能帮忙做“调研报告”。"
+  },
+  {
+   "id": "gh18",
+   "title": "abhigyanpatwari/GitNexus",
+   "url": "https://github.com/abhigyanpatwari/GitNexus",
+   "desc": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+   "lang": "TypeScript",
+   "stars": "46,561",
+   "stars_today": "182 stars today",
+   "summary": "GitNexus 在浏览器里直接把你的 Git 仓库变成知识图谱，还内置 Graph RAG 代理用来做代码探索。今天涨了 182 星，因为代码理解和 RAG 结合是开发者提效的大热门，而且不用起服务，开箱即用。"
+  },
+  {
+   "id": "gh17",
+   "title": "livekit/agents",
+   "url": "https://github.com/livekit/agents",
+   "desc": "A framework for building realtime voice AI agents 🤖🎙️📹",
+   "lang": "Python",
+   "stars": "13,752",
+   "stars_today": "132 stars today",
+   "summary": "livekit/agents 是一个构建实时语音 AI 智能体的框架，支持音频、视频交互。今天涨了 132 星，实时语音是 AI 交互的下一个爆发点，Livekit 作为基础设施厂商，这个框架算是给开发者铺好了路。"
+  },
+  {
+   "id": "gh8",
+   "title": "punkpeye/awesome-mcp-servers",
+   "url": "https://github.com/punkpeye/awesome-mcp-servers",
+   "desc": "A collection of MCP servers.",
+   "lang": "",
+   "stars": "93,315",
+   "stars_today": "96 stars today",
+   "summary": "awesome-mcp-servers 整理了各种 MCP 服务器资源，是模型上下文协议的生态集合。今天涨了 96 星，MCP 正在成为 AI 应用连接外部工具的标准，这个列表对想接入 MCP 的开发者来说就是藏宝图。"
+  },
+  {
+   "id": "gh11",
+   "title": "pollen-robotics/microduck_rl",
+   "url": "https://github.com/pollen-robotics/microduck_rl",
+   "desc": "RL training environments for Microduck (mjlab)",
+   "lang": "Python",
+   "stars": "786",
+   "stars_today": "168 stars today",
+   "summary": "microduck_rl 为 Microduck 机器人提供强化学习训练环境，基于 mjlab。虽然现在星少但今天涨了 168 星，说明机器人 RL 这块关注度在快速上升，感兴趣的开发者想早点上车。"
+  },
+  {
+   "id": "gh12",
+   "title": "handsomestWei/patent-disclosure-skill",
+   "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+   "desc": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+   "lang": "Python",
+   "stars": "5,640",
+   "stars_today": "62 stars today",
+   "summary": "patent-disclosure-skill 是一个中国专利写作 agent 技能，能帮你挖掘专利点、撰写交底书，还懂政策动态。今天涨了 62 星，垂直领域 AI 应用越来越吃香，对做律师、法务或科技创业的人来说很有吸引力。"
+  }
+ ],
+ "news": [
+  {
+   "title": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack",
+   "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 220,
+   "id": "n6",
+   "summary": "METR和Redwood对HuggingFace被黑事件发布详细复盘，揭示AI供应链安全的脆弱性。这次攻击影响了大量AI开发者的基础设施，值得每个依赖HuggingFace的团队警惕。"
+  },
+  {
+   "title": "Continuous Diffusion Language Models (CDLM's)",
+   "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 46,
+   "id": "n20",
+   "summary": "连续扩散语言模型（CDLM）提出了一种新的生成方式，直接对连续表示做扩散，可能比自回归更高效。虽然还处于研究阶段，但值得关注生成模型的下一个前沿。"
+  },
+  {
+   "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+   "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+   "desc": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n31",
+   "summary": "Caterpillar把几十年采矿自动化经验用到AI部署上，帮助企业规避AI项目落地的坑。这代表传统行业开始以务实方式推动AI，对B端AI服务商是机会。"
+  },
+  {
+   "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+   "desc": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacki",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "德州州长冻结了对Flock AI监控摄像头的资金支持，起因是媒体曝光其高额支出和隐私争议。这显示公众对AI监控的反弹正在影响政府决策。"
+  },
+  {
+   "title": "Show HN: Academa – Long-form STEM lecture videos generated by LLMs",
+   "url": "https://academa.ai/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 27,
+   "id": "n24",
+   "summary": "一个叫Academa的Show HN项目用LLM生成长篇STEM教学视频，可能改变在线教育内容的生产方式。对教育科技创业者有启发。"
+  },
+  {
+   "title": "去年归国的徐梦迪，成了清华姚班班主任",
+   "url": "https://www.qbitai.com/2026/08/481318.html",
+   "desc": "本科读车辆工程，如今教AI第一班",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n38",
+   "summary": "去年归国的徐梦迪出任清华姚班班主任，从车辆工程转AI教育，说明跨学科人才在AI领域的价值。对想转型AI的人是一个激励。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph4",
+   "title": "Superagent",
+   "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
+   "desc": "Claude Code for the rest of us Discussion | Link",
+   "summary": "这是一个把 Claude Code 带给你我的 AI 编程工具，不用复杂配置就能让 AI 帮你写代码。亮点是降低了 AI 编程门槛，普通开发者也能享受顶级 AI 助手。"
+  },
+  {
+   "id": "ph3",
+   "title": "oMLX",
+   "url": "https://www.producthunt.com/products/omlx",
+   "desc": "Mac LLM server that cuts agent wait times from 90s to 5s Discussion | Link",
+   "summary": "这是一个 Mac 上跑的 LLM 服务器，专为 AI agent 优化，能把等待时间从 90 秒砍到 5 秒。对本地部署大模型和做 agent 开发的极客来说，性能提升非常诱人。"
+  },
+  {
+   "id": "ph1",
+   "title": "Olostep",
+   "url": "https://www.producthunt.com/products/olostep",
+   "desc": "Turn the Web into Clean Data for AI Discussion | Link",
+   "summary": "它把整个网页转成干净的、结构化的数据，直接喂给 AI 用。做 RAG 或数据管道的开发者会很喜欢，省去自己写爬虫和清洗的麻烦。"
+  },
+  {
+   "id": "ph8",
+   "title": "Sayscroll",
+   "url": "https://www.producthunt.com/products/sayscroll-ai-teleprompter",
+   "desc": "The AI Teleprompter that scrolls as you speak Discussion | Link",
+   "summary": "这是一款 AI 提词器，能跟着你的语速自动滚动提示词。演讲或录视频时不用手动翻页，再也不怕念错词。"
+  },
+  {
+   "id": "ph13",
+   "title": "Murfy AI",
+   "url": "https://www.producthunt.com/products/murfy",
+   "desc": "Write, review, and publish to arXiv 10x faster Discussion | Link",
+   "summary": "这个工具用 AI 帮科研人员写论文、改稿、投 arXiv，号称快 10 倍。对赶 deadline 的学术党来说，简直是救星。"
+  },
+  {
+   "id": "ph12",
+   "title": "Referent",
+   "url": "https://www.producthunt.com/products/referent",
+   "desc": "The AI-native OS for modern law firms Discussion | Link",
+   "summary": "一个为现代律所打造的 AI 原生操作系统，把法律文件、案例研究和工作流都整合在一起。律所数字化转型可能就靠它了。"
+  },
+  {
+   "id": "ph2",
+   "title": "Maritime",
+   "url": "https://www.producthunt.com/products/maritime",
+   "desc": "Dedicated computers for AI agents, starting at $1/month Discussion | Link",
+   "summary": "它提供专门给 AI agent 用的云电脑，每月只要 1 美元起。相当于给 AI 配了个专属服务器，成本低到可以随便跑 agent。"
+  },
+  {
+   "id": "ph20",
+   "title": "Staats",
+   "url": "https://www.producthunt.com/products/staats-3",
+   "desc": "Ask your coding agent how your site is doing Discussion | Link",
+   "summary": "这是一个让 AI 帮你监控网站状态的工具，你可以直接问它\"网站现在怎么样？\"。它把 agent 用在了运维上，符合\"AI 替代人工盯盘\"的趋势。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Understanding ChatGPT Work",
+   "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+   "desc": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one tha",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 解析 OpenAI 刚发布的 ChatGPT Work，认为它其实是两个产品的混合体，目前虽混乱但能力很强，值得关注其真实功能与快速迭代。"
+  },
+  {
+   "title": "Agency and Agents",
+   "url": "https://www.oneusefulthing.org/p/agency-and-agents",
+   "desc": "From the Hugging Face Incident to Twilight Factories",
+   "source": "One Useful Thing（Ethan Mollick）",
+   "lang": "en",
+   "id": "b4",
+   "summary": "Ethan Mollick 从 Hugging Face 事件聊到‘黄昏工厂’，探讨 AI 代理的自主性边界，帮你思考让 AI 自己行动会带来什么机会和风险。"
+  },
+  {
+   "title": "How Non-Coders Are Vibe Coding $100K+ Businesses With AI | Amol Jain",
+   "url": "https://creatoreconomy.so/p/how-non-coders-are-vibe-coding-100k-businesses-with-ai-amol-jain-replit",
+   "desc": "3 examples of vibe-coded apps that reached six figures in revenue, plus 4 steps to turn your prototype into a real business, including publishing, security, payments, and distribution.",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b11",
+   "summary": "Peter Yang 分享非程序员用 AI 边聊边写代码做出年入 10 万美元的 3 个案例，外加 4 步把原型变生意，对想靠 AI 创业的人有实操价值。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化和 LLM 应用开发成为主流需求，广泛要求熟悉 LangChain / LangGraph / Dify 等框架，以及 RAG、多模态、模型接入等落地能力。",
+   "后端岗位需求量最大，强调强类型语言（Rust、Go、Java）和分布式系统经验，同时越来越多岗位要求 AI 集成或 Agent 开发背景，纯 CRUD 后端竞争力下降。",
+   "ML 基础设施和数据工程岗位持续增长，覆盖特征存储、ML 平台、数据管道，以及 LLM 后训练（SFT / 偏好优化）、评测等专门技能，量化、金融、医疗等行业高薪岗位集中。",
+   "AI 编码工具（Claude Code、Codex 等）已成为基本要求，多岗位明确要求通过 AI 工具提升开发效率，甚至开设专门负责 AI coding 体系建设的角色。",
+   "全栈工程师需求旺盛，但要兼具 AI 能力和业务理解，特别是能将大模型能力嵌入医疗、金融、电商等具体场景的人才，薪资开价普遍较高。"
+  ],
+  "gigs": [
+   "远程接单和外包市场对 AI 应用开发（尤其 Agent / RAG）需求量大，具备完整项目交付经验的独立开发者很抢手，有个人作品的求职者更容易获得机会。",
+   "平台型远程机会增多，A.Team、Lemon.io 等专门匹配高级 AI 工程师，但门槛高，要求独立完成从设计到部署的全流程能力。",
+   "样本有限，但可看出短期 MVP 和验证型项目开始出现（如 AI 产品共创、7 天 MVP），部分买方愿意为快速原型支付溢价。"
+  ],
+  "highlights": [
+   {
+    "title": "Senior Backend Engineer Build AI Agents @ Salesforge",
+    "desc": "golang, senior, sales, engineer, backend",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114",
+    "source": "RemoteOK",
+    "id": "m3",
+    "summary": "Salesforge 招后端 Agent 工程师，说明纯 AI Agent 产品开始重视生产级可靠性和工程化能力，而非仅仅 demo。"
+   },
+   {
+    "title": "[长沙] 上市公司证券方向 - 不限制语言（AI Coding）",
+    "desc": "💼 岗位列表\n📌 岗位职责\n券商服务端开发工程师 [岗位职责]\n1 、负责券商核心业务系统（如股票/期权交易、资产结算、账户管理、风控等模块）的后端方案设计、编码实现与单元测试；\n2 、持续优化系统性能，解决高并发、低延迟下的技术挑战，确保系统的高可用性和稳定；\n性，满足金融级业务要求；\n3 、与产品、合规、业务团队紧密协作，深入理解券商业务逻辑与合规要求；\n4 、负责解决系统中碰到的各类技术难点。 [任职要求]\n1 、具备 5 年以上后端开发经验，有券商、金融、支付或电商核心业务（如订单、搜索）等相关行业系统开发经验者优先；\n2 、编程语言不限（ Java 、Go 等均可），具备扎实的编程基",
+    "url": "https://www.v2ex.com/t/1237782#reply12",
+    "source": "V2EX 酷工作",
+    "id": "m22",
+    "summary": "长沙券商岗位不限编程语言但明确要求 AI Coding，显示传统金融行业普遍接受 AI 辅助开发，并作为核心技能。"
+   },
+   {
+    "title": "招聘： LLM 后训练工程师 (角色扮演对话模型类型)",
+    "desc": "在 V2 已经招到 5 个以上全职远程的小伙伴了，目前都已经稳定在职，团队还在继续扩充 目前的缺口有 LLM 后训练的算法工程师岗位，AIGC 创作的内容运营岗位，AI 伴侣产品岗位 美国主体公司，有自己的 GPU 集群，支持远程全职，欢迎投递 岗位薪资标准：20-40k/月 ## 岗位职责 - 负责大语言模型的 SFT 、偏好优化及相关后训练工作； - 建设训练数据的采集、清洗、去重、标注和质量评估流程； - 设计模型评测集和评价指标，分析训练前后的能力变化； - 组织候选回答生成、人工评审和高质量训练样本生产； - 优化训练参数、数据配比、上下文长度和 Chat Template ； - ",
+    "url": "https://www.v2ex.com/t/1237578#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "LLM 后训练岗位独立成岗，角色扮演对话模型需自建 GPU 集群和完整后训练 pipeline，垂直场景模型调优成为新方向。"
+   },
+   {
+    "title": "招 cladue max 号池负责人｜ 30K+｜北京/远程",
+    "desc": "招 claude max 号池负责人｜ 30K+｜北京/远程 现状\n目前已经有十几家大厂客户，业务量持续增长，现阶段需要一位能把 claude max 号池搭建稳定的负责人，负责核心技术架构和后续团队建设。 具体包括： 设计并持续迭代整体系统架构 负责账号/资源池的统一管理与智能调度 建立自动化的健康检测、故障识别和恢复体系 根据实时状态进行动态路由、负载分配和并发控制 处理高并发下的限流、排队、超时、熔断等问题 完善监控、日志、告警以及故障定位体系 对现有系统进行二开，也可以根据实际需求重新设计核心模块 随业务增长，把系统从目前规模逐步做到数千级资源规模 后续可以自己搭建技术团队，开发、运维",
+    "url": "https://www.v2ex.com/t/1236289#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m42",
+    "summary": "Claude max 号池负责人岗位说明 Agent 基础设施已细分出账号资源池管理，反映大模型 API 规模化运营的刚需。"
+   },
+   {
+    "title": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Eng",
+    "desc": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k–$230k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. Thi",
+    "url": "https://news.ycombinator.com/item?id=49215237",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Deepline 宣称 'UI 已死'，专注做 agent 接口层，代表一种极端观点：未来知识工作者交互将从图形界面转向智能体。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+    "url": "https://news.ycombinator.com/item?id=49217319",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m84",
+    "summary": "LiveKit 招聘 VoiceAI 基础设施工程师，表明语音驱动的 Agent 交互正在成为资本市场关注的下一个高增长赛道。"
+   }
+  ],
+  "week": "2026-W36"
+ },
+ "llm_used": true,
+ "degraded": []
+}
