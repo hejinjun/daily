@@ -1,0 +1,417 @@
+{
+ "date": "2026-09-01",
+ "generated_at": "2026-09-01 09:18",
+ "trends": [
+  "AI模型迭代加速，训练硬件多元化：GPT-6即将发布，OpenAI大规模采购Mac用于强化学习，Nvidia大额投资联发科，显示AI基础设施竞争进入新阶段，开发者的硬件选型和技术栈将更多元。",
+  "AI监管与合规成为全球议题：欧盟将ChatGPT列为超大型搜索引擎，Instagram限制未披露AI资料，Debian允许负责任使用AI代码，提示AI产品在设计时必须考虑透明度、责任和地域合规。",
+  "AI创业向垂直场景深挖：企业知识库（Almanac）、机器人数据管道（Hebbian）、公共AI基础设施（Polimill）、视频搜索（Clipto）等融资和产品密集发布，说明通用大模型之外，行业专用AI和具身智能是创业和职业布局的重要方向。",
+  "中国AI生态加速落地：滴滴自动驾驶开启载客测试，范式与华为达成算力战略合作，国内机器人公司进入工业具身智能第一梯队，显示本土AI在应用场景和硬件底座上同步突破，相关机会值得关注。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 16
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 10
+  },
+  {
+   "name": "The Verge AI",
+   "count": 5
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 7
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh1",
+   "title": "tt-a1i/archify",
+   "url": "https://github.com/tt-a1i/archify",
+   "desc": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+   "lang": "JavaScript",
+   "stars": "38,784",
+   "stars_today": "3,991 stars today",
+   "summary": "archify 是一个给 AI agent 用的技能包，能生成漂亮的、可验证的架构图、流程图、时序图等，输出是自带动画的 HTML，方便导出。今天涨了近 4 千星，因为现在 AI 编程 agent 越来越流行，大家需要把复杂的架构可视化出来，这工具正好解决了这个痛点。"
+  },
+  {
+   "id": "gh2",
+   "title": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "lang": "Python",
+   "stars": "40,746",
+   "stars_today": "1,980 stars today",
+   "summary": "scientific-agent-skills 是一个把任何 AI agent 变成 AI 科学家的技能库，包含 165 个验证过的科学技能和 100 多个科学数据库，覆盖生物、化学、医药等。被 19 万科学家使用，今天涨了快 2 千星，说明科研领域对 AI 自动化的需求正在爆发。"
+  },
+  {
+   "id": "gh8",
+   "title": "zhaoxuya520/reverse-skill",
+   "url": "https://github.com/zhaoxuya520/reverse-skill",
+   "desc": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+   "lang": "PowerShell",
+   "stars": "33,159",
+   "stars_today": "1,401 stars today",
+   "summary": "reverse-skill 是一个面向逆向工程、渗透测试和安全研究的 AI 技能路由包，能自动路由、按需调用工具，还带自进化的知识库，支持 Claude Code、Cursor 等主流 AI 编程客户端。今天涨了 1 千多星，显示 AI 在安全攻防场景的应用越来越受关注。"
+  },
+  {
+   "id": "gh9",
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "245,256",
+   "stars_today": "512 stars today",
+   "summary": "ECC 是一个 AI agent 的性能优化系统，包含技能、直觉（instincts）、记忆、安全等功能，适配 Claude Code、Codex、Cursor 等多个 agent 环境。虽然星数已经 24 万，但今天依然涨了 500 多星，说明 agent 基础设施领域仍在持续升温。"
+  },
+  {
+   "id": "gh5",
+   "title": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "desc": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+   "lang": "Python",
+   "stars": "56,135",
+   "stars_today": "495 stars today",
+   "summary": "minimind 教你只用 2 小时就从零训练一个 64M 参数的大语言模型，非常适合想要理解 LLM 训练原理的开发者。今天涨了近 500 星，因为现在大家不光想用模型，还想自己动手训练小模型来学习内部机制。"
+  },
+  {
+   "id": "gh14",
+   "title": "firecrawl/pdf-inspector",
+   "url": "https://github.com/firecrawl/pdf-inspector",
+   "desc": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+   "lang": "Rust",
+   "stars": "17,372",
+   "stars_today": "228 stars today",
+   "summary": "pdf-inspector 是一个用 Rust 写的快速 PDF 检查库，能自动识别文档是扫描件还是文本 PDF，方便做智能路由。今天涨了 228 星，因为 RAG 或文档处理场景里，快速判断 PDF 类型是很多 AI 应用的前置步骤。"
+  },
+  {
+   "id": "gh6",
+   "title": "Osmantic/ODS",
+   "url": "https://github.com/Osmantic/ODS",
+   "desc": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
+   "lang": "Python",
+   "stars": "5,507",
+   "stars_today": "77 stars today",
+   "summary": "ODS 可以把你的 PC、Mac 或 Linux 机器变成一个本地 AI 服务器，支持 LLM 推理、聊天 UI、语音、agent、RAG 和图像生成。虽然今天只涨了 77 星，但本地私有化部署 AI 的趋势很明确，适合想自己掌控数据的开发者。"
+  }
+ ],
+ "news": [
+  {
+   "title": "「GPT-6」灰测demo刷屏！周四发布在即",
+   "url": "https://www.qbitai.com/2026/08/481893.html",
+   "desc": "核弹爆炸",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n50",
+   "summary": "“GPT-6”灰测demo刷屏，预计周四正式发布。这意味着OpenAI新一代模型即将亮相，可能带来能力跃升和应用变革，开发者应关注API更新和生态影响。"
+  },
+  {
+   "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+   "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+   "desc": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Nvidia向联发科投资35亿美元，应对大科技公司自研AI芯片的挑战。这揭示了Nvidia确保自己在AI基础设施中不可替代的战略，也预示AI芯片竞争将更加激烈。"
+  },
+  {
+   "title": "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了",
+   "url": "https://www.qbitai.com/2026/08/481759.html",
+   "desc": "什么样的AI业务，英伟达GPU和谷歌TPU搞不定，非得用Mac",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n51",
+   "summary": "OpenAI购买了数万台Mac用于强化学习训练，说明Mac在某些AI任务上可能比GPU更高效。这对AI开发者的硬件选型有参考价值，也凸显苹果硬件在AI训练中的潜力。"
+  },
+  {
+   "title": "ChatGPT to face tougher regulation in the EU",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+   "desc": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "ChatGPT被欧盟认定为超大型搜索引擎，将受DSA严格监管，涉及未成年人保护、心理健康和非法内容。OpenAI在欧洲需承担更多合规义务，可能影响模型设计和服务策略。"
+  },
+  {
+   "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+   "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+   "desc": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "苹果公开指控前员工为OpenAI窃取公司数据并销毁证据。这反映了科技巨头在人才和商业机密上的激烈争夺，也引发对AI行业伦理与法律边界的讨论。"
+  },
+  {
+   "title": "A milestone in expanding access to AI",
+   "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+   "desc": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "ChatGPT Ads年化收入超10亿美元并全球扩张，证明生成式AI的广告商业模式已经跑通。这为AI创业公司提供了可借鉴的商业变现路径。"
+  },
+  {
+   "title": "The Pentagon now has its own version of ChatGPT and Grok",
+   "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+   "desc": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "五角大楼的AI工具门户将加入ChatGPT和Grok的政府定制版，与Gemini并列。这表明军事领域加速采用AI，未来国防AI的应用和创业机会不可忽视。"
+  },
+  {
+   "title": "Instagram cracks down on AI accounts pretending to be human",
+   "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+   "desc": "Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make it clear when a profile features an AI-generated person that's not a real human being. \"We've heard that p",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "Instagram限制未披露AI资料，并将“AI创作人”标签改为更清晰的“AI生成个人资料”。平台开始治理AI网红泛滥，AI内容需更加透明，以避免违规限制。"
+  },
+  {
+   "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
+   "url": "https://usealmanac.com/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 46,
+   "id": "n19",
+   "summary": "Almanac（YC S26）推出AI企业知识库产品，号称“AI了解你的公司”。这类内部知识问答工具可能成为企业服务新赛道，帮助员工提升信息检索效率。"
+  },
+  {
+   "title": "Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
+   "url": "https://github.com/Hebbian-Robotics/hflow",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 39,
+   "id": "n22",
+   "summary": "Hebbian Robotics（YC S26）发布可扩展的机器人数据管道，解决机器人训练数据收集瓶颈。这为具身智能的创业和研发提供了关键基础设施，值得深入关注。"
+  },
+  {
+   "title": "Debian won&#8217;t ban AI code from its Linux distribution",
+   "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+   "desc": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exem",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "Debian社区投票允许使用AI工具参与开发维护，认为负责任使用可提升生产力。此举标志着开源社区对AI代码的态度走向务实，也定义了“负责任”的具体边界。"
+  },
+  {
+   "title": "滴滴自动驾驶新一代车型开启载客测试服务",
+   "url": "https://www.qbitai.com/2026/08/481923.html",
+   "desc": "近期，滴滴自动驾驶新一代 Robotaxi R2正式开启无人载客测试服务",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n48",
+   "summary": "滴滴自动驾驶新一代Robotaxi R2开启无人载客测试，商业化运营再进一步。这将加速国内Robotaxi赛道竞争，也检验滴滴的技术与运营能力。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph9",
+   "title": "Interactive Sessions",
+   "url": "https://www.producthunt.com/products/revolte",
+   "desc": "Drive the full SDLC with AI agents, step by step Discussion | Link",
+   "summary": "用 AI 代理驱动完整软件开发生命周期，逐步自动执行任务。对开发者来说，这是将 AI 深度融入开发流程的尝试，值得关注。"
+  },
+  {
+   "id": "ph0",
+   "title": "Video Agent by Fotor",
+   "url": "https://www.producthunt.com/products/fotor",
+   "desc": "Create and edit precision motion graphics & video with chat Discussion | Link",
+   "summary": "通过聊天创建和编辑动态图形与视频，让视频制作变成对话。亮点是降低了专业视频制作门槛，适合快速产出营销素材。"
+  },
+  {
+   "id": "ph5",
+   "title": "Radar by Particle",
+   "url": "https://www.producthunt.com/products/particle-5",
+   "desc": "The Podcast Search Engine Discussion | Link",
+   "summary": "这是一个播客搜索引擎，可以搜索播客内容。亮点是让播客音频可检索，对信息收集和研究非常有价值。"
+  },
+  {
+   "id": "ph16",
+   "title": "Topview Motion Studio",
+   "url": "https://www.producthunt.com/products/topview-ai",
+   "desc": "Create launch videos without touching After Effects Discussion | Link",
+   "summary": "一个无需 After Effects 就能创建发布视频的工具，用 AI 自动完成动效设计。适合创业者快速制作产品宣传片。"
+  },
+  {
+   "id": "ph8",
+   "title": "Orato",
+   "url": "https://www.producthunt.com/products/orato-speech-coach",
+   "desc": "Practice speaking with AI. Discussion | Link",
+   "summary": "练习与 AI 对话来提升口语，提供逼真的对话环境。亮点是随时随地用 AI 陪练，对语言学习者很方便。"
+  },
+  {
+   "id": "ph25",
+   "title": "Caplio",
+   "url": "https://www.producthunt.com/products/caplio",
+   "desc": "Find, organize, and reuse every image on your Mac Discussion | Link",
+   "summary": "帮助查找、组织和复用 Mac 上的所有图片，基于 AI 图像识别。亮点是让本地图片库变得可搜索，提高效率。"
+  },
+  {
+   "id": "ph28",
+   "title": "Ulpaso",
+   "url": "https://www.producthunt.com/products/ulpaso",
+   "desc": "Stop paying just to take meeting notes Discussion | Link",
+   "summary": "AI 会议笔记工具，免费替代付费方案。亮点是直接解决会议记录痛点，而且不收费。"
+  },
+  {
+   "id": "ph3",
+   "title": "BrandJet",
+   "url": "https://www.producthunt.com/products/brandjet-ai",
+   "desc": "Turn public buying signals into sales pipeline Discussion | Link",
+   "summary": "把公开的购买信号转化为销售线索，帮助销售团队找到潜在客户。亮点是利用 AI 分析大数据，提高销售精准度。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Introducing wrapture",
+   "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+   "desc": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) makes it easy to wra",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Graham Dumpleton 发布了 wrapt 的扩展工具 wrapture，把猴子补丁用于测试和追踪，适合需要在不修改源码的情况下分析代码的开发者。"
+  },
+  {
+   "title": "Quoting Andrew Digby",
+   "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+   "desc": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species is possible with sustained effort. — Andrew Digby , providing the best news of the year Tags: ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "引用 Andrew Digby：鸮鹦鹉数量从1995年的51只恢复到325只，今年繁殖季的幼鸟已计入种群，展示濒危物种保护的成效。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化和 LLM 应用开发成为主流需求，广泛要求熟悉 LangChain / LangGraph / Dify 等框架，以及 RAG、多模态、模型接入等落地能力。",
+   "后端岗位需求量最大，强调强类型语言（Rust、Go、Java）和分布式系统经验，同时越来越多岗位要求 AI 集成或 Agent 开发背景，纯 CRUD 后端竞争力下降。",
+   "ML 基础设施和数据工程岗位持续增长，覆盖特征存储、ML 平台、数据管道，以及 LLM 后训练（SFT / 偏好优化）、评测等专门技能，量化、金融、医疗等行业高薪岗位集中。",
+   "AI 编码工具（Claude Code、Codex 等）已成为基本要求，多岗位明确要求通过 AI 工具提升开发效率，甚至开设专门负责 AI coding 体系建设的角色。",
+   "全栈工程师需求旺盛，但要兼具 AI 能力和业务理解，特别是能将大模型能力嵌入医疗、金融、电商等具体场景的人才，薪资开价普遍较高。"
+  ],
+  "gigs": [
+   "远程接单和外包市场对 AI 应用开发（尤其 Agent / RAG）需求量大，具备完整项目交付经验的独立开发者很抢手，有个人作品的求职者更容易获得机会。",
+   "平台型远程机会增多，A.Team、Lemon.io 等专门匹配高级 AI 工程师，但门槛高，要求独立完成从设计到部署的全流程能力。",
+   "样本有限，但可看出短期 MVP 和验证型项目开始出现（如 AI 产品共创、7 天 MVP），部分买方愿意为快速原型支付溢价。"
+  ],
+  "highlights": [
+   {
+    "title": "Senior Backend Engineer Build AI Agents @ Salesforge",
+    "desc": "golang, senior, sales, engineer, backend",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114",
+    "source": "RemoteOK",
+    "id": "m3",
+    "summary": "Salesforge 招后端 Agent 工程师，说明纯 AI Agent 产品开始重视生产级可靠性和工程化能力，而非仅仅 demo。"
+   },
+   {
+    "title": "[长沙] 上市公司证券方向 - 不限制语言（AI Coding）",
+    "desc": "💼 岗位列表\n📌 岗位职责\n券商服务端开发工程师 [岗位职责]\n1 、负责券商核心业务系统（如股票/期权交易、资产结算、账户管理、风控等模块）的后端方案设计、编码实现与单元测试；\n2 、持续优化系统性能，解决高并发、低延迟下的技术挑战，确保系统的高可用性和稳定；\n性，满足金融级业务要求；\n3 、与产品、合规、业务团队紧密协作，深入理解券商业务逻辑与合规要求；\n4 、负责解决系统中碰到的各类技术难点。 [任职要求]\n1 、具备 5 年以上后端开发经验，有券商、金融、支付或电商核心业务（如订单、搜索）等相关行业系统开发经验者优先；\n2 、编程语言不限（ Java 、Go 等均可），具备扎实的编程基",
+    "url": "https://www.v2ex.com/t/1237782#reply12",
+    "source": "V2EX 酷工作",
+    "id": "m22",
+    "summary": "长沙券商岗位不限编程语言但明确要求 AI Coding，显示传统金融行业普遍接受 AI 辅助开发，并作为核心技能。"
+   },
+   {
+    "title": "招聘： LLM 后训练工程师 (角色扮演对话模型类型)",
+    "desc": "在 V2 已经招到 5 个以上全职远程的小伙伴了，目前都已经稳定在职，团队还在继续扩充 目前的缺口有 LLM 后训练的算法工程师岗位，AIGC 创作的内容运营岗位，AI 伴侣产品岗位 美国主体公司，有自己的 GPU 集群，支持远程全职，欢迎投递 岗位薪资标准：20-40k/月 ## 岗位职责 - 负责大语言模型的 SFT 、偏好优化及相关后训练工作； - 建设训练数据的采集、清洗、去重、标注和质量评估流程； - 设计模型评测集和评价指标，分析训练前后的能力变化； - 组织候选回答生成、人工评审和高质量训练样本生产； - 优化训练参数、数据配比、上下文长度和 Chat Template ； - ",
+    "url": "https://www.v2ex.com/t/1237578#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "LLM 后训练岗位独立成岗，角色扮演对话模型需自建 GPU 集群和完整后训练 pipeline，垂直场景模型调优成为新方向。"
+   },
+   {
+    "title": "招 cladue max 号池负责人｜ 30K+｜北京/远程",
+    "desc": "招 claude max 号池负责人｜ 30K+｜北京/远程 现状\n目前已经有十几家大厂客户，业务量持续增长，现阶段需要一位能把 claude max 号池搭建稳定的负责人，负责核心技术架构和后续团队建设。 具体包括： 设计并持续迭代整体系统架构 负责账号/资源池的统一管理与智能调度 建立自动化的健康检测、故障识别和恢复体系 根据实时状态进行动态路由、负载分配和并发控制 处理高并发下的限流、排队、超时、熔断等问题 完善监控、日志、告警以及故障定位体系 对现有系统进行二开，也可以根据实际需求重新设计核心模块 随业务增长，把系统从目前规模逐步做到数千级资源规模 后续可以自己搭建技术团队，开发、运维",
+    "url": "https://www.v2ex.com/t/1236289#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m42",
+    "summary": "Claude max 号池负责人岗位说明 Agent 基础设施已细分出账号资源池管理，反映大模型 API 规模化运营的刚需。"
+   },
+   {
+    "title": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Eng",
+    "desc": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k–$230k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. Thi",
+    "url": "https://news.ycombinator.com/item?id=49215237",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Deepline 宣称 'UI 已死'，专注做 agent 接口层，代表一种极端观点：未来知识工作者交互将从图形界面转向智能体。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+    "url": "https://news.ycombinator.com/item?id=49217319",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m84",
+    "summary": "LiveKit 招聘 VoiceAI 基础设施工程师，表明语音驱动的 Agent 交互正在成为资本市场关注的下一个高增长赛道。"
+   }
+  ],
+  "week": "2026-W36"
+ },
+ "llm_used": true,
+ "degraded": []
+}
