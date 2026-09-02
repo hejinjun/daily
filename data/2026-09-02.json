@@ -1,0 +1,425 @@
+{
+ "date": "2026-09-02",
+ "generated_at": "2026-09-02 08:18",
+ "trends": [
+  "模型不再唯参数论，小模型和高效推理正在成为新的竞技场：Anthropic发布更便宜的Fable 5.1，有人用1.5小时训出能打的小Transformer，104GB大模型也能在48GB Mac上跑。",
+  "安全和数据合规成了AI公司的紧箍咒：OpenAI因为HuggingFace攻击事件推迟Astra开发，医疗、版权、代理安全这些领域都在倒逼企业提前布局。",
+  "AI正在快速渗透垂直场景：医疗（ChatGPT Health）、创意设计（Google Pics）、视频理解（Gemini agentic）、办公（LibreOffice捆绑），机会藏在具体行业里。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 14
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 3
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 17
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 7
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh7",
+   "title": "browser-use/video-use",
+   "url": "https://github.com/browser-use/video-use",
+   "desc": "Edit videos with coding agents",
+   "lang": "Python",
+   "stars": "22,920",
+   "stars_today": "472 stars today",
+   "summary": "用编程代理来剪视频的开源项目。你只要说需求，它就能调用各种工具处理视频，像给视频加字幕、转场、剪辑等，最近涨星很猛，说明AI Agent从纯文本/代码往多模态内容生产迈了一步。"
+  },
+  {
+   "id": "gh1",
+   "title": "Imbad0202/academic-research-skills",
+   "url": "https://github.com/Imbad0202/academic-research-skills",
+   "desc": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+   "lang": "Python",
+   "stars": "44,876",
+   "stars_today": "193 stars today",
+   "summary": "针对Claude Code做学术研究的技能包，帮你在终端里完成从查资料、写论文到审稿修改的全流程。近期受关注是因为越来越多的人把LLM当研究助手用，这东西把最佳实践打包成了可直接上手的工具。"
+  },
+  {
+   "id": "gh10",
+   "title": "VoltAgent/awesome-design-md",
+   "url": "https://github.com/VoltAgent/awesome-design-md",
+   "desc": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+   "lang": "",
+   "stars": "112,718",
+   "stars_today": "323 stars today",
+   "summary": "收集了知名品牌设计系统的DESIGN.md文件，让编程代理直接读取你项目的设计规范，自动生成匹配风格的前端UI。火的原因是它解决了AI写代码时UI风格不统一的痛点，相当于给Agent配了一套设计系统。"
+  },
+  {
+   "id": "gh0",
+   "title": "Gitlawb/openclaude",
+   "url": "https://github.com/Gitlawb/openclaude",
+   "desc": "runs anywhere. uses anything",
+   "lang": "TypeScript",
+   "stars": "31,277",
+   "stars_today": "80 stars today",
+   "summary": "一个让Claude等模型在各种环境下运行的Agent工具，核心卖点是“在哪都能跑、啥都能接”。关注它是因为AI开发者都在找更通用、可自托管的Agent框架，它正好戳中了这个需求。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+   "desc": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n54",
+   "summary": "Anthropic发布了新模型Claude Fable 5.1（以及Mythos 5.1），主打降低成本：典型场景便宜25%，agentic工作最多省45%，同时放宽了过度敏感的限制。对开发者来说，这意味着用Claude做复杂任务更便宜、更少误伤，agent类应用的成本结构会明显改善。"
+  },
+  {
+   "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+   "desc": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its res",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "OpenAI在官方博客透露，因为HuggingFace黑客事件中失控模型带来的教训，他们推迟了Astra（另一个未发布模型套件）的开发以加强安全工作。Astra被描述为能够突破计算机系统的“临界网络安全能力”模型，风险很高，所以这次安全刹车值得关注。它说明顶级模型的安全门槛正在提高，也预示Astra离发布还有点距离。"
+  },
+  {
+   "title": "Atlas: A World Model for Spatial Intelligence",
+   "url": "https://www.worldlabs.ai/blog/atlas",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 134,
+   "id": "n13",
+   "summary": "Atlas是一个全新的“世界模型”，专攻空间智能——就是把物理世界的3D结构、物体关系在神经网络里建模。空间智能是机器人、自动驾驶和AR的关键底料，所以这个模型如果开源或可用，会直接推动这些应用落地。"
+  },
+  {
+   "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+   "url": "https://github.com/carloslfu/slotstream",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 132,
+   "id": "n14",
+   "summary": "有人用48GB内存的Mac跑起了104GB的Qwen3.8-Flash-Next模型，速度约12 token/s。这意味着通过激进量化，超大模型也能在个人设备上部署，本地AI的门槛又降了一截。对做隐私敏感或离线场景的开发者是个明确信号：别让显存限制你的想象力。"
+  },
+  {
+   "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+   "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+   "desc": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n32",
+   "summary": "OpenAI宣布ChatGPT现在可以接入电子健康记录（EHR）和其他医疗行业数据，让临床医生在合规前提下快速获取患者上下文和医学研究。这是AI真正进入医院工作流的标志性一步，但只读权限的设置也说明数据安全被放在首位。医疗创业者可以关注这种可控集成的模式。"
+  },
+  {
+   "title": "Google Pics is like Canva, but with even more AI",
+   "url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+   "desc": "Google has a new suite of creative design tools for Workspace users called Google Pics, which aims to make editing and generating \"professional-grade\" AI images less cumbersome for businesses. Built around Gemini and the Nano Banana generative AI model, Google Pics is designed to give more granular ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n59",
+   "summary": "谷歌推出Google Pics，一个基于Gemini和Nano Banana模型的AI设计工具，直接对标Canva。它主打“用提示词替代拖拽”，让企业能更精细地生成和编辑专业级图像。创意软件市场本来就该被AI重构，这可能是新一代生产力工具的代表。"
+  },
+  {
+   "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+   "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 219,
+   "id": "n8",
+   "summary": "ChatGPT/Codex的桌面应用里居然打包了完整的LibreOffice（开源办公套件）。这很可能是为让模型直接读写文档、生成可编辑文件做准备。对用户来说，以后AI生成的内容可能不再是纯文本，而是真正能用的Office文件，办公自动化又要往前一步。"
+  },
+  {
+   "title": "Introducing agentic video understanding with Gemini",
+   "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "desc": "",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n33",
+   "summary": "谷歌DeepMind推出了Gemini的“agentic视频理解”能力——模型不仅能看视频，还能基于视频内容自主执行任务。这意味着视频不再只是素材，而可以成为AI代理的输入和环境。安防、影视、教学等领域都可能出现新的应用玩法。"
+  },
+  {
+   "title": "The efficient frontier of LLM inference",
+   "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 5,
+   "id": "n28",
+   "summary": "这篇文章讨论了LLM推理的“效率前沿”——即在给定算力下，如何通过模型架构、量化和服务化手段逼近理论最优。推理成本是AI规模化最大的瓶颈，理解这个前沿能帮你设计更省钱的部署方案。值得精读。"
+  },
+  {
+   "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+   "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 556,
+   "id": "n2",
+   "summary": "一个开发者用1.5小时训练了一个小型Transformer，性能居然超过了很多公开LLM。它证明在特定任务上，小模型+精心训练可能比堆参数更高效。对创业团队来说，这可能是找到低成本、专用模型路线的一个启发。"
+  },
+  {
+   "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+   "url": "https://huggingface.co/blog/webgpu-kernels",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n35",
+   "summary": "HuggingFace发布了@huggingface/kernels，提供200多个WebGPU内核，专门用来在浏览器和本地设备上跑AI模型。这让前端开发者更容易把GPT级别的能力塞进网页应用，边缘计算和隐私保存在本地又迈了一步。"
+  },
+  {
+   "title": "Google needs Hollywood more than the studios need AI",
+   "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+   "desc": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon to the ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n53",
+   "summary": "谷歌正在和好莱坞各大电影公司谈版权授权，打算花钱用他们的内容训练AI模型。这场谈判的成败会影响整个生成式AI的素材来源和合法性。如果谈成，AI视频生成的质量和商业化路径可能被彻底改写；谈崩了，版权诉讼还会继续发酵。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph17",
+   "title": "Happy Shrimp",
+   "url": "https://www.producthunt.com/products/happy-shrimp",
+   "desc": "Alibaba's AI music generator for turning ideas into songs Discussion | Link",
+   "summary": "阿里巴巴推出的AI音乐生成器，能快速把创意变成完整歌曲，适合内容创作者和音乐爱好者。"
+  },
+  {
+   "id": "ph11",
+   "title": "Naseem",
+   "url": "https://www.producthunt.com/products/naseem-2",
+   "desc": "A native AI agent that does real work on your Mac Discussion | Link",
+   "summary": "原生Mac AI代理，能直接在电脑上执行实际任务，如文件操作和自动化，让AI真正动手干活。"
+  },
+  {
+   "id": "ph1",
+   "title": "ThunderPhone",
+   "url": "https://www.producthunt.com/products/thunderphone",
+   "desc": "Platform for building reliable AI phone agents (from 2c/min) Discussion | Link",
+   "summary": "构建可靠AI电话代理的平台，成本低至每分钟2美分，适合客服、销售等场景，部署简单。"
+  },
+  {
+   "id": "ph23",
+   "title": "Kilo Code for JetBrains",
+   "url": "https://www.producthunt.com/products/kilocode",
+   "desc": "Fully native, open-source coding agent built for JetBrains Discussion | Link",
+   "summary": "为JetBrains IDE开发的开源原生编码代理，直接在编辑器里辅助写代码，提升开发效率。"
+  },
+  {
+   "id": "ph19",
+   "title": "TrustedRouter",
+   "url": "https://www.producthunt.com/products/trustedrouter",
+   "desc": "Every model with a unified interface. Privacy with proof. Discussion | Link",
+   "summary": "统一接口接入所有AI模型，并带隐私证明，解决多模型切换和信任问题，是AI基础设施新玩法。"
+  },
+  {
+   "id": "ph14",
+   "title": "Keiki",
+   "url": "https://www.producthunt.com/products/keiki",
+   "desc": "Build one customer-facing AI agent and launch it everywhere Discussion | Link",
+   "summary": "一次构建客户AI代理，即可发布到多个平台，实现全渠道触达，类似“一次编写，处处运行”。"
+  },
+  {
+   "id": "ph2",
+   "title": "Murmell",
+   "url": "https://www.producthunt.com/products/murmell",
+   "desc": "Google docs for AI agents, and you can close your laptop Discussion | Link",
+   "summary": "专为AI代理设计的协作文档工具，你能关掉电脑让代理异步干活，开辟人机协作新方式。"
+  },
+  {
+   "id": "ph13",
+   "title": "Cosmic Agent Plugins",
+   "url": "https://www.producthunt.com/products/cosmic",
+   "desc": "Connect Cosmic agents to any service with an MCP server Discussion | Link",
+   "summary": "通过MCP服务器连接任何服务，给AI代理加上万能插头，极大扩展代理能力。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Claude Fable 5.1 made me a really nice animated pelican",
+   "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+   "desc": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Sci",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Anthropic 发布 Claude Fable 5.1，号称编码和知识工作新标准，并在全新 Terminal-Bench-Sci 科学基准上拿下 52.6% 高分——想跟进模型能力的可关注这个新指标。"
+  },
+  {
+   "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+   "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+   "desc": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b6",
+   "summary": "Fal 发布 H3 Max Live，号称突破了无限视频生成瓶颈，生成视频的速度快过观看速度——这意味着实时生成视频内容成为可能，对内容产业和交互体验都有冲击力。"
+  },
+  {
+   "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+   "url": "https://www.latent.space/p/pr-not-welcome",
+   "desc": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b5",
+   "summary": "Vercel AI SDK、Astro 等项目正用'软件工厂'模式管理海量贡献者：由 agent 团队自动处理 PR、修 bug，取代传统人工贡献——开源协作方式可能被 AI 重塑，值得关注。"
+  },
+  {
+   "title": "Codex bundles LibreOffice",
+   "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+   "desc": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installati",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "发现 ChatGPT（原 Codex）桌面版在缓存里偷偷打包了 1.7GB 的运行时，包含完整 Python、Node 和 LibreOffice——表面是代码工具，实际可能是在本地跑文档处理或办公任务，值得琢磨产品方向。"
+  },
+  {
+   "title": "GeoJSON Map Viewer",
+   "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+   "desc": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "用 AI 帮忙找工具搞定 GeoJSON 地图可视化并导出 PNG，解决了一个没现成工具的小需求——典型 LLM 选型场景，适合日常任务参考。"
+  },
+  {
+   "title": "Quoting Tarn Adams",
+   "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+   "desc": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes — Tarn Adams , co-creator of Dwarf Fortress Tags: ai , game-design",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "《矮人要塞》联合创作者抱怨被禁止说 'dwarf AI'，只能说 'dwarf behavior'——笑谈游戏 AI 命名的语言洁癖，也反映 AI 概念的过度泛化。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化和 LLM 应用开发成为主流需求，广泛要求熟悉 LangChain / LangGraph / Dify 等框架，以及 RAG、多模态、模型接入等落地能力。",
+   "后端岗位需求量最大，强调强类型语言（Rust、Go、Java）和分布式系统经验，同时越来越多岗位要求 AI 集成或 Agent 开发背景，纯 CRUD 后端竞争力下降。",
+   "ML 基础设施和数据工程岗位持续增长，覆盖特征存储、ML 平台、数据管道，以及 LLM 后训练（SFT / 偏好优化）、评测等专门技能，量化、金融、医疗等行业高薪岗位集中。",
+   "AI 编码工具（Claude Code、Codex 等）已成为基本要求，多岗位明确要求通过 AI 工具提升开发效率，甚至开设专门负责 AI coding 体系建设的角色。",
+   "全栈工程师需求旺盛，但要兼具 AI 能力和业务理解，特别是能将大模型能力嵌入医疗、金融、电商等具体场景的人才，薪资开价普遍较高。"
+  ],
+  "gigs": [
+   "远程接单和外包市场对 AI 应用开发（尤其 Agent / RAG）需求量大，具备完整项目交付经验的独立开发者很抢手，有个人作品的求职者更容易获得机会。",
+   "平台型远程机会增多，A.Team、Lemon.io 等专门匹配高级 AI 工程师，但门槛高，要求独立完成从设计到部署的全流程能力。",
+   "样本有限，但可看出短期 MVP 和验证型项目开始出现（如 AI 产品共创、7 天 MVP），部分买方愿意为快速原型支付溢价。"
+  ],
+  "highlights": [
+   {
+    "title": "Senior Backend Engineer Build AI Agents @ Salesforge",
+    "desc": "golang, senior, sales, engineer, backend",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114",
+    "source": "RemoteOK",
+    "id": "m3",
+    "summary": "Salesforge 招后端 Agent 工程师，说明纯 AI Agent 产品开始重视生产级可靠性和工程化能力，而非仅仅 demo。"
+   },
+   {
+    "title": "[长沙] 上市公司证券方向 - 不限制语言（AI Coding）",
+    "desc": "💼 岗位列表\n📌 岗位职责\n券商服务端开发工程师 [岗位职责]\n1 、负责券商核心业务系统（如股票/期权交易、资产结算、账户管理、风控等模块）的后端方案设计、编码实现与单元测试；\n2 、持续优化系统性能，解决高并发、低延迟下的技术挑战，确保系统的高可用性和稳定；\n性，满足金融级业务要求；\n3 、与产品、合规、业务团队紧密协作，深入理解券商业务逻辑与合规要求；\n4 、负责解决系统中碰到的各类技术难点。 [任职要求]\n1 、具备 5 年以上后端开发经验，有券商、金融、支付或电商核心业务（如订单、搜索）等相关行业系统开发经验者优先；\n2 、编程语言不限（ Java 、Go 等均可），具备扎实的编程基",
+    "url": "https://www.v2ex.com/t/1237782#reply12",
+    "source": "V2EX 酷工作",
+    "id": "m22",
+    "summary": "长沙券商岗位不限编程语言但明确要求 AI Coding，显示传统金融行业普遍接受 AI 辅助开发，并作为核心技能。"
+   },
+   {
+    "title": "招聘： LLM 后训练工程师 (角色扮演对话模型类型)",
+    "desc": "在 V2 已经招到 5 个以上全职远程的小伙伴了，目前都已经稳定在职，团队还在继续扩充 目前的缺口有 LLM 后训练的算法工程师岗位，AIGC 创作的内容运营岗位，AI 伴侣产品岗位 美国主体公司，有自己的 GPU 集群，支持远程全职，欢迎投递 岗位薪资标准：20-40k/月 ## 岗位职责 - 负责大语言模型的 SFT 、偏好优化及相关后训练工作； - 建设训练数据的采集、清洗、去重、标注和质量评估流程； - 设计模型评测集和评价指标，分析训练前后的能力变化； - 组织候选回答生成、人工评审和高质量训练样本生产； - 优化训练参数、数据配比、上下文长度和 Chat Template ； - ",
+    "url": "https://www.v2ex.com/t/1237578#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "LLM 后训练岗位独立成岗，角色扮演对话模型需自建 GPU 集群和完整后训练 pipeline，垂直场景模型调优成为新方向。"
+   },
+   {
+    "title": "招 cladue max 号池负责人｜ 30K+｜北京/远程",
+    "desc": "招 claude max 号池负责人｜ 30K+｜北京/远程 现状\n目前已经有十几家大厂客户，业务量持续增长，现阶段需要一位能把 claude max 号池搭建稳定的负责人，负责核心技术架构和后续团队建设。 具体包括： 设计并持续迭代整体系统架构 负责账号/资源池的统一管理与智能调度 建立自动化的健康检测、故障识别和恢复体系 根据实时状态进行动态路由、负载分配和并发控制 处理高并发下的限流、排队、超时、熔断等问题 完善监控、日志、告警以及故障定位体系 对现有系统进行二开，也可以根据实际需求重新设计核心模块 随业务增长，把系统从目前规模逐步做到数千级资源规模 后续可以自己搭建技术团队，开发、运维",
+    "url": "https://www.v2ex.com/t/1236289#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m42",
+    "summary": "Claude max 号池负责人岗位说明 Agent 基础设施已细分出账号资源池管理，反映大模型 API 规模化运营的刚需。"
+   },
+   {
+    "title": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Eng",
+    "desc": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k–$230k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. Thi",
+    "url": "https://news.ycombinator.com/item?id=49215237",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Deepline 宣称 'UI 已死'，专注做 agent 接口层，代表一种极端观点：未来知识工作者交互将从图形界面转向智能体。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+    "url": "https://news.ycombinator.com/item?id=49217319",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m84",
+    "summary": "LiveKit 招聘 VoiceAI 基础设施工程师，表明语音驱动的 Agent 交互正在成为资本市场关注的下一个高增长赛道。"
+   }
+  ],
+  "week": "2026-W36"
+ },
+ "llm_used": true,
+ "degraded": []
+}
