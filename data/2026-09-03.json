@@ -1,0 +1,474 @@
+{
+ "date": "2026-09-03",
+ "generated_at": "2026-09-03 08:20",
+ "trends": [
+  "大模型迭代进入“安全内嵌”阶段：Gemini 3.8 Flash 专出 Cyber 版，OpenAI Astra 因突破性推理技术引发安全警报，模型能力与风险同步升级。",
+  "AI 监管与法律争议集中爆发：美国政府在版权案中站台 OpenAI，OpenAI 自身因枪击案再遭 30 起诉讼，AI 责任边界成行业核心矛盾。",
+  "AI 安全与运维赛道成为创投新风口：HiddenLayer 融资 1 亿美元，Palo Alto 收购 Console，Empirik 用 AI 预测故障，资本正在押注 AI 可控化与智能化运维。",
+  "内容信任危机加速显现：AI 垃圾页面被 Perplexity 引用，“死互联网理论”不再是玩笑，AI 检测与内容认证将成为刚需。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 19
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 3
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 3
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 9
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh1",
+   "title": "google-research/timesfm",
+   "url": "https://github.com/google-research/timesfm",
+   "desc": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+   "lang": "Python",
+   "stars": "29,753",
+   "stars_today": "343 stars today",
+   "summary": "TimesFM是Google Research的时间序列基础模型，专为时序预测设计。它是预训练模型，直接将时间序列任务带入基础模型时代，火是因为预测场景在工业界需求巨大。"
+  },
+  {
+   "id": "gh6",
+   "title": "NousResearch/hermes-agent",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "desc": "The agent that grows with you",
+   "lang": "Python",
+   "stars": "240,116",
+   "stars_today": "533 stars today",
+   "summary": "hermes-agent是NousResearch推出的AI代理，主打“随你成长”，能灵活扩展能力。今日涨幅高，可能因为开发者对通用、可进化的代理框架非常追捧。"
+  },
+  {
+   "id": "gh16",
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": "245,212",
+   "stars_today": "1,166 stars today",
+   "summary": "mattpocock/skills是作者直接从自己.agents目录整理的真实工程师技能集。火的原因在于AI代理技能正成为最佳实践复用单位，开发者需要这类高质量可复用的技能集合。"
+  },
+  {
+   "id": "gh2",
+   "title": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": "121,496",
+   "stars_today": "1,354 stars today",
+   "summary": "ponytail的作用是让AI代理像“最懒的资深开发”那样思考，强调少写无用代码。火是因为现在AI编码常产出多余代码，开发者在寻找更高效、更智能的提示策略。"
+  },
+  {
+   "id": "gh15",
+   "title": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+   "lang": "Go",
+   "stars": "102,625",
+   "stars_today": "238 stars today",
+   "summary": "caveman是一个Claude Code技能，用“穴居人语法”让token消耗下降65%。火是因为token成本是LLM应用的核心痛点，这种极简又带幽默的优化方案极易引发共鸣。"
+  },
+  {
+   "id": "gh14",
+   "title": "blader/humanizer",
+   "url": "https://github.com/blader/humanizer",
+   "desc": "Agent skill that removes signs of AI-generated writing from text",
+   "lang": "Python",
+   "stars": "40,359",
+   "stars_today": "374 stars today",
+   "summary": "humanizer用于从文本中移除AI生成痕迹，是agent可用的技能。火是因为AI生成内容已泛滥，写作者和开发者都希望让输出更自然、更隐蔽。"
+  },
+  {
+   "id": "gh5",
+   "title": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "desc": "Chrome DevTools for coding agents",
+   "lang": "TypeScript",
+   "stars": "50,627",
+   "stars_today": "148 stars today",
+   "summary": "chrome-devtools-mcp让编码代理能调用Chrome DevTools进行调试和网页操作。火是因为MCP协议正在连接所有开发者工具，给代理补上浏览器能力是刚需。"
+  },
+  {
+   "id": "gh3",
+   "title": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": "14,683",
+   "stars_today": "832 stars today",
+   "summary": "VoiceStudio是开源、完全本地运行的ElevenLabs替代品，支持语音克隆、设计、配音等646种语言。火是因为本地化能保护隐私、避免订阅费，语音AI应用需求迅速扩大。"
+  },
+  {
+   "id": "gh8",
+   "title": "pacifio/atlas",
+   "url": "https://github.com/pacifio/atlas",
+   "desc": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+   "lang": "Rust",
+   "stars": "2,863",
+   "stars_today": "888 stars today",
+   "summary": "atlas是为AI代理设计的源码控制工具，可同时管理多个编码代理的更改并支持查询。火是因为多人/多代理协作开发成趋势，需要类似Git的方式统一管理代理产出。"
+  },
+  {
+   "id": "gh7",
+   "title": "superlinked/sie",
+   "url": "https://github.com/superlinked/sie",
+   "desc": "Open-source inference server and production cluster for all the models your agent needs.",
+   "lang": "Python",
+   "stars": "3,050",
+   "stars_today": "60 stars today",
+   "summary": "superlinked/sie是开源推理服务器和集群，用于托管代理所需的各种模型。火是因为AI代理逐渐复杂化，需要标准化的多模型推理基础设施来支撑。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+   "desc": "",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n34",
+   "summary": "谷歌发布 Gemini 3.8 Flash 和专为网络安全设计的 Gemini 3.8 Flash Cyber。新模型“更卖力”，能执行更多推理步骤、迭代调用工具，Cyber 版本则是为攻防场景定制。发布节奏极快，但推理成本可能更高，开发者需权衡性能与开销。"
+  },
+  {
+   "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+   "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+   "desc": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "OpenAI 的 Astra 模型采用“递归深度”技术，能跳出传统顺序推理，让模型循环思考，但这让安全专家担忧行为不可控。Astra 已表现出极强的渗透能力，被定为“关键网络安全阈值”，因此 OpenAI 加码防护后才敢发布，意味着前沿模型的制高点和风险并存。"
+  },
+  {
+   "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+   "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+   "desc": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use\nglobally,\" the brief reads.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "美国政府在法庭文件中支持 OpenAI，认为用版权材料训练大模型符合国家产业利益，不应被司法过度限制。这是联邦机构首次明确表态，可能为整个生成式 AI 行业的训练合法性提供“保护伞”，但围绕版权的个人诉讼仍会继续拉扯。"
+  },
+  {
+   "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+   "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+   "desc": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n51",
+   "summary": "AI 模型训练公司 AfterQuery 估值飙到 32 亿美元，距其 3000 万美元 A 轮融资仅五个月，成为 YC 史上最快独角兽。这说明高质量训练数据和算力优化依然是最紧缺的资源，AI 基础设施创业仍处于黄金窗口。"
+  },
+  {
+   "title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
+   "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
+   "desc": "Security companies are scrambling to build products that can monitor not just agents but also the tools and add-ons they use.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "企业 AI 安全公司 HiddenLayer 拿到 1 亿美元新融资。随着大模型和 agent 规模化部署，企业不再只防传统攻击，还要监控模型调用的工具、插件和数据流，AI 安全正从“可选项”变为“必选项”。"
+  },
+  {
+   "title": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+   "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+   "desc": "Edelson PC is filing 30 new lawsuits against OpenAI over the Tumbler Ridge shooting, escalating claims to aiding and abetting and naming Chris Lehane, though evidence remains unconfirmed.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n50",
+   "summary": "OpenAI 因 Tumbler Ridge 枪击事件又收到 30 起新诉讼，原告升级为“协助和教唆”，甚至把前高管 Chris Lehane 列为被告。虽然证据尚未实锤，但这类诉讼会把 AI 责任从产品缺陷推向“教唆犯罪”，法律边界将成未来几年的焦点。"
+  },
+  {
+   "title": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
+   "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
+   "desc": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what’s real.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "AI 检测公司 Pangram 的 CEO 直言，我们离“死互联网理论”只差一步——AI 生成内容正在淹没真实信息，真假难辨。他的观点是，AI 检测不能只靠概率判断，需要更系统的内容来源认证和平台治理，否则线上信任会崩塌。"
+  },
+  {
+   "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+   "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 288,
+   "id": "n4",
+   "summary": "调查发现三个网站用 AI 自动生成了 21.5 万个“最佳软件”推荐页面，而知名 AI 搜索 Perplexity 正在引用这些垃圾内容。这说明 AI 生成的 SEO 垃圾已经不仅能欺骗谷歌，也在蒙蔽其他 AI 工具，内容污染正在“自我吞噬”。"
+  },
+  {
+   "title": "WebLLM: high-performance in-browser LLM inference engine",
+   "url": "https://github.com/mlc-ai/web-llm",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 84,
+   "id": "n14",
+   "summary": "WebLLM 是一个高性能浏览器内 LLM 推理引擎，能直接在浏览器里跑大模型，无需后端服务器。它将推理推到边缘，对隐私保护和离线场景意义重大，也让开发者可以做出更轻、更独立的 AI 应用。"
+  },
+  {
+   "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+   "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+   "desc": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Palo Alto Networks 花约 5 亿美元收购了 Thrive 背景的 Console，导致 Sequoia 支持的 Serval 成为 AI IT 服务自动化赛道的事实龙头。安全巨头正在把 AI 原生自动化能力并入自家产品，传统安全运维正快速被 AI 驱动的响应取代。"
+  },
+  {
+   "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
+   "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+   "desc": "The startup wants to do for IT infrastructure what Cursor did for software engineering.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n57",
+   "summary": "Sequoia 孵化的 Empirik 带着 2100 万美元出场，目标是用 AI 提前预测 IT 基础设施故障。它想做的“预测性运维”，就是给服务器、网络装上像 Cursor 一样的 AI 副驾驶，让故障在发生前就被修复，运维从被动变主动。"
+  },
+  {
+   "title": "India’s richest man now wants to turn aging computers into AI-ready PCs",
+   "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
+   "desc": "Jio is betting it can turn an aging computer into an AI-ready PC for as little as about $11 for two months.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "印度首富旗下的 Jio 想用“两个月约 11 美元”的低价，把老旧电脑升级成 AI 就绪 PC。这是一条向低端市场普及 AI 的新路径，如果能落地，将打开巨大新兴市场，但本地推理能力能不能支撑主流模型仍是疑问。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph14",
+   "title": "Claude Fable 5.1",
+   "url": "https://www.producthunt.com/products/claude-fable-5-1",
+   "desc": "Claude’s most advanced models for coding and knowledge work Discussion | Link",
+   "summary": "Claude Fable 5.1，Anthropic 最新的编码和知识工作模型，性能更强。开发者值得第一时间关注，它很可能会成为你日常编码工作流的新利器。"
+  },
+  {
+   "id": "ph16",
+   "title": "OpenClaw 2.0",
+   "url": "https://www.producthunt.com/products/openclaw-formerly-clawdbot",
+   "desc": "The AI that really does things Discussion | Link",
+   "summary": "OpenClaw 2.0，一个宣称“真的会做事”的自主AI，能直接操作电脑完成真实任务。它像Agent从“聊天”迈向“自动驾驶”的一次重要验证，值得行业观察。"
+  },
+  {
+   "id": "ph0",
+   "title": "Monid",
+   "url": "https://www.producthunt.com/products/monid",
+   "desc": "OpenRouter for agent tools Discussion | Link",
+   "summary": "Monid，被称为“Agent工具界的OpenRouter”，帮开发者统一接入各类Agent工具。解决了当前Agent生态碎片化、集成成本高的问题，是基建级别的创新。"
+  },
+  {
+   "id": "ph11",
+   "title": "Doop",
+   "url": "https://www.producthunt.com/products/doop",
+   "desc": "Design with AI agents - live on the same canvas Discussion | Link",
+   "summary": "Doop，让人和AI代理在同一画布上实时协作设计，AI不只是提建议，而是直接参与创作。这种“设计+AI”的协作方式，很可能重塑UI/UX工作流。"
+  },
+  {
+   "id": "ph12",
+   "title": "Dial",
+   "url": "https://www.producthunt.com/products/dial-3",
+   "desc": "Give your AI agent a real phone number in 10 seconds Discussion | Link",
+   "summary": "Dial，10秒给你的AI Agent一个真实电话号码，让它能打电话、收发短信。为Agent补齐了语音和消息入口，在客服、外呼等场景落地潜力巨大，也适合创业方向参考。"
+  },
+  {
+   "id": "ph8",
+   "title": "deepeye by deepidv",
+   "url": "https://www.producthunt.com/products/deepidv",
+   "desc": "The deepfake detector that goes where you browse Discussion | Link",
+   "summary": "deepeye，一款浏览器里的深伪检测器，边浏览边帮你识别AI生成的假脸/假视频。在造假泛滥的当下，这种贴近用户场景的检测工具很有现实意义。"
+  },
+  {
+   "id": "ph20",
+   "title": "Touchy",
+   "url": "https://www.producthunt.com/products/touchy-3",
+   "desc": "An iOS assistant that understands the world around you Discussion | Link",
+   "summary": "Touchy，一个能“理解你周围世界”的iOS助手，结合视觉和语音实时感知环境并响应。它代表了AI走出屏幕、与物理世界交互的新产品形态。"
+  },
+  {
+   "id": "ph27",
+   "title": "Sider Code",
+   "url": "https://www.producthunt.com/products/sider-code-customize-any-website",
+   "desc": "Reshape any website with plain words via Sider extension Discussion | Link",
+   "summary": "Sider Code，Sider扩展的新功能，用一句自然语言就能重新排版或修改整个网页，实现“网页魔改”。让不会写代码的人也能自由定制网页，门槛极低。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+   "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+   "desc": "Queue the usual rush of model launches...",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b5",
+   "summary": "AINews爆料：Claude Fable/Mythos 5.1成为新一代SOTA，缓存价格下调75%但输出token定价上调70%，直接冲击使用Anthropic模型的成本和架构选择。"
+  },
+  {
+   "title": "llm-gemini 0.34",
+   "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+   "desc": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "llm-gemini 0.34发布，新增Gemini 3.8 Flash模型并支持低/中/高三档思考强度，还修复了异步响应记录模型版本的问题；命令行调Gemini的开发者值得升级。"
+  },
+  {
+   "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+   "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+   "desc": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to kee",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Anthropic公开了Claude.ai和移动端应用的系统提示词（不含Claude Code等产品），尤其强调绝不复现歌词，并附历史变更对比，方便追踪产品对齐边界和策略演进。"
+  },
+  {
+   "title": "Which AI Personal Agents Can You Trust With Your Data?",
+   "url": "https://creatoreconomy.so/p/instinct-vs-grok-bot-vs-chatgpt-vs-hermes-which-ai-agent-can-you-trust",
+   "desc": "I compared Instinct, Grok Bot, ChatGPT, and Hermes to see what they can access, how they handle your data, and what can go wrong.",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "对比Instinct、Grok Bot、ChatGPT和Hermes四款AI个人代理的数据访问权限和处理方式，直指谁更值得信任；对隐私敏感型用户和做AI代理的开发者很有参考价值。"
+  },
+  {
+   "title": "Quoting Rick Brewster",
+   "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+   "desc": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D th",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "Paint.NET作者Rick Brewster称WINE的Direct2D永远不够用，于是从零开始用洁净室逆向工程重写Direct2D实现跨平台运行，是一次硬核的系统级兼容性实践。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化和 LLM 应用开发成为主流需求，广泛要求熟悉 LangChain / LangGraph / Dify 等框架，以及 RAG、多模态、模型接入等落地能力。",
+   "后端岗位需求量最大，强调强类型语言（Rust、Go、Java）和分布式系统经验，同时越来越多岗位要求 AI 集成或 Agent 开发背景，纯 CRUD 后端竞争力下降。",
+   "ML 基础设施和数据工程岗位持续增长，覆盖特征存储、ML 平台、数据管道，以及 LLM 后训练（SFT / 偏好优化）、评测等专门技能，量化、金融、医疗等行业高薪岗位集中。",
+   "AI 编码工具（Claude Code、Codex 等）已成为基本要求，多岗位明确要求通过 AI 工具提升开发效率，甚至开设专门负责 AI coding 体系建设的角色。",
+   "全栈工程师需求旺盛，但要兼具 AI 能力和业务理解，特别是能将大模型能力嵌入医疗、金融、电商等具体场景的人才，薪资开价普遍较高。"
+  ],
+  "gigs": [
+   "远程接单和外包市场对 AI 应用开发（尤其 Agent / RAG）需求量大，具备完整项目交付经验的独立开发者很抢手，有个人作品的求职者更容易获得机会。",
+   "平台型远程机会增多，A.Team、Lemon.io 等专门匹配高级 AI 工程师，但门槛高，要求独立完成从设计到部署的全流程能力。",
+   "样本有限，但可看出短期 MVP 和验证型项目开始出现（如 AI 产品共创、7 天 MVP），部分买方愿意为快速原型支付溢价。"
+  ],
+  "highlights": [
+   {
+    "title": "Senior Backend Engineer Build AI Agents @ Salesforge",
+    "desc": "golang, senior, sales, engineer, backend",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114",
+    "source": "RemoteOK",
+    "id": "m3",
+    "summary": "Salesforge 招后端 Agent 工程师，说明纯 AI Agent 产品开始重视生产级可靠性和工程化能力，而非仅仅 demo。"
+   },
+   {
+    "title": "[长沙] 上市公司证券方向 - 不限制语言（AI Coding）",
+    "desc": "💼 岗位列表\n📌 岗位职责\n券商服务端开发工程师 [岗位职责]\n1 、负责券商核心业务系统（如股票/期权交易、资产结算、账户管理、风控等模块）的后端方案设计、编码实现与单元测试；\n2 、持续优化系统性能，解决高并发、低延迟下的技术挑战，确保系统的高可用性和稳定；\n性，满足金融级业务要求；\n3 、与产品、合规、业务团队紧密协作，深入理解券商业务逻辑与合规要求；\n4 、负责解决系统中碰到的各类技术难点。 [任职要求]\n1 、具备 5 年以上后端开发经验，有券商、金融、支付或电商核心业务（如订单、搜索）等相关行业系统开发经验者优先；\n2 、编程语言不限（ Java 、Go 等均可），具备扎实的编程基",
+    "url": "https://www.v2ex.com/t/1237782#reply12",
+    "source": "V2EX 酷工作",
+    "id": "m22",
+    "summary": "长沙券商岗位不限编程语言但明确要求 AI Coding，显示传统金融行业普遍接受 AI 辅助开发，并作为核心技能。"
+   },
+   {
+    "title": "招聘： LLM 后训练工程师 (角色扮演对话模型类型)",
+    "desc": "在 V2 已经招到 5 个以上全职远程的小伙伴了，目前都已经稳定在职，团队还在继续扩充 目前的缺口有 LLM 后训练的算法工程师岗位，AIGC 创作的内容运营岗位，AI 伴侣产品岗位 美国主体公司，有自己的 GPU 集群，支持远程全职，欢迎投递 岗位薪资标准：20-40k/月 ## 岗位职责 - 负责大语言模型的 SFT 、偏好优化及相关后训练工作； - 建设训练数据的采集、清洗、去重、标注和质量评估流程； - 设计模型评测集和评价指标，分析训练前后的能力变化； - 组织候选回答生成、人工评审和高质量训练样本生产； - 优化训练参数、数据配比、上下文长度和 Chat Template ； - ",
+    "url": "https://www.v2ex.com/t/1237578#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "LLM 后训练岗位独立成岗，角色扮演对话模型需自建 GPU 集群和完整后训练 pipeline，垂直场景模型调优成为新方向。"
+   },
+   {
+    "title": "招 cladue max 号池负责人｜ 30K+｜北京/远程",
+    "desc": "招 claude max 号池负责人｜ 30K+｜北京/远程 现状\n目前已经有十几家大厂客户，业务量持续增长，现阶段需要一位能把 claude max 号池搭建稳定的负责人，负责核心技术架构和后续团队建设。 具体包括： 设计并持续迭代整体系统架构 负责账号/资源池的统一管理与智能调度 建立自动化的健康检测、故障识别和恢复体系 根据实时状态进行动态路由、负载分配和并发控制 处理高并发下的限流、排队、超时、熔断等问题 完善监控、日志、告警以及故障定位体系 对现有系统进行二开，也可以根据实际需求重新设计核心模块 随业务增长，把系统从目前规模逐步做到数千级资源规模 后续可以自己搭建技术团队，开发、运维",
+    "url": "https://www.v2ex.com/t/1236289#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m42",
+    "summary": "Claude max 号池负责人岗位说明 Agent 基础设施已细分出账号资源池管理，反映大模型 API 规模化运营的刚需。"
+   },
+   {
+    "title": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Eng",
+    "desc": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k–$230k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. Thi",
+    "url": "https://news.ycombinator.com/item?id=49215237",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Deepline 宣称 'UI 已死'，专注做 agent 接口层，代表一种极端观点：未来知识工作者交互将从图形界面转向智能体。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+    "url": "https://news.ycombinator.com/item?id=49217319",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m84",
+    "summary": "LiveKit 招聘 VoiceAI 基础设施工程师，表明语音驱动的 Agent 交互正在成为资本市场关注的下一个高增长赛道。"
+   }
+  ],
+  "week": "2026-W36"
+ },
+ "llm_used": true,
+ "degraded": []
+}
