@@ -1,0 +1,409 @@
+{
+ "date": "2026-09-04",
+ "generated_at": "2026-09-04 08:09",
+ "trends": [
+  "资本持续下注AI基础设施，Nvidia 130亿美元收购Hugging Face、Thinking Machines 400亿美元估值融资等显示，AI模型库、推理和代理平台成为资金争夺重点。",
+  "模型加速从聊天走向代理和现实世界应用：OpenAI发布GPT-6 Astra，Google发布WeatherNext 3，AI在电脑操作、浏览器使用和物理模拟等场景的渗透明显加速。",
+  "高质量行为数据和开源推理速度成为竞争焦点：Meta以折扣换用户数据训练Muse Spark，同时Qwen等开源模型在Cerebras上跑到1500 tokens/s，创业公司部署成本门槛降低。",
+  "安全与鲁棒性风险上升：Abliteration等去除模型护栏的服务出现，OpenAI 10亿美元投入关键服务防护，多个主流模型同时宕机，AI真正用起来意味着防攻击和容灾必须同步跟上。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 19
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 4
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 3
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 5
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 19
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh4",
+   "title": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": "173,640",
+   "stars_today": "281 stars today",
+   "summary": "Anthropic官方开源的Agent Skills仓库，用来定义和分享可复用的AI代理技能模块。它的出现意味着Claude等模型能像装插件一样扩充能力，是当前Agent生态标准化的重要信号。"
+  },
+  {
+   "id": "gh18",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": "281,326",
+   "stars_today": "462 stars today",
+   "summary": "一套基于Agent skills的开发方法论和框架，把AI编程代理当‘超级能力’来组织工作流。今天涨星很猛，让人感觉是Agent编程实践里被很多人验证过的‘套路’正在成型。"
+  },
+  {
+   "id": "gh11",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": "92,024",
+   "stars_today": "264 stars today",
+   "summary": "给AI编码代理用的生产级技能集，Web性能大佬Addy Osmani出品。里面有很多可直接拿来用的工程技能，能帮你在日常开发中更快让代理干活，属于实用型工具。"
+  },
+  {
+   "id": "gh13",
+   "title": "magnitudedev/magnitude",
+   "url": "https://github.com/magnitudedev/magnitude",
+   "desc": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+   "lang": "TypeScript",
+   "stars": "1,938",
+   "stars_today": "161 stars today",
+   "summary": "一个开源推理服务，专门根据你的本地硬件跑最合适的模型，再插到已有的Agent工具流里。它降低了大模型本地部署的门槛，正好踩中大家想自主可控本地运行AI的需求。"
+  },
+  {
+   "id": "gh17",
+   "title": "f/prompts.chat",
+   "url": "https://github.com/f/prompts.chat",
+   "desc": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+   "lang": "HTML",
+   "stars": "168,975",
+   "stars_today": "168 stars today",
+   "summary": "以前叫Awesome ChatGPT Prompts，是一个社区驱动、可自行托管的提示词收集/发现平台。现在越来越多人在研究提示词工程和Agent技能，这类资源又被重新热起来了。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+   "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+   "desc": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n48",
+   "summary": "英伟达确认以129亿美元收购Hugging Face。HF是AI开源社区的核心，托管超300万模型、服务1800万开发者，收购完成后开源生态的走向和GPU绑定程度值得关注。"
+  },
+  {
+   "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+   "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+   "desc": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "OpenAI正式发布GPT-6 Astra，主打对电脑和浏览器的直接操作，速度和准确性号称大幅提升。它是OpenAI首个在网络安全评估中达到“严重”级别的广泛部署模型，也引发了对递归架构安全性的讨论。"
+  },
+  {
+   "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+   "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+   "desc": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "据报道Accel正领投Thinking Machines的10亿美元融资，估值达400亿美元；该公司ARR已超1亿美元。这笔融资再次显示资本对AI代理/推理基础设施赛道的狂热。"
+  },
+  {
+   "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+   "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+   "desc": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI推出Daybreak for Frontline Defenders：承诺投入10亿美元，为医院、电网等关键服务提供前沿AI和网络安全支持。虽然偏公益，但也代表着AI公司争夺关键基础设施市场的战略。"
+  },
+  {
+   "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+   "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+   "desc": "",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n34",
+   "summary": "Google DeepMind发布WeatherNext 3，号称目前全球最准确的AI天气模型。它将进入 Google 搜索、地图和 Gemini，说明深度学习在物理预测领域的价值已经能直接服务大众。"
+  },
+  {
+   "title": "Meta is paying to peek at how you use their latest AI model",
+   "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+   "desc": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future models by sharing their prompts and model outputs.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "Meta为了训练Muse Spark编码/代理模型，提供约95%的平均折扣换取用户分享提示词和输出结果。这种数据换折扣的方式，既能快速积累高质量交互数据，也引发了关于隐私和激励模式的讨论。"
+  },
+  {
+   "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+   "url": "https://inference-docs.cerebras.ai/models/overview",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 412,
+   "id": "n4",
+   "summary": "阿里Qwen 3.8 27B模型出现在Cerebras平台上，推理速度达到1500 tokens/s。这表明具备较强能力的开源模型也能以高吞吐低成本运行，开发者自部署AI服务的可行性进一步上升。"
+  },
+  {
+   "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
+   "url": "https://twitter.com/GergelyOrosz/status/2095453567955968398",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 268,
+   "id": "n6",
+   "summary": "Google Antigravity的使用条款警告：第三方服务如果使用它，可能导致整个Google账号被暂停。这意味着依赖Google AI能力的开发者需要重新审视调用边界，避免因合规问题丢账号。"
+  },
+  {
+   "title": "Abliteration.ai is making a business out of removing AI guardrails",
+   "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+   "desc": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "Abliteration.ai目前在做一门“去除AI安全护栏”的生意，让没有限制的模型更容易获得。创始人认为让防御方和攻击方使用同一工具能提升总体安全，但可用性风险和滥用争议也随之而来。"
+  },
+  {
+   "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+   "url": "https://news.ycombinator.com/item?id=49551096",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 321,
+   "id": "n5",
+   "summary": "OpenAI、Claude和Grok三个主流AI服务同时宕机，用户普遍在问原因。大型模型服务同时故障提醒我们，在构建上层应用时必须考虑多模型容灾和降级策略。"
+  },
+  {
+   "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+   "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 68,
+   "id": "n19",
+   "summary": "通过对17k次真实运行的分析，研究团队测出了Claude、Codex和Cursor各自会优先选择哪些工具。结果显示不同agent的工具倾向差异很大，开发者在选型时可以用这些数据决定谁更适合自己的任务流。"
+  },
+  {
+   "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+   "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 173,
+   "id": "n8",
+   "summary": "围棋大师Shin在让两子的情况下击败了AI KataGo。这个结果提示，再强的AI模型在对抗人类时也存在特定盲点，评估可信AI不能只看平均胜率，还要关注对抗环境和长尾漏洞。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph8",
+   "title": "Atlas by World Labs",
+   "url": "https://www.producthunt.com/products/atlas-by-world-labs",
+   "desc": "Turn text, pics, video, + 3D into camera-controlled HD video Discussion | Link",
+   "summary": "Atlas 是 World Labs（李飞飞团队）推出的空间智能生成工具，能把文本、图片、视频和 3D 内容变成可控制摄像机运动的 HD 视频。它代表了从“生成画面”到“生成可交互世界”的关键一步，对影视、游戏和空间计算都有深远影响。"
+  },
+  {
+   "id": "ph4",
+   "title": "Higgsfield Genjutsu",
+   "url": "https://www.producthunt.com/products/higgsfield",
+   "desc": "Recast motion with your characters, locations & products Discussion | Link",
+   "summary": "Higgsfield Genjutsu 能把你角色、地点或产品的动作“重演”到新视频中，实现零样本的动作迁移。对创意工作者来说，这是低成本的视频重定向神器，能大幅缩短特效和广告制作流程。"
+  },
+  {
+   "id": "ph3",
+   "title": "Agent Builder by Airtop",
+   "url": "https://www.producthunt.com/products/airtop",
+   "desc": "Build agents that heal themselves. Discussion | Link",
+   "summary": "Agent Builder by Airtop 让 AI Agent 具备“自我修复”能力，自动从失败中学习并恢复。它解决了当前 Agent 在真实环境中稳定性差、需要大量人工兜底的痛点，是 Agent 走向生产环境的重要探索。"
+  },
+  {
+   "id": "ph2",
+   "title": "Blume.codes",
+   "url": "https://www.producthunt.com/products/blume-codes",
+   "desc": "Turns coding agent sessions into better rules and skills Discussion | Link",
+   "summary": "Blume.codes 会把编码 Agent 的会话自动提炼成更好的规则和技能，形成团队级的知识沉淀。它让 AI 编程助手越用越懂你的代码库和规范，相当于给 Agent 装上“记忆和组织”能力。"
+  },
+  {
+   "id": "ph5",
+   "title": "Omi",
+   "url": "https://www.producthunt.com/products/open-source-ai-necklace-friend",
+   "desc": "Ask your computer anything you saw or heard Discussion | Link",
+   "summary": "Omi 提供“问电脑你任何看过或听过的东西”的能力，本质是全局历史和屏幕/音频的记忆检索。它把电脑变成可对话的“外脑”，让信息找回不再依赖手动整理，是个人记忆类 AI 的新形态。"
+  },
+  {
+   "id": "ph7",
+   "title": "Tabbit AI",
+   "url": "https://www.producthunt.com/products/tabbitai",
+   "desc": "The Best AI Browser Build both for You and your Agents. Discussion | Link",
+   "summary": "Tabbit AI 是一个同时为人类和 Agent 设计的 AI 浏览器，内置智能体协作能力。它是浏览器在 AI 时代的重新定义：不止于人看网页，也让 Agent 能主动执行任务。"
+  },
+  {
+   "id": "ph6",
+   "title": "MagiCrew",
+   "url": "https://www.producthunt.com/products/magicrew",
+   "desc": "Give everyone their own AI workforce in one platform Discussion | Link",
+   "summary": "MagiCrew 让每个人都能在一个平台里拥有专属的 AI 劳动力队伍，把目标拆解给多个 Agent 协作完成。它强调“交付结果”而非“聊天对话”，更贴近企业实际任务场景。"
+  },
+  {
+   "id": "ph0",
+   "title": "Nex",
+   "url": "https://www.producthunt.com/products/nex-4",
+   "desc": "Claude Cowork for high-volume GTM workflows Discussion | Link",
+   "summary": "Nex 是面向高吞吐 GTM 工作流的 Claude Cowork 扩展，用 AI 处理销售/市场里的重复性流程。它把大模型接入真实商业工具，展示出“数字同事”在客户运营场景中的效率价值。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "GPT‑6 Astra",
+   "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+   "desc": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say abou",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "OpenAI 发布 GPT-6 Astra，即日起向部分组织开放，几天内向所有 Plus/Pro/Business/Enterprise 用户及 API/AWS 用户推出。作者 Simon Willison 表示自己还没试用，因此暂未深入评价——值得盯后续实测与性能解析。"
+  },
+  {
+   "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+   "url": "https://www.latent.space/p/astra",
+   "desc": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b5",
+   "summary": "Latent Space 用超过 200 亿个 token 全面实测 GPT-6 Astra，核心亮点是它可作为“自动化 AI 工程师”，每小时成本不到 6 美元。这份报告对开发者判断真实生产力与性价比很有参考价值。"
+  },
+  {
+   "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+   "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+   "desc": "an epic comeback story for Meta",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b6",
+   "summary": "AINews 报道称 Muse Spark 1.3 性能对标 GPT-5.6-Sol，证实 Meta 超级智能实验室已成为前沿研究主力，且训练成本有超 90% 的折扣。Meta 的逆袭故事值得关注，对开源/低成本训练路线是重要信号。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化和 LLM 应用开发成为主流需求，广泛要求熟悉 LangChain / LangGraph / Dify 等框架，以及 RAG、多模态、模型接入等落地能力。",
+   "后端岗位需求量最大，强调强类型语言（Rust、Go、Java）和分布式系统经验，同时越来越多岗位要求 AI 集成或 Agent 开发背景，纯 CRUD 后端竞争力下降。",
+   "ML 基础设施和数据工程岗位持续增长，覆盖特征存储、ML 平台、数据管道，以及 LLM 后训练（SFT / 偏好优化）、评测等专门技能，量化、金融、医疗等行业高薪岗位集中。",
+   "AI 编码工具（Claude Code、Codex 等）已成为基本要求，多岗位明确要求通过 AI 工具提升开发效率，甚至开设专门负责 AI coding 体系建设的角色。",
+   "全栈工程师需求旺盛，但要兼具 AI 能力和业务理解，特别是能将大模型能力嵌入医疗、金融、电商等具体场景的人才，薪资开价普遍较高。"
+  ],
+  "gigs": [
+   "远程接单和外包市场对 AI 应用开发（尤其 Agent / RAG）需求量大，具备完整项目交付经验的独立开发者很抢手，有个人作品的求职者更容易获得机会。",
+   "平台型远程机会增多，A.Team、Lemon.io 等专门匹配高级 AI 工程师，但门槛高，要求独立完成从设计到部署的全流程能力。",
+   "样本有限，但可看出短期 MVP 和验证型项目开始出现（如 AI 产品共创、7 天 MVP），部分买方愿意为快速原型支付溢价。"
+  ],
+  "highlights": [
+   {
+    "title": "Senior Backend Engineer Build AI Agents @ Salesforge",
+    "desc": "golang, senior, sales, engineer, backend",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114",
+    "source": "RemoteOK",
+    "id": "m3",
+    "summary": "Salesforge 招后端 Agent 工程师，说明纯 AI Agent 产品开始重视生产级可靠性和工程化能力，而非仅仅 demo。"
+   },
+   {
+    "title": "[长沙] 上市公司证券方向 - 不限制语言（AI Coding）",
+    "desc": "💼 岗位列表\n📌 岗位职责\n券商服务端开发工程师 [岗位职责]\n1 、负责券商核心业务系统（如股票/期权交易、资产结算、账户管理、风控等模块）的后端方案设计、编码实现与单元测试；\n2 、持续优化系统性能，解决高并发、低延迟下的技术挑战，确保系统的高可用性和稳定；\n性，满足金融级业务要求；\n3 、与产品、合规、业务团队紧密协作，深入理解券商业务逻辑与合规要求；\n4 、负责解决系统中碰到的各类技术难点。 [任职要求]\n1 、具备 5 年以上后端开发经验，有券商、金融、支付或电商核心业务（如订单、搜索）等相关行业系统开发经验者优先；\n2 、编程语言不限（ Java 、Go 等均可），具备扎实的编程基",
+    "url": "https://www.v2ex.com/t/1237782#reply12",
+    "source": "V2EX 酷工作",
+    "id": "m22",
+    "summary": "长沙券商岗位不限编程语言但明确要求 AI Coding，显示传统金融行业普遍接受 AI 辅助开发，并作为核心技能。"
+   },
+   {
+    "title": "招聘： LLM 后训练工程师 (角色扮演对话模型类型)",
+    "desc": "在 V2 已经招到 5 个以上全职远程的小伙伴了，目前都已经稳定在职，团队还在继续扩充 目前的缺口有 LLM 后训练的算法工程师岗位，AIGC 创作的内容运营岗位，AI 伴侣产品岗位 美国主体公司，有自己的 GPU 集群，支持远程全职，欢迎投递 岗位薪资标准：20-40k/月 ## 岗位职责 - 负责大语言模型的 SFT 、偏好优化及相关后训练工作； - 建设训练数据的采集、清洗、去重、标注和质量评估流程； - 设计模型评测集和评价指标，分析训练前后的能力变化； - 组织候选回答生成、人工评审和高质量训练样本生产； - 优化训练参数、数据配比、上下文长度和 Chat Template ； - ",
+    "url": "https://www.v2ex.com/t/1237578#reply4",
+    "source": "V2EX 酷工作",
+    "id": "m27",
+    "summary": "LLM 后训练岗位独立成岗，角色扮演对话模型需自建 GPU 集群和完整后训练 pipeline，垂直场景模型调优成为新方向。"
+   },
+   {
+    "title": "招 cladue max 号池负责人｜ 30K+｜北京/远程",
+    "desc": "招 claude max 号池负责人｜ 30K+｜北京/远程 现状\n目前已经有十几家大厂客户，业务量持续增长，现阶段需要一位能把 claude max 号池搭建稳定的负责人，负责核心技术架构和后续团队建设。 具体包括： 设计并持续迭代整体系统架构 负责账号/资源池的统一管理与智能调度 建立自动化的健康检测、故障识别和恢复体系 根据实时状态进行动态路由、负载分配和并发控制 处理高并发下的限流、排队、超时、熔断等问题 完善监控、日志、告警以及故障定位体系 对现有系统进行二开，也可以根据实际需求重新设计核心模块 随业务增长，把系统从目前规模逐步做到数千级资源规模 后续可以自己搭建技术团队，开发、运维",
+    "url": "https://www.v2ex.com/t/1236289#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m42",
+    "summary": "Claude max 号池负责人岗位说明 Agent 基础设施已细分出账号资源池管理，反映大模型 API 规模化运营的刚需。"
+   },
+   {
+    "title": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Eng",
+    "desc": "Deepline | NYC (ONSITE) | Founding Full-stack Engineers and Forward Deployed Engineers | $160k–$230k + meaningful equity User interfaces are dead. Knowledge workers will exclusively work through agent interfaces like Claude Code/Cowork. We've built the interface layer to enable that. One API that unifies hundreds of data providers, workflows, and data infrastructure to agents like Claude Code. Thi",
+    "url": "https://news.ycombinator.com/item?id=49215237",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m86",
+    "summary": "Deepline 宣称 'UI 已死'，专注做 agent 接口层，代表一种极端观点：未来知识工作者交互将从图形界面转向智能体。"
+   },
+   {
+    "title": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is b",
+    "desc": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Staff Rust SDK Engineer (Remote, North America): https://jobs.ashbyhq.com/livekit/a1d10340-7cd9-4029-9a56-139... >> Staff",
+    "url": "https://news.ycombinator.com/item?id=49217319",
+    "source": "HN Who is hiring? (August 2026)",
+    "id": "m84",
+    "summary": "LiveKit 招聘 VoiceAI 基础设施工程师，表明语音驱动的 Agent 交互正在成为资本市场关注的下一个高增长赛道。"
+   }
+  ],
+  "week": "2026-W36"
+ },
+ "llm_used": true,
+ "degraded": []
+}
