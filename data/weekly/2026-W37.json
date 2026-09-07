@@ -1,0 +1,66 @@
+{
+ "skills": [
+  "招聘方最抢的是 Agent 工程化：从外包单到远程岗都在点名 RAG、Agent 编排、工作流、评估/可观测；原因是市场已经从「模型能不能答」走到「Agent 能不能稳定跑完一条业务链路」。",
+  "「AI 全栈」成了默认画像：除了前后端和数据库，还要会接模型 API、做上下文工程、能部署上线；不少创业公司把「熟练用 Claude Code / Cursor」写进 JD，说明 AI 工具使用能力开始被当硬技能看。",
+  "行业纵深是主要溢价：金融/风控/量化、法律、医疗/生命科学、教育、制造/自动驾驶等领域都在抢 AI 工程师，纯工程背景加上行业数据和术语理解最稀缺，能落地的垂直 AI 比通用 AI 更值钱。",
+  "模型侧需求两极分化：头部公司/量化私募还在高薪抢预训练、后训练、Agent Infra 专家；大量应用公司则只需要会部署私有化开源模型 + 调优 RAG，先想清楚自己站哪一侧是当前职业决策的关键。",
+  "AI 基础设施岗位明显增加：Agent 基础设施、实时语音/WebRTC、推理平台、多模态/具身、机器人底层软件都出现在招聘里，说明这轮不只在堆应用，而是要把 Agent 跑得稳、看得懂、能落地。"
+ ],
+ "gigs": [
+  "远程/外包平台上的 AI 单子显著变多：Toptal/Proxify 等渠道在找 RAG、Agentic AI、AI 电商/AI 银行的 Python/全栈外包，说明接单市场开始用「能不能交付生产级 LLM 系统」筛人，纯 CRUD 外包的机会在变少。",
+  "中文社区大量「远程居家」岗来自 0-1 小团队或外包项目，多数要求一个人 cover 前后端+部署+Agent 逻辑；能独立端到端交付、愿意用 AI 编程工具的人更抢手，但这类岗位薪资和靠谱度差异很大，需要甄别。",
+  "AIGC 劳务型外包开始出现：比如 AI 漫剧生成、SEO 工具站/导航站批量建站等，本质是用模型替代产能，入门门槛不高但可替代性强，适合当副业练手、不容易形成长期壁垒。",
+  "还有个零散信号：有人直接在小社区付费咨询大模型生产环境架构（自部署 9B/27B + RAG + 生图/生视频），说明很多团队缺的不是模型，而是能把开源模型扛住真实日活的人；不过样本有限，这个结论先打个折扣。"
+ ],
+ "highlights": [
+  {
+   "title": "远程居家办公——AI Agent 支付与金融基础设施负责人",
+   "desc": "关于我们 AIsa 成立于 2025 年，总部位于美国旧金山。公司背后汇聚了顶尖的投资阵容，包括阿里巴巴、Tribe Capital 、Draper Associates 、Sumitomo Corporation （住友商事）以及 Saison Capital 等知名机构投资人，是一家专注于 AI 智能体的基础设施的创业公司，为智能体生态提供统一的 API 网关、大模型智能路由、上下文管理、智能体原生支付协议等资源层服务。团队成员具有腾讯、百度、小米、字节等互联网大厂以及海外留学背景（公司网址需梯子打开网址： https://aisa.one/zh-cn ） 我们相信 Agent 的数量会持",
+   "url": "https://www.v2ex.com/t/1239866#reply1",
+   "source": "V2EX 酷工作",
+   "id": "m18",
+   "summary": "远程岗「AI Agent 支付与金融基础设施负责人」来自旧金山创业公司 AIsa，拿到阿里等机构投资——说明 Agent 数量起来后，给 Agent 发钱/收钱会像移动支付一样长出专门基础设施，是一个全新赛道信号。"
+  },
+  {
+   "title": "Toptal: Python Backend Development Talent with RAG and Agentic AI Experience",
+   "desc": "Headquarters: Summary: We are seeking an experienced Python Backend Developer to design, build, and deploy scalable AI-powered applications using Retrieval-Augmented Generation, large language models, and agentic AI frameworks. The role will focus on delivering a production-grade RAG system and AI c",
+   "url": "https://weworkremotely.com/remote-jobs/toptal-python-backend-development-talent-with-rag-and-agentic-ai-experience",
+   "source": "WeWorkRemotely",
+   "id": "m11",
+   "summary": "Toptal 公开招 Python 后端但点名要 RAG 和 Agentic AI 经验——全球灵活用工市场开始把「能交付生产级 LLM 系统」设成门槛，自由职业者的能力栈正被 AI 重写。"
+  },
+  {
+   "title": "招全栈开发工程师啦！远程 + on-site 结合",
+   "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+   "url": "https://www.v2ex.com/t/1239572#reply6",
+   "source": "V2EX 酷工作",
+   "id": "m22",
+   "summary": "Kapibala 的 Sales AGI 团队招全栈，要求重度使用 Claude Code/Cursor，且已融 1000 万美元 Pre-Seed——AI Native 创业公司连开发方式都在 Agent 化，这类岗位会越来越代表新团队的工作形态。"
+  },
+  {
+   "title": "lovable | stockholm, london (in-person) | full-stack, frontend, backend, infra d",
+   "desc": "lovable | stockholm, london (in-person) | full-stack, frontend, backend, infra design, and ai research we sponsor visas and have very generous relocation packages. lovable is building an agentic technical co-founder, we are the best way for non-technical people go from idea to a real software business with paying users. we need the best engineers in the world to join us and will compensate you acc",
+   "url": "https://news.ycombinator.com/item?id=49546936",
+   "source": "HN Who is hiring? (September 2026)",
+   "id": "m79",
+   "summary": "Lovable 在招「顶级工程师」去打造 agentic technical co-founder——AI 编程正在从辅助写代码走向替非技术用户把想法变成软件，对初级开发岗位的挤压是值得警惕的信号。"
+  },
+  {
+   "title": "Republic Services | Staff Engineer – Agentic AI | REMOTE (US) | Full-time | $175",
+   "desc": "Republic Services | Staff Engineer – Agentic AI | REMOTE (US) | Full-time | $175k is our salary midpoint + 20% target bonus Republic Services is the second largest environmental services companies in North America — ~40K employees, thousands of trucks, hundreds of facilities, and a mountain of operational data that has never had an AI layer on top of it. We have a backlog of hundreds of Agentic AI",
+   "url": "https://news.ycombinator.com/item?id=49538459",
+   "source": "HN Who is hiring? (September 2026)",
+   "id": "m96",
+   "summary": "美国环保服务巨头 Republic Services 招专职 Staff Engineer 负责 Agentic AI，并称内部积压了数百个 Agent 用例——传统大企业从 AI 试点走向批量落地，会是未来一两年最稳的需求池之一。"
+  },
+  {
+   "title": "Xaira Therapeutics | Midlevel/Senior/Staff Engineers | Seattle or SF Xaira Thera",
+   "desc": "Xaira Therapeutics | Midlevel/Senior/Staff Engineers | Seattle or SF Xaira Therapeutics is developing biological foundation models (not LLMs) to hit undruggable targets and cure disease.  We've put together an incredible cross-disciplinary team of pharma veterans who have brought drugs to market, drug designers/AI scientists from Nobel laureate David Baker's lab, and engineers from tech in order t",
+   "url": "https://news.ycombinator.com/item?id=49542221",
+   "source": "HN Who is hiring? (September 2026)",
+   "id": "m86",
+   "summary": "Xaira Therapeutics 在招的工程岗不是 LLM 而是生物 foundation model，目标打「不可成药」靶点——AI 人才需求正从语言模型扩散到科学智能，在生物/多模态方向积累会比纯 LLM 应用更有壁垒。"
+  }
+ ],
+ "week": "2026-W37"
+}

@@ -1,0 +1,414 @@
+{
+ "date": "2026-09-07",
+ "generated_at": "2026-09-07 08:00",
+ "trends": [
+  "AI已开始自我驱动研究加速：OpenAI的编码代理数据显示实验迭代与任务复杂度大幅提升，AI for AI Research可能让进展进一步失控，业界需要更多安全考量。",
+  "版权纠纷进入深水区：多家新闻集团起诉OpenAI/微软，作者与出版方就Anthropic和解金内讧。未来AI公司必须解决训练数据授权与利益分配机制，否则将面临系统性法律风险。",
+  "具身智能与世界模型是当前最活跃的创业窗口：国内团队关注具身ICL的多模态上下文扩展，中国世界模型公司获海外顶级投资人支持，Robotaxi也吸引老将重返——新范式和落地场景正在同频升温。",
+  "单人AI创造成常态：AI大幅降低内容生产和软件开发门槛，近八成参赛者以一人团队完成AI创作，个体创业者迎来黄金期。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 18
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 5
+  },
+  {
+   "name": "The Verge AI",
+   "count": 1
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 4
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh1",
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": "254,492",
+   "stars_today": "2,207 stars today",
+   "summary": "工程师 Matt Pocock 分享的个人 .agents 目录技能集，覆盖真实工程实践。agent skills 正成为 AI 开发新范式，作者影响力带来超高热度。"
+  },
+  {
+   "id": "gh4",
+   "title": "openai/skills",
+   "url": "https://github.com/openai/skills",
+   "desc": "Skills Catalog for Codex",
+   "lang": "Python",
+   "stars": "25,607",
+   "stars_today": "46 stars today",
+   "summary": "OpenAI 官方的 Codex 技能目录，提供预定义技能库。它定义了 agent 技能的官方标准，是开发者构建编码代理的重要参考。"
+  },
+  {
+   "id": "gh8",
+   "title": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": "129,310",
+   "stars_today": "1,539 stars today",
+   "summary": "让 AI agent 模仿最懒的资深开发者，追求只写必要代码。这种“少即是多”的理念能减少幻觉与冗余，呼应了 AI 编程的实用主义趋势。"
+  },
+  {
+   "id": "gh6",
+   "title": "blader/humanizer",
+   "url": "https://github.com/blader/humanizer",
+   "desc": "Agent skill that removes signs of AI-generated writing from text",
+   "lang": "Python",
+   "stars": "44,211",
+   "stars_today": "748 stars today",
+   "summary": "一个 agent 技能，可去除 AI 生成文本的“机器味”，使其更像人类所写。随着 AI 检测工具普及，这类天然对抗技术备受关注。"
+  },
+  {
+   "id": "gh3",
+   "title": "NousResearch/hermes-agent",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "desc": "The agent that grows with you",
+   "lang": "Python",
+   "stars": "242,529",
+   "stars_today": "520 stars today",
+   "summary": "Nous Research 推出的个人化 AI agent，可随用户成长。基于其开源模型生态，代表开源社区在自主 agent 领域的前沿探索。"
+  },
+  {
+   "id": "gh12",
+   "title": "coreyhaines31/marketingskills",
+   "url": "https://github.com/coreyhaines31/marketingskills",
+   "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+   "lang": "JavaScript",
+   "stars": "47,497",
+   "stars_today": "329 stars today",
+   "summary": "为 Claude Code 和 AI agents 设计的营销技能套件，涵盖 CRO、文案、SEO、分析等。这显示 agent 技能正向非技术领域扩展，拓宽了应用场景。"
+  },
+  {
+   "id": "gh16",
+   "title": "The-Swarm-Corporation/AutoHedge",
+   "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+   "desc": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+   "lang": "Python",
+   "stars": "4,698",
+   "stars_today": "142 stars today",
+   "summary": "用群体智能和 AI agents 搭建自动化对冲基金的工具，能完成市场分析、风险管理和交易执行。降低量化交易门槛，但风险极高，引发两极讨论。"
+  },
+  {
+   "id": "gh13",
+   "title": "aipoch/open-science",
+   "url": "https://github.com/aipoch/open-science",
+   "desc": "Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with scientific agents, Python/R notebooks, data connectors, and reproducible provenance.",
+   "lang": "TypeScript",
+   "stars": "3,844",
+   "stars_today": "146 stars today",
+   "summary": "AIPOCH 推出的开源、本地优先、模型无关的 AI 科研工作台，集成科学 agents、notebook、数据连接和可复现轨迹。为科研工作流提供新基建，有潜力改变实验室协作。"
+  },
+  {
+   "id": "gh14",
+   "title": "OpenWhispr/openwhispr",
+   "url": "https://github.com/OpenWhispr/openwhispr",
+   "desc": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+   "lang": "JavaScript",
+   "stars": "7,338",
+   "stars_today": "121 stars today",
+   "summary": "跨平台语音听写应用，支持本地 Nvidia Parakeet/Whisper 与自带密钥的云模型，强调隐私优先。在数据敏感时代，提供灵活且私密的语音输入方案。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Research acceleration: The view inside OpenAI",
+   "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+   "desc": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "OpenAI发布对内部研究的分析，指出基于编码代理的工作流正在显著加速AI研究：实验迭代更快、任务复杂度上升。这说明AI已经进入提升自身研究的阶段，后续进展节奏可能超出预期。"
+  },
+  {
+   "title": "An Alien Mind",
+   "url": "https://openai.com/index/an-alien-mind",
+   "desc": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI科学家Jakub Pachocki发文反思超强AI可能像“异类心智”一样难以对齐，呼吁建立更强防护和国际协调。来自前沿实验室内部的声音，说明安全担忧不再是外部谈资。"
+  },
+  {
+   "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+   "desc": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user qu",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "西雅图时报和Newsday起诉OpenAI与微软，指控其未经许可用新闻报道训练AI并复制原文。继纽约时报等之后，传统媒体与AI公司的版权战争继续扩大，这会影响所有生成式AI的语料合规策略。"
+  },
+  {
+   "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+   "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+   "desc": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "在Anthropic涉及的版权和解中，作家群体抗议出版商和经纪人拿走过多赔偿。说明AI内容补偿机制不仅在与AI公司交锋，创作者之间也在争抢利益分配，后续商业条款会更敏感。"
+  },
+  {
+   "title": "具身ICL来了创业玩家！上下文成Scaling新赛道",
+   "url": "https://www.qbitai.com/2026/09/484897.html",
+   "desc": "让机器人学会利用更长的多模态Context",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n38",
+   "summary": "量子位报道“具身ICL”创业方向：让机器人利用更长的多模态上下文直接学习新任务，而不用重新训练模型，上下文长度成为具身智能新的Scaling维度。这意味着机器人技能泛化可能走向“上下文学习+实时决策”路线，相关基础设施和数据集有机会。"
+  },
+  {
+   "title": "押中SpaceX的硅谷老将，把票投给了一家中国世界模型公司",
+   "url": "https://www.qbitai.com/2026/09/484683.html",
+   "desc": "当AI开始“预演”一场暴雨",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n41",
+   "summary": "硅谷风投老将（曾投资SpaceX）投资一家中国世界模型公司，这类模型能像“预演”一样预测暴雨等场景。世界模型被认为是从感知走向因果推理的关键，中国创业公司开始赢取国际资本。"
+  },
+  {
+   "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+   "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+   "desc": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "Uber创始人Travis Kalanick的初创公司Atoms可能进入robotaxi赛道，Kalanick表示要完成“未竟事业”。自动驾驶出租车市场竞争更激烈，顶级连续创业者的入局会加速技术应用和车队商业化。"
+  },
+  {
+   "title": "Harnessing the Universal Geometry of Embeddings",
+   "url": "https://arxiv.org/abs/2505.12540",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 31,
+   "id": "n20",
+   "summary": "一篇题为《驾驭嵌入的通用几何》的文章指出嵌入空间存在统一的几何结构。若真能掌握这种几何，或许可以大幅提升检索、分类与可解释性，是基础模型研究里值得深挖的方向。"
+  },
+  {
+   "title": "B站首届AI创造公开赛收官，超八成参赛者为一人团队",
+   "url": "https://www.qbitai.com/2026/09/484890.html",
+   "desc": "",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n39",
+   "summary": "B站首届AI创造公开赛结束，超过八成参赛者是一人团队。这说明AI创作工具已经把制作门槛降到极低，个人创作者有望批量产出内容，平台生态和变现模式也会随之变化。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph1",
+   "title": "Kit by Speakeasy",
+   "url": "https://www.producthunt.com/products/speakeasydev",
+   "desc": "Your coding agent runtime. Claude but fast, cheap, concise. Discussion | Link",
+   "summary": "一个面向编码代理的运行时，类似 Claude 但强调快、便宜、简洁，可当自托管或替代方案。对搞 AI 编程工具或想省 token 的开发者挺有吸引力。"
+  },
+  {
+   "id": "ph6",
+   "title": "Tadata",
+   "url": "https://www.producthunt.com/products/tadata",
+   "desc": "The AI employee in Slack that reads the room. Discussion | Link",
+   "summary": "在 Slack 里当 AI 员工的机器人，能‘读房间氛围’并参与对话，帮团队总结、跟进、协调。值得关注的是它把 agent 塞进聊天工作流，代表一种企业落地形态。"
+  },
+  {
+   "id": "ph3",
+   "title": "Agentic Video Understanding in Gemini",
+   "url": "https://www.producthunt.com/products/google",
+   "desc": "Agentic video analysis for faster, smarter Gemini insights Discussion | Link",
+   "summary": "Gemini 的代理式视频理解功能，能主动拆分视频内容并推理，不是单纯识别。让视频从检索变成智能分析，适合做多模态应用的产品人看。"
+  },
+  {
+   "id": "ph5",
+   "title": "H3 Max by fal",
+   "url": "https://www.producthunt.com/products/fal-ai",
+   "desc": "fal's post-trained MiniMax H3 for quality video production Discussion | Link",
+   "summary": "fal 后训练优化 MiniMax H3，视频生成质量更高，主打高质量视频制作。对想在产品里集成 AI 视频生成的开发者，多了一个选择。"
+  },
+  {
+   "id": "ph13",
+   "title": "BrickForgerAI",
+   "url": "https://www.producthunt.com/products/brickforgerai",
+   "desc": "Turn any prompt into a brick set you can actually build Discussion | Link",
+   "summary": "输入一句话 prompt 就能生成一套乐高积木的搭建图纸，而且能实际拼出来。蛮有趣的多模态创意产品，也说明生成式设计向下沉方向发展。"
+  },
+  {
+   "id": "ph23",
+   "title": "Compliance by TwelveLabs",
+   "url": "https://www.producthunt.com/products/twelvelabs",
+   "desc": "Video compliance review powered by rules you control Discussion | Link",
+   "summary": "TwelveLabs 的视频合规审查工具，根据自定义规则自动审核视频内容。面向 UGC/直播等平台，规避违规内容风险，实际价值高。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "How AI Can Help Kids Think for Themselves | Sue Khim",
+   "url": "https://creatoreconomy.so/p/how-ai-can-help-kids-think-for-themselves-sue-khim",
+   "desc": "When to use AI to get a hint, when to step back, and how to tell if your child is learning",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "Sue Khim谈AI如何帮孩子独立思考：什么时候给提示、什么时候该退后，以及怎么判断孩子是不是真在学。对关心AI时代教育和育儿方式的开发者，提供了很务实的参考。"
+  },
+  {
+   "title": "The purpose of DNS is to spread scams",
+   "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+   "desc": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Terence Eden引用Interisle报告数据直言DNS几乎成了诈骗分子的犯罪温床，域名系统被滥用的速度惊人。想理解互联网基础设施如何被当成攻击面，这一篇能提供很多真实数据。"
+  },
+  {
+   "title": "There's No Limit to How Bad Code Can Get",
+   "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+   "desc": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Simon Willison在Lobste.rs上回应对“技术债太深不如推倒重写”的看法，他用自己的经验提醒：推倒重来很少成功，代码只会烂出新的层次。给每个想做重写决策的团队泼了一盆很现实的冷水。"
+  },
+  {
+   "title": "Quoting Zach Kehs",
+   "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+   "desc": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "Zach Kehs用盖楼打比方：楼加盖到极限会塌，但软件代码却能无限加层、无限变慢——没有物理约束的技术债才是真正的无底洞。一句话提醒开发者警惕复杂度与性能的无节制堆积。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "招聘方最抢的是 Agent 工程化：从外包单到远程岗都在点名 RAG、Agent 编排、工作流、评估/可观测；原因是市场已经从「模型能不能答」走到「Agent 能不能稳定跑完一条业务链路」。",
+   "「AI 全栈」成了默认画像：除了前后端和数据库，还要会接模型 API、做上下文工程、能部署上线；不少创业公司把「熟练用 Claude Code / Cursor」写进 JD，说明 AI 工具使用能力开始被当硬技能看。",
+   "行业纵深是主要溢价：金融/风控/量化、法律、医疗/生命科学、教育、制造/自动驾驶等领域都在抢 AI 工程师，纯工程背景加上行业数据和术语理解最稀缺，能落地的垂直 AI 比通用 AI 更值钱。",
+   "模型侧需求两极分化：头部公司/量化私募还在高薪抢预训练、后训练、Agent Infra 专家；大量应用公司则只需要会部署私有化开源模型 + 调优 RAG，先想清楚自己站哪一侧是当前职业决策的关键。",
+   "AI 基础设施岗位明显增加：Agent 基础设施、实时语音/WebRTC、推理平台、多模态/具身、机器人底层软件都出现在招聘里，说明这轮不只在堆应用，而是要把 Agent 跑得稳、看得懂、能落地。"
+  ],
+  "gigs": [
+   "远程/外包平台上的 AI 单子显著变多：Toptal/Proxify 等渠道在找 RAG、Agentic AI、AI 电商/AI 银行的 Python/全栈外包，说明接单市场开始用「能不能交付生产级 LLM 系统」筛人，纯 CRUD 外包的机会在变少。",
+   "中文社区大量「远程居家」岗来自 0-1 小团队或外包项目，多数要求一个人 cover 前后端+部署+Agent 逻辑；能独立端到端交付、愿意用 AI 编程工具的人更抢手，但这类岗位薪资和靠谱度差异很大，需要甄别。",
+   "AIGC 劳务型外包开始出现：比如 AI 漫剧生成、SEO 工具站/导航站批量建站等，本质是用模型替代产能，入门门槛不高但可替代性强，适合当副业练手、不容易形成长期壁垒。",
+   "还有个零散信号：有人直接在小社区付费咨询大模型生产环境架构（自部署 9B/27B + RAG + 生图/生视频），说明很多团队缺的不是模型，而是能把开源模型扛住真实日活的人；不过样本有限，这个结论先打个折扣。"
+  ],
+  "highlights": [
+   {
+    "title": "远程居家办公——AI Agent 支付与金融基础设施负责人",
+    "desc": "关于我们 AIsa 成立于 2025 年，总部位于美国旧金山。公司背后汇聚了顶尖的投资阵容，包括阿里巴巴、Tribe Capital 、Draper Associates 、Sumitomo Corporation （住友商事）以及 Saison Capital 等知名机构投资人，是一家专注于 AI 智能体的基础设施的创业公司，为智能体生态提供统一的 API 网关、大模型智能路由、上下文管理、智能体原生支付协议等资源层服务。团队成员具有腾讯、百度、小米、字节等互联网大厂以及海外留学背景（公司网址需梯子打开网址： https://aisa.one/zh-cn ） 我们相信 Agent 的数量会持",
+    "url": "https://www.v2ex.com/t/1239866#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m18",
+    "summary": "远程岗「AI Agent 支付与金融基础设施负责人」来自旧金山创业公司 AIsa，拿到阿里等机构投资——说明 Agent 数量起来后，给 Agent 发钱/收钱会像移动支付一样长出专门基础设施，是一个全新赛道信号。"
+   },
+   {
+    "title": "Toptal: Python Backend Development Talent with RAG and Agentic AI Experience",
+    "desc": "Headquarters: Summary: We are seeking an experienced Python Backend Developer to design, build, and deploy scalable AI-powered applications using Retrieval-Augmented Generation, large language models, and agentic AI frameworks. The role will focus on delivering a production-grade RAG system and AI c",
+    "url": "https://weworkremotely.com/remote-jobs/toptal-python-backend-development-talent-with-rag-and-agentic-ai-experience",
+    "source": "WeWorkRemotely",
+    "id": "m11",
+    "summary": "Toptal 公开招 Python 后端但点名要 RAG 和 Agentic AI 经验——全球灵活用工市场开始把「能交付生产级 LLM 系统」设成门槛，自由职业者的能力栈正被 AI 重写。"
+   },
+   {
+    "title": "招全栈开发工程师啦！远程 + on-site 结合",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1239572#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m22",
+    "summary": "Kapibala 的 Sales AGI 团队招全栈，要求重度使用 Claude Code/Cursor，且已融 1000 万美元 Pre-Seed——AI Native 创业公司连开发方式都在 Agent 化，这类岗位会越来越代表新团队的工作形态。"
+   },
+   {
+    "title": "lovable | stockholm, london (in-person) | full-stack, frontend, backend, infra d",
+    "desc": "lovable | stockholm, london (in-person) | full-stack, frontend, backend, infra design, and ai research we sponsor visas and have very generous relocation packages. lovable is building an agentic technical co-founder, we are the best way for non-technical people go from idea to a real software business with paying users. we need the best engineers in the world to join us and will compensate you acc",
+    "url": "https://news.ycombinator.com/item?id=49546936",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m79",
+    "summary": "Lovable 在招「顶级工程师」去打造 agentic technical co-founder——AI 编程正在从辅助写代码走向替非技术用户把想法变成软件，对初级开发岗位的挤压是值得警惕的信号。"
+   },
+   {
+    "title": "Republic Services | Staff Engineer – Agentic AI | REMOTE (US) | Full-time | $175",
+    "desc": "Republic Services | Staff Engineer – Agentic AI | REMOTE (US) | Full-time | $175k is our salary midpoint + 20% target bonus Republic Services is the second largest environmental services companies in North America — ~40K employees, thousands of trucks, hundreds of facilities, and a mountain of operational data that has never had an AI layer on top of it. We have a backlog of hundreds of Agentic AI",
+    "url": "https://news.ycombinator.com/item?id=49538459",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m96",
+    "summary": "美国环保服务巨头 Republic Services 招专职 Staff Engineer 负责 Agentic AI，并称内部积压了数百个 Agent 用例——传统大企业从 AI 试点走向批量落地，会是未来一两年最稳的需求池之一。"
+   },
+   {
+    "title": "Xaira Therapeutics | Midlevel/Senior/Staff Engineers | Seattle or SF Xaira Thera",
+    "desc": "Xaira Therapeutics | Midlevel/Senior/Staff Engineers | Seattle or SF Xaira Therapeutics is developing biological foundation models (not LLMs) to hit undruggable targets and cure disease.  We've put together an incredible cross-disciplinary team of pharma veterans who have brought drugs to market, drug designers/AI scientists from Nobel laureate David Baker's lab, and engineers from tech in order t",
+    "url": "https://news.ycombinator.com/item?id=49542221",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m86",
+    "summary": "Xaira Therapeutics 在招的工程岗不是 LLM 而是生物 foundation model，目标打「不可成药」靶点——AI 人才需求正从语言模型扩散到科学智能，在生物/多模态方向积累会比纯 LLM 应用更有壁垒。"
+   }
+  ],
+  "week": "2026-W37"
+ },
+ "llm_used": true,
+ "degraded": []
+}
