@@ -1,0 +1,455 @@
+{
+ "date": "2026-09-09",
+ "generated_at": "2026-09-09 08:20",
+ "trends": [
+  "AI开始攻占硬核科研：Navier-Stokes和AlphaGenome分别把触角伸向数学和基因组学，模型不只是聊天/画图，而是科学发现的加速器。",
+  "资本和巨头继续砸钱：Mistral、Cognition、Meta Muse等表明AI竞赛已从模型能力扩展到商业化、本地部署和企业落地，竞争维度更丰富。",
+  "本地运行与安全信任成为新瓶颈：Qwen量化、Kimi在MacBook上运行暴露了端侧部署的现实，而Claude token被盗和Muse索取隐私则提示AI产品必须同步解决安全与信任。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 16
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 7
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 8
+  },
+  {
+   "name": "The Verge AI",
+   "count": 6
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 5
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh3",
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "254,287",
+   "stars_today": "1,427 stars today",
+   "summary": "ECC 是一个给 AI 编码代理（Claude Code、Codex 等）用的性能优化系统，把技能、本能、记忆、安全都管起来。代理开发还处于“手动打补丁”阶段，这种一体化方案会变成 Agent 工程化的地基，所以涨这么多。"
+  },
+  {
+   "id": "gh6",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": "283,351",
+   "stars_today": "452 stars today",
+   "summary": "Superpowers 是一套可落地的 agentic skills 框架和开发方法论，专门解决“AI 写代码时经常翻车”的问题。它是社区大量验证过的“skill 写法”，想做 Agent 工作流的开发者可以参考。"
+  },
+  {
+   "id": "gh7",
+   "title": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "lang": "",
+   "stars": "211,441",
+   "stars_today": "333 stars today",
+   "summary": "它把一个 CLAUDE.md 注入给 Claude Code，本质上把 Karpathy 对 LLM 编码坑的观察变成了默认行为。等于把大神的经验一键固化到 AI 工具里，对提升 AI 编程质量很有启发性。"
+  },
+  {
+   "id": "gh8",
+   "title": "microsoft/markitdown",
+   "url": "https://github.com/microsoft/markitdown",
+   "desc": "Python tool for converting files and office documents to Markdown.",
+   "lang": "Python",
+   "stars": "181,665",
+   "stars_today": "2,047 stars today",
+   "summary": "MarkItDown 是微软开源的文件转 Markdown 工具，能把 Office、PDF 等变成 LLM 友好的文本。现在 RAG/微调都要大规模喂文档，它相当于数据管道的“万能开瓶器”，今天涨得最快。"
+  },
+  {
+   "id": "gh11",
+   "title": "browser-use/browser-use",
+   "url": "https://github.com/browser-use/browser-use",
+   "desc": "Agents that use the browser.",
+   "lang": "Python",
+   "stars": "113,481",
+   "stars_today": "228 stars today",
+   "summary": "Browser-use 让 Agent 自己打开浏览器去完成任务，是“电脑操作员”方向的核心实现。这类项目代表着 Agent 从聊天走向真实软件的路径，是创业和投资的热点。"
+  },
+  {
+   "id": "gh0",
+   "title": "ayghri/i-have-adhd",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "lang": "Python",
+   "stars": "30,377",
+   "stars_today": "656 stars today",
+   "summary": "i-have-adhd 是一个给 coding agent 用的输出技能，专门逼它给结论而不是绕弯子。很多开发者受够了 AI 啰嗦的解释，这个小工具戳中了效率痛点，所以火得很快。"
+  },
+  {
+   "id": "gh1",
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": "34,768",
+   "stars_today": "710 stars today",
+   "summary": "diagram-design 给 Claude/Codex 准备了几十种编辑级图表模板，直接生成 HTML+SVG 图。它把 Agent 产图从“示意”推向“可出版”，适合自动化文档和内容生产场景。"
+  },
+  {
+   "id": "gh15",
+   "title": "openai/plugins",
+   "url": "https://github.com/openai/plugins",
+   "desc": "OpenAI Plugins",
+   "lang": "JavaScript",
+   "stars": "5,783",
+   "stars_today": "105 stars today",
+   "summary": "这是 OpenAI 官方插件仓库，重新出现在 trending 上可能是要配合最新的调用方式。如果官方开放插件生态，会直接影响 Agent 的工具调用方式，值得关注。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+   "desc": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid an",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "OpenAI称其AI解决了困扰90年的Navier-Stokes千禧年难题，还放出证明草稿和Lean形式化验证；但立刻引发NYU数学家‘耍花招’的指责，争议缠身。不管真假，这波操作让AI数学推理和科学发现成为全球焦点。"
+  },
+  {
+   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+   "desc": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n37",
+   "summary": "谷歌DeepMind发布AlphaGenome Atlas，用AI预测人类基因组中90亿个单核苷酸变异的分子影响。这是首张覆盖每个可能DNA改变的预测地图，有望加快遗传病研究和靶向药开发。"
+  },
+  {
+   "title": "Mistral raises €3B as sovereign AI becomes big business",
+   "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+   "desc": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "法国AI实验室Mistral完成30亿欧元融资，估值达210亿欧元，三星、Scaleup Europe等参投。大额融资标志着‘主权AI’已成为欧洲的核心叙事，开源模型圈又多一位重金玩家。"
+  },
+  {
+   "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+   "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+   "desc": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "Meta发布了个人AI代理Muse，计划接入邮件、日历、支付和健康数据，做贴身助理。能否让用户信任Meta的隐私保护是最大问号，这也是Meta追赶OpenAI和Google的关键一搏。"
+  },
+  {
+   "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+   "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+   "desc": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "AI编程公司Cognition估值已达480亿美元，资本押注AI coding赛道不会赢者通吃。其产品Devin能自动执行复杂编码任务，高估值意味着更多资源将涌入AI开发者工具领域。"
+  },
+  {
+   "title": "Introducing ChatGPT Images 2.5",
+   "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+   "desc": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n32",
+   "summary": "OpenAI推出ChatGPT Images 2.5，支持你在对话里画草图，AI再将草稿生成精致图像。编辑图像变得更像对话，普通人也能快速产出视觉素材，多模态交互在进一步‘傻瓜化’。"
+  },
+  {
+   "title": "Hackers are stealing Claude tokens from subscribers",
+   "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+   "desc": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "有黑客盗用Claude订阅用户的token，导致用户账号被动消费，Anthropic已发出安全警告。这个事件提醒开发者要管理好API令牌并监控用量，云端AI的密钥安全不可掉以轻心。"
+  },
+  {
+   "title": "1Password increases engineering productivity 21% with Codex",
+   "url": "https://openai.com/index/1password",
+   "desc": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n36",
+   "summary": "1Password对外分享用OpenAI Codex辅助工程的经验：效率提升21%，代码可直接进入生产并通过严格安全审查。这证明AI编程助手已能进入高度敏感的企业环境，AI协作写代码正在从‘玩具’变‘生产力’。"
+  },
+  {
+   "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+   "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 203,
+   "id": "n8",
+   "summary": "有开发者实测Qwen3.8 27B量化版，发现4-bit量化几乎不损性能，1-bit量化则彻底崩坏。结论是当前端侧跑大模型选4-bit最稳妥，也说明量化不是越低越好。"
+  },
+  {
+   "title": "Kimi K3 (2.8T) at 1 token/s on a MacBook Pro, streamed from four SSDs",
+   "url": "https://github.com/argonautlabsai/deltafin",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 197,
+   "id": "n10",
+   "summary": "有人把2.8T参数的Kimi K3放到MacBook Pro上，通过四个SSD流式加载，获得约1 token/s的速度。虽然慢到没法商用，但这说明超大MoE模型有离开超大GPU集群的可能，是本地AI的极端实验。"
+  },
+  {
+   "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+   "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+   "desc": "Google Cloud expands its enterprise AI push with Accenture, betting on forward-deployed engineers to drive adoption and overcome deployment bottlenecks.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "Google Cloud与埃森哲加深合作，想靠咨询巨头的执行网络把AI真正部署到企业里。这反映AI竞争已从拼模型转向拼落地，做AI服务的创业团队得找到与巨头错位的场景。"
+  },
+  {
+   "title": "Tao: Open math problems being non-renewably mined by AI",
+   "url": "https://mathstodon.xyz/@tao/117237320796901560",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 88,
+   "id": "n17",
+   "summary": "陶哲轩发文指出开放数学问题正被AI以‘不可再生’方式快速消耗，像是在担心经典难题被一次性扫光。结合OpenAI炒作Navier-Stokes，AI对数学研究的正负面影响值得持续观察。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph18",
+   "title": "bonds",
+   "url": "https://www.producthunt.com/products/bonds-2",
+   "desc": "AI messenger that builds shared apps inside your group chats Discussion | Link",
+   "summary": "bonds 是一个 AI 信使，能在群聊里直接生成共享应用，把聊天变成协作工具。它让对话不再只是聊天，而是能实时构建出可交互的 app，想法到落地零距离，很有想象力。"
+  },
+  {
+   "id": "ph19",
+   "title": "AppGacha",
+   "url": "https://www.producthunt.com/products/appgacha",
+   "desc": "Turn a sentence into a tiny desktop app Discussion | Link",
+   "summary": "AppGacha 能把一句话描述变成一个小型桌面应用，相当于用自然语言指挥 AI 写代码。对不会编程但又想快速做工具的人来说，是极低门槛的造物入口。"
+  },
+  {
+   "id": "ph17",
+   "title": "OpenMarket",
+   "url": "https://www.producthunt.com/products/openmarket",
+   "desc": "Multi-agent marketplace where proof decides who wins Discussion | Link",
+   "summary": "OpenMarket 是一个多代理市场，用“证明”而不是营销来决定谁赢。它让 AI 代理在真实任务中通过验证展示能力，让选工具像看竞技比赛，透明又刺激。"
+  },
+  {
+   "id": "ph11",
+   "title": "Knockin'",
+   "url": "https://www.producthunt.com/products/knockin",
+   "desc": "Turns your static bio into an AI business card that replies Discussion | Link",
+   "summary": "Knockin' 把静态的个人简介变成一张能自动对话的 AI 名片，别人点开就能和你虚拟形象互动。对个人品牌和社交场景来说，是让人记住你的新方式。"
+  },
+  {
+   "id": "ph15",
+   "title": "Relaticle",
+   "url": "https://www.producthunt.com/products/relaticle",
+   "desc": "Open-source CRM with approval-gated AI writes Discussion | Link",
+   "summary": "Relaticle 是开源 CRM，内置了“审批门控”的 AI 写入功能，AI 能生成内容但必须人类确认才生效。既能享受 AI 效率，又能守住数据合规和准确性，适合严谨团队。"
+  },
+  {
+   "id": "ph21",
+   "title": "Widgo",
+   "url": "https://www.producthunt.com/products/paillor",
+   "desc": "AI Sales rep for your website visitors Discussion | Link",
+   "summary": "Widgo 相当于网站的 AI 销售代表，主动接待访客、回答问题并转化商机。它把销售流程自动化，让每个访客都有被“顾问”服务的感觉。"
+  },
+  {
+   "id": "ph0",
+   "title": "Tables.so",
+   "url": "https://www.producthunt.com/products/tables-so",
+   "desc": "AI that finds, qualifies and enriches your next customer Discussion | Link",
+   "summary": "Tables.so 用 AI 自动寻找、筛选并丰富潜在客户信息，帮销售团队省下大量手动搜集时间。它直接瞄准获客环节，让线索挖掘更聪明更快。"
+  },
+  {
+   "id": "ph9",
+   "title": "Dictantor",
+   "url": "https://www.producthunt.com/products/dictantor",
+   "desc": "Record meetings and transcribe privately on Apple devices Discussion | Link",
+   "summary": "Dictantor 在 Apple 设备上本地录制会议并转录，全程不上云，隐私性极强。适合对敏感会议有保密需求的人，音视频转文字也够方便。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+   "desc": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 报道 OpenAI 用未发布模型针对 Navier–Stokes 千禧年大奖问题给出了一份可能的解；这类突破尚未获数学界验证，但值得关注的是 AI 在超长推理任务上的惊人潜力。"
+  },
+  {
+   "title": "Introducing ChatGPT Images 2.5",
+   "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+   "desc": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at prese",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "OpenAI 发布了 ChatGPT Images 2.5，官方称其多轮指令理解和响应速度明显提升，而且已被用于生成 30 亿张图；对做图像工作流、智能体或多轮创意编辑工具的开发者来说，图像生成的新基线已经变了。"
+  },
+  {
+   "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+   "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+   "desc": "The open model ecosystem continues to expand in its breadth",
+   "source": "Interconnects（Nathan Lambert）",
+   "lang": "en",
+   "id": "b4",
+   "summary": "这篇追踪文章盘点了 Motif-3、GLM-5.3、Hy4-preview 等最近的开源模型，并重点讨论开放模型许可证的演变；如果要在开放权重与闭源 API 之间选型，这篇帮你快速定位生态新格局。"
+  },
+  {
+   "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+   "url": "https://www.latent.space/p/aeo",
+   "desc": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b5",
+   "summary": "Latent Space 的新项目追踪前沿模型的 AEO（答案引擎优化）趋势，并以 OpenAI Astra 和各家模型的选择为例，讨论开发者/创始人如何让自己的产品更容易被 AI 推荐或调用；对想抓住分发入口变化的人值得一读。"
+  },
+  {
+   "title": "llm 0.35",
+   "url": "https://simonwillison.net/2026/Sep/7/llm/",
+   "desc": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "llm 命令行工具发布 0.35 版，新增对 GPT-6 Astra 模型的支持；对喜欢本地/终端集成大模型的开发者，更新完就能用一行命令调用 OpenAI 最新系列，非常实用。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "招聘方最抢的是 Agent 工程化：从外包单到远程岗都在点名 RAG、Agent 编排、工作流、评估/可观测；原因是市场已经从「模型能不能答」走到「Agent 能不能稳定跑完一条业务链路」。",
+   "「AI 全栈」成了默认画像：除了前后端和数据库，还要会接模型 API、做上下文工程、能部署上线；不少创业公司把「熟练用 Claude Code / Cursor」写进 JD，说明 AI 工具使用能力开始被当硬技能看。",
+   "行业纵深是主要溢价：金融/风控/量化、法律、医疗/生命科学、教育、制造/自动驾驶等领域都在抢 AI 工程师，纯工程背景加上行业数据和术语理解最稀缺，能落地的垂直 AI 比通用 AI 更值钱。",
+   "模型侧需求两极分化：头部公司/量化私募还在高薪抢预训练、后训练、Agent Infra 专家；大量应用公司则只需要会部署私有化开源模型 + 调优 RAG，先想清楚自己站哪一侧是当前职业决策的关键。",
+   "AI 基础设施岗位明显增加：Agent 基础设施、实时语音/WebRTC、推理平台、多模态/具身、机器人底层软件都出现在招聘里，说明这轮不只在堆应用，而是要把 Agent 跑得稳、看得懂、能落地。"
+  ],
+  "gigs": [
+   "远程/外包平台上的 AI 单子显著变多：Toptal/Proxify 等渠道在找 RAG、Agentic AI、AI 电商/AI 银行的 Python/全栈外包，说明接单市场开始用「能不能交付生产级 LLM 系统」筛人，纯 CRUD 外包的机会在变少。",
+   "中文社区大量「远程居家」岗来自 0-1 小团队或外包项目，多数要求一个人 cover 前后端+部署+Agent 逻辑；能独立端到端交付、愿意用 AI 编程工具的人更抢手，但这类岗位薪资和靠谱度差异很大，需要甄别。",
+   "AIGC 劳务型外包开始出现：比如 AI 漫剧生成、SEO 工具站/导航站批量建站等，本质是用模型替代产能，入门门槛不高但可替代性强，适合当副业练手、不容易形成长期壁垒。",
+   "还有个零散信号：有人直接在小社区付费咨询大模型生产环境架构（自部署 9B/27B + RAG + 生图/生视频），说明很多团队缺的不是模型，而是能把开源模型扛住真实日活的人；不过样本有限，这个结论先打个折扣。"
+  ],
+  "highlights": [
+   {
+    "title": "远程居家办公——AI Agent 支付与金融基础设施负责人",
+    "desc": "关于我们 AIsa 成立于 2025 年，总部位于美国旧金山。公司背后汇聚了顶尖的投资阵容，包括阿里巴巴、Tribe Capital 、Draper Associates 、Sumitomo Corporation （住友商事）以及 Saison Capital 等知名机构投资人，是一家专注于 AI 智能体的基础设施的创业公司，为智能体生态提供统一的 API 网关、大模型智能路由、上下文管理、智能体原生支付协议等资源层服务。团队成员具有腾讯、百度、小米、字节等互联网大厂以及海外留学背景（公司网址需梯子打开网址： https://aisa.one/zh-cn ） 我们相信 Agent 的数量会持",
+    "url": "https://www.v2ex.com/t/1239866#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m18",
+    "summary": "远程岗「AI Agent 支付与金融基础设施负责人」来自旧金山创业公司 AIsa，拿到阿里等机构投资——说明 Agent 数量起来后，给 Agent 发钱/收钱会像移动支付一样长出专门基础设施，是一个全新赛道信号。"
+   },
+   {
+    "title": "Toptal: Python Backend Development Talent with RAG and Agentic AI Experience",
+    "desc": "Headquarters: Summary: We are seeking an experienced Python Backend Developer to design, build, and deploy scalable AI-powered applications using Retrieval-Augmented Generation, large language models, and agentic AI frameworks. The role will focus on delivering a production-grade RAG system and AI c",
+    "url": "https://weworkremotely.com/remote-jobs/toptal-python-backend-development-talent-with-rag-and-agentic-ai-experience",
+    "source": "WeWorkRemotely",
+    "id": "m11",
+    "summary": "Toptal 公开招 Python 后端但点名要 RAG 和 Agentic AI 经验——全球灵活用工市场开始把「能交付生产级 LLM 系统」设成门槛，自由职业者的能力栈正被 AI 重写。"
+   },
+   {
+    "title": "招全栈开发工程师啦！远程 + on-site 结合",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1239572#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m22",
+    "summary": "Kapibala 的 Sales AGI 团队招全栈，要求重度使用 Claude Code/Cursor，且已融 1000 万美元 Pre-Seed——AI Native 创业公司连开发方式都在 Agent 化，这类岗位会越来越代表新团队的工作形态。"
+   },
+   {
+    "title": "lovable | stockholm, london (in-person) | full-stack, frontend, backend, infra d",
+    "desc": "lovable | stockholm, london (in-person) | full-stack, frontend, backend, infra design, and ai research we sponsor visas and have very generous relocation packages. lovable is building an agentic technical co-founder, we are the best way for non-technical people go from idea to a real software business with paying users. we need the best engineers in the world to join us and will compensate you acc",
+    "url": "https://news.ycombinator.com/item?id=49546936",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m79",
+    "summary": "Lovable 在招「顶级工程师」去打造 agentic technical co-founder——AI 编程正在从辅助写代码走向替非技术用户把想法变成软件，对初级开发岗位的挤压是值得警惕的信号。"
+   },
+   {
+    "title": "Republic Services | Staff Engineer – Agentic AI | REMOTE (US) | Full-time | $175",
+    "desc": "Republic Services | Staff Engineer – Agentic AI | REMOTE (US) | Full-time | $175k is our salary midpoint + 20% target bonus Republic Services is the second largest environmental services companies in North America — ~40K employees, thousands of trucks, hundreds of facilities, and a mountain of operational data that has never had an AI layer on top of it. We have a backlog of hundreds of Agentic AI",
+    "url": "https://news.ycombinator.com/item?id=49538459",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m96",
+    "summary": "美国环保服务巨头 Republic Services 招专职 Staff Engineer 负责 Agentic AI，并称内部积压了数百个 Agent 用例——传统大企业从 AI 试点走向批量落地，会是未来一两年最稳的需求池之一。"
+   },
+   {
+    "title": "Xaira Therapeutics | Midlevel/Senior/Staff Engineers | Seattle or SF Xaira Thera",
+    "desc": "Xaira Therapeutics | Midlevel/Senior/Staff Engineers | Seattle or SF Xaira Therapeutics is developing biological foundation models (not LLMs) to hit undruggable targets and cure disease.  We've put together an incredible cross-disciplinary team of pharma veterans who have brought drugs to market, drug designers/AI scientists from Nobel laureate David Baker's lab, and engineers from tech in order t",
+    "url": "https://news.ycombinator.com/item?id=49542221",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m86",
+    "summary": "Xaira Therapeutics 在招的工程岗不是 LLM 而是生物 foundation model，目标打「不可成药」靶点——AI 人才需求正从语言模型扩散到科学智能，在生物/多模态方向积累会比纯 LLM 应用更有壁垒。"
+   }
+  ],
+  "week": "2026-W37"
+ },
+ "llm_used": true,
+ "degraded": []
+}
