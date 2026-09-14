@@ -1,0 +1,66 @@
+{
+ "skills": [
+  "Agent 成为绝对主线，而且从\"会调 API\"升级到\"能交付完整 agent 系统\"：Vercel 自我定位成\"agentic infrastructure company\"，Zeta Global 直接招 Agentic AI Applications 设计师，Catalyst·Wayfare 招 Agent Builder，国内岗位则把\"记忆机制、情绪状态机、Function Calling 工具封装\"写进 JD（m21）。市场要的不是 prompt 玩家，是把 agent 跑进生产的工程能力。",
+  "全栈 + AI 是今年最硬的组合拳。国内岗位从\"算法\"转向\"前后端+数据一体化\"，m40 明说要 5-10 年全栈并且有复杂 AI 应用经验，m41 的栈是 C#/.NET + Vue3 + Dify/LangChain/LangGraph，给到 40-65 万/年。纯算法岗还在，但更多预算流向\"能一个人把 agent 产品从需求做到上线\"的人。",
+  "Forward Deployed Engineer（FDE，前向交付工程师）开始频繁出现：Cider Consulting（m54）、Newton's Tree（m67）、Akkio（m86）都在招，本质是\"懂客户业务 + 能把 AI 方案落地交付\"的混合角色，和传统后端/算法是两条路。这是 AI 落地卡在\"最后一公里\"的直接证据，值得关注。",
+  "\"AI Coding 能力\"第一次被当成硬性招聘要求写进 JD：m28 要求\"对 AI Coding 有深刻实践和认知\"，m39 直接说会重度使用 Claude Code / Cursor。会用 AI 工具从加分项变成了基本盘。",
+  "垂直行业 AI 全面铺开，最密集的是医疗（Anterior、Tandem Health、Newton's Tree、Netrias）、法律（Legal Ark AI）、量化交易（Flow Traders、Deeter Analytics）和\"物理 AI/机器人\"（Lumen Labs、Springcraft、Freeform、Matterhaul）。行业 know-how + AI 的复合背景比纯技术背景更抢手。"
+ ],
+ "gigs": [
+  "项目制、兼职、按小时的外包活明显增多，且偏\"专家型\"而非\"搬砖型\"：m42 招懂 SillyTavern（酒馆）表现层的设计+前端工程师，明确接受全职/兼职/项目制；m45 是 Remote Part-Time 全栈；m49 甚至有人花 100 块红包求教\"日活 3-5 万的大模型生产架构\"怎么搭。说明懂 LLM 部署、RAG、多模态混跑的架构顾问是稀缺的。",
+  "\"技术合伙人 / CTO Partner\"类信号集中出现：m44 找 AI 跑团项目的技术合伙人（产品已上线有付费用户）、m37 新加坡公司找 AI/数据工程合伙人、m68 BOSS-IQ 招 CTO Partner（全球远程）。特点都是\"以股权/长期激励换技术\"，适合想 early-stage 押注的人，但风险自担。",
+  "低端 AI 数据活依然大量存在但口碑差：HN 上有人吐槽某公司\"其实就是要 AI 数据标注员\"（m74），国内有 AI 漫剧剧本审核 10-18K（m48）、Summa Linguae 一次要 50-100 个\"数字设计图表创作者\"（m12）。这类活量大、单价低、可替代性强，不建议作为主攻方向。",
+  "远程岗位的地域割裂很明显：海外 remote 普遍要求 US time zone 重叠（Obi9、Squoosh、Catalyst 等），而中文圈远程岗（V2EX、电鸭）以深圳/杭州/上海背景的 AI 创业公司为主，薪资 20-35K 居多。样本有限（主要来自电鸭社区和 HN Who is hiring，不能代表全市场），但\"中国 AI 创业公司远程岗 + 海外美时区远程岗\"这两条线足够清晰。"
+ ],
+ "highlights": [
+  {
+   "title": "Vercel: Member of the Technical Staff, Internal Agent",
+   "desc": "Headquarters: Remote - United States About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from ",
+   "url": "https://weworkremotely.com/remote-jobs/vercel-member-of-the-technical-staff-internal-agent",
+   "source": "WeWorkRemotely",
+   "id": "m18",
+   "summary": "Vercel 自称\"agentic infrastructure company\"，招 Internal Agent 方向技术骨干——连做前端框架的公司都重定位成 agent 基础设施公司了，这是行业叙事转向的标杆信号。"
+  },
+  {
+   "title": "LLM 应用研发工程师， AI 应用后端工程师（AI Agent 方向），\nAI 模型训练师 / AIGC 模型工程师",
+   "desc": "远程岗位：LLM 应用研发工程师 薪资范围：20-35K 岗位职责 1. AI 角色引擎与 Agent 开发 负责 AI 虚拟角色的全链路对话逻辑：Prompt 工程、多轮长短期记忆机制（基于\"事件簿\"的自动总结，解决长对话中记忆丢失、车轱辘话、人设崩坏）、情绪与好感度状态机，打造高沉浸、高情商的 AI 伴侣。将业务能力封装为 Agent 工具（ Function Calling ），实现 AI 对话与计费、打赏、隐藏图集解锁等的无缝衔接，并保证工具调用的准确与容错。 2. 模型微调与人设优化 基于开源模型，使用 LoRA 等轻量级微调（ SFT ）结合自有聊天语料，持续优化模型的对话风格、人",
+   "url": "https://www.v2ex.com/t/1241518#reply0",
+   "source": "V2EX 酷工作",
+   "id": "m21",
+   "summary": "国内远程 LLM 应用/AI 伴侣方向 20-35K，JD 里全是\"长短期记忆机制、情绪好感度状态机、Function Calling 封装、LoRA 微调\"——中文 AI 陪伴赛道对工程细节的要求已经非常具体。"
+  },
+  {
+   "title": "Cider Consulting | NY, USA | REMOTE (US-based only) We’ve built custom software ",
+   "desc": "Cider Consulting | NY, USA | REMOTE (US-based only) We’ve built custom software for US clients since 2018, and we’re now building a different delivery model: one senior engineer-consultant owns the whole engagement end-to-end — from figuring out the problem with the client and shaping the AI solution to building and getting it into production. Hiring: Forward Deployed Engineer with pre-sale/discov",
+   "url": "https://news.ycombinator.com/item?id=49656171",
+   "source": "HN Who is hiring? (September 2026)",
+   "id": "m54",
+   "summary": "Cider Consulting 招 Forward Deployed Engineer，一个资深工程师端到端包办\"理解客户问题→设计 AI 方案→上线\"——FDE 这种新交付模式正在从大厂扩散到小咨询公司。"
+  },
+  {
+   "title": "高级全栈工程师(C#.NET)-AI / Agent -上海五角场",
+   "desc": "岗位方向 AI / Agent 产品全栈 工作地点 上海 经验要求 5 年以上相关开发经验 后端体系 C#/.NET 优先；开放 Go/Python 等 前端主线 Vue 3 + TypeScript Agent 生态 Dify / LangChain / LangGraph 薪酬：40–65 万元/年（薪资 + 期权） 学历：985 计算机本硕 任职要求 • 前端核心：具备扎实的前端基础，精通 Vue3 及相关生态，能独立负责并完成复杂前端项目 的开发。 • 后端核心：深入理解 C#（ ASP.NET Core 、EF Core ）作为主研后端语言，或其他后端技术体系；熟练掌握 Python",
+   "url": "https://www.v2ex.com/t/1239070#reply0",
+   "source": "V2EX 酷工作",
+   "id": "m41",
+   "summary": "上海招 C#/.NET + Vue3 + Dify/LangChain/LangGraph 的全栈 AI/Agent 工程师，40-65 万/年——把当前 agent 生态的关键工具链一次性列全，是很好的一张技能对照表。"
+  },
+  {
+   "title": "Akkio | Senior Software Engineers — FDE, Full-Stack, Backend | US (Fully Remote)",
+   "desc": "Akkio | Senior Software Engineers — FDE, Full-Stack, Backend | US (Fully Remote) | Full-time | $160k–$240k + equity | https://www.akkio.com/jobs Akkio builds the AI platform the world's largest media agencies (Havas, Horizon Media, and others) use to run campaign workflows in production: audience building, media planning, measurement, and campaign analysis. Agentic workflows plus traditional ML, d",
+   "url": "https://news.ycombinator.com/item?id=49554223",
+   "source": "HN Who is hiring? (September 2026)",
+   "id": "m86",
+   "summary": "Akkio 在美国全远程招 FDE/全栈/后端，$160k-240k+期权，服务 Havas 等大媒体代理跑 agentic 营销工作流——说明 agent 落地已进入有真实付费大客户的阶段，也验证了 FDE 的高薪。"
+  },
+  {
+   "title": "招全栈开发工程师啦！远程 + on-site 结合",
+   "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+   "url": "https://www.v2ex.com/t/1239572#reply6",
+   "source": "V2EX 酷工作",
+   "id": "m39",
+   "summary": "Kapibala AI 做 Sales AGI、Pre-Seed 拿了 1000 万美元，JD 里写明\"重度使用 Claude Code / Cursor\"——AI Native 的工作方式已经被写进招聘要求本身。"
+  }
+ ],
+ "week": "2026-W38"
+}
