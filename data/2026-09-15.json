@@ -1,0 +1,456 @@
+{
+ "date": "2026-09-15",
+ "generated_at": "2026-09-15 08:41",
+ "trends": [
+  "减速之争已经变味：Dario 发《We Must Pace the Frontier》喊集体刹车，奥特曼、马斯克附和，但黄仁勋在台上直接把特朗普电话外放、放话“不会让 AI 减速发生”，特朗普和约翰逊反过来说行业反应过度，微软则甩出 37 页“人本 AI 准则”——同一周里“安全”更像各家抢话语权、卡竞争对手的公关工具，别只当技术讨论看。",
+  "Agent 正从 demo 走向“接管”：Pion 号称能自主运营一家公司，Superhuman 收购会议记录工具 Fathom 打通“记录→执行”，Perplexity 让 Astra 直接改生产系统；但亚马逊把 Perplexity 告上第九巡回法院——能力越强，越早撞上法律责任和信任边界。",
+  "钱在往“感知 + 垂直数据”走：OpenAI 花 3 亿美元买下苹果系相机公司 Glass Imaging，金融 AI 公司拿下超 3 亿 B 轮，机器人训练数据与具身智能融资密集。终端感知能力和私有垂直场景数据，成了比模型权重更稀缺的资源。",
+  "技术侧两个信号：一是 RSI（递归自我改进）被包装成可测的新范式被反复讨论，同时物理 AI / 具身智能的开源榜首被中国团队 PhysBrain 1.5 拿下；二是 1.2 美元档的小模型在代码评审这类场景逼近旗舰，便宜够用正在蚕食旗舰模型的日常份额。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 20
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 12
+  },
+  {
+   "name": "The Verge AI",
+   "count": 5
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 4
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "desc": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+   "lang": "C",
+   "stars": "32,063",
+   "stars_today": "2,173 stars today",
+   "summary": "colibri 用纯 C 写的极简推理引擎，零依赖，把专家权重直接从磁盘流式加载，让你在自家普通硬件上跑前沿 MoE 大模型。今天暴涨 2000+ star，说明「本地跑大模型、不被云厂商绑死」这个需求有多旺，做端侧/私有化部署的值得看它的实现思路。"
+  },
+  {
+   "id": "gh10",
+   "title": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+   "lang": "Python",
+   "stars": "106,116",
+   "stars_today": "745 stars today",
+   "summary": "TradingAgents 是 Tauric Research 出的多智能体 LLM 金融交易框架，用多个 agent 分别扮演分析师、研究员、交易员来协作决策。十万级 star 还在日增 700+，是「LLM 多智能体落地到垂直行业」最典型的样本，想找 agent 创业方向的可以直接拆它的架构。"
+  },
+  {
+   "id": "gh5",
+   "title": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": "81,237",
+   "stars_today": "651 stars today",
+   "summary": "Agent-Reach 给 AI agent 装上「眼睛」：一个 CLI 就能读和搜 Twitter、Reddit、YouTube、GitHub、B站、小红书，全部零 API 费用。今天涨 650 星，戳中的正是 agent 最大痛点——数据获取成本和平台封锁，做爬取/工具调用层的必看。"
+  },
+  {
+   "id": "gh13",
+   "title": "OpenBMB/VoxCPM",
+   "url": "https://github.com/OpenBMB/VoxCPM",
+   "desc": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+   "lang": "Python",
+   "stars": "37,360",
+   "stars_today": "216 stars today",
+   "summary": "OpenBMB 的 VoxCPM2 是一个无需 tokenizer 的 TTS 模型，主打多语言语音生成、创意音色设计和逼真声音克隆。语音是 LLM 交互最自然的出口，这个方向持续有热度，做语音应用或多模态的可以关注它开源后的效果。"
+  },
+  {
+   "id": "gh4",
+   "title": "666ghj/MiroFish",
+   "url": "https://github.com/666ghj/MiroFish",
+   "desc": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+   "lang": "Python",
+   "stars": "73,135",
+   "stars_today": "560 stars today",
+   "summary": "MiroFish 自称「简洁通用的群体智能引擎，预测万物」，用 swarm intelligence 思路做预测。概念比较飘但 star 数极高，值得当成一个观察样本：看看群体智能+LLM 这套叙事现在在社区里能拿到多少注意力。"
+  },
+  {
+   "id": "gh7",
+   "title": "rlaope/oh-my-hermes",
+   "url": "https://github.com/rlaope/oh-my-hermes",
+   "desc": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+   "lang": "Python",
+   "stars": "2,031",
+   "stars_today": "77 stars today",
+   "summary": "oh-my-hermes 是给 Hermes Agent 做的一站式插件，打包了编码智能、长期记忆系统和模型优化的工作流。虽然只有 2000 星，但它切的是 agent「记忆」这个核心难题，做 agent 基础设施的可以留意它的记忆设计。"
+  },
+  {
+   "id": "gh11",
+   "title": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+   "lang": "Rust",
+   "stars": "93,829",
+   "stars_today": "383 stars today",
+   "summary": "RuView 用普通 WiFi 信号做实时空间感知、生命体征监测和人体存在检测，不依赖任何摄像头像素，Rust 实现。属于「非视觉传感 + 边缘推断」这条线，和 AI 应用结合潜力大，隐私友好型感知值得关注。"
+  },
+  {
+   "id": "gh16",
+   "title": "Crosstalk-Solutions/project-nomad",
+   "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+   "desc": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+   "lang": "TypeScript",
+   "stars": "36,900",
+   "stars_today": "40 stars today",
+   "summary": "Project NOMAD 是离线优先的知识与教育服务器，把维基百科、上千本书、课程、地图塞进你自己的硬件，可选本地 AI，完全不需要联网。本地大模型 + 离线知识库的组合场景，对做教育或应急/偏远场景产品的有参考价值。"
+  }
+ ],
+ "news": [
+  {
+   "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+   "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+   "desc": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "OpenAI 花 3 亿美元收购智能手机相机公司 Glass Imaging，两位创始人是前苹果工程师，曾带过 Portrait Mode 团队。这是 OpenAI 少见的影像/硬件团队收购，配合它做消费级终端的传闻，明显是在补“眼睛”这块——把感知能力从云端挪到设备侧。"
+  },
+  {
+   "title": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
+   "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+   "desc": "Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast's All-In Summit. It's not the first time Huang has taken a call from the president during work, but this time he put Trump on speakerphone before a big crowd. During the call, the president launche",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "英伟达黄仁勋在 All-In Summit 台上把特朗普的电话外放，宣布“机器人不会统治世界”，并称不会让 AI 减速发生。这跟 Dario 的减速论、奥特曼和马斯克的附和形成正面对撞，说明“要不要慢下来”已经从技术辩论变成大厂互相卡位的舆论战。"
+  },
+  {
+   "title": "With iOS 27, I’m actually using Siri again",
+   "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+   "desc": "Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "iOS 27 上线，跳票多年的 Siri 大改版终于落地，有记者表示自己又开始日常用 Siri 了。对开发者更实际的意义是：苹果系统级 AI 接口（含 Apple Intelligence 的应用内调用、Siri 免打开 App）开始真正可用，做 AI 功能接入的门槛明显下降。"
+  },
+  {
+   "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+   "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+   "desc": "Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our abi",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "微软发布 37 页“人本 AI 行为准则”，核心是“人比 AI 重要”、模型不得入侵系统或欺骗人类。背景正是 Dario 呼吁集体减速、研究者警告模型进展快过安全能力——大厂开始用成文规则同时做自我约束和对外表态，这类准则很可能变成后续合规的事实基线。"
+  },
+  {
+   "title": "Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit",
+   "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 158,
+   "id": "n12",
+   "summary": "亚马逊和 Perplexity 的纠纷打到了美国第九巡回上诉法院。争点是 AI 浏览器代理替用户下单、操作电商网站算不算越权，这个判例会直接划出 agentic commerce 的合法边界，做购物代理、浏览器代理的团队都得盯。"
+  },
+  {
+   "title": "奥特曼被骗！A社一脚油门冲刺IPO，募资叫板SpaceX",
+   "url": "https://www.qbitai.com/2026/09/488699.html",
+   "desc": "还是太嫩了啊Dario",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n58",
+   "summary": "Anthropic 被曝一脚油门冲刺 IPO，募资规模叫板 SpaceX，同一时间奥特曼那边传出被“骗”的消息。意思是别人在讨论减速时，Anthropic 选择加速资本化，一级市场的估值逻辑和“安全叙事”开始分叉，对准备跳槽或拿期权的人来说是重要风向标。"
+  },
+  {
+   "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+   "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+   "desc": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "Superhuman 收购 YC 背景的会议记录工具 Fathom，后者免费策略带来 40 万月活、累计超 100 万人录过会。生产力工具正在往“代理式工作”合并：笔记→会议→任务执行一条龙，单点小工具的独立生存空间在被快速挤压。"
+  },
+  {
+   "title": "Pion, an agent designed to run any company autonomously",
+   "url": "https://andonlabs.com/blog/why-we-built-pion",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 273,
+   "id": "n6",
+   "summary": "HN 上出现 Pion，号称是“能自主运营任何一家公司”的 agent。大概率仍是早期概念项目，但它代表了这波 agent 叙事的终点想象：从写代码、回邮件到整套业务流程托管，值得关注的是它的落地边界和失败模式在哪。"
+  },
+  {
+   "title": "中国物理AI大突破：PhysBrain 1.5登顶全球开源榜一，空间智能与GPT-6 Astra并驾齐驱",
+   "url": "https://www.qbitai.com/2026/09/488725.html",
+   "desc": "这家中国公司，刚跑完了物理闭环里最难的一段路",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n57",
+   "summary": "中国团队 PhysBrain 1.5 登顶全球开源物理 AI 榜第一，宣称空间智能与 GPT-6 Astra 并驾齐驱，跑完了物理闭环里最难的一段。物理 AI / 具身智能是当下国内最卷的开源赛道，权重开放对机器人创业公司是直接利好。"
+  },
+  {
+   "title": "AI开始改进“改进自己的方法”，RSI进入平方时代丨MetaRSI",
+   "url": "https://www.qbitai.com/2026/09/488832.html",
+   "desc": "小模型突破瓶颈，旗舰模型打开新空间",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n56",
+   "summary": "量子位报道 MetaRSI：AI 开始改进“改进自己的方法”，递归自我改进（RSI）进入平方时代，小模型突破瓶颈、旗舰模型打开新空间。RSI 从哲学话题变成可测的实验方向，直接影响未来训练成本和能力增长曲线的预期。"
+  },
+  {
+   "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+   "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 98,
+   "id": "n18",
+   "summary": "一篇对比测评，拿约 1.20 美元档的 GPT-5.6 Luna 对战 GPT-6 Astra，问便宜模型做代码评审到底够不够用。结论的现实意义在于：多数工程任务并不需要旗舰模型，成本差几十倍的“够用档”会吃掉大量真实工作负载。"
+  },
+  {
+   "title": "分子之心QuantaMind登Science Advances，让AI给分子世界”拍电影”",
+   "url": "https://www.qbitai.com/2026/09/489023.html",
+   "desc": "AI 蛋白质设计迈入“动态时代”",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n52",
+   "summary": "分子之心 QuantaMind 登上 Science Advances，能让 AI 给分子世界“拍电影”，把蛋白质设计从静态结构推进到动态过程。AI for Science 正从“预测一个结构”转向“模拟一段演化”，是生物医药侧比较扎实的一步。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph7",
+   "title": "Juggler",
+   "url": "https://www.producthunt.com/products/juggler",
+   "desc": "A visual AI coding harness Discussion | Link",
+   "summary": "Juggler 是一个「可视化的 AI 编程环境」，不是纯命令行 agent，而是把 AI 写代码的过程摆在界面里让你看和改。值得关注是因为现在 AI coding 工具卷的是模型能力，而交互形态（看得见的 harness）反而是还没定型的空白地带。"
+  },
+  {
+   "id": "ph18",
+   "title": "TryCase",
+   "url": "https://www.producthunt.com/products/trycase",
+   "desc": "AI tests your PRs. Get a video walkthrough before you merge. Discussion | Link",
+   "summary": "TryCase 用 AI 自动测你的 PR，合并前直接给你一段视频走查，相当于把「测试 + 验收」这步自动化了。对天天 review 代码的开发者来说，这是把 QA 塞进 CI 的实用玩法，省的是来回沟通时间。"
+  },
+  {
+   "id": "ph9",
+   "title": "OzBrain",
+   "url": "https://www.producthunt.com/products/ozbrain",
+   "desc": "Your knowledge shared with every AI agent & any teammate Discussion | Link",
+   "summary": "OzBrain 想当「AI agent 和同事共用的一份知识底座」——你整理的上下文，所有 agent 和团队成员都能读。这正是 MCP/记忆层创业最热的赛道：谁掌握团队上下文，谁就卡住了 agent 的入口。"
+  },
+  {
+   "id": "ph10",
+   "title": "Oats",
+   "url": "https://www.producthunt.com/products/oats-2",
+   "desc": "Free, open-source, and on device meeting notetaker Discussion | Link",
+   "summary": "Oats 是免费开源的本地会议记录 AI，录音转写和总结都跑在设备上，不上云。会议纪要产品已经很多，但「端侧 + 开源」这个组合对在意隐私和想自己改造的团队很有吸引力。"
+  },
+  {
+   "id": "ph2",
+   "title": "Aside",
+   "url": "https://www.producthunt.com/products/aside-6",
+   "desc": "AI browser that actually gets work done for you Discussion | Link",
+   "summary": "Aside 是号称「真的能替你干活」的 AI 浏览器，不只是侧边栏聊天，而是直接操作网页完成任务。浏览器正在变成 agent 的主战场，这类产品值得盯着看它到底是噱头还是真能替代手工点击。"
+  },
+  {
+   "id": "ph16",
+   "title": "Web Search Agents by Nimble",
+   "url": "https://www.producthunt.com/products/nimbleway",
+   "desc": "Self-learning agents automate web research + retrieval Discussion | Link",
+   "summary": "Nimble 的 Web Search Agents 用「会自我学习」的 agent 自动做网络调研和信息抓取，替代人工到处翻网页。RAG 之外，能做多步检索和自我迭代的搜索 agent 是今年很实际的一类落地场景。"
+  },
+  {
+   "id": "ph3",
+   "title": "Marqly 6.0",
+   "url": "https://www.producthunt.com/products/marqly",
+   "desc": "Ask your bookmarks. Bring them to your AI. Discussion | Link",
+   "summary": "Marqly 6.0 让书签变成可问答的知识库，还能直接喂给各种 AI 用。本质是在做「个人上下文仓库」，和你收藏夹里的干货终于能变成模型能读的素材，而不是吃灰的链接列表。"
+  },
+  {
+   "id": "ph15",
+   "title": "LLMagnet",
+   "url": "https://www.producthunt.com/products/llmagnet",
+   "desc": "Make your WordPress site visible to AI Discussion | Link",
+   "summary": "LLMagnet 帮 WordPress 站点被 AI 抓取和引用，说白了就是 SEO 的 AI 版本——GEO（生成式引擎优化）。当越来越多人直接问 AI 而不是搜 Google，这个新需求会催生一批工具，值得留意。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+   "url": "https://www.latent.space/p/recursive",
+   "desc": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI — already worth $5B!",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "Latent Space 访谈 Richard Socher——NLP 老将、You.com CEO，现在又搞了个更激进的新公司 Recursive，专攻 RSI（递归自我改进），估值已经到 50 亿美元。值得看的是：一个已经成功过的创始人押注「AI 自己改自己」这条路，而且资本市场直接给了天价估值，说明 RSI 正在从理论话题变成有钱有人做的赛道。"
+  },
+  {
+   "title": "The contagion of fear",
+   "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+   "desc": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical pee",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Bryan Cantrill 回应前 Anthropic 员工 Jacob Coxon 的推文，后者确认 Anthropic 内部很多研究员真的相信「AI 可能在这个十年结束前把人类全干掉」。Bryan 用自己年轻时犯的错、在不懂技术的人里造成不必要恐慌的经历来做类比，讨论这种末日恐慌本身是怎么传染的。值得看的是顶级工程师对 AI 末日论的祛魅视角，以及大模型公司内部信仰状态的一手旁证。"
+  },
+  {
+   "title": "Quoting Laurie Voss",
+   "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+   "desc": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and d",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "引用 Laurie Voss 的一段判断：写代码的成本已经崩塌，紧接着 review、修 bug、运维的成本也在跟着塌，他假设最终都会降到很低。那软件行业剩下什么？就是搞清楚用户到底想要什么、把它精确定义出来、并且做得顺手好用——而这块成本是随每个软件单独产生的。值得关注的是这个「价值从写码转移到定义需求」的判断，直接对应开发者的职业方向该往哪走。"
+  },
+  {
+   "title": "commit-rewriter 0.1",
+   "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+   "desc": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "Simon Willison 发布 commit-rewriter 0.1，一个他前两天顺手写的小 web app，用来改 Datasette 安全版本发布时的 commit message。起因是那些初始 commit 里全是 coding agent 留下的垃圾内容和对私有仓库 issue ID 的引用，没法直接公开。值得看的是：agent 写代码之后「清理 agent 痕迹」已经变成真实的新需求，连发布流程都要专门做工具处理。"
+  },
+  {
+   "title": "What blog posts influenced your thinking the most?",
+   "url": "https://simonwillison.net/2026/Sep/14/influences/",
+   "desc": "My comment on What blog posts influenced your thinking the most? — Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to always be looking for improved understanding of the layers under where I'm working, jus",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Simon Willison 在 Lobste.rs 上回答「哪些博客文章对你的思考影响最大」，他自己的答案是 Joel Spolsky 早年的《The Law of Leaky Abstractions》。他说这篇是职业生涯早期读到的，从此养成了持续往下挖、理解自己所处抽象层之下到底发生什么的习惯。值得看的是：在 AI 帮你写代码的时代，这种「往下理解一层」的习惯反而更值钱。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 成为绝对主线，而且从\"会调 API\"升级到\"能交付完整 agent 系统\"：Vercel 自我定位成\"agentic infrastructure company\"，Zeta Global 直接招 Agentic AI Applications 设计师，Catalyst·Wayfare 招 Agent Builder，国内岗位则把\"记忆机制、情绪状态机、Function Calling 工具封装\"写进 JD（m21）。市场要的不是 prompt 玩家，是把 agent 跑进生产的工程能力。",
+   "全栈 + AI 是今年最硬的组合拳。国内岗位从\"算法\"转向\"前后端+数据一体化\"，m40 明说要 5-10 年全栈并且有复杂 AI 应用经验，m41 的栈是 C#/.NET + Vue3 + Dify/LangChain/LangGraph，给到 40-65 万/年。纯算法岗还在，但更多预算流向\"能一个人把 agent 产品从需求做到上线\"的人。",
+   "Forward Deployed Engineer（FDE，前向交付工程师）开始频繁出现：Cider Consulting（m54）、Newton's Tree（m67）、Akkio（m86）都在招，本质是\"懂客户业务 + 能把 AI 方案落地交付\"的混合角色，和传统后端/算法是两条路。这是 AI 落地卡在\"最后一公里\"的直接证据，值得关注。",
+   "\"AI Coding 能力\"第一次被当成硬性招聘要求写进 JD：m28 要求\"对 AI Coding 有深刻实践和认知\"，m39 直接说会重度使用 Claude Code / Cursor。会用 AI 工具从加分项变成了基本盘。",
+   "垂直行业 AI 全面铺开，最密集的是医疗（Anterior、Tandem Health、Newton's Tree、Netrias）、法律（Legal Ark AI）、量化交易（Flow Traders、Deeter Analytics）和\"物理 AI/机器人\"（Lumen Labs、Springcraft、Freeform、Matterhaul）。行业 know-how + AI 的复合背景比纯技术背景更抢手。"
+  ],
+  "gigs": [
+   "项目制、兼职、按小时的外包活明显增多，且偏\"专家型\"而非\"搬砖型\"：m42 招懂 SillyTavern（酒馆）表现层的设计+前端工程师，明确接受全职/兼职/项目制；m45 是 Remote Part-Time 全栈；m49 甚至有人花 100 块红包求教\"日活 3-5 万的大模型生产架构\"怎么搭。说明懂 LLM 部署、RAG、多模态混跑的架构顾问是稀缺的。",
+   "\"技术合伙人 / CTO Partner\"类信号集中出现：m44 找 AI 跑团项目的技术合伙人（产品已上线有付费用户）、m37 新加坡公司找 AI/数据工程合伙人、m68 BOSS-IQ 招 CTO Partner（全球远程）。特点都是\"以股权/长期激励换技术\"，适合想 early-stage 押注的人，但风险自担。",
+   "低端 AI 数据活依然大量存在但口碑差：HN 上有人吐槽某公司\"其实就是要 AI 数据标注员\"（m74），国内有 AI 漫剧剧本审核 10-18K（m48）、Summa Linguae 一次要 50-100 个\"数字设计图表创作者\"（m12）。这类活量大、单价低、可替代性强，不建议作为主攻方向。",
+   "远程岗位的地域割裂很明显：海外 remote 普遍要求 US time zone 重叠（Obi9、Squoosh、Catalyst 等），而中文圈远程岗（V2EX、电鸭）以深圳/杭州/上海背景的 AI 创业公司为主，薪资 20-35K 居多。样本有限（主要来自电鸭社区和 HN Who is hiring，不能代表全市场），但\"中国 AI 创业公司远程岗 + 海外美时区远程岗\"这两条线足够清晰。"
+  ],
+  "highlights": [
+   {
+    "title": "Vercel: Member of the Technical Staff, Internal Agent",
+    "desc": "Headquarters: Remote - United States About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from ",
+    "url": "https://weworkremotely.com/remote-jobs/vercel-member-of-the-technical-staff-internal-agent",
+    "source": "WeWorkRemotely",
+    "id": "m18",
+    "summary": "Vercel 自称\"agentic infrastructure company\"，招 Internal Agent 方向技术骨干——连做前端框架的公司都重定位成 agent 基础设施公司了，这是行业叙事转向的标杆信号。"
+   },
+   {
+    "title": "LLM 应用研发工程师， AI 应用后端工程师（AI Agent 方向），\nAI 模型训练师 / AIGC 模型工程师",
+    "desc": "远程岗位：LLM 应用研发工程师 薪资范围：20-35K 岗位职责 1. AI 角色引擎与 Agent 开发 负责 AI 虚拟角色的全链路对话逻辑：Prompt 工程、多轮长短期记忆机制（基于\"事件簿\"的自动总结，解决长对话中记忆丢失、车轱辘话、人设崩坏）、情绪与好感度状态机，打造高沉浸、高情商的 AI 伴侣。将业务能力封装为 Agent 工具（ Function Calling ），实现 AI 对话与计费、打赏、隐藏图集解锁等的无缝衔接，并保证工具调用的准确与容错。 2. 模型微调与人设优化 基于开源模型，使用 LoRA 等轻量级微调（ SFT ）结合自有聊天语料，持续优化模型的对话风格、人",
+    "url": "https://www.v2ex.com/t/1241518#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "国内远程 LLM 应用/AI 伴侣方向 20-35K，JD 里全是\"长短期记忆机制、情绪好感度状态机、Function Calling 封装、LoRA 微调\"——中文 AI 陪伴赛道对工程细节的要求已经非常具体。"
+   },
+   {
+    "title": "Cider Consulting | NY, USA | REMOTE (US-based only) We’ve built custom software ",
+    "desc": "Cider Consulting | NY, USA | REMOTE (US-based only) We’ve built custom software for US clients since 2018, and we’re now building a different delivery model: one senior engineer-consultant owns the whole engagement end-to-end — from figuring out the problem with the client and shaping the AI solution to building and getting it into production. Hiring: Forward Deployed Engineer with pre-sale/discov",
+    "url": "https://news.ycombinator.com/item?id=49656171",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m54",
+    "summary": "Cider Consulting 招 Forward Deployed Engineer，一个资深工程师端到端包办\"理解客户问题→设计 AI 方案→上线\"——FDE 这种新交付模式正在从大厂扩散到小咨询公司。"
+   },
+   {
+    "title": "高级全栈工程师(C#.NET)-AI / Agent -上海五角场",
+    "desc": "岗位方向 AI / Agent 产品全栈 工作地点 上海 经验要求 5 年以上相关开发经验 后端体系 C#/.NET 优先；开放 Go/Python 等 前端主线 Vue 3 + TypeScript Agent 生态 Dify / LangChain / LangGraph 薪酬：40–65 万元/年（薪资 + 期权） 学历：985 计算机本硕 任职要求 • 前端核心：具备扎实的前端基础，精通 Vue3 及相关生态，能独立负责并完成复杂前端项目 的开发。 • 后端核心：深入理解 C#（ ASP.NET Core 、EF Core ）作为主研后端语言，或其他后端技术体系；熟练掌握 Python",
+    "url": "https://www.v2ex.com/t/1239070#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m41",
+    "summary": "上海招 C#/.NET + Vue3 + Dify/LangChain/LangGraph 的全栈 AI/Agent 工程师，40-65 万/年——把当前 agent 生态的关键工具链一次性列全，是很好的一张技能对照表。"
+   },
+   {
+    "title": "Akkio | Senior Software Engineers — FDE, Full-Stack, Backend | US (Fully Remote)",
+    "desc": "Akkio | Senior Software Engineers — FDE, Full-Stack, Backend | US (Fully Remote) | Full-time | $160k–$240k + equity | https://www.akkio.com/jobs Akkio builds the AI platform the world's largest media agencies (Havas, Horizon Media, and others) use to run campaign workflows in production: audience building, media planning, measurement, and campaign analysis. Agentic workflows plus traditional ML, d",
+    "url": "https://news.ycombinator.com/item?id=49554223",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m86",
+    "summary": "Akkio 在美国全远程招 FDE/全栈/后端，$160k-240k+期权，服务 Havas 等大媒体代理跑 agentic 营销工作流——说明 agent 落地已进入有真实付费大客户的阶段，也验证了 FDE 的高薪。"
+   },
+   {
+    "title": "招全栈开发工程师啦！远程 + on-site 结合",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1239572#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m39",
+    "summary": "Kapibala AI 做 Sales AGI、Pre-Seed 拿了 1000 万美元，JD 里写明\"重度使用 Claude Code / Cursor\"——AI Native 的工作方式已经被写进招聘要求本身。"
+   }
+  ],
+  "week": "2026-W38"
+ },
+ "llm_used": true,
+ "degraded": []
+}
