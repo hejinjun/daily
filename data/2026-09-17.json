@@ -1,0 +1,497 @@
+{
+ "date": "2026-09-17",
+ "generated_at": "2026-09-17 08:37",
+ "trends": [
+  "AI 安全治理从『喊话』进入『机制建设』：OpenAI 甩出模型失准报告框架和六份异常行为报告，Anthropic 和 OpenAI 又都放话要让独立评估员进驻自家实验室，同时三巨头私下持续谈安全。监管压力下，各家都在抢『负责任 AI』的定义权，但『自己请的审计员』能不能真独立，是接下来最值得盯的看点。",
+  "Agent 基础设施在快速标准化：MCP 已经成了事实标准，从 WhatsApp Business 到 Google Home，大厂排着队把自己的服务包成 MCP server 让 agent 调用。同时有人量化了『HarnessTax』——同一个模型换个外壳表现差一大截，说明竞争焦点正从模型本身转向外壳工程和生态集成。",
+  "效率与成本仍是长期主线：三元 LLM 突破 1.58-bit 门槛、文生图训练提速 3.6×、4B 小模型做 SQL 查询优化打赢 Postgres，这些都在证明『小模型 + 好工程』能在具体任务上干翻大系统，对做端侧推理、低成本部署和垂直场景的人是直接利好。",
+  "AI 基建的隐性成本开始反噬：数据中心被曝天然气消耗到 2035 年可能超过德日总和，电子垃圾到 2050 年或能装满 2300 万个集装箱，加上各地社区反对建厂，电、水、硬件报废正在从环保话题变成真实的商业和政策风险。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 21
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 5
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh20",
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "260,270",
+   "stars_today": "1,057 stars today",
+   "summary": "ECC 是一套给编码 Agent 做「性能优化外挂」的框架，给 Claude Code、Codex、Cursor、Opencode 这些工具统一补上技能、记忆、直觉、安全审查和调研优先的工作流。26 万星、今天涨 1000+，说明大家都在给 Agent 造「通用底座」，而不是各写各的 prompt，这个赛道正在从散装技巧变成标准层。"
+  },
+  {
+   "id": "gh15",
+   "title": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+   "lang": "Go",
+   "stars": "25,278",
+   "stars_today": "1,197 stars today",
+   "summary": "腾讯开源的 LLM 知识平台 WeKnora，把一堆原始文档变成可查询的 RAG、能自主推理的 Agent，还能自动维护成一个 Wiki。今天涨近 1200 星冲到前排，因为「企业文档变 Agent」是眼下最刚需的落地场景，而且是 Go 写的、大厂出品，工程上能直接用。"
+  },
+  {
+   "id": "gh4",
+   "title": "jamiepine/voicebox",
+   "url": "https://github.com/jamiepine/voicebox",
+   "desc": "The open-source AI voice studio. Clone, dictate, create.",
+   "lang": "TypeScript",
+   "stars": "54,374",
+   "stars_today": "417 stars today",
+   "summary": "Voicebox 是开源的 AI 语音工作室，主打声音克隆、听写转文字和语音生成。5 万多星、今天再涨 400+，说明语音这条线依然是个人开发者最容易做出产品的方向——克隆自己声音做播客、配音、无障碍朗读，门槛已经很低了。"
+  },
+  {
+   "id": "gh6",
+   "title": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": "24,279",
+   "stars_today": "110 stars today",
+   "summary": "Anthropic 官方开源的知识工作者插件库，专门给 Claude Cowork 用，把各种白领日常任务打包成现成插件。值得关注是因为这是官方在示范「Agent 插件生态该怎么写」，想蹭 Claude 生态的开发者可以照着这个格式抄作业。"
+  },
+  {
+   "id": "gh1",
+   "title": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": "7,196",
+   "stars_today": "927 stars today",
+   "summary": "Cloudflare 出的安全审计技能包，让编码 Agent 能分阶段做安全审计，并且输出机器可读、可独立验证的结论。今天涨 900+ 星，因为「让 Agent 干活」之后大家马上要问「它的结论可信吗」，这个项目正是冲着 Agent 输出可信度这个痛点来的。"
+  },
+  {
+   "id": "gh16",
+   "title": "SnailSploit/Claude-Red",
+   "url": "https://github.com/SnailSploit/Claude-Red",
+   "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+   "lang": "Python",
+   "stars": "5,763",
+   "stars_today": "367 stars today",
+   "summary": "Claude-Red 是一套面向 Claude Skills 系统的攻击性安全技能库，每个技能就是一份 SKILL.md，把 SQLi、shellcode、EDR 绕过、漏洞利用开发这些专家方法论灌给 Claude。它火起来很有意思：说明 SKILL.md 这种「用文档给模型注入专业能力」的形式已经成了事实标准，连红队都在用。"
+  },
+  {
+   "id": "gh17",
+   "title": "multimodal-art-projection/YuE",
+   "url": "https://github.com/multimodal-art-projection/YuE",
+   "desc": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+   "lang": "Python",
+   "stars": "9,365",
+   "stars_today": "332 stars today",
+   "summary": "YuE2 是前沿的音乐生成模型，支持符号化规划、零样本翻唱（cover）和 Agent 式的音乐编辑。今天涨 300+ 星，代表生成式音频从「随便生成一段」走向「可控、可编辑地做完整首歌」，做音频工具的可以留意它的开源权重和编辑接口。"
+  },
+  {
+   "id": "gh19",
+   "title": "cline/cline",
+   "url": "https://github.com/cline/cline",
+   "desc": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+   "lang": "TypeScript",
+   "stars": "68,369",
+   "stars_today": "112 stars today",
+   "summary": "Cline 是自主编码 Agent，同时提供 SDK、IDE 插件和 CLI 三种形态，近 7 万星。它属于 Claude Code 之外最成熟的替代路线之一，关注点是它把 Agent 能力做成了可以被别人集成的 SDK，适合想把编码 Agent 塞进自己产品里的人。"
+  },
+  {
+   "id": "gh10",
+   "title": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars": "145,491",
+   "stars_today": "165 stars today",
+   "summary": "Anthropic 官方的 Claude Code，住在终端里的编码 Agent，能读懂代码库、跑常规任务、讲清复杂代码、处理 git 流程，全靠自然语言指挥。14.5 万星的老牌选手，今天虽然只涨 165 星但一直在榜上，是现在编码 Agent 的事实基准线，没试过的开发者值得上手。"
+  },
+  {
+   "id": "gh11",
+   "title": "roboflow/supervision",
+   "url": "https://github.com/roboflow/supervision",
+   "desc": "We write your reusable computer vision tools. 💜",
+   "lang": "Python",
+   "stars": "50,593",
+   "stars_today": "260 stars today",
+   "summary": "Roboflow 的 supervision，一套可复用的计算机视觉工具库，负责检测框、跟踪、标注、区域统计这类脏活。5 万星、今天涨 260，说明在大模型热潮旁边，传统 CV 的工程需求依然稳定，做视觉应用的话能省掉大量重复代码。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Reimagining advertising with AI",
+   "url": "https://openai.com/index/reimagining-advertising-with-ai",
+   "desc": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "OpenAI 公布了一批 AI 驱动的广告新玩法，包括 Sponsored Agents（赞助智能体）、面向营销人员的工具，以及和 HubSpot、Shopify 的集成。这意味着 ChatGPT 的商业化从贴广告走向『智能体带货』——品牌能在对话里投放一个真能干活的 agent。对做电商工具、营销 SaaS 和 agent 变现的人来说，这是新入口也是新竞争。"
+  },
+  {
+   "title": "Nvidia announces native GPU programming in Rust",
+   "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 179,
+   "id": "n7",
+   "summary": "Nvidia 宣布支持用 Rust 原生写 GPU 程序。过去高性能计算基本被 C++/CUDA 锁死，现在 Rust 可以直接写 kernel，系统层开发者能用更安全的语言做 GPU 编程。长期看会带动 Rust GPU 工具链和对应岗位需求，值得早早试水。"
+  },
+  {
+   "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+   "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+   "desc": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Anthropic 和 OpenAI 都打算把独立安全评估员『嵌入』到自家实验室内部，研究者欢迎这种前所未有的访问权限。但报道提醒：没有透明度、独立性和最终监管，自己请的审计员很难形成有效监督。这是 AI 治理从口号落到具体机制的关键一步，也埋着利益冲突的雷。"
+  },
+  {
+   "title": "Our framework for reporting model misalignment",
+   "url": "https://openai.com/index/model-misalignment-reporting-framework",
+   "desc": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n33",
+   "summary": "OpenAI 发布了一套追踪、调查和披露『模型失准』的框架，并同时公布了六份模型出现意外或令人担忧行为的报告。潜台词是把模型乱来这件事规范化披露，既是对监管的姿态，也是在替行业定标准。做 agent 产品的团队可以拿它当风险清单参考。"
+  },
+  {
+   "title": "Your AI agents can now control your Google Home devices",
+   "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+   "desc": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Google 为 Google Home 开放了 MCP server 的早期访问，Claude、ChatGPT 等 agent 可以用自然语言控制智能家居设备、看摄像头摘要、查活动记录。这是 MCP 从开发者工具走向消费级硬件的明确信号，智能家居大概率是 agent 最早跑通的高频场景之一。"
+  },
+  {
+   "title": "Anthropic merges Claude chat and Cowork in one interface",
+   "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+   "desc": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "Anthropic 把 Claude 聊天和 Cowork 合并进同一个界面，先向 Pro 和 Max 订阅用户开放。这相当于把『聊天』和『协作干活』两条产品线收敛成一个入口，直接对标 ChatGPT 的一体化体验。说明头部厂商普遍认为 agent 能力的入口不该是并排的多个 App。"
+  },
+  {
+   "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+   "url": "https://rohanbansal.com/qorl",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 375,
+   "id": "n4",
+   "summary": "有人训练了一个 4B 小模型专门生成 SQL 查询计划，声称比 Postgres 自带规划器快 81%。这意味着小模型已经能在数据库内核这种传统『确定性算法』的地盘上拿到实打实的性能收益。做数据库、查询优化、算子调度的团队值得认真评估这条路。"
+  },
+  {
+   "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+   "url": "https://mistral.ai/news/mistral-x-mozilla/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 527,
+   "id": "n1",
+   "summary": "Mistral 和 Mozilla 联手做私密、多语言的 AI 浏览体验。欧洲厂商抱团把 AI 塞进浏览器，主打隐私和多语言，是『欧洲主权 AI』在消费端的具体落点。也再次说明浏览器正在变成 AI 的分发入口，谁掌握默认入口谁就掌握流量。"
+  },
+  {
+   "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+   "url": "https://harnesstax.github.io/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 11,
+   "id": "n27",
+   "summary": "有研究量化了『HarnessTax』：agent 的外壳（harness）对编码 agent 表现的影响到底有多大。结论对做 coding agent 的人很重要——同一个模型，换个壳可能差出一大截。也就是说产品层的工程投入可能比换模型更划算。"
+  },
+  {
+   "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+   "url": "https://arxiv.org/abs/2609.16338",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 122,
+   "id": "n12",
+   "summary": "有研究突破了三元 LLM 的 1.58-bit 门槛。三元权重（-1/0/1）是极致压缩路线，越过这个门槛意味着推理成本更低、部署体积更小。做端侧推理、低成本私有化部署的人应该重点关注。"
+  },
+  {
+   "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+   "url": "https://arxiv.org/abs/2609.14858",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 179,
+   "id": "n8",
+   "summary": "Dream-RSI 提出通过不断演化的世界来做递归自我改进。RSI（模型改进模型）是近半年最热的叙事之一，这篇走的是『用生成世界训练自我进化』的路线。属于前沿研究，但方向值得持续跟踪，因为它直接关系到模型能力增长的斜率。"
+  },
+  {
+   "title": "The AI data center e-waste problem is huge — and getting bigger",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+   "desc": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate of AI's e-waste than ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n59",
+   "summary": "新报告警告 AI 数据中心的电子垃圾被严重低估，到 2050 年可能多到装满 2300 万个集装箱。数据中心的环保账本正在从耗电耗水扩展到硬件报废。对关注数据中心选址、GPU 供应链和 ESG 的人是新的变量，也可能催生回收和翻新生意。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph2",
+   "title": "ZeroClick",
+   "url": "https://www.producthunt.com/products/zeroclick",
+   "desc": "Sell your product to AI agents Discussion | Link",
+   "summary": "ZeroClick：让 AI agent 直接买单你的产品——把商品信息做成 agent 能读、能下单的渠道。如果 agent 真的开始替人购物/选工具，这就是新的获客入口，早期卡位的价值很大。"
+  },
+  {
+   "id": "ph6",
+   "title": "Weave Router 2.0",
+   "url": "https://www.producthunt.com/products/weave",
+   "desc": "Subscription aware coding agent router Discussion | Link",
+   "summary": "Weave Router 2.0：一个「懂你订阅」的编码 agent 路由器，知道你订了哪几个 AI 编程工具、还剩多少额度，再把任务分发给最划算的那个。对同时订了 Claude Code、Cursor、Copilot 的开发者来说，这是实打实的省钱工具。"
+  },
+  {
+   "id": "ph0",
+   "title": "Twigg",
+   "url": "https://www.producthunt.com/products/twigg",
+   "desc": "The context layer you never have to build Discussion | Link",
+   "summary": "Twigg：托管式的「上下文层」，帮你把 agent 的记忆、状态、知识检索这些脏活一次搞定，不用自己从零搭 RAG 和会话管理。做 agent 产品的人可以直接把那几周基建时间省下来。"
+  },
+  {
+   "id": "ph15",
+   "title": "Gemini 3.8 & 3.8 Live Extended Thinking",
+   "url": "https://www.producthunt.com/products/gemini-3-8-3-8-live-extended-thinking",
+   "desc": "Our most advanced Gemini Audio models yet Discussion | Link",
+   "summary": "Gemini 3.8 & 3.8 Live Extended Thinking：Google 号称最先进的 Gemini 音频模型，主打实时语音 + 扩展思考。做语音 agent、实时翻译、通话类产品的可以直接盯着，音频层的进步往往先在这些场景变现。"
+  },
+  {
+   "id": "ph18",
+   "title": "tiun.",
+   "url": "https://www.producthunt.com/products/tiun-2",
+   "desc": "Auth, billing, and payments for AI builders Discussion | Link",
+   "summary": "tiun.：给 AI builder 准备的认证、订阅计费和支付一条龙，让 AI 应用能快速加上「收钱」能力。AI 产品最烦的就是把用户变成付费用户，这类基建属于刚需。"
+  },
+  {
+   "id": "ph10",
+   "title": "Convo",
+   "url": "https://www.producthunt.com/products/convo-7",
+   "desc": "The AI copilot for people who sell Discussion | Link",
+   "summary": "Convo：面向销售人员的 AI copilot，帮你在客户沟通里实时接话、整理信息、推进成单。垂直场景的 copilot 比拼的是对工作流的理解，不是模型本身。"
+  },
+  {
+   "id": "ph1",
+   "title": "Appwrite 2.0",
+   "url": "https://www.producthunt.com/products/appwrite",
+   "desc": "The open-source cloud for agents and developers Discussion | Link",
+   "summary": "Appwrite 2.0：开源云后端，新版本明确定位成「给 agent 和开发者的云」，认证、数据库、存储、函数一把梭。想快速搭 agent 应用的团队可以省掉自建后端的时间。"
+  },
+  {
+   "id": "ph27",
+   "title": "Fifi",
+   "url": "https://www.producthunt.com/products/fifi-wake-up-call-alarm-clock",
+   "desc": "An alarm that calls you, and reads you your day Discussion | Link",
+   "summary": "Fifi：一个会打电话叫醒你、顺便把当天日程念给你听的闹钟。看着小，其实是语音 agent 最日常的落地形态——电话这种「老接口」配 LLM 反而很顺。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+   "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+   "desc": "congrats to TypeSafe!",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "swyx 的 AINews 介绍了一个叫 Jev 的\"System One 模型\"：它不做生成，只负责决策/分类/路由/打分，号称比小型前沿 LLM 快 100 倍以上、便宜 200 倍以上——这类\"把简单判断从大模型里拆出来\"的架构思路，对做 agent 成本优化的开发者很有参考价值。"
+  },
+  {
+   "title": "Claude Cowork and chat are now one Claude",
+   "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
+   "desc": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "Anthropic 把 Claude Cowork 和 Claude 聊天合并成同一个 Claude 了。之前 Cowork、Claude、Claude Code 三个名字混在一起确实让人懵，这次统一对日常用户是好事，也说明 Anthropic 在收敛产品线、往\"一个入口干所有活\"的方向走。"
+  },
+  {
+   "title": "datasette 1.0a40",
+   "url": "https://simonwillison.net/2026/Sep/16/datasette/",
+   "desc": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I've migrated Datasette to httpx2 for features like the internal datasette",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Datasette 发布 1.0a40：包含和 0.65.5 一样的安全修复，另外插件现在可以用新的 add_background_task() 接口启动和管理后台任务（Alex Garcia 贡献），底层还迁到了 httpx2。做数据工具/插件开发的人值得看看这个后台任务 API。"
+  },
+  {
+   "title": "datasette 0.65.5",
+   "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+   "desc": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: security , datasette",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Datasette 发布 0.65.5 安全补丁：修复了请求的表名末尾带换行符可以绕过表权限、从而暴露私有行的问题（GHSA-h547-rmjf-5m2m）。属于典型的输入规范化导致鉴权绕过，做 Web 后端和安全的人都该留意这个模式。"
+  },
+  {
+   "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+   "url": "https://www.latent.space/p/aiuc",
+   "desc": "We sit down with AIUC’s CEO on their Series A!",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b6",
+   "summary": "Latent Space 访谈 AIUC 的 CEO Rune Kvist，聊他们刚完成的 A 轮。主题是\"给超级智能做承保\"——怎么给可以起诉的 agent 上保险，也就是用责任/保险机制给 AI agent 兜底。对关注 agent 商业化落地和合规风险的创业者是个新视角。"
+  },
+  {
+   "title": "Quoting Mustafa Suleyman",
+   "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+   "desc": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make th",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "Simon Willison 摘录 Mustafa Suleyman 的一段话：不应该把模型当成有感受、偏好、权利或应得福利的实体，意识才是伦理法律体系的根基，没有证据支持就给 AI 赋予权利是不合理的。在\"AI 意识\"话题越来越热的当下，这是来自大厂高层的明确立场，值得当作争论的一方参考。"
+  },
+  {
+   "title": "My 3-Step System to Automate 90% of My Content Workflow with AI",
+   "url": "https://creatoreconomy.so/p/my-3-step-system-to-automate-90-of",
+   "desc": "How I turned 15 manual steps into 8 AI skills that save me 5+ hours a week, and how you can do the same for your own work",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "Peter Yang 分享自己用 AI 自动化内容工作流的 3 步系统：把原来 15 个手工步骤压缩成 8 个 AI 技能，每周省下 5 小时以上，并给出把这套方法迁移到自己工作上的思路。适合想搭个人 AI 工作流的内容创作者和独立开发者抄作业。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 成为绝对主线，而且从\"会调 API\"升级到\"能交付完整 agent 系统\"：Vercel 自我定位成\"agentic infrastructure company\"，Zeta Global 直接招 Agentic AI Applications 设计师，Catalyst·Wayfare 招 Agent Builder，国内岗位则把\"记忆机制、情绪状态机、Function Calling 工具封装\"写进 JD（m21）。市场要的不是 prompt 玩家，是把 agent 跑进生产的工程能力。",
+   "全栈 + AI 是今年最硬的组合拳。国内岗位从\"算法\"转向\"前后端+数据一体化\"，m40 明说要 5-10 年全栈并且有复杂 AI 应用经验，m41 的栈是 C#/.NET + Vue3 + Dify/LangChain/LangGraph，给到 40-65 万/年。纯算法岗还在，但更多预算流向\"能一个人把 agent 产品从需求做到上线\"的人。",
+   "Forward Deployed Engineer（FDE，前向交付工程师）开始频繁出现：Cider Consulting（m54）、Newton's Tree（m67）、Akkio（m86）都在招，本质是\"懂客户业务 + 能把 AI 方案落地交付\"的混合角色，和传统后端/算法是两条路。这是 AI 落地卡在\"最后一公里\"的直接证据，值得关注。",
+   "\"AI Coding 能力\"第一次被当成硬性招聘要求写进 JD：m28 要求\"对 AI Coding 有深刻实践和认知\"，m39 直接说会重度使用 Claude Code / Cursor。会用 AI 工具从加分项变成了基本盘。",
+   "垂直行业 AI 全面铺开，最密集的是医疗（Anterior、Tandem Health、Newton's Tree、Netrias）、法律（Legal Ark AI）、量化交易（Flow Traders、Deeter Analytics）和\"物理 AI/机器人\"（Lumen Labs、Springcraft、Freeform、Matterhaul）。行业 know-how + AI 的复合背景比纯技术背景更抢手。"
+  ],
+  "gigs": [
+   "项目制、兼职、按小时的外包活明显增多，且偏\"专家型\"而非\"搬砖型\"：m42 招懂 SillyTavern（酒馆）表现层的设计+前端工程师，明确接受全职/兼职/项目制；m45 是 Remote Part-Time 全栈；m49 甚至有人花 100 块红包求教\"日活 3-5 万的大模型生产架构\"怎么搭。说明懂 LLM 部署、RAG、多模态混跑的架构顾问是稀缺的。",
+   "\"技术合伙人 / CTO Partner\"类信号集中出现：m44 找 AI 跑团项目的技术合伙人（产品已上线有付费用户）、m37 新加坡公司找 AI/数据工程合伙人、m68 BOSS-IQ 招 CTO Partner（全球远程）。特点都是\"以股权/长期激励换技术\"，适合想 early-stage 押注的人，但风险自担。",
+   "低端 AI 数据活依然大量存在但口碑差：HN 上有人吐槽某公司\"其实就是要 AI 数据标注员\"（m74），国内有 AI 漫剧剧本审核 10-18K（m48）、Summa Linguae 一次要 50-100 个\"数字设计图表创作者\"（m12）。这类活量大、单价低、可替代性强，不建议作为主攻方向。",
+   "远程岗位的地域割裂很明显：海外 remote 普遍要求 US time zone 重叠（Obi9、Squoosh、Catalyst 等），而中文圈远程岗（V2EX、电鸭）以深圳/杭州/上海背景的 AI 创业公司为主，薪资 20-35K 居多。样本有限（主要来自电鸭社区和 HN Who is hiring，不能代表全市场），但\"中国 AI 创业公司远程岗 + 海外美时区远程岗\"这两条线足够清晰。"
+  ],
+  "highlights": [
+   {
+    "title": "Vercel: Member of the Technical Staff, Internal Agent",
+    "desc": "Headquarters: Remote - United States About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from ",
+    "url": "https://weworkremotely.com/remote-jobs/vercel-member-of-the-technical-staff-internal-agent",
+    "source": "WeWorkRemotely",
+    "id": "m18",
+    "summary": "Vercel 自称\"agentic infrastructure company\"，招 Internal Agent 方向技术骨干——连做前端框架的公司都重定位成 agent 基础设施公司了，这是行业叙事转向的标杆信号。"
+   },
+   {
+    "title": "LLM 应用研发工程师， AI 应用后端工程师（AI Agent 方向），\nAI 模型训练师 / AIGC 模型工程师",
+    "desc": "远程岗位：LLM 应用研发工程师 薪资范围：20-35K 岗位职责 1. AI 角色引擎与 Agent 开发 负责 AI 虚拟角色的全链路对话逻辑：Prompt 工程、多轮长短期记忆机制（基于\"事件簿\"的自动总结，解决长对话中记忆丢失、车轱辘话、人设崩坏）、情绪与好感度状态机，打造高沉浸、高情商的 AI 伴侣。将业务能力封装为 Agent 工具（ Function Calling ），实现 AI 对话与计费、打赏、隐藏图集解锁等的无缝衔接，并保证工具调用的准确与容错。 2. 模型微调与人设优化 基于开源模型，使用 LoRA 等轻量级微调（ SFT ）结合自有聊天语料，持续优化模型的对话风格、人",
+    "url": "https://www.v2ex.com/t/1241518#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "国内远程 LLM 应用/AI 伴侣方向 20-35K，JD 里全是\"长短期记忆机制、情绪好感度状态机、Function Calling 封装、LoRA 微调\"——中文 AI 陪伴赛道对工程细节的要求已经非常具体。"
+   },
+   {
+    "title": "Cider Consulting | NY, USA | REMOTE (US-based only) We’ve built custom software ",
+    "desc": "Cider Consulting | NY, USA | REMOTE (US-based only) We’ve built custom software for US clients since 2018, and we’re now building a different delivery model: one senior engineer-consultant owns the whole engagement end-to-end — from figuring out the problem with the client and shaping the AI solution to building and getting it into production. Hiring: Forward Deployed Engineer with pre-sale/discov",
+    "url": "https://news.ycombinator.com/item?id=49656171",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m54",
+    "summary": "Cider Consulting 招 Forward Deployed Engineer，一个资深工程师端到端包办\"理解客户问题→设计 AI 方案→上线\"——FDE 这种新交付模式正在从大厂扩散到小咨询公司。"
+   },
+   {
+    "title": "高级全栈工程师(C#.NET)-AI / Agent -上海五角场",
+    "desc": "岗位方向 AI / Agent 产品全栈 工作地点 上海 经验要求 5 年以上相关开发经验 后端体系 C#/.NET 优先；开放 Go/Python 等 前端主线 Vue 3 + TypeScript Agent 生态 Dify / LangChain / LangGraph 薪酬：40–65 万元/年（薪资 + 期权） 学历：985 计算机本硕 任职要求 • 前端核心：具备扎实的前端基础，精通 Vue3 及相关生态，能独立负责并完成复杂前端项目 的开发。 • 后端核心：深入理解 C#（ ASP.NET Core 、EF Core ）作为主研后端语言，或其他后端技术体系；熟练掌握 Python",
+    "url": "https://www.v2ex.com/t/1239070#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m41",
+    "summary": "上海招 C#/.NET + Vue3 + Dify/LangChain/LangGraph 的全栈 AI/Agent 工程师，40-65 万/年——把当前 agent 生态的关键工具链一次性列全，是很好的一张技能对照表。"
+   },
+   {
+    "title": "Akkio | Senior Software Engineers — FDE, Full-Stack, Backend | US (Fully Remote)",
+    "desc": "Akkio | Senior Software Engineers — FDE, Full-Stack, Backend | US (Fully Remote) | Full-time | $160k–$240k + equity | https://www.akkio.com/jobs Akkio builds the AI platform the world's largest media agencies (Havas, Horizon Media, and others) use to run campaign workflows in production: audience building, media planning, measurement, and campaign analysis. Agentic workflows plus traditional ML, d",
+    "url": "https://news.ycombinator.com/item?id=49554223",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m86",
+    "summary": "Akkio 在美国全远程招 FDE/全栈/后端，$160k-240k+期权，服务 Havas 等大媒体代理跑 agentic 营销工作流——说明 agent 落地已进入有真实付费大客户的阶段，也验证了 FDE 的高薪。"
+   },
+   {
+    "title": "招全栈开发工程师啦！远程 + on-site 结合",
+    "desc": "关于我们 Kapibala AI Limited 正组建全球化 AI 团队，聚焦 Sales AGI——覆盖获客、触达、谈判、成交、交付全链路的商业智能体，运行于主流 IM 平台和电销领域。产品已进入付费内测，被头部加密交易所、Web3 / RWA 、跨境广告等客户采用，Pre-Seed 轮 1000 万美元已完成。 岗位定位 传统的全栈开发工程师定位——从需求到上线端到端负责，把 Sales AGI 的业务系统、管理后台、数据看板、客户平台这些端到端交付出来。你要独立扛前端、后端、数据库、部署一条龙。 AI Native 时代，你会重度使用 Claude Code / Cursor 等 AI",
+    "url": "https://www.v2ex.com/t/1239572#reply6",
+    "source": "V2EX 酷工作",
+    "id": "m39",
+    "summary": "Kapibala AI 做 Sales AGI、Pre-Seed 拿了 1000 万美元，JD 里写明\"重度使用 Claude Code / Cursor\"——AI Native 的工作方式已经被写进招聘要求本身。"
+   }
+  ],
+  "week": "2026-W38"
+ },
+ "llm_used": true,
+ "degraded": []
+}
