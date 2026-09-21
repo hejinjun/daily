@@ -1,0 +1,66 @@
+{
+ "skills": [
+  "「Go / Python 后端 + Agent 落地」是目前最硬的组合：Sticker Mule、Benzinga、Salesforge、广告投放平台、Web3 交易团队都点名 Go，且要求能把 AI/Agent 接进真实业务系统，纯算法背景不再是稀缺项，工程基本功反而被反复强调（深圳那家 Agent 创业公司明确写「相比 AI 项目经验更看重后端基本功」）。",
+  "岗位名在快速细化：去年还叫「AI 工程师」，现在拆成了 Agent 工程师、FDE（Forward Deployed Engineer，前向部署工程师）、LLM 应用研发、AI Infra、评测/Eval 工程师。FDE 这一角色集中出现（Catalyst·Wayfare、Newton's Tree、Akkio、深圳 Agent/FDE），本质是「能驻场把大模型塞进客户现有 ERP/CRM 里」的复合角色。",
+  "「AI Native 工作流」从加分项变成招聘卖点本身：有的团队直接把「全面采用 Claude Code 作为日常主力生产方式」「对 AI Coding 有深刻实践和认知」写进 JD，用来筛掉只会手写重复代码的人。这一条的信号值得记：会指挥 Agent 干活，正在替代会写代码。",
+  "国内需求集中在三条线：企业级 Agent/大模型工程化（搜狐、SHEIN、上市零售公司 AI Native 产品线）、Agent 基模与评测/Infra（顶级 VC 投资的 AGI 公司、阶跃星辰、拼多多 AI Infra）、具身智能（深庭纪、地瓜机器人、苏州 Embodied AI 解决方案工程师）。大厂外溢出来的人正在把这些方向做成创业公司。",
+  "RAG、Context Engineering、多 Agent 协同、模型 Eval 已从「前沿词」变成 JD 里的常规技术栈；同时 GPU 基础设施 / 集群运维（Tether 招 GPU Infra Technical Lead、vCluster Labs 做「把硬件变成云」）开始独立成岗，说明算力层的人才缺口还在扩大。"
+ ],
+ "gigs": [
+  "AIGC 内容外包是最活跃的一类：AI 视频创作/剪辑兼职（Joops AI，用 Seedance 生成广告短视频）、AI 角色设定师/写手（SillyTavern 酒馆向，服务海外 RP 平台），特点是按项目计酬、要求「你本来就是这个圈子的玩家」。",
+  "「组队打北美 AI 项目」这类成建制接单开始出现：一个人牵头，拉上 FDE、多 Agent 工作流、RAG、AI 安全网关（MCP 网关、Eval 评估、数据合规）几个角色，去接企业级 AI 集成。这是外包从「写代码」升级到「交付整套 AI 能力」的信号，但样本有限（电鸭一周只有 6 条相关帖）。",
+  "低端远程岗在压价：Flutter 跨端远程给到税前 10k/月、试用期 60%，而中高端远程（LLM 应用、Agent、ComfyUI 全栈）能到 20-35K，市场已经明显分层。有真实作品、能独立交付的人抢手，纯执行的人被压到很低。",
+  "需求侧还有一个新活儿：帮别人管理 AI 项目进度。有人招「会用 AI 辅助、能读英文、管 ticket 和需求」的项目管理兼职，每周 0-8 小时。这类「AI 时代的轻量 PM/协调者」可能是一个被低估的接单切口（样本有限）。"
+ ],
+ "highlights": [
+  {
+   "title": "Web3 交易/数据/合约核心岗招人，主打 AI Native 协作， Package 给够！",
+   "desc": "各位 V 友好！ 我们是一个专注于 Web3 交易基础设施与核心链上业务的团队。目前正在寻找具备系统级架构思维、追求极速与安全的工程师加入我们。 如果你厌倦了无意义的重复敲代码，倡导 AI Native 工作流，想挑战端到端负责核心交易/数据系统，欢迎砸简历！ --- 🔥 为什么值得加入我们？ 1. 极简高效的技术文化：我们鼓励并全面采用 AI Agent (Claude Code) 作为日常主力生产方式，不卷重复体力活，只看你的顶层架构设计与核心逻辑把关。 2. 核心业务话语权：拒绝“需求翻译机”，直接端到端对核心交易路由、链上数据管道或 Launchpad 资金安全负全责。 3. 具有竞争",
+   "url": "https://www.v2ex.com/t/1242471#reply2",
+   "source": "V2EX 酷工作",
+   "id": "m22",
+   "summary": "Web3 交易团队招核心工程师，把「全面采用 AI Agent（Claude Code）作为日常主力生产方式」写进招聘理由——AI Native 协作方式第一次成了公司卖点而不是个人技能。"
+  },
+  {
+   "title": "A.Team: Senior Independent AI Engineer / Architect",
+   "desc": "Headquarters: NYC and TLV URL: http://a.team/ai-jobs?utm_source=wwr&utm_medium=post&utm_campaign=wwrai Senior Independent AI Engineer / Architect Remote | Americas, Europe, or Israel Most AI engineers can find work. Finding work worth doing is harder. A.Team is an invite-only network of senior AI en",
+   "url": "https://weworkremotely.com/remote-jobs/a-team-senior-independent-ai-engineer-architect",
+   "source": "WeWorkRemotely",
+   "id": "m11",
+   "summary": "A.Team 招「高级独立 AI 工程师/架构师」，走邀请制精英网络模式，口号是「找得到活不难，找到值得做的活才难」——高端 AI 人才正在脱离传统雇佣关系。"
+  },
+  {
+   "title": "组队打北美AI项目",
+   "desc": "方向 *   AI 安全防护与治理控制面：AI 防火墙架构、MCP（Model Context Protocol）网关、模型 Eval 评估体系与数据合规。   企业级 AI FDE 接入：大模型/Agent 与企业现有系统（ERP, CRM, 数据库等）的集成与私有化部署。   垂直领域 AI Agent 工作流：多 Agent 协同（Multi-Agent Workflows）、复杂 RAG ",
+   "url": "https://eleduck.com/posts/dDf3R7",
+   "source": "电鸭社区",
+   "id": "m52",
+   "summary": "有人公开「组队打北美 AI 项目」，方向明确列出 AI 安全防护面、MCP 网关、模型 Eval 与企业系统集成——说明 MCP、Eval 这些新概念已经从论文走到了外包需求单上。"
+  },
+  {
+   "title": "We’re hiring at Langfuse — now part of ClickHouse. We are looking for a Product ",
+   "desc": "We’re hiring at Langfuse — now part of ClickHouse. We are looking for a Product Manager, Product & Backend Engineers, Product Marketing Manager and Developer Relations Engineers to join us in building the most widely adopted open-source LLM engineering platform. - Berlin or EU hybrid (Engineering roles) / US-fully remote (Product & Marketing roles) - ~1 week onsite in Berlin every 2 months — trave",
+   "url": "https://news.ycombinator.com/item?id=49609343",
+   "source": "HN Who is hiring? (September 2026)",
+   "id": "m72",
+   "summary": "开源 LLM 工程平台 Langfuse 被 ClickHouse 收购后大举招 PM/工程师/DevRel——LLM 可观测性这条赛道正在被基础设施巨头整合，相关工程岗会持续放量。"
+  },
+  {
+   "title": "Interested in the Full Stack AI Engineer role. I build agentic systems in Python",
+   "desc": "Interested in the Full Stack AI Engineer role. I build agentic systems in Python: a 5-agent LangGraph trading pipeline (Data Collector → Technical/Sentiment Analysts → Portfolio Manager → Risk Manager) running hourly on live CCXT data and LLM sentiment, plus a semantic cache gateway in front of the LLM calls (live: semantic-cache-6qvc.onrender.com). I've also built agent evals and a job-aggregatio",
+   "url": "https://news.ycombinator.com/item?id=49727530",
+   "source": "HN Who is hiring? (September 2026)",
+   "id": "m53",
+   "summary": "HN 上求职者自荐时展示的是「5-agent LangGraph 交易流水线 + 语义缓存网关 + agent evals」——个人作品集的默认标配已经变成一套能跑起来的多 Agent 系统，而不是一个 GitHub 小工具。"
+  },
+  {
+   "title": "This company contacted me; turns out they just want AI data labelers. One of the",
+   "desc": "This company contacted me; turns out they just want AI data labelers. One of the strangest interview/HM calls I've ever had.",
+   "url": "https://news.ycombinator.com/item?id=49571866",
+   "source": "HN Who is hiring? (September 2026)",
+   "id": "m80",
+   "summary": "HN 招聘帖下有人吐槽「联系我的公司其实只想招 AI 数据标注员」，配合到处可见的 AI 生成 JD 和 AI 生成简历（m54、m65、m85、m86）——招聘流程正在被 AI 双向灌水，信息噪音本身成了市场的一个新问题。"
+  }
+ ],
+ "week": "2026-W39"
+}
