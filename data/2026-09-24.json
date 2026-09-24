@@ -1,0 +1,457 @@
+{
+ "date": "2026-09-24",
+ "generated_at": "2026-09-24 08:33",
+ "trends": [
+  "AI 做科研开始出真东西：Anthropic 说自家生物实验室的 Claude 找到一个带类 CRISPR 重复序列的新型酶系统，但特意强调人类仍在回路里、没让模型在实验室里放飞。'AI for science' 从演示走向论文级产出，同时也把'能不能放手让模型自己干'摆上台面。",
+  "模型竞争的焦点从跑分转向工程经济性：Mercury 2.5 冲到 770 tokens/秒，OpenAI 专门为 GPT-6 优化 prompt caching（命中率、断点、诊断），HN 上还在热议'token 便宜到不用计量'。成本、延迟、缓存命中率正取代榜单分数成为开发者选型的硬指标。",
+  "消费级入口正在被重写：ChatGPT 手机端上线语音 Work 标签直接派活，Gemini 3.8 TTS 发布，Meta 推无摄像头 AI 眼镜，Spotify/YouTube 则让用户用自然语言改写推荐。交互从'聊天'转向'替我办事 + 我定规则'。",
+  "资本继续押注垂直 AI：Enveda 拿 3.11 亿美元做 AI 天然产物药物并进入临床，Ema 融 7700 万做企业级 agent（客户含 Google、Microsoft）。AI 正在从辅助工具变成企业软件与服务预算的替代项。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 11
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 2
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 3
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh4",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": "290,678",
+   "stars_today": "474 stars today",
+   "summary": "obra/superpowers 是一套「给 AI Agent 用的技能框架 + 软件开发方法论」，本质是把工程师的工作流程拆成 Agent 可复用的 skill，让 Claude Code、Cursor 这类 coding agent 真正按套路干活。今天 474 星冲榜、总量逼近 29 万，说明「Agent 技能库/方法论」已经从不入流玩具变成开发者标配，值得去翻它的 skill 组织方式，大概率能直接抄进自己的 agent 工作流。"
+  },
+  {
+   "id": "gh9",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+   "lang": "Python",
+   "stars": "49,921",
+   "stars_today": "57 stars today",
+   "summary": "港大 HKUDS 出的 CLI-Anything，口号是「让所有软件变成 Agent-Native」——把传统命令行工具包装成 Agent 可直接调用的能力层，配套还有 CLI-Hub 做分发。Agent 要真正落地，缺的从来不是模型而是「可靠的工具接口」，这种把现成 CLI 生态一次性 agent 化的思路很实用，近 5 万星说明社区认可这个方向。"
+  },
+  {
+   "id": "gh8",
+   "title": "strands-agents/harness-sdk",
+   "url": "https://github.com/strands-agents/harness-sdk",
+   "desc": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+   "lang": "Python",
+   "stars": "7,835",
+   "stars_today": "115 stars today",
+   "summary": "strands-agents 的 harness-sdk，一个用来构建并端到端掌控 Agent harness 的开源 SDK，Python/TypeScript 双语言、支持任意模型和任意云。它主打的是「production 级」——不是 demo 玩具，而是把 agent 循环、工具调用、状态管理这些脏活封装好，适合正在把 agent 原型推向线上的团队关注。"
+  },
+  {
+   "id": "gh13",
+   "title": "DeusData/codebase-memory-mcp",
+   "url": "https://github.com/DeusData/codebase-memory-mcp",
+   "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+   "lang": "C",
+   "stars": "44,560",
+   "stars_today": "190 stars today",
+   "summary": "DeusData/codebase-memory-mcp 是一个高性能代码智能 MCP server：把整个代码库索引成持久化知识图谱，平均毫秒级完成、支持 158 种语言、查询亚毫秒，号称省 99% token。单个静态二进制、零依赖，对天天被「AI 读不懂大仓库」折磨的开发者来说，这就是给 coding agent 装外挂记忆，MCP 生态里少见的硬核基础设施。"
+  },
+  {
+   "id": "gh11",
+   "title": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars": "70,328",
+   "stars_today": "304 stars today",
+   "summary": "pbakaus/impeccable 想解决的是「AI 写出来的界面都长一个样」——它提供一套设计语言/规范，让 AI harness 在生成 UI 时能产出更专业的设计，而不只是能跑。7 万星、单日 304 星，说明「AI 生成的前端太丑」是普遍痛点，做 AI 建站、生成式 UI 的人值得看看它的规则怎么写的。"
+  },
+  {
+   "id": "gh16",
+   "title": "TNT-Likely/PanWatch",
+   "url": "https://github.com/TNT-Likely/PanWatch",
+   "desc": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
+   "lang": "Python",
+   "stars": "1,491",
+   "stars_today": "95 stars today",
+   "summary": "盯盘侠 PanWatch 是自托管的 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策，支持 A股/港股/美股实时监控、持仓管理、智能分析和全渠道推送。它是「多 Agent 协作」在垂直场景里少见的完整落地案例：不做通用框架，直接把 agent 编排到投资决策链路上，做金融 AI 或想找 agent 落地场景的人可以拆它的架构。"
+  },
+  {
+   "id": "gh14",
+   "title": "harry7557558/spirula-studio",
+   "url": "https://github.com/harry7557558/spirula-studio",
+   "desc": "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.",
+   "lang": "C++",
+   "stars": "733",
+   "stars_today": "69 stars today",
+   "summary": "spirula-studio 是跨厂商的 3D Gaussian Splatting 训练器，走「视频 → splat → mesh」全流程，Vulkan 和 CUDA 后端都支持。虽然才 733 星，但 3DGS 是视觉生成里除大模型之外最活跃的赛道之一，能同时在 N 卡和非 N 卡上跑训练，对做 3D 重建、数字人、空间内容的人来说是个轻量好用的新选择。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+   "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 453,
+   "id": "n2",
+   "summary": "Anthropic 表示自家生物实验室已经'发现了大东西'：Claude 找到一个带有类 CRISPR 重复序列的新型酶系统，属于论文级的新发现。更值得关注的是他们特意强调没有让 Claude 在实验室里'放飞'，人类仍在回路中——AI 做科学发现开始有真实产出，但离自主科研还很远。"
+  },
+  {
+   "title": "ChatGPT mobile app gets voice-based agentic features",
+   "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+   "desc": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "ChatGPT 手机 App 上线基于语音的 agentic 功能，Pro 和 Plus 用户能在手机上用 Work 标签直接派活、完成任务。把 agent 从桌面搬到手机语音入口，是 OpenAI 抢占'日常任务执行权'的一步，也意味着语音交互正式成为 agent 的主入口之一。"
+  },
+  {
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "desc": "",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n42",
+   "summary": "Google DeepMind 发布 Gemini 3.8 的文本转语音能力，语音合成的自然度和表现力再上一个台阶。TTS 正在变成 AI 产品标配：从播客、客服到实时对话 agent，语音层质量直接决定体验上限。"
+  },
+  {
+   "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+   "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 442,
+   "id": "n3",
+   "summary": "有人发现 Claude Code 只有在开启遥测（telemetry）时才会读取 AGENTS.md 配置文件，虽然已经修复，但暴露了一个尴尬事实——本地 AI 编码工具的行为可能被遥测开关悄悄左右。对把 Claude Code 接进企业流水线的团队来说，这是供应链信任问题。"
+  },
+  {
+   "title": "Mercury 2.5 LLM hits 770 tokens per second",
+   "url": "https://artificialanalysis.ai/models/mercury-2-5",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 26,
+   "id": "n25",
+   "summary": "Mercury 2.5 这个 LLM 跑出 770 tokens/秒的推理速度，走的是把'速度'当作核心卖点的路线。对延迟敏感的场景（代码补全、实时 agent、大批量处理）来说，这类模型的性价比可能比榜单分数更重要。"
+  },
+  {
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "desc": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n41",
+   "summary": "Google DeepMind 给 Private AI Compute 加上安全的服务器端记忆，让个人 AI 在云端也能'记住你'而不必把数据交给广告业务。这是'云端便利 vs 本地隐私'之间的一条中间路径，也是个人 AI 助手产品化的关键基建。"
+  },
+  {
+   "title": "Better prompt caching for GPT-6",
+   "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+   "desc": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n39",
+   "summary": "OpenAI 为 GPT-6 做了更好的 prompt caching：更高的缓存命中率、显式断点、新的诊断信息，直接效果是降延迟、降成本。做长上下文或多轮 agent 的团队值得重新算一遍账，缓存策略现在能实打实省钱。"
+  },
+  {
+   "title": "LensVLM: Compressing long context as images, expanding only relevant pages",
+   "url": "https://huggingface.co/apple/LensVLM-9B",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 44,
+   "id": "n21",
+   "summary": "LensVLM 把长上下文压缩成图片、只在需要时展开相关页面，用视觉方式绕开 token 上限。这类'把上下文当图像处理'的思路，是长文档 RAG 和超长上下文场景的一个新方向。"
+  },
+  {
+   "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+   "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+   "desc": "The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "AI 生物医药公司 Enveda 拿到 3.11 亿美元融资，估值达 20 亿美元，正在把源自天然产物的 AI 药物推进临床（针对皮肤病、以及停用 GLP-1 后维持减重）。资本还在往 AI+biotech 砸钱，而且开始看临床阶段数据而不是只听故事。"
+  },
+  {
+   "title": "Ema raises $77M as AI starts eating into enterprise software and services",
+   "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+   "desc": "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "Ema 融资 7700 万美元（累计 1.4 亿），做企业级 AI agent，客户包括 Google 和 Microsoft。它的叙事是'AI 开始吃掉企业软件和服务'——这类产品正从辅助工具变成企业预算里的替代项。"
+  },
+  {
+   "title": "Spotify is giving you the keys to its recommendation algorithm with US launch of ‘Taste Profile’",
+   "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/",
+   "desc": "Spotify is rolling out Taste Profile to Premium users in the U.S., letting listeners see how the streamer understands their tastes and use natural language to reshape their recommendations.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n54",
+   "summary": "Spotify 在美国上线 Taste Profile，Premium 用户可以看到平台如何理解自己的口味，并用自然语言直接改写推荐结果。推荐算法从黑箱变成可对话的对象，YouTube 也在做类似的自然语言自定义 feed，'可对话的算法'可能成为内容平台下一轮差异化重点。"
+  },
+  {
+   "title": "Tokens too cheap to meter",
+   "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 225,
+   "id": "n8",
+   "summary": "HN 上讨论火热的《Tokens too cheap to meter》聊的是推理成本一路走低之后会发生什么：当 token 便宜到不用计量，产品设计和商业模式都得重写。对创业者来说，这意味着可以放心用'多调用几次模型'的笨办法，而不是过早做优化。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph11",
+   "title": "Claude Opus 5.5",
+   "url": "https://www.producthunt.com/products/claude-fable-5-1",
+   "desc": "Anthropic's first model in their new Claude 5.5 family Discussion | Link",
+   "summary": "Anthropic 放出 Claude 5.5 家族的第一个模型 Claude Opus 5.5。如果这条是真的，就是今天最该关注的事——新家族意味着能力代际和 API 定价可能都要重新评估，所有基于 Claude 搭的应用都该跑一遍回归测试。"
+  },
+  {
+   "id": "ph8",
+   "title": "Solid",
+   "url": "https://www.producthunt.com/products/solid-3",
+   "desc": "Agents with their own computers, accounts, and budgets. Discussion | Link",
+   "summary": "给每个 AI agent 配一台自己的电脑、自己的账号和独立的钱包预算。解决的是 agent 真正去干活时的身份、权限和花钱问题，把「agent 能自己上网办事」从 demo 变成可管理的工程问题，做 agent 基础设施的可以重点看。"
+  },
+  {
+   "id": "ph4",
+   "title": "GBrain",
+   "url": "https://www.producthunt.com/products/gbrain",
+   "desc": "Garry Tan's AI memory, tools, & skills for any harness Discussion | Link",
+   "summary": "Garry Tan（YC 总裁）开源的 AI 记忆、工具和技能包，号称能跑在任何 harness 上。本质是给 agent 做一层可迁移的记忆+技能层，YC 掌门人亲自下场做这个，说明「agent 的长期记忆和技能复用」被当成平台级机会。"
+  },
+  {
+   "id": "ph2",
+   "title": "Jev State",
+   "url": "https://www.producthunt.com/products/jev-state",
+   "desc": "Turn AI conversations into tests and runnable code Discussion | Link",
+   "summary": "把和 AI 的对话记录直接变成测试用例和可运行代码。开发者在跟模型聊天调 bug 时，聊完顺手就把验证逻辑留下了，解决了「AI 帮忙改的东西没人敢信」的痛点，是个挺聪明的开发工作流切入点。"
+  },
+  {
+   "id": "ph25",
+   "title": "MiMo-V2.6",
+   "url": "https://www.producthunt.com/products/mimo-3",
+   "desc": "Open omnimodal intelligence, trained in public Discussion | Link",
+   "summary": "一个开放的全模态模型，而且训练过程全程公开。对开发者来说价值在于：多模态能力加上完全透明的训练细节，可以拿来复现、微调或者对比，适合不想被闭源 API 绑死的团队。"
+  },
+  {
+   "id": "ph9",
+   "title": "Alexandria by Firecrawl",
+   "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+   "desc": "The knowledge library for superintelligence Discussion | Link",
+   "summary": "Firecrawl 出的「超级智能知识库」产品。Firecrawl 本来就是做网页抓取喂给 AI 的，现在往上游走做知识库，等于把「给模型喂干净数据」这条链路产品化，做 RAG 和数据管道的可以关注它怎么定义这块。"
+  },
+  {
+   "id": "ph7",
+   "title": "AgentScore",
+   "url": "https://www.producthunt.com/products/latitude-4",
+   "desc": "Daily score to see if your agent gets better Discussion | Link",
+   "summary": "给你的 agent 打个每日评分，看它到底有没有在变好。agent 现在最大的问题是改了 prompt 或换了模型之后不知道是变强还是变弱，这个产品就是做持续评测，属于 agent 工程化里迟早要补的一环。"
+  },
+  {
+   "id": "ph1",
+   "title": "Koreshield",
+   "url": "https://www.producthunt.com/products/koreshield",
+   "desc": "Security and evidence for AI support agents Discussion | Link",
+   "summary": "给 AI 客服/支持类 agent 做安全防护和证据留痕。当 agent 能自己回客户、自己执行操作时，出错谁负责、怎么审计就成了硬需求，这是个刚冒头但很实在的合规向赛道。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+   "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+   "desc": "overshadowing more efficient GPT6 models from OpenAI",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "Latent Space 的 AINews 宣布 Claude Opus 5.5 成了它的新默认模型，同时整个行业 API 价格集体跳水 40-50%，连 OpenAI 更省钱的 GPT6 系列都被盖了风头——值得关注的是模型能力还在卷、但价格战已经真刀真枪开打，做产品的成本结构可能要重算。"
+  },
+  {
+   "title": "Gemini 3.8 TTS Playground",
+   "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+   "desc": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Google 一天放出两个新 TTS 模型 gemini-3.8-flash-tts 和 flash-lite-tts，自带 2000+ 音色库，还能只用 30 秒录音样本克隆自定义声音，Simon Willison 顺手做了个 Playground 可以直接试——语音这块的定制门槛基本被抹平了，做有声内容、语音 agent 的可以先去玩一圈。"
+  },
+  {
+   "title": "My Personal AI Course Is Live! Copy My AI System to Take Work Off Your Plate",
+   "url": "https://creatoreconomy.so/p/my-personal-ai-course-is-live-now",
+   "desc": "Copy my exact AI workflows to save time and automate busywork in 25+ bite-sized lessons. Plus get $600+ in free access to my favorite AI tools.",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b12",
+   "summary": "独立创作者 Peter Yang 的个人 AI 课程正式上线，25 节小课把他自己那套 AI 工作流拆开让你照抄，用来省时间、干掉杂活，还送 600 多美元的常用 AI 工具额度——适合想系统补一下个人自动化套路、又懒得自己摸索的开发者。"
+  },
+  {
+   "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+   "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+   "desc": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "Latent Space 访谈 Radical Numerics 的 CEO Eric Nguyen，主题是生物安全已经变成一场 AI 军备竞赛：他们在用「生物链式思维」加多模态感知来跟上生物防御的攻防节奏，同时也拿来设计新基因组、理解生物学本身——对 biotech × AI 交叉方向感兴趣的人值得听。"
+  },
+  {
+   "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+   "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+   "desc": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "Simon Willison 和 Jesse Vincent 10 月 14 日在旧金山办一场 Agentic Engineering 的 BoF 小聚会，面向所有在用 coding agent 造奇怪有趣东西的人，形式是 agentic show-and-tell，大家互相比拼各自的玩法——在当地的话是个混圈子、看别人怎么用 agent 的好机会。"
+  },
+  {
+   "title": "Shadow roots, explained with live examples",
+   "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+   "desc": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Simon Willison 用一句 prompt 让 Fable 5.1 生成交互式 artifact，把 CSS 的 shadow roots 讲清楚，附源码可自己跑——价值不在知识本身，而在于展示「让模型直接产出可交互教学页面」这个用法，做技术文档和教学的人可以照搬这个套路。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "「Go / Python 后端 + Agent 落地」是目前最硬的组合：Sticker Mule、Benzinga、Salesforge、广告投放平台、Web3 交易团队都点名 Go，且要求能把 AI/Agent 接进真实业务系统，纯算法背景不再是稀缺项，工程基本功反而被反复强调（深圳那家 Agent 创业公司明确写「相比 AI 项目经验更看重后端基本功」）。",
+   "岗位名在快速细化：去年还叫「AI 工程师」，现在拆成了 Agent 工程师、FDE（Forward Deployed Engineer，前向部署工程师）、LLM 应用研发、AI Infra、评测/Eval 工程师。FDE 这一角色集中出现（Catalyst·Wayfare、Newton's Tree、Akkio、深圳 Agent/FDE），本质是「能驻场把大模型塞进客户现有 ERP/CRM 里」的复合角色。",
+   "「AI Native 工作流」从加分项变成招聘卖点本身：有的团队直接把「全面采用 Claude Code 作为日常主力生产方式」「对 AI Coding 有深刻实践和认知」写进 JD，用来筛掉只会手写重复代码的人。这一条的信号值得记：会指挥 Agent 干活，正在替代会写代码。",
+   "国内需求集中在三条线：企业级 Agent/大模型工程化（搜狐、SHEIN、上市零售公司 AI Native 产品线）、Agent 基模与评测/Infra（顶级 VC 投资的 AGI 公司、阶跃星辰、拼多多 AI Infra）、具身智能（深庭纪、地瓜机器人、苏州 Embodied AI 解决方案工程师）。大厂外溢出来的人正在把这些方向做成创业公司。",
+   "RAG、Context Engineering、多 Agent 协同、模型 Eval 已从「前沿词」变成 JD 里的常规技术栈；同时 GPU 基础设施 / 集群运维（Tether 招 GPU Infra Technical Lead、vCluster Labs 做「把硬件变成云」）开始独立成岗，说明算力层的人才缺口还在扩大。"
+  ],
+  "gigs": [
+   "AIGC 内容外包是最活跃的一类：AI 视频创作/剪辑兼职（Joops AI，用 Seedance 生成广告短视频）、AI 角色设定师/写手（SillyTavern 酒馆向，服务海外 RP 平台），特点是按项目计酬、要求「你本来就是这个圈子的玩家」。",
+   "「组队打北美 AI 项目」这类成建制接单开始出现：一个人牵头，拉上 FDE、多 Agent 工作流、RAG、AI 安全网关（MCP 网关、Eval 评估、数据合规）几个角色，去接企业级 AI 集成。这是外包从「写代码」升级到「交付整套 AI 能力」的信号，但样本有限（电鸭一周只有 6 条相关帖）。",
+   "低端远程岗在压价：Flutter 跨端远程给到税前 10k/月、试用期 60%，而中高端远程（LLM 应用、Agent、ComfyUI 全栈）能到 20-35K，市场已经明显分层。有真实作品、能独立交付的人抢手，纯执行的人被压到很低。",
+   "需求侧还有一个新活儿：帮别人管理 AI 项目进度。有人招「会用 AI 辅助、能读英文、管 ticket 和需求」的项目管理兼职，每周 0-8 小时。这类「AI 时代的轻量 PM/协调者」可能是一个被低估的接单切口（样本有限）。"
+  ],
+  "highlights": [
+   {
+    "title": "Web3 交易/数据/合约核心岗招人，主打 AI Native 协作， Package 给够！",
+    "desc": "各位 V 友好！ 我们是一个专注于 Web3 交易基础设施与核心链上业务的团队。目前正在寻找具备系统级架构思维、追求极速与安全的工程师加入我们。 如果你厌倦了无意义的重复敲代码，倡导 AI Native 工作流，想挑战端到端负责核心交易/数据系统，欢迎砸简历！ --- 🔥 为什么值得加入我们？ 1. 极简高效的技术文化：我们鼓励并全面采用 AI Agent (Claude Code) 作为日常主力生产方式，不卷重复体力活，只看你的顶层架构设计与核心逻辑把关。 2. 核心业务话语权：拒绝“需求翻译机”，直接端到端对核心交易路由、链上数据管道或 Launchpad 资金安全负全责。 3. 具有竞争",
+    "url": "https://www.v2ex.com/t/1242471#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m22",
+    "summary": "Web3 交易团队招核心工程师，把「全面采用 AI Agent（Claude Code）作为日常主力生产方式」写进招聘理由——AI Native 协作方式第一次成了公司卖点而不是个人技能。"
+   },
+   {
+    "title": "A.Team: Senior Independent AI Engineer / Architect",
+    "desc": "Headquarters: NYC and TLV URL: http://a.team/ai-jobs?utm_source=wwr&utm_medium=post&utm_campaign=wwrai Senior Independent AI Engineer / Architect Remote | Americas, Europe, or Israel Most AI engineers can find work. Finding work worth doing is harder. A.Team is an invite-only network of senior AI en",
+    "url": "https://weworkremotely.com/remote-jobs/a-team-senior-independent-ai-engineer-architect",
+    "source": "WeWorkRemotely",
+    "id": "m11",
+    "summary": "A.Team 招「高级独立 AI 工程师/架构师」，走邀请制精英网络模式，口号是「找得到活不难，找到值得做的活才难」——高端 AI 人才正在脱离传统雇佣关系。"
+   },
+   {
+    "title": "组队打北美AI项目",
+    "desc": "方向 *   AI 安全防护与治理控制面：AI 防火墙架构、MCP（Model Context Protocol）网关、模型 Eval 评估体系与数据合规。   企业级 AI FDE 接入：大模型/Agent 与企业现有系统（ERP, CRM, 数据库等）的集成与私有化部署。   垂直领域 AI Agent 工作流：多 Agent 协同（Multi-Agent Workflows）、复杂 RAG ",
+    "url": "https://eleduck.com/posts/dDf3R7",
+    "source": "电鸭社区",
+    "id": "m52",
+    "summary": "有人公开「组队打北美 AI 项目」，方向明确列出 AI 安全防护面、MCP 网关、模型 Eval 与企业系统集成——说明 MCP、Eval 这些新概念已经从论文走到了外包需求单上。"
+   },
+   {
+    "title": "We’re hiring at Langfuse — now part of ClickHouse. We are looking for a Product ",
+    "desc": "We’re hiring at Langfuse — now part of ClickHouse. We are looking for a Product Manager, Product & Backend Engineers, Product Marketing Manager and Developer Relations Engineers to join us in building the most widely adopted open-source LLM engineering platform. - Berlin or EU hybrid (Engineering roles) / US-fully remote (Product & Marketing roles) - ~1 week onsite in Berlin every 2 months — trave",
+    "url": "https://news.ycombinator.com/item?id=49609343",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m72",
+    "summary": "开源 LLM 工程平台 Langfuse 被 ClickHouse 收购后大举招 PM/工程师/DevRel——LLM 可观测性这条赛道正在被基础设施巨头整合，相关工程岗会持续放量。"
+   },
+   {
+    "title": "Interested in the Full Stack AI Engineer role. I build agentic systems in Python",
+    "desc": "Interested in the Full Stack AI Engineer role. I build agentic systems in Python: a 5-agent LangGraph trading pipeline (Data Collector → Technical/Sentiment Analysts → Portfolio Manager → Risk Manager) running hourly on live CCXT data and LLM sentiment, plus a semantic cache gateway in front of the LLM calls (live: semantic-cache-6qvc.onrender.com). I've also built agent evals and a job-aggregatio",
+    "url": "https://news.ycombinator.com/item?id=49727530",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m53",
+    "summary": "HN 上求职者自荐时展示的是「5-agent LangGraph 交易流水线 + 语义缓存网关 + agent evals」——个人作品集的默认标配已经变成一套能跑起来的多 Agent 系统，而不是一个 GitHub 小工具。"
+   },
+   {
+    "title": "This company contacted me; turns out they just want AI data labelers. One of the",
+    "desc": "This company contacted me; turns out they just want AI data labelers. One of the strangest interview/HM calls I've ever had.",
+    "url": "https://news.ycombinator.com/item?id=49571866",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m80",
+    "summary": "HN 招聘帖下有人吐槽「联系我的公司其实只想招 AI 数据标注员」，配合到处可见的 AI 生成 JD 和 AI 生成简历（m54、m65、m85、m86）——招聘流程正在被 AI 双向灌水，信息噪音本身成了市场的一个新问题。"
+   }
+  ],
+  "week": "2026-W39"
+ },
+ "llm_used": true,
+ "degraded": []
+}
