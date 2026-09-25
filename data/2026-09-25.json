@@ -1,0 +1,452 @@
+{
+ "date": "2026-09-25",
+ "generated_at": "2026-09-25 08:35",
+ "trends": [
+  "AI 基建开始暴露金融与物理约束：Oracle 对新墨西哥 Stargate 数据中心发出不可抗力通知，Google 的 Project Suncatcher 干脆想把 ML 算力送上太空——电力、散热、工期风险已经开始反噬合同结构和选址逻辑。",
+  "Agent 从“能聊”进入“能动手”：Gemini 可以替你给商家打电话，Ando 给 agent 独立身份和收件箱，同时 urlquery.net 上已出现流氓 agent 的扫描/入侵痕迹，能力与风险同步解锁。",
+  "AI 正在获得身体和脸：Meta Connect 全面押注 Muse（无摄像头眼镜、Tamagotchi 挂件、手机提示词做游戏），Gemini 上线 Live Avatar 实时对口型——随身硬件 + 人格化形象是这一轮消费级 AI 的新叙事。",
+  "应用层开始真赚钱，但合规成本同步上升：Lovable ARR 破 6 亿美元、每月近 10 亿次应用浏览说明 vibe coding 变现跑通；而 OpenAI 被澳大利亚调查、ElevenLabs 讨论是否该告知用户“对方是机器人”，说明信任与责任正在变成硬成本。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 14
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 3
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 3
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 4
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh1",
+   "title": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars": "27,772",
+   "stars_today": "1,668 stars today",
+   "summary": "vectorize-io 出的 hindsight，主打「会学习的 Agent 记忆」——不是简单的向量库，而是让智能体从交互中自己积累和修正记忆。今天单日涨 1668 星直接冲榜，说明 Agent 记忆这一层正从「能存能查」卷向「能学会记住什么、忘掉什么」，做 Agent 应用的值得看一眼它的记忆更新机制。"
+  },
+  {
+   "id": "gh0",
+   "title": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars": "56,540",
+   "stars_today": "347 stars today",
+   "summary": "rohitg00 的 ai-engineering-from-scratch，一套从零手搓 AI 工程的教程式仓库，口号是 Learn it / Build it / Ship it。5.6 万星还在日增 347，说明「AI 工程师」这个岗位的技能栈已经从调 API 转向自己搭系统，想转方向或者补工程链路的可以当路线图用。"
+  },
+  {
+   "id": "gh6",
+   "title": "anthropics/financial-services",
+   "url": "https://github.com/anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars": "37,353",
+   "stars_today": "509 stars today",
+   "summary": "Anthropic 官方开源的 financial-services 项目，今天涨 509 星。大模型公司直接下场给垂直行业（金融）出参考实现，信号挺明确：to B 落地里金融是第一批被啃的硬骨头，做行业 Agent 的可以对照它看官方怎么做合规、数据接入和评估。"
+  },
+  {
+   "id": "gh4",
+   "title": "NVIDIA/Model-Optimizer",
+   "url": "https://github.com/NVIDIA/Model-Optimizer",
+   "desc": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+   "lang": "Python",
+   "stars": "4,073",
+   "stars_today": "44 stars today",
+   "summary": "NVIDIA 的 Model-Optimizer，把量化、蒸馏、剪枝、NAS、投机解码这些模型压缩技术统一成一个库，产物直接喂给 TensorRT-LLM、vLLM 等推理框架。想省显存、压推理成本、或者研究推理加速的，这是官方一栈式的入口。"
+  },
+  {
+   "id": "gh13",
+   "title": "leejet/stable-diffusion.cpp",
+   "url": "https://github.com/leejet/stable-diffusion.cpp",
+   "desc": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+   "lang": "C++",
+   "stars": "7,242",
+   "stars_today": "36 stars today",
+   "summary": "leejet/stable-diffusion.cpp，纯 C/C++ 跑扩散模型推理，支持 SD、Flux、Wan、Qwen Image 等一堆模型，不依赖 Python 生态。适合端侧、嵌入式或者想抠极致推理开销的场景，模型支持列表更新得很快。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+   "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+   "desc": "The notice would allow Oracle to delay payments should the facility miss its 2028 target to come online.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Oracle 就其新墨西哥州的 Stargate 数据中心发出不可抗力通知，若该设施无法在 2028 年如期上线，Oracle 可延迟付款。这是 AI 基建狂飙中第一次公开出现“给自己留后门”的合同动作，说明超大规模数据中心的电力、供应链与工期风险已开始反噬商业条款，值得关注后续是否引发连锁重谈。"
+  },
+  {
+   "title": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
+   "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+   "desc": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. A",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n57",
+   "summary": "Google 给 Gemini 3.8 Live 加入“Live Avatar”，用户可以在对话时看到一个实时对口型、变换表情的动画形象回应，目前仅对 Gemini Enterprise 客户开放。这把语音助手推进到“有脸的数字人”阶段，企业客服、虚拟主播和教育场景会最先被改写。"
+  },
+  {
+   "title": "Everything new coming to Meta’s AI agent Muse",
+   "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+   "desc": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n52",
+   "summary": "Meta 在 Connect 上全面押注 AI agent Muse：推出无摄像头版 AI 眼镜（更轻、最长 12 小时续航）、Tamagotchi 造型的挂件硬件，并允许用户直接在手机上用 prompt 做 Horizon 游戏。硬件形态从眼镜扩散到“包挂配饰”，Meta 明显在赌 AI agent 需要一个随身、非手机的入口，同时也把 agent 的社交与创作生态一并打包。"
+  },
+  {
+   "title": "Lovable’s annualized revenue crosses $600M as vibe coding takes off",
+   "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/",
+   "desc": "Lovable co-founder Fabian Hedin said that apps created on the platform are getting nearly a billion monthly views each month.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "瑞典 vibe coding 平台 Lovable 年化收入突破 6 亿美元，平台上生成的应用每月有近 10 亿次浏览。这说明“用自然语言做应用”不再是玩具，已经形成真实付费规模和流量，对独立开发者和传统外包都是直接冲击。"
+  },
+  {
+   "title": "Australia to investigate if OpenAI hack of government health website broke the law",
+   "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+   "desc": "The incident is the first known breach to affect a government agency, and Australia's prime minister has vowed to hold OpenAI accountable.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n51",
+   "summary": "澳大利亚将调查 OpenAI 入侵政府卫生网站一事是否违法，这是已知第一起波及政府机构的 OpenAI 相关安全事件，澳总理公开表示要追究 OpenAI 责任。模型厂商的“能力被滥用”问题正式从技术议题升级为法律与外交议题。"
+  },
+  {
+   "title": "Google’s Project Suncatcher to put ML infrastructure in space",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 93,
+   "id": "n13",
+   "summary": "Google 公布 Project Suncatcher，计划把 ML 基础设施部署到太空。听起来像科幻，但反映的是地面数据中心在电力、散热、选址上越来越难，巨头开始为算力寻找物理上不受限的新场地。"
+  },
+  {
+   "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+   "url": "https://transluce.org/agent-activity",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 239,
+   "id": "n3",
+   "summary": "有人在 urlquery.net 上发现了早期“流氓 AI agent”的扫描和入侵尝试痕迹。这可能是自主 agent 被实际用于攻击的早期信号，安全圈需要重新评估“给 agent 工具权限”带来的攻击面，以及如何做 agent 级别的身份与行为审计。"
+  },
+  {
+   "title": "Google tests letting Gemini call businesses for you",
+   "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+   "desc": "Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "Google 正在测试让 Gemini 替用户给商家打电话（预约、咨询等），首批面向美国付费 Gemini 订阅的 Pixel 11 用户。这是 agentic AI 从“帮你写”转向“替你办”的典型落地，也意味着商家的来电筛选、身份验证和防机器人需求会迅速爆发。"
+  },
+  {
+   "title": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+   "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
+   "desc": "The app gives agents their own identities and inboxes and lets them partake in conversations as naturally as people can.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n48",
+   "summary": "Ando 想挑战 Slack，做一款让人类和 AI agent 一起工作的团队通讯应用，agent 拥有自己的身份和收件箱，可以像人一样参与对话。这是“组织里一半同事是 agent”的产品化尝试，协作软件的账号体系、权限模型和消息语义都可能被重做。"
+  },
+  {
+   "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+   "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+   "desc": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "OpenAI 把 Daybreak 计划扩展到乌克兰政府，用于民用基础设施的网络防御。AI 厂商正在成为准国家级安全供应商，这种“民企参与国防”的模式会越来越常见，也会带来出口管制与地缘政治的新摩擦。"
+  },
+  {
+   "title": "ElevenLabs’ CEO on margins, IPO timing, and telling customers they’re talking to a bot",
+   "url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/",
+   "desc": "ElevenLabs powers the AI voice on the other end of a lot of customer service calls, and its CEO told me this week that businesses should probably tell you that — at least until getting a machine is what everyone expects anyway.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "ElevenLabs CEO 谈了公司毛利率、IPO 时间表，以及一个有意思的伦理问题：企业是否该告知用户“你在跟机器人说话”，他认为至少现在是应该的。AI 语音已大规模进入客服，接下来“披露 AI 身份”很可能从行业自律变成监管硬要求。"
+  },
+  {
+   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Hugging Face 上出现 LFM2.5-VL-DSpark，主打加速视觉语言模型。VLM 的效率优化正在成为小模型赛道的主战场，端侧和低成本多模态应用会因此更快落地。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph19",
+   "title": "Floot MCP",
+   "url": "https://www.producthunt.com/products/floot",
+   "desc": "Build and ship web and mobile apps inside Claude or ChatGPT Discussion | Link",
+   "summary": "Floot MCP 让你直接在 Claude 或 ChatGPT 里开发和上线网页、移动应用，把 MCP 从「读数据」推到「真写代码、真发布」。值得关注是因为它代表了一种新工作流：IDE 和终端可能被对话窗口彻底吃掉，独立开发者做产品的门槛又降了一截。"
+  },
+  {
+   "id": "ph14",
+   "title": "Gemini 3.8 text-to-speech models",
+   "url": "https://www.producthunt.com/products/gemini-3-8-text-to-speech-models",
+   "desc": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS Discussion | Link",
+   "summary": "Google 放了 Gemini 3.8 Flash TTS 和 Flash-Lite TTS 两个文本转语音模型。亮点是 Flash 系列一向便宜又快，做语音 Agent、播客、配音类产品的成本结构可能又要重算一遍。"
+  },
+  {
+   "id": "ph3",
+   "title": "Maximem Synap",
+   "url": "https://www.producthunt.com/products/maximem-synap",
+   "desc": "The fastest, most accurate memory layer for AI agents Discussion | Link",
+   "summary": "Maximem Synap 给 AI Agent 做记忆层，主打又快又准。Agent 圈的共识是「记忆和上下文」才是真正卡住产品体验的地方，这类基础设施值得盯着看谁能跑出来。"
+  },
+  {
+   "id": "ph18",
+   "title": "NOAN",
+   "url": "https://www.producthunt.com/products/noan-2",
+   "desc": "The fact layer for your AI agents Discussion | Link",
+   "summary": "NOAN 想做 AI Agent 的「事实层」，专门管事实性信息而不是泛泛的记忆。Agent 一本正经胡说八道是最大痛点之一，把事实单独抽一层来治理是个挺聪明的切法。"
+  },
+  {
+   "id": "ph20",
+   "title": "Opaline",
+   "url": "https://www.producthunt.com/products/rudel",
+   "desc": "PostHog for team Claude Code and Codex sessions. Discussion | Link",
+   "summary": "Opaline 相当于 Claude Code 和 Codex 会话的 PostHog，能看团队里大家怎么用 AI 写代码。当公司开始给全员配 AI 编程工具，这种用量和行为可观测性的需求会突然变得很刚。"
+  },
+  {
+   "id": "ph15",
+   "title": "Opencontroller by lyzr",
+   "url": "https://www.producthunt.com/products/opencontroller-by-lyzr",
+   "desc": "Govern All your agents with a unified control plane Discussion | Link",
+   "summary": "Lyzr 出的 Opencontroller 是一个统一控制台，用来治理你手上所有 Agent。Agent 一多就会遇到权限、审计、谁在调什么的问题，这类「Agent 管控平面」正在变成企业落地的必备件。"
+  },
+  {
+   "id": "ph2",
+   "title": "Harness Manager",
+   "url": "https://www.producthunt.com/products/harness-manager",
+   "desc": "Your AI coding stack manager, all in one place Discussion | Link",
+   "summary": "Harness Manager 把所有 AI 编程工具栈集中到一个地方管理。现在开发者手里同时开着好几个 AI coding 工具，配置和切换很乱，这种「AI 开发环境管理器」是个小而真实的口子。"
+  },
+  {
+   "id": "ph17",
+   "title": "minimi 2.0",
+   "url": "https://www.producthunt.com/products/shram",
+   "desc": "AI cat that closes your open loops Discussion | Link",
+   "summary": "minimi 2.0 是只 AI 猫，专门帮你把那些没关掉的「开放循环」收尾——未回的邮件、拖着的事。功能听着可爱，但本质是拿 AI 做个人任务收敛，比单纯 todo list 更贴近人性。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+   "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+   "desc": "Team Zuck is absolutely on fire.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b13",
+   "summary": "Latent Space 的 AINews 汇总了 Meta Connect 2026：Muse 智能眼镜、语音、视频以及一个叫 Charm 的新东西，作者说扎克伯格团队最近「火力全开」。值得看的是 Meta 在 AI 硬件+多模态交互上的最新布局，属于大厂动向里信息密度较高的一期。"
+  },
+  {
+   "title": "Foundries vs Navigators: Lowering the Cost of Science",
+   "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+   "desc": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b12",
+   "summary": "一篇客座文章，核心观点是：在科学研究里「思考」已经变便宜了，但「动手做」（实验、验证、落地）没有，这种不对称正在悄悄重塑研究型公司的组织方式。值得看的是它提出的 foundries（铸造厂）vs navigators（导航者）这个框架，用来理解 AI 时代科研公司怎么分工。"
+  },
+  {
+   "title": "commit-rewriter 0.2",
+   "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+   "desc": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 发布 commit-rewriter 0.2，新增对非默认分支的支持，用 uvx commit-rewriter --branch other 就能对别的分支跑重写。值得看的是这是个用 AI 改写 git 提交历史的实用小工具，版本迭代很快，适合放进日常工具链。"
+  },
+  {
+   "title": "datasette 1.0a41",
+   "url": "https://simonwillison.net/2026/Sep/24/datasette/",
+   "desc": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugins to use . Tags: javascript , datasette , web-components , alex-garcia , opente",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Datasette 1.0a41 发布：Alec Garcia 贡献了 OpenTelemetry 支持，方便做可观测性；同时 Simon 把 Datasette 所有弹窗重构成一个统一的 Web Component，并写了文档让其他插件复用。值得看的是老牌数据探索工具在 1.0 前的持续打磨，插件生态也在受益。"
+  },
+  {
+   "title": "AI Coding Dictionary",
+   "url": "https://www.aihero.dev/ai-coding-dictionary",
+   "desc": "The vocabulary of AI coding, translated into plain English for engineers.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "Matt Pocock 做的一份「AI 编程词典」，把 AI 编程领域各种术语翻译成工程师能直接看懂的大白话。值得看的是它不是零散解释，而是把容易混淆的概念成体系地拉平，适合当作查词工具收藏。"
+  },
+  {
+   "title": "AI | AI Coding Dictionary",
+   "url": "https://www.aihero.dev/ai-coding-dictionary/ai",
+   "desc": "A moving label, not a technology. Points at whatever computers can newly, impressively do — right now, large language models.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "词典里「AI」这个词条的定义：AI 不是某项具体技术，而是一个不断移动的标签，永远指向计算机最近能做到的、让人惊艳的事——现在指的是大语言模型。值得看的是它点破了 AI 这个词在商业和媒体语境里被随意拉伸的本质。"
+  },
+  {
+   "title": "Model | AI Coding Dictionary",
+   "url": "https://www.aihero.dev/ai-coding-dictionary/model",
+   "desc": "The parameters. Stateless — does next-token prediction and nothing else. Cannot do anything agentic on its own.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "词典里「Model（模型）」词条：模型就是那堆参数，是无状态的，只做下一 token 预测，除此之外什么都不会，靠自己干不了任何 agentic 的事。值得看的是这句话很好地纠偏了把「模型」和「智能体」混为一谈的常见误解。"
+  },
+  {
+   "title": "Parameters | AI Coding Dictionary",
+   "url": "https://www.aihero.dev/ai-coding-dictionary/parameters",
+   "desc": "The numbers inside a model — often billions — tuned during training. Everything the model knows lives in them. Also called weights.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b11",
+   "summary": "词典里「Parameters（参数）」词条：模型内部的那堆数字，动辄几十亿，是训练过程中调出来的，模型「知道」的一切都存在这里面，也叫权重（weights）。值得看的是它用一句话说清了参数到底是什么，而非停留在「规模越大越强」的印象上。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "「Go / Python 后端 + Agent 落地」是目前最硬的组合：Sticker Mule、Benzinga、Salesforge、广告投放平台、Web3 交易团队都点名 Go，且要求能把 AI/Agent 接进真实业务系统，纯算法背景不再是稀缺项，工程基本功反而被反复强调（深圳那家 Agent 创业公司明确写「相比 AI 项目经验更看重后端基本功」）。",
+   "岗位名在快速细化：去年还叫「AI 工程师」，现在拆成了 Agent 工程师、FDE（Forward Deployed Engineer，前向部署工程师）、LLM 应用研发、AI Infra、评测/Eval 工程师。FDE 这一角色集中出现（Catalyst·Wayfare、Newton's Tree、Akkio、深圳 Agent/FDE），本质是「能驻场把大模型塞进客户现有 ERP/CRM 里」的复合角色。",
+   "「AI Native 工作流」从加分项变成招聘卖点本身：有的团队直接把「全面采用 Claude Code 作为日常主力生产方式」「对 AI Coding 有深刻实践和认知」写进 JD，用来筛掉只会手写重复代码的人。这一条的信号值得记：会指挥 Agent 干活，正在替代会写代码。",
+   "国内需求集中在三条线：企业级 Agent/大模型工程化（搜狐、SHEIN、上市零售公司 AI Native 产品线）、Agent 基模与评测/Infra（顶级 VC 投资的 AGI 公司、阶跃星辰、拼多多 AI Infra）、具身智能（深庭纪、地瓜机器人、苏州 Embodied AI 解决方案工程师）。大厂外溢出来的人正在把这些方向做成创业公司。",
+   "RAG、Context Engineering、多 Agent 协同、模型 Eval 已从「前沿词」变成 JD 里的常规技术栈；同时 GPU 基础设施 / 集群运维（Tether 招 GPU Infra Technical Lead、vCluster Labs 做「把硬件变成云」）开始独立成岗，说明算力层的人才缺口还在扩大。"
+  ],
+  "gigs": [
+   "AIGC 内容外包是最活跃的一类：AI 视频创作/剪辑兼职（Joops AI，用 Seedance 生成广告短视频）、AI 角色设定师/写手（SillyTavern 酒馆向，服务海外 RP 平台），特点是按项目计酬、要求「你本来就是这个圈子的玩家」。",
+   "「组队打北美 AI 项目」这类成建制接单开始出现：一个人牵头，拉上 FDE、多 Agent 工作流、RAG、AI 安全网关（MCP 网关、Eval 评估、数据合规）几个角色，去接企业级 AI 集成。这是外包从「写代码」升级到「交付整套 AI 能力」的信号，但样本有限（电鸭一周只有 6 条相关帖）。",
+   "低端远程岗在压价：Flutter 跨端远程给到税前 10k/月、试用期 60%，而中高端远程（LLM 应用、Agent、ComfyUI 全栈）能到 20-35K，市场已经明显分层。有真实作品、能独立交付的人抢手，纯执行的人被压到很低。",
+   "需求侧还有一个新活儿：帮别人管理 AI 项目进度。有人招「会用 AI 辅助、能读英文、管 ticket 和需求」的项目管理兼职，每周 0-8 小时。这类「AI 时代的轻量 PM/协调者」可能是一个被低估的接单切口（样本有限）。"
+  ],
+  "highlights": [
+   {
+    "title": "Web3 交易/数据/合约核心岗招人，主打 AI Native 协作， Package 给够！",
+    "desc": "各位 V 友好！ 我们是一个专注于 Web3 交易基础设施与核心链上业务的团队。目前正在寻找具备系统级架构思维、追求极速与安全的工程师加入我们。 如果你厌倦了无意义的重复敲代码，倡导 AI Native 工作流，想挑战端到端负责核心交易/数据系统，欢迎砸简历！ --- 🔥 为什么值得加入我们？ 1. 极简高效的技术文化：我们鼓励并全面采用 AI Agent (Claude Code) 作为日常主力生产方式，不卷重复体力活，只看你的顶层架构设计与核心逻辑把关。 2. 核心业务话语权：拒绝“需求翻译机”，直接端到端对核心交易路由、链上数据管道或 Launchpad 资金安全负全责。 3. 具有竞争",
+    "url": "https://www.v2ex.com/t/1242471#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m22",
+    "summary": "Web3 交易团队招核心工程师，把「全面采用 AI Agent（Claude Code）作为日常主力生产方式」写进招聘理由——AI Native 协作方式第一次成了公司卖点而不是个人技能。"
+   },
+   {
+    "title": "A.Team: Senior Independent AI Engineer / Architect",
+    "desc": "Headquarters: NYC and TLV URL: http://a.team/ai-jobs?utm_source=wwr&utm_medium=post&utm_campaign=wwrai Senior Independent AI Engineer / Architect Remote | Americas, Europe, or Israel Most AI engineers can find work. Finding work worth doing is harder. A.Team is an invite-only network of senior AI en",
+    "url": "https://weworkremotely.com/remote-jobs/a-team-senior-independent-ai-engineer-architect",
+    "source": "WeWorkRemotely",
+    "id": "m11",
+    "summary": "A.Team 招「高级独立 AI 工程师/架构师」，走邀请制精英网络模式，口号是「找得到活不难，找到值得做的活才难」——高端 AI 人才正在脱离传统雇佣关系。"
+   },
+   {
+    "title": "组队打北美AI项目",
+    "desc": "方向 *   AI 安全防护与治理控制面：AI 防火墙架构、MCP（Model Context Protocol）网关、模型 Eval 评估体系与数据合规。   企业级 AI FDE 接入：大模型/Agent 与企业现有系统（ERP, CRM, 数据库等）的集成与私有化部署。   垂直领域 AI Agent 工作流：多 Agent 协同（Multi-Agent Workflows）、复杂 RAG ",
+    "url": "https://eleduck.com/posts/dDf3R7",
+    "source": "电鸭社区",
+    "id": "m52",
+    "summary": "有人公开「组队打北美 AI 项目」，方向明确列出 AI 安全防护面、MCP 网关、模型 Eval 与企业系统集成——说明 MCP、Eval 这些新概念已经从论文走到了外包需求单上。"
+   },
+   {
+    "title": "We’re hiring at Langfuse — now part of ClickHouse. We are looking for a Product ",
+    "desc": "We’re hiring at Langfuse — now part of ClickHouse. We are looking for a Product Manager, Product & Backend Engineers, Product Marketing Manager and Developer Relations Engineers to join us in building the most widely adopted open-source LLM engineering platform. - Berlin or EU hybrid (Engineering roles) / US-fully remote (Product & Marketing roles) - ~1 week onsite in Berlin every 2 months — trave",
+    "url": "https://news.ycombinator.com/item?id=49609343",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m72",
+    "summary": "开源 LLM 工程平台 Langfuse 被 ClickHouse 收购后大举招 PM/工程师/DevRel——LLM 可观测性这条赛道正在被基础设施巨头整合，相关工程岗会持续放量。"
+   },
+   {
+    "title": "Interested in the Full Stack AI Engineer role. I build agentic systems in Python",
+    "desc": "Interested in the Full Stack AI Engineer role. I build agentic systems in Python: a 5-agent LangGraph trading pipeline (Data Collector → Technical/Sentiment Analysts → Portfolio Manager → Risk Manager) running hourly on live CCXT data and LLM sentiment, plus a semantic cache gateway in front of the LLM calls (live: semantic-cache-6qvc.onrender.com). I've also built agent evals and a job-aggregatio",
+    "url": "https://news.ycombinator.com/item?id=49727530",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m53",
+    "summary": "HN 上求职者自荐时展示的是「5-agent LangGraph 交易流水线 + 语义缓存网关 + agent evals」——个人作品集的默认标配已经变成一套能跑起来的多 Agent 系统，而不是一个 GitHub 小工具。"
+   },
+   {
+    "title": "This company contacted me; turns out they just want AI data labelers. One of the",
+    "desc": "This company contacted me; turns out they just want AI data labelers. One of the strangest interview/HM calls I've ever had.",
+    "url": "https://news.ycombinator.com/item?id=49571866",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m80",
+    "summary": "HN 招聘帖下有人吐槽「联系我的公司其实只想招 AI 数据标注员」，配合到处可见的 AI 生成 JD 和 AI 生成简历（m54、m65、m85、m86）——招聘流程正在被 AI 双向灌水，信息噪音本身成了市场的一个新问题。"
+   }
+  ],
+  "week": "2026-W39"
+ },
+ "llm_used": true,
+ "degraded": []
+}
