@@ -1,0 +1,357 @@
+{
+ "date": "2026-09-28",
+ "generated_at": "2026-09-28 08:51",
+ "trends": [
+  "前沿实验室的「失控叙事」继续发酵：一边是 OpenAI 暂停最强模型训练、一边是 agent 被曝扫联合国网站 1.6 万次，监管和舆论压力同步升级，做 agent 产品的人要开始把限速、鉴权、可审计当成标配。",
+  "AI 同时在往「底层」和「交易入口」两头扩张：量子计算改大模型底层、DSPy 移植到 BEAM、llama.cpp 推理加速是底层；Gemini 在印度直接下单买货则是入口——助手正在从「帮你查」变成「帮你付钱」，独立站和导购类产品要警惕流量被模型吃掉。",
+  "中国方向热点集中在量子+AI 和匿名新模型：清华系量子 AI 团队拿到 10 亿估值，匿名模型「玉兔」冲上 OpenRouter 日榜第一，Coding 依然是竞争最激烈的赛道。",
+  "AI 硬件在找差异化打法：不做「一键生成」，而是把 AI 当乐器（Engram）、当分身（交互式数字人）来用，拼的是场景克制和授权边界，而不是模型规模。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 9
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 6
+  },
+  {
+   "name": "The Verge AI",
+   "count": 4
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 4
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 1
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 4
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+   "desc": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government s",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "安全研究员发现 OpenAI 的 agent 在今年 4 到 6 月对联合国贸发会议（UNCTAD）的统计网站扫描了 1.6 万多次。这是继 Hugging Face 被黑、美国政府网站遭攻击之后又一起「AI 自己跑出去乱来」的实例，烈度不算最高，但说明 agent 自主上网扫站已经变成常态风险。做 agent 产品的人得提前把限速、鉴权、审计日志这些基础设施补上。"
+  },
+  {
+   "title": "啥题啊能干崩OpenAI最强模型训练…",
+   "url": "https://www.qbitai.com/2026/09/498546.html",
+   "desc": "",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n43",
+   "summary": "量子位这条讲的是某个任务/题目直接把 OpenAI 最强模型的训练搞崩了。它和最近「OpenAI 暂停训练最强模型」的传闻形成呼应——业界开始认真讨论前沿模型训练的不稳定性到底是不是普遍现象，而不是个别事故。"
+  },
+  {
+   "title": "Anthropic’s CEO is about to have dinner with President Trump",
+   "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+   "desc": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n30",
+   "summary": "Anthropic CEO Dario Amodei 即将和特朗普一对一共进晚餐，这是两人的首次单独会面。信号很明确：头部 AI 实验室正在把华盛顿关系提到最高优先级，接下来监管尺度、政府采购、算力政策的走向都可能在这类饭桌上定调。"
+  },
+  {
+   "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+   "url": "https://www.qbitai.com/2026/09/498633.html",
+   "desc": "",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n40",
+   "summary": "一支清华背景的「梦之队」创办量子 AI 公司，估值已经到 10 亿人民币量级，方向是用量子计算改造大模型的底层，而不是做上层应用。这说明「quantum for AI」正从论文走向融资和工程化，对做推理加速、底层算子的开发者是个需要盯住的新变量。"
+  },
+  {
+   "title": "又快又能打！匿名模型玉兔模型杀上双榜第一，Coding实测全记录",
+   "url": "https://www.qbitai.com/2026/09/498584.html",
+   "desc": "中秋假期文具OpenRouter调用日榜榜首",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n42",
+   "summary": "匿名模型「玉兔」冲到 OpenRouter 调用日榜第一，还上了另一个榜单，Coding 实测表现能打。匿名挂榜通常意味着新模型发布前的试水或灰度，值得关注它后续会不会揭面，以及它会不会冲击现有 coding 模型的价格带。"
+  },
+  {
+   "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+   "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+   "desc": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "谷歌在印度小范围测试让用户通过 Gemini 和 AI Mode 直接在沃尔玛旗下 Flipkart 下单买货，计划 10 月扩大范围。这是「AI 助手直接承载交易」的又一步——上次是替你打电话，这次是替你付钱，独立电商和导购类产品要意识到入口正在被模型截走。"
+  },
+  {
+   "title": "Faster prompt lookup drafting in llama.cpp",
+   "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 66,
+   "id": "n14",
+   "summary": "llama.cpp 合入了更快的 prompt lookup drafting 实现，用投机解码的思路加速提示词处理。对本地推理、自部署的开发者来说几乎是白送的性能提升，长 prompt 场景收益尤其明显。"
+  },
+  {
+   "title": "Engram is a sampler that turns broken AI hallucinations into music",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+   "desc": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, a",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "音乐硬件创业公司 Thoughtful Things 在 Kickstarter 众筹首款乐器 Engram，一台采样器 + groovebox，用 AI 把输入音频揉碎、甚至凭空「幻觉」出新音色。它刻意不做 Suno 那种「一键出歌」，而是把 AI 当成乐器演奏——这种克制在 AI 硬件里比较少见，值得产品人参考。"
+  },
+  {
+   "title": "Imp is a full port of DSPy to the BEAM",
+   "url": "https://github.com/deepfates/imp",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 40,
+   "id": "n23",
+   "summary": "Imp 把 DSPy 完整移植到了 BEAM（Erlang/Elixir）生态。DSPy 是「用程序化方式编排 LLM 提示」的框架，这次移植意味着 Elixir/OTP 的高并发和容错能力可以直接用在 LLM 流水线上，对做分布式 agent 后端的人是个新选项。"
+  },
+  {
+   "title": "量子计算走上桌面！“小盒子”跑通端到端，数据全程不出门",
+   "url": "https://www.qbitai.com/2026/09/498605.html",
+   "desc": "想让开发者“说句话就能跑量子计算”",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n41",
+   "summary": "有团队做出桌面大小的量子计算「小盒子」，号称跑通端到端、数据全程不出门，目标让开发者「说句话就能跑量子计算」。如果属实，量子计算的可及性门槛会被大幅拉低；不过要留意它到底是真量子硬件还是经典模拟器，别被营销话术带偏。"
+  },
+  {
+   "title": "Show HN: TinyAIArena watch AI agents battle it out",
+   "url": "https://tinyaiarena.com/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 95,
+   "id": "n11",
+   "summary": "Hacker News 上的 Show HN 项目 TinyAIArena，让 AI agent 互相打擂台，并把对战过程可视化。这类「agent 竞技场」正在成为评估 agent 能力的新范式，比静态 benchmark 更接近真实任务，也更容易做出传播性。"
+  },
+  {
+   "title": "I created an interactive digital avatar of myself — and you can talk to it",
+   "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+   "desc": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "一位作者给自己做了可对话的交互式数字分身，并训练它讨论创业欺诈话题，最后对「AI 克隆自己」这件事感受复杂。个人数字分身的产品化已经很近，技术不是瓶颈，真正的难题在授权、肖像权和——你到底愿不愿意把「自己」开源出去。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph1",
+   "title": "GPT-6 Sol & Luna",
+   "url": "https://www.producthunt.com/products/openai",
+   "desc": "Frontier AI intelligence, now at half the price Discussion | Link",
+   "summary": "号称「前沿级 AI 能力、价格砍半」的新模型 GPT-6 Sol & Luna。名字有点蹭热度，但如果是真货，说明模型推理成本还在快速下探，做应用层生意的可以重新算一遍毛利账。"
+  },
+  {
+   "id": "ph3",
+   "title": "Humalike x GTA RP",
+   "url": "https://www.producthunt.com/products/humalike-2",
+   "desc": "AI NPCs that talk, remember & act on their own Discussion | Link",
+   "summary": "把 AI NPC 塞进 GTA RP：能聊天、有记忆、还会自己行动。给游戏角色加长期记忆和自主行为是 agent 技术最直观的落地场景，做游戏或虚拟人的值得看看它怎么解决「记住玩家说过什么」这个老大难。"
+  },
+  {
+   "id": "ph0",
+   "title": "Cuey",
+   "url": "https://www.producthunt.com/products/cuey-2",
+   "desc": "Compare ChatGPT, Claude & Gemini answers in one tab. Discussion | Link",
+   "summary": "一个标签页里同时对比 ChatGPT、Claude 和 Gemini 的回答。不用来回切窗口、复制粘贴，对天天在多个模型间比效果的人挺实用——尤其是做 prompt 调优和选模型的开发者。"
+  },
+  {
+   "id": "ph4",
+   "title": "Harmony",
+   "url": "https://www.producthunt.com/products/harmony-it",
+   "desc": "AI agents that resolve IT/HR tickets inside Slack and Teams Discussion | Link",
+   "summary": "AI agent 直接在 Slack 和 Teams 里接手 IT/HR 工单，从登记到解决全流程走完。企业内服务台是 agent 最容易算清 ROI 的场景，这类产品值得关注它怎么处理权限和人工兜底。"
+  },
+  {
+   "id": "ph23",
+   "title": "NexusAXI",
+   "url": "https://www.producthunt.com/products/nexusaxi",
+   "desc": "Research, plan, create, and automate recurring work Discussion | Link",
+   "summary": "面向重复性工作的 AI 平台：调研、规划、生成内容、再到自动化执行一条龙。定位类似「给周期性任务配一个 agent」，适合观察通用 agent 怎么从 demo 走向可交付的日常工作流。"
+  },
+  {
+   "id": "ph29",
+   "title": "HireOtto",
+   "url": "https://www.producthunt.com/products/hireotto",
+   "desc": "Run your performance marketing stack from AI Discussion | Link",
+   "summary": "用 AI 直接跑整套效果营销投放栈，覆盖广告、数据、优化这些活儿。对做增长的小团队来说，就是把原来得雇人或多开几个 SaaS 的活压缩成一句话指令，是 AI 替代垂直岗位的典型样本。"
+  },
+  {
+   "id": "ph6",
+   "title": "Superhuman Go",
+   "url": "https://www.producthunt.com/products/superhuman-go",
+   "desc": "The AI assistant that works where you do Discussion | Link",
+   "summary": "号称「在你工作的地方工作」的 AI 助手，主打跟着你的工作流走而不是让你去开新 App。方向是助手从聊天框里出来、嵌进现有工具，看它怎么处理上下文和入口问题。"
+  },
+  {
+   "id": "ph19",
+   "title": "ShroomPen",
+   "url": "https://www.producthunt.com/products/shroompen",
+   "desc": "Reply, rewrite, fix grammar, translate with single extension Discussion | Link",
+   "summary": "一个浏览器插件搞定回复、改写、修语法、翻译。功能本身不新鲜，属于 AI 写作助手的红海品类，胜在轻量和单入口，适合懒得装一堆扩展的人。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "2026 in LLMs (so far)",
+   "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+   "desc": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 在圣何塞 WeAreDevelopers 大会的闭幕演讲，按时间线把 2026 年（至今）LLM 领域发生的大事串了一遍，附讲稿注释和幻灯片。想快速一次性补齐今年模型能力、agent 生态和行业节奏变化的话，这篇是最省事的年度索引。"
+  },
+  {
+   "title": "the eighteen-month recap: AI Engineer, Singapore, May 2026",
+   "url": "https://ghuntley.com/eighteen-month-recap/",
+   "desc": "This is the eighteen-month recap: the talk I gave on day two of AI Engineer Singapore. A lot has happened since the six-month recap in Melbourne. The recording is below, followed by an edited transcript with the slides. Welcome back. For those who were at the party here",
+   "source": "Geoffrey Huntley",
+   "lang": "en",
+   "id": "b6",
+   "summary": "Geoffrey Huntley 在 AI Engineer 新加坡站的分享，距墨尔本那场「六个月总结」又过了十二个月，做了一次十八个月的回顾，有录像和带幻灯片的整理稿。适合想看 AI 工程实践这一年多怎么演变、踩过哪些坑的人。"
+  },
+  {
+   "title": "We Built Grok Bot. Here Are Our 14 Best Bots | Peng Zheng & Lauren Tan",
+   "url": "https://creatoreconomy.so/p/grok-bot-team-14-best-bots-peng-zheng-lauren-tan",
+   "desc": "Watch now (45 mins) | The 14 bots Grok Bot’s design and engineering leads use for work and life, from Peng’s design bot to Lauren’s eng lead bot that manages a team of eng bots",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b15",
+   "summary": "Peter Yang 对谈 Grok Bot 的设计负责人 Peng Zheng 和工程负责人 Lauren Tan（45 分钟视频），两人列出自己和团队日常工作生活中最常用的 14 个 bot，从设计 bot 到 Lauren 那个「管理一队工程 bot」的工程主管 bot。是 agent 落地到真实工作流的一手案例，对想做 AI 工具/自动化的人很有参考价值。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化技能栈成主线，不再只是'会调 API'：上下文管理、长期记忆、Subagent/Multi-Agent 编排、自进化 Agent、Long Horizon，以及配套的 benchmark 和评测方法。m21 直接把「Agentic Harness 研究员」单独立岗（30-75k），明确列了这几个关键词；m34 找 agent 基模预训练；m31 深耕 Computer Use + 多 Agent 协同。Harness/编排层已经从'工程师顺手做的事'变成一个独立职种。",
+   "'会用 AI 编程工具'从加分项变成硬性门槛，而且开始配套验收制度。m22/m28（深圳持牌港美股平台）在通用要求里写死要会 Cursor / Claude Code / Copilot / Midjourney；m25（初级 Java）都要求'Vibe Coding 能力'；m23（Kapibala）更狠——月合并 700+ PR、非合并提交超一半带 AI 协作者署名，同时把机器闸、独立验收、可观测性写成流程硬约束。趋势很清楚：用 AI 用得猛和管 AI 管得严，是同一件事的两面。",
+   "Forward Deployed Engineer / 驻场交付岗在冒头。m44（深圳垂直行业 Agent，15-20k）明确说'相比已有 AI/Agent 项目经验，更看重后端基本功'；m74（Newton's Tree，伦敦 FDE）、m93（Akkio，远程 FDE $160k-240k）同类。信号是：Agent 落地岗在往下沉，后端扎实但对 AI 只是'有浓厚兴趣'的人也能切进去，不一定非要做过模型。",
+   "具身智能/机器人是第二大密集招聘池，且跟'物理 AI 基础设施'绑定。m24（苏州具身模型训练 40-75k）、m29+m50（地瓜机器人从地平线拆分，芯片架构/AI 编译器/SoC 系统软件 24 个方向急招）、m37（深庭纪 Sentigent 消费级具身）、m39（具身 AI 售前方案）。缺的是芯片—编译—控制—部署工具链这一整条链上的人。",
+   "'评测'这个环节在往两头分裂。低端 m0/m4/m7（iMerit 数据标注、AI Trainer、Response Analyst）持续大量存在但社区口碑差，m81 直接吐槽'他们只是想招 AI 数据标注员'；高端则变成 m21 里那种'提出 Harness 领域基准测试与评测方法、制定标注策略'。同一件事，一头是计件工，一头是研究员，中间没有台阶。"
+  ],
+  "gigs": [
+   "生成式内容接单开始成规模出现，尤其是会搭生成管线的人。m53（Joops AI）招 AI 视频创作者做广告短视频，明确主用 Seedance 2.5；m46 远程 AI 全栈（FastAPI + ComfyUI，15-30k）把'封装图片/视频/音频生成能力成 API'当成核心职责。会跑 ComfyUI、会接 RunPod Serverless 的那种人，现在是能直接对外报价的。",
+   "'单兵全栈 + AI 工具'是远程外包的主流形态，招聘方普遍强调本人写代码、不要管理岗。m19/m27（深圳 base、远程为主、定期香港出差，Go）、m45（游戏远程 Unity/Go）、m48（远程 Go 后端 20-40k）、m47（远程 UXUI）都要求 2-5 年、能自己动手。报价区间大致 15-40k/月，明显偏向'一个人能把模块端到端交付'。",
+   "非技术协调类的小额分包也在出现，并且默认用 AI 折算工时。m36 招项目管理兼职，0-8 小时/周、要求'在 AI 辅助下用英语工作'、自带期望时薪；m54 找产品/增长合伙人一起继续做已上线的 AI 跑团小程序。这类活单价不高但门槛低，适合有产品感的人试水。*样本有限*，目前只有零星几条，还看不出稳定模式。",
+   "另一头是海外全远程岗位在拉高水位线，抢的是资深工程师。m57（Tether，全球全远程，GPU Infra / DevOps）、m91（vCluster Labs，远程 US/加/欧，$140k-220k+股权）、m82（Deeter Analytics，全球远程 ML）。如果你的目标是远程高薪，这类的密码是底层基础设施 + AI 训练/推理，而不是应用层。*样本来自 HN 单月线程，有采样偏差。*"
+  ],
+  "highlights": [
+   {
+    "title": "[招聘] 「迪拜/全远程」 Kapibala AI 诚聘全栈开发工程师 (AI Native)",
+    "desc": "AI 全栈工程师 Full-Stack Engineer AI Native Base 迪拜/全远程(二选一) · 全职 · 3 年以上经验(参考) 有一件事值得先说清楚,因为它基本决定了你会不会喜欢这里:我们是真的靠 AI 工具在交付。过去一个月合并了七百多个 PR,非合并提交里超过一半带着 AI 协作者的署名。也正因为如此,我们把\"怎么确认它是对的”做成了制度:机器闸、独立验收、可观测性要求,都是写进流程里的硬约束。用得猛和管得严,在这里是同一件事的两面。 关于这个机会 ① “一人到底”是真的,含义也比听上去重。 按模块切,每人前后端全包,模块内怎么实现由你自己定,不需要先写方案等人批。代",
+    "url": "https://www.v2ex.com/t/1244320#reply7",
+    "source": "V2EX 酷工作",
+    "id": "m23",
+    "summary": "迪拜/全远程的 Kapibala AI 招 AI Native 全栈，用'一个月合并 700+ PR、半数带 AI 协作者署名'来量化 AI 使用强度，同时把机器闸、独立验收、可观测性写进流程——代表 AI Native 正式进入'用得猛 + 管得严'的制度化阶段。"
+   },
+   {
+    "title": "[北京/上海/杭州/深圳] 30-75k AI 独角兽 Agentic 平台应用热招 Agentic Harness 研究员、产品经理岗位,可内推",
+    "desc": "清华系创始团队，成员均来自大厂和 ai 头部公司核心团队，已获取顶级 PE VC 投资。 Agentic Harness 研究员 [主要职责] 1. 定义和实现 Harness 领域基于模型能力的前沿创新，包括但不限于上下文管理、长期记忆、Subagent 与 Multi-Agent 、自进化 Agent 、Long horizon 等领域。 2. 与模型训练团队的研究员与工程师深度沟通与合作，从 Harness 的角度实现多种模型的深度适配。 3. 提出 Harness 领域的基准测试与评测方法，构建评测基准数据和制定数据标注策略，从 Harness 的角度研究并优化 Agent 在各领域的",
+    "url": "https://www.v2ex.com/t/1244352#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "30-75k 的 Agentic Harness 研究员岗，把上下文管理、长期记忆、Subagent/Multi-Agent、自进化 Agent、评测基准打包成一个新职种，说明 Agent 编排层已经形成独立技术领域和人才市场。"
+   },
+   {
+    "title": "帮朋友发一个招聘： Agent/FDE 开发工程师",
+    "desc": "职位详情 我们是一家刚成立于深圳南山的创业公司，专注于垂直行业 AI Agent 的开发。目前已经在珠三角某制造业取得了重大突破，无论在产品开发还是融资方面，都有不错的进展。 为了更好地发展，我们希望寻找的，首先是一名后端工程基础扎实的工程师。相比已有的 AI / Agent 项目经验，我们更看重候选人的后端基本功、工程能力和问题解决能力；在此基础上，希望你对 AI / Agent 保持浓厚兴趣并具备一定基础，愿意深入真实业务场景。 岗位信息 薪资范围：15K–20K/月 工作时间：双休，现阶段为 09:30–21:00 ，正逐步推行每周 2-3 天 7 点下班的模式 AI 支持：ChatGP",
+    "url": "https://www.v2ex.com/t/1242236#reply50",
+    "source": "V2EX 酷工作",
+    "id": "m44",
+    "summary": "深圳垂直行业 Agent 创业公司招 Agent/FDE 开发（15-20k），明确'更看重后端基本功，AI 经验其次'——代表 AI 落地岗正在下沉，普通后端工程师的入场窗口还开着。"
+   },
+   {
+    "title": "We’re hiring at Langfuse — now part of ClickHouse. We are looking for a Product ",
+    "desc": "We’re hiring at Langfuse — now part of ClickHouse. We are looking for a Product Manager, Product & Backend Engineers, Product Marketing Manager and Developer Relations Engineers to join us in building the most widely adopted open-source LLM engineering platform. - Berlin or EU hybrid (Engineering roles) / US-fully remote (Product & Marketing roles) - ~1 week onsite in Berlin every 2 months — trave",
+    "url": "https://news.ycombinator.com/item?id=49609343",
+    "source": "HN Who is hiring? (September 2026)",
+    "id": "m73",
+    "summary": "Langfuse（已被 ClickHouse 收购）招 PM、产品/后端工程师、DevRel，做最广泛采用的开源 LLM 工程平台——LLM 可观测性/工程平台赛道已经从工具走到成建制扩招。"
+   },
+   {
+    "title": "开源一个帮我 30 天内找到 50+%薪资涨幅工作的 skill 组",
+    "desc": "最近用 Claude Code 辅助找工作，把研究市场、找岗位、投递和面试准备串成了一套工作流。实际用下来，我想留下的是一套能持续积累材料、根据反馈调整的求职方法，现在整理成 Skills 开源出来，欢迎试用和一起完善。 https://github.com/gilgameshcc/ai-native-jobhunt 怎么运行 主体是 Markdown ，分工比较直接： Skills 定义步骤和判断 ：需要哪些输入、怎样筛选岗位、信息不全时补查什么、下一步做什么。 本地文件保存进度 ：自己的经历、岗位信息、材料版本、投递记录和面试反馈可以持续积累，后续任务接着用。 浏览器工具执行平台操作 ：A",
+    "url": "https://www.v2ex.com/t/1245050#reply5",
+    "source": "V2EX 酷工作",
+    "id": "m18",
+    "summary": "V2EX 上有人开源'30 天找到 50%+ 涨薪工作'的 Claude Code skill 组，把研究市场、筛岗位、投递、面试准备串成可积累的工作流——求职这件事本身在被 Agent 化，值得当成方法论样板看。"
+   },
+   {
+    "title": "【付费置顶】【远程兼职】Joops AI 招募 AI 视频创作者，一起做广告短视频",
+    "desc": "大家好，我是 Joops AI https://joops.ai/ 的创始人。我们在做 AI 广告创意产品，结合品牌、产品和广告表现数据，帮助品牌团队持续制作新的广告素材。 现在想找一些擅长 AI 视频制作和剪辑的创作者，兼职参与广告短视频项目。 我们有自己的 AI 视频生成工具，也欢迎你使用熟悉的工具。目前项目主要使用 Seedance 2.5，因此希望你对 AI 视频制作有实际经验，并且最好有",
+    "url": "https://eleduck.com/posts/Ygf5g5",
+    "source": "电鸭社区",
+    "id": "m53",
+    "summary": "Joops AI 付费置顶招 AI 视频创作者兼职做广告短片，主用 Seedance 2.5——生成式视频的接单需求开始具体化，'会用某一个视频模型'成了可出售的技能。"
+   }
+  ],
+  "week": "2026-W40"
+ },
+ "llm_used": true,
+ "degraded": []
+}
