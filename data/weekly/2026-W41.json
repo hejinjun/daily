@@ -1,0 +1,67 @@
+{
+ "skills": [
+  "AI Agent 工程是本周绝对主线，而且开始分层：上层是 Agent 产品/应用工程师（Sticker Mule 直接叫 'AI agent engineer'，Salesforge 招 'Build AI Agents' 的后端），中层冒出 Harness 研究员——上下文管理、长期记忆、Subagent/Multi-Agent、自进化、Long horizon 被单列为研究岗（m24）；下层是大厂把 Agent Runtime 当基础设施做（腾讯云招 Sandbox/Session/Workspace/Memory/Tool，m23）。同时『评测』第一次和算法、infra 并列成独立招聘方向（m37）。",
+  "『会用 AI 工具』已经从加分项变成通用门槛，甚至下沉到初级岗：深圳券商把 Cursor/Claude Code/Copilot 写进所有岗位通用要求（m25/m31），初级 Java（12-15k）明确要『Vibe Coding 能力，熟练驾驭 Claude、Codex』（m28），成都 MCN 直接承诺『AI 不限量使用』（m20）。同时 'AI Native / AI-First / Agentic First' 开始进 job title：Magic Eden 的 AI Native Growth PM（m2）、Kapibala 的 AI Native 全栈（m26）、Wonderdog 的 Agentic First 产品工程师（m16）、Privy.pro 的 AI-First 增长工程师（m61）。",
+  "岗位画像从『精通某个技术栈』转向『端到端负责 + 快速预研』：杭州 28k+ 的岗位原文说『核心不是精通某一技术栈，而是面对没做过的方向能快速研究清楚、做出可信结果』（m33）；Kapibala 强调『一人到底』，按模块切、前后端全包、不需要先写方案等人批（m26）；Legion 招 Chief Architect 定位为『最资深的动手技术负责人』（m17）。深度不再稀缺，能在陌生领域快速闭环才稀缺。",
+  "具身智能/机器人是第二增长极，集中在芯片、编译器、SoC、控制与数据交付：地瓜机器人一口气放 24 个岗（芯片架构/AI 编译器/SoC 系统软件，m32）、苏州具身大模型 40-75k（m27）、深庭纪消费级双轮足机器人（m40）、Embodied AI 售前方案工程师（m42），海外对应 Menlo Research 开源人形（m54）、Somana Physical AI（m74）、Paradromics 脑机接口（m64）。地域上苏州/深圳/北京/上海集群明显。",
+  "后端与基础设施偏好 Go + 高并发 + 实时数据，且几乎都附带 AI 编程工具要求：链上数据/业务后端/内部系统三岗全要 Go + Kafka + 实时计算 + Cursor/Claude（m22/m30），Salesforge、Sticker Mule、Benzinga 的 AI 岗也都挂 golang（m3/m7/m8）。另外低门槛 AI 数据层稳定存在——iMerit 一家在 RemoteOK 就挂了 Video Data Annotator、Image QA Evaluator、AI Response Analyst 三个岗（m0/m4/m6），说明标注/评估仍是 AI 产业里最稳定的远程入门工作。"
+ ],
+ "gigs": [
+  "外包市场里真正『AI 含量高』的活其实不多，多数只是贴着 AI 标签：样本里最具体的几个需求是嵌入式蓝牙固件/音频工程师（m19 明确写『标准 Turnkey 方案，不涉及任何自定义 AI 算法训练』）、企业数字化转型的数据看板+RPA+流程线上化+知识库（m47），AI 只是辅助工具。样本有限，但方向上『传统软硬件外包 + AI 提效』是主流。",
+  "确定在涨的两类活：一是边缘/硬件侧 AI——TinyML 语音带宽扩展与固件开发顾问（m48）、Android 底层 + 端侧 Agent（VLM+端侧 Agent 的移动助手，m46）；二是『帮我司把 AI 用起来』的探索型短期项目，比如跟踪全球 AI 前沿开源项目、快速做成内部工具推广给全员（m49）。后者的岗位描述本身不设固定分工，属于新兴的『AI 布道+原型』混合角色。",
+  "创业型兼职合伙需求抬头，明显在用股权换人：琴澳 AI 团队找兼职 CTO/技术合伙人做端侧 AI 助手（m46）、网文 IP 孵化 SaaS『蜂巢阅读』找全栈技术合伙人（m50）。抢手的是能独立扛 MVP 的全栈，而不是专精单点的工程师。样本量小，属于信号而非趋势。",
+  "轻量协调型零工开始出现，而且默认『你会用 AI』：有人招 0-8 小时/周的兼职项目经理，明确要求『能在 AI 帮助的情况下用英语工作』，管进度、管 ticket、答客户（m39）。这类活的出现说明 AI 把个人产能放大后，一个人同时接多个外包、需要外部协调者成为真实痛点。",
+  "海外 remote contract 的价格带可参考：Search Atlas 招远程产品工程师 $23-34/小时（m85），Privy.pro 招 AI-First 增长工程师，$3,500-5,000/月、兼职转全职（m61）。整体看纯执行类外包在贬值，能自己判断『做什么、怎么验证对不对』的人更值钱。"
+ ],
+ "highlights": [
+  {
+   "title": "[北京/上海/杭州/深圳] 30-75k AI 独角兽 Agentic 平台应用热招 Agentic Harness 研究员、产品经理岗位,可内推",
+   "desc": "清华系创始团队，成员均来自大厂和 ai 头部公司核心团队，已获取顶级 PE VC 投资。 Agentic Harness 研究员 [主要职责] 1. 定义和实现 Harness 领域基于模型能力的前沿创新，包括但不限于上下文管理、长期记忆、Subagent 与 Multi-Agent 、自进化 Agent 、Long horizon 等领域。 2. 与模型训练团队的研究员与工程师深度沟通与合作，从 Harness 的角度实现多种模型的深度适配。 3. 提出 Harness 领域的基准测试与评测方法，构建评测基准数据和制定数据标注策略，从 Harness 的角度研究并优化 Agent 在各领域的",
+   "url": "https://www.v2ex.com/t/1244352#reply1",
+   "source": "V2EX 酷工作",
+   "id": "m24",
+   "summary": "清华系 AI 独角兽招『Agentic Harness 研究员』，把上下文管理、长期记忆、Multi-Agent、自进化、Long horizon 当独立研究方向——Agent 工程正在长出属于自己的技术栈和理论层，而不是『提示词工程』的延长线。"
+  },
+  {
+   "title": "Sticker Mule: AI agent engineer",
+   "desc": "Headquarters: New York, NY URL: https://www.stickermule.com Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, impro",
+   "url": "https://weworkremotely.com/remote-jobs/sticker-mule-ai-agent-engineer",
+   "source": "WeWorkRemotely",
+   "id": "m13",
+   "summary": "Sticker Mule 的岗位名就叫 AI agent engineer，职责是『build, run and manage a team of AI agents』——管理 AI agent 团队本身成了岗位本体，而不是用 AI 辅助人做事。"
+  },
+  {
+   "title": "[腾讯云][深圳/北京/上海][业务负责人直招]Agent Runtime/云原生｜实习/校招/社招",
+   "desc": "大家好，我叫 Gary ，是腾讯云 Agent Runtime 与云原生团队业务负责人。 团队目前在招 2028 届日常实习、2027 届校招，以及社会招聘。工作地点深圳 / 北京 / 上海，我会自己看简历并参与沟通。 团队做什么 我们负责腾讯云容器服务 TKE 、Serverless 和 Agent Runtime 等产品与基础设施能力。 技术范围从 CPU/GPU 、网络、存储，到虚拟机、MicroVM 、容器、Kubernetes 、调度、Serverless 、弹性和资源效率；面向 Agent ，还包括 Sandbox 、Session 、Workspace 、Memory 、Tool",
+   "url": "https://www.v2ex.com/t/1244365#reply0",
+   "source": "V2EX 酷工作",
+   "id": "m23",
+   "summary": "腾讯云 Agent Runtime 团队招实习/校招/社招，技术范围从 CPU/GPU、MicroVM、K8s 调度一直到面向 Agent 的 Sandbox、Session、Workspace、Memory、Tool——大厂已经把 Agent 运行时当云基础设施产品在做。"
+  },
+  {
+   "title": "[招聘] 「迪拜/全远程」 Kapibala AI 诚聘全栈开发工程师 (AI Native)",
+   "desc": "AI 全栈工程师 Full-Stack Engineer AI Native Base 迪拜/全远程(二选一) · 全职 · 3 年以上经验(参考) 有一件事值得先说清楚,因为它基本决定了你会不会喜欢这里:我们是真的靠 AI 工具在交付。过去一个月合并了七百多个 PR,非合并提交里超过一半带着 AI 协作者的署名。也正因为如此,我们把\"怎么确认它是对的”做成了制度:机器闸、独立验收、可观测性要求,都是写进流程里的硬约束。用得猛和管得严,在这里是同一件事的两面。 关于这个机会 ① “一人到底”是真的,含义也比听上去重。 按模块切,每人前后端全包,模块内怎么实现由你自己定,不需要先写方案等人批。代",
+   "url": "https://www.v2ex.com/t/1244320#reply13",
+   "source": "V2EX 酷工作",
+   "id": "m26",
+   "summary": "迪拜/全远程的 Kapibala 自述：过去一个月合并 700+ PR，非合并提交里超过一半带 AI 协作者署名，并把『怎么确认它是对的』做成机器闸、独立验收、可观测性的硬制度——这是目前看到的 AI-native 团队工作方式最具体的一份样本。"
+  },
+  {
+   "title": "[内推] 初级 Java 开发工程师 · 深圳南山",
+   "desc": "薪资：12-15k 14 薪 岗位职责 参与企业内部系统的后端开发与迭代 负责业务模块的接口实现，包括物料管理、工单流转、审批流等 与产品协作，实现需求上线落地 排查并修复线上问题 任职要求 ERP / MES / OA / 工作流相关系统开发经验 1-2 年 Java 后端开发经验 熟悉 Spring Boot 等主流框架，了解 RESTful API 设计规范 掌握主流数据库，具备 SQL 与非 SQL 数据库的基本使用能力 熟悉 Git ，有多人协作开发经验 对 AI 有真实理解与实践，具备 Vibe Coding 能力，能熟练驾驭 Claude 、Codex 等 AI 编程工具，真正将",
+   "url": "https://www.v2ex.com/t/1244216#reply2",
+   "source": "V2EX 酷工作",
+   "id": "m28",
+   "summary": "深圳南山 12-15k 的初级 Java 岗，任职要求里直接写『Vibe Coding 能力，能熟练驾驭 Claude、Codex 等 AI 编程工具』——AI 编程能力的要求已经下沉到最入门级别的国内岗位。"
+  },
+  {
+   "title": "Fredrin | Forward Deployed Engineers | Los Angeles, CA | REMOTE | $150k-$250k an",
+   "desc": "Fredrin | Forward Deployed Engineers | Los Angeles, CA | REMOTE | $150k-$250k annual salary Fredrin is an AI software factory for engineering teams: run many coding agents in parallel from one Kanban board, with each ticket getting its own branch, worktree, and agent session. We bring planning, execution, code review, and pull requests into one workspace. https://www.fredrin.com We're hiring forwa",
+   "url": "https://news.ycombinator.com/item?id=49934638",
+   "source": "HN Who is hiring? (October 2026)",
+   "id": "m77",
+   "summary": "Fredrin 招 Forward Deployed Engineer，产品是『从一个 Kanban 看板并行跑多个 coding agent，每个 ticket 自带 branch、worktree 和 agent session』，$150k-250k 远程——『交付工程师 + 并行 agent 工厂』正在成为新的岗位与分工形态。"
+  }
+ ],
+ "week": "2026-W41"
+}
