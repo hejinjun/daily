@@ -1,0 +1,66 @@
+{
+ "skills": [
+  "「会造 Agent」从加分项变成主业本身。过去一周 Agent engineer（Sticker Mule）、Agent Runtime（腾讯云，做沙箱/Session/Memory/Registry，承载数百万量级 Sandbox）、Agentic Harness 研究员（清华系独角兽，研究上下文管理、长期记忆、多 Agent、自进化）、Computer Use / 多 Agent 协同（北京 AI Agent 团队）密集出现——岗位横跨应用层到基础设施层，说明市场已经把 Agent 当成一个独立的工程学科在招人，而不是某个功能附带。",
+  "AI 编程工具从「加分」硬性化为「入职门槛」，而且蔓延到非 AI 岗位。深圳香港的 Go 后端、深圳南山初级 Java（明确要求 Vibe Coding、驾驭 Claude/Codex）、港美股交易平台全线岗位（设计用 MJ/SD/Figma AI，编码用 Cursor/Copilot）都把「能用 AI 工具提效」写进通用要求。这是最明确的一个变化：不会用 AI 工具正在变成筛人条件，而不是谈薪筹码。",
+  "岗位形态在往「一人全包 / 前向部署」演化。Kapibala 直接说「按模块切，每人前后端全包，模块内怎么实现自己定，不需要先写方案等人批」；Optaxa、Oscilar 招 Forward Deployed Engineer；AssumeAI 要能直接给 SME 落地产出可量化回报。公司要的不是精通某个栈的人，而是能面对客户、端到端把事交付的人。",
+  "大厂和传统行业同时出手，AI 应用落地变成常规编制。一头是蚂蚁全网数据算法、阿里安全「AI Native 重构建数据安全」（P6-P7）、SHEIN 广州深圳 20-80K、滴滴云平台、腾讯云 Agent Runtime；另一头营养品制造厂、regulated 药企、能源 SaaS、美妆 AR/CV、自闭症辅助 iOS App 都在招 AI 工程师。AI 已从互联网公司扩散成传统行业的排产需求。",
+  "具身智能 / 端侧 / 多模态是新一轮抢人点。地瓜机器人（地平线拆分）24 个岗位急招芯片架构/AI 编译器/SoC，苏州具身大模型 40-75K，Aarhus 大学招 Physical AI 博士（VLA、world model），琴澳团队找 Android 端侧 Agent（VLM+端云协同）工程师。趋势清晰：从纯软件 Agent 往「模型+硬件+真实世界」走。"
+ ],
+ "gigs": [
+  "外包主力是「传统企业 AI 改造」，活很具体也很杂。电鸭上最典型的一单要数据看板（接口不通就 RPA 抓取）、线下订单/合同/回款数据池、审批流程线上化、企业知识库——需求方是不懂技术的非科技公司，要的是能接 API、会 RPA、能用 AI 生成经营分析的复合型外包。注意：外包样本只有个位数，趋势判断样本有限。",
+  "远程岗位普遍默认你会 AI 工具，但价格分化很大。国内 AI 全栈远程兼职 5-7K/月（New API 聚合平台二次开发），海外按小时合同 £30/£50 per hour，SEO/内容类远程实习 200-300 元/天。同样的「AI 远程」，一个是白菜价一个是小时计费，差别在于交付的是平台级工程能力还是运营执行。",
+  "早期团队在拿股权/合伙人身份换兼职技术人。琴澳 AI 团队招兼职 CTO/技术合伙人做端侧「雲貓」，Deep Science Ventures 招 co-founder & CTO（AI 预测临床试验结果），都是没钱但有明确产品规划和 MVP 需求，愿意用股份替代现金。对想要参与感但不想全职下注的人是条路。",
+  "另一端也在廉价化，要看清字眼。上海景区招 AI 产品体验推广员 100 元/天（地推性质），嵌入式蓝牙固件兼职明确写「标准 Turnkey 方案、无自定义 AI」——带 AI 字样的活不都值钱，分水岭还是「是不是核心工程/算法能力」。"
+ ],
+ "highlights": [
+  {
+   "title": "Sticker Mule: AI agent engineer",
+   "desc": "Headquarters: New York, NY URL: https://www.stickermule.com Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, impro",
+   "url": "https://weworkremotely.com/remote-jobs/sticker-mule-ai-agent-engineer",
+   "source": "WeWorkRemotely",
+   "id": "m18",
+   "summary": "Sticker Mule 招 AI agent engineer，职责是「build, run and manage 一队 AI agent」——管理对象从人变成 Agent 团队，这是岗位定义层面的信号。"
+  },
+  {
+   "title": "香港公司，招聘“业务后端工程师（Go）”",
+   "desc": "Base 深圳或广州，远程为主，定期香港出差，需要 2–5 年经验、本人写代码的工程师，不招高级或管理岗，基础薪资 20K-30K。 投递请联系邮箱 ankor.wat.theme@gmail.com 业务后端工程师（Go） 3–5 年经验，本人动手写代码，不招高级或管理岗 熟练使用 Go 高并发 API 多端接口（Web / iOS / Android） 接口安全：鉴权、签名、防重放、防越权、幂等、并发一致性 熟练使用 Cursor、Claude 等 AI 编程工具 优先： 交易、支付、钱包类 API 相近背景可接受：金融、支付、高并发 SaaS 的公网 API，有接口安全经验。业务规则可入",
+   "url": "https://www.v2ex.com/t/1247345#reply8",
+   "source": "V2EX 酷工作",
+   "id": "m24",
+   "summary": "香港公司招 Go 后端，JD 明确要求「熟练使用 Cursor、Claude 等 AI 编程工具」，且注明不要高级管理岗、只要本人写代码——AI 工具熟练度已下沉到非 AI 岗位的硬性要求。"
+  },
+  {
+   "title": "[北京/上海/杭州/深圳] 30-75k AI 独角兽 Agentic 平台应用热招 Agentic Harness 研究员、产品经理岗位,可内推",
+   "desc": "清华系创始团队，成员均来自大厂和 ai 头部公司核心团队，已获取顶级 PE VC 投资。 Agentic Harness 研究员 [主要职责] 1. 定义和实现 Harness 领域基于模型能力的前沿创新，包括但不限于上下文管理、长期记忆、Subagent 与 Multi-Agent 、自进化 Agent 、Long horizon 等领域。 2. 与模型训练团队的研究员与工程师深度沟通与合作，从 Harness 的角度实现多种模型的深度适配。 3. 提出 Harness 领域的基准测试与评测方法，构建评测基准数据和制定数据标注策略，从 Harness 的角度研究并优化 Agent 在各领域的",
+   "url": "https://www.v2ex.com/t/1244352#reply1",
+   "source": "V2EX 酷工作",
+   "id": "m36",
+   "summary": "AI 独角兽招「Agentic Harness 研究员」，定义做上下文管理、长期记忆、Subagent/Multi-Agent、自进化——一个全新的职位类别正在被命名出来。"
+  },
+  {
+   "title": "[招聘] 「迪拜/全远程」 Kapibala AI 诚聘全栈开发工程师 (AI Native)",
+   "desc": "AI 全栈工程师 Full-Stack Engineer AI Native Base 迪拜/全远程(二选一) · 全职 · 3 年以上经验(参考) 有一件事值得先说清楚,因为它基本决定了你会不会喜欢这里:我们是真的靠 AI 工具在交付。过去一个月合并了七百多个 PR,非合并提交里超过一半带着 AI 协作者的署名。也正因为如此,我们把\"怎么确认它是对的”做成了制度:机器闸、独立验收、可观测性要求,都是写进流程里的硬约束。用得猛和管得严,在这里是同一件事的两面。 关于这个机会 ① “一人到底”是真的,含义也比听上去重。 按模块切,每人前后端全包,模块内怎么实现由你自己定,不需要先写方案等人批。代",
+   "url": "https://www.v2ex.com/t/1244320#reply13",
+   "source": "V2EX 酷工作",
+   "id": "m38",
+   "summary": "Kapibala 招聘页自曝「过去一个月合并 700+ PR，非合并提交里超过一半带 AI 协作者署名」，同时把机器闸、独立验收做成制度——用真实交付数据说明 AI Native 团队长什么样。"
+  },
+  {
+   "title": "​【组队合伙】琴澳 AI 团队寻 Android 底层 / 端侧 AI 工程师（兼职 CTO / 技术合伙人）",
+   "desc": "团队/项目简介 我们是一个位于琴澳地区的 AI 创业团队，正在打造一款全新的移动端个人 AI 助手——「雲貓」。 项目聚焦于端云协同架构（VLM + Android 端侧 Agent），旨在通过智能自动化交互重塑手机端体验。目前已有成熟的业务规划与前期准备，正在推进 MVP（最小可行性产品）落地。 招募岗位：兼职技术合伙人 / CTO 我们希望你具备： Android 深入开发经验：熟悉 Andr",
+   "url": "https://eleduck.com/posts/ZXfDZp",
+   "source": "电鸭社区",
+   "id": "m51",
+   "summary": "琴澳团队招「兼职 CTO / 技术合伙人」做端侧 Agent，用股权换 Android 底层+端侧 AI 能力——早期团队用合伙人身份替代现金的典型样本。"
+  },
+  {
+   "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+   "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+   "url": "https://news.ycombinator.com/item?id=49968228",
+   "source": "HN Who is hiring? (October 2026)",
+   "id": "m81",
+   "summary": "Mechanize 给 Junior SWE 开 $300k+equity 做前沿实验室的代码训练环境，SWE $350k、Research Engineer $300-400k——给 AI 实验室做环境/评测的人才溢价已经离谱到倒挂。"
+  }
+ ],
+ "week": "2026-W42"
+}
