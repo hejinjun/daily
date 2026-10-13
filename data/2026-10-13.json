@@ -1,0 +1,400 @@
+{
+ "date": "2026-10-13",
+ "generated_at": "2026-10-13 11:04",
+ "trends": [
+  "云厂商继续往算力自主上加码：微软发布第三代自研推理芯片 Maia 300，明说要降低对英伟达 GPU 的依赖；英特尔也端出带 480GB LPDDR5X 的 D270 AI 加速卡。硬件竞争的重点正从\"谁的卡算得快\"转向\"谁的内存更大、单位成本更低\"。",
+  "前沿模型进入密集发布期，拼的是能力+速度+成本三条线：Meta 用 Muse Wonder 补上旗舰模型这一环，智谱新模型标称 490 tokens/s 主打\"快\"，华为则用 RSI 思路让 AI 少操作 56% 通关 25 款游戏，展示小模型+搜索的低算力打法。",
+  "Agent 基础设施正在变成一门独立的生意：YC 的 Agent37 做低成本 agent 沙箱，Codex CLI 默认装常驻自更新后台进程，还有人融 2600 万美元做\"一直在后台听你说话\"的 App。围绕 agent 的执行环境和上下文采集，新栈正在成型。",
+  "护城河和监管同时收紧：防蒸馏攻击（不让别人拿你的 API 输出训小模型）、AI 天气预报公司拿下空军近 5000 万美元合同、中国 R&D 支出首次超过美国、微软喊英国该主导 AI 监管——竞争已从模型本身延伸到数据、法规和地缘。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 9
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 10
+  },
+  {
+   "name": "The Verge AI",
+   "count": 3
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 2
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 4
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh8",
+   "title": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "desc": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+   "lang": "Python",
+   "stars": "59,257",
+   "stars_today": "626 stars today",
+   "summary": "free-claude-code 是一个让你白嫖 Claude Code、Codex、VSCode、OpenCode 等十来个 AI 编程客户端的工具，号称有 13 亿+ 免费 token，终端、IDE、手机、浏览器都能用，还支持多模型多 harness。现在火是因为 AI 编程 agent 已经成了开发者的日常刚需，而官方订阅越来越贵，这种“聚合 + 免费额度”的方案直接戳中大家的钱包痛点。"
+  },
+  {
+   "id": "gh7",
+   "title": "microsoft/BitNet",
+   "url": "https://github.com/microsoft/BitNet",
+   "desc": "Official inference framework for 1-bit LLMs",
+   "lang": "C++",
+   "stars": "40,947",
+   "stars_today": "97 stars today",
+   "summary": "BitNet 是微软官方出的 1-bit LLM 推理框架，专门跑那种权重只有 -1/0/1 的极低位宽大模型，目标是大幅砍掉显存和算力开销。值得关注是因为它代表了“模型越做越小、越跑越省”这条路线，如果 1-bit 推理真能落地，本地跑大模型和端侧部署的门槛会被彻底改写。"
+  },
+  {
+   "id": "gh4",
+   "title": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+   "lang": "Python",
+   "stars": "155,136",
+   "stars_today": "157 stars today",
+   "summary": "open-webui 是目前最受欢迎的自托管 AI 聊天前端，能接 Ollama、OpenAI API 等各种后端，界面友好、开箱即用，star 已经飙到 15 万+。它火是因为越来越多人在本地或私有环境跑模型，需要一个不依赖厂商、数据自己攥在手里的统一入口，基本上算是自部署 LLM 的默认 UI 了。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+   "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+   "desc": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest rea",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "微软发布第三代自研 AI 芯片 Maia 300，定位为自家产品和云的\"主力推理系统\"，主打更便宜、更省电，还能跑最新推理模型。这意味着微软在主动降低对英伟达 GPU 的依赖，云厂商自研芯片这条线又往前走了一大步，长期会压一压 GPU 的议价权。"
+  },
+  {
+   "title": "Meta releases its first frontier model, Muse Wonder",
+   "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+   "desc": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n30",
+   "summary": "Meta 发布首批\"前沿\"模型 Muse Wonder（两个版本），来自重建后的 Superintelligence Labs，官方称基准分数和复杂任务（比如写代码）都能跟业界最强掰手腕。之前的 Muse Spark 走轻量低延迟路线，Wonder 则是大而强，说明 Meta 终于把\"旗舰模型\"这一块补上了，追赶节奏明显加快。"
+  },
+  {
+   "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+   "url": "https://github.com/prabanta-dev/janas",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 49,
+   "id": "n23",
+   "summary": "Janas 这个项目让本地模型跑得比内存大：把 MoE 的专家权重放在 SSD 上按需流式加载，RAM 装不下的模型也能在本机跑起来。对想用消费级硬件跑大模型的开发者来说，这是很实用的一条路，也侧面说明 MoE 架构正在催生一批新的推理基础设施。"
+  },
+  {
+   "title": "Strengthening our defenses against distillation attacks",
+   "url": "https://www.anthropic.com/research/distillation-defenses",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 8,
+   "id": "n28",
+   "summary": "一篇讲\"如何防御蒸馏攻击\"的文章（大概率出自前沿模型厂商）：核心是防止别人批量抓取你的 API 输出，去训自己的小模型。这背后是模型能力的护城河之争，也预示未来 API 条款和异常调用检测会越来越严，靠蒸馏抄近路会越来越难。"
+  },
+  {
+   "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+   "url": "https://github.com/openai/codex/issues/48195",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 484,
+   "id": "n1",
+   "summary": "Codex CLI 被发现在默认情况下会安装一个常驻、自更新的后台 daemon——装完就一直在后台跑并自己升级。对天天用命令行 AI 工具的开发者来说，这是典型的\"便利 vs 权限/隐私\"取舍，值得检查一下自己机器上多出了哪些常驻进程和网络行为。"
+  },
+  {
+   "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+   "url": "https://www.qbitai.com/2026/10/502654.html",
+   "desc": "游戏打到21:0，AI甚至不用再调用大模型了",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n43",
+   "summary": "华为用 RSI（递归自我改进）那套思路让 AI 通关了 25 款游戏，操作次数比人类少 56%，其中一局打到 21:0，后期甚至不用再调用大模型。这展示了\"小模型 + 搜索/自我博弈\"在游戏这类有明确反馈的环境里可以做到非常省算力，对 agent 训练思路有参考价值。"
+  },
+  {
+   "title": "智谱新模型，490 tokens/s！",
+   "url": "https://www.qbitai.com/2026/10/502649.html",
+   "desc": "GLM「速度仙人」来了？",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n44",
+   "summary": "智谱发布新模型，标称 490 tokens/s 的生成速度，被戏称为\"速度仙人\"。在所有 agent 和实时应用都在抠延迟和成本的当下，速度本身就是竞争力——同样质量下谁更快，谁就更容易被接进生产链路。"
+  },
+  {
+   "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+   "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 92,
+   "id": "n18",
+   "summary": "英特尔 D270 GPU AI 加速器，最高搭载 480GB LPDDR5X 内存。大内存在大模型推理里是硬通货，英特尔在 AI 加速卡上继续加码，值得关注它能给英伟达带来多大的性价比压力，以及推理场景是否会从\"拼算力\"转向\"拼显存\"。"
+  },
+  {
+   "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+   "url": "https://news.ycombinator.com/item?id=50059096",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 112,
+   "id": "n15",
+   "summary": "YC F26 批次项目 Agent37，做低成本的 agent 沙箱，专门给运行 AI agent 用。这印证了 agent 基础设施正在独立成生意：沙箱、隔离、执行环境这些\"给 agent 用的云\"，会像当年的容器云一样长出一批公司。"
+  },
+  {
+   "title": "Auto Research: Integer multiplication below n log n",
+   "url": "https://app.getsupers.com/auto-research",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 24,
+   "id": "n25",
+   "summary": "\"Auto Research\"：用自动化搜索方法找到了低于 n log n 的整数乘法算法。这类\"AI/自动搜索发现新算法\"的成果越来越多，值得关注它对数学、编译器和系统性能优化的溢出效应——自动做研究这件事正在从概念变成真实产出。"
+  },
+  {
+   "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+   "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+   "desc": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n31",
+   "summary": "用气象气球加 AI 做天气预报的初创 WindBorne，拿下美国空军近 5000 万美元的合同。这说明 AI 天气预报已经从科研玩具变成有军方真金白银买单的生意，垂直领域的 AI + 硬件组合依然能拿到大单。"
+  },
+  {
+   "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+   "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+   "desc": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather a",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n36",
+   "summary": "前 Plaud 高管创业，融资 2600 万美元做\"一直在后台听你说话\"的 AI 应用，赌的是\"越了解你就越能帮到你\"。这是 always-on 个人上下文路线，产品想象空间大，但也是隐私争议最集中的方向，能不能落地取决于信任设计。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph19",
+   "title": "Google EmbeddingGemma 2",
+   "url": "https://www.producthunt.com/products/embeddinggemma-2",
+   "desc": "An open, lightweight multimodal embedding model Discussion | Link",
+   "summary": "Google 出的开源轻量多模态 embedding 模型，主打小体积、能跑在端侧。对开发者来说这是硬通货：RAG、语义搜索、聚类这些活儿直接多了一个免费可自托管的选项，尤其适合不想被闭源 API 绑住的场景。"
+  },
+  {
+   "id": "ph11",
+   "title": "Cube Forms",
+   "url": "https://www.producthunt.com/products/cube-forms",
+   "desc": "Forms that can be filled by agents Discussion | Link",
+   "summary": "能直接被 AI agent 填写的表单——不是给人填的，是给 agent 读和写的。这是「agentic web」一个很具体的信号：以后网站的表单、下单、预约流程可能都要为 agent 重做一遍，做 To-Agent 基础设施的可以盯这条线。"
+  },
+  {
+   "id": "ph15",
+   "title": "Hexis Cloud",
+   "url": "https://www.producthunt.com/products/bevel-software",
+   "desc": "One company brain for all your AI agents Discussion | Link",
+   "summary": "给公司里所有 AI agent 共用一个「大脑」，本质是跨 agent 的共享记忆层。现在每个 agent 各记各的、上下文互相隔离是真实痛点，谁把团队级记忆这件事做顺，谁就卡在 agent 栈的关键位置。"
+  },
+  {
+   "id": "ph3",
+   "title": "ExcaliClaw",
+   "url": "https://www.producthunt.com/products/excaliclaw",
+   "desc": "Hand-drawn diagrams your AI agent can draw with you Discussion | Link",
+   "summary": "让 AI agent 和你一起在 Excalidraw 上画手绘风流程图，边聊边画。有意思的点在于它把 agent 的输出从「一段文字」变成「一张可继续编辑的图」，协作型 agent 交互的一种新玩法。"
+  },
+  {
+   "id": "ph18",
+   "title": "guilds.run",
+   "url": "https://www.producthunt.com/products/guilds-run",
+   "desc": "Create multi-agent workflows that you can trust Discussion | Link",
+   "summary": "搭可信任的多 agent 工作流，重点在「trust」——也就是编排、可控、可追溯。多 agent 现在最大的问题不是能不能跑，而是跑起来一团乱、出错查不出来，这类编排/审计层的东西会越来越重要。"
+  },
+  {
+   "id": "ph4",
+   "title": "Dropstone CLI",
+   "url": "https://www.producthunt.com/products/dropstone-cli",
+   "desc": "The self-learning coding agent for your terminal Discussion | Link",
+   "summary": "终端里的「自我学习」编程 agent，用命令行干活。coding agent 已经卷成红海，它的差异点是 self-learning，也就是会从你的代码库和历史操作里持续进化，值得看看它到底怎么积累经验。"
+  },
+  {
+   "id": "ph8",
+   "title": "Manifold MCP",
+   "url": "https://www.producthunt.com/products/manifold-mcp",
+   "desc": "SEO, AI answers, social, ads and leads data for your agent Discussion | Link",
+   "summary": "一个 MCP server，把 SEO、AI 搜索答案、社媒、广告投放和线索数据打包喂给你的 agent。意义在于 marketing 数据也开始 MCP 化，agent 生态从写代码往业务数据方向扩张。"
+  },
+  {
+   "id": "ph6",
+   "title": "Scrape Anything by Context.dev",
+   "url": "https://www.producthunt.com/products/context-dev",
+   "desc": "Turn any website into clean data with one API call. Discussion | Link",
+   "summary": "一次 API 调用把任意网站变成结构化干净数据，明摆着是给 agent 做数据入口的。爬虫+清洗+结构化这条链路被压成一个接口，做 agent 应用、需要实时网页数据的人可以省不少事。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+   "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+   "desc": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Python 3.15 正式发布，Simon 整理了「What's new in Python 3.15」要点，由 3.14/3.15 的 release manager Hugo van Kemenade 亲自把关。对他这种要兼容所有受支持版本的开源作者来说，这也意味着正式告别 3.10、可以开始用 3.11 的新特性了——想看新版本语法和标准库变化，这篇是省时间的入口。"
+  },
+  {
+   "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+   "url": "https://www.latent.space/p/claude-dynamic-workflows",
+   "desc": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "Anthropic 在 AI Engineer New York 的分享：他们的 Dynamic Workflows 怎么协调多个 Claude agent 干活，思路直接借鉴 Unix/Linux 的进程与管道哲学，让 agent 能扛更大的项目又不把开发者淹没在细节里。做 multi-agent 编排的人值得对照看看自己那套设计差在哪。"
+  },
+  {
+   "title": "web-edit 0.1a0",
+   "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+   "desc": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI f",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Simon 发布 web-edit 0.1a0：一个 Python 写的网页版文件编辑器。起因是他用 Codex Remote 在手机上干活时，想改一个存着凭据的配置文件，又不愿意让这些凭据从 LLM 里过一遍，于是干脆让 Codex 和 GPT-6 帮他造了这个 web UI。对「手机远程写代码 + 敏感信息不喂给模型」这个场景挺有参考价值。"
+  },
+  {
+   "title": "datasette-ports 0.4",
+   "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+   "desc": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "datasette-ports 插件更新到 0.4：能扫描并列出本机上所有 Datasette 实例，现在还会显示进程 PID。知道 PID 之后就能直接把 Python 3.15 的新 profiler 挂上去做性能分析，属于小而实用的运维工具更新。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "「会造 Agent」从加分项变成主业本身。过去一周 Agent engineer（Sticker Mule）、Agent Runtime（腾讯云，做沙箱/Session/Memory/Registry，承载数百万量级 Sandbox）、Agentic Harness 研究员（清华系独角兽，研究上下文管理、长期记忆、多 Agent、自进化）、Computer Use / 多 Agent 协同（北京 AI Agent 团队）密集出现——岗位横跨应用层到基础设施层，说明市场已经把 Agent 当成一个独立的工程学科在招人，而不是某个功能附带。",
+   "AI 编程工具从「加分」硬性化为「入职门槛」，而且蔓延到非 AI 岗位。深圳香港的 Go 后端、深圳南山初级 Java（明确要求 Vibe Coding、驾驭 Claude/Codex）、港美股交易平台全线岗位（设计用 MJ/SD/Figma AI，编码用 Cursor/Copilot）都把「能用 AI 工具提效」写进通用要求。这是最明确的一个变化：不会用 AI 工具正在变成筛人条件，而不是谈薪筹码。",
+   "岗位形态在往「一人全包 / 前向部署」演化。Kapibala 直接说「按模块切，每人前后端全包，模块内怎么实现自己定，不需要先写方案等人批」；Optaxa、Oscilar 招 Forward Deployed Engineer；AssumeAI 要能直接给 SME 落地产出可量化回报。公司要的不是精通某个栈的人，而是能面对客户、端到端把事交付的人。",
+   "大厂和传统行业同时出手，AI 应用落地变成常规编制。一头是蚂蚁全网数据算法、阿里安全「AI Native 重构建数据安全」（P6-P7）、SHEIN 广州深圳 20-80K、滴滴云平台、腾讯云 Agent Runtime；另一头营养品制造厂、regulated 药企、能源 SaaS、美妆 AR/CV、自闭症辅助 iOS App 都在招 AI 工程师。AI 已从互联网公司扩散成传统行业的排产需求。",
+   "具身智能 / 端侧 / 多模态是新一轮抢人点。地瓜机器人（地平线拆分）24 个岗位急招芯片架构/AI 编译器/SoC，苏州具身大模型 40-75K，Aarhus 大学招 Physical AI 博士（VLA、world model），琴澳团队找 Android 端侧 Agent（VLM+端云协同）工程师。趋势清晰：从纯软件 Agent 往「模型+硬件+真实世界」走。"
+  ],
+  "gigs": [
+   "外包主力是「传统企业 AI 改造」，活很具体也很杂。电鸭上最典型的一单要数据看板（接口不通就 RPA 抓取）、线下订单/合同/回款数据池、审批流程线上化、企业知识库——需求方是不懂技术的非科技公司，要的是能接 API、会 RPA、能用 AI 生成经营分析的复合型外包。注意：外包样本只有个位数，趋势判断样本有限。",
+   "远程岗位普遍默认你会 AI 工具，但价格分化很大。国内 AI 全栈远程兼职 5-7K/月（New API 聚合平台二次开发），海外按小时合同 £30/£50 per hour，SEO/内容类远程实习 200-300 元/天。同样的「AI 远程」，一个是白菜价一个是小时计费，差别在于交付的是平台级工程能力还是运营执行。",
+   "早期团队在拿股权/合伙人身份换兼职技术人。琴澳 AI 团队招兼职 CTO/技术合伙人做端侧「雲貓」，Deep Science Ventures 招 co-founder & CTO（AI 预测临床试验结果），都是没钱但有明确产品规划和 MVP 需求，愿意用股份替代现金。对想要参与感但不想全职下注的人是条路。",
+   "另一端也在廉价化，要看清字眼。上海景区招 AI 产品体验推广员 100 元/天（地推性质），嵌入式蓝牙固件兼职明确写「标准 Turnkey 方案、无自定义 AI」——带 AI 字样的活不都值钱，分水岭还是「是不是核心工程/算法能力」。"
+  ],
+  "highlights": [
+   {
+    "title": "Sticker Mule: AI agent engineer",
+    "desc": "Headquarters: New York, NY URL: https://www.stickermule.com Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, impro",
+    "url": "https://weworkremotely.com/remote-jobs/sticker-mule-ai-agent-engineer",
+    "source": "WeWorkRemotely",
+    "id": "m18",
+    "summary": "Sticker Mule 招 AI agent engineer，职责是「build, run and manage 一队 AI agent」——管理对象从人变成 Agent 团队，这是岗位定义层面的信号。"
+   },
+   {
+    "title": "香港公司，招聘“业务后端工程师（Go）”",
+    "desc": "Base 深圳或广州，远程为主，定期香港出差，需要 2–5 年经验、本人写代码的工程师，不招高级或管理岗，基础薪资 20K-30K。 投递请联系邮箱 ankor.wat.theme@gmail.com 业务后端工程师（Go） 3–5 年经验，本人动手写代码，不招高级或管理岗 熟练使用 Go 高并发 API 多端接口（Web / iOS / Android） 接口安全：鉴权、签名、防重放、防越权、幂等、并发一致性 熟练使用 Cursor、Claude 等 AI 编程工具 优先： 交易、支付、钱包类 API 相近背景可接受：金融、支付、高并发 SaaS 的公网 API，有接口安全经验。业务规则可入",
+    "url": "https://www.v2ex.com/t/1247345#reply8",
+    "source": "V2EX 酷工作",
+    "id": "m24",
+    "summary": "香港公司招 Go 后端，JD 明确要求「熟练使用 Cursor、Claude 等 AI 编程工具」，且注明不要高级管理岗、只要本人写代码——AI 工具熟练度已下沉到非 AI 岗位的硬性要求。"
+   },
+   {
+    "title": "[北京/上海/杭州/深圳] 30-75k AI 独角兽 Agentic 平台应用热招 Agentic Harness 研究员、产品经理岗位,可内推",
+    "desc": "清华系创始团队，成员均来自大厂和 ai 头部公司核心团队，已获取顶级 PE VC 投资。 Agentic Harness 研究员 [主要职责] 1. 定义和实现 Harness 领域基于模型能力的前沿创新，包括但不限于上下文管理、长期记忆、Subagent 与 Multi-Agent 、自进化 Agent 、Long horizon 等领域。 2. 与模型训练团队的研究员与工程师深度沟通与合作，从 Harness 的角度实现多种模型的深度适配。 3. 提出 Harness 领域的基准测试与评测方法，构建评测基准数据和制定数据标注策略，从 Harness 的角度研究并优化 Agent 在各领域的",
+    "url": "https://www.v2ex.com/t/1244352#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m36",
+    "summary": "AI 独角兽招「Agentic Harness 研究员」，定义做上下文管理、长期记忆、Subagent/Multi-Agent、自进化——一个全新的职位类别正在被命名出来。"
+   },
+   {
+    "title": "[招聘] 「迪拜/全远程」 Kapibala AI 诚聘全栈开发工程师 (AI Native)",
+    "desc": "AI 全栈工程师 Full-Stack Engineer AI Native Base 迪拜/全远程(二选一) · 全职 · 3 年以上经验(参考) 有一件事值得先说清楚,因为它基本决定了你会不会喜欢这里:我们是真的靠 AI 工具在交付。过去一个月合并了七百多个 PR,非合并提交里超过一半带着 AI 协作者的署名。也正因为如此,我们把\"怎么确认它是对的”做成了制度:机器闸、独立验收、可观测性要求,都是写进流程里的硬约束。用得猛和管得严,在这里是同一件事的两面。 关于这个机会 ① “一人到底”是真的,含义也比听上去重。 按模块切,每人前后端全包,模块内怎么实现由你自己定,不需要先写方案等人批。代",
+    "url": "https://www.v2ex.com/t/1244320#reply13",
+    "source": "V2EX 酷工作",
+    "id": "m38",
+    "summary": "Kapibala 招聘页自曝「过去一个月合并 700+ PR，非合并提交里超过一半带 AI 协作者署名」，同时把机器闸、独立验收做成制度——用真实交付数据说明 AI Native 团队长什么样。"
+   },
+   {
+    "title": "​【组队合伙】琴澳 AI 团队寻 Android 底层 / 端侧 AI 工程师（兼职 CTO / 技术合伙人）",
+    "desc": "团队/项目简介 我们是一个位于琴澳地区的 AI 创业团队，正在打造一款全新的移动端个人 AI 助手——「雲貓」。 项目聚焦于端云协同架构（VLM + Android 端侧 Agent），旨在通过智能自动化交互重塑手机端体验。目前已有成熟的业务规划与前期准备，正在推进 MVP（最小可行性产品）落地。 招募岗位：兼职技术合伙人 / CTO 我们希望你具备： Android 深入开发经验：熟悉 Andr",
+    "url": "https://eleduck.com/posts/ZXfDZp",
+    "source": "电鸭社区",
+    "id": "m51",
+    "summary": "琴澳团队招「兼职 CTO / 技术合伙人」做端侧 Agent，用股权换 Android 底层+端侧 AI 能力——早期团队用合伙人身份替代现金的典型样本。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m81",
+    "summary": "Mechanize 给 Junior SWE 开 $300k+equity 做前沿实验室的代码训练环境，SWE $350k、Research Engineer $300-400k——给 AI 实验室做环境/评测的人才溢价已经离谱到倒挂。"
+   }
+  ],
+  "week": "2026-W42"
+ },
+ "llm_used": true,
+ "degraded": []
+}
