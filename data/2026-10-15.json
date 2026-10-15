@@ -1,0 +1,457 @@
+{
+ "date": "2026-10-15",
+ "generated_at": "2026-10-15 08:34",
+ "trends": [
+  "资本面开始分化：银行在把刚承销的 AI 数据中心债务往外甩，说明机构对算力基建的回报周期信心在松动；但应用层的钱没停——AI 安全、反诈、工业机器人、办公 AI 这些赛道都在继续拿钱。",
+  "Agent 的落地场景正从'写代码'扩散到安全审计、反诈卧底、销售线索、工厂调度，长时程（连续 36 小时以上）、大规模（上万并发）的 agent 编排正在成为新的工程前沿。",
+  "AI 内容溯源变成平台标配：YouTube Music 给 AI 生成音乐加标签，Deezer 直接给用户一个'过滤 AI 音乐'的开关，做音频/内容生成的团队要开始考虑'被识别'这件事。",
+  "端侧小模型持续上位：Gemma 被拿去在手机本地拦私聊诈骗（数据不出云），LFM2.5 这类端侧 agent 模型也在铺路；同时向量检索等基础设施还在卷性能，不用换数据库也可能拿到更快的索引。",
+  "安全成了这一轮最明确的付费点：'人人都在用 AI'正给企业制造新的漏洞面，围绕 AI 的安全、合规、取证需求正在形成一批新公司和融资。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 12
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 5
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 4
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 4
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars": "241,684",
+   "stars_today": "41,034 stars today",
+   "summary": "用 AI agent 做逆向工程的工具，从 App 行为一路扒到原生二进制，今天一天涨了 4 万多星，是所有项目里最炸的。它把「agent 自动逆向」这个方向做实了——安全、破解、兼容性分析、恶意软件研究都能用，做底层和安全的开发者值得第一时间看。"
+  },
+  {
+   "id": "gh1",
+   "title": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": "66,324",
+   "stars_today": "3,538 stars today",
+   "summary": "VoiceStudio 是开源、完全本地跑的 ElevenLabs 平替，支持声音克隆、音色设计、视频配音、听写、转写和有声书制作，覆盖 646 种语言。零 API 成本 + 数据不出本机，对做语音产品和在意隐私的团队是直接可用的替代方案。"
+  },
+  {
+   "id": "gh6",
+   "title": "ifixai-ai/iFixAi",
+   "url": "https://github.com/ifixai-ai/iFixAi",
+   "desc": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+   "lang": "Python",
+   "stars": "27,390",
+   "stars_today": "2,109 stars today",
+   "summary": "iFixAi 做的是 AI Agent 的独立审计：不管是你人工跑还是 agent 自己跑，它都能在 120 秒内回答「这个 agent 到底有没有在做它该做的事」。随着 agent 开始真正接管业务，可观测性和可信度成了刚需，这类「给 agent 做质检」的工具会越来越重要。"
+  },
+  {
+   "id": "gh2",
+   "title": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": "29,116",
+   "stars_today": "947 stars today",
+   "summary": "context-mode 专治 AI 编程 agent 的上下文爆炸：把工具输出沙箱化（号称砍掉 98%），持久化会话记忆，并通过 MCP + hooks 在 17 个平台上做路由。写 agent、被 token 账单和上下文窗口折磨的人可以直接抄它的思路。"
+  },
+  {
+   "id": "gh7",
+   "title": "vxcontrol/pentagi",
+   "url": "https://github.com/vxcontrol/pentagi",
+   "desc": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+   "lang": "Go",
+   "stars": "29,449",
+   "stars_today": "1,025 stars today",
+   "summary": "pentagi 是一套全自主的 AI Agent 系统，专门做复杂渗透测试任务，Go 写的。它代表了「agent 落地到具体高危专业场景」的趋势，安全从业者可以关注它怎么编排工具链和做多步决策。"
+  },
+  {
+   "id": "gh4",
+   "title": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "lang": "Python",
+   "stars": "49,322",
+   "stars_today": "163 stars today",
+   "summary": "K-Dense-AI 的科学 Agent Skills 库，177 个经过验证的技能 + 100 多个科学数据库，覆盖生物、化学、医学、药物发现，兼容 Cursor、Claude Code、Codex 等。它把「Agent Skills」从零散 prompt 变成可复用的标准件，做垂直领域 agent 的可以照着这个范式搭自己的技能库。"
+  },
+  {
+   "id": "gh5",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+   "lang": "Python",
+   "stars": "52,482",
+   "stars_today": "103 stars today",
+   "summary": "港大团队做的 CLI-Anything，口号是「让所有软件都变成 agent-native」，核心是把命令行工具接进 agent 生态，还配了 CLI-Hub 目录站。如果你在想办法让老工具被 agent 调用，这个项目提供了现成路径。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+   "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 261,
+   "id": "n8",
+   "summary": "银行正在想办法把刚刚承销出去的 AI 数据中心债务转手卖掉。这意味着当初给算力基建放贷的机构，现在对这批项目的回报周期和风险开始不放心了。对开发者和创业者来说，这是个信号：算力扩张的钱接下来可能没那么好借，GPU 的租赁价格和供给都可能跟着变。"
+  },
+  {
+   "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 820,
+   "id": "n0",
+   "summary": "专家出来说，最近那些耸人听闻的'AI 黑客攻击'报告，真正该背锅的是隔离（containment）和监控没做好，而不是模型本身有多危险。把安全事故一股脑归因于 AI 能力，其实是搞错了重点，出问题的往往是人没做好沙箱和日志。对做 agent 的人来说，安全和可观测性依然是绕不开的硬需求。"
+  },
+  {
+   "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+   "desc": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "联邦法官裁定，苹果在一起商业机密诉讼中可以去查 OpenAI 的招聘记录，包括涉及前苹果员工的面试材料，以及案中关键人物的私信和证词。这案子本质是两家公司在抢 AI 人才时翻了脸。AI 公司之间的人才战已经从挖角升级到法庭对峙。"
+  },
+  {
+   "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+   "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+   "desc": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "YouTube Music 上线了新的标签体系，会明确标出哪些歌是纯 AI 生成、哪些是部分用 AI（比如 AI 参与作曲或人声）。同一天 Deezer 也宣布年底前给用户一个'过滤掉 AI 音乐'的开关。平台开始给 AI 生成内容做标注和分级，做音乐/音频生成产品的团队现在得认真考虑'被平台识别出来'这件事。"
+  },
+  {
+   "title": "OpenCode 2.0",
+   "url": "https://anoma.ly/notes/opencode-2-0/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 248,
+   "id": "n9",
+   "summary": "开源编码 agent 工具 OpenCode 发布了 2.0 版本，在 Hacker News 上拿到了不错的关注度。它属于'自己跑在自己机器上的编码助手'这条线，是 Claude Code、Codex CLI 之外的开源替代选项之一。对不想把代码交给闭源服务的开发者来说，这类工具的存在感正在变强。"
+  },
+  {
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "desc": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Google DeepMind 和新加坡政府科技局（GovTech）合作，做了一个专门用于反诈的微调模型，用轻量的 Gemma 在设备本地拦截聊天里的对话式诈骗，数据完全不出设备。这是'端侧小模型 + 政府落地'的典型样板：在隐私敏感场景下，on-device 反而成了最大卖点。也给做反诈、风控的团队提供了一个可参照的架构。"
+  },
+  {
+   "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+   "url": "https://github.com/timescale/pg_vectorsearch",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 186,
+   "id": "n14",
+   "summary": "有人做了个 pg_vectorsearch，号称索引速度比 pgvector 的 IVFFlat 和 HNSW 还快。对已经在 Postgres 里存向量的团队来说，这意味着不用换数据库、不用上专门的向量库，也可能直接拿到更好的检索性能。RAG 和向量检索这条基础设施线还在继续卷。"
+  },
+  {
+   "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+   "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+   "desc": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n59",
+   "summary": "Pluto Security 拿到 4200 万美元融资，理由说得很直白：给全公司开放 AI 工具，员工就会以各种意想不到的方式用它，于是企业系统里出现了新的、巨大的安全口子。这个逻辑正在变成很多安全创业公司的商业故事。'AI 让企业更不安全'已经是一个能融到钱的叙事。"
+  },
+  {
+   "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+   "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+   "desc": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "Apate.ai 把 AI agent 派去'卧底'挨骗，专门收集诈骗情报。别人用 agent 提效，它用 agent 去接触骗子、记录套路。这是个挺新鲜的 agent 商业化角度——把 agent 的能力用在'主动去被攻击'上，而不是提效。"
+  },
+  {
+   "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+   "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+   "desc": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n53",
+   "summary": "Industrial Next 想让工厂机器人几分钟内切换任务，而不是像现在这样要花几周重新调试。它瞄准的是过去只能靠人工完成的复杂、精细工序。工业机器人的柔性化是个很实在的需求，也是'AI+机器人'最近反复出现的叙事线。"
+  },
+  {
+   "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+   "url": "https://openai.com/index/third-moment-research",
+   "desc": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n32",
+   "summary": "AI 实验室 Third Moment Research 用 GPT-6 Astra、GPT-6.1 Sol 等模型同时跑一万个 agent，连续运转 36 小时以上，目标是做'能专注好几天、并且越用越强'的 agent。这是 OpenAI 官方放出的客户案例，顺带把还没公开的 GPT-6 系列命名给漏了出来。长时程 + 大规模并发的 agent 编排，是目前最前沿也最烧工程的题目。"
+  },
+  {
+   "title": "Facebook is giving users more control over their algorithm",
+   "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+   "desc": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n57",
+   "summary": "Meta 给 Facebook 上线了 AI 驱动的'Your Algorithm'功能，让用户自己调整算法推荐，这个功能之前在 Instagram 上先试过。平台在监管压力下，正把一部分推荐控制权交回用户手里。对做推荐、内容分发的产品来说，'可调算法'可能会慢慢变成标配。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph6",
+   "title": "Make0 Brain",
+   "url": "https://www.producthunt.com/products/make0-brain",
+   "desc": "A memory store that works across all of your AI agents. Discussion | Link",
+   "summary": "Make0 Brain：给所有 AI agent 用的共享记忆库——一个 agent 学到的东西，其他 agent 也能直接调用。记忆层是今年 agent 基础设施里最卷的方向之一，谁把「跨 agent 共享上下文」做顺了，谁就卡住了 agent 时代的入口位置。"
+  },
+  {
+   "id": "ph2",
+   "title": "Tiden",
+   "url": "https://www.producthunt.com/products/tiden",
+   "desc": "Intent verification for coding agents Discussion | Link",
+   "summary": "Tiden：给 coding agent 做「意图校验」——在它动手改代码之前，先确认它理解的需求跟你想的一致。Agent 写代码越来越猛，但「方向做错」比「语法写错」贵得多，这层保险的商业价值很直接。"
+  },
+  {
+   "id": "ph11",
+   "title": "EditUI",
+   "url": "https://www.producthunt.com/products/editui",
+   "desc": "Point at your UI. Tell your coding agent what to change. Discussion | Link",
+   "summary": "EditUI：直接在界面上指着某个元素，告诉 coding agent 要改哪里，不用再用文字费劲描述 UI 位置。前端和 agent 的交互方式终于开始变得说人话了。"
+  },
+  {
+   "id": "ph18",
+   "title": "Hindsight 1.0 + Memlake",
+   "url": "https://www.producthunt.com/products/vectorize",
+   "desc": "Open source memory for AI agents to learn from experience Discussion | Link",
+   "summary": "Hindsight 1.0 + Memlake：开源版 agent 记忆方案，让 agent 从过去的经验里学习，而不是每次从零开始。今天 PH 上第二个 agent 记忆类产品，说明这已经形成明确品类，不是单点试水。"
+  },
+  {
+   "id": "ph12",
+   "title": "SlashDocs by Razorpay",
+   "url": "https://www.producthunt.com/products/razorpay",
+   "desc": "Self-hosted collaboration layer for agent-written HTML Discussion | Link",
+   "summary": "SlashDocs by Razorpay：自托管的协作层，专门处理 agent 生成的 HTML 文档——多人评论、编辑、留痕。Agent 写文档越来越快，但团队协作那一环一直没人补，切入点挺准。"
+  },
+  {
+   "id": "ph9",
+   "title": "OpenCouncil",
+   "url": "https://www.producthunt.com/products/opencouncil",
+   "desc": "Voice rooms where your team and AIs debate together Discussion | Link",
+   "summary": "OpenCouncil：语音房间里，你的团队和 AI 一起辩论、做决策。把多 agent 从后台自动跑搬到实时语音协作场景，是个还没被做烂的方向。"
+  },
+  {
+   "id": "ph23",
+   "title": "FamRelay",
+   "url": "https://www.producthunt.com/products/famrelay",
+   "desc": "Share facts between AI assistants — only what you approve Discussion | Link",
+   "summary": "FamRelay：在你不同的 AI 助手之间同步事实信息，但只同步你批准过的内容。个人多 agent 时代迟早要面对「数据怎么在助手之间流动」，这算是个早期答案。"
+  },
+  {
+   "id": "ph15",
+   "title": "Kugel 3.5",
+   "url": "https://www.producthunt.com/products/kugelaudio",
+   "desc": "Text-to-speech that beats any other Model out there Discussion | Link",
+   "summary": "Kugel 3.5：号称效果吊打市面上所有模型的 TTS。语音是 agent 落地的关键一环，值得点进去听听 demo，自己验证下宣传水分。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+   "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+   "desc": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b11",
+   "summary": "Latent Space 的 AINews 日报：Gemini 4 Argon 今天正式 GA，但作者两周前就已经把它当头条讲过了，现在 CursorBench 等基准基本只是独立复读官方说法。值得看的是新模型发布节奏有多密，以及「第三方 benchmark 到底还有多少独立信息量」这个越来越尴尬的问题。"
+  },
+  {
+   "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+   "url": "https://www.latent.space/p/crossing-the-threshold",
+   "desc": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "AI Engineer 纽约站的现场总结：OpenAI、Anthropic 这些前沿实验室和金融公司坐一起聊，怎么给 agent 足够有用的自主权，同时保证真正要命的决策还捏在人手里。如果你关心 agent 在金融这种高风险场景怎么落地，这篇是当前最前沿的取舍讨论。"
+  },
+  {
+   "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+   "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+   "desc": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "Leash Bio 的 Ian Quigley 讲他们怎么驯服 DEL（DNA 编码化合物库）——那个把所有人都搞崩溃的实验，顺手用这批数据抓出了「作弊」的模型，并解释为什么同样的数据正好适合训练像化学家一样思考的 agent。看点是 AI for science 里数据质量和模型评测的坑有多深。"
+  },
+  {
+   "title": "AI is mass decompiling games. That's both awesome and scary.",
+   "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+   "desc": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardwa",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "独立游戏开发者 Popcar 分析最近 AI 大规模反编译老游戏的风潮：既催生了各种「把两个游戏拼一起」的奇怪 mashup，也带火了一波游戏保存项目，让老游戏能在新硬件上跑起来。作者的态度是又爱又怕——技术上是真爽，但版权、原作边界和「谁来定义游戏」的问题也很吓人。"
+  },
+  {
+   "title": "a new model for open source: closed to pull requests, open to remix.",
+   "url": "https://ghuntley.com/remix/",
+   "desc": "All right, I'm going to open up a history lesson because it's been a couple of generations of software engineers since this essay, and I have to assume not everyone knows what a cathedral is. Everyone knows what a bazaar is because they're using",
+   "source": "Geoffrey Huntley",
+   "lang": "en",
+   "id": "b5",
+   "summary": "Geoffrey Huntley 先补了一段《大教堂与集市》的历史课，然后提出一种新的开源模式：不接 pull request（协作上是闭的），但随便你 remix（再创作上是开的）。值得看的是它直接挑战了开源社区「贡献就等于提 PR」的默认假设，对 AI 时代许可证和代码复用的讨论挺有启发。"
+  },
+  {
+   "title": "Tree Appreciator",
+   "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+   "desc": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechani",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 又做了个游戏小实验「Tree Appreciator」：这次连 Claude Code 都没用，只在 iPhone 上的默认 Claude app 聊天模式里给 Opus 5.5 Max 一句 prompt，让它做一个 three.js 小游戏——屏幕上两棵算法生成的树，你来挑更喜欢哪棵。值得看的是纯手机聊天就能一次性生成可玩的 3D 小游戏，能直观感受当前模型单次生成的完成度上限。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "「会造 Agent」从加分项变成主业本身。过去一周 Agent engineer（Sticker Mule）、Agent Runtime（腾讯云，做沙箱/Session/Memory/Registry，承载数百万量级 Sandbox）、Agentic Harness 研究员（清华系独角兽，研究上下文管理、长期记忆、多 Agent、自进化）、Computer Use / 多 Agent 协同（北京 AI Agent 团队）密集出现——岗位横跨应用层到基础设施层，说明市场已经把 Agent 当成一个独立的工程学科在招人，而不是某个功能附带。",
+   "AI 编程工具从「加分」硬性化为「入职门槛」，而且蔓延到非 AI 岗位。深圳香港的 Go 后端、深圳南山初级 Java（明确要求 Vibe Coding、驾驭 Claude/Codex）、港美股交易平台全线岗位（设计用 MJ/SD/Figma AI，编码用 Cursor/Copilot）都把「能用 AI 工具提效」写进通用要求。这是最明确的一个变化：不会用 AI 工具正在变成筛人条件，而不是谈薪筹码。",
+   "岗位形态在往「一人全包 / 前向部署」演化。Kapibala 直接说「按模块切，每人前后端全包，模块内怎么实现自己定，不需要先写方案等人批」；Optaxa、Oscilar 招 Forward Deployed Engineer；AssumeAI 要能直接给 SME 落地产出可量化回报。公司要的不是精通某个栈的人，而是能面对客户、端到端把事交付的人。",
+   "大厂和传统行业同时出手，AI 应用落地变成常规编制。一头是蚂蚁全网数据算法、阿里安全「AI Native 重构建数据安全」（P6-P7）、SHEIN 广州深圳 20-80K、滴滴云平台、腾讯云 Agent Runtime；另一头营养品制造厂、regulated 药企、能源 SaaS、美妆 AR/CV、自闭症辅助 iOS App 都在招 AI 工程师。AI 已从互联网公司扩散成传统行业的排产需求。",
+   "具身智能 / 端侧 / 多模态是新一轮抢人点。地瓜机器人（地平线拆分）24 个岗位急招芯片架构/AI 编译器/SoC，苏州具身大模型 40-75K，Aarhus 大学招 Physical AI 博士（VLA、world model），琴澳团队找 Android 端侧 Agent（VLM+端云协同）工程师。趋势清晰：从纯软件 Agent 往「模型+硬件+真实世界」走。"
+  ],
+  "gigs": [
+   "外包主力是「传统企业 AI 改造」，活很具体也很杂。电鸭上最典型的一单要数据看板（接口不通就 RPA 抓取）、线下订单/合同/回款数据池、审批流程线上化、企业知识库——需求方是不懂技术的非科技公司，要的是能接 API、会 RPA、能用 AI 生成经营分析的复合型外包。注意：外包样本只有个位数，趋势判断样本有限。",
+   "远程岗位普遍默认你会 AI 工具，但价格分化很大。国内 AI 全栈远程兼职 5-7K/月（New API 聚合平台二次开发），海外按小时合同 £30/£50 per hour，SEO/内容类远程实习 200-300 元/天。同样的「AI 远程」，一个是白菜价一个是小时计费，差别在于交付的是平台级工程能力还是运营执行。",
+   "早期团队在拿股权/合伙人身份换兼职技术人。琴澳 AI 团队招兼职 CTO/技术合伙人做端侧「雲貓」，Deep Science Ventures 招 co-founder & CTO（AI 预测临床试验结果），都是没钱但有明确产品规划和 MVP 需求，愿意用股份替代现金。对想要参与感但不想全职下注的人是条路。",
+   "另一端也在廉价化，要看清字眼。上海景区招 AI 产品体验推广员 100 元/天（地推性质），嵌入式蓝牙固件兼职明确写「标准 Turnkey 方案、无自定义 AI」——带 AI 字样的活不都值钱，分水岭还是「是不是核心工程/算法能力」。"
+  ],
+  "highlights": [
+   {
+    "title": "Sticker Mule: AI agent engineer",
+    "desc": "Headquarters: New York, NY URL: https://www.stickermule.com Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, impro",
+    "url": "https://weworkremotely.com/remote-jobs/sticker-mule-ai-agent-engineer",
+    "source": "WeWorkRemotely",
+    "id": "m18",
+    "summary": "Sticker Mule 招 AI agent engineer，职责是「build, run and manage 一队 AI agent」——管理对象从人变成 Agent 团队，这是岗位定义层面的信号。"
+   },
+   {
+    "title": "香港公司，招聘“业务后端工程师（Go）”",
+    "desc": "Base 深圳或广州，远程为主，定期香港出差，需要 2–5 年经验、本人写代码的工程师，不招高级或管理岗，基础薪资 20K-30K。 投递请联系邮箱 ankor.wat.theme@gmail.com 业务后端工程师（Go） 3–5 年经验，本人动手写代码，不招高级或管理岗 熟练使用 Go 高并发 API 多端接口（Web / iOS / Android） 接口安全：鉴权、签名、防重放、防越权、幂等、并发一致性 熟练使用 Cursor、Claude 等 AI 编程工具 优先： 交易、支付、钱包类 API 相近背景可接受：金融、支付、高并发 SaaS 的公网 API，有接口安全经验。业务规则可入",
+    "url": "https://www.v2ex.com/t/1247345#reply8",
+    "source": "V2EX 酷工作",
+    "id": "m24",
+    "summary": "香港公司招 Go 后端，JD 明确要求「熟练使用 Cursor、Claude 等 AI 编程工具」，且注明不要高级管理岗、只要本人写代码——AI 工具熟练度已下沉到非 AI 岗位的硬性要求。"
+   },
+   {
+    "title": "[北京/上海/杭州/深圳] 30-75k AI 独角兽 Agentic 平台应用热招 Agentic Harness 研究员、产品经理岗位,可内推",
+    "desc": "清华系创始团队，成员均来自大厂和 ai 头部公司核心团队，已获取顶级 PE VC 投资。 Agentic Harness 研究员 [主要职责] 1. 定义和实现 Harness 领域基于模型能力的前沿创新，包括但不限于上下文管理、长期记忆、Subagent 与 Multi-Agent 、自进化 Agent 、Long horizon 等领域。 2. 与模型训练团队的研究员与工程师深度沟通与合作，从 Harness 的角度实现多种模型的深度适配。 3. 提出 Harness 领域的基准测试与评测方法，构建评测基准数据和制定数据标注策略，从 Harness 的角度研究并优化 Agent 在各领域的",
+    "url": "https://www.v2ex.com/t/1244352#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m36",
+    "summary": "AI 独角兽招「Agentic Harness 研究员」，定义做上下文管理、长期记忆、Subagent/Multi-Agent、自进化——一个全新的职位类别正在被命名出来。"
+   },
+   {
+    "title": "[招聘] 「迪拜/全远程」 Kapibala AI 诚聘全栈开发工程师 (AI Native)",
+    "desc": "AI 全栈工程师 Full-Stack Engineer AI Native Base 迪拜/全远程(二选一) · 全职 · 3 年以上经验(参考) 有一件事值得先说清楚,因为它基本决定了你会不会喜欢这里:我们是真的靠 AI 工具在交付。过去一个月合并了七百多个 PR,非合并提交里超过一半带着 AI 协作者的署名。也正因为如此,我们把\"怎么确认它是对的”做成了制度:机器闸、独立验收、可观测性要求,都是写进流程里的硬约束。用得猛和管得严,在这里是同一件事的两面。 关于这个机会 ① “一人到底”是真的,含义也比听上去重。 按模块切,每人前后端全包,模块内怎么实现由你自己定,不需要先写方案等人批。代",
+    "url": "https://www.v2ex.com/t/1244320#reply13",
+    "source": "V2EX 酷工作",
+    "id": "m38",
+    "summary": "Kapibala 招聘页自曝「过去一个月合并 700+ PR，非合并提交里超过一半带 AI 协作者署名」，同时把机器闸、独立验收做成制度——用真实交付数据说明 AI Native 团队长什么样。"
+   },
+   {
+    "title": "​【组队合伙】琴澳 AI 团队寻 Android 底层 / 端侧 AI 工程师（兼职 CTO / 技术合伙人）",
+    "desc": "团队/项目简介 我们是一个位于琴澳地区的 AI 创业团队，正在打造一款全新的移动端个人 AI 助手——「雲貓」。 项目聚焦于端云协同架构（VLM + Android 端侧 Agent），旨在通过智能自动化交互重塑手机端体验。目前已有成熟的业务规划与前期准备，正在推进 MVP（最小可行性产品）落地。 招募岗位：兼职技术合伙人 / CTO 我们希望你具备： Android 深入开发经验：熟悉 Andr",
+    "url": "https://eleduck.com/posts/ZXfDZp",
+    "source": "电鸭社区",
+    "id": "m51",
+    "summary": "琴澳团队招「兼职 CTO / 技术合伙人」做端侧 Agent，用股权换 Android 底层+端侧 AI 能力——早期团队用合伙人身份替代现金的典型样本。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m81",
+    "summary": "Mechanize 给 Junior SWE 开 $300k+equity 做前沿实验室的代码训练环境，SWE $350k、Research Engineer $300-400k——给 AI 实验室做环境/评测的人才溢价已经离谱到倒挂。"
+   }
+  ],
+  "week": "2026-W42"
+ },
+ "llm_used": true,
+ "degraded": []
+}
