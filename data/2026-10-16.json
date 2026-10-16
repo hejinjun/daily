@@ -1,0 +1,435 @@
+{
+ "date": "2026-10-16",
+ "generated_at": "2026-10-16 08:28",
+ "trends": [
+  "开源权重+本地部署成了大厂新叙事：Meta 的 Muse Spark Open 直接和 Apple 合作、能在 Apple 芯片上本地跑，FLUX.3 Klein、Granite Switch 4.1 也相继放出权重，前沿能力和端侧推理的界限在消失，开发者不用再为『强模型必须上云』买单。",
+  "Agent 正在从对话框钻进真实入口和硬件：Google Universal Cart 上线美国、Amazon Bee 发新设备、Rivian 要把 agent 塞进车、Figma 定义 agent 怎么在自己平台上干活，同时 Floqer、Gudea、Ricursive 这类垂直 agent 创业公司持续拿钱——抢的是 agent 的落地位置，不是模型本身。",
+  "AI 安全治理开始有硬约束：Anthropic 给 METR 员工级访问权限、还主动放弃审稿否决权，第三方评估从公关动作变成制度安排，可能成为前沿实验室的新标准。",
+  "AI for Science 进入具体项目阶段：DeepMind 用 Antigravity 找抗菌肽、OpenAI 给学术实验室赞助 GPT-Rosalind、Simons Foundation 掏 1500 万美元帮数学家应对 AI 时代，科研是下一个被系统性渗透的垂直领域。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 12
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 4
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 1
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 4
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 3
+  }
+ ],
+ "github": [
+  {
+   "id": "gh5",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": "299,884",
+   "stars_today": "582 stars today",
+   "summary": "obra/superpowers 是一套「agentic skills」框架 + 软件开发方法论，把 AI 编程助手的能力拆成可复用的技能模块，按工程化流程组织起来。它今天冲到 29 万星、单日涨 582，说明大家已经不满足于让 Claude Code 随手写代码，而是想给 agent 装上成体系的工作流和纪律，属于当下 agent 工程化最热的方向。"
+  },
+  {
+   "id": "gh9",
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "280,378",
+   "stars_today": "1,013 stars today",
+   "summary": "affaan-m/ECC 是一个 agent harness 的性能优化系统，围绕 skills、instincts、memory、security 和「research-first」开发范式，适配 Claude Code、Codex、Cursor 等多家编码 agent。单日涨 1013 星、28 万总星，反映出去年还只是「能跑」的编码 agent，今年已经进入拼 harness 调优、记忆和安全性的阶段，是研究 agent 架构很值得拆的项目。"
+  },
+  {
+   "id": "gh10",
+   "title": "lightseekorg/tokenspeed",
+   "url": "https://github.com/lightseekorg/tokenspeed",
+   "desc": "TokenSpeed is a speed-of-light LLM inference engine.",
+   "lang": "Python",
+   "stars": "2,478",
+   "stars_today": "30 stars today",
+   "summary": "anthropics/claude-plugins-official 是 Anthropic 官方维护的 Claude Code 插件目录，专门收录高质量插件。它的意义在于官方终于出手做生态分发——之前插件都是社区散落各处，现在有了权威入口，做 Claude Code 周边工具和创业的人应该重点盯这个目录的收录标准。"
+  },
+  {
+   "id": "gh3",
+   "title": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+   "lang": "Go",
+   "stars": "112,531",
+   "stars_today": "433 stars today",
+   "summary": "JuliusBrussee/caveman 是一个面向编码 agent 的「原始人语」技能 + 代理，靠把提示词改写成极简的穴居人式表达，砍掉约 65% 的 token 消耗。11 万星、单日 433，本质上是在解决 agent 跑长任务时上下文成本爆炸的痛点，思路很取巧但确实戳中省钱刚需。"
+  },
+  {
+   "id": "gh11",
+   "title": "xerj-org/xerj",
+   "url": "https://github.com/xerj-org/xerj",
+   "desc": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+   "lang": "Rust",
+   "stars": "5,629",
+   "stars_today": "715 stars today",
+   "summary": "xerj-org/xerj 是 Rust 写的 AI 数据搜索层，核心是 autoindex：一条命令就能把代码、文档、日志、PDF 建好索引，供搜索、RAG、安全审计和 agent memory 使用，号称比 grep 省 40 倍 token，且兼容 Elasticsearch 客户端。单日涨 715 星，说明「让 agent 低成本理解你的私有数据」是个真需求。"
+  },
+  {
+   "id": "gh6",
+   "title": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "lang": "TypeScript",
+   "stars": "75,116",
+   "stars_today": "147 stars today",
+   "summary": "ruvnet/ruflo 自称「最早的 agent harness」，主打部署多智能体 swarm、编排自治工作流和对话式 AI，内置自适应记忆、自学习、联邦机制和向量 RAG，并原生对接 Claude Code、Codex 等。是多 agent 编排赛道里功能堆得比较全的一个，适合想看 swarm 落地方案的人研究。"
+  },
+  {
+   "id": "gh10",
+   "title": "lightseekorg/tokenspeed",
+   "url": "https://github.com/lightseekorg/tokenspeed",
+   "desc": "TokenSpeed is a speed-of-light LLM inference engine.",
+   "lang": "Python",
+   "stars": "2,478",
+   "stars_today": "30 stars today",
+   "summary": "lightseekorg/tokenspeed 是一个号称「光速」的 LLM 推理引擎，目前 2400 多星、热度还小。它值得留意是因为推理引擎一直是性能优化的硬核战场，新玩家能不能在吞吐和延迟上真做出差异，是判断它有没有价值的关键。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Meta launches an open-weight AI model that runs on Macs",
+   "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+   "desc": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "Meta 发布开源权重的前沿多模态 MoE 模型 Muse Spark Open，并和 Apple 合作让它能在 Apple 芯片上本地跑，TechCrunch 明确说这模型能直接跑在 Mac 上。这是 Meta Muse 系列在开源路线上的继续加码，同时第一次把『前沿模型』和『本地运行』绑在一起，对不想上云、关心成本和数据的开发者和应用方是直接利好。"
+  },
+  {
+   "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+   "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+   "desc": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Anthropic 给了 METR 研究者员工级别的内部访问权限，让他们查看公司的风险、事故和实践，并且放弃了对他们发布评估报告的事先否决权。这是前沿实验室第一次把第三方评估权放到这么实的位置，意味着 AI 安全审查可能从自愿披露变成有约束力的制度安排，值得盯着后续其他实验室是否跟进。"
+  },
+  {
+   "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+   "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+   "desc": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting a",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "Amazon 旗下的 Bee 发布被收购后的首批新 AI 设备，一款升级版可穿戴加一款信用卡大小、能贴在手机上的录音器，75 美元起，能总结对话、生成待办，并接入 Alexa 和 Amazon 购物。便宜、贴身的『环境录音 + AI 总结』硬件开始走量，接下来隐私边界和实际可用性会是这一品类的胜负手。"
+  },
+  {
+   "title": "Google’s Universal Cart shopping tool launches in the US",
+   "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+   "desc": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "谷歌的 Universal Cart 购物工具在美国上线，覆盖 Google 搜索和 Gemini 应用，让 AI 帮你跨商家统一管理购物车。这是 agentic commerce 正式进入主流流量入口的信号，购物流程有可能被 AI 代理整体接管，做电商和导购的团队要重新想自己的位置。"
+  },
+  {
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "desc": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n32",
+   "summary": "Google DeepMind 用 Google Antigravity for Science 加速新型抗菌肽的搜寻。这不再只是『AI 帮忙看论文』，而是把科学工具链和模型能力拼进具体的药物发现流程，抗药性细菌这类硬问题开始有可落地的 AI 解法。"
+  },
+  {
+   "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+   "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+   "desc": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "亚马逊设备负责人 Panos Panay 在 TechCrunch Disrupt 上描绘了一个环境 AI 设备的未来：设备在后台主动预判需求，而不是等用户打开 app 下命令。这是大厂硬件负责人对『app 中心论』的公开否定，如果方向成立，未来的入口之争会从应用商店转移到常驻的 ambient agent。"
+  },
+  {
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "desc": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI 推出 Rosalind Academic Plan，给符合条件的学术实验室赞助访问 GPT-Rosalind 以及配套的生命科学研究工具。前沿模型厂商正用免费额度抢占学术场景，生物医药是重点突破口，高校实验室的算力和模型门槛会被明显拉低。"
+  },
+  {
+   "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+   "desc": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n48",
+   "summary": "Ricursive Intelligence 押注用 AI 设计芯片：模型从每一轮设计中学习并改进下一版，目标是自动化和加速整个芯片设计流程。如果跑通，能缓解算力危机中『设计人力』这个最硬的瓶颈，对传统 EDA 行业也是直接冲击。"
+  },
+  {
+   "title": "Figma announces new features to define how agents work on its platform",
+   "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+   "desc": "Figma is also releasing its code layers feature in open beta.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "Figma 宣布一批新功能，用来定义 agents 如何在其平台上工作，同时代码图层（code layers）功能进入公测。设计工具开始把 agent 当成一等公民，设计师和代码之间的边界继续模糊，前端和设计协作的流程可能被重写。"
+  },
+  {
+   "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+   "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+   "desc": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "Bluesky 把它的 AI 工具 Attie 从『做自定义 feed』扩展到能生成小游戏、投票、仪表盘等可分享的小应用，官方说法是『社交 vibe coding』。vibe coding 正从个人生产力工具走向社交分发，平台内自造应用可能成为一种新的内容形态和增长玩法。"
+  },
+  {
+   "title": "Krea 3 – An image model built for editing at scale",
+   "url": "https://www.krea.ai/krea-3",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 232,
+   "id": "n10",
+   "summary": "Krea 3 是一个专门为大规模编辑场景打造的图像模型。图像赛道的竞争重点正从『生成得好看』转向『编辑工作流』，批量化、可控性和一致性成了新卖点，对做设计和内容管线的团队参考价值更高。"
+  },
+  {
+   "title": "Welcome FLUX.3 Image Klein in Diffusers",
+   "url": "https://huggingface.co/blog/flux-3",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n35",
+   "summary": "FLUX.3 Image Klein 正式进入 Diffusers，可以在 Hugging Face 生态里直接调用。开源图像模型快速接入主流工具链，意味着开发者能马上集成到自己的产品里，商业图像生成的可选项又多了一个。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph1",
+   "title": "withHuman",
+   "url": "https://www.producthunt.com/products/withhuman",
+   "desc": "A open-source human approval layer for AI Agents Discussion | Link",
+   "summary": "给 AI Agent 加一层“人类审批”——关键操作先等人点头才执行。开源、可自建，正好踩在 agent 上生产环境最缺的那块安全兜底上，避免它自作主张闯祸。"
+  },
+  {
+   "id": "ph2",
+   "title": "Navige",
+   "url": "https://www.producthunt.com/products/navige",
+   "desc": "Cut AI agent costs and control runaway spending Discussion | Link",
+   "summary": "专门盯 AI agent 的花销，防止任务跑飞把 token 账单烧爆。做过 agent 产品的人都知道成本失控有多痛，这种“agent 财务护栏”很可能变成标配。"
+  },
+  {
+   "id": "ph8",
+   "title": "AI Sandboxes by Buddy",
+   "url": "https://www.producthunt.com/products/buddy",
+   "desc": "Isolated cloud machines for your AI coding agents Discussion | Link",
+   "summary": "给 AI 编程 agent 提供隔离的云端机器，让它在沙箱里随便跑代码、装依赖，不污染你的本机。Coding agent 越普及，这种“agent 专用运行环境”越是刚需。"
+  },
+  {
+   "id": "ph20",
+   "title": "Rushilo",
+   "url": "https://www.producthunt.com/products/rushilo",
+   "desc": "Edit video by talking to Claude Code or Codex Discussion | Link",
+   "summary": "对着 Claude Code 或 Codex 说话就能剪视频，把命令行 agent 直接变成剪辑接口。交互方式很新鲜，也说明 agent 正在往各种创作工具里渗透。"
+  },
+  {
+   "id": "ph6",
+   "title": "SuperLocalMemory",
+   "url": "https://www.producthunt.com/products/superlocalmemory-v2",
+   "desc": "Agent memory with Laya, Jev + Google Gemma Discussion | Link",
+   "summary": "跑在本地的 agent 记忆层，结合了 Laya、Jev 和 Google Gemma。既解决 agent “记不住事”的老问题，又保证数据不出本机，隐私和长期记忆两头抓。"
+  },
+  {
+   "id": "ph14",
+   "title": "Chatway MCP",
+   "url": "https://www.producthunt.com/products/chatway",
+   "desc": "Let ChatGPT & Claude answer customer support tickets via MCP Discussion | Link",
+   "summary": "通过 MCP 让 ChatGPT 和 Claude 直接接手客服工单。MCP 生态开始往具体业务场景落，客服是付费意愿高、最容易验证的第一个落点。"
+  },
+  {
+   "id": "ph10",
+   "title": "GLM-Legal",
+   "url": "https://www.producthunt.com/products/z-ai",
+   "desc": "Z.ai’s legal AI model for contract review and compliance Discussion | Link",
+   "summary": "智谱 Z.ai 推出的法律垂类模型，主打合同审查和合规检查。大模型往垂直行业切是明牌趋势，法律属于付费能力强、容错要求高的典型赛道。"
+  },
+  {
+   "id": "ph15",
+   "title": "siliXon",
+   "url": "https://www.producthunt.com/products/silixon",
+   "desc": "Turn a plain English idea into a circuit board you can order Discussion | Link",
+   "summary": "用一句大白话描述需求，就生成一块能直接下单打样的电路板。把硬件设计门槛拉到“会说话就行”，对做硬件产品的独立开发者挺有想象力。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+   "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+   "desc": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the matter \". Key things I ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Anthropic 在 IPO 前向投资人吹风：季度营收涨了近 50%，达到 168 亿美元（年化约 670 亿的量级）。FT 的报道，全文四次出现「told investors」这种说法，核心数字都来自匿名知情人士。值得看的是：这是冲刺上市前最关键的一次财务亮底，也是判断头部大模型公司商业化速度的硬指标。"
+  },
+  {
+   "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+   "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+   "desc": "Sandboxes are all you need.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "Modal 年化营收破 10 亿美元，完成 160 亿美元估值的 D 轮，成为纽约最新的 AI 基础设施十角兽——5 个月用量和估值都翻了 3 倍，一年翻了 15 倍，作者一句话总结「sandboxes are all you need」。值得看的是：AI 推理/沙箱这条 infra 赛道的需求曲线有多陡，以及 serverless 沙箱正在变成新的默认底座。"
+  },
+  {
+   "title": "Is Software Dead, or Just Not for Humans Anymore?",
+   "url": "https://creatoreconomy.so/p/is-software-dead-or-just-not-for-humans-anymore",
+   "desc": "4 reasons traditional software is in trouble and where the money is moving to instead",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b13",
+   "summary": "Peter Yang 的评论文章，问「软件是死了，还是只是不再给人用了」，给了 4 个理由说明传统软件模式正在出问题，并分析钱正在往哪里流。值得看的是：从产品/创作者经济视角对 AI 冲击 SaaS 商业模式的判断，适合拿来对照自己手上的产品方向。"
+  },
+  {
+   "title": "Chirp Pong",
+   "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+   "desc": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use t",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 的新玩具 Chirp Pong：两台各自独立的手机跑纯静态 HTML，完全不开网络端口，而是用麦克风互相「啁啾」发声来做通信，实现双人竞技乒乓。值得看的是：它真的跑通了——一个不依赖任何网络协议栈、纯声波传数据的极客实验，属于那种能启发思路的周末项目。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "「会造 Agent」从加分项变成主业本身。过去一周 Agent engineer（Sticker Mule）、Agent Runtime（腾讯云，做沙箱/Session/Memory/Registry，承载数百万量级 Sandbox）、Agentic Harness 研究员（清华系独角兽，研究上下文管理、长期记忆、多 Agent、自进化）、Computer Use / 多 Agent 协同（北京 AI Agent 团队）密集出现——岗位横跨应用层到基础设施层，说明市场已经把 Agent 当成一个独立的工程学科在招人，而不是某个功能附带。",
+   "AI 编程工具从「加分」硬性化为「入职门槛」，而且蔓延到非 AI 岗位。深圳香港的 Go 后端、深圳南山初级 Java（明确要求 Vibe Coding、驾驭 Claude/Codex）、港美股交易平台全线岗位（设计用 MJ/SD/Figma AI，编码用 Cursor/Copilot）都把「能用 AI 工具提效」写进通用要求。这是最明确的一个变化：不会用 AI 工具正在变成筛人条件，而不是谈薪筹码。",
+   "岗位形态在往「一人全包 / 前向部署」演化。Kapibala 直接说「按模块切，每人前后端全包，模块内怎么实现自己定，不需要先写方案等人批」；Optaxa、Oscilar 招 Forward Deployed Engineer；AssumeAI 要能直接给 SME 落地产出可量化回报。公司要的不是精通某个栈的人，而是能面对客户、端到端把事交付的人。",
+   "大厂和传统行业同时出手，AI 应用落地变成常规编制。一头是蚂蚁全网数据算法、阿里安全「AI Native 重构建数据安全」（P6-P7）、SHEIN 广州深圳 20-80K、滴滴云平台、腾讯云 Agent Runtime；另一头营养品制造厂、regulated 药企、能源 SaaS、美妆 AR/CV、自闭症辅助 iOS App 都在招 AI 工程师。AI 已从互联网公司扩散成传统行业的排产需求。",
+   "具身智能 / 端侧 / 多模态是新一轮抢人点。地瓜机器人（地平线拆分）24 个岗位急招芯片架构/AI 编译器/SoC，苏州具身大模型 40-75K，Aarhus 大学招 Physical AI 博士（VLA、world model），琴澳团队找 Android 端侧 Agent（VLM+端云协同）工程师。趋势清晰：从纯软件 Agent 往「模型+硬件+真实世界」走。"
+  ],
+  "gigs": [
+   "外包主力是「传统企业 AI 改造」，活很具体也很杂。电鸭上最典型的一单要数据看板（接口不通就 RPA 抓取）、线下订单/合同/回款数据池、审批流程线上化、企业知识库——需求方是不懂技术的非科技公司，要的是能接 API、会 RPA、能用 AI 生成经营分析的复合型外包。注意：外包样本只有个位数，趋势判断样本有限。",
+   "远程岗位普遍默认你会 AI 工具，但价格分化很大。国内 AI 全栈远程兼职 5-7K/月（New API 聚合平台二次开发），海外按小时合同 £30/£50 per hour，SEO/内容类远程实习 200-300 元/天。同样的「AI 远程」，一个是白菜价一个是小时计费，差别在于交付的是平台级工程能力还是运营执行。",
+   "早期团队在拿股权/合伙人身份换兼职技术人。琴澳 AI 团队招兼职 CTO/技术合伙人做端侧「雲貓」，Deep Science Ventures 招 co-founder & CTO（AI 预测临床试验结果），都是没钱但有明确产品规划和 MVP 需求，愿意用股份替代现金。对想要参与感但不想全职下注的人是条路。",
+   "另一端也在廉价化，要看清字眼。上海景区招 AI 产品体验推广员 100 元/天（地推性质），嵌入式蓝牙固件兼职明确写「标准 Turnkey 方案、无自定义 AI」——带 AI 字样的活不都值钱，分水岭还是「是不是核心工程/算法能力」。"
+  ],
+  "highlights": [
+   {
+    "title": "Sticker Mule: AI agent engineer",
+    "desc": "Headquarters: New York, NY URL: https://www.stickermule.com Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, impro",
+    "url": "https://weworkremotely.com/remote-jobs/sticker-mule-ai-agent-engineer",
+    "source": "WeWorkRemotely",
+    "id": "m18",
+    "summary": "Sticker Mule 招 AI agent engineer，职责是「build, run and manage 一队 AI agent」——管理对象从人变成 Agent 团队，这是岗位定义层面的信号。"
+   },
+   {
+    "title": "香港公司，招聘“业务后端工程师（Go）”",
+    "desc": "Base 深圳或广州，远程为主，定期香港出差，需要 2–5 年经验、本人写代码的工程师，不招高级或管理岗，基础薪资 20K-30K。 投递请联系邮箱 ankor.wat.theme@gmail.com 业务后端工程师（Go） 3–5 年经验，本人动手写代码，不招高级或管理岗 熟练使用 Go 高并发 API 多端接口（Web / iOS / Android） 接口安全：鉴权、签名、防重放、防越权、幂等、并发一致性 熟练使用 Cursor、Claude 等 AI 编程工具 优先： 交易、支付、钱包类 API 相近背景可接受：金融、支付、高并发 SaaS 的公网 API，有接口安全经验。业务规则可入",
+    "url": "https://www.v2ex.com/t/1247345#reply8",
+    "source": "V2EX 酷工作",
+    "id": "m24",
+    "summary": "香港公司招 Go 后端，JD 明确要求「熟练使用 Cursor、Claude 等 AI 编程工具」，且注明不要高级管理岗、只要本人写代码——AI 工具熟练度已下沉到非 AI 岗位的硬性要求。"
+   },
+   {
+    "title": "[北京/上海/杭州/深圳] 30-75k AI 独角兽 Agentic 平台应用热招 Agentic Harness 研究员、产品经理岗位,可内推",
+    "desc": "清华系创始团队，成员均来自大厂和 ai 头部公司核心团队，已获取顶级 PE VC 投资。 Agentic Harness 研究员 [主要职责] 1. 定义和实现 Harness 领域基于模型能力的前沿创新，包括但不限于上下文管理、长期记忆、Subagent 与 Multi-Agent 、自进化 Agent 、Long horizon 等领域。 2. 与模型训练团队的研究员与工程师深度沟通与合作，从 Harness 的角度实现多种模型的深度适配。 3. 提出 Harness 领域的基准测试与评测方法，构建评测基准数据和制定数据标注策略，从 Harness 的角度研究并优化 Agent 在各领域的",
+    "url": "https://www.v2ex.com/t/1244352#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m36",
+    "summary": "AI 独角兽招「Agentic Harness 研究员」，定义做上下文管理、长期记忆、Subagent/Multi-Agent、自进化——一个全新的职位类别正在被命名出来。"
+   },
+   {
+    "title": "[招聘] 「迪拜/全远程」 Kapibala AI 诚聘全栈开发工程师 (AI Native)",
+    "desc": "AI 全栈工程师 Full-Stack Engineer AI Native Base 迪拜/全远程(二选一) · 全职 · 3 年以上经验(参考) 有一件事值得先说清楚,因为它基本决定了你会不会喜欢这里:我们是真的靠 AI 工具在交付。过去一个月合并了七百多个 PR,非合并提交里超过一半带着 AI 协作者的署名。也正因为如此,我们把\"怎么确认它是对的”做成了制度:机器闸、独立验收、可观测性要求,都是写进流程里的硬约束。用得猛和管得严,在这里是同一件事的两面。 关于这个机会 ① “一人到底”是真的,含义也比听上去重。 按模块切,每人前后端全包,模块内怎么实现由你自己定,不需要先写方案等人批。代",
+    "url": "https://www.v2ex.com/t/1244320#reply13",
+    "source": "V2EX 酷工作",
+    "id": "m38",
+    "summary": "Kapibala 招聘页自曝「过去一个月合并 700+ PR，非合并提交里超过一半带 AI 协作者署名」，同时把机器闸、独立验收做成制度——用真实交付数据说明 AI Native 团队长什么样。"
+   },
+   {
+    "title": "​【组队合伙】琴澳 AI 团队寻 Android 底层 / 端侧 AI 工程师（兼职 CTO / 技术合伙人）",
+    "desc": "团队/项目简介 我们是一个位于琴澳地区的 AI 创业团队，正在打造一款全新的移动端个人 AI 助手——「雲貓」。 项目聚焦于端云协同架构（VLM + Android 端侧 Agent），旨在通过智能自动化交互重塑手机端体验。目前已有成熟的业务规划与前期准备，正在推进 MVP（最小可行性产品）落地。 招募岗位：兼职技术合伙人 / CTO 我们希望你具备： Android 深入开发经验：熟悉 Andr",
+    "url": "https://eleduck.com/posts/ZXfDZp",
+    "source": "电鸭社区",
+    "id": "m51",
+    "summary": "琴澳团队招「兼职 CTO / 技术合伙人」做端侧 Agent，用股权换 Android 底层+端侧 AI 能力——早期团队用合伙人身份替代现金的典型样本。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m81",
+    "summary": "Mechanize 给 Junior SWE 开 $300k+equity 做前沿实验室的代码训练环境，SWE $350k、Research Engineer $300-400k——给 AI 实验室做环境/评测的人才溢价已经离谱到倒挂。"
+   }
+  ],
+  "week": "2026-W42"
+ },
+ "llm_used": true,
+ "degraded": []
+}
