@@ -1,0 +1,433 @@
+{
+ "date": "2026-10-20",
+ "generated_at": "2026-10-20 09:09",
+ "trends": [
+  "「堆 token 换增长」的模式开始见顶：OpenRouter 的 token 用量走平，同时 CoreWeave 的债券跌进不良区间，说明市场开始怀疑 AI 基建靠债务扩张的循环能否持续。对开发者来说，这意味着推理价格战可能进入新阶段，也可能意味着上游算力供应方会经历一次洗牌。",
+  "芯片层围绕 Nvidia 的竞争明显加速：Amazon 推出 TorchNeuron，试图让开发者把 PyTorch 负载跑在 Trainium 上；Tenstorrent 融资 15 亿美元、估值 62 亿；Nvidia 自己也发布开放模型，抢占企业和端侧 agent。在训练芯片之外，推理和 agent 运行时正在成为新的战场。",
+  "Agent 安全从概念变成实际事故：微软把企业内使用的 agent 视为「内部威胁」，并直言前沿模型不可信；有人用 AI agent 组成的批量程序攻破 100 多个网站，包括 John Deere；被去掉安全对齐的模型也被反向利用。因此，agent 的可观测性和审计（例如 Laminar 做 trace 错误检测）以及 red-team（红队测试）是明确的创业方向。",
+  "垂直领域的基础模型继续涌现：Mistral 推出时序基础模型 Timestral，MiniMax M3.1 Flash 走轻量路线，OpenAI 则关注 COBOL 等低资源语言的迁移；这些场景都是大模型厂商未充分覆盖的细分市场。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 12
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 1
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 13
+  },
+  {
+   "name": "The Verge AI",
+   "count": 6
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 0
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 4
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh1",
+   "title": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "desc": "The open source coding agent.",
+   "lang": "TypeScript",
+   "stars": "217,821",
+   "stars_today": "1,311 stars today",
+   "summary": "开源的终端编码 agent，对标 Claude Code 的开放实现，今天又是 1300 星、总星数已经冲到 21 万。值得关注是因为「编码 agent」这个赛道正在从各家闭源 CLI 收敛成一个开源的事实标准，想自己改 prompt、接私有模型或者做二次分发的话，这是目前社区体量最大的一个基座。"
+  },
+  {
+   "id": "gh5",
+   "title": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars": "98,301",
+   "stars_today": "1,590 stars today",
+   "summary": "把一堆编码 agent（Claude Code、Grok Bot 之类）当成「机队」来统一调度的工作台，桌面端/移动端/远程 runtime 都能跑，重点是可以用自己的订阅额度去驱动任意 agent。今天 1590 星是榜上最猛的，说明大家在真实痛点上是「我有好几个 agent 和好几份订阅，怎么统一管」——这已经是工具层创业的入口了。"
+  },
+  {
+   "id": "gh3",
+   "title": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+   "lang": "Python",
+   "stars": "139,732",
+   "stars_today": "1,011 stars today",
+   "summary": "ComfyUI，节点式扩散模型 GUI + API + 后端，主打本地推理最快，今天破千星。它的持续热度说明本地生成图像/视频的工作流编排仍是刚需，而且它正在从「玩家玩具」变成别人产品里的推理后端，做多模态应用的绕不开它。"
+  },
+  {
+   "id": "gh2",
+   "title": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "lang": "Rust",
+   "stars": "11,356",
+   "stars_today": "666 stars today",
+   "summary": "给编码 agent CLI 做长期记忆、并且让不同厂商的 agent 之间能「交接上下文」的方案，Rust 写的，今天 666 星。这个点很关键：现在换一个 agent 就等于失忆重来，谁解决了跨 agent 的记忆和 handoff，谁就掌握了用户的上下文资产，属于典型的基础设施级机会。"
+  },
+  {
+   "id": "gh6",
+   "title": "headroomlabs-ai/headroom",
+   "url": "https://github.com/headroomlabs-ai/headroom",
+   "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+   "lang": "Python",
+   "stars": "76,252",
+   "stars_today": "310 stars today",
+   "summary": "在工具输出、日志、文件和 RAG chunk 进 LLM 之前先压缩，编码 agent 省 20% token、JSON 能省 60-95%，答案不变，提供库/代理/MCP server 三种形态。这是少见的一眼就能算出 ROI 的项目——token 账单和上下文窗口是真金白银的成本，做 agent 产品的值得直接接一下试试。"
+  },
+  {
+   "id": "gh9",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+   "lang": "Python",
+   "stars": "55,241",
+   "stars_today": "606 stars today",
+   "summary": "港大出的「CLI-Anything」，目标是让所有软件都变成 agent 原生可调用的形态，配套还有个 CLI-Hub。逻辑很聪明：与其等每个软件出 MCP 或 API，不如把现成的命令行能力直接包装成 agent 工具层，这是 agent 生态的「适配器层」，也是拿长尾软件能力的捷径。"
+  },
+  {
+   "id": "gh4",
+   "title": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "lang": "TypeScript",
+   "stars": "77,195",
+   "stars_today": "564 stars today",
+   "summary": "自称「最早的 agent harness」，主打多 agent 蜂群编排、自适应记忆、自学习、联邦协作，并原生集成 Claude Code / Codex 等。今天 560 多星，属于 multi-agent 框架里声量较大的一支，适合想看「多 agent 协作到底怎么落地编排」的人研究，但这类项目概念包装通常大于实际可用度，注意甄别。"
+  },
+  {
+   "id": "gh11",
+   "title": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "lang": "Python",
+   "stars": "41,680",
+   "stars_today": "363 stars today",
+   "summary": "Kronos，面向金融市场的「语言」基础模型，把行情当成一种语言来建模。今天 363 星，说明垂直领域 foundation model 仍在持续冒头；对开发者来说它的参考价值在于「时序数据 token 化 + 预训练」这套方法论，而不一定是直接拿去炒股。"
+  },
+  {
+   "id": "gh10",
+   "title": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars": "152,658",
+   "stars_today": "167 stars today",
+   "summary": "Anthropic 官方的终端 agentic 编码工具，今天 167 星，增速已经放缓但基数 15 万。列在这里主要是当基准线看：整个榜单上 opencode、orca、ruflo、ai-memory 一圈项目全是围着它做替代、编排、记忆和压缩——Claude Code 事实上已经成了编码 agent 的「操作系统」，其他人在它周围建生态。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Token-maxxing is dead, OpenRouter's token usage plateaus",
+   "url": "https://openrouter.ai/rankings",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 29,
+   "id": "n23",
+   "summary": "OpenRouter 的 token 用量出现平台期，文章认为「token-maxxing」（比拼谁消耗的 token 更多）的时代已经结束。这是对过去两年「用量即增长」叙事的直接反证，意味着按 token 计费的商业模式和推理需求预测都要重估，做 AI 应用的开发者该重新思考自己的成本结构和真实用户价值。"
+  },
+  {
+   "title": "CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+   "desc": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "CoreWeave 的债券收益率比国债高出 1000 个基点，按常见定义已进入不良债务区间，Chamath 等投资人公开质疑其债务结构。CoreWeave 是大量 AI 云算力的中间层，它的融资成本一旦失控，会传导到整个 AI 基建的租用价格和供应商账期，被视为「全行业的问题」。"
+  },
+  {
+   "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+   "desc": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "Nvidia 发布新的开放模型，目标是让企业在自有数据中心跑 agent，同时推动 PC 端的本地私有 agent。这既是应对「企业不愿把数据交给闭源 API」的需求，也是在卖卡之外建立软件栈锁定，直接和 OpenAI、Anthropic 的企业 agent 方案抢地盘。"
+  },
+  {
+   "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+   "desc": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Amazon 推出 TorchNeuron 开发工具（配合 Hugging Face 博客同步发布），让 Hugging Face 模型更方便地跑在自研 Trainium 芯片上，目标是打破 Nvidia 对 PyTorch 生态的掌控。这是 Amazon 迄今对 Nvidia 最直接的一次进攻，对成本敏感的推理团队来说，多了一个值得做 benchmark 的替代选项。"
+  },
+  {
+   "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+   "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+   "desc": "Microsoft wants enterprises to closely watch the agents employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "微软安全团队把企业员工使用的 AI agent 类比为「内部威胁」，直言对非 OpenAI/Anthropic 控制的前沿模型不能完全信任，建议企业严密监控。这基本是给 agent 治理工具（权限、审计、沙箱、行为监控）背书，企业采购 agent 时会越来越要求这类配套。"
+  },
+  {
+   "title": "“bonsoir, Elliot”: How abliterated models can get you pwned",
+   "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 15,
+   "id": "n27",
+   "summary": "文章讲的是：经过「abliteration」（移除拒绝行为微调）的开源模型，在 agent 场景下如何变成攻击面——模型被诱导执行恶意指令，最终导致主机被攻陷（pwned）。给所有自部署开源模型、又给模型配置 shell/网络权限的人提了个醒：去掉安全对齐的代价不只是内容合规，还有真实的 RCE（远程代码执行）风险。"
+  },
+  {
+   "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+   "desc": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. C",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n48",
+   "summary": "安全公司 Norforge 披露，有人用一支基本自主运行的 AI agent 批量程序攻破了 100 多个网站，受害者包括 John Deere、SharkNinja、Cummins（据路透）。这是「AI 自动化攻击」从理论走向实际攻击的案例，攻击成本和所需人手被大幅压低，防守方也必须用 agent 来做检测。"
+  },
+  {
+   "title": "Timestral: Mistral's time-series foundation models",
+   "url": "https://mistral.ai/news/timestral/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 541,
+   "id": "n0",
+   "summary": "Mistral 发布时序基础模型 Timestral，把基础模型思路用到时间序列预测上。时序是金融、能源、供应链、运维监控中广泛存在的场景，长期被专用小模型占据，如果基础模型范式成立，会是一个大而尚未饱和的垂直方向。"
+  },
+  {
+   "title": "MiniMax M3.1 Flash",
+   "url": "https://www.minimax.io/blog/minimax-m31f",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 375,
+   "id": "n3",
+   "summary": "MiniMax 发布 M3.1 Flash，走轻量快速路线。国内模型厂商持续在「够用 + 便宜 + 快」的档位上推出新版本，对做高并发产品、对延迟敏感的团队是值得实测的选项，也进一步压低了 API 价格中枢。"
+  },
+  {
+   "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+   "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+   "desc": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Tenstorrent 融资 15 亿美元，估值达到 62 亿美元，此前曾被传有收购意向，这轮融资意在保持独立。开放权重 AI 芯片这个定位同时与 Nvidia 的闭源生态和云厂商的自研芯片形成差异，说明资本市场仍愿意为「AI 芯片第二梯队」提供资金支持。"
+  },
+  {
+   "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+   "desc": "In August, Nscale and Anthropic announced a $45 billion compute deal. The two companies are reportedly discussing yet another deal of the same magnitude.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "据报道，Nscale 与 Anthropic 正在谈又一份规模达 450 亿美元的算力协议；今年 8 月双方刚宣布过一份同等规模的合作。Anthropic 在算力上持续投入巨额承诺，反映前沿实验室对长期算力的争夺，也把 Nscale 这类新兴算力供应商推到台前。"
+  },
+  {
+   "title": "Launch HN: Laminar (YC S24) – RL-trained model that finds errors in agent traces",
+   "url": "https://news.ycombinator.com/item?id=50154029",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 45,
+   "id": "n19",
+   "summary": "Y Combinator 旗下公司 Laminar（YC S24）发布一个用强化学习训练的模型，专门用于在 agent 的执行 trace 中定位出错步骤。agent 一旦进入生产环境，「它为什么失败」就是最棘手的工程问题；将可观测性和自动归因做成产品，是 agent 基础设施里需求最明确的细分方向之一。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph26",
+   "title": "Beam",
+   "url": "https://www.producthunt.com/products/beam-13",
+   "desc": "Highly efficient agentic 501B parameter open model Discussion | Link",
+   "summary": "Beam 发布了一个 501B 参数的开源 agentic 模型，主打“高效能”智能体能力。开源大模型里专门为 agent 场景调优的大块头不多，值得关注其 benchmark 和实际工具调用表现，可能是自建 agent 栈的新底座。"
+  },
+  {
+   "id": "ph14",
+   "title": "Starkomand",
+   "url": "https://www.producthunt.com/products/starkomand",
+   "desc": "Run your AI coding agents on an infinite canvas. Discussion | Link",
+   "summary": "Starkomand 把 AI coding agent 放到无限画布上跑，你可以同时铺开多个 agent 任务、可视化它们的工作流而不是挤在终端标签页里。对同时开好几个 agent 干活的人来说，这是“agent 的 IDE/白板”方向的一次尝试。"
+  },
+  {
+   "id": "ph18",
+   "title": "Point and Yap",
+   "url": "https://www.producthunt.com/products/point-and-yap",
+   "desc": "Point at your screen and start yapping to your agent via MCP Discussion | Link",
+   "summary": "Point and Yap 让你直接指着屏幕上的东西，用语音对 agent 说话，底层走 MCP。把“指哪说哪”变成 agent 的输入方式，比打字描述 UI 位置自然得多，也说明 MCP 正在从工具协议变成交互层。"
+  },
+  {
+   "id": "ph19",
+   "title": "Lancetta",
+   "url": "https://www.producthunt.com/products/lancetta",
+   "desc": "Know when to push your coding agents, and when to ease off Discussion | Link",
+   "summary": "Lancetta 解决的是“什么时候该催 agent、什么时候该让它自己跑”的节奏问题——给 coding agent 加一层调度/干预提示。agent 越自主，人类注意力该投在哪就越关键，这个切入点很小但很真实。"
+  },
+  {
+   "id": "ph10",
+   "title": "Beam.win",
+   "url": "https://www.producthunt.com/products/beam-win",
+   "desc": "Run AI agents on one Mac and use its windows on another Discussion | Link",
+   "summary": "Beam.win 让 AI agent 跑在一台 Mac 上，但你能在另一台设备上看和操作它开的窗口。本质是把 agent 的执行机和交互界面解耦，适合家里放一台常开的 Mac mini 当 agent 宿主机的玩法。"
+  },
+  {
+   "id": "ph9",
+   "title": "buddylist",
+   "url": "https://www.producthunt.com/products/buddylist-2",
+   "desc": "Chat with your coding agents like it's 2005 Discussion | Link",
+   "summary": "buddylist 把和 coding agent 的对话做成 2005 年那种 IM 好友列表/聊天窗口的样子。属于“复古 UI + 现代 agent”的趣味实验，但也侧面说明现在多 agent 并行的管理界面还没定型。"
+  },
+  {
+   "id": "ph16",
+   "title": "CrawlForge MCP",
+   "url": "https://www.producthunt.com/products/crawlforge-mcp",
+   "desc": "Give your AI agent 31 web tools in one MCP server Discussion | Link",
+   "summary": "CrawlForge MCP 一个 MCP server 塞了 31 个网页相关工具（抓取、解析等），装一次就让 agent 具备上网干活的能力。做 agent 应用的人可以少自己拼爬虫轮子，直接接上去试。"
+  },
+  {
+   "id": "ph2",
+   "title": "walkai-talkai",
+   "url": "https://www.producthunt.com/products/walkai-talkai",
+   "desc": "Talk to your AI coding agent over a walkie-talkie Discussion | Link",
+   "summary": "walkai-talkai 让你像用对讲机一样跟 AI coding agent 说话，按住说话、松手发送。形式很搞，但语音 + 对讲机的交互确实适合“我人不在电脑前但想给 agent 派活”的场景。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "My obituary for programming",
+   "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+   "desc": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier t",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 推荐的 Jeremy Scheff 文章《我为编程写的讣告》:核心论点是 AI 编码代理夺走了职业程序员最珍视的东西——那种「拿工资解刁钻逻辑谜题」的乐趣,过去编程之所以是世界上最爽的工作之一,正因为难缠的小问题本身就是回报;现在难题被 agent 一键消化,手艺人的成就感随之消失。值得看的是它不谈失业焦虑,而是罕见地精准命名了「乐趣的丧失」这一被忽视的代价,对思考自己到底从写代码里获得什么、以及未来该往哪转的开发者很有触动。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 应用工程师已经是最大的一块岗位池，而且要求写得越来越具体：不再只是「会用 LangChain」，而是 Harness、Memory、RAG、工具调用、Subagent 调度、任务路由、超时重试、上下文管理这一整套能力。典型门槛是 3-5 年后端经验加 1-2 年 Agent 实战（m32/m34/m49）。腾讯云甚至把 Agent 沙箱、Session、身份凭证、Registry 做成独立产品线，单是 Sandbox 就承载几百万个实例（m44），说明岗位正在从「做应用」转向「给 Agent 修路」。",
+   "「熟练使用 Cursor、Claude Code」已经变成硬性门槛，不再只是加分项：香港的 Go 后端岗位直接把它写进 JD（m41），成都的 Java 高级岗位则要求「对 AI Coding 有深刻实践和认知」（m30），还出现了「AI Coding tasks」这种专职岗位（m0/m18）。但这类岗位的薪资并不突出，说明 AI Coding 目前是基础素养，还谈不上能拿高薪的技能。",
+   "评测和质量保障正在变成独立工种，这是本周最明显的新增方向：常州招「AI 质量评估工程师」，20-35k×13 薪，职责是从 0 到 1 搭建 golden set、LLM-as-judge 和回归测试资产，并且是 owner 而不只是执行者（m33）；蚂蚁的 Agent 岗位把「任务完成率、响应速度、调用成本、效果评测与监控」直接写进职责（m35）；Mastra 也在招做 evals 和 tracing 的（m77）。会设计评测体系的人，现在比会调 prompt 的人稀缺。",
+   "Infra 层的分工在快速细化：Agent Runtime 和安全沙箱（m44）、大模型在线推理和 GPU 性能优化（m32）、AI 用量与成本的可观测性（m78 Flowstate 专门做「公司不知道自己 AI 在干什么、花了多少钱」这个痛点），以及 AI 供应链安全和 AIBOM（m79）。这些都是过去一年才出现的岗位名。",
+   "AI 技能正在渗透进非 AI 岗位，同时也催生了新的岗位类别：Salesforce 平台负责人要负责「AI 辅助交付」（m17），数据安全团队要用 AI Native 重构（m43），SEO 岗位则明确转向 GEO 和 AI 搜索优化（m21/m42/m45）。要注意，SEO 这类岗位偏内容运营、性价比导向，实习薪资只有 200-300 元一天，含金量比不上 Agent 工程岗。",
+   "转岗通道在打开：字节的视频与边缘部门公开招前端、后端、测试转 Agent 开发，明确说「没有 agent 开发经验的同学也是好机会」（m31）。这既说明人才缺口还在，也说明大厂更倾向于自己培养，而不是花高价从外部挖人。"
+  ],
+  "gigs": [
+   "远程兼职 AI 全栈的价格被压得很低：有项目用 5000-7000 元/月招人，基于 New API 二次开发做模型 API 聚合平台，要求熟练使用 Cursor、Claude（m37）。这类「套壳聚合、二次开发」的活供给明显过剩，议价权在甲方。样本有限，但这个价格信号值得警惕。",
+   "真正有溢价的是「行业 know-how 加 AI」的垂直落地：欧洲的 AI 原生税务事务所项目要做发票识别、商品标准化、自动记账、银行对账，还要建立历史数据匹配和人工纠错反馈的闭环（m51）；航空 AI 项目则依托甲方本人多年的民航飞行与训练经验来分析 QAR 数据（m50）。这类甲方要的不是纯写代码的人，而是能理解业务、能把 AI 准确率持续往上推的人。",
+   "传统企业数字化的活变多了，但形态变了：不再是单纯做网站或小程序，而是把电商和 CRM 数据接到一张 BI 看板、把 Excel 台账迁移成数据池，再加知识库和 AI 生成经营分析，接口不通的地方就用 RPA 抓取（m53）。这类活是「数据集成、流程线上化和 AI」的打包项目，适合有全栈能力、能独立交付的人接。",
+   "非 AI 的硬件和嵌入式外包依然存在，而且甲方会明确排除 AI：蓝牙音频模块项目写明「标准 Turnkey 方案，不涉及任何自定义 AI 算法训练」，按里程碑结算（m48），说明硬件侧的 AI 落地还很浅。另一端，早期团队更愿意用股权找合伙人或创始工程师，而不是外包（m29 CloudCat 找「OS 级合伙人」、m64/m65/m56 founding engineer），底层还出现了 7.25-10 美元/小时的 AI 学徒岗（m63）和佣金制的 BD（m58），自由职业市场明显两极分化。样本有限，趋势判断仅供参考。"
+  ],
+  "highlights": [
+   {
+    "title": "腾讯云 Agent Runtime 团队欢迎牛逼技术专家、应届生、实习生加入",
+    "desc": "没错，无论你是应届生、实习生，还是已经工作多年的业界大佬，我们都非常欢迎 😊 团队简介 腾讯云 Agent Runtime 团队欢迎优秀的 Agent 基础设施人才加入。 我们为腾讯内部业务及外部公有云客户提供 Agent 安全沙箱、Session 、身份凭证、Agent Registry 等 Agent Infra 相关能力，已支持 WorkBuddy 、CodeBuddy 、IMA 、元宝等腾讯内部产品，也服务于智谱、MiniMax 等 AI 客户的强化学习场景，承载数百万量级的 Sandbox 。 产品入口： 腾讯云 Agent Runtime 岗位要求 计算机相关专业。 具备优秀的 A",
+    "url": "https://www.v2ex.com/t/1246998#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m44",
+    "summary": "腾讯云 Agent Runtime 团队招人，把 Agent 沙箱、Session、身份凭证、Registry 做成独立 Infra 产品，承载数百万个 Sandbox，还服务智谱、MiniMax 的强化学习场景。这说明 Agent 基础设施已经平台化，RL 训练对安全沙箱的需求也成了真实业务。"
+   },
+   {
+    "title": "[蚂蚁集团招聘] agent 研发工程师（上海，杭州）",
+    "desc": "蚂蚁集团｜后端研发工程师（ Agent 应用方向）\n职级：P5–P6\n我们希望找到既具备扎实后端研发能力，又有 Agent 应用实践经验的工程师，一起推动 AI 能力在真实业务场景中落地。\n岗位职责 负责核心业务后端系统的设计与研发，保障系统的稳定性、性能与可扩展性。 参与 Agent 应用的方案设计与开发，包括工具调用、任务规划、上下文管理及业务系统集成。 围绕业务场景，持续优化 Agent 的任务完成率、响应速度与调用成本，建设效果评测和运行监控能力。 与产品、算法及前端团队协作，推动需求从技术方案、开发交付到上线后的持续迭代。\n任职要求 具备扎实的计算机基础，熟悉 Java 及主流后端开",
+    "url": "https://www.v2ex.com/t/1248166#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m35",
+    "summary": "蚂蚁 P5-P6 招 Agent 应用方向的后端，职责里明确要求优化「任务完成率、响应速度、调用成本」，还要建效果评测和运行监控。这说明大厂的 Agent 岗位已经从做 demo 阶段，进入比拼成本和效果的阶段。"
+   },
+   {
+    "title": "招聘： AI 质量评估工程师",
+    "desc": "岗位名称：AI 质量评估工程师 薪资：20-35k·13 薪 ｜ 常州·新北区 ｜ 3-5 年 ｜ 统招本科及以上 岗位职责 负责公司 AI 平台的质量保障，从 0 到 1 搭建质量与评测体系——你是 owner ，不是执行者； 构建面向大模型/Agent 系统的评测体系：评测数据集、golden set 、LLM-as-judge 、回归测试资产； 对商业秘密防护、大模型使用合规等安全能力进行对抗性验证； 深度使用 AI 工具完成用例生成、代码审查、质量分析，沉淀 AI 驱动的测试工作流，让 AI 放大你的产出； 参与公司产品的测试方案设计与执行，覆盖功能测试、接口测试、性能测试及兼容性测试",
+    "url": "https://www.v2ex.com/t/1248322#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m33",
+    "summary": "常州一家公司以 20-35k×13 薪招「AI 质量评估工程师」，要独立搭建 golden set、LLM-as-judge 和回归测试资产，并且强调你是 owner 而不是执行者。这标志着评测已经从附带工作变成了独立岗位。"
+   },
+   {
+    "title": "SEO 增长专员（社招）",
+    "desc": "SEO 增长专员（社招） 工作年限： 3 ～ 5 年 学历要求： 全日制本科及以上 工作地点： 深圳／杭州／远程 薪酬： 面议 岗位职责 制定并持续优化 SEO 与 GEO 增长策略，推动自然搜索流量、内容曝光及业务转化增长。 开展关键词研究、搜索意图分析和内容策略规划，结合用户需求与业务目标，推动内容选题和页面优化。 跟踪收录、排名、展现、点击、自然流量及转化等数据，分析表现并提出可执行的优化方案。 发现并跟进技术 SEO 问题，包括抓取与索引、页面结构、内链、canonical 、robots 、sitemap 、结构化数据及页面性能等。 探索 GEO 和 AI 搜索优化，关注品牌及内容在",
+    "url": "https://www.v2ex.com/t/1249740#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "有招聘把 SEO 增长专员的职责改成「SEO 与 GEO 策略」，要求探索 GEO 和 AI 搜索优化。AI 搜索正在催生一个全新的岗位类别，技能栈从关键词排名扩展到品牌在生成式答案里的可见度。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m93",
+    "summary": "Mechanize 在旧金山招初级 SWE，开出 30 万美元加股权，业务是给前沿 AI 实验室造「真实软件工程任务」的训练环境。这说明 RL 环境和任务数据集本身就是一个高溢价赛道，需求大到接不完。"
+   },
+   {
+    "title": "[急招，流程快] 前端后端测试兄弟看过来，有一个转 Agent 开发的机会。坐标北京/上海/杭州。",
+    "desc": "欢迎大家投递简历，对于没有 agent 开发经验的同学来说是一个很好的机会。 团队介绍：视频与边缘部门承载了字节跳动的媒体内容分发基建及技术中台，团队介绍：支持了字节全系产品的点播、直播、实时通信、图片等多媒体业务发展，同时将业务发展过程中沉淀下来的技术能力和工具，通过火山引擎对外输出，面向各行各业用户提供视频云产品和服务，愿景是为内外部业务伙伴提供最低成本、最优画质、最低延时、最安全可靠的富媒体内容分发解决方案，助力业务伙伴降本提效实现持续增长。 1 、参与 AI Media Agent 核心研发，构建覆盖图片/视频 AI 生产、AI 编辑、内容理解、AI 二创、AI 播放的全流程能力，探索",
+    "url": "https://www.v2ex.com/t/1248501#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m31",
+    "summary": "字节的视频与边缘部门公开招前端、后端、测试转 Agent 开发，明说「没有 agent 开发经验也是好机会」。这反映出一方面人才缺口还在，另一方面大厂更倾向内部培养，而不是在市场上抢人。"
+   }
+  ],
+  "week": "2026-W43"
+ },
+ "llm_used": true,
+ "degraded": []
+}
