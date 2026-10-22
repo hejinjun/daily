@@ -1,0 +1,405 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-22 08:43",
+ "trends": [
+  "安全成了 AI 的主战场：一边是前沿模型批量挖出潜伏十几年的老漏洞（PHP 全线告急），一边是 AI 基础设施被投毒（LiteLLM PyPI 包带后门）。攻防节奏同时被 AI 放大，安全会成为接下来最确定的需求。",
+  "巨头之间的边界正在重新划分：OpenAI 的模型上 Google Cloud 卖，Google 又出工具帮 PyTorch 用户逃离 Nvidia，云厂商正系统性地拆除 CUDA 锁定。竞争焦点从“谁的模型强”转向“谁掌握分发渠道和算力”。",
+  "Agent 正从演示阶段走向真实交易与权限体系：Walmart 开放 agent 代客下单，Alter 做多用户 agent 的访问控制，OpenAI 用上千个 agent 在生物数据里找线索。身份、预算、授权、审批这套“agent 基础设施”是明显的空白区。",
+  "成本与变现两端同时推进：ChatGPT 广告铺到 26 个国家，SLM 用定制词表把推理成本砍掉 77%，笔记本上就能跑的代码模型也出来了。小模型、端侧模型和推理优化，比单纯追更大的模型更省钱。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 12
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 8
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 6
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 4
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 4
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 3
+  }
+ ],
+ "github": [
+  {
+   "id": "gh6",
+   "title": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "desc": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+   "lang": "TypeScript",
+   "stars": "113,000",
+   "stars_today": "504 stars today",
+   "summary": "Supabase 又回到了 trending 榜单，它是一个基于 Postgres 的后端即服务平台，提供数据库、认证、存储、实时订阅等一整套能力。这波热度主要来自它越来越被当作 AI 应用的标准后端使用：内置 pgvector 做向量检索、支持 Edge Functions 调模型、还有 AI 助手和自动生成 embedding 的工具链，很多人做 RAG 或 AI 产品原型时直接拿它当“开箱即用的数据库 + 向量库 + 鉴权”。对独立开发者来说，这是目前上手成本最低的 AI 应用后端方案之一，值得收藏。"
+  },
+  {
+   "id": "gh7",
+   "title": "twentyhq/twenty",
+   "url": "https://github.com/twentyhq/twenty",
+   "desc": "The open alternative to Salesforce, designed for AI.",
+   "lang": "TypeScript",
+   "stars": "59,162",
+   "stars_today": "112 stars today",
+   "summary": "Twenty 是一个开源的 Salesforce 替代品，定位是“为 AI 设计的 CRM”，用 TypeScript 写的现代 SaaS 架构。它的卖点是把数据模型和界面都做成可扩展、对 AI agent 友好的形式，让 AI 能直接读写客户数据、自动录入和跟进线索，正好赶上“AI 原生 SaaS 重做一遍”这波叙事，所以持续有热度。想做 AI CRM 或企业级 agent 落地的话，这是一个很好的参考实现和可自托管底座。"
+  }
+ ],
+ "news": [
+  {
+   "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+   "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+   "desc": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n49",
+   "summary": "PHP Armageddon：OpenAI 和 Google 的 Wiz 用 AI 挖出一批潜伏多年的 PHP 老漏洞，整个互联网紧急打补丁，多家 PHP 运行时同时发安全版本。同一时间 OpenAI 推出 Patch the Planet，做全球漏洞响应协调。这意味着 AI 已经从“写代码”跨到“批量找漏洞”，攻防节奏都会被按倍数放大——你线上跑的老框架很可能就在名单里。"
+  },
+  {
+   "title": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "desc": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n32",
+   "summary": "OpenAI 的前沿模型和 Codex 工作流要进 Google Cloud 的 Gemini Model Garden，通过 Google Cloud Marketplace 售卖。最直接的竞争对手在分发上握手：对企业客户是好事，一个账单就能买两家模型；也说明模型层的护城河正在让位给云渠道。"
+  },
+  {
+   "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+   "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 423,
+   "id": "n4",
+   "summary": "PyPI 上的 LiteLLM 1.107.0 被投毒，安装后就会植入凭据窃取器和后门。LiteLLM 是很多团队用来统一接入多家模型的网关依赖，这类“AI 中间件”已经是供应链攻击的高价值目标，建议立刻排查版本锁定和 lockfile。"
+  },
+  {
+   "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+   "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+   "desc": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n57",
+   "summary": "Google 跟着 Amazon 一起削弱 Nvidia 的优势，发布开发工具，让 PyTorch 用户更容易把应用从 Nvidia GPU 迁到别家硬件。加上之前的 TorchTPU，云厂商正在有系统地削弱 CUDA 的锁定效应，长期看 GPU 的溢价会被压低。"
+  },
+  {
+   "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+   "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+   "desc": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n47",
+   "summary": "创业公司 Recursive 发布 Flint，一个能在笔记本本地跑的小型代码模型，号称大部分是自家 AI 研究系统自己造出来的。这是“AI 改进 AI”的早期公开实验，也是端侧代码模型又一次尝试，值得关注路线而不只是跑分。"
+  },
+  {
+   "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+   "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "desc": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n34",
+   "summary": "ChatGPT 广告扩展到 26 个新国家，已有超过 10 万广告主投放过。OpenAI 还把对话意图做成了广告定向系统，并刻意把广告和回答分开。商业化路径基本坐实：订阅之外，对话式广告是第二条增长曲线，做流量和投放的人要开始研究这个新渠道了。"
+  },
+  {
+   "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+   "desc": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n48",
+   "summary": "Amazon 在封杀 AI agent 购物，Walmart 反其道而行，上线让 agent 代客下单的能力，带消费额度和交易审批控制。电商对 agent 的态度已经分裂，谁先把“代理身份、预算、授权”这套基础设施做出来，谁就能获得 agent 带来的流量。"
+  },
+  {
+   "title": "Using thousands of AI agents to uncover new leads in biological data",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "desc": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n35",
+   "summary": "OpenAI 联合 PerturbAI 和 Scripps，用上千个分布式 AI agent 在几百万个脑细胞的数据里找研究线索。这是 agent 从写代码走向真实科学发现的一个可量化案例，也说明“大规模并行 agent、结果聚合”正在成为一种通用研究方法。"
+  },
+  {
+   "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+   "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+   "desc": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n50",
+   "summary": "Blacksmith 拿到 Sequoia 领投的 6600 万美元 C 轮，估值 10 亿美元，做的是帮公司更快构建和测试 AI 生成代码的平台。AI 写的代码越多，CI 和验证层就越值钱，这个方向已经被资本明确标价。"
+  },
+  {
+   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+   "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n39",
+   "summary": "Hugging Face 的一篇实践：给小语言模型定制词表，真实应用里推理成本降了 77%。对做垂直场景落地的团队来说，这类分词器和词表工程往往比换更大的模型更省钱，是可以直接借鉴的降本手段。"
+  },
+  {
+   "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+   "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n38",
+   "summary": "NVIDIA 的 Kumo Relational 在关系型数据上不做训练就超过了监督学习的效果。如果这个结论站得住，表格数据建模的门槛会大幅下降，很多原本要先训一个 GBDT 才能用的场景可以直接换掉这一环节。"
+  },
+  {
+   "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+   "url": "https://alterauth.com/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 52,
+   "id": "n23",
+   "summary": "YC S25 的 Alter 在做多用户 AI agent 的访问控制。agent 有了身份和权限才能真正进企业，这块目前还很空白，是典型的“agent 时代的 Okta”型机会，做 agent 产品的团队迟早要面对这个问题。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph6",
+   "title": "Notion Auto",
+   "url": "https://www.producthunt.com/products/notion-99",
+   "desc": "Notion’s rebuilt Agents run for hours and cost far less Discussion | Link",
+   "summary": "Notion 重做了自家 Agents：能连续跑几个小时的长任务，成本还大幅下降。值得关注的是「长时运行的 agent」正在从 demo 变成产品默认能力，而且成本曲线在往下走——这对所有做 agent 产品的团队都是定价和体验的参照系。"
+  },
+  {
+   "id": "ph12",
+   "title": "Mouse-1",
+   "url": "https://www.producthunt.com/products/mouse-1",
+   "desc": "A decision model for your agent harness. Discussion | Link",
+   "summary": "Mouse-1 给 agent harness 提供一层「决策模型」，也就是在 agent 执行框架里专门负责判断该走哪一步。现在大家都在堆 tool 和 prompt，把决策单独抽成可替换模块的思路还挺少见，做 agent infra 的可以看看它的抽象方式。"
+  },
+  {
+   "id": "ph23",
+   "title": "Nimbalyst Wiki",
+   "url": "https://www.producthunt.com/products/nimbalyst-wiki",
+   "desc": "Wiki your agents write for you to think, organize, direct Discussion | Link",
+   "summary": "Nimbalyst Wiki：让 agent 自己写 wiki，人通过读这份 wiki 来思考、组织和指挥 agent。本质是把 agent 的上下文和记忆外化成可读文档，解决多轮长任务里「人不知道 agent 在干什么」的问题，是个挺聪明的上下文管理套路。"
+  },
+  {
+   "id": "ph18",
+   "title": "Searchtok",
+   "url": "https://www.producthunt.com/products/searchtok",
+   "desc": "Make TikTok and Instagram searchable for your AI agent Discussion | Link",
+   "summary": "Searchtok 把 TikTok 和 Instagram 的内容做成 AI agent 可搜索的数据源。短视频平台一直缺正经 API，这个相当于给 agent 开了个内容入口，做营销、种草分析、舆情类 agent 的可以直接拿它当数据层。"
+  },
+  {
+   "id": "ph29",
+   "title": "Triage by Chodeberg",
+   "url": "https://www.producthunt.com/products/triage-by-chodeberg",
+   "desc": "Reproduce user described bugs in clean sandbox environments Discussion | Link",
+   "summary": "Triage 用干净的沙箱环境去复现用户口述的 bug。把「用户说崩了」自动变成可复现的现场，是客服和工程之间最痛的一环，做 AI 修 bug / 自动排查方向的值得研究。"
+  },
+  {
+   "id": "ph5",
+   "title": "UseIt Studio",
+   "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+   "desc": "Your AI design agent for real, editable project files. Discussion | Link",
+   "summary": "UseIt Studio 是面向设计的 AI agent，但产出的是真正可编辑的项目文件，不是一张死图。这一点很关键——设计 agent 能不能进真实工作流，卡的就是交付物能不能被设计师接手继续改。"
+  },
+  {
+   "id": "ph2",
+   "title": "Woven Video",
+   "url": "https://www.producthunt.com/products/woven-video",
+   "desc": "Edit any video by chat, on a real Mac timeline Discussion | Link",
+   "summary": "Woven Video 让你用聊天的方式剪视频，但底层是真实的 Mac 时间线，不是黑盒生成。等于在自然语言和传统剪辑软件之间加了一层，兼顾速度和可控性，比纯生成视频更贴实际工作流。"
+  },
+  {
+   "id": "ph10",
+   "title": "ilha",
+   "url": "https://www.producthunt.com/products/ilha",
+   "desc": "Your Claude Code and Codex limits, live in the notch Discussion | Link",
+   "summary": "ilha 把 Claude Code 和 Codex 的额度用量实时显示在 Mac 刘海。小工具但极度对症：现在重度用户天天担心 token 限额被打爆，这类「AI 工具的可观测性」小需求会越来越多。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+   "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+   "desc": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in t",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 提醒 PHP 全系 8.x 刚发了安全更新，修了两个远程代码执行漏洞，而且昨晚起已有在野利用（因为补丁提前泄露）——只要线上跑 PHP 就赶紧升级，属于今天必须动手的一条。"
+  },
+  {
+   "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+   "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+   "desc": "An open source “bomb” drops from China",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b12",
+   "summary": "DeepSeek 开源了推理系统 DeepInfer，号称单集群每天处理 155 万亿 token、日入 2200 万美元、约 80% 毛利、81 天回本——swyx 直接称之为中国扔下的一颗开源炸弹，值得看它把推理成本和吞吐推到什么量级。"
+  },
+  {
+   "title": "Claude Mods: Flipping the Harness Inside Out",
+   "url": "https://www.latent.space/p/claude-mods",
+   "desc": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b11",
+   "summary": "Latent Space 介绍 Claude Mods，把它称作「注意力界面」的早期形态：agent 的 harness 从面向机器一转而面向人，等于把 agent 脚手架的方向整个翻转过来，对做 agent 产品交互的人有启发。"
+  },
+  {
+   "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+   "url": "https://www.latent.space/p/tenex",
+   "desc": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b13",
+   "summary": "Latent Space 访谈 Tenex 的 Alex Lieberman 和 CJ Hess，聊怎么给财富 2000 强企业做 AI 原生的 SDLC——按结果收费、用 agent 构建、以及企业 AI 落地最后一公里到底卡在哪，44 分钟播客。"
+  },
+  {
+   "title": "Use My /Video-Short Skill to Turn Any Raw Recording Into a Compelling Short",
+   "url": "https://creatoreconomy.so/p/use-my-video-short-skill-to-create-compelling-shorts",
+   "desc": "A free AI skill that adds B-roll, motion graphics, captions, and music, then lets you give feedback on any frame.",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b15",
+   "summary": "Peter Yang 放出免费的 /Video-Short AI skill，能把任何原始录像自动加 B-roll、动效字幕和配乐剪成短视频，还能针对任意一帧给反馈修改——做内容或做视频工具的人都值得试。"
+  },
+  {
+   "title": "Panache — RTS Belle Époque pour mobile",
+   "url": "https://simonwillison.net/2026/Oct/21/panache/",
+   "desc": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de stratégie en temp",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Simon Willison 昨天才以 Apache 2.0 开源自己的游戏 Battle Drones，今天就有法国开发者做了 fork：改成 1900 年代蒸汽朋克法国背景、还加了动画开场——一个开源迭代速度的小例子，顺手也提了下他的新项目。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 应用工程师已经是最大的一块岗位池，而且要求写得越来越具体：不再只是「会用 LangChain」，而是 Harness、Memory、RAG、工具调用、Subagent 调度、任务路由、超时重试、上下文管理这一整套能力。典型门槛是 3-5 年后端经验加 1-2 年 Agent 实战（m32/m34/m49）。腾讯云甚至把 Agent 沙箱、Session、身份凭证、Registry 做成独立产品线，单是 Sandbox 就承载几百万个实例（m44），说明岗位正在从「做应用」转向「给 Agent 修路」。",
+   "「熟练使用 Cursor、Claude Code」已经变成硬性门槛，不再只是加分项：香港的 Go 后端岗位直接把它写进 JD（m41），成都的 Java 高级岗位则要求「对 AI Coding 有深刻实践和认知」（m30），还出现了「AI Coding tasks」这种专职岗位（m0/m18）。但这类岗位的薪资并不突出，说明 AI Coding 目前是基础素养，还谈不上能拿高薪的技能。",
+   "评测和质量保障正在变成独立工种，这是本周最明显的新增方向：常州招「AI 质量评估工程师」，20-35k×13 薪，职责是从 0 到 1 搭建 golden set、LLM-as-judge 和回归测试资产，并且是 owner 而不只是执行者（m33）；蚂蚁的 Agent 岗位把「任务完成率、响应速度、调用成本、效果评测与监控」直接写进职责（m35）；Mastra 也在招做 evals 和 tracing 的（m77）。会设计评测体系的人，现在比会调 prompt 的人稀缺。",
+   "Infra 层的分工在快速细化：Agent Runtime 和安全沙箱（m44）、大模型在线推理和 GPU 性能优化（m32）、AI 用量与成本的可观测性（m78 Flowstate 专门做「公司不知道自己 AI 在干什么、花了多少钱」这个痛点），以及 AI 供应链安全和 AIBOM（m79）。这些都是过去一年才出现的岗位名。",
+   "AI 技能正在渗透进非 AI 岗位，同时也催生了新的岗位类别：Salesforce 平台负责人要负责「AI 辅助交付」（m17），数据安全团队要用 AI Native 重构（m43），SEO 岗位则明确转向 GEO 和 AI 搜索优化（m21/m42/m45）。要注意，SEO 这类岗位偏内容运营、性价比导向，实习薪资只有 200-300 元一天，含金量比不上 Agent 工程岗。",
+   "转岗通道在打开：字节的视频与边缘部门公开招前端、后端、测试转 Agent 开发，明确说「没有 agent 开发经验的同学也是好机会」（m31）。这既说明人才缺口还在，也说明大厂更倾向于自己培养，而不是花高价从外部挖人。"
+  ],
+  "gigs": [
+   "远程兼职 AI 全栈的价格被压得很低：有项目用 5000-7000 元/月招人，基于 New API 二次开发做模型 API 聚合平台，要求熟练使用 Cursor、Claude（m37）。这类「套壳聚合、二次开发」的活供给明显过剩，议价权在甲方。样本有限，但这个价格信号值得警惕。",
+   "真正有溢价的是「行业 know-how 加 AI」的垂直落地：欧洲的 AI 原生税务事务所项目要做发票识别、商品标准化、自动记账、银行对账，还要建立历史数据匹配和人工纠错反馈的闭环（m51）；航空 AI 项目则依托甲方本人多年的民航飞行与训练经验来分析 QAR 数据（m50）。这类甲方要的不是纯写代码的人，而是能理解业务、能把 AI 准确率持续往上推的人。",
+   "传统企业数字化的活变多了，但形态变了：不再是单纯做网站或小程序，而是把电商和 CRM 数据接到一张 BI 看板、把 Excel 台账迁移成数据池，再加知识库和 AI 生成经营分析，接口不通的地方就用 RPA 抓取（m53）。这类活是「数据集成、流程线上化和 AI」的打包项目，适合有全栈能力、能独立交付的人接。",
+   "非 AI 的硬件和嵌入式外包依然存在，而且甲方会明确排除 AI：蓝牙音频模块项目写明「标准 Turnkey 方案，不涉及任何自定义 AI 算法训练」，按里程碑结算（m48），说明硬件侧的 AI 落地还很浅。另一端，早期团队更愿意用股权找合伙人或创始工程师，而不是外包（m29 CloudCat 找「OS 级合伙人」、m64/m65/m56 founding engineer），底层还出现了 7.25-10 美元/小时的 AI 学徒岗（m63）和佣金制的 BD（m58），自由职业市场明显两极分化。样本有限，趋势判断仅供参考。"
+  ],
+  "highlights": [
+   {
+    "title": "腾讯云 Agent Runtime 团队欢迎牛逼技术专家、应届生、实习生加入",
+    "desc": "没错，无论你是应届生、实习生，还是已经工作多年的业界大佬，我们都非常欢迎 😊 团队简介 腾讯云 Agent Runtime 团队欢迎优秀的 Agent 基础设施人才加入。 我们为腾讯内部业务及外部公有云客户提供 Agent 安全沙箱、Session 、身份凭证、Agent Registry 等 Agent Infra 相关能力，已支持 WorkBuddy 、CodeBuddy 、IMA 、元宝等腾讯内部产品，也服务于智谱、MiniMax 等 AI 客户的强化学习场景，承载数百万量级的 Sandbox 。 产品入口： 腾讯云 Agent Runtime 岗位要求 计算机相关专业。 具备优秀的 A",
+    "url": "https://www.v2ex.com/t/1246998#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m44",
+    "summary": "腾讯云 Agent Runtime 团队招人，把 Agent 沙箱、Session、身份凭证、Registry 做成独立 Infra 产品，承载数百万个 Sandbox，还服务智谱、MiniMax 的强化学习场景。这说明 Agent 基础设施已经平台化，RL 训练对安全沙箱的需求也成了真实业务。"
+   },
+   {
+    "title": "[蚂蚁集团招聘] agent 研发工程师（上海，杭州）",
+    "desc": "蚂蚁集团｜后端研发工程师（ Agent 应用方向）\n职级：P5–P6\n我们希望找到既具备扎实后端研发能力，又有 Agent 应用实践经验的工程师，一起推动 AI 能力在真实业务场景中落地。\n岗位职责 负责核心业务后端系统的设计与研发，保障系统的稳定性、性能与可扩展性。 参与 Agent 应用的方案设计与开发，包括工具调用、任务规划、上下文管理及业务系统集成。 围绕业务场景，持续优化 Agent 的任务完成率、响应速度与调用成本，建设效果评测和运行监控能力。 与产品、算法及前端团队协作，推动需求从技术方案、开发交付到上线后的持续迭代。\n任职要求 具备扎实的计算机基础，熟悉 Java 及主流后端开",
+    "url": "https://www.v2ex.com/t/1248166#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m35",
+    "summary": "蚂蚁 P5-P6 招 Agent 应用方向的后端，职责里明确要求优化「任务完成率、响应速度、调用成本」，还要建效果评测和运行监控。这说明大厂的 Agent 岗位已经从做 demo 阶段，进入比拼成本和效果的阶段。"
+   },
+   {
+    "title": "招聘： AI 质量评估工程师",
+    "desc": "岗位名称：AI 质量评估工程师 薪资：20-35k·13 薪 ｜ 常州·新北区 ｜ 3-5 年 ｜ 统招本科及以上 岗位职责 负责公司 AI 平台的质量保障，从 0 到 1 搭建质量与评测体系——你是 owner ，不是执行者； 构建面向大模型/Agent 系统的评测体系：评测数据集、golden set 、LLM-as-judge 、回归测试资产； 对商业秘密防护、大模型使用合规等安全能力进行对抗性验证； 深度使用 AI 工具完成用例生成、代码审查、质量分析，沉淀 AI 驱动的测试工作流，让 AI 放大你的产出； 参与公司产品的测试方案设计与执行，覆盖功能测试、接口测试、性能测试及兼容性测试",
+    "url": "https://www.v2ex.com/t/1248322#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m33",
+    "summary": "常州一家公司以 20-35k×13 薪招「AI 质量评估工程师」，要独立搭建 golden set、LLM-as-judge 和回归测试资产，并且强调你是 owner 而不是执行者。这标志着评测已经从附带工作变成了独立岗位。"
+   },
+   {
+    "title": "SEO 增长专员（社招）",
+    "desc": "SEO 增长专员（社招） 工作年限： 3 ～ 5 年 学历要求： 全日制本科及以上 工作地点： 深圳／杭州／远程 薪酬： 面议 岗位职责 制定并持续优化 SEO 与 GEO 增长策略，推动自然搜索流量、内容曝光及业务转化增长。 开展关键词研究、搜索意图分析和内容策略规划，结合用户需求与业务目标，推动内容选题和页面优化。 跟踪收录、排名、展现、点击、自然流量及转化等数据，分析表现并提出可执行的优化方案。 发现并跟进技术 SEO 问题，包括抓取与索引、页面结构、内链、canonical 、robots 、sitemap 、结构化数据及页面性能等。 探索 GEO 和 AI 搜索优化，关注品牌及内容在",
+    "url": "https://www.v2ex.com/t/1249740#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "有招聘把 SEO 增长专员的职责改成「SEO 与 GEO 策略」，要求探索 GEO 和 AI 搜索优化。AI 搜索正在催生一个全新的岗位类别，技能栈从关键词排名扩展到品牌在生成式答案里的可见度。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m93",
+    "summary": "Mechanize 在旧金山招初级 SWE，开出 30 万美元加股权，业务是给前沿 AI 实验室造「真实软件工程任务」的训练环境。这说明 RL 环境和任务数据集本身就是一个高溢价赛道，需求大到接不完。"
+   },
+   {
+    "title": "[急招，流程快] 前端后端测试兄弟看过来，有一个转 Agent 开发的机会。坐标北京/上海/杭州。",
+    "desc": "欢迎大家投递简历，对于没有 agent 开发经验的同学来说是一个很好的机会。 团队介绍：视频与边缘部门承载了字节跳动的媒体内容分发基建及技术中台，团队介绍：支持了字节全系产品的点播、直播、实时通信、图片等多媒体业务发展，同时将业务发展过程中沉淀下来的技术能力和工具，通过火山引擎对外输出，面向各行各业用户提供视频云产品和服务，愿景是为内外部业务伙伴提供最低成本、最优画质、最低延时、最安全可靠的富媒体内容分发解决方案，助力业务伙伴降本提效实现持续增长。 1 、参与 AI Media Agent 核心研发，构建覆盖图片/视频 AI 生产、AI 编辑、内容理解、AI 二创、AI 播放的全流程能力，探索",
+    "url": "https://www.v2ex.com/t/1248501#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m31",
+    "summary": "字节的视频与边缘部门公开招前端、后端、测试转 Agent 开发，明说「没有 agent 开发经验也是好机会」。这反映出一方面人才缺口还在，另一方面大厂更倾向内部培养，而不是在市场上抢人。"
+   }
+  ],
+  "week": "2026-W43"
+ },
+ "llm_used": true,
+ "degraded": []
+}
