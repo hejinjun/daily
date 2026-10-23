@@ -1,0 +1,400 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-23 08:43",
+ "trends": [],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 9
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 6
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 7
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 3
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 4
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh7",
+   "title": "luongnv89/claude-howto",
+   "url": "https://github.com/luongnv89/claude-howto",
+   "desc": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+   "lang": "Python",
+   "stars": "43,199",
+   "stars_today": "177 stars today",
+   "summary": "一份面向 Claude Code 的可视化、例子驱动的上手指南，从基础概念一直讲到进阶 agent 编排，还附带可直接复制粘贴、拿来就能用的模板。今天涨 177 星说明大家对「怎么真正把 Claude Code 用起来」的需求很旺盛，属于典型的 AI 编程工具落地教程，想提高日常开发效率或琢磨 agent 工作流的人值得一看。"
+  },
+  {
+   "id": "gh6",
+   "title": "fastapi/fastapi",
+   "url": "https://github.com/fastapi/fastapi",
+   "desc": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+   "lang": "Python",
+   "stars": "103,741",
+   "stars_today": "101 stars today",
+   "summary": "FastAPI 这个高性能 Python Web 框架本身不是 AI 项目，但它是目前封装模型推理服务、给 LLM 应用搭后端的默认选择，Star 已破 10 万还在稳定涨。关注它的意义在于：做 AI 产品时后端接口层基本绕不开它，属于基础设施级的必知项。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Quad9 (DNS Resolver) to Exit France",
+   "url": "https://quad9.net/news/blog/au-revoir-france/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 972,
+   "id": "n0"
+  },
+  {
+   "title": "eMudhra to exit global SSL/TLS certificate business",
+   "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 912,
+   "id": "n1"
+  },
+  {
+   "title": "Jailbreaking the Switch 2",
+   "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 702,
+   "id": "n2"
+  },
+  {
+   "title": "Woman faces six years in prison over Cash App account she never opened",
+   "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 463,
+   "id": "n3"
+  },
+  {
+   "title": "What Is Gridifcation",
+   "url": "https://musicalform.substack.com/p/what-is-gridifcation",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 394,
+   "id": "n4"
+  },
+  {
+   "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+   "url": "https://news.ycombinator.com/item?id=50193416",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 345,
+   "id": "n5"
+  },
+  {
+   "title": "What’s getting pwned right now",
+   "url": "https://pwn.watch/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 333,
+   "id": "n6"
+  },
+  {
+   "title": "Run full iOS 16.5 firmware on Android Devices",
+   "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 316,
+   "id": "n7"
+  },
+  {
+   "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 286,
+   "id": "n8"
+  },
+  {
+   "title": "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions",
+   "url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 270,
+   "id": "n9"
+  },
+  {
+   "title": "A farewell to Arc browser",
+   "url": "https://arc.net/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 225,
+   "id": "n10"
+  },
+  {
+   "title": "Getting ready to operate GNU Taler in Germany",
+   "url": "https://www.taler.net/en/news/2026-13.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 220,
+   "id": "n11"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph26",
+   "title": "Mercury 3",
+   "url": "https://www.producthunt.com/products/mercury-412",
+   "desc": "The diffusion LLM that scaled 40x without slowing down Discussion | Link",
+   "summary": "Mercury 3 是个扩散式 LLM，号称规模扩大 40 倍速度还不掉。扩散模型做语言生成一直是小众路线，如果 40x 扩展不掉速是真的，那对\"自回归一统天下\"的叙事是个实质挑战，值得盯一下论文和实测。"
+  },
+  {
+   "id": "ph8",
+   "title": "ElevenLabs Realtime Translation",
+   "url": "https://www.producthunt.com/products/elevenlabs-realtime-translation",
+   "desc": "Turn live speech into translated audio as people talk Discussion | Link",
+   "summary": "ElevenLabs 的实时翻译，边说边出翻译后的语音，延迟压到对话级别。语音翻译从\"录完再处理\"变成\"同声传译\"，对会议、直播、跨境客服都是直接可用的一层基础设施。"
+  },
+  {
+   "id": "ph15",
+   "title": "Mistral Voxtral 3",
+   "url": "https://www.producthunt.com/products/mistral-7b",
+   "desc": "Mistral’s speech models for transcription, TTS and agents Discussion | Link",
+   "summary": "Mistral 的 Voxtral 3 语音模型家族，一次覆盖转写、TTS 和语音 agent。欧洲厂商在语音栈上正面刚 OpenAI 和 ElevenLabs，做多模态应用选型时多了一个可对比的选项。"
+  },
+  {
+   "id": "ph4",
+   "title": "Claude Duet",
+   "url": "https://www.producthunt.com/products/claude",
+   "desc": "Proactive agent that understands what needs your attention Discussion | Link",
+   "summary": "Claude Duet 是个主动型 agent，不等你提问，自己判断什么需要你注意。从\"问答\"走向\"主动推送\"是 agent 产品化的关键一步，难点在于怎么不变成噪音，这个产品值得看它怎么权衡。"
+  },
+  {
+   "id": "ph7",
+   "title": "Bits",
+   "url": "https://www.producthunt.com/products/bits-4",
+   "desc": "An open-source personal agent that gets you things done Discussion | Link",
+   "summary": "Bits 是开源的个人 agent，目标是真帮你把事情做完而不是聊天。开源 + 个人 agent 的组合对开发者友好，可以自己接工具、改流程，适合当自建 agent 的参考实现。"
+  },
+  {
+   "id": "ph5",
+   "title": "Voxelo 3.0",
+   "url": "https://www.producthunt.com/products/voxelo-ai",
+   "desc": "Phone video to photoreal 3D & JSON-LD in an hour Discussion | Link",
+   "summary": "Voxelo 3.0 把手机拍的视频在一小时内转成照片级 3D 模型，外加 JSON-LD 结构化数据。3D 资产生产成本被压到很低，电商、房产、游戏素材这些场景可能会先受益。"
+  },
+  {
+   "id": "ph3",
+   "title": "Radaric",
+   "url": "https://www.producthunt.com/products/radaric",
+   "desc": "AI feed reader that learns your editorial taste Discussion | Link",
+   "summary": "Radaric 是个会学习你编辑口味的 AI 阅读器。RSS 死了很多年，问题一直是信噪比；用模型来学\"你想看什么\"而不是靠关键词规则，是信息流产品比较对的路子。"
+  },
+  {
+   "id": "ph16",
+   "title": "heal.dev",
+   "url": "https://www.producthunt.com/products/heal-dev",
+   "desc": "Find bugs and vulnerabilities code review misses Discussion | Link",
+   "summary": "heal.dev 专找 code review 容易漏掉的 bug 和漏洞。代码审查靠人眼看不过来是常态，这类工具的价值在于补上 review 和传统静态扫描之间的空档。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+   "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+   "desc": "The Big Hardening begins",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b13",
+   "summary": "AINews 日报：OpenAI 的「Patch the Planet」计划成了发现 PHP 核心漏洞 PHP2Shell 的两方之一——这个漏洞影响约 70% 的网站，用的是 GPT-5.6 Sol，双方协调披露走了两个月。值得看的是信号意义：AI 已经开始在互联网最底层的基础设施里大规模找 0day，安全行业要进入「大加固时代」，做安全和做基础设施的都该关注这条线的进展。"
+  },
+  {
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+   "desc": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and Ope",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Anthropic 宣布把 Agent Skills 标准捐给 Linux 基金会下的 Agentic AI Foundation（AAIF，与 Block、OpenAI 等共同创办），承诺保持开放、社区驱动、厂商中立。这是把「Agent 技能」从一家公司的私有格式变成行业公共标准，跟 MCP 的路径一样；如果你在做 agent 工具链，这决定你该按谁的规范来写。"
+  },
+  {
+   "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+   "url": "https://www.latent.space/p/modal-d",
+   "desc": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b11",
+   "summary": "Latent Space 访谈 Modal CEO Erik Bernhardsson：为什么 AI 算力是「长方形」的——聊弹性 GPU、沙箱业务的增长，以及 agent 云的经济学。对想搞清楚推理/沙箱这一层成本结构和创业机会的人很有价值，Bernhardsson 一贯擅长把单位经济学讲透。"
+  },
+  {
+   "title": "You are the Team  — Anekha Sokhal, Moshi",
+   "url": "https://www.latent.space/p/moshi",
+   "desc": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b12",
+   "summary": "Latent Space 对话 Moshi 的 Anekha Sokhal：Moshi 怎么把市场数据变成可执行洞察，以及为什么 AI 工具必须贴合交易员现有的工作流而不是反过来。看点是垂直 AI 产品的落地方法论——不是做更聪明的模型，而是塞进用户已有的习惯里。"
+  },
+  {
+   "title": "Quoting Armin Ronacher",
+   "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+   "desc": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "Simon Willison 摘录 Armin Ronacher 的一句吐槽：AI 固然好玩，但过去 30 年我们写了太多烂软件，现在宇宙终于来惩罚我们的罪了。一句话点出「AI 在遗留烂代码上跑不动」的现实痛点，做代码 agent 和重构工具的人可以当座右铭。"
+  },
+  {
+   "title": "DE STAAT - FREEDOM (Official Music Video)",
+   "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+   "desc": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 难得发了条非技术内容：荷兰另类摇滚乐队 De Staat 的新 MV《FREEDOM》，00:44 处的视觉特效由 Fake it or Leave it 的 Matties Grooten 制作，标签里带了 generative-ai（还有他一贯的「骑鹈鹕」梗）。想看看生成式 AI 在音乐视频里实际能做出什么效果，可以点开看一眼。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 应用工程师已经是最大的一块岗位池，而且要求写得越来越具体：不再只是「会用 LangChain」，而是 Harness、Memory、RAG、工具调用、Subagent 调度、任务路由、超时重试、上下文管理这一整套能力。典型门槛是 3-5 年后端经验加 1-2 年 Agent 实战（m32/m34/m49）。腾讯云甚至把 Agent 沙箱、Session、身份凭证、Registry 做成独立产品线，单是 Sandbox 就承载几百万个实例（m44），说明岗位正在从「做应用」转向「给 Agent 修路」。",
+   "「熟练使用 Cursor、Claude Code」已经变成硬性门槛，不再只是加分项：香港的 Go 后端岗位直接把它写进 JD（m41），成都的 Java 高级岗位则要求「对 AI Coding 有深刻实践和认知」（m30），还出现了「AI Coding tasks」这种专职岗位（m0/m18）。但这类岗位的薪资并不突出，说明 AI Coding 目前是基础素养，还谈不上能拿高薪的技能。",
+   "评测和质量保障正在变成独立工种，这是本周最明显的新增方向：常州招「AI 质量评估工程师」，20-35k×13 薪，职责是从 0 到 1 搭建 golden set、LLM-as-judge 和回归测试资产，并且是 owner 而不只是执行者（m33）；蚂蚁的 Agent 岗位把「任务完成率、响应速度、调用成本、效果评测与监控」直接写进职责（m35）；Mastra 也在招做 evals 和 tracing 的（m77）。会设计评测体系的人，现在比会调 prompt 的人稀缺。",
+   "Infra 层的分工在快速细化：Agent Runtime 和安全沙箱（m44）、大模型在线推理和 GPU 性能优化（m32）、AI 用量与成本的可观测性（m78 Flowstate 专门做「公司不知道自己 AI 在干什么、花了多少钱」这个痛点），以及 AI 供应链安全和 AIBOM（m79）。这些都是过去一年才出现的岗位名。",
+   "AI 技能正在渗透进非 AI 岗位，同时也催生了新的岗位类别：Salesforce 平台负责人要负责「AI 辅助交付」（m17），数据安全团队要用 AI Native 重构（m43），SEO 岗位则明确转向 GEO 和 AI 搜索优化（m21/m42/m45）。要注意，SEO 这类岗位偏内容运营、性价比导向，实习薪资只有 200-300 元一天，含金量比不上 Agent 工程岗。",
+   "转岗通道在打开：字节的视频与边缘部门公开招前端、后端、测试转 Agent 开发，明确说「没有 agent 开发经验的同学也是好机会」（m31）。这既说明人才缺口还在，也说明大厂更倾向于自己培养，而不是花高价从外部挖人。"
+  ],
+  "gigs": [
+   "远程兼职 AI 全栈的价格被压得很低：有项目用 5000-7000 元/月招人，基于 New API 二次开发做模型 API 聚合平台，要求熟练使用 Cursor、Claude（m37）。这类「套壳聚合、二次开发」的活供给明显过剩，议价权在甲方。样本有限，但这个价格信号值得警惕。",
+   "真正有溢价的是「行业 know-how 加 AI」的垂直落地：欧洲的 AI 原生税务事务所项目要做发票识别、商品标准化、自动记账、银行对账，还要建立历史数据匹配和人工纠错反馈的闭环（m51）；航空 AI 项目则依托甲方本人多年的民航飞行与训练经验来分析 QAR 数据（m50）。这类甲方要的不是纯写代码的人，而是能理解业务、能把 AI 准确率持续往上推的人。",
+   "传统企业数字化的活变多了，但形态变了：不再是单纯做网站或小程序，而是把电商和 CRM 数据接到一张 BI 看板、把 Excel 台账迁移成数据池，再加知识库和 AI 生成经营分析，接口不通的地方就用 RPA 抓取（m53）。这类活是「数据集成、流程线上化和 AI」的打包项目，适合有全栈能力、能独立交付的人接。",
+   "非 AI 的硬件和嵌入式外包依然存在，而且甲方会明确排除 AI：蓝牙音频模块项目写明「标准 Turnkey 方案，不涉及任何自定义 AI 算法训练」，按里程碑结算（m48），说明硬件侧的 AI 落地还很浅。另一端，早期团队更愿意用股权找合伙人或创始工程师，而不是外包（m29 CloudCat 找「OS 级合伙人」、m64/m65/m56 founding engineer），底层还出现了 7.25-10 美元/小时的 AI 学徒岗（m63）和佣金制的 BD（m58），自由职业市场明显两极分化。样本有限，趋势判断仅供参考。"
+  ],
+  "highlights": [
+   {
+    "title": "腾讯云 Agent Runtime 团队欢迎牛逼技术专家、应届生、实习生加入",
+    "desc": "没错，无论你是应届生、实习生，还是已经工作多年的业界大佬，我们都非常欢迎 😊 团队简介 腾讯云 Agent Runtime 团队欢迎优秀的 Agent 基础设施人才加入。 我们为腾讯内部业务及外部公有云客户提供 Agent 安全沙箱、Session 、身份凭证、Agent Registry 等 Agent Infra 相关能力，已支持 WorkBuddy 、CodeBuddy 、IMA 、元宝等腾讯内部产品，也服务于智谱、MiniMax 等 AI 客户的强化学习场景，承载数百万量级的 Sandbox 。 产品入口： 腾讯云 Agent Runtime 岗位要求 计算机相关专业。 具备优秀的 A",
+    "url": "https://www.v2ex.com/t/1246998#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m44",
+    "summary": "腾讯云 Agent Runtime 团队招人，把 Agent 沙箱、Session、身份凭证、Registry 做成独立 Infra 产品，承载数百万个 Sandbox，还服务智谱、MiniMax 的强化学习场景。这说明 Agent 基础设施已经平台化，RL 训练对安全沙箱的需求也成了真实业务。"
+   },
+   {
+    "title": "[蚂蚁集团招聘] agent 研发工程师（上海，杭州）",
+    "desc": "蚂蚁集团｜后端研发工程师（ Agent 应用方向）\n职级：P5–P6\n我们希望找到既具备扎实后端研发能力，又有 Agent 应用实践经验的工程师，一起推动 AI 能力在真实业务场景中落地。\n岗位职责 负责核心业务后端系统的设计与研发，保障系统的稳定性、性能与可扩展性。 参与 Agent 应用的方案设计与开发，包括工具调用、任务规划、上下文管理及业务系统集成。 围绕业务场景，持续优化 Agent 的任务完成率、响应速度与调用成本，建设效果评测和运行监控能力。 与产品、算法及前端团队协作，推动需求从技术方案、开发交付到上线后的持续迭代。\n任职要求 具备扎实的计算机基础，熟悉 Java 及主流后端开",
+    "url": "https://www.v2ex.com/t/1248166#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m35",
+    "summary": "蚂蚁 P5-P6 招 Agent 应用方向的后端，职责里明确要求优化「任务完成率、响应速度、调用成本」，还要建效果评测和运行监控。这说明大厂的 Agent 岗位已经从做 demo 阶段，进入比拼成本和效果的阶段。"
+   },
+   {
+    "title": "招聘： AI 质量评估工程师",
+    "desc": "岗位名称：AI 质量评估工程师 薪资：20-35k·13 薪 ｜ 常州·新北区 ｜ 3-5 年 ｜ 统招本科及以上 岗位职责 负责公司 AI 平台的质量保障，从 0 到 1 搭建质量与评测体系——你是 owner ，不是执行者； 构建面向大模型/Agent 系统的评测体系：评测数据集、golden set 、LLM-as-judge 、回归测试资产； 对商业秘密防护、大模型使用合规等安全能力进行对抗性验证； 深度使用 AI 工具完成用例生成、代码审查、质量分析，沉淀 AI 驱动的测试工作流，让 AI 放大你的产出； 参与公司产品的测试方案设计与执行，覆盖功能测试、接口测试、性能测试及兼容性测试",
+    "url": "https://www.v2ex.com/t/1248322#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m33",
+    "summary": "常州一家公司以 20-35k×13 薪招「AI 质量评估工程师」，要独立搭建 golden set、LLM-as-judge 和回归测试资产，并且强调你是 owner 而不是执行者。这标志着评测已经从附带工作变成了独立岗位。"
+   },
+   {
+    "title": "SEO 增长专员（社招）",
+    "desc": "SEO 增长专员（社招） 工作年限： 3 ～ 5 年 学历要求： 全日制本科及以上 工作地点： 深圳／杭州／远程 薪酬： 面议 岗位职责 制定并持续优化 SEO 与 GEO 增长策略，推动自然搜索流量、内容曝光及业务转化增长。 开展关键词研究、搜索意图分析和内容策略规划，结合用户需求与业务目标，推动内容选题和页面优化。 跟踪收录、排名、展现、点击、自然流量及转化等数据，分析表现并提出可执行的优化方案。 发现并跟进技术 SEO 问题，包括抓取与索引、页面结构、内链、canonical 、robots 、sitemap 、结构化数据及页面性能等。 探索 GEO 和 AI 搜索优化，关注品牌及内容在",
+    "url": "https://www.v2ex.com/t/1249740#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "有招聘把 SEO 增长专员的职责改成「SEO 与 GEO 策略」，要求探索 GEO 和 AI 搜索优化。AI 搜索正在催生一个全新的岗位类别，技能栈从关键词排名扩展到品牌在生成式答案里的可见度。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m93",
+    "summary": "Mechanize 在旧金山招初级 SWE，开出 30 万美元加股权，业务是给前沿 AI 实验室造「真实软件工程任务」的训练环境。这说明 RL 环境和任务数据集本身就是一个高溢价赛道，需求大到接不完。"
+   },
+   {
+    "title": "[急招，流程快] 前端后端测试兄弟看过来，有一个转 Agent 开发的机会。坐标北京/上海/杭州。",
+    "desc": "欢迎大家投递简历，对于没有 agent 开发经验的同学来说是一个很好的机会。 团队介绍：视频与边缘部门承载了字节跳动的媒体内容分发基建及技术中台，团队介绍：支持了字节全系产品的点播、直播、实时通信、图片等多媒体业务发展，同时将业务发展过程中沉淀下来的技术能力和工具，通过火山引擎对外输出，面向各行各业用户提供视频云产品和服务，愿景是为内外部业务伙伴提供最低成本、最优画质、最低延时、最安全可靠的富媒体内容分发解决方案，助力业务伙伴降本提效实现持续增长。 1 、参与 AI Media Agent 核心研发，构建覆盖图片/视频 AI 生产、AI 编辑、内容理解、AI 二创、AI 播放的全流程能力，探索",
+    "url": "https://www.v2ex.com/t/1248501#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m31",
+    "summary": "字节的视频与边缘部门公开招前端、后端、测试转 Agent 开发，明说「没有 agent 开发经验也是好机会」。这反映出一方面人才缺口还在，另一方面大厂更倾向内部培养，而不是在市场上抢人。"
+   }
+  ],
+  "week": "2026-W43"
+ },
+ "llm_used": false,
+ "degraded": [
+  "news"
+ ]
+}
