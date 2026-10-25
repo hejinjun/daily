@@ -1,0 +1,421 @@
+{
+ "date": "2026-10-25",
+ "generated_at": "2026-10-25 08:22",
+ "trends": [
+  "AI 的经济账开始被公开质疑：HN 上有分析指出科技行业之外几乎看不到 AI 带来的可测量回报，另一边美国媒体/影视/艺术行业已经实打实少了约 20 万个岗位——\"替代人力\"和\"创造收入\"在不同行业严重分化，to B 的 AI 产品接下来要拿硬 ROI 说话。",
+  "合规三条线同时收紧：宾州立法要求 AI 生成广告必须披露，Meta 因出版方反对 AI 抓取而推迟新商业条款，Google 则借\"个性化 AI 功能\"给自家 Gmail/Photos 数据用于广告定向开口子。内容标识、训练数据授权、隐私边界都在被重新划线。",
+  "模型开始被当作\"有政治立场的产品\"来审视：一项覆盖近 500 场选举的研究发现 Grok 和 GPT 在 90% 以上的选区推荐上不一致。做面向消费者的 agent 和内容分发，中立性设计会变成必须回答的问题。",
+  "工程红利仍在底层：OpenAI 罕见地公开 Habitat 存储架构（多租户+全局缓存+Cosmos DB，读性能 12 倍），社区则在研究如何解锁 Nvidia 30 系卡的 FP/BF16 指令发射率。规模化推理和低成本算力仍是实打实的机会点。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 10
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 1
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 1
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 7
+  },
+  {
+   "name": "The Verge AI",
+   "count": 7
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 0
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 1
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": "44,532",
+   "stars_today": "2,264 stars today",
+   "summary": "Cloudflare 出的「安全审计技能」——给 coding agent 用的多阶段安全审计 skill，产出可机器读取、且经过独立验证的漏洞结论。今天涨了 2264 星，说明「给 agent 写 skill」已经从玩具进入严肃工程场景：安全审计这类高价值、可验证的任务，正好是 agent 落地的甜点区，做开发者工具或安全方向的人值得拆开看它的 prompt 和验证流程怎么设计。"
+  },
+  {
+   "id": "gh5",
+   "title": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "Rust",
+   "stars": "86,393",
+   "stars_today": "619 stars today",
+   "summary": "给 AI 编码工具补「设计品味」的设计语言，Rust 写的，8.6 万星。核心痛点是：agent 能写对代码但做出来的界面一股模板味，这个项目尝试用一套可注入的设计规范把 AI 的产出拉到设计团队能用的水平，做 AI 生成前端/UI 的可以重点看它怎么把审美变成可执行的规则。"
+  },
+  {
+   "id": "gh3",
+   "title": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "lang": "CSS",
+   "stars": "32,131",
+   "stars_today": "455 stars today",
+   "summary": "Nutlope 的「反 AI 垃圾设计」skill，专门给 Claude Code、Cursor、Codex 用，3.2 万星、今天 +455。解决的问题很具体：AI 生成的页面千篇一律（渐变、卡片、圆角），它用一份 CSS/设计规则去纠正。这类轻量 skill 的爆火说明，模型能力之外的「品味层」正在成为差异化竞争点，也容易做成产品。"
+  },
+  {
+   "id": "gh9",
+   "title": "makecindy/cindy",
+   "url": "https://github.com/makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "lang": "TypeScript",
+   "stars": "4,090",
+   "stars_today": "477 stars today",
+   "summary": "国产开源 AI Agent「cindy」，主打开箱即用、想到就能做到，TypeScript 写的，今天 +477 星。这类通用 Agent 客户端最近扎堆出现，它值得看一眼的原因是新项目短期内冲上 4000 星，说明「不用配环境、装完就能干活」的体验仍然是用户最在意的门槛。"
+  },
+  {
+   "id": "gh2",
+   "title": "aws/agent-toolkit-for-aws",
+   "url": "https://github.com/aws/agent-toolkit-for-aws",
+   "desc": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+   "lang": "Python",
+   "stars": "3,126",
+   "stars_today": "13 stars today",
+   "summary": "AWS 官方出的 agent 工具包：一整套 MCP server、skill 和插件，让 AI agent 能直接在 AWS 上搭东西。云厂商开始亲自下场做 agent 的接入层，这对做企业级 Agent 的人是强信号——以后「agent 能不能操作云资源」会变成标配能力，而不是自己拼 API。"
+  },
+  {
+   "id": "gh7",
+   "title": "google-gemini/gemini-cli",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "desc": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+   "lang": "TypeScript",
+   "stars": "108,048",
+   "stars_today": "44 stars today",
+   "summary": "Google 的 gemini-cli，把 Gemini 直接塞进终端的开源 AI agent，10.8 万星。今天新增不多，但作为 Claude Code 的主要竞品之一，它的工具调用、上下文管理和扩展机制值得对照着看，尤其是想给团队选终端 agent 的人。"
+  },
+  {
+   "id": "gh6",
+   "title": "pollen-robotics/microduck",
+   "url": "https://github.com/pollen-robotics/microduck",
+   "desc": "A Tiny biped duck robot 🦆",
+   "lang": "Rust",
+   "stars": "10,984",
+   "stars_today": "319 stars today",
+   "summary": "pollen-robotics 的小型双足鸭子机器人 microduck，Rust 写的，今天 +319 星。它不是 LLM 项目，但代表另一条正在升温的线：便宜、开源、可编程的桌面级机器人硬件——对想做「具身智能 + 开源硬件」方向的人来说，这类平台的门槛下降值得留意。"
+  }
+ ],
+ "news": [
+  {
+   "title": "No signs of AI payoff outside the tech sector",
+   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 450,
+   "id": "n1",
+   "summary": "HN 热帖讨论\"科技行业之外看不到 AI 回报\"这一现象，核心论点是至今缺少 AI 投入转化为生产率或利润的宏观证据。这意味着企业 AI 采购可能进入要 ROI 的验证期，创业公司光讲能力不够，得拿出省钱或增收的具体数字。"
+  },
+  {
+   "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 45,
+   "id": "n18",
+   "summary": "报道称美国媒体、影视和艺术行业已流失约 20 万个岗位，并追问其中有多少能归因于 AI。意义在于内容行业是 AI 冲击最先显形的领域，白领岗位替代从预测变成了可查的统计数据。"
+  },
+  {
+   "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+   "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+   "desc": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "一项新研究让模型在近 500 场选举中做选择，结果 Grok 压倒性推荐共和党候选人、OpenAI 的 GPT 偏向民主党，两者在 90% 以上的选区结论不一致。说明模型的政治倾向已是可测量、可对比的指标，做 agent 和内容产品的团队必须面对中立性与信任问题。"
+  },
+  {
+   "title": "Pennsylvania will require labels on AI-generated ads",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+   "desc": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artifi",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "宾夕法尼亚州州长签署《AI 欺骗性广告法》，要求任何经 AI 显著修改或生成的图像、视频、音频、文字广告都必须披露。AI 内容标识正从行业自律走向立法，广告投放工具和内容审核链路要开始接入水印与元数据。"
+  },
+  {
+   "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+   "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+   "desc": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for per",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "Google 更新隐私政策，为个性化 AI 功能开了例外口子，可能用 Gmail、Drive、Google Photos 的数据做广告定向。这等于把\"用 AI 功能换数据授权\"变成大厂标准操作，用户数据的使用边界进一步模糊。"
+  },
+  {
+   "title": "Meta delays new business terms after publisher pushback on AI scraping",
+   "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+   "desc": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "因出版方担心新商业条款会让自己被拿去抓取训练 AI，Meta 推迟了条款生效时间。说明内容授权谈判正在加码，训练数据来源的合规成本还会继续上升。"
+  },
+  {
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "desc": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI 详解支撑 10 亿 ChatGPT 用户的 Habitat 存储系统，靠可靠多租户、全局缓存和 Azure Cosmos DB 做到读性能提升 12 倍。大模型产品的瓶颈越来越落在存储与数据层，这套架构对做大规模推理服务的团队参考价值很高。"
+  },
+  {
+   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "desc": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "TechCrunch 整理了一份持续更新的\"AI 墓地\"清单，收录关停或没兑现承诺的 AI 项目与创业公司，包括苹果一再跳票的 Siri AI 和 OpenAI 折腾的\"超级 App\"。看失败案例比看融资新闻更能判断哪些方向是伪需求。"
+  },
+  {
+   "title": "Here are the top AI agents that can live in your text messages",
+   "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "desc": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n35",
+   "summary": "TechCrunch 盘点了能\"住进\"短信里的 AI agent，从通用助手到面向家庭、旅行、办公的专用形态。IM/短信即入口的轻量 agent 是目前产品化最快的形态之一，门槛低、触达直接，值得作为创业切入点观察。"
+  },
+  {
+   "title": "Neural chip decodes interactions between brain regions",
+   "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 86,
+   "id": "n14",
+   "summary": "有报道介绍一种神经芯片可以解码不同脑区之间的交互活动。这类神经解码硬件正在从\"读单点信号\"走向\"读脑网络\"，长期看对 BCI 和类脑计算架构都有启发。"
+  },
+  {
+   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 176,
+   "id": "n10",
+   "summary": "社区在尝试解锁 Nvidia 30 系显卡的 FP/BF16 指令发射率，把老卡上被限制的算力释放出来。对做低成本训练/推理和边缘部署的人来说，这意味着现有硬件的性价比还有被榨取的空间。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "1Password for Agents",
+   "url": "https://www.producthunt.com/products/1password",
+   "desc": "Let AI agents sign in for you without seeing your passwords Discussion | Link",
+   "summary": "1Password 给 AI agent 做的登录方案：agent 可以替你完成登录，但全程看不到明文密码。agent 时代的凭证委派/权限边界是刚冒出来的真问题，这个方向值得盯——以后每个 agent 都需要一套可控的身份和授权。"
+  },
+  {
+   "id": "ph22",
+   "title": "Inyon",
+   "url": "https://www.producthunt.com/products/inyon",
+   "desc": "Answer your coding agents from your phone Discussion | Link",
+   "summary": "在手机上远程回答 coding agent 的提问。你在外面跑的时候，Claude Code 之类的 agent 卡在等你确认那一步，直接在 iPhone 上回。解决了「agent 干活但人必须坐在电脑前」这个非常具体的痛点，配合现在 agent 动辄跑半天的工作流很实用。"
+  },
+  {
+   "id": "ph27",
+   "title": "Polylane for Cloudflare",
+   "url": "https://www.producthunt.com/products/polylane",
+   "desc": "An AI on-call engineer for your Cloudflare apps Discussion | Link",
+   "summary": "给 Cloudflare 应用配的 AI on-call 工程师，出问题自动排查。运维/SRE 是被 agent 改造得最实在的场景之一，而且绑定 Cloudflare 这种明确平台，比通用「AI 运维」靠谱得多。"
+  },
+  {
+   "id": "ph13",
+   "title": "sideOS.ai",
+   "url": "https://www.producthunt.com/products/sideos-ai",
+   "desc": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
+   "summary": "Mac 上的本地 AI，做听写、会议记录和后台任务，数据不出本机。本地推理在 Mac 上终于开始能撑起日常功能，隐私敏感用户和不想按 token 付费的人是目标客群。"
+  },
+  {
+   "id": "ph14",
+   "title": "MOVO AI",
+   "url": "https://www.producthunt.com/products/movo-ai",
+   "desc": "The world's first long-form video agent for mobile Discussion | Link",
+   "summary": "号称首个移动端长视频 agent，在手机上生成完整长视频。视频 agent 大多还在做几秒钟的片段，长视频是个明显更难但更有价值的坎，值得看它拆成了几步。"
+  },
+  {
+   "id": "ph11",
+   "title": "zCAD AI",
+   "url": "https://www.producthunt.com/products/zcad-ai",
+   "desc": "AI 3D that creates real parts, not just shapes Discussion | Link",
+   "summary": "zCAD AI 做的是「能直接加工的零件」，不只是好看的 3D 形状。把 AI 生成接到真实制造约束上，是 3D 生成从玩具走向工程的关键一步。"
+  },
+  {
+   "id": "ph8",
+   "title": "Canva Craft",
+   "url": "https://www.producthunt.com/products/canva",
+   "desc": "Turn prompts into design-ready images you can edit Discussion | Link",
+   "summary": "Canva 出的 prompt 生成可编辑设计图，生成完还能像普通设计稿一样改。Canva 亲自下场说明生成式设计正在被并入主流工作流，「可编辑」而不是「一次性出图」是重点。"
+  },
+  {
+   "id": "ph6",
+   "title": "AgentValley",
+   "url": "https://www.producthunt.com/products/agentvalley",
+   "desc": "Every Claude Code agent, at a glance, in your Mac's notch Discussion | Link",
+   "summary": "把你 Mac 上跑的所有 Claude Code agent 状态塞进刘海，一眼看全。重度多 agent 并行的人会很有感——现在缺的就是一个统一的 agent 仪表盘。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+   "url": "https://latent.space/p/ainews-kimi-31/",
+   "desc": "We have Fable at home... or so we are being told by paid shills",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "Latent Space 的 AINews 汇总：月之暗面发布 Kimi 3.1 Pro，MoE 结构标称 104B 激活参数、2.8T 总参数，开源权重能力直接对标闭源旗舰 Fable-5.1，把开源与闭源之间的差距压缩到大约一个月，同时上线 Pro Highspeed API（速度提升 2-3 倍）。值得关注：开源旗舰追平闭源的周期在肉眼可见地缩短，做模型选型和成本估算时要重新算一遍账；另外这条是 AINews 的聚合口播，能顺带看到整个圈子当天的动态。"
+  },
+  {
+   "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "desc": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+   "source": "Ahead of AI（Sebastian Raschka）",
+   "lang": "en",
+   "id": "b5",
+   "summary": "Sebastian Raschka 的新课程：11 个多小时的全代码视频，从零构建推理模型，覆盖评测、推理时算力扩展（inference-time scaling）、强化学习、蒸馏这几块核心环节，全程用 Python + PyTorch 手写实现。值得关注：把 o1/R1 类推理模型的技术栈拆成能跑起来的代码，而不是停留在概念层，适合想搞明白 RL 训练与蒸馏细节、或者打算自己复现小型推理模型的开发者。"
+  },
+  {
+   "title": "battledrones v14: Compass Rose, a four player map",
+   "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+   "desc": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 更新 Battledrones v14「Compass Rose」：给这个对战游戏加了四人联机模式和第一张四人地图，并公开了自己用的一段初始 prompt（四向旋转对称、最多四个 AI 玩家、兼容 WebSocket 非阻塞模式）。值得关注：一条 prompt 就能让模型产出可玩的地图与模式逻辑，是「LLM 直接生成游戏内容/功能」的实操样本，也能顺手看看他是怎么描述这类几何与网络约束的。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 应用工程师已经是最大的一块岗位池，而且要求写得越来越具体：不再只是「会用 LangChain」，而是 Harness、Memory、RAG、工具调用、Subagent 调度、任务路由、超时重试、上下文管理这一整套能力。典型门槛是 3-5 年后端经验加 1-2 年 Agent 实战（m32/m34/m49）。腾讯云甚至把 Agent 沙箱、Session、身份凭证、Registry 做成独立产品线，单是 Sandbox 就承载几百万个实例（m44），说明岗位正在从「做应用」转向「给 Agent 修路」。",
+   "「熟练使用 Cursor、Claude Code」已经变成硬性门槛，不再只是加分项：香港的 Go 后端岗位直接把它写进 JD（m41），成都的 Java 高级岗位则要求「对 AI Coding 有深刻实践和认知」（m30），还出现了「AI Coding tasks」这种专职岗位（m0/m18）。但这类岗位的薪资并不突出，说明 AI Coding 目前是基础素养，还谈不上能拿高薪的技能。",
+   "评测和质量保障正在变成独立工种，这是本周最明显的新增方向：常州招「AI 质量评估工程师」，20-35k×13 薪，职责是从 0 到 1 搭建 golden set、LLM-as-judge 和回归测试资产，并且是 owner 而不只是执行者（m33）；蚂蚁的 Agent 岗位把「任务完成率、响应速度、调用成本、效果评测与监控」直接写进职责（m35）；Mastra 也在招做 evals 和 tracing 的（m77）。会设计评测体系的人，现在比会调 prompt 的人稀缺。",
+   "Infra 层的分工在快速细化：Agent Runtime 和安全沙箱（m44）、大模型在线推理和 GPU 性能优化（m32）、AI 用量与成本的可观测性（m78 Flowstate 专门做「公司不知道自己 AI 在干什么、花了多少钱」这个痛点），以及 AI 供应链安全和 AIBOM（m79）。这些都是过去一年才出现的岗位名。",
+   "AI 技能正在渗透进非 AI 岗位，同时也催生了新的岗位类别：Salesforce 平台负责人要负责「AI 辅助交付」（m17），数据安全团队要用 AI Native 重构（m43），SEO 岗位则明确转向 GEO 和 AI 搜索优化（m21/m42/m45）。要注意，SEO 这类岗位偏内容运营、性价比导向，实习薪资只有 200-300 元一天，含金量比不上 Agent 工程岗。",
+   "转岗通道在打开：字节的视频与边缘部门公开招前端、后端、测试转 Agent 开发，明确说「没有 agent 开发经验的同学也是好机会」（m31）。这既说明人才缺口还在，也说明大厂更倾向于自己培养，而不是花高价从外部挖人。"
+  ],
+  "gigs": [
+   "远程兼职 AI 全栈的价格被压得很低：有项目用 5000-7000 元/月招人，基于 New API 二次开发做模型 API 聚合平台，要求熟练使用 Cursor、Claude（m37）。这类「套壳聚合、二次开发」的活供给明显过剩，议价权在甲方。样本有限，但这个价格信号值得警惕。",
+   "真正有溢价的是「行业 know-how 加 AI」的垂直落地：欧洲的 AI 原生税务事务所项目要做发票识别、商品标准化、自动记账、银行对账，还要建立历史数据匹配和人工纠错反馈的闭环（m51）；航空 AI 项目则依托甲方本人多年的民航飞行与训练经验来分析 QAR 数据（m50）。这类甲方要的不是纯写代码的人，而是能理解业务、能把 AI 准确率持续往上推的人。",
+   "传统企业数字化的活变多了，但形态变了：不再是单纯做网站或小程序，而是把电商和 CRM 数据接到一张 BI 看板、把 Excel 台账迁移成数据池，再加知识库和 AI 生成经营分析，接口不通的地方就用 RPA 抓取（m53）。这类活是「数据集成、流程线上化和 AI」的打包项目，适合有全栈能力、能独立交付的人接。",
+   "非 AI 的硬件和嵌入式外包依然存在，而且甲方会明确排除 AI：蓝牙音频模块项目写明「标准 Turnkey 方案，不涉及任何自定义 AI 算法训练」，按里程碑结算（m48），说明硬件侧的 AI 落地还很浅。另一端，早期团队更愿意用股权找合伙人或创始工程师，而不是外包（m29 CloudCat 找「OS 级合伙人」、m64/m65/m56 founding engineer），底层还出现了 7.25-10 美元/小时的 AI 学徒岗（m63）和佣金制的 BD（m58），自由职业市场明显两极分化。样本有限，趋势判断仅供参考。"
+  ],
+  "highlights": [
+   {
+    "title": "腾讯云 Agent Runtime 团队欢迎牛逼技术专家、应届生、实习生加入",
+    "desc": "没错，无论你是应届生、实习生，还是已经工作多年的业界大佬，我们都非常欢迎 😊 团队简介 腾讯云 Agent Runtime 团队欢迎优秀的 Agent 基础设施人才加入。 我们为腾讯内部业务及外部公有云客户提供 Agent 安全沙箱、Session 、身份凭证、Agent Registry 等 Agent Infra 相关能力，已支持 WorkBuddy 、CodeBuddy 、IMA 、元宝等腾讯内部产品，也服务于智谱、MiniMax 等 AI 客户的强化学习场景，承载数百万量级的 Sandbox 。 产品入口： 腾讯云 Agent Runtime 岗位要求 计算机相关专业。 具备优秀的 A",
+    "url": "https://www.v2ex.com/t/1246998#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m44",
+    "summary": "腾讯云 Agent Runtime 团队招人，把 Agent 沙箱、Session、身份凭证、Registry 做成独立 Infra 产品，承载数百万个 Sandbox，还服务智谱、MiniMax 的强化学习场景。这说明 Agent 基础设施已经平台化，RL 训练对安全沙箱的需求也成了真实业务。"
+   },
+   {
+    "title": "[蚂蚁集团招聘] agent 研发工程师（上海，杭州）",
+    "desc": "蚂蚁集团｜后端研发工程师（ Agent 应用方向）\n职级：P5–P6\n我们希望找到既具备扎实后端研发能力，又有 Agent 应用实践经验的工程师，一起推动 AI 能力在真实业务场景中落地。\n岗位职责 负责核心业务后端系统的设计与研发，保障系统的稳定性、性能与可扩展性。 参与 Agent 应用的方案设计与开发，包括工具调用、任务规划、上下文管理及业务系统集成。 围绕业务场景，持续优化 Agent 的任务完成率、响应速度与调用成本，建设效果评测和运行监控能力。 与产品、算法及前端团队协作，推动需求从技术方案、开发交付到上线后的持续迭代。\n任职要求 具备扎实的计算机基础，熟悉 Java 及主流后端开",
+    "url": "https://www.v2ex.com/t/1248166#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m35",
+    "summary": "蚂蚁 P5-P6 招 Agent 应用方向的后端，职责里明确要求优化「任务完成率、响应速度、调用成本」，还要建效果评测和运行监控。这说明大厂的 Agent 岗位已经从做 demo 阶段，进入比拼成本和效果的阶段。"
+   },
+   {
+    "title": "招聘： AI 质量评估工程师",
+    "desc": "岗位名称：AI 质量评估工程师 薪资：20-35k·13 薪 ｜ 常州·新北区 ｜ 3-5 年 ｜ 统招本科及以上 岗位职责 负责公司 AI 平台的质量保障，从 0 到 1 搭建质量与评测体系——你是 owner ，不是执行者； 构建面向大模型/Agent 系统的评测体系：评测数据集、golden set 、LLM-as-judge 、回归测试资产； 对商业秘密防护、大模型使用合规等安全能力进行对抗性验证； 深度使用 AI 工具完成用例生成、代码审查、质量分析，沉淀 AI 驱动的测试工作流，让 AI 放大你的产出； 参与公司产品的测试方案设计与执行，覆盖功能测试、接口测试、性能测试及兼容性测试",
+    "url": "https://www.v2ex.com/t/1248322#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m33",
+    "summary": "常州一家公司以 20-35k×13 薪招「AI 质量评估工程师」，要独立搭建 golden set、LLM-as-judge 和回归测试资产，并且强调你是 owner 而不是执行者。这标志着评测已经从附带工作变成了独立岗位。"
+   },
+   {
+    "title": "SEO 增长专员（社招）",
+    "desc": "SEO 增长专员（社招） 工作年限： 3 ～ 5 年 学历要求： 全日制本科及以上 工作地点： 深圳／杭州／远程 薪酬： 面议 岗位职责 制定并持续优化 SEO 与 GEO 增长策略，推动自然搜索流量、内容曝光及业务转化增长。 开展关键词研究、搜索意图分析和内容策略规划，结合用户需求与业务目标，推动内容选题和页面优化。 跟踪收录、排名、展现、点击、自然流量及转化等数据，分析表现并提出可执行的优化方案。 发现并跟进技术 SEO 问题，包括抓取与索引、页面结构、内链、canonical 、robots 、sitemap 、结构化数据及页面性能等。 探索 GEO 和 AI 搜索优化，关注品牌及内容在",
+    "url": "https://www.v2ex.com/t/1249740#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m21",
+    "summary": "有招聘把 SEO 增长专员的职责改成「SEO 与 GEO 策略」，要求探索 GEO 和 AI 搜索优化。AI 搜索正在催生一个全新的岗位类别，技能栈从关键词排名扩展到品牌在生成式答案里的可见度。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m93",
+    "summary": "Mechanize 在旧金山招初级 SWE，开出 30 万美元加股权，业务是给前沿 AI 实验室造「真实软件工程任务」的训练环境。这说明 RL 环境和任务数据集本身就是一个高溢价赛道，需求大到接不完。"
+   },
+   {
+    "title": "[急招，流程快] 前端后端测试兄弟看过来，有一个转 Agent 开发的机会。坐标北京/上海/杭州。",
+    "desc": "欢迎大家投递简历，对于没有 agent 开发经验的同学来说是一个很好的机会。 团队介绍：视频与边缘部门承载了字节跳动的媒体内容分发基建及技术中台，团队介绍：支持了字节全系产品的点播、直播、实时通信、图片等多媒体业务发展，同时将业务发展过程中沉淀下来的技术能力和工具，通过火山引擎对外输出，面向各行各业用户提供视频云产品和服务，愿景是为内外部业务伙伴提供最低成本、最优画质、最低延时、最安全可靠的富媒体内容分发解决方案，助力业务伙伴降本提效实现持续增长。 1 、参与 AI Media Agent 核心研发，构建覆盖图片/视频 AI 生产、AI 编辑、内容理解、AI 二创、AI 播放的全流程能力，探索",
+    "url": "https://www.v2ex.com/t/1248501#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m31",
+    "summary": "字节的视频与边缘部门公开招前端、后端、测试转 Agent 开发，明说「没有 agent 开发经验也是好机会」。这反映出一方面人才缺口还在，另一方面大厂更倾向内部培养，而不是在市场上抢人。"
+   }
+  ],
+  "week": "2026-W43"
+ },
+ "llm_used": true,
+ "degraded": []
+}
