@@ -1,0 +1,403 @@
+{
+ "date": "2026-10-26",
+ "generated_at": "2026-10-26 08:27",
+ "trends": [
+  "模型层正在快速商品化：OpenAI、Anthropic 几个月内把价格砍到最多 80%，推理成本往下走是确定趋势。对开发者是好消息（套壳和 agent 产品的毛利空间变大），但也说明靠模型差价做生意没壁垒，价值要往工作流、垂直数据和产品体验上搬。",
+  "垂直小模型仍然能打赢通用大模型：十年前的老 CNN 在皮肤癌诊断上超过前沿 LLM，提醒大家别把 LLM 当万能锤，窄任务加高质量标注数据还是最实在的护城河。",
+  "Agent 的工程重心从 prompt 转到 context engineering，同时安全问题开始冒头：去对齐（abliterated）的开源模型配上 agent 的工具权限，等于给企业开了一个新攻击面，agent 的权限、审计、沙箱很快会变成一门生意。",
+  "内容生态在分裂：Google AI 搜索吃掉出版方流量，r/opensource 直接封杀 AI 项目，BBC 反过来用'不完美镜头'证明不是 AI 生成——AI 泛滥之后，'真实性'和'人类痕迹'本身正在变成稀缺资产和卖点。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 11
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 7
+  },
+  {
+   "name": "The Verge AI",
+   "count": 4
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 0
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 1
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh2",
+   "title": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": "86,787",
+   "stars_today": "1,592 stars today",
+   "summary": "一个完全本地跑的开源版 ElevenLabs，支持声音克隆、声音设计、视频配音、听写、转录、有声书制作，覆盖 646 种语言。今天冲到 8.6 万星、单日 1592 星，说明「本地跑、不上传音频」的语音 AI 需求很硬，想做语音产品又不想被 API 账单和隐私问题卡住的人可以直接拿来用。"
+  },
+  {
+   "id": "gh5",
+   "title": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+   "lang": "Python",
+   "stars": "114,591",
+   "stars_today": "381 stars today",
+   "summary": "用多个 LLM Agent 协作做金融交易决策的框架，模拟研究员、交易员、风控等角色互相辩论后出结论。单日 381 星、总量 11 万，是「多 Agent 落地到具体垂直场景」里最典型的样本，值得看它的 Agent 编排和角色分工怎么设计。"
+  },
+  {
+   "id": "gh10",
+   "title": "AgriciDaniel/claude-seo",
+   "url": "https://github.com/AgriciDaniel/claude-seo",
+   "desc": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+   "lang": "Python",
+   "stars": "20,845",
+   "stars_today": "197 stars today",
+   "summary": "给 Claude Code 用的 SEO 技能包，26 个子技能加 19 个子 Agent，覆盖技术 SEO、E-E-A-T、结构化数据、GEO/AEO、llms.txt、外链、本地 SEO 和报表输出。火的原因是它示范了怎么把一套专业方法论拆成 Agent 可执行的技能，对做 Agent 产品和工作流封装的人很有参考价值。"
+  },
+  {
+   "id": "gh7",
+   "title": "JetBrains/thinkrail",
+   "url": "https://github.com/JetBrains/thinkrail",
+   "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+   "lang": "TypeScript",
+   "stars": "1,714",
+   "stars_today": "51 stars today",
+   "summary": "JetBrains 出的轻量级真 IDE，主打 vibe coding，会自动根据你的工作方式定制界面。大厂亲自下场做「AI 原生编辑器」是个信号，值得关注它跟 Cursor、Windsurf 的路线差异。"
+  },
+  {
+   "id": "gh8",
+   "title": "coollabsio/coolify",
+   "url": "https://github.com/coollabsio/coolify",
+   "desc": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+   "lang": "PHP",
+   "stars": "64,365",
+   "stars_today": "152 stars today",
+   "summary": "开源可自托管的 PaaS，对标 Vercel/Heroku/Netlify，一条命令在自己服务器上部署静态站、数据库、全栈应用和 360 多个一键服务。不算纯 AI 项目，但自托管推理服务和 AI 应用后端时是常用底座，所以一直有热度。"
+  },
+  {
+   "id": "gh6",
+   "title": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+   "lang": "TypeScript",
+   "stars": "7,542",
+   "stars_today": "199 stars today",
+   "summary": "紫微斗数的开源排盘引擎，基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库和古籍原文数据。跟 AI 关系不大，但属于「把传统领域知识结构化」的那类项目，是 LLM 做垂直知识库和 Agent 工具时不错的语料与规则来源。"
+  }
+ ],
+ "news": [
+  {
+   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+   "url": "https://minimaxir.com/2026/10/cheap-llms/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 99,
+   "id": "n12",
+   "summary": "OpenAI 和 Anthropic 在几个月内把 LLM 价格下调最多 80%，HN 上在讨论背后的原因：推理成本下降、开源模型挤压，以及各家抢着占住 agent 这类高 token 消耗场景的入口。对开发者来说，推理成本的账要重算，产品毛利空间变大；但价格战也再次证明，单纯转卖模型能力没有壁垒。"
+  },
+  {
+   "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+   "url": "https://lynchlab.net/llm-skin-cancer",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 398,
+   "id": "n2",
+   "summary": "一篇研究显示，一个十年前的 CNN 架构在皮肤癌诊断上跑赢了前沿 LLM。这是个很直接的提醒：在窄领域、有标注数据、任务定义清晰的问题上，小而专的模型依然完胜通用大模型，也是医疗等垂直 AI 创业更现实的路径。"
+  },
+  {
+   "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+   "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+   "desc": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n30",
+   "summary": "Grok 放出了 AI 生成《奥德赛》的前七分钟成片，评价是画面还行，但谈不上艺术性或人文厚度。意义在于 AI 视频已经从'几秒 demo'走到能交付长片段，对影视、广告的预演和低成本内容生产是实质冲击。"
+  },
+  {
+   "title": "The State of Context Engineering",
+   "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 60,
+   "id": "n16",
+   "summary": "一篇关于「上下文工程」（Context Engineering）现状的梳理。核心观点是：agent 落地的主要难点已经不是写 prompt，而是怎么组织检索、记忆、工具返回和上下文预算。做 agent 产品的人值得一读，这基本是当前工程实践的分水岭。"
+  },
+  {
+   "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+   "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 192,
+   "id": "n7",
+   "summary": "UC Berkeley 一位数学教授表示，因为学生普遍用 AI，他觉得批改作业「没有意义」了。这不只是教育八卦，一方面说明 AI 写作业的能力已经越过及格线，另一方面也逼着学校重构评估方式，是 AI 冲击知识工作评估体系的一个具体样本。"
+  },
+  {
+   "title": "What Security Teams Need to Know About Agents Using Abliterated Models",
+   "url": "https://eve.security/blog/what-security-teams-need-to-know-about-agents-using-abliterated-models",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 4,
+   "id": "n29",
+   "summary": "一篇面向安全团队的文章，讲 agent 使用「abliterated」（去掉拒答对齐）开源模型带来的风险。当没有安全对齐的模型被赋予工具调用和系统权限，攻击面和责任边界都变得模糊，企业在上 agent 之前需要认真评估这一层，这里也有安全产品的机会。"
+  },
+  {
+   "title": "Google’s AI search changes upended online publishing",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+   "desc": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n38",
+   "summary": "The Verge 复盘 Google AI 搜索改版如何冲击在线出版业：AI 摘要让用户不再点进原站。做内容站、SEO、独立媒体的人必须重新考虑分发渠道和商业模式，这也是「AI 吃掉中间层流量」最典型的案例。"
+  },
+  {
+   "title": "r/opensource just banned AI, non-English speakers, and more",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+   "desc": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Reddit 的 r/opensource 版块出新规，禁止使用 AI、由 AI 生成或面向 AI 的项目，同时还限制了非英语发帖。开源社区对 AI 生成代码和 AI 项目的抵触正在从情绪变成制度，做开源分发和社区运营的人要注意这个信号。"
+  },
+  {
+   "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+   "url": "https://huggingface.co/destined/hurston-1",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 41,
+   "id": "n19",
+   "summary": "Show HN 上的 Hurston-1：一个开源 TTS 模型，专门做美国南方口音和非裔英语（Afro-English）口音。语音合成开始卷口音和语域的多样性，对做有声内容、本地化和语音交互产品的人是现成可用的素材。"
+  },
+  {
+   "title": "The hottest AI wearables and gadgets you should know about",
+   "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+   "desc": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n32",
+   "summary": "TechCrunch 汇总了当下最热的 AI 可穿戴与硬件，包括 Muse Charm、Bee、Friend、Plaud 等。硬件形态还在试错，但「随身采集 + AI 总结」已经跑成一个稳定品类，值得关注的是谁先解决隐私和续航这两个真问题。"
+  },
+  {
+   "title": "Blue Planet III is keeping the rough edges in the age of AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+   "desc": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "BBC《蓝色星球 III》表示会刻意保留不完美的镜头，用来证明画面不是 AI 生成的。当 AI 内容泛滥，「过于精致」反而成了可疑信号，真实性正在变成一种可以标价的内容资产，这个反向逻辑对内容创作者很有启发。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "Moli by Lexmount",
+   "url": "https://www.producthunt.com/products/lexmount-browser",
+   "desc": "The fastest headless browser for agents and harnesses Discussion | Link",
+   "summary": "Moli 是给 agent 和 harness 用的无头浏览器，主打速度最快。随着 browser-use、computer-use 这类方向越来越热，底层浏览器基建正变成 agent 的刚需；如果你在做自动化或 agent 产品，值得看看它的性能是否带来差异。"
+  },
+  {
+   "id": "ph11",
+   "title": "AgentGrid.io",
+   "url": "https://www.producthunt.com/products/agentgrid-io",
+   "desc": "Shared workspace for humans and agents Discussion | Link",
+   "summary": "AgentGrid.io 是一个让人类和 agent 共用同一个工作空间的工具，思路是把 agent 当作有权限的团队成员，而不是聊天面板里的助手。人机协作的组织方式还没定论，这类尝试值得观察。"
+  },
+  {
+   "id": "ph6",
+   "title": "Llama Windows",
+   "url": "https://www.producthunt.com/products/llama-windows",
+   "desc": "One local AI server for all your Windows apps Discussion | Link",
+   "summary": "Llama Windows 为 Windows 全家桶提供一个统一的本地 AI 服务，应用不用各自运行 model。本地推理正从开发者玩具变成普通软件的后端，这个「一个本地 server 服务所有 app」的定位很实际。"
+  },
+  {
+   "id": "ph5",
+   "title": "Papermark Data Rooms",
+   "url": "https://www.producthunt.com/products/papermark-2",
+   "desc": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
+   "summary": "Papermark Data Rooms 是面向 AI agent 的安全数据室，号称 60 秒内就能上线，agent 可以直接在里面运行。它解决的是「要让 agent 读数据、又怕它乱读」这一信任和权限问题，在融资、尽调这类场景有真实需求。"
+  },
+  {
+   "id": "ph25",
+   "title": "myPip",
+   "url": "https://www.producthunt.com/products/mypip-2",
+   "desc": "Vibe code, publish, and monetize games with AI Discussion | Link",
+   "summary": "myPip 让你用 AI vibe code 做游戏，然后一键发布并变现。它把「生成、上架、收钱」串成一条完整链路，瞄准的是独立小游戏这个被 AI 拉低门槛的赛道，值得看看它的发布和分成机制。"
+  },
+  {
+   "id": "ph2",
+   "title": "Specsight",
+   "url": "https://www.producthunt.com/products/specsight",
+   "desc": "Product observability for teams shipping fast with AI Discussion | Link",
+   "summary": "Specsight 做的是「产品可观测性」，专门面向用 AI 快速交付的团队。AI 让交付速度加快，但线上出问题的概率也变高，这类监控和定位工具正好补上这一缺口。"
+  },
+  {
+   "id": "ph14",
+   "title": "LinkIntel",
+   "url": "https://www.producthunt.com/products/linkintel",
+   "desc": "Post insights delivered direct to your AI Discussion | Link",
+   "summary": "LinkIntel 把帖子、链接的洞察直接推送给你的 AI，本质是给 agent 提供外部数据入口，类似 MCP 式的内容接入。做 agent 应用时，信息来源往往是最麻烦的一环，这类工具能省不少开发工作。"
+  },
+  {
+   "id": "ph12",
+   "title": "Yourcast 2.0",
+   "url": "https://www.producthunt.com/products/yourcast",
+   "desc": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
+   "summary": "Yourcast 2.0 在 Telegram 里直接提供 AI 摘要，并带点击跳转到对应时间点的功能。它没做新 app，直接嵌入聊天工具；对习惯用 Bot 处理信息的团队来说，这种方式很自然。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+   "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+   "desc": "#20",
+   "source": "Interconnects（Nathan Lambert）",
+   "lang": "en",
+   "id": "b4",
+   "summary": "Interconnects 播客第 20 期，Nathan Lambert 聊了三件事：月之暗面新出的 Kimi K3.1 Pro 到底强在哪、\"新的网络现实\"（AI agent 大规模上网后带来的安全与攻防格局变化），以及关于 Muse 的一堆随想。值得看的是他一贯的一手视角——开源模型格局、后训练/RLHF 的实际取舍，比二手新闻靠谱得多，想判断国产模型追赶到什么位置的人可以直接听。"
+  },
+  {
+   "title": "Full Tutorial: How to Make Amazing Videos with Claude and HyperFrames | Jake Moran",
+   "url": "https://creatoreconomy.so/p/how-to-make-amazing-videos-with-claude-and-hyperframes-jake-moran",
+   "desc": "Watch now (42 mins) | The editing words that get Claude to do what you want, plus how Jake makes launch videos, YouTube edits, and shorts",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b13",
+   "summary": "Peter Yang 频道请来 Jake Moran 做的 42 分钟实操教程：用 Claude 加 HyperFrames 做视频的完整工作流，核心是那套\"剪辑咒语\"——具体该怎么跟 Claude 说话，它才会按你的意图改片子，而不是瞎改。还拆了他自己做产品发布视频、YouTube 长视频剪辑和 shorts 的流程。值得看的是 prompt 可以直接抄，属于把 LLM 塞进视频生产线的落地案例。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化是本周最硬的通货。Salesforge 招后端「Build AI Agents」、上海一支 AI 社交团队同时开 Agent / AI Infra / LLM Data / PM 四个岗、电鸭的远程 Agent 应用研发明确要求 Multi-Agent 的 Subagent 调度、任务路由、超时重试，Mastra 则在招人做 agent 的 trace 和「Agent Learning」。关键要求已经从「会不会调 API」变成「有没有独立搭过 Harness、Memory、RAG、工具调用和可观测」——面试问题从『你用没用过框架』变成『你搭过多大的系统、异常和高并发怎么扛』。",
+   "评测（evals）正在从测试岗里独立出来。常州一个 AI 质量评估工程师 20-35K，要求从 0 到 1 搭评测体系、golden set、LLM-as-judge、回归测试资产，还要做对抗性验证；SHEIN 那批 15 个测试岗里也分出 AI 视觉、知识库等方向。信号很明确：模型越强，「怎么证明它没退化」越值钱，这是传统 QA 转型成本最低的一条路。",
+   "AI Coding 从加分项变成 JD 硬性条款。Askable 直接开「AI Coding Tasks」工程师岗；成都一个 18-25K 的 Java 高级岗，任职要求里写「对 AI Coding 有深刻实践和认知」；Coder、Superset 这类把 coding agent 当产品主体的公司在密集扩招。变化点是：传统业务公司开始用「能不能靠 AI 把自己的产出翻倍」筛人，而不是当亮点看。",
+   "Infra 两端同时在抢人：推理性能和编译器。上海团队要 AI Infra 做在线推理架构与 GPU 利用率；Rivian 伦敦 AI Hub 招 Senior AI infra；CoreWeave 招懂大规模 K8s 集群的现场工程师；国内一家 mesh 架构 AI 推理芯片公司招 LLVM/MLIR 和类 Ascend C 编程框架的人，还明说「不需要精通 LLVM，我们只是小改、加 builtin 和自定义 pass」。国产算力软件栈缺口大，且门槛比想象中务实。",
+   "岗位层级往两头拉长，中间的产品岗在 AI-native 化。一端是 Mechanize 给 junior 开 $300k，另一端是大量 Staff/Principal/Director Applied AI（Salesloft、ZoomInfo、Peregrine）；产品侧要的是「AI Native PM」——Magic Eden 的 AI Native 增长 PM、Bjak 的 AI 券商和 AI 金融 App 技术产品负责人。中间层的焦虑最真实：能做 AI 产品定义的人，比会写 CRUD 的人稀缺得多。"
+  ],
+  "gigs": [
+   "远程 Agent 岗已经是常规选项，不再是特例。电鸭上 Agent 应用研发全职远程 15-25K，主做智能客服的 Multi-Agent 协作框架；V2EX 急招远程 LLM 应用研发，核心是 ComfyUI 生图生视频、换脸、人物一致性控制；另有远程 AI 全栈（Go 方向）20-30K，要求「精通 AI 工具 + 产品思维」。现在抢手的是能搭 ComfyUI 工作流、又能用 Python 把业务接口接上的人。",
+   "传统企业的 AI 落地单开始外溢到个人和小团队。电鸭上有一单「数据集成 + BI 看板 + 流程线上化 + AI 经营分析」的远程兼职，还有民航飞行员拿 QAR 飞行数据做专项模型的个人项目在找开发。这类活预算不大，但要全栈 + RPA + 知识库 + 一点模型能力，适合一个人吃下。样本有限，但方向在变多。",
+   "能接海外远程的，卡点主要在时区和身份，不在技术。HN 那批里大量 US-only，有的明确要求美国公民（GovStar 做国家安全方向的 AI 应用），还有只招犹他/爱达荷州居民的 $7.25-10/hr 学徒岗。对国内开发者可及的是 AMER/EMEA 时区或明确 worldwide 的（Mastra、Matcha.fm、Propel Labs）。样本有限，但筛选成本主要花在合规而非能力上。",
+   "AI 外包的中间层在成型，但价差极大。一端是印度 AI 小 agency 招 commission-only 的 BD，靠 LLM 集成、RAG、n8n 工作流接活；另一端是 Agent + 前端 + Infra 打包的高价岗。会英文、能自己谈单、能交付一个完整 AI 功能的人，比只写代码的人溢价明显。国内这边则相反：AI 岗仍以字节 Data、蚂蚁 OceanBase、SHEIN（南京算法岗占三成、35-90K）这类大厂内推通道为主，个人接单的空间更多在远程和海外。"
+  ],
+  "highlights": [
+   {
+    "title": "Superset (YC P26) | Founding Engineer, Founding Design Engineer | San Francisco ",
+    "desc": "Superset (YC P26) | Founding Engineer, Founding Design Engineer | San Francisco | ONSITE | Full-time | $175K-$225K + 1.0-1.5% equity | https://superset.sh/careers We're building a self-improving IDE for running coding agents in parallel. Tens of thousands of engineers use it as their main IDE, at companies like Netflix, DoorDash and Wix. It's source-available: https://github.com/superset-sh/supers",
+    "url": "https://news.ycombinator.com/item?id=50000038",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m69",
+    "summary": "YC 公司 Superset 把「并行跑多个 coding agent 的自改进 IDE」直接当产品卖，开出 $175-225K + 1-1.5% 股权招 founding engineer——coding agent 正在从编辑器插件变成 IDE 本体。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m87",
+    "summary": "Mechanize 给 junior SWE 开 $300k，业务是「造环境给前沿实验室训练模型做真实软件工程」——训练环境与评测集本身成了可售卖的核心资产，而且愿意为年轻人付高溢价。"
+   },
+   {
+    "title": "Mastra | AI Engineer | REMOTE (AMER or EMEA time zones) | Full-time\nMastra is th",
+    "desc": "Mastra | AI Engineer | REMOTE (AMER or EMEA time zones) | Full-time\nMastra is the open-source TypeScript framework for building AI agents (agents, workflows, memory, evals, tracing). From the team behind Gatsby, YC-backed, https://github.com/mastra-ai/mastra Why: \nWe’re starting to build more and more agentic features into Mastra: Trace intelligence, and we’re working on various Agent Learning fea",
+    "url": "https://news.ycombinator.com/item?id=49995549",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m71",
+    "summary": "Mastra（Gatsby 团队、YC 背书）招 AI Engineer 做 trace intelligence 和 Agent Learning——Agent 的可观测性与自我改进层，正在从功能变成独立产品方向。"
+   },
+   {
+    "title": "招聘： AI 质量评估工程师",
+    "desc": "岗位名称：AI 质量评估工程师 薪资：20-35k·13 薪 ｜ 常州·新北区 ｜ 3-5 年 ｜ 统招本科及以上 岗位职责 负责公司 AI 平台的质量保障，从 0 到 1 搭建质量与评测体系——你是 owner ，不是执行者； 构建面向大模型/Agent 系统的评测体系：评测数据集、golden set 、LLM-as-judge 、回归测试资产； 对商业秘密防护、大模型使用合规等安全能力进行对抗性验证； 深度使用 AI 工具完成用例生成、代码审查、质量分析，沉淀 AI 驱动的测试工作流，让 AI 放大你的产出； 参与公司产品的测试方案设计与执行，覆盖功能测试、接口测试、性能测试及兼容性测试",
+    "url": "https://www.v2ex.com/t/1249872#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m32",
+    "summary": "常州一家公司 20-35K 招 AI 质量评估工程师，要求从 0 到 1 搭评测体系、golden set、LLM-as-judge 和对抗性验证——评测正式成为独立岗位，而不是测试岗的附属职责。"
+   },
+   {
+    "title": "招聘 llvm / mlir / ai 编译器 相关岗位(不限年龄)",
+    "desc": "我这边是一个成立几年的小芯片公司， 做 mesh 架构的 ai 推理芯片为主， 当前芯片的架构类似 ascend 老型号的 910A 。 主要招人做类似 llvm 和 类似 ascend c 的编程框架 薪水中等，年薪几百万的大牛请不起。 需求： 并不需要你精通 llvm 的方方面面， 我们只是小改 llvm 。 增加一些 builtin 函数和自定义 pass 。 主要工作内容有几个方面： 1. 给自己设计的芯片开发 llvm  builtin 函数 和自定义 pass 。 2. 开发类似 ascend c 的 编程框架 3. 在编成框架基础之上，开发 rmsnorm / gemm 等基本算",
+    "url": "https://www.v2ex.com/t/1250894#reply12",
+    "source": "V2EX 酷工作",
+    "id": "m25",
+    "summary": "国内一家 mesh 架构 AI 推理芯片公司招 LLVM/MLIR 和编程框架的人，明说「不需要精通 LLVM，我们只是小改、加 builtin 和自定义 pass」——国产算力软件栈的缺口真实存在，且门槛远比想象中务实。"
+   },
+   {
+    "title": "内推 Java 开发工程师(高级) Base 成都 18-25K",
+    "desc": "上次有几个岗位，已有合适人选了，本月新增了一个 HC 。 Java 开发工程师(高级) 薪资范围：18-25K,经验特别契合者薪资可再议 岗位职责 深度参与教育类平台的需求分析、系统架构设计、详细设计和核心代码开发。 帮助团队成员解决技术问题，组织相关技术分享；维护现有系统和新系统的平稳运行，适时改进和重构。 任职要求 全日制本科及以上学历，计算机、软件工程等工科专业优先、5 年以上开发经验、对 Ai Coding 有深刻实践和认知。 JAVA 语言基础扎实，包括不限于：语言新特性(JDK8->21)、多线程、JVM 等。 熟悉 Spring Cloud 开发体系，包括不限于 Spring B",
+    "url": "https://www.v2ex.com/t/1248715#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m42",
+    "summary": "成都一个 18-25K 的 Java 高级岗，把「对 AI Coding 有深刻实践和认知」写进任职要求——AI 工具的使用能力已经从加分项，变成了传统业务岗的硬性筛选门槛。"
+   }
+  ],
+  "week": "2026-W44"
+ },
+ "llm_used": true,
+ "degraded": []
+}
