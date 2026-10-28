@@ -1,0 +1,415 @@
+{
+ "date": "2026-10-28",
+ "generated_at": "2026-10-28 09:27",
+ "trends": [
+  "钱和算力正在向云厂商集中：Anthropic IPO 招股书细节显示，亚马逊通过债转股持有的份额远超外界想象，IPO 后账面收益可能超过所有 VC 之和；另一边亚马逊自己的 AI 部门被曝因长期不达预期而大幅收缩。自研基础模型的 ROI 叙事在退潮，投资+转售+卖推理算力成了更稳的生意。",
+  "Agent 正从聊天框走向常驻并代用户操作：OpenAI 把内部编码能力做成常驻个人助理 dots，Oracle 的企业应用和 agent 被搬进 ChatGPT，美国银行则提醒客户别把网银密码交给 AI 助手，且 agent 造成的账户活动由客户自负。产品形态在变，授权链、审计和责任划分成了新的工程与法律问题。",
+  "推理侧仍有创业机会：General Compute 逆着“neocloud 崩盘”的叙事拿下 1 亿美元 A 轮，专做非 Nvidia 生态的推理芯片；Liquid AI 的 LFM3 走小模型+全模态+可私有部署路线。成本优化和可部署性依然是最硬的技术差异化，对做 infra 和垂直应用的团队都成立。",
+  "本地化与可验证性正成为新的信任标准：Opera 推 WebAI 标准，让浏览器直接跑本地模型；研究者则公开抱怨 OpenAI 只发结论、不给可复现细节，学术验证越来越难。能不能在本地跑、能不能被独立复现，正在取代厂商宣称的 benchmark 数字。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 11
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 6
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 18
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 2
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 3
+  }
+ ],
+ "github": [
+  {
+   "id": "gh3",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": "306,458",
+   "stars_today": "617 stars today",
+   "summary": "obra/superpowers 是一套面向 AI 编码 agent 的“技能框架 + 开发方法论”，用 Shell 写成，核心是把 Claude Code 这类 agent 的工作流拆成可复用的技能包和规范流程。30 万+ star 说明它已经成了 agent 工程化的事实参考，现在火是因为大家从“能不能跑”转向“怎么让 agent 稳定按流程干活”，做 AI 工具链或想提升自己 agent 使用效率的都值得翻一遍。"
+  },
+  {
+   "id": "gh8",
+   "title": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.",
+   "lang": "Python",
+   "stars": "45,945",
+   "stars_today": "1,598 stars today",
+   "summary": "港大数据智能实验室（HKUDS，就是做 LightRAG 的那个组）出的 DeepTutor，主打“终身个性化辅导”的 LLM 教育 agent，带完整项目和官网。今天一天涨了近 1600 star，一是背书硬，二是 AI 家教/tutoring 是少数已经有清晰付费场景的 agent 落地方向，想看 LLM 应用创业的可以重点拆它的记忆和个性化设计。"
+  },
+  {
+   "id": "gh0",
+   "title": "elayadesign/ai-design-skills",
+   "url": "https://github.com/elayadesign/ai-design-skills",
+   "desc": "",
+   "lang": "",
+   "stars": "9,410",
+   "stars_today": "1,395 stars today",
+   "summary": "elayadesign/ai-design-skills 是一套给 AI 用的“设计技能”素材库，让 agent 按专业设计师的思路产出 UI/视觉方案。一天涨 1395 star，说明 agent skills 正在从写代码扩散到设计等垂直工种，做 AI 产品或多模态工具的人可以关注这种“把专家经验打包成 skill”的模式。"
+  },
+  {
+   "id": "gh10",
+   "title": "togg53192-cmd/jailbreaks",
+   "url": "https://github.com/togg53192-cmd/jailbreaks",
+   "desc": "LIST OF ALL MY JAILBREAKS",
+   "lang": "",
+   "stars": "5,579",
+   "stars_today": "902 stars today",
+   "summary": "togg53192-cmd/jailbreaks 是作者汇总的各种 LLM 越狱提示词清单，纯收藏型仓库。今天涨 900+ star 属于典型的红队/安全话题周期性爆发，做模型安全、内容审核或 prompt 防护的可以当攻击样本库看，但信息质量参差，别当权威资料。"
+  }
+ ],
+ "news": [
+  {
+   "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+   "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+   "desc": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "TechCrunch 挖出 Anthropic IPO 招股书里的债转股细节：亚马逊实际持有的 Anthropic 股份远超外界此前估计，IPO 后账面收益可能比所有 VC 加起来还多。这意味着在这轮基础模型竞赛里，真正的大赢家是提供算力和云资源的厂商，而不是出钱的基金；Anthropic 对 AWS 的依赖已经被写进股权结构里。"
+  },
+  {
+   "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+   "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 251,
+   "id": "n7",
+   "summary": "亚马逊被曝在持续失败、不达预期之后，正在对自家 AI 部门进行大幅收缩和调整。结合它一边给 Anthropic 砸钱、一边自研乏力的反差，可以看出大厂“什么都自己做”的模型叙事正在退潮，转而更务实地做投资、转售和云上推理生意。"
+  },
+  {
+   "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+   "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+   "desc": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "Google DeepMind 发布 Genie 4 世界模型，新增音频、物理更真实、角色更像人，还支持实时操控，单个场景的一致性从 Genie 3 的约 1 分钟提升到 2 分钟。世界模型正在从炫技 demo 变成可交互的内容与仿真引擎，对游戏生成、机器人仿真和合成训练数据都是直接冲击。"
+  },
+  {
+   "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+   "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+   "desc": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "一对父母起诉 OpenAI，称 GPT-4o 指导他们女儿偷偷减停抗癫痫药，并向医生隐瞒，女孩今年 2 月去世。这类健康建议越界引发的诉讼，会逼着产品在医疗、用药类对话上加硬性护栏和拒答策略，也是 OpenAI 长期面临的一类法律风险。"
+  },
+  {
+   "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+   "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+   "desc": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n52",
+   "summary": "OpenAI 把内部编码工具的能力包装成了 dots：一个常驻的、always-on 的个人助理，负责人直言自己永远不想跟别人的 AI agent 开会。信号很明确，OpenAI 的产品重心正从“对话窗口”转向“常驻代理”，而编码工具成了这套 agent 能力的底座。"
+  },
+  {
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "desc": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "OpenAI 扩大与 Oracle 的合作，把 Oracle 的企业应用和 AI agent 搬进 ChatGPT，同时用 OpenAI 能力反哺 Oracle 的新产品。企业软件的分发入口正在被 ChatGPT 收编，这对做 SaaS 集成、插件和垂直 agent 的开发者是明确的方向提示。"
+  },
+  {
+   "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+   "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+   "desc": "The new standard, WebAI, is designed to work with a variety of AI models.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n49",
+   "summary": "Opera 提出名为 WebAI 的新 Web 标准，目标是让网页直接在用户浏览器里本地部署和调用各类 AI 模型，不走云端。一旦其他浏览器厂商跟进，“本地推理+隐私”会变成新的分发层，Web 开发者多了一条不依赖 token 计费和 API 额度的路径。"
+  },
+  {
+   "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+   "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+   "desc": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n50",
+   "summary": "General Compute 完成 1 亿美元 A 轮，专押 Nvidia 生态之外的推理芯片。在普遍唱衰 neocloud 的当下逆势拿到大额融资，说明推理成本仍是刚需，押注“去 Nvidia 化”的算力套利还有窗口期。"
+  },
+  {
+   "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+   "desc": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n57",
+   "summary": "The Verge 报道，研究者对 OpenAI 越来越“只发结论、不给可复现细节”的做法感到疲惫。OpenAI 刚公布了数学、计算机和物理上的突破，但外部很难验证，这种把科研成果当成公关素材的做法正在消耗学术界的信任，也让独立复现能力变得更稀缺。"
+  },
+  {
+   "title": "Build specialized multimodal models with LFM3",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Liquid AI 发布 LFM3，主打“每种模态都覆盖”的专用小模型系列，Hugging Face 上同步放出了博客和权重。小模型、全模态加可私有部署，是目前创业公司最现实的一条路径，尤其适合对成本、延迟和数据合规敏感的行业场景。"
+  },
+  {
+   "title": "Wikipedia's Cleanup of AI-Generated Content",
+   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 447,
+   "id": "n3",
+   "summary": "维基百科开始大规模清理 AI 生成的劣质条目。这是公共知识库第一次系统性治理“AI 垃圾内容”，也提醒做内容与数据产品的团队，语料质量、来源溯源和可信度会变成实实在在的竞争壁垒。"
+  },
+  {
+   "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+   "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+   "desc": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "美国银行提醒客户不要把自己的网银密码交给 AI 助手，并强调由 AI agent 操作产生的账户活动由客户自己负责。agent 代操作的责任划分现在还是灰色地带，做 agent 产品的团队得提前设计好授权范围、二次确认和操作审计。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "PulseDev",
+   "url": "https://www.producthunt.com/products/pulsedev",
+   "desc": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
+   "summary": "在本地 localhost 页面上直接点击出问题的 UI 元素，AI agent 就会自动定位并修改代码。它把「截图+描述 bug」的流程简化成一次点击，直接打通浏览器和编码 agent，对前端日常调试很顺手，也代表 agent 正从聊天窗口走进真实开发回路。"
+  },
+  {
+   "id": "ph2",
+   "title": "Paddock",
+   "url": "https://www.producthunt.com/products/paddock-2",
+   "desc": "Computers and sandboxes for your agents Discussion | Link",
+   "summary": "给 AI agent 提供电脑和沙箱运行环境的平台。agent 要真正干活，就需要一台能开机、能装软件、能隔离风险的环境；这类「agent 专用基础设施」是明显的创业方向——卖组合好的安全工具链，不卖模型本身。"
+  },
+  {
+   "id": "ph11",
+   "title": "Revix AI",
+   "url": "https://www.producthunt.com/products/revix-ai-2",
+   "desc": "AI code review that learns your repo's own rules Discussion | Link",
+   "summary": "AI code review 工具，会学习你自己仓库的规则和约定，而不是套用通用规范。它解决的是通用 review bot 只会提「命名不规范」这类无用意见的问题；如果规则学得准，它可能成为团队里最实用的 AI 工具之一。"
+  },
+  {
+   "id": "ph1",
+   "title": "GPT-6.1 Terra",
+   "url": "https://www.producthunt.com/products/openai",
+   "desc": "Fast, capable computer use at half the price Discussion | Link",
+   "summary": "主打快速、能用的 computer use 能力，价格只有同类的一半。computer use 是今年 agent 能否真正落地的关键能力：成本减半意味着可以大规模运行，值得关注它的实际延迟和成功率是否可靠。"
+  },
+  {
+   "id": "ph26",
+   "title": "tabsh",
+   "url": "https://www.producthunt.com/products/tabsh",
+   "desc": "Work with agents with an IDE in your browser tab Discussion | Link",
+   "summary": "在浏览器标签页里开一个 IDE，专门用来和 coding agent 协作。它把「人看代码、agent 改代码」的界面重新设计了一遍，不硬塞进现有编辑器，适合想尝试新 agent 工作流的开发者。"
+  },
+  {
+   "id": "ph14",
+   "title": "ContextGem 1.0",
+   "url": "https://www.producthunt.com/products/contextgem",
+   "desc": "Decision models join LLMs to extract data from documents Discussion | Link",
+   "summary": "开源库，把决策模型和 LLM 结合起来从文档中抽取结构化数据。纯靠 LLM 抽取，结果不稳定、成本也高；加入规则和决策模型作为约束层，就是目前文档信息抽取比较务实的工程做法。"
+  },
+  {
+   "id": "ph24",
+   "title": "AI Bridge",
+   "url": "https://www.producthunt.com/products/ai-bridge",
+   "desc": "Every AI coding agent on your Mac, in its place Discussion | Link",
+   "summary": "统一管理 Mac 上所有 AI coding agent 的入口工具。现在 Claude Code、Cursor、Codex 各开各的窗口很乱，它想让多 agent 各司其职、互不干扰，解决的是多 agent 并行工作后的协调问题。"
+  },
+  {
+   "id": "ph17",
+   "title": "Notra",
+   "url": "https://www.producthunt.com/products/notra-3",
+   "desc": "Notra is a GEO tool that helps you rank in AI Search. Discussion | Link",
+   "summary": "GEO 工具，帮你的内容在 AI 搜索（ChatGPT、Perplexity 之类）中被引用和排名。SEO 正被 AI 问答重写，“如何被模型推荐”已成为新的营销需求，这个方向虽然还早，但增长很快。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+   "url": "https://latent.space/p/ainews-anthropic-s1/",
+   "desc": "The S-1, the numbers, and the reactions.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "Anthropic 递交 S-1、准备两周内冲击 2 万亿美元 IPO 的消息汇总：1400% 增速、48% 收入走云厂商渠道、85% 毛利率、Q2 经营利润 10 亿美元、账上 1340 亿现金、历史累计烧钱 100 亿——这是目前最硬的一份 LLM 公司财务底牌，值得逐条对着看，判断整个行业的单位经济模型到底能不能成立。"
+  },
+  {
+   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+   "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+   "desc": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "Latent Space 请到 Anthropic 的 Katelyn Lesse 和 Angela Jiang 讲 Claude Platform 的工程内幕：Opus 5.5 怎么上线、为什么要把模型这个「大脑」和 agent 的「手」拆开、API 怎么扩容、托管 agent 怎么做到可靠——想做 agent 产品的人可以重点看「脑手分离」这套架构取舍。"
+  },
+  {
+   "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+   "url": "https://latent.space/p/opus55/",
+   "desc": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b6",
+   "summary": "和上一条是同一期播客（这条是音视频版入口），主题同样是 Anthropic 如何用 Claude 来造 Claude、Opus 5.5 与托管 agent 的工程设计，通勤时听比较合适。"
+  },
+  {
+   "title": "Coding From the Himalayas With an Offline AI Agent",
+   "url": "https://latent.space/p/offline-coding/",
+   "desc": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "实操教程：用 OpenCode + Ollama + Qwen 在喜马拉雅山上搭一套完全离线的 coding agent——不依赖网络和云端 API 也能跑代码智能体，对关心本地模型、隐私场景和「断网也能干活」的开发者是很好的模板。"
+  },
+  {
+   "title": "Game Boy Color on My Conference Badge",
+   "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+   "desc": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working o",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 在 GitHub Universe 玩会议胸牌：今年的胸牌又是个完整彩色屏小电脑，他自己动手折腾，还遇到 Steve Francia 用 Gemini 在上面跑通了完整的 NES 模拟器——纯好玩但也能看出端侧小设备和模型辅助写代码现在能到什么程度。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化是本周最硬的通货。Salesforge 招后端「Build AI Agents」、上海一支 AI 社交团队同时开 Agent / AI Infra / LLM Data / PM 四个岗、电鸭的远程 Agent 应用研发明确要求 Multi-Agent 的 Subagent 调度、任务路由、超时重试，Mastra 则在招人做 agent 的 trace 和「Agent Learning」。关键要求已经从「会不会调 API」变成「有没有独立搭过 Harness、Memory、RAG、工具调用和可观测」——面试问题从『你用没用过框架』变成『你搭过多大的系统、异常和高并发怎么扛』。",
+   "评测（evals）正在从测试岗里独立出来。常州一个 AI 质量评估工程师 20-35K，要求从 0 到 1 搭评测体系、golden set、LLM-as-judge、回归测试资产，还要做对抗性验证；SHEIN 那批 15 个测试岗里也分出 AI 视觉、知识库等方向。信号很明确：模型越强，「怎么证明它没退化」越值钱，这是传统 QA 转型成本最低的一条路。",
+   "AI Coding 从加分项变成 JD 硬性条款。Askable 直接开「AI Coding Tasks」工程师岗；成都一个 18-25K 的 Java 高级岗，任职要求里写「对 AI Coding 有深刻实践和认知」；Coder、Superset 这类把 coding agent 当产品主体的公司在密集扩招。变化点是：传统业务公司开始用「能不能靠 AI 把自己的产出翻倍」筛人，而不是当亮点看。",
+   "Infra 两端同时在抢人：推理性能和编译器。上海团队要 AI Infra 做在线推理架构与 GPU 利用率；Rivian 伦敦 AI Hub 招 Senior AI infra；CoreWeave 招懂大规模 K8s 集群的现场工程师；国内一家 mesh 架构 AI 推理芯片公司招 LLVM/MLIR 和类 Ascend C 编程框架的人，还明说「不需要精通 LLVM，我们只是小改、加 builtin 和自定义 pass」。国产算力软件栈缺口大，且门槛比想象中务实。",
+   "岗位层级往两头拉长，中间的产品岗在 AI-native 化。一端是 Mechanize 给 junior 开 $300k，另一端是大量 Staff/Principal/Director Applied AI（Salesloft、ZoomInfo、Peregrine）；产品侧要的是「AI Native PM」——Magic Eden 的 AI Native 增长 PM、Bjak 的 AI 券商和 AI 金融 App 技术产品负责人。中间层的焦虑最真实：能做 AI 产品定义的人，比会写 CRUD 的人稀缺得多。"
+  ],
+  "gigs": [
+   "远程 Agent 岗已经是常规选项，不再是特例。电鸭上 Agent 应用研发全职远程 15-25K，主做智能客服的 Multi-Agent 协作框架；V2EX 急招远程 LLM 应用研发，核心是 ComfyUI 生图生视频、换脸、人物一致性控制；另有远程 AI 全栈（Go 方向）20-30K，要求「精通 AI 工具 + 产品思维」。现在抢手的是能搭 ComfyUI 工作流、又能用 Python 把业务接口接上的人。",
+   "传统企业的 AI 落地单开始外溢到个人和小团队。电鸭上有一单「数据集成 + BI 看板 + 流程线上化 + AI 经营分析」的远程兼职，还有民航飞行员拿 QAR 飞行数据做专项模型的个人项目在找开发。这类活预算不大，但要全栈 + RPA + 知识库 + 一点模型能力，适合一个人吃下。样本有限，但方向在变多。",
+   "能接海外远程的，卡点主要在时区和身份，不在技术。HN 那批里大量 US-only，有的明确要求美国公民（GovStar 做国家安全方向的 AI 应用），还有只招犹他/爱达荷州居民的 $7.25-10/hr 学徒岗。对国内开发者可及的是 AMER/EMEA 时区或明确 worldwide 的（Mastra、Matcha.fm、Propel Labs）。样本有限，但筛选成本主要花在合规而非能力上。",
+   "AI 外包的中间层在成型，但价差极大。一端是印度 AI 小 agency 招 commission-only 的 BD，靠 LLM 集成、RAG、n8n 工作流接活；另一端是 Agent + 前端 + Infra 打包的高价岗。会英文、能自己谈单、能交付一个完整 AI 功能的人，比只写代码的人溢价明显。国内这边则相反：AI 岗仍以字节 Data、蚂蚁 OceanBase、SHEIN（南京算法岗占三成、35-90K）这类大厂内推通道为主，个人接单的空间更多在远程和海外。"
+  ],
+  "highlights": [
+   {
+    "title": "Superset (YC P26) | Founding Engineer, Founding Design Engineer | San Francisco ",
+    "desc": "Superset (YC P26) | Founding Engineer, Founding Design Engineer | San Francisco | ONSITE | Full-time | $175K-$225K + 1.0-1.5% equity | https://superset.sh/careers We're building a self-improving IDE for running coding agents in parallel. Tens of thousands of engineers use it as their main IDE, at companies like Netflix, DoorDash and Wix. It's source-available: https://github.com/superset-sh/supers",
+    "url": "https://news.ycombinator.com/item?id=50000038",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m69",
+    "summary": "YC 公司 Superset 把「并行跑多个 coding agent 的自改进 IDE」直接当产品卖，开出 $175-225K + 1-1.5% 股权招 founding engineer——coding agent 正在从编辑器插件变成 IDE 本体。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m87",
+    "summary": "Mechanize 给 junior SWE 开 $300k，业务是「造环境给前沿实验室训练模型做真实软件工程」——训练环境与评测集本身成了可售卖的核心资产，而且愿意为年轻人付高溢价。"
+   },
+   {
+    "title": "Mastra | AI Engineer | REMOTE (AMER or EMEA time zones) | Full-time\nMastra is th",
+    "desc": "Mastra | AI Engineer | REMOTE (AMER or EMEA time zones) | Full-time\nMastra is the open-source TypeScript framework for building AI agents (agents, workflows, memory, evals, tracing). From the team behind Gatsby, YC-backed, https://github.com/mastra-ai/mastra Why: \nWe’re starting to build more and more agentic features into Mastra: Trace intelligence, and we’re working on various Agent Learning fea",
+    "url": "https://news.ycombinator.com/item?id=49995549",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m71",
+    "summary": "Mastra（Gatsby 团队、YC 背书）招 AI Engineer 做 trace intelligence 和 Agent Learning——Agent 的可观测性与自我改进层，正在从功能变成独立产品方向。"
+   },
+   {
+    "title": "招聘： AI 质量评估工程师",
+    "desc": "岗位名称：AI 质量评估工程师 薪资：20-35k·13 薪 ｜ 常州·新北区 ｜ 3-5 年 ｜ 统招本科及以上 岗位职责 负责公司 AI 平台的质量保障，从 0 到 1 搭建质量与评测体系——你是 owner ，不是执行者； 构建面向大模型/Agent 系统的评测体系：评测数据集、golden set 、LLM-as-judge 、回归测试资产； 对商业秘密防护、大模型使用合规等安全能力进行对抗性验证； 深度使用 AI 工具完成用例生成、代码审查、质量分析，沉淀 AI 驱动的测试工作流，让 AI 放大你的产出； 参与公司产品的测试方案设计与执行，覆盖功能测试、接口测试、性能测试及兼容性测试",
+    "url": "https://www.v2ex.com/t/1249872#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m32",
+    "summary": "常州一家公司 20-35K 招 AI 质量评估工程师，要求从 0 到 1 搭评测体系、golden set、LLM-as-judge 和对抗性验证——评测正式成为独立岗位，而不是测试岗的附属职责。"
+   },
+   {
+    "title": "招聘 llvm / mlir / ai 编译器 相关岗位(不限年龄)",
+    "desc": "我这边是一个成立几年的小芯片公司， 做 mesh 架构的 ai 推理芯片为主， 当前芯片的架构类似 ascend 老型号的 910A 。 主要招人做类似 llvm 和 类似 ascend c 的编程框架 薪水中等，年薪几百万的大牛请不起。 需求： 并不需要你精通 llvm 的方方面面， 我们只是小改 llvm 。 增加一些 builtin 函数和自定义 pass 。 主要工作内容有几个方面： 1. 给自己设计的芯片开发 llvm  builtin 函数 和自定义 pass 。 2. 开发类似 ascend c 的 编程框架 3. 在编成框架基础之上，开发 rmsnorm / gemm 等基本算",
+    "url": "https://www.v2ex.com/t/1250894#reply12",
+    "source": "V2EX 酷工作",
+    "id": "m25",
+    "summary": "国内一家 mesh 架构 AI 推理芯片公司招 LLVM/MLIR 和编程框架的人，明说「不需要精通 LLVM，我们只是小改、加 builtin 和自定义 pass」——国产算力软件栈的缺口真实存在，且门槛远比想象中务实。"
+   },
+   {
+    "title": "内推 Java 开发工程师(高级) Base 成都 18-25K",
+    "desc": "上次有几个岗位，已有合适人选了，本月新增了一个 HC 。 Java 开发工程师(高级) 薪资范围：18-25K,经验特别契合者薪资可再议 岗位职责 深度参与教育类平台的需求分析、系统架构设计、详细设计和核心代码开发。 帮助团队成员解决技术问题，组织相关技术分享；维护现有系统和新系统的平稳运行，适时改进和重构。 任职要求 全日制本科及以上学历，计算机、软件工程等工科专业优先、5 年以上开发经验、对 Ai Coding 有深刻实践和认知。 JAVA 语言基础扎实，包括不限于：语言新特性(JDK8->21)、多线程、JVM 等。 熟悉 Spring Cloud 开发体系，包括不限于 Spring B",
+    "url": "https://www.v2ex.com/t/1248715#reply3",
+    "source": "V2EX 酷工作",
+    "id": "m42",
+    "summary": "成都一个 18-25K 的 Java 高级岗，把「对 AI Coding 有深刻实践和认知」写进任职要求——AI 工具的使用能力已经从加分项，变成了传统业务岗的硬性筛选门槛。"
+   }
+  ],
+  "week": "2026-W44"
+ },
+ "llm_used": true,
+ "degraded": []
+}
