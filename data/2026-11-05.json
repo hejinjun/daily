@@ -1,0 +1,476 @@
+{
+ "date": "2026-11-05",
+ "generated_at": "2026-11-05 10:33",
+ "trends": [
+  "开源权重模型进入「周更」节奏：Kimi K3.1 Pro 放权重、腾讯 Hy4 发布、美国这边 Ripple-65B 号称 agentic coding 开源美国 SOTA——开源模型的比拼已经从通用 benchmark 转向「能不能真的替你干活」，中小团队自建 agent 底座的成本正在快速下降。",
+  "大厂靠并购补 agent 工作流拼图：OpenAI 收 Pierre 加强 Codex 的代码理解/审查，Meta 收 Conductor 拿到多 agent 并行协作能力。编码 agent 的竞争重心从模型层转向「能不能嵌进真实开发流程」，这也是小团队最容易被收购的方向。",
+  "现实检验来得很快：苹果削减内部工程团队 AI 预算、Uber 一周只有 4 个人用 AI agent 叫车、DoorDash 几乎没人用 agent 下单。企业侧 ROI 存疑、C 端 agent 还没找到真实场景，机会在支付授权、信任链条这些「没打通的地方」而不是再做一个聊天壳。",
+  "AI 往「可验证」和「安全攻防」两头走：OpenAI 用自动化流水线挖出 948 个 Linux 内核提权漏洞，可证明推理（provable inference）也在推进，配合前几天的模型身份证明方案，正在变成 agent 互信和模型溯源的基础设施层机会。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 16
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 5
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 3
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 6
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 2
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 0
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh10",
+   "title": "FareedKhan-dev/kimi-k3-in-c",
+   "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+   "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+   "lang": "C",
+   "stars": "10,358",
+   "stars_today": "351 stars today",
+   "summary": "用纯 C99 在单颗 CPU、8.24GB 内存里跑 2.78 万亿参数的 Kimi K3 推理，不依赖 BLAS、不依赖框架、也不需要 GPU。虽然这个数字大概率来自极端的量化/稀疏化技巧，属于「工程炫技」，但它直指一个真问题：大模型推理能不能彻底摆脱 GPU 依赖。对关心端侧部署和推理成本的人来说，读它的实现比我直接看结论更有价值。"
+  },
+  {
+   "id": "gh0",
+   "title": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "lang": "Python",
+   "stars": "5,247",
+   "stars_today": "2,050 stars today",
+   "summary": "NVIDIA 出的 Python 框架，在数据之上搭一层语义图谱推理层，让 LLM/Agent 的查询生成变得确定、可解释，检索上下文更准。今天涨两千多星，说明「用知识图谱固定住 Agent 的推理路径、减少幻觉」这条路正在从论文走向工程化，做 RAG 和 Agent 中间层的人值得看。"
+  },
+  {
+   "id": "gh6",
+   "title": "github/spec-kit",
+   "url": "https://github.com/github/spec-kit",
+   "desc": "💫 Toolkit to help you get started with SDD or any other process!",
+   "lang": "Python",
+   "stars": "147,363",
+   "stars_today": "808 stars today",
+   "summary": "GitHub 官方出的 spec-kit，帮你在 AI 编程里落地 SDD（规格驱动开发）——先写结构化规格，再让 Agent 按规格实现。14 万星、今天还涨 800，基本说明「Spec 才是 AI 写代码的正确入口」已经成为主流共识；如果你现在还是靠 prompt 描述需求，这个工具包就是标准答案式的参考。"
+  },
+  {
+   "id": "gh9",
+   "title": "garrytan/gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+   "lang": "TypeScript",
+   "stars": "139,385",
+   "stars_today": "290 stars today",
+   "summary": "Garry Tan（YC 总裁）公开了自己整套 Claude Code 配置：23 个有明确职责的工具，分别扮演 CEO、设计师、工程经理、发布经理、文档工程师和 QA。本质是把「一个人怎么用 Agent 组一个虚拟团队」这套打法开源出来了，对想搭多 Agent 工作流的开发者是很好的实战模板。"
+  },
+  {
+   "id": "gh8",
+   "title": "harry0703/MoneyPrinterTurbo",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+   "lang": "Python",
+   "stars": "139,072",
+   "stars_today": "617 stars today",
+   "summary": "输入一个主题或关键词，AI 自动完成写稿、配音、找素材、剪辑，产出高清短视频。13.9 万星的老牌项目还在日增 600+，说明「AI 批量做短视频」这条内容工厂需求一直没降温，是典型的低门槛、能直接变现的 AI 应用样板。"
+  },
+  {
+   "id": "gh15",
+   "title": "scenario-labs/skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "desc": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+   "lang": "Python",
+   "stars": "2,487",
+   "stars_today": "224 stars today",
+   "summary": "给任何 AI Agent 装上「生产级媒体生成」技能：自动挑合适的图像/视频/音频/3D 模型、先报价再花钱、通过 Scenario MCP 保持角色和品牌一致性，另外还带驱动 Blender、Maya、ZBrush、Unreal、Unity 的专家团队。它代表了一个新趋势——Agent 的能力边界开始往专业创作软件里延伸，MCP 正在变成工具接入的标准插口。"
+  },
+  {
+   "id": "gh7",
+   "title": "The-PR-Agent/pr-agent",
+   "url": "https://github.com/The-PR-Agent/pr-agent",
+   "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+   "lang": "Python",
+   "stars": "14,805",
+   "stars_today": "280 stars today",
+   "summary": "最早那批开源 PR 自动评审工具，作者特意声明「不是 Qodo 免费版」，强调独立性。AI Code Review 已经是团队里最容易落地的 Agent 场景之一，这个项目适合想自建（而不是买 SaaS）评审流水线的人拿来改。"
+  },
+  {
+   "id": "gh14",
+   "title": "Thysrael/Horizon",
+   "url": "https://github.com/Thysrael/Horizon",
+   "desc": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+   "lang": "Python",
+   "stars": "12,554",
+   "stars_today": "121 stars today",
+   "summary": "用 AI 搭一个自己的新闻雷达，每天自动生成中英双语简报，可自托管。它的价值不在技术多新，而在「信息筛选层」本身正在被 AI 重构——如果你受够了信息过载，这是一个可以直接跑起来、也可以照着自己改一套的参考实现。"
+  }
+ ],
+ "news": [
+  {
+   "title": "A thousand fewer paths to root",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "desc": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n32",
+   "summary": "OpenAI 建了一条自主流水线，在 Linux 内核里自己找、自己验证、自己生成补丁，一口气处理了 948 个本地提权漏洞。这意味着「AI 挖洞 + AI 修洞」已经能规模化跑在真实关键基础设施上，安全审计的成本结构要变；负面看，也说明 AI 生成代码堆积的安全债正在被同样用 AI 的方式还。"
+  },
+  {
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+   "url": "https://www.ricursive.com/ripple",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 228,
+   "id": "n7",
+   "summary": "Ripple-65B Preview 打出「美国开源权重模型在 agentic coding 上的 SOTA」的旗号。关键不是分数，而是美国开源阵营开始专门针对「agent 写代码、跑任务」优化，而不是只卷通用榜单，直接对上 Kimi、腾讯这批中国开源模型。"
+  },
+  {
+   "title": "Kimi K3.1 Pro model weights are out",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 390,
+   "id": "n3",
+   "summary": "Kimi K3.1 Pro 的模型权重放出来了。国内头部模型继续走「发权重」路线，海外和国内开发者都能直接下载部署、微调，做 agent 底座的可选项又多一个，价格战会继续往下压。"
+  },
+  {
+   "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "url": "https://openai.com/index/openai-to-acquire-pierre",
+   "desc": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI 宣布收购 Pierre Computer Company，用来扩展 Codex 在代码构建、理解和 review 上的工具能力。这是 OpenAI 少见地靠并购补编码 agent 的工具链，说明 coding agent 的竞争已经从模型能力转到「能不能嵌进开发者的日常流程」。"
+  },
+  {
+   "title": "Meta acquires AI coding startup Conductor",
+   "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+   "desc": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n45",
+   "summary": "Meta 收购 AI 编码创业公司 Conductor，它的卖点是让工程师同时部署一队 agent 并行处理项目的不同部分。大厂在抢「多 agent 编排」这块拼图，也侧面证明单体 agent 已经不够用了，会做 agent 协作调度的小团队现在很值钱。"
+  },
+  {
+   "title": "Tencent Hy4",
+   "url": "https://hy.tencent.ai/research/hy4",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 190,
+   "id": "n9",
+   "summary": "腾讯放出 Hy4 模型。中国大厂的开源/放权重节奏已经压缩到以周计，国内模型迭代速度和开源意愿都在明显加快，做应用层的要开始把「模型可替换」当成默认架构前提。"
+  },
+  {
+   "title": "Apple is reportedly cutting budgets for its internal AI usage",
+   "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+   "desc": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "据报道苹果正在大幅削减内部工程团队的 AI 预算。结合前段时间「AI 对公司几乎零财务回报」的论调，这更像大公司开始按 ROI 砍 AI 开支的信号——做企业 AI 生意的要留意预算周期和续费风险。"
+  },
+  {
+   "title": "Almost no one uses AI agents to book their Uber, company says",
+   "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+   "desc": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "Uber 说上个季度最忙的一周里，只有 4 个人用 AI agent 叫车；DoorDash 那边也基本没人用 agent 下单（n19）。这说明「agent 帮你点外卖打车」目前还是 demo 级场景，卡点在支付授权、身份和信任链条——这些没打通的环节反而是真正的创业缝隙。"
+  },
+  {
+   "title": "OpenAI is already trying to shape the 2028 election",
+   "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+   "desc": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "OpenAI 的 Chris Lehane 在推动让 AI 成为 2028 大选的核心议题，提出一套所谓「新社会契约」。本质是 AI 巨头提前布局政治叙事，为自己的监管空间铺路，做 AI 政策、合规和公共事务的团队得盯这条线。"
+  },
+  {
+   "title": "Open source AI is booming. Hugging Face explains who profits.",
+   "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+   "desc": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "TechCrunch 采访 Hugging Face 政策负责人，聊开源模型越来越强之后「到底谁赚钱」。核心矛盾是：中国开源模型把能力和价格都打下来了，企业和政府拿了好处，但模型方怎么 capture value 仍没有答案，这也是开源 AI 商业化最现实的问题。"
+  },
+  {
+   "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+   "desc": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon an",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n59",
+   "summary": "高通手机业务同比掉约 20%，Q4 财报明确把增长押注 AI 数据中心，通过与 AWS 等合作切加速卡市场（配套还有 150W、128GB 的 Cloud AI 100 Ultra）。AI 推理硬件又挤进一个玩家，对做推理部署的人来说是更多选择和更大议价空间。"
+  },
+  {
+   "title": "Progress on provable inference for large language models",
+   "url": "https://www.anthropic.com/research/provable-inference",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 177,
+   "id": "n10",
+   "summary": "关于大模型「可证明推理」（provable inference）的进展：不只检查输出，还能用可验证的方式证明这段推理确实是某个模型按某种方式跑出来的。这和 Anthropic 的模型身份证明是一条线，未来是 agent 之间互信、模型溯源和内容归责的基础设施。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph16",
+   "title": "Render Sandboxes",
+   "url": "https://www.producthunt.com/products/render",
+   "desc": "A computer for every agent Discussion | Link",
+   "summary": "Render 出的沙箱服务，给每个 AI agent 配一台独立电脑跑代码。agent 基础设施正从「给个 API」升级到「给台机器」，做 agent 产品的可以直接省掉自己搭隔离执行环境这一大块。"
+  },
+  {
+   "id": "ph10",
+   "title": "OpenMail",
+   "url": "https://www.producthunt.com/products/openmail",
+   "desc": "Give your AI agents an identity through email Discussion | Link",
+   "summary": "给 AI agent 发邮箱地址，让 agent 有自己的身份。agent 之间、agent 和人之间的通信目前还是空白，邮箱是最现成的协议入口，做多 agent 协作的值得看看这个思路。"
+  },
+  {
+   "id": "ph29",
+   "title": "Floot Payments",
+   "url": "https://www.producthunt.com/products/floot",
+   "desc": "Take payments in apps you build in ChatGPT and Claude Discussion | Link",
+   "summary": "让 ChatGPT 和 Claude 里做出来的小应用直接收钱。agent 应用长期卡在「做出来但没法变现」，支付通道补上后，ChatGPT 应用商店那波可能真能长出小生意。"
+  },
+  {
+   "id": "ph0",
+   "title": "fileForensics",
+   "url": "https://www.producthunt.com/products/fileai-ai-ocr",
+   "desc": "Real or not? Check files before your AI trusts them. Discussion | Link",
+   "summary": "在 AI 读取文件之前先验证真假，做文件取证。RAG 和 agent 大量吃外部文件，投毒和伪造是个被低估的风险面，这是个典型的「安全补丁型」创业切口。"
+  },
+  {
+   "id": "ph22",
+   "title": "Hindsight Models and Inference API",
+   "url": "https://www.producthunt.com/products/vectorize",
+   "desc": "Small, fast models for reranking, embeddings and decisions Discussion | Link",
+   "summary": "一套小而快的模型，专门做 rerank、embedding 和决策类任务。不是又一个通用大模型，而是给 RAG 和 agent 流水线补零件，延迟和成本敏感的场景更有用。"
+  },
+  {
+   "id": "ph3",
+   "title": "Zero Wire",
+   "url": "https://www.producthunt.com/products/cloudflare",
+   "desc": "Check your exposure to critical CVEs with one agent prompt Discussion | Link",
+   "summary": "一句话 prompt 让 agent 查出你的系统暴露了哪些高危 CVE。安全排查从「跑扫描器看报告」变成「问一句」，方向对，但要留意误报率和实际修复能力。"
+  },
+  {
+   "id": "ph1",
+   "title": "Wanaka Studio",
+   "url": "https://www.producthunt.com/products/wanaka-studio",
+   "desc": "Make and publish 3D games with the first AI game engine Discussion | Link",
+   "summary": "号称第一个 AI 游戏引擎，用自然语言做并发布 3D 游戏。AI 生成内容已经从图、视频摸到了可交互成品，值得观察它能否真正做到「做出能玩的游戏」而不只是 demo。"
+  },
+  {
+   "id": "ph20",
+   "title": "QualityLayer",
+   "url": "https://www.producthunt.com/products/qualitylayer",
+   "desc": "Plan, build and review software with your coding agents Discussion | Link",
+   "summary": "围绕 coding agent 重新设计软件流程，管规划、实现和代码评审。当写代码本身被 agent 接管，真正稀缺的是需求和评审环节，这类工具在赌「人往上走一步」的协作方式。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "datasette-agent 0.5a0",
+   "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+   "desc": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this means you can prompt a",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "Simon Willison 的 datasette-agent 0.5a0，自称是个重要版本：核心新功能叫 panel，能让 agent 的聊天窗口贴着 Datasette 的表页/查询页常驻在旁边，配合 datasette-apps 就能对着当前页面直接下 prompt 让它生成或改一个 HTML 小应用。值得看的是这个产品形态——把 agent 从独立对话框塞进数据工具侧边栏，上下文自动带上你正在看的东西，比通用聊天框实用得多。"
+  },
+  {
+   "title": "How big is the open model economy today?",
+   "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+   "desc": "Our first open model economy research note for paid subscribers.",
+   "source": "Interconnects（Nathan Lambert）",
+   "lang": "en",
+   "id": "b4",
+   "summary": "Nathan Lambert 的「开放模型经济」系列第一篇研究笔记（付费订阅专享），想做的是量化开源/开放权重模型今天到底占多大份额、钱和算力怎么流动。值得关注：这是少见的把「开源模型生态」当经济体来算账而不是只比 benchmark 的尝试，对判断做开源路线有没有商业空间很关键。"
+  },
+  {
+   "title": "How I’m Using ChatGPT to Help My Mom Fight Cancer (5 Steps)",
+   "url": "https://creatoreconomy.so/p/how-im-using-chatgpt-to-help-my-mom-fight-cancer",
+   "desc": "Practical steps any patient or caregiver can take with AI (and my free skill) to fight back against cancer",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "Peter Yang 写他怎么用 ChatGPT 帮妈妈对抗癌症，给了 5 个任何病人或家属都能照做的具体步骤，还附了自己做的一个免费 skill。值得看的不是「AI+医疗」这种空话，而是他把提示词、信息整理、和医生沟通这些环节拆成了可复制的操作流程，是普通人用 LLM 处理高危决策的一个真实样本。"
+  },
+  {
+   "title": "datasette-apps 0.3a0",
+   "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+   "desc": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be tagged in Datasette Ag",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "datasette-apps 0.3a0 发布：这个插件让你在 Datasette 里托管和编辑自定义 HTML 应用，手写也行，但更省事的是通过 Datasette Agent 让 LLM 帮你生成。这版主要改进了和 agent 的集成（应用现在能在 agent 里打标签）。值得看的是「用自然语言即时长出一个数据小工具」这条路又顺了一点。"
+  },
+  {
+   "title": "datasette-llm 0.1a10",
+   "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+   "desc": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "datasette-llm 0.1a10，纯 bugfix：修的是 agent.datasette.io 演示站上的问题——可用模型列表没被正确限制成配置文件里指定的那几个，导致能选到不该出现的模型。做 LLM 应用配置管理的人可以留意这个坑。"
+  },
+  {
+   "title": "llm 0.37.1",
+   "url": "https://simonwillison.net/2026/Nov/3/llm/",
+   "desc": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "llm 0.37.1，Simon 那个命令行 LLM 工具的 bugfix 版本，贡献来自 Steven Huang、Tao An、Arjan Mossel、XQ 四位社区成员。信息量不大，但能看出这个 CLI 已经在靠社区维护了。"
+  },
+  {
+   "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+   "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+   "desc": "November 3, 2026 — A quiet day lets us share some behind the senes.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b6",
+   "summary": "Latent Space 的 AINews 日常更新：11 月 3 日「新闻很安静」，于是 swyx 他们改放幕后闲聊——Kill My SaaS、Jev 相关话题、2026 年的 AI 走向，还有 AIEi 上海。属于圈内人的饭后扯淡，适合想听点行业内幕和风向八卦的时候翻。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化从「会调 API」升级成「能上生产」：本周 m31（杭州大厂 Agent 算法）、m64（远程 Agent 研发 15-25K）、m61（清阳云驰早期团队）几乎同一套要求——任务规划、工具调用、Multi-Agent 调度、记忆分层、异常重试、长期一致性。m61 原话「不是做 Demo，是上线产品」，说明市场已经不缺 demo 型选手，缺的是能把 Agent 跑稳的人。",
+   "「会用 AI 写代码」从加分项变成岗位定义本身：m10 让 Salesforce 开发者用 copilot/agent 加速 Flows/LWC/Apex 交付；m59 远程 AIGC 后端 40-50K 硬性要求「90-100% AI coding 经验」；m52 要求「深度使用 AI 工具做用例生成、代码审查」。趋势很明确——招聘方在筛「AI Native 工作方式」，不只看你会什么语言。",
+   "Eval / 评测成为独立工种，而且岗位在设计而不是执行：m24 上海大模型评测工程师的核心 KPI 是「设计能真正难住顶级大模型的编程任务」+ 搭建防作弊的自动化评分；m52 常州 AI 质量评估工程师明确「你是 owner 不是执行者」，要建 golden set、LLM-as-judge、回归资产。过去这是算法团队的杂活，现在单独设岗。",
+   "FDE（前向部署工程师）成建制出现：m8 Databricks 的 FDE 团队 CEO 直接 sponsor，口号是「卖结果不卖平台」；m28 北京 AI 创业公司招「频繁去客户现场」的交付工程师；m93 Oscilar、m99 CoreWeave 也在招同类。能到现场把 AI 落地的人，比纯算法岗更抢手。",
+   "底层栈需求真实存在但小众：m36 东京 Voice AI 招 Senior AI Inference Infrastructure（42-85 万/年，英文即可，不用日语）；m45 国产 mesh 架构推理芯片招 LLVM/MLIR/AI 编译器（自嘲「年薪几百万的大牛请不起」，说明是中等薪资的务实岗）；m63 有人直接找 GPU 算力优化技术合伙人。推理侧和编译侧的坑在变多。",
+   "传统后端语言仍是底座，AI 是叠加层：Go 出现在 m26/m33/m60/m64，Rust 集中在量化交易与 AI Gateway（m21、m27 Kong 的 RustScript 实验），Python/TS 是 Agent 默认栈。没有看到「不写代码只调 prompt」的岗位，纯 prompt 工程师基本没市场。"
+  ],
+  "gigs": [
+   "远程/兼职市场的活越来越「小而具体」：m55 用 n8n + 开源项目二次开发做外贸 B2B 获客 Agent MVP，m60 找长期兼职维护 New API 网关，m46 远程 LLM 应用研发做 ComfyUI 生图生视频工作流，m54 美国初创找兼职全栈做虚拟人平台。共同点是甲方通常不懂技术、预算有限、要你从选型到兜底全包——这类活对「能独立交付完整模块」的人友好，对只会单一环节的人不友好。",
+   "中文远程全职薪资分化明显：电鸭上出海金融科技测试开发/SRE 25-50K、AIGC 后端 40-50K，但后者明写「每周 60 小时、985/211、大厂+初创经验」；另一端英文办公的兼职只有 8-12K/月（m57、m62）。高薪对应高强度+高门槛，低成本远程岗基本是「用英文办公的廉价劳动力」。",
+   "V2EX 远程池子里混了大量非 AI 需求，需要甄别：m37 Google SEO 站群/寄生虫、m49 马来西亚 SEO、m21 交易所 CTO/Rust 量化、m50 SEO 产品经理，这些挂着「AI」标签但核心是流量与加密交易。真正做 AI 产品交付的比例不高，对想积累 AI 履历的人要小心选。",
+   "海外侧（HN Who is hiring）主流是早期公司找 founding engineer：m75 Matcha.fm、m85 Superset（YC P26，175-225K + 1-1.5% 股权）、m76 General Intelligence Holdings 招 Founding CTO、m88 Flowstate。要求普遍是「全栈 + LLM/RAG + 能自己从 0 搭」，回报以股权为主，本质是拿薪水换期权和速度。※ 说明：本次没抓到 Upwork/Fiverr 等纯外包平台的直接信号，以上判断来自电鸭、V2EX、HN 三类帖子的样本，样本有限，趋势方向可信但比例不宜过度外推。"
+  ],
+  "highlights": [
+   {
+    "title": "Databricks: Deployment Strategist",
+    "desc": "Headquarters: Remote - India About the Team The FDE (Forward Deployed Engineering) team is a new, strategic initiative sponsored from the CEO and Founders down. Our mission is to win C-suite-sponsored, high-value AI opportunities by selling and delivering outcomes , not just a platform. You will be ",
+    "url": "https://weworkremotely.com/remote-jobs/databricks-deployment-strategist",
+    "source": "WeWorkRemotely",
+    "id": "m8",
+    "summary": "Databricks 组建 CEO 直接 sponsor 的 FDE 团队，明确「卖结果不卖平台」——大厂 AI 商业化正从卖 license 转向卖落地成果，交付型工程师的组织地位在上升。"
+   },
+   {
+    "title": "上海大模型评测工程师岗位！",
+    "desc": "软件工程师（职级 P6/P7 ） 「岗位职责」 核心目标：设计能真正“难住”并检验顶级大模型的编程任务，同时搭建极其稳健的自动化评测体系。 具体包含： • 前沿任务设计：深挖当前大模型在真实软件工程中的能力边界与短板，设计具备高挑战性的编程任务（涵盖场景描述、真实代码库与运行环境）。 • 自动化评分系统：开发高覆盖率的测试代码（单元、集成、端到端测试），结合大模型 Rubric ，实现低人工干预的自动化、精准评分。 • 质量验证与调优：不断“攻击”和优化评分器，确保评判结果公正、稳定、防作弊（可复现且无漏判/误判），保障评测基准的绝对公信力。 • 模型行为诊断：深入分析模型的运行日志与失败轨迹",
+    "url": "https://www.v2ex.com/t/1253233#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m24",
+    "summary": "上海招大模型评测工程师，核心工作是「设计能难住顶级模型的编程任务」+ 搭防作弊自动评分，说明评测已从内部杂活变成决定模型公信力的独立关键岗。"
+   },
+   {
+    "title": "【全职远程/Fully Remote】AI后端开发工程师 40-50k / AIGC",
+    "desc": "每周工作时间60h（介意勿扰，别骂！谢谢） 期望985/211/qs前300 有大厂&初创经验 90-100% AI coding经验者 岗位介绍： 我们正在寻找一名 全栈开发工程师（偏后端），参与面向海外市场的 AIGC 应用开发。团队主要服务海外创作者和内容生产场景，围绕生成式 AI、多模态模型和 AI Agent 等能力，持续开发和迭代产品。 我们希望候选人已经形成 AI Native 的工",
+    "url": "https://eleduck.com/posts/3EfRWG",
+    "source": "电鸭社区",
+    "id": "m59",
+    "summary": "远程 AIGC 后端 40-50K，硬性要求「90-100% AI coding 经验」并接受每周 60 小时——AI Native 工作方式被直接写进招聘门槛，同时也暴露了这类岗位的高强度底色。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m103",
+    "summary": "Mechanize 给前沿 AI 实验室造「真实软件工程」训练环境，Junior SWE 开到 300K+股权——为模型提供高质量任务环境本身正在变成一门生意。"
+   },
+   {
+    "title": "Superset (YC P26) | Founding Engineer, Founding Design Engineer | San Francisco ",
+    "desc": "Superset (YC P26) | Founding Engineer, Founding Design Engineer | San Francisco | ONSITE | Full-time | $175K-$225K + 1.0-1.5% equity | https://superset.sh/careers We're building a self-improving IDE for running coding agents in parallel. Tens of thousands of engineers use it as their main IDE, at companies like Netflix, DoorDash and Wix. It's source-available: https://github.com/superset-sh/supers",
+    "url": "https://news.ycombinator.com/item?id=50000038",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m85",
+    "summary": "YC P26 的 Superset 做「并行跑 coding agent 的自改进 IDE」，175-225K + 1-1.5% 股权，Netflix/DoorDash 已在使用——coding agent 的基础设施层还在早期圈地。"
+   },
+   {
+    "title": "招聘 llvm / mlir / ai 编译器 相关岗位(不限年龄)",
+    "desc": "我这边是一个成立几年的小芯片公司， 做 mesh 架构的 ai 推理芯片为主， 当前芯片的架构类似 ascend 老型号的 910A 。 主要招人做类似 llvm 和 类似 ascend c 的编程框架 薪水中等，年薪几百万的大牛请不起。 需求： 并不需要你精通 llvm 的方方面面， 我们只是小改 llvm 。 增加一些 builtin 函数和自定义 pass 。 主要工作内容有几个方面： 1. 给自己设计的芯片开发 llvm  builtin 函数 和自定义 pass 。 2. 开发类似 ascend c 的 编程框架 3. 在编成框架基础之上，开发 rmsnorm / gemm 等基本算",
+    "url": "https://www.v2ex.com/t/1250894#reply12",
+    "source": "V2EX 酷工作",
+    "id": "m45",
+    "summary": "国产 mesh 架构推理芯片小公司招 LLVM/MLIR 编译器工程师，坦白「请不起大牛」——国产 AI 芯片正在补软件栈短板，这是被低估的中等薪资务实岗位方向。"
+   }
+  ],
+  "week": "2026-W45"
+ },
+ "llm_used": true,
+ "degraded": []
+}
