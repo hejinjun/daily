@@ -1,0 +1,360 @@
+{
+ "date": "2026-11-07",
+ "generated_at": "2026-11-07 09:59",
+ "trends": [
+  "钱还在疯狂涌入但花钱开始刹车：OpenAI 传出 110 亿美元新融资、Anthropic IPO 估值被压到 1.1 万亿，可 Ramp 的刷卡数据却显示企业 AI 支出停滞——用量在涨、单价在掉，价格战和成本管控同时发生。对创业者来说，'帮别人把 token 账单砍一半'比'再做一个更强的模型'更容易赚钱。",
+  "基础设施从技术问题变成政治问题：中期选举里 41 项数据中心相关公投，除一项外全部投票加码限制；Google 接手 Crusoe 那个搞不定的怀俄明项目也是同一枚硬币的另一面。算力扩张的地方阻力、电网排队，会是未来两年 AI 公司最容易被低估的风险项。",
+  "分层/小型化路线的性价比越来越能打：小模型遇到难题主动去问 Opus，能拿到 Opus 级别准确率但成本只要四分之一；Underdog 用 32MB 的模型同时生成语音和音乐。'便宜够用'正在吃掉很多原本只能靠大模型硬扛的场景，端侧和路由/编排层都是空档。",
+  "Agent 一落地就长出一个安全合规市场：Palo Alto 传 5 亿美元收购 AI agent 安全公司 Clutch（上一轮估值才 8500 万），ChatGPT 被曝在 connector 之间偷偷传数据，几百台装了 Artex 渗透测试工具的服务器直接裸奔在公网上，OpenAI 自己也找 Hacktron 做红队。Agent 权限、数据边界、红队评测是明确的创业缝隙。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 17
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 4
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 3
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 7
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "desc": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "OpenAI 又被曝出在一轮尚未关闭的融资里追加了 110 亿美元，估值报到 1.25 万亿美元。这个数字已经和很多国家的 GDP 一个量级，说明即便外界天天讨论'AI 泡沫'，一级市场的钱还是抢着往里塞。对开发者更实际的信号是：这些钱最终会变成算力和 API 补贴，短期推理价格还会继续被压低。"
+  },
+  {
+   "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 229,
+   "id": "n4",
+   "summary": "Anthropic 的 IPO 承销环节传出买方给的估值最低只有 1.1 万亿美元，和 OpenAI 的 1.25 万亿基本同档。两家还没上市的公司就被市场按万亿定价，意味着 IPO 之后的增长预期已经被提前透支，任何一次增速放缓都会被放大。同时也解释了为什么 Anthropic 一边融资一边还在死磕推理成本经济学。"
+  },
+  {
+   "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+   "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+   "desc": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "Ramp 的支付数据显示 AI 使用量还在涨，但企业实际支出停滞了，主要原因是模型降价和头部客户开始认真做成本控制。这条数据直接跟'万亿估值'的叙事对冲：如果 AI 是超高速增长的生意，账单不该在这个时候走平。对做 AI 应用的人来说，意味着客户越来越会算 ROI，靠'按 token 加价'的商业模式空间在收窄。"
+  },
+  {
+   "title": "How a Blue Wave midterm might reshape the AI industry",
+   "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+   "desc": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers we",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "美国中期选举民主党大胜，同时 41 项与数据中心相关的公投里，除一项之外全部由多数票通过限制数据中心开发。这把'AI 扩张'从公司内部的资本开支问题，变成了必须过地方选民这一关的公共议题。接下来数据中心选址、并网、水耗都会被反复卡，算力成本的分化会更明显。"
+  },
+  {
+   "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+   "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 334,
+   "id": "n1",
+   "summary": "一个叫 Jev 的小模型在遇到难题时会主动去问 Opus，最终拿到了接近 Opus 的准确率，成本只有约四分之一。这本质上是把'什么时候该升级到大模型'做成了路由/编排策略，而不是无脑全量上大模型。对于任何被推理账单压着的团队，这是最值得抄的一条降本思路：难点识别 + 按需调用强模型。"
+  },
+  {
+   "title": "Underdog shows off a 32MB speech model in new demo",
+   "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+   "desc": "Despite its small size, Underdog's new model can generate both speech and music.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "Underdog 演示了一个只有 32MB 的语音模型，小到能塞进很边缘的设备，却同时能生成语音和音乐。这类'极小模型+专用任务'的进展意味着语音交互、配音、音乐生成不必都走云端大模型。端侧音频产品的想象空间被重新打开，成本结构也完全不同。"
+  },
+  {
+   "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+   "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 71,
+   "id": "n14",
+   "summary": "有人发现 ChatGPT 会在用户不知情的情况下，在第三方 connector 之间传递数据，而相关漏洞赏金项目还要求研究者交出身份证件才能领钱。这暴露出 agent 时代一个核心问题：模型把多个外部服务串起来之后，数据边界到底在哪里、谁来负责。做企业 agent 集成的团队，数据流向审计会变成刚需。"
+  },
+  {
+   "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+   "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+   "desc": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n48",
+   "summary": "Palo Alto Networks 正在谈以 5 亿美元收购 AI agent 安全公司 Clutch，而 Clutch 上一轮估值才 8500 万美元。半年不到估值翻近 6 倍，说明大厂已经把'agent 权限管控、行为监控'当成必须补齐的安全板块。这个赛道的窗口期大概就这一两年，做 agent 可观测性和权限治理的团队值得盯紧。"
+  },
+  {
+   "title": "Replit rebuilt its sandbox engine with microVMs",
+   "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 66,
+   "id": "n16",
+   "summary": "Replit 把沙箱引擎用 microVM 重写了一遍，用来给 AI 生成的代码提供隔离执行环境。这是个很典型的信号：agent 时代跑代码的需求暴涨，传统容器隔离不够用，微虚拟机（Firecracker 一类）正在成为 AI 基础设施的标配组件。做 agent 执行环境、代码解释器的团队可以沿着这条路做差异化。"
+  },
+  {
+   "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+   "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+   "desc": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "安全研究者发现网上有几百台服务器公开暴露着 Artex 这款 AI 渗透测试工具，任何人都能直接拿去用。这跟 n48 是同一枚硬币的两面：AI 让攻击工具的门槛大幅降低，但大家连基本的访问控制都没做好。对防守方来说，AI 攻击工具的探测和资产管理会是一个新的、很现实的需求。"
+  },
+  {
+   "title": "AI is dramatically accelerating AI research",
+   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 204,
+   "id": "n5",
+   "summary": "Hacker News 上在讨论'AI 正在显著加速 AI 研究本身'，从文献综述、实验设计到代码实现、审稿都在被自动化。如果这个闭环真的成立，进展速度会从线性变成复利，同时也会让'研究品味和问题选择'成为人类更稀缺的能力。对个人职业方向来说，判断力比执行力更值钱。"
+  },
+  {
+   "title": "Measuring how AI agents handle everyday wet-lab science",
+   "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+   "desc": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "OpenAI 发布了 BioBasicsBench，一个 100 项任务的基准，专门测 AI agent 能不能读懂原始实验数据、处理湿实验室里的日常杂活。这说明 agent 评测正在从'考试题'转向'真实工作流'，生物医药是最先被盯上的落地场景之一。做垂直领域 agent 的团队应该注意：评测标准正在被大厂定义，跟着这个方向做数据和对齐更容易被采用。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph3",
+   "title": "Tobira Site Agent",
+   "url": "https://www.producthunt.com/products/tobira-ai",
+   "desc": "Turn your website into an AI agent that sells to AI agents Discussion | Link",
+   "summary": "把你的官网变成一个会主动卖货的 AI agent，而且是专门卖给别的 AI agent 看的——听起来有点科幻，但「agent 之间的商务」正在变成真需求。做电商/SEO 的人值得琢磨：未来你的客户可能不是人，而是替人比价的 agent。"
+  },
+  {
+   "id": "ph14",
+   "title": "Pressure",
+   "url": "https://www.producthunt.com/products/pressure",
+   "desc": "Need a second opinion? Have two agents debate your topic Discussion | Link",
+   "summary": "拿不准主意时，让两个 AI agent 就你的议题正反辩论，给你第二意见。本质是把「多 agent 互怼」做成决策工具，比单个模型自说自话靠谱，适合做技术选型、方案评审时当沙盘。"
+  },
+  {
+   "id": "ph18",
+   "title": "LiveShortly",
+   "url": "https://www.producthunt.com/products/liveshortly",
+   "desc": "Watch, steer, share and approve your coding agent, live Discussion | Link",
+   "summary": "coding agent 跑起来之后你可以实时围观、随时插话改方向、一键批准，把 agent 干活变成一场直播。解决的是「agent 自己闷头改一堆代码，人不知道它在干嘛」的信任问题，重度用 Claude Code / Codex 的开发者会感兴趣。"
+  },
+  {
+   "id": "ph11",
+   "title": "SafeGrd",
+   "url": "https://www.producthunt.com/products/safegrd",
+   "desc": "Safae database backups that AI can restore but not delete Discussion | Link",
+   "summary": "数据库备份服务，AI 能帮你恢复但不能删——用权限设计给自动化上了保险。想法很对路：以后 agent 拿到生产环境权限是迟早的事，怎么让它「能干活但干不了坏事」会是个正经品类。"
+  },
+  {
+   "id": "ph24",
+   "title": "axel.md",
+   "url": "https://www.producthunt.com/products/axel-3",
+   "desc": "Agent orchestration in the terminal, designed for Rex Discussion | Link",
+   "summary": "在终端里编排多个 agent 的框架，明显是照着 Rex 那类工作流设计的。终端派 + 多 agent 协作，方向对，但这类工具目前同质化严重，要看它编排层有没有真东西。"
+  },
+  {
+   "id": "ph8",
+   "title": "OrgSync",
+   "url": "https://www.producthunt.com/products/orgsync-2",
+   "desc": "Company brain for Claude, ChatGPT & Codex teams Discussion | Link",
+   "summary": "给团队里用 Claude、ChatGPT、Codex 的人做共享「公司大脑」，让不同 agent 共享同一份上下文。痛点是真实的：现在每个人各自喂自己的 AI，公司知识碎成一片，谁能把这块统一起来谁就有价值。"
+  },
+  {
+   "id": "ph21",
+   "title": "TraceX",
+   "url": "https://www.producthunt.com/products/tracex",
+   "desc": "The AI engineer for your production issues Discussion | Link",
+   "summary": "面向生产事故的「AI 工程师」，帮你定位线上问题。AI SRE 这条线一直有人做但没跑出标杆，值得看一眼它到底是接告警、读日志，还是真能做根因分析。"
+  },
+  {
+   "id": "ph12",
+   "title": "Meshia",
+   "url": "https://www.producthunt.com/products/meshia",
+   "desc": "Your autonomous research lab Discussion | Link",
+   "summary": "号称你的「自主研究实验室」，让 agent 自己跑研究流程。概念很吸引人，但这类产品最怕 demo 好看、实用拉垮，建议先观察它具体怎么定义「研究」和怎么验证结果。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+   "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+   "desc": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "AINews 报道一个叫 Inkling 2 Small 的新模型：17A-594B 的 MoE 架构（总参数 594B、激活 17B），用 12T token 在 68 小时内训练完，据说打败了 Muse Spark——值得看的是训练时长和成本这条线，如果 68 小时能出货这种规模的模型，说明大规模预训练的工程效率又上了一个台阶，顺带还提了 METR 对 Anthropic 内部 AI 做研究的观察。"
+  },
+  {
+   "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+   "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+   "desc": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b6",
+   "summary": "Latent Space 访谈 Helmholtz Munich 的 Fabian Theis，讲他做系统生物学的路线图：从把生物系统「画出来」（高分辨率、多模态的单细胞图谱），走到「预测」，最终目标是「控制」生物系统——值得看的是 biological foundation model / virtual cell 这条赛道正在从描述性走向可干预，对想做 AI+生物创业的人来说是方向性信号。"
+  },
+  {
+   "title": "Quoting Nilay Patel",
+   "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+   "desc": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren'",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 摘了 Nilay Patel 一段很冲的评论：现在 AI 产品根本不够好到能让人接受它的代价，你没法说服别人为了 AI 概览和史上最搞笑的 deepfake 垃圾去忍受自家后院数据中心的嗡嗡声，这买卖对谁都不划算，agents 也还没成——值得看的是这种「投入产出不成立」的论调开始从评论界主流冒出来，是行业情绪从狂热转向算账的一个样本。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化从「会调 API」升级成「能上生产」：本周 m31（杭州大厂 Agent 算法）、m64（远程 Agent 研发 15-25K）、m61（清阳云驰早期团队）几乎同一套要求——任务规划、工具调用、Multi-Agent 调度、记忆分层、异常重试、长期一致性。m61 原话「不是做 Demo，是上线产品」，说明市场已经不缺 demo 型选手，缺的是能把 Agent 跑稳的人。",
+   "「会用 AI 写代码」从加分项变成岗位定义本身：m10 让 Salesforce 开发者用 copilot/agent 加速 Flows/LWC/Apex 交付；m59 远程 AIGC 后端 40-50K 硬性要求「90-100% AI coding 经验」；m52 要求「深度使用 AI 工具做用例生成、代码审查」。趋势很明确——招聘方在筛「AI Native 工作方式」，不只看你会什么语言。",
+   "Eval / 评测成为独立工种，而且岗位在设计而不是执行：m24 上海大模型评测工程师的核心 KPI 是「设计能真正难住顶级大模型的编程任务」+ 搭建防作弊的自动化评分；m52 常州 AI 质量评估工程师明确「你是 owner 不是执行者」，要建 golden set、LLM-as-judge、回归资产。过去这是算法团队的杂活，现在单独设岗。",
+   "FDE（前向部署工程师）成建制出现：m8 Databricks 的 FDE 团队 CEO 直接 sponsor，口号是「卖结果不卖平台」；m28 北京 AI 创业公司招「频繁去客户现场」的交付工程师；m93 Oscilar、m99 CoreWeave 也在招同类。能到现场把 AI 落地的人，比纯算法岗更抢手。",
+   "底层栈需求真实存在但小众：m36 东京 Voice AI 招 Senior AI Inference Infrastructure（42-85 万/年，英文即可，不用日语）；m45 国产 mesh 架构推理芯片招 LLVM/MLIR/AI 编译器（自嘲「年薪几百万的大牛请不起」，说明是中等薪资的务实岗）；m63 有人直接找 GPU 算力优化技术合伙人。推理侧和编译侧的坑在变多。",
+   "传统后端语言仍是底座，AI 是叠加层：Go 出现在 m26/m33/m60/m64，Rust 集中在量化交易与 AI Gateway（m21、m27 Kong 的 RustScript 实验），Python/TS 是 Agent 默认栈。没有看到「不写代码只调 prompt」的岗位，纯 prompt 工程师基本没市场。"
+  ],
+  "gigs": [
+   "远程/兼职市场的活越来越「小而具体」：m55 用 n8n + 开源项目二次开发做外贸 B2B 获客 Agent MVP，m60 找长期兼职维护 New API 网关，m46 远程 LLM 应用研发做 ComfyUI 生图生视频工作流，m54 美国初创找兼职全栈做虚拟人平台。共同点是甲方通常不懂技术、预算有限、要你从选型到兜底全包——这类活对「能独立交付完整模块」的人友好，对只会单一环节的人不友好。",
+   "中文远程全职薪资分化明显：电鸭上出海金融科技测试开发/SRE 25-50K、AIGC 后端 40-50K，但后者明写「每周 60 小时、985/211、大厂+初创经验」；另一端英文办公的兼职只有 8-12K/月（m57、m62）。高薪对应高强度+高门槛，低成本远程岗基本是「用英文办公的廉价劳动力」。",
+   "V2EX 远程池子里混了大量非 AI 需求，需要甄别：m37 Google SEO 站群/寄生虫、m49 马来西亚 SEO、m21 交易所 CTO/Rust 量化、m50 SEO 产品经理，这些挂着「AI」标签但核心是流量与加密交易。真正做 AI 产品交付的比例不高，对想积累 AI 履历的人要小心选。",
+   "海外侧（HN Who is hiring）主流是早期公司找 founding engineer：m75 Matcha.fm、m85 Superset（YC P26，175-225K + 1-1.5% 股权）、m76 General Intelligence Holdings 招 Founding CTO、m88 Flowstate。要求普遍是「全栈 + LLM/RAG + 能自己从 0 搭」，回报以股权为主，本质是拿薪水换期权和速度。※ 说明：本次没抓到 Upwork/Fiverr 等纯外包平台的直接信号，以上判断来自电鸭、V2EX、HN 三类帖子的样本，样本有限，趋势方向可信但比例不宜过度外推。"
+  ],
+  "highlights": [
+   {
+    "title": "Databricks: Deployment Strategist",
+    "desc": "Headquarters: Remote - India About the Team The FDE (Forward Deployed Engineering) team is a new, strategic initiative sponsored from the CEO and Founders down. Our mission is to win C-suite-sponsored, high-value AI opportunities by selling and delivering outcomes , not just a platform. You will be ",
+    "url": "https://weworkremotely.com/remote-jobs/databricks-deployment-strategist",
+    "source": "WeWorkRemotely",
+    "id": "m8",
+    "summary": "Databricks 组建 CEO 直接 sponsor 的 FDE 团队，明确「卖结果不卖平台」——大厂 AI 商业化正从卖 license 转向卖落地成果，交付型工程师的组织地位在上升。"
+   },
+   {
+    "title": "上海大模型评测工程师岗位！",
+    "desc": "软件工程师（职级 P6/P7 ） 「岗位职责」 核心目标：设计能真正“难住”并检验顶级大模型的编程任务，同时搭建极其稳健的自动化评测体系。 具体包含： • 前沿任务设计：深挖当前大模型在真实软件工程中的能力边界与短板，设计具备高挑战性的编程任务（涵盖场景描述、真实代码库与运行环境）。 • 自动化评分系统：开发高覆盖率的测试代码（单元、集成、端到端测试），结合大模型 Rubric ，实现低人工干预的自动化、精准评分。 • 质量验证与调优：不断“攻击”和优化评分器，确保评判结果公正、稳定、防作弊（可复现且无漏判/误判），保障评测基准的绝对公信力。 • 模型行为诊断：深入分析模型的运行日志与失败轨迹",
+    "url": "https://www.v2ex.com/t/1253233#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m24",
+    "summary": "上海招大模型评测工程师，核心工作是「设计能难住顶级模型的编程任务」+ 搭防作弊自动评分，说明评测已从内部杂活变成决定模型公信力的独立关键岗。"
+   },
+   {
+    "title": "【全职远程/Fully Remote】AI后端开发工程师 40-50k / AIGC",
+    "desc": "每周工作时间60h（介意勿扰，别骂！谢谢） 期望985/211/qs前300 有大厂&初创经验 90-100% AI coding经验者 岗位介绍： 我们正在寻找一名 全栈开发工程师（偏后端），参与面向海外市场的 AIGC 应用开发。团队主要服务海外创作者和内容生产场景，围绕生成式 AI、多模态模型和 AI Agent 等能力，持续开发和迭代产品。 我们希望候选人已经形成 AI Native 的工",
+    "url": "https://eleduck.com/posts/3EfRWG",
+    "source": "电鸭社区",
+    "id": "m59",
+    "summary": "远程 AIGC 后端 40-50K，硬性要求「90-100% AI coding 经验」并接受每周 60 小时——AI Native 工作方式被直接写进招聘门槛，同时也暴露了这类岗位的高强度底色。"
+   },
+   {
+    "title": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SW",
+    "desc": "Mechanize | San Francisco, CA (Onsite) | Junior SWE ($300k + equity + bonus), SWE ($350k + equity + bonus), Research Engineer, Alignment ($300k-$400k + equity + bonus) Applying takes <2 min: https://www.mechanize.work/apply/ We build environments that frontier AI labs use to train their models to do real-world software engineering. We have more demand than we can keep up with, so we're hiring fast",
+    "url": "https://news.ycombinator.com/item?id=49968228",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m103",
+    "summary": "Mechanize 给前沿 AI 实验室造「真实软件工程」训练环境，Junior SWE 开到 300K+股权——为模型提供高质量任务环境本身正在变成一门生意。"
+   },
+   {
+    "title": "Superset (YC P26) | Founding Engineer, Founding Design Engineer | San Francisco ",
+    "desc": "Superset (YC P26) | Founding Engineer, Founding Design Engineer | San Francisco | ONSITE | Full-time | $175K-$225K + 1.0-1.5% equity | https://superset.sh/careers We're building a self-improving IDE for running coding agents in parallel. Tens of thousands of engineers use it as their main IDE, at companies like Netflix, DoorDash and Wix. It's source-available: https://github.com/superset-sh/supers",
+    "url": "https://news.ycombinator.com/item?id=50000038",
+    "source": "HN Who is hiring? (October 2026)",
+    "id": "m85",
+    "summary": "YC P26 的 Superset 做「并行跑 coding agent 的自改进 IDE」，175-225K + 1-1.5% 股权，Netflix/DoorDash 已在使用——coding agent 的基础设施层还在早期圈地。"
+   },
+   {
+    "title": "招聘 llvm / mlir / ai 编译器 相关岗位(不限年龄)",
+    "desc": "我这边是一个成立几年的小芯片公司， 做 mesh 架构的 ai 推理芯片为主， 当前芯片的架构类似 ascend 老型号的 910A 。 主要招人做类似 llvm 和 类似 ascend c 的编程框架 薪水中等，年薪几百万的大牛请不起。 需求： 并不需要你精通 llvm 的方方面面， 我们只是小改 llvm 。 增加一些 builtin 函数和自定义 pass 。 主要工作内容有几个方面： 1. 给自己设计的芯片开发 llvm  builtin 函数 和自定义 pass 。 2. 开发类似 ascend c 的 编程框架 3. 在编成框架基础之上，开发 rmsnorm / gemm 等基本算",
+    "url": "https://www.v2ex.com/t/1250894#reply12",
+    "source": "V2EX 酷工作",
+    "id": "m45",
+    "summary": "国产 mesh 架构推理芯片小公司招 LLVM/MLIR 编译器工程师，坦白「请不起大牛」——国产 AI 芯片正在补软件栈短板，这是被低估的中等薪资务实岗位方向。"
+   }
+  ],
+  "week": "2026-W45"
+ },
+ "llm_used": true,
+ "degraded": []
+}
