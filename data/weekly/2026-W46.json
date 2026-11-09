@@ -1,0 +1,66 @@
+{
+ "skills": [
+  "Agent 工程化已经从\"加分项\"变成 JD 主线。SHEIN 的 AI Agent 岗直接写明任务拆解、上下文管理、Skill/MCP 工具接入、LLM-as-Judge 评测；杭州某头部互联网把 Agentic 后训练（SFT/RM/RLHF/DPO/GRPO）和分层记忆体系写进职责；连 Kimi 都开了 Harness 方向的实习。会写 prompt 已经不够，要能把 Agent 跑通、能定位它为什么失败。",
+  "推理侧 Infra 的需求明显压过训练侧。Toptal 在找懂 vLLM/SGLang/TensorRT-LLM 的推理工程师，上海 GPU 算力平台岗的核心 KPI 是\"提升单位 GPU 的 token 产出\"，联想超节点、阿里 Token Foundry 也都在招训推协同。信号很清楚：模型不再是稀缺品，把每个 token 的成本打下来才是。",
+  "\"给模型出题\"成了独立工种。Toptal 的 Terminal-Bench Task Designer、上海 P6/P7 的大模型评测工程师（要求设计能难住顶级模型的编程任务+自动化评分器+防作弊）、Cocient 按小时雇专家写 eval，本质都是把资深工程经验转成模型的能力边界测试。这类岗位看重真实代码库的踩坑经验，而不是算法论文。",
+  "语言栈上呈现\"Python/TS 打底 + Go 做 Agent 后端 + Rust 做网关/安全\"的三层结构。远程 Agent 后端岗大量要 Go（Salesforge、Benzinga、Kong、以及多个国内远程岗），Rust 出现在 Kong AI Gateway、量化撮合和 Radar 这类低延迟/安全场景。",
+  "FDE（Forward Deployed Engineer）这一类\"能去客户现场把 AI 落下来\"的角色在扩散：Databricks 的 Deployment Strategist、Odette、Oscilar 都在招，北京也有创业公司在招常驻客户现场的 AI 交付工程师。同时安全 × AI 开始成对出现——Apollo Research 招 coding agent 安全产品的首位 AE，新加坡某大厂用 LLM+Agent 搭反欺诈风控工作流。"
+ ],
+ "gigs": [
+  "按件计酬的\"模型训练供应链\"正在成形。Askable 明码标价 US$1,000/task，让你把熟悉仓库里的一次真实改动做成 AI coding 任务，想做多少做多少；Toptal 的 Terminal-Bench 任务设计同理。抢手的是有多年真实代码库经验的人，不是刷题选手。适合当副业现金流，但定价权在平台手里。",
+  "中小老板要的是\"能跑通的 Agent MVP\"，不是自研 SaaS。典型样本：有人招兼职用 n8n + GitHub 商业友好开源项目二次开发，做外贸 B2B 获客 Agent（产品分析→ICP→企业搜索→评分→找邮箱）；还有成品号销售平台的二次开发运维。活儿碎、预算有限、但对能独立交付的人溢价高。",
+  "远程兼职呈两极：一极是碎片化时薪制（加拿大医美 AI 公司每周约 3 小时、月付 10-16K；AI 视频创作兼职），另一极是要 founding engineer 给股权/分成（Matcha.fm、Thankly、Kaida）。中间地带——稳定远程全职——主要来自出海社交/视频类公司，AI 工作流工程师 25-38K，栈是 React+TS+Go。",
+  "地理套利窗口还开着：东京 Voice AI 公司全英文、42-85 万 RMB 年薪包签证和 relocation；美国 remote 岗（Piramidal 200-300K USD、BuildQ 130-150K）基本只招本地。国内远程 AI 应用/产品岗集中在 20-40K 区间。注意：以上关于\"远程市场结构\"的判断来自本周抓取的百来条样本，样本有限，趋势方向可信、具体比例不可当统计结论。"
+ ],
+ "highlights": [
+  {
+   "title": "阿里巴巴 Token Foundry Infra 团队社招",
+   "desc": "支撑 Qwen 系列大模型，挑战万卡集群极限性能 一、团队介绍 阿里巴巴 Token Foundry Infra 团队是支撑 Qwen 系列大模型的核心技术底座，致力于打造业界一流的 AI 训练与工程化平台，构建从底层算力管理到上层训练框架的全栈技术体系，支撑模型高效迭代。 二、重点技术方向 1. 训练加速 面向 Dense/MoE 架构，覆盖预训练到强化学习（ RL ）全阶段，通过并行策略、计算通信重叠与显存优化，持续提升有效算力。 2. 稳定底座 覆盖任务提交、调度运行、资源弹性与故障恢复，建设可工程化、可自动化、可规模化的稳定训练底座，支撑模型持续进化。 3. Agent Infra 建",
+   "url": "https://www.v2ex.com/t/1253934#reply1",
+   "source": "V2EX 酷工作",
+   "id": "m45",
+   "summary": "阿里 Token Foundry Infra（Qwen 底座）社招，把\"Agent Infra\"和训练加速、稳定底座并列成四大方向之一——大厂已经把 Agent 当基础设施而非应用层来做。"
+  },
+  {
+   "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM) @ Toptal",
+   "desc": "Artificial Intelligence, Docker, Git, Graphics Processing Unit, LLM",
+   "url": "https://remoteOK.com/remote-jobs/remote-ml-inference-engineer-terminal-bench-task-designer-vllm-sglang-tensorrt-llm-toptal-1137689",
+   "source": "RemoteOK",
+   "id": "m3",
+   "summary": "Toptal 招 ML Inference Engineer 去做 Terminal-Bench 任务设计，要求 vLLM/SGLang/TensorRT-LLM——推理优化能力正在被单独定价，用途是造评测而不是造产品。"
+  },
+  {
+   "title": "Askable: Software Engineer, AI Coding Tasks (Contract)",
+   "desc": "Headquarters: Australia URL: https://www.askablelabs.com/ We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's ",
+   "url": "https://weworkremotely.com/remote-jobs/askable-software-engineer-ai-coding-tasks-contract",
+   "source": "WeWorkRemotely",
+   "id": "m19",
+   "summary": "Askable 明码 US$1,000/task 收购 AI coding 任务，用你熟悉的代码库造题——模型能力供给已经形成按件结算的分包市场。"
+  },
+  {
+   "title": "[南京/深圳/上海/广州] SHEIN 11 月新出 8 个技术岗，月薪 25-90K， Agent/算法/搜广推/Go/大数据",
+   "desc": "SHEIN （希音）技术岗内推。最近两周新开的 8 个岗位。 [ AI / Agent ] AI Agent 开发工程师｜南京｜ S5 ｜本科｜ 30-45K/月｜ MJ016660\n做公司内部的 AI 办公工作台，员工用自然语言把活交给 Agent 去干。你负责 Agent 核心能力：任务拆解和执行、上下文管理、Skill/MCP 工具接入、LLM-as-a-Judge 评测、问题定位链路。\n要求：TypeScript/Node.js 或 Python 至少熟一门；真的动手做过 Agent ，用 Function Calling 、MCP 或某个 Agent 框架跑通过项目，个人项目、开源都",
+   "url": "https://www.v2ex.com/t/1255233#reply2",
+   "source": "V2EX 酷工作",
+   "id": "m28",
+   "summary": "SHEIN 南京 AI Agent 开发岗（30-45K）JD 直接要求 Function Calling、MCP、LLM-as-Judge 评测和问题定位链路——传统电商巨头的常规岗位已完成 Agent 化改写。"
+  },
+  {
+   "title": "AI Agent / n8n 兼职开发｜GitHub开源Skill二次开发",
+   "desc": "寻找一名兼职 AI Agent / n8n / Python 开发工程师，基于现有 GitHub 商业友好开源项目进行二次开发，完成外贸 B2B 获客 Agent MVP。 第一版不是从零开发完整 SaaS。 核心流程： 产品资料   → AI分析产品   → ICP客户画像   → 海外企业搜索   → 企业官网分析   → 客户筛选/评分   → 联系人查找   → 邮箱获取/验证   → A",
+   "url": "https://eleduck.com/posts/jAfWJg",
+   "source": "电鸭社区",
+   "id": "m70",
+   "summary": "兼职需求：基于开源项目二次开发 n8n 外贸 B2B 获客 Agent MVP——最典型的小额高频 Agent 外包形态，先跑通流程再谈产品。"
+  },
+  {
+   "title": "上海社招， AI Infra / Agent Infra 工程师",
+   "desc": "AI Infra：GPU 算力优化工程师 工作地点：　上海徐汇 经验要求：3–5 年 薪资 30-50k 团队与岗位简介 我们负责公司 AI Infra 算力平台的建设，为企业客户提供统一的 GPU 算力调度底座。平台同时运行 Kubernetes （ Volcano / Kueue ）和 Slurm 两套调度体系，承载大规模分布式训练、批量推理与交互式开发任务，并在推进两者的融合与统一纳管；在算力之上提供 MaaS 模型服务，以 token 计费对外输出算力。我们鼓励你在日常工作中大量使用 AI 提效工具。 岗位职责 负责大模型推理服务的性能优化，提升单位 GPU 的 token 产出，支撑",
+   "url": "https://www.v2ex.com/t/1255084#reply0",
+   "source": "V2EX 酷工作",
+   "id": "m29",
+   "summary": "上海 AI Infra 岗描述里，K8s（Volcano/Kueue）与 Slurm 双调度并存、以 token 计费对外输出算力——算力正在被彻底商品化，优化目标是单位 GPU 的 token 产出。"
+  }
+ ],
+ "week": "2026-W46"
+}
