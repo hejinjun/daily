@@ -1,0 +1,456 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10 12:10",
+ "trends": [
+  "模型这头继续周更：Anthropic 的 Fable/Mythos 5.2 在 Artificial Analysis 上刷到 65 分最高分，另一头 Meta 的 Muse Ember 把 agent 推理价格压到 0.1 美元/百万 token。能力上限和成本下限在同时被推，agent 大规模落地的经济前提正在成熟。",
+  "钱和电成了硬约束，不再是 GPU。CoreWeave 债券收益率破 16% 被当成 AI 信贷压力的警报，Anthropic 花 34 亿美元买天然气涡轮机抢电——靠债市加杠杆买卡的算力中间商风险正在显性化，自建电力和长期并网许可反而变成护城河。",
+  "信任与治理开始变成可售卖的产品特性：Gemini 把个人 Drive 文件和邮件路由给人工标注员这类事一曝光就打企业采购的脸；OpenAI 反过来主动公开 Control Room 熔断系统。以后做 agent 平台的团队，治理结构得拿出来给人看。",
+  "创业机会在“模型之上”的两层：分发层（ChatGPT Enterprise 上 AWS Marketplace，把 AI 塞进已批的云预算）和“生成之后”的层（Automattic Spacefast 专门部署 vibe-coding 应用，Disney 拉 Adobe 做 artist-led 行业模型）。写代码越来越便宜，托管、运维、行业工作流反而成了生意。",
+  "一个需求侧信号：量子位那篇“AI 毁了我的计算机学位”说明传统 CS 学历的信号价值在贬值，能拿出真东西的作品集在升值——对关注职业方向的人，这比任何 benchmark 都值得看。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 11
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 4
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 13
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh6",
+   "title": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": "48,615",
+   "stars_today": "916 stars today",
+   "summary": "Vercel 出的 Rust 写的 AI agent 浏览器自动化 CLI，让 agent 直接操作浏览器完成任务。今天 900 多星，说明「agent 干活」这条赛道大家是真急着上手，做工具链的可以研究它的接口设计。"
+  },
+  {
+   "id": "gh4",
+   "title": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "lang": "Python",
+   "stars": "20,105",
+   "stars_today": "551 stars today",
+   "summary": "Anthropic 官方的 Claude API 快速上手指南项目集，给了一堆可以直接部署的示例应用。想认真用 Claude 做产品的开发者，这是最权威的起点，省掉自己摸索 API 的时间。"
+  },
+  {
+   "id": "gh8",
+   "title": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": "69,085",
+   "stars_today": "506 stars today",
+   "summary": "国人的 LLM 多市场股票分析系统：多源行情+实时新闻+决策看板+自动推送，可以零成本定时跑。今天 500 多星，LLM 落地到垂直场景（量化分析）的典型样本，架构值得抄。"
+  },
+  {
+   "id": "gh5",
+   "title": "garrytan/gbrain",
+   "url": "https://github.com/garrytan/gbrain",
+   "desc": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+   "lang": "TypeScript",
+   "stars": "32,249",
+   "stars_today": "216 stars today",
+   "summary": "Garry Tan 开源的带个人观点的 Agent「大脑」配置（OpenClaw/Hermes）。这类「别人怎么调 agent 提示词和记忆」的实战仓库最近很吃香，能直接看到老手的 agent 工程习惯。"
+  },
+  {
+   "id": "gh9",
+   "title": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "lang": "Python",
+   "stars": "6,090",
+   "stars_today": "31 stars today",
+   "summary": "把 Home Assistant 接给 Claude、ChatGPT 等 AI 助手，用自然语言配置和自动化智能家居。属于 AI + IoT 的结合点，想做 agent 控制物理世界的可以从这里找灵感。"
+  },
+  {
+   "id": "gh7",
+   "title": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+   "lang": "Rust",
+   "stars": "103,570",
+   "stars_today": "172 stars today",
+   "summary": "用普通 WiFi 信号做实时空间感知、生命体征监测和存在检测，不用摄像头。Rust 写的边缘 AI 项目，10 万星但今日增量不大，属于技术路线有意思、隐私友好型的感知方案。"
+  },
+  {
+   "id": "gh3",
+   "title": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": "17,000",
+   "stars_today": "574 stars today",
+   "summary": "DeepMind 的通用物理仿真引擎 MuJoCo，机器人学习和强化学习的标配工具。今天 500 多星，和具身智能热度回升有关，做机器人/RL 方向的绕不开它。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+   "desc": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n54",
+   "summary": "Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2，官方定位是啃“棘手”技术难题，编程、推理、视觉都有提升，输出速度比 5.1 更快。Artificial Analysis 上 Fable 5.2 拿到 65 分，是目前最高分。对开发者意味着前沿能力的性价比又抬了一档；对 Anthropic 自己，IPO 前必须持续证明模型节奏没停。"
+  },
+  {
+   "title": "Google Gemini routes personal Drive files and emails to human annotators",
+   "url": "https://github.com/thisisme6598/gemini_files/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 470,
+   "id": "n3",
+   "summary": "有报道称 Google Gemini 会把用户的 Drive 文件和 Gmail 内容路由给人工标注员看——不是公开训练数据，是个人隐私内容。这类事每次曝光都会直接冲击企业采购决策，尤其是已经把工作资料搬进 Workspace + Gemini 的团队，做合规评审时要重点核这条。"
+  },
+  {
+   "title": "The race is on to sue Nvidia",
+   "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+   "desc": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "英伟达董事会就黄仁勋与疑似中国间谍的关系展开调查后，股价跌超 4%，证券律师已经在排队准备起诉，黄本人也临时退出 ElevenLabs、Anthropic 等活动。相比公司此前坚称一切“正常”的表态，这可能变成一个非常昂贵的法律问题，还会牵连美国对华芯片出口管制的游说空间。"
+  },
+  {
+   "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+   "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 27,
+   "id": "n25",
+   "summary": "CoreWeave 债券收益率飙到 16% 以上，被市场解读为 AI 信贷压力上升的信号。算力租赁商靠债市加杠杆买 GPU 的模式正在被重新定价——如果融资成本继续走高，最先撑不住的是一批中小算力玩家，而不是头部云厂。"
+  },
+  {
+   "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+   "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+   "desc": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "Meta 发布 Muse Ember，主打 agent 执行场景的轻量模型，输入只要 0.1 美元/百万 token，明显低于 Haiku、Luna 这类前沿小模型。信号很清楚：当 agent 开始大规模跑长任务，每百万 token 的价格比 benchmark 分数更决定谁能被用起来。"
+  },
+  {
+   "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+   "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+   "desc": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "Anthropic 花 34 亿美元买天然气涡轮机，正式加入 AI 圈抢电大战。这说明扩模型的瓶颈已不只是 GPU，还有电力和并网许可；但买涡轮机是长周期重资产，一旦需求节奏变化，也很容易变成买完后悔的包袱。"
+  },
+  {
+   "title": "TPU 8tx and TPU 8i Max",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 226,
+   "id": "n12",
+   "summary": "Google 放出 TPU 8tx 和 TPU 8i Max，继续迭代自研加速器。对做推理成本优化的团队，TPU 路线值得盯紧——它决定了非英伟达路径上大模型推理的边际价格天花板，也是绕开 GPU 供应风险的现实备选。"
+  },
+  {
+   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+   "url": "https://openai.com/index/control-room",
+   "desc": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n31",
+   "summary": "OpenAI 公开内部 Control Room：一个跨研究基础设施追踪模型负载、并在安全或安保问题出现时快速熔断的系统。这相当于官方版的“急停开关”，也是对失控质疑的正面回应。以后做 agent 平台的团队，大概率要照着抄这套治理结构给客户看。"
+  },
+  {
+   "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+   "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+   "desc": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"st",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n53",
+   "summary": "Apple 上线 49.99 美元的一次性“Intelligence Usage Pack”，Logic Pro 里已经能看到“Buy More Usage”入口。这意味着 Apple 的 AI 策略从“免费附赠功能”转向按量收费，也侧面说明端侧加云端的推理成本确实压不住，AI 功能的定价模型要开始重算。"
+  },
+  {
+   "title": "ChatGPT Enterprise now available in AWS Marketplace",
+   "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+   "desc": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "ChatGPT Enterprise 上架 AWS Marketplace，企业可以直接走现有的 AWS 采购和账单流程下单。这是很典型的分发打法：绕过采购和法律审批的摩擦，把 AI 订阅塞进企业已经批过的云预算里，对做 B2B AI 的团队是可复用的增长套路。"
+  },
+  {
+   "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+   "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+   "desc": "Automattic aims to compete with the likes of Lovable with Spacefast.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "Automattic 推出 Spacefast，专门用来部署 vibe-coding 生成的应用，直接对标 Lovable。值得关注的是“生成之后的部署、托管、运维”这一层开始有人抢——写代码越来越便宜，把东西真正跑起来并稳定运行反而成了新生意。"
+  },
+  {
+   "title": "“AI毁了我的计算机学位”",
+   "url": "https://www.qbitai.com/2026/11/508706.html",
+   "desc": "教授也用Claude糊弄…",
+   "source": "量子位",
+   "lang": "zh",
+   "id": "n59",
+   "summary": "量子位这篇讲学生眼中的“AI 毁了我的计算机学位”：作业、项目甚至教授的回答都在被大模型糊弄，学位的区分度在下降。对关注职业方向的人来说这是需求侧信号——传统 CS 学历的信号价值在贬值，能证明“真的做出过东西”的作品集在升值。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "Arcjet AI security models",
+   "url": "https://www.producthunt.com/products/arcjet",
+   "desc": "A family of custom-trained security models for coding agents Discussion | Link",
+   "summary": "给 coding agent 专用的一整套定制安全模型，解决 AI 写代码时权限、注入和越权操作没人管的问题。亮点是把安全能力做成模型层而不是事后规则，对做 agent 产品的团队很值得关注。"
+  },
+  {
+   "id": "ph2",
+   "title": "MCP1",
+   "url": "https://www.producthunt.com/products/appwrite",
+   "desc": "One URL for every MCP server. Discussion | Link",
+   "summary": "把每个 MCP server 都收敛成一个 URL，省去到处配置和发现 MCP 服务的麻烦。MCP 生态正在快速碎片化，这种“入口层”产品有机会变成 agent 基础设施。"
+  },
+  {
+   "id": "ph8",
+   "title": "ProtoMap",
+   "url": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2",
+   "desc": "Stop wasting AI tokens rediscovering dependencies Discussion | Link",
+   "summary": "针对 AI 编程时反复重新发现项目依赖、白白烧 token 的痛点，帮 agent 复用依赖上下文。做 agent 工具链的开发者可以看看它怎么处理代码库上下文管理。"
+  },
+  {
+   "id": "ph15",
+   "title": "Terse - Durable Actors",
+   "url": "https://www.producthunt.com/products/terse-durable-actors",
+   "desc": "Infrastructure for Multiplayer AI Products Discussion | Link",
+   "summary": "给多人协作型 AI 产品提供底层 infra，主打 durable actors，解决长任务、状态保持和多用户并发的问题。想做 multiplayer AI 应用的，这类基础设施比再套一层 UI 更有壁垒。"
+  },
+  {
+   "id": "ph22",
+   "title": "Voyager",
+   "url": "https://www.producthunt.com/products/vygr",
+   "desc": "✴️ An agentic file browser to navigate your work context Discussion | Link",
+   "summary": "一个 agent 化的文件浏览器，用来管理和导航你的工作上下文，让 AI 不只看到当前文件。方向是把“上下文”变成可浏览、可操作的一等对象，适合关注 agent memory/context 的人。"
+  },
+  {
+   "id": "ph11",
+   "title": "Databox CLI",
+   "url": "https://www.producthunt.com/products/databox",
+   "desc": "Your agentic analytics platform in the terminal Discussion | Link",
+   "summary": "把 agentic analytics 搬进终端，用 CLI 方式让 agent 直接查指标、跑分析。亮点是贴合开发者工作流，不再被迫开 BI 面板，适合做数据 agent 或内部工具的人参考。"
+  },
+  {
+   "id": "ph17",
+   "title": "Higgsfield Miracle",
+   "url": "https://www.producthunt.com/products/higgsfield",
+   "desc": "Edit any part of a video without changing the rest Discussion | Link",
+   "summary": "可以只改视频里的某一个区域，其他部分保持不变，解决 AI 视频编辑一改全变的痛点。技术上属于局部可控编辑，对做视频生成和后期工具的人有启发。"
+  },
+  {
+   "id": "ph19",
+   "title": "Dageno AI 2.0",
+   "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+   "desc": "See why AI recommends your competitors instead of you Discussion | Link",
+   "summary": "帮你看清 AI 推荐里为什么推荐竞品而不是你，切的是 GEO/AEO 这个新赛道。随着用户越来越依赖 AI 做选择，品牌在模型答案里的可见度会变成新的 SEO。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Fable 5.2 and Jagged AGI",
+   "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+   "desc": "General, often expert, and sometimes jagged",
+   "source": "One Useful Thing（Ethan Mollick）",
+   "lang": "en",
+   "id": "b5",
+   "summary": "Ethan Mollick 评 Anthropic 刚发的 Fable 5.2 和 Mythos 5.2，核心判断是这类模型「通用、常常达到专家水平、但能力是锯齿状的」（jagged AGI）——某些任务强得吓人，紧挨着的相邻任务却突然掉链子。值得看的是他给这种「锯齿」模型的使用建议：别拿单一 benchmark 判断它能不能替代你的工作，得自己在真实任务链条上试，找出断点在哪。"
+  },
+  {
+   "title": "llm-anthropic 0.31",
+   "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+   "desc": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm\nllm install llm-anthropic\nllm keys set anthropic\n# paste key here\nllm -m claude-fable-5.2 \"Generate an SVG of ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 在 Anthropic 发布 Fable 5.2 / Mythos 5.2 的当天就把两个模型加进了 llm-anthropic 0.31，附了三行命令：uv 装 llm、装插件、设 key，然后 llm -m claude-fable-5.2 直接跑 prompt（示例是让它生成 SVG）。值得看的是新模型发布当天就能在命令行里上手试的接入速度，以及 llm 这套「插件即模型」的轻量玩法。"
+  },
+  {
+   "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+   "url": "https://latent.space/p/handshake/",
+   "desc": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "Latent Space 和 Handshake AI 的 Garrett Lord 团队做的一期数据深挖：Handshake 从上线到 10 亿美元估值只用了一年，干的是给前沿实验室供应「专家级数据」的生意，文章给了金融、生物、对齐三个方向的具体数据样例和采集方式。值得看的是现在前沿实验室到底在花钱买什么数据、专家数据怎么定价、这门生意的护城河在哪——对想做 AI 数据/标注创业的人是很直接的一手材料。"
+  },
+  {
+   "title": "Hide your slop PR descriptions behind <details><summary>",
+   "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+   "desc": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding ",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "Simon Willison 说他现在项目里大部分改动都是 Claude Code 或 Codex 直接给他开 PR，PR 已经成了他的工作单元（打包 commit、迭代、记录决策再合并）；但 AI 写的 PR 描述又长又水，他的办法是把大段说明塞进 <details><summary> 折叠起来，正文只留人真正要看的部分。值得看的是「AI 写完代码之后，人该怎么写文档和代码评审」这类小而具体的工程习惯正在成形。"
+  },
+  {
+   "title": "Locating the source of a mysterious beep with Claude",
+   "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+   "desc": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I re",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Simon Willison 家储藏室有个东西每隔一阵就滴滴响，但间隔太长，站在房间里根本找不到声源；他让 Claude 一起排查——大致是录下声音、分析频率/节奏特征来反推是哪种设备（烟感、漏水报警、UPS 之类）。值得看的是把 LLM 当「现实世界排查助手」的一个好玩案例，思路可以迁移到各种软硬件 debug 场景。"
+  },
+  {
+   "title": "The Web Is More Than Enough, by Paul Ford",
+   "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+   "desc": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "他在 Hacker News 上看到 Paul Ford 的《The Web Is More Than Enough》被说服去试一把，用 Three.js 做了个海兔（Nudibranch）主题的复活节彩蛋，单个 77KB 的静态文件，基本上是 Claude Opus 帮他写的。值得看的是「网页本身已经够用」的实践样本：一个 HTML 文件加一个模型，就能做出可分享、可打开的 3D 小作品，不需要任何框架和部署链路。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化已经从\"加分项\"变成 JD 主线。SHEIN 的 AI Agent 岗直接写明任务拆解、上下文管理、Skill/MCP 工具接入、LLM-as-Judge 评测；杭州某头部互联网把 Agentic 后训练（SFT/RM/RLHF/DPO/GRPO）和分层记忆体系写进职责；连 Kimi 都开了 Harness 方向的实习。会写 prompt 已经不够，要能把 Agent 跑通、能定位它为什么失败。",
+   "推理侧 Infra 的需求明显压过训练侧。Toptal 在找懂 vLLM/SGLang/TensorRT-LLM 的推理工程师，上海 GPU 算力平台岗的核心 KPI 是\"提升单位 GPU 的 token 产出\"，联想超节点、阿里 Token Foundry 也都在招训推协同。信号很清楚：模型不再是稀缺品，把每个 token 的成本打下来才是。",
+   "\"给模型出题\"成了独立工种。Toptal 的 Terminal-Bench Task Designer、上海 P6/P7 的大模型评测工程师（要求设计能难住顶级模型的编程任务+自动化评分器+防作弊）、Cocient 按小时雇专家写 eval，本质都是把资深工程经验转成模型的能力边界测试。这类岗位看重真实代码库的踩坑经验，而不是算法论文。",
+   "语言栈上呈现\"Python/TS 打底 + Go 做 Agent 后端 + Rust 做网关/安全\"的三层结构。远程 Agent 后端岗大量要 Go（Salesforge、Benzinga、Kong、以及多个国内远程岗），Rust 出现在 Kong AI Gateway、量化撮合和 Radar 这类低延迟/安全场景。",
+   "FDE（Forward Deployed Engineer）这一类\"能去客户现场把 AI 落下来\"的角色在扩散：Databricks 的 Deployment Strategist、Odette、Oscilar 都在招，北京也有创业公司在招常驻客户现场的 AI 交付工程师。同时安全 × AI 开始成对出现——Apollo Research 招 coding agent 安全产品的首位 AE，新加坡某大厂用 LLM+Agent 搭反欺诈风控工作流。"
+  ],
+  "gigs": [
+   "按件计酬的\"模型训练供应链\"正在成形。Askable 明码标价 US$1,000/task，让你把熟悉仓库里的一次真实改动做成 AI coding 任务，想做多少做多少；Toptal 的 Terminal-Bench 任务设计同理。抢手的是有多年真实代码库经验的人，不是刷题选手。适合当副业现金流，但定价权在平台手里。",
+   "中小老板要的是\"能跑通的 Agent MVP\"，不是自研 SaaS。典型样本：有人招兼职用 n8n + GitHub 商业友好开源项目二次开发，做外贸 B2B 获客 Agent（产品分析→ICP→企业搜索→评分→找邮箱）；还有成品号销售平台的二次开发运维。活儿碎、预算有限、但对能独立交付的人溢价高。",
+   "远程兼职呈两极：一极是碎片化时薪制（加拿大医美 AI 公司每周约 3 小时、月付 10-16K；AI 视频创作兼职），另一极是要 founding engineer 给股权/分成（Matcha.fm、Thankly、Kaida）。中间地带——稳定远程全职——主要来自出海社交/视频类公司，AI 工作流工程师 25-38K，栈是 React+TS+Go。",
+   "地理套利窗口还开着：东京 Voice AI 公司全英文、42-85 万 RMB 年薪包签证和 relocation；美国 remote 岗（Piramidal 200-300K USD、BuildQ 130-150K）基本只招本地。国内远程 AI 应用/产品岗集中在 20-40K 区间。注意：以上关于\"远程市场结构\"的判断来自本周抓取的百来条样本，样本有限，趋势方向可信、具体比例不可当统计结论。"
+  ],
+  "highlights": [
+   {
+    "title": "阿里巴巴 Token Foundry Infra 团队社招",
+    "desc": "支撑 Qwen 系列大模型，挑战万卡集群极限性能 一、团队介绍 阿里巴巴 Token Foundry Infra 团队是支撑 Qwen 系列大模型的核心技术底座，致力于打造业界一流的 AI 训练与工程化平台，构建从底层算力管理到上层训练框架的全栈技术体系，支撑模型高效迭代。 二、重点技术方向 1. 训练加速 面向 Dense/MoE 架构，覆盖预训练到强化学习（ RL ）全阶段，通过并行策略、计算通信重叠与显存优化，持续提升有效算力。 2. 稳定底座 覆盖任务提交、调度运行、资源弹性与故障恢复，建设可工程化、可自动化、可规模化的稳定训练底座，支撑模型持续进化。 3. Agent Infra 建",
+    "url": "https://www.v2ex.com/t/1253934#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m45",
+    "summary": "阿里 Token Foundry Infra（Qwen 底座）社招，把\"Agent Infra\"和训练加速、稳定底座并列成四大方向之一——大厂已经把 Agent 当基础设施而非应用层来做。"
+   },
+   {
+    "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM) @ Toptal",
+    "desc": "Artificial Intelligence, Docker, Git, Graphics Processing Unit, LLM",
+    "url": "https://remoteOK.com/remote-jobs/remote-ml-inference-engineer-terminal-bench-task-designer-vllm-sglang-tensorrt-llm-toptal-1137689",
+    "source": "RemoteOK",
+    "id": "m3",
+    "summary": "Toptal 招 ML Inference Engineer 去做 Terminal-Bench 任务设计，要求 vLLM/SGLang/TensorRT-LLM——推理优化能力正在被单独定价，用途是造评测而不是造产品。"
+   },
+   {
+    "title": "Askable: Software Engineer, AI Coding Tasks (Contract)",
+    "desc": "Headquarters: Australia URL: https://www.askablelabs.com/ We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's ",
+    "url": "https://weworkremotely.com/remote-jobs/askable-software-engineer-ai-coding-tasks-contract",
+    "source": "WeWorkRemotely",
+    "id": "m19",
+    "summary": "Askable 明码 US$1,000/task 收购 AI coding 任务，用你熟悉的代码库造题——模型能力供给已经形成按件结算的分包市场。"
+   },
+   {
+    "title": "[南京/深圳/上海/广州] SHEIN 11 月新出 8 个技术岗，月薪 25-90K， Agent/算法/搜广推/Go/大数据",
+    "desc": "SHEIN （希音）技术岗内推。最近两周新开的 8 个岗位。 [ AI / Agent ] AI Agent 开发工程师｜南京｜ S5 ｜本科｜ 30-45K/月｜ MJ016660\n做公司内部的 AI 办公工作台，员工用自然语言把活交给 Agent 去干。你负责 Agent 核心能力：任务拆解和执行、上下文管理、Skill/MCP 工具接入、LLM-as-a-Judge 评测、问题定位链路。\n要求：TypeScript/Node.js 或 Python 至少熟一门；真的动手做过 Agent ，用 Function Calling 、MCP 或某个 Agent 框架跑通过项目，个人项目、开源都",
+    "url": "https://www.v2ex.com/t/1255233#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m28",
+    "summary": "SHEIN 南京 AI Agent 开发岗（30-45K）JD 直接要求 Function Calling、MCP、LLM-as-Judge 评测和问题定位链路——传统电商巨头的常规岗位已完成 Agent 化改写。"
+   },
+   {
+    "title": "AI Agent / n8n 兼职开发｜GitHub开源Skill二次开发",
+    "desc": "寻找一名兼职 AI Agent / n8n / Python 开发工程师，基于现有 GitHub 商业友好开源项目进行二次开发，完成外贸 B2B 获客 Agent MVP。 第一版不是从零开发完整 SaaS。 核心流程： 产品资料   → AI分析产品   → ICP客户画像   → 海外企业搜索   → 企业官网分析   → 客户筛选/评分   → 联系人查找   → 邮箱获取/验证   → A",
+    "url": "https://eleduck.com/posts/jAfWJg",
+    "source": "电鸭社区",
+    "id": "m70",
+    "summary": "兼职需求：基于开源项目二次开发 n8n 外贸 B2B 获客 Agent MVP——最典型的小额高频 Agent 外包形态，先跑通流程再谈产品。"
+   },
+   {
+    "title": "上海社招， AI Infra / Agent Infra 工程师",
+    "desc": "AI Infra：GPU 算力优化工程师 工作地点：　上海徐汇 经验要求：3–5 年 薪资 30-50k 团队与岗位简介 我们负责公司 AI Infra 算力平台的建设，为企业客户提供统一的 GPU 算力调度底座。平台同时运行 Kubernetes （ Volcano / Kueue ）和 Slurm 两套调度体系，承载大规模分布式训练、批量推理与交互式开发任务，并在推进两者的融合与统一纳管；在算力之上提供 MaaS 模型服务，以 token 计费对外输出算力。我们鼓励你在日常工作中大量使用 AI 提效工具。 岗位职责 负责大模型推理服务的性能优化，提升单位 GPU 的 token 产出，支撑",
+    "url": "https://www.v2ex.com/t/1255084#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "上海 AI Infra 岗描述里，K8s（Volcano/Kueue）与 Slurm 双调度并存、以 token 计费对外输出算力——算力正在被彻底商品化，优化目标是单位 GPU 的 token 产出。"
+   }
+  ],
+  "week": "2026-W46"
+ },
+ "llm_used": true,
+ "degraded": []
+}
