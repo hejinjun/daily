@@ -1,0 +1,404 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11 09:58",
+ "trends": [
+  "**前沿模型公司开始“上市化”**：Anthropic IPO 定价区间落在每股 70–78 美元，隐含估值最高 1.4 万亿美元，七位联创各套现约 2.5 亿；同一天纽约州 AI 安全法生效，要求大厂注册、披露安全实践、上报事故。资本与监管同时收紧，意味着 API 定价、路线承诺会进入公开财报和合规审查的约束中。",
+  "**从“会聊天”转向“会干活”**：Claude Meetings 直接进入会议场景（实时起草计划、画时间线、调用已接入的工作应用数据）；Adobe 把 agent 塞进 Photoshop、Premiere、Firefly，Meta 的 Muse 作为 agent 上手表和 Wear OS，Spotify 的 AI DJ 可以换成不同人格。产品层竞争焦点已变成“能否嵌进既有工作流”，而非模型本身分高低。",
+  "**“可验证性”成新战场**：AlphaProof Code 用 AI agent 写出 300 万行 Lean 证明，验证了 Signal 的核心加密实现；PSI 用 Anthropic 一个未发布模型解开了量子计算领域悬了近二十年的基础问题，并想把流程做成生意。AI 产出的东西“能不能被机器证明正确”，正在从学术趣味变成工程流水线和商业卖点。",
+  "**两笔开发者要提前准备的“债”**：HN 热帖说 AI 辅助产出的代码库“能跑但很脆”，真正的成本在半年后的维护；Hugging Face 高管警告针对开放 AI 平台的攻击增多，可能迫使平台收紧访问限制。开源权重和 Hub 的获取路径，存在随时变窄的供应链风险。",
+  "**OpenAI 在把 ChatGPT 往“交易入口”推**：收购 Sonder 创始人做的旅游创业公司 Odessia，同时上线商户主页/商业档案，加上已报道的 AWS Marketplace 渠道，ChatGPT 正在复制 Google 的“发现+商业”闭环。垂直行业创业公司需要重新判断：自己是在做产品，还是在给平台探路。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 12
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 6
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 3
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 3
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh2",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": "115,207",
+   "stars_today": "465 stars today",
+   "summary": "Addy Osmani（Google Chrome 团队 DevRel 负责人）出的「AI 编程 agent 的工程技能库」，把写生产级代码的套路、规范、检查清单沉淀成 agent 可以直接调用的 skill 文件，让 Claude Code / Cursor 这类 coding agent 少写玩具代码、多写能上线的代码。今天 465 星，累计已经 11.5 万星，说明现在大家真正卡住的不是模型能力，而是「怎么把 agent 调教成靠谱的工程师同事」——这类 prompt/技能工程资产正在成为新的刚需，做 agent 工具链和团队内部规范的人值得直接拿来参考或抄作业。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+   "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+   "desc": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n53",
+   "summary": "Anthropic 把 IPO 定价区间定在每股 70–78 美元，按完全稀释口径最高对应 1.404 万亿美元估值。这意味着它上市即可能跻身全球市值前列，也意味着前沿实验室从此要在公开财报、季度预期下做模型路线决策。对开发者来说，API 价格和产品承诺会更可预期，但也更保守。"
+  },
+  {
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "desc": "AlphaProof Code agents wrote three  million lines of proofs in Lean to verify Signal’s core encryption.",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n37",
+   "summary": "Google DeepMind 发布 AlphaProof Code：多个 agent 在 Lean 里写出 300 万行证明，验证了 Signal 的核心加密实现。形式化验证过去是学术 demo，现在直接作用于生产级密码学代码。做安全敏感系统、加密库、智能合约的团队应该认真看这条——“AI 写代码 + 机器可验证证明”很可能成为下一代质量流水线。"
+  },
+  {
+   "title": "Gemini 4 Carbon is now available",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "desc": "",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n36",
+   "summary": "Gemini 4 Carbon 正式可用，是 DeepMind 的新一代旗舰模型。官方暂时没铺开讲细节，但发布时点刚好卡在 Anthropic IPO 定价和 Gemini Robotics 2.5 之间，说明 Google 已把模型代际更新做成常规节奏，不再当作大事件来发布。"
+  },
+  {
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "desc": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n38",
+   "summary": "Gemini Robotics 2.5 是视觉-语言-动作（VLA）模型，主打真机上的通用灵巧操作，官方强调灵巧度、可靠性和安全性全面提升。具身智能正在从演示视频转向产线可用，VLA 有变成机器人公司默认底座的趋势，机会在垂直场景数据和一层“安全护栏”上。"
+  },
+  {
+   "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+   "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+   "desc": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "PSI 用 Anthropic 一个尚未发布的模型，回答了一个量子计算领域科学家追了近二十年的基础问题，并试图把这套流程做成生意。这是“AI for science”第一次有清晰的商业模式叙事——卖的不是模型，而是“发现即服务”。值得关注它怎么定价、怎么验证结果可信。"
+  },
+  {
+   "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+   "desc": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n43",
+   "summary": "纽约州 AI 安全法正式生效，要求 OpenAI、Anthropic 这类大模型开发商注册、披露安全实践、上报重大事故，否则罚款。美国州级监管从纸面走进执法，合规成本先落在大厂，但最终会外溢成小公司和下游客户的采购门槛。"
+  },
+  {
+   "title": "AI usage generates a fragile codebase",
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 380,
+   "id": "n4",
+   "summary": "HN 热帖：大量使用 AI 生成的代码库会变得“脆弱”——能跑、能过测试，但没人真正理解，一改就塌。这不是反 AI 情绪帖，而是在说清楚成本结构：生成几乎免费，真正的账单在六个月后的维护和 debug。用 agent 写代码的人应该读。"
+  },
+  {
+   "title": "AI is an information gateway. Audiences still don't want it making their news",
+   "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 6,
+   "id": "n29",
+   "summary": "讨论 AI 作为信息入口的现实：媒体调查发现读者并不想让 AI 替他们写新闻，但已经在用 AI 找新闻。对做内容产品的团队是个直接信号——分发被 AI 吃掉一层，但“信任”这一环仍然只能靠人，这部分目前无人替代。"
+  },
+  {
+   "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+   "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+   "desc": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n48",
+   "summary": "Anthropic 推出 Claude Meetings：会中实时起草大家正在讨论的方案、在白板上画时间线、回答会议聊天区提问，还能调取已接入工作应用里的数据（比如去年的数字）。会议是 agent 最容易证明 ROI 的场景，Anthropic 这是直接冲 Microsoft Copilot、Notion 的地盘。"
+  },
+  {
+   "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+   "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+   "desc": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n54",
+   "summary": "Cyanogen 联合创始人新项目 Kora 要做“AI 时代的 Windows 替代品”，免费，目标用户是重度依赖模型和 agent 的人。桌面操作系统的空位第一次有人认真下注——如果 agent 成为主要交互方式，OS 的形态确实该重做一次。"
+  },
+  {
+   "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+   "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+   "desc": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n57",
+   "summary": "Hugging Face 的 Irene Solaiman 警告：针对开放 AI 平台的攻击越来越多，可能迫使平台收紧安全限制，从而侵蚀开源社区的开放性。对依赖开源权重和 Hub 的团队，这是明确的供应链风险——模型获取路径可能随时变窄，别把假设当成基础设施。"
+  },
+  {
+   "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+   "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+   "desc": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "OpenAI 收购 Sonder 创始人 Francis Davidson 创办的旅游创业公司 Odessia，但没说打算拿它做什么。结合同期的商户主页和 ChatGPT 内商业功能，方向很清楚：把 ChatGPT 往“交易入口”推。垂直行业的创业公司要重新想一件事——自己是在做产品，还是在给平台做探路。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph9",
+   "title": "OpenVibe",
+   "url": "https://www.producthunt.com/products/openvibe-2",
+   "desc": "A canvas of real terminals for your AI coding agents Discussion | Link",
+   "summary": "OpenVibe 把多个 AI 编码 agent 的真实终端铺在一块画布上，让你同时盯着几个 agent 干活并随时接手。多 agent 并行干活是今年最真实的开发工作流变化，这个工具针对的正是「没人管得过来」的痛点。"
+  },
+  {
+   "id": "ph26",
+   "title": "VeilCC",
+   "url": "https://www.producthunt.com/products/veilcc",
+   "desc": "Ship code AI can't reverse engineer Discussion | Link",
+   "summary": "VeilCC 主打「发布 AI 无法逆向工程处理的代码」，在 AI 能直接读代码、复制逻辑的时代给源码上保护。虽然方案细节不明，但「防止 AI 逆向工程」本身是个新品类，做闭源或商业化产品的开发者值得关注。"
+  },
+  {
+   "id": "ph16",
+   "title": "RunThru",
+   "url": "https://www.producthunt.com/products/runthru",
+   "desc": "Video proof that your agent's pull request works Discussion | Link",
+   "summary": "RunThru 自动录制 agent 提交的 PR 能够跑通的视频证据，解决「AI 写的代码我不敢合」的信任问题。agent 产出越多，评审瓶颈越大，这类「给 AI 输出做验收」的工具会是刚需。"
+  },
+  {
+   "id": "ph0",
+   "title": "TK by Medium",
+   "url": "https://www.producthunt.com/products/medium",
+   "desc": "An agentic notebook to build your best thinking Discussion | Link",
+   "summary": "Medium 推出的 TK 是一个 agentic notebook，用 AI 陪你做结构化思考和推演，而不是单纯记笔记。内容平台亲自下场做 AI 思考工具，说明「AI 辅助认知」这条赛道还在被大玩家验证。"
+  },
+  {
+   "id": "ph1",
+   "title": "SideKick By Open",
+   "url": "https://www.producthunt.com/products/open-for-sales",
+   "desc": "“Claude, but for your product” is here. Discussion | Link",
+   "summary": "SideKick 来自 Open，定位是「你家产品专属的 Claude」，让 AI 真正理解你的产品数据并直接操作。把通用模型变成产品内的专家助手，是目前 SaaS 加 AI 最主流的落地形态。"
+  },
+  {
+   "id": "ph6",
+   "title": "Seldon",
+   "url": "https://www.producthunt.com/products/seldon",
+   "desc": "Behavioral QA agents that use your product like customers do Discussion | Link",
+   "summary": "Seldon 用行为型 QA agent 像真实用户一样点你的产品，测的是流程和体验而不是单测。传统自动化测试写不动、维护贵，让 agent 模拟人操作是个很实际的方向。"
+  },
+  {
+   "id": "ph2",
+   "title": "ChromePing",
+   "url": "https://www.producthunt.com/products/chromeping",
+   "desc": "Talk to anyone by phone, in a language you don't speak Discussion | Link",
+   "summary": "ChromePing 让你用自己不会的语言打电话给任何人，实时语音翻译打通跨语言通话。相比文本翻译，实时通话场景对延迟和语气要求高得多，是语音 AI 少见的实用切口。"
+  },
+  {
+   "id": "ph19",
+   "title": "openring",
+   "url": "https://www.producthunt.com/products/openring",
+   "desc": "Open-source voice AI agents with no platform fee Discussion | Link",
+   "summary": "openring 提供开源语音 AI agent，不收平台抽成，自己部署自己控制。语音 agent 平台普遍按分钟计费且锁定厂商，开源加零平台费对做客服、外呼类产品的团队很有吸引力。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+   "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+   "desc": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "Latent Space 的 AINews 日报：Anthropic IPO 路演当天，Claude Fable 5.2 和 Mythos 5.2 同时发布，Fable 5.2 重回 LLM 排行榜第一；标题直接问“多少 thinking 值得花钱”。值得看的是模型发布节奏已经和资本市场节奏绑在一起，以及头部模型在推理成本上的取舍信号。"
+  },
+  {
+   "title": "llm-gemini 0.36",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+   "desc": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but sched",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 发布 llm-gemini 0.36 插件，接入 Google 新模型 Gemini 4 Carbon——两周前还只给“部分网络安全防御者”用，现在全面开放；定价 $2/百万输入、$10/百万输出，直接对标 GPT-6.1 Sol / Claude Sonnet 5.5，并且带调度相关更新。值得看的是顶级模型价格带已经趋同，装个插件就能在命令行里横向对比。"
+  },
+  {
+   "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+   "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+   "desc": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls,",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Meta AI 推出 Muse Ember，自称“最小最高效”的模型，明确卡位 Claude Haiku / GPT Luna 那一档，主打 agent 整天重复干的活：工具调用、推理执行。值得看的是小模型赛道继续往 agent 工作流里卷，性价比选型又多一个候选。"
+  },
+  {
+   "title": "Quoting Prompting Claude Fable 5.2",
+   "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+   "desc": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repe",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "引 Anthropic 的测试结论：Claude Fable 5.2 对“这代码归谁”的提示非常敏感——prompt 里不提归属、或把代码库描述成别人的，模型就倾向于在现有结构上打补丁而不是重构。值得看的是这是一条能立刻用上的 prompt 技巧：明确“这是我们的代码”会明显改变输出风格。"
+  },
+  {
+   "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+   "url": "https://latent.space/p/naiveai/",
+   "desc": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "上手实测 NaiveAI，官方号称 2100 tokens/秒，有可能冲上 Artificial Analysis 速度榜第一；作者的测试显示它的编码质量能和 DeepSeek 打得有来有回。值得看的是速度与质量的权衡，以及推理基础设施层面又冒出一个新玩家。"
+  },
+  {
+   "title": "Designing for Agents — Zeno Rocha, Resend",
+   "url": "https://latent.space/p/resend/",
+   "desc": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "Latent Space 访谈 Resend 的 Zeno Rocha，主题是“为 agent 设计”：答案引擎优化（AEO）和 agent experience 的边界在哪，Resend 的文档怎么让 Claude Code 一次就挑对邮件 API、又该给 agent 暴露哪些工具。值得看的是做开发者产品的人必读——文档本身就是 agent 的接口。"
+  },
+  {
+   "title": "Yonkers Rises",
+   "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+   "desc": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animation where yonkers sta",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "Simon 不知道 Yonkers 在哪，查完 Google Maps 后顺手让 Claude Fable 5.2 Medium 写了个 three.js 动画，把这座城市的形状和位置“刻进脑子里”。值得看的是用 3D 动画辅助空间记忆的小玩具，同时顺带检验了 Fable 5.2 的建模和动画能力。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化已经从\"加分项\"变成 JD 主线。SHEIN 的 AI Agent 岗直接写明任务拆解、上下文管理、Skill/MCP 工具接入、LLM-as-Judge 评测；杭州某头部互联网把 Agentic 后训练（SFT/RM/RLHF/DPO/GRPO）和分层记忆体系写进职责；连 Kimi 都开了 Harness 方向的实习。会写 prompt 已经不够，要能把 Agent 跑通、能定位它为什么失败。",
+   "推理侧 Infra 的需求明显压过训练侧。Toptal 在找懂 vLLM/SGLang/TensorRT-LLM 的推理工程师，上海 GPU 算力平台岗的核心 KPI 是\"提升单位 GPU 的 token 产出\"，联想超节点、阿里 Token Foundry 也都在招训推协同。信号很清楚：模型不再是稀缺品，把每个 token 的成本打下来才是。",
+   "\"给模型出题\"成了独立工种。Toptal 的 Terminal-Bench Task Designer、上海 P6/P7 的大模型评测工程师（要求设计能难住顶级模型的编程任务+自动化评分器+防作弊）、Cocient 按小时雇专家写 eval，本质都是把资深工程经验转成模型的能力边界测试。这类岗位看重真实代码库的踩坑经验，而不是算法论文。",
+   "语言栈上呈现\"Python/TS 打底 + Go 做 Agent 后端 + Rust 做网关/安全\"的三层结构。远程 Agent 后端岗大量要 Go（Salesforge、Benzinga、Kong、以及多个国内远程岗），Rust 出现在 Kong AI Gateway、量化撮合和 Radar 这类低延迟/安全场景。",
+   "FDE（Forward Deployed Engineer）这一类\"能去客户现场把 AI 落下来\"的角色在扩散：Databricks 的 Deployment Strategist、Odette、Oscilar 都在招，北京也有创业公司在招常驻客户现场的 AI 交付工程师。同时安全 × AI 开始成对出现——Apollo Research 招 coding agent 安全产品的首位 AE，新加坡某大厂用 LLM+Agent 搭反欺诈风控工作流。"
+  ],
+  "gigs": [
+   "按件计酬的\"模型训练供应链\"正在成形。Askable 明码标价 US$1,000/task，让你把熟悉仓库里的一次真实改动做成 AI coding 任务，想做多少做多少；Toptal 的 Terminal-Bench 任务设计同理。抢手的是有多年真实代码库经验的人，不是刷题选手。适合当副业现金流，但定价权在平台手里。",
+   "中小老板要的是\"能跑通的 Agent MVP\"，不是自研 SaaS。典型样本：有人招兼职用 n8n + GitHub 商业友好开源项目二次开发，做外贸 B2B 获客 Agent（产品分析→ICP→企业搜索→评分→找邮箱）；还有成品号销售平台的二次开发运维。活儿碎、预算有限、但对能独立交付的人溢价高。",
+   "远程兼职呈两极：一极是碎片化时薪制（加拿大医美 AI 公司每周约 3 小时、月付 10-16K；AI 视频创作兼职），另一极是要 founding engineer 给股权/分成（Matcha.fm、Thankly、Kaida）。中间地带——稳定远程全职——主要来自出海社交/视频类公司，AI 工作流工程师 25-38K，栈是 React+TS+Go。",
+   "地理套利窗口还开着：东京 Voice AI 公司全英文、42-85 万 RMB 年薪包签证和 relocation；美国 remote 岗（Piramidal 200-300K USD、BuildQ 130-150K）基本只招本地。国内远程 AI 应用/产品岗集中在 20-40K 区间。注意：以上关于\"远程市场结构\"的判断来自本周抓取的百来条样本，样本有限，趋势方向可信、具体比例不可当统计结论。"
+  ],
+  "highlights": [
+   {
+    "title": "阿里巴巴 Token Foundry Infra 团队社招",
+    "desc": "支撑 Qwen 系列大模型，挑战万卡集群极限性能 一、团队介绍 阿里巴巴 Token Foundry Infra 团队是支撑 Qwen 系列大模型的核心技术底座，致力于打造业界一流的 AI 训练与工程化平台，构建从底层算力管理到上层训练框架的全栈技术体系，支撑模型高效迭代。 二、重点技术方向 1. 训练加速 面向 Dense/MoE 架构，覆盖预训练到强化学习（ RL ）全阶段，通过并行策略、计算通信重叠与显存优化，持续提升有效算力。 2. 稳定底座 覆盖任务提交、调度运行、资源弹性与故障恢复，建设可工程化、可自动化、可规模化的稳定训练底座，支撑模型持续进化。 3. Agent Infra 建",
+    "url": "https://www.v2ex.com/t/1253934#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m45",
+    "summary": "阿里 Token Foundry Infra（Qwen 底座）社招，把\"Agent Infra\"和训练加速、稳定底座并列成四大方向之一——大厂已经把 Agent 当基础设施而非应用层来做。"
+   },
+   {
+    "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM) @ Toptal",
+    "desc": "Artificial Intelligence, Docker, Git, Graphics Processing Unit, LLM",
+    "url": "https://remoteOK.com/remote-jobs/remote-ml-inference-engineer-terminal-bench-task-designer-vllm-sglang-tensorrt-llm-toptal-1137689",
+    "source": "RemoteOK",
+    "id": "m3",
+    "summary": "Toptal 招 ML Inference Engineer 去做 Terminal-Bench 任务设计，要求 vLLM/SGLang/TensorRT-LLM——推理优化能力正在被单独定价，用途是造评测而不是造产品。"
+   },
+   {
+    "title": "Askable: Software Engineer, AI Coding Tasks (Contract)",
+    "desc": "Headquarters: Australia URL: https://www.askablelabs.com/ We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's ",
+    "url": "https://weworkremotely.com/remote-jobs/askable-software-engineer-ai-coding-tasks-contract",
+    "source": "WeWorkRemotely",
+    "id": "m19",
+    "summary": "Askable 明码 US$1,000/task 收购 AI coding 任务，用你熟悉的代码库造题——模型能力供给已经形成按件结算的分包市场。"
+   },
+   {
+    "title": "[南京/深圳/上海/广州] SHEIN 11 月新出 8 个技术岗，月薪 25-90K， Agent/算法/搜广推/Go/大数据",
+    "desc": "SHEIN （希音）技术岗内推。最近两周新开的 8 个岗位。 [ AI / Agent ] AI Agent 开发工程师｜南京｜ S5 ｜本科｜ 30-45K/月｜ MJ016660\n做公司内部的 AI 办公工作台，员工用自然语言把活交给 Agent 去干。你负责 Agent 核心能力：任务拆解和执行、上下文管理、Skill/MCP 工具接入、LLM-as-a-Judge 评测、问题定位链路。\n要求：TypeScript/Node.js 或 Python 至少熟一门；真的动手做过 Agent ，用 Function Calling 、MCP 或某个 Agent 框架跑通过项目，个人项目、开源都",
+    "url": "https://www.v2ex.com/t/1255233#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m28",
+    "summary": "SHEIN 南京 AI Agent 开发岗（30-45K）JD 直接要求 Function Calling、MCP、LLM-as-Judge 评测和问题定位链路——传统电商巨头的常规岗位已完成 Agent 化改写。"
+   },
+   {
+    "title": "AI Agent / n8n 兼职开发｜GitHub开源Skill二次开发",
+    "desc": "寻找一名兼职 AI Agent / n8n / Python 开发工程师，基于现有 GitHub 商业友好开源项目进行二次开发，完成外贸 B2B 获客 Agent MVP。 第一版不是从零开发完整 SaaS。 核心流程： 产品资料   → AI分析产品   → ICP客户画像   → 海外企业搜索   → 企业官网分析   → 客户筛选/评分   → 联系人查找   → 邮箱获取/验证   → A",
+    "url": "https://eleduck.com/posts/jAfWJg",
+    "source": "电鸭社区",
+    "id": "m70",
+    "summary": "兼职需求：基于开源项目二次开发 n8n 外贸 B2B 获客 Agent MVP——最典型的小额高频 Agent 外包形态，先跑通流程再谈产品。"
+   },
+   {
+    "title": "上海社招， AI Infra / Agent Infra 工程师",
+    "desc": "AI Infra：GPU 算力优化工程师 工作地点：　上海徐汇 经验要求：3–5 年 薪资 30-50k 团队与岗位简介 我们负责公司 AI Infra 算力平台的建设，为企业客户提供统一的 GPU 算力调度底座。平台同时运行 Kubernetes （ Volcano / Kueue ）和 Slurm 两套调度体系，承载大规模分布式训练、批量推理与交互式开发任务，并在推进两者的融合与统一纳管；在算力之上提供 MaaS 模型服务，以 token 计费对外输出算力。我们鼓励你在日常工作中大量使用 AI 提效工具。 岗位职责 负责大模型推理服务的性能优化，提升单位 GPU 的 token 产出，支撑",
+    "url": "https://www.v2ex.com/t/1255084#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "上海 AI Infra 岗描述里，K8s（Volcano/Kueue）与 Slurm 双调度并存、以 token 计费对外输出算力——算力正在被彻底商品化，优化目标是单位 GPU 的 token 产出。"
+   }
+  ],
+  "week": "2026-W46"
+ },
+ "llm_used": true,
+ "degraded": []
+}
