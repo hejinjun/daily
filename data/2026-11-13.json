@@ -1,0 +1,446 @@
+{
+ "date": "2026-11-13",
+ "generated_at": "2026-11-13 10:40",
+ "trends": [
+  "英伟达进入'后黄仁勋'的动荡期：CEO 因丑闻辞职、CFO 临时接管、国会传唤作证、民主党另起调查对华销售，更关键的是他对开源 AI 的支持（129 亿美元收购 Hugging Face、开放权重模型、反对出口限制的游说）都系于他一人，接任者若转向，开源生态和供应链格局都要重估。",
+  "模型层两条线同时推进：一边是 Gemini 4 Hydrogen 这种'更会拆解复杂问题'的闭源前沿模型直接嵌进 Google Search；另一边是 Granite 4.1 3B/8B、145B 级本地模型、老设备推理，端侧和开源小模型正在把'前沿能力'往个人电脑上搬，本地 agent 的底座在变厚。",
+  "算力扩张开始撞上电力和融资的双重墙：Nebius 靠客户预付款+贷款撑 400 亿美元基建，SoftBank 预付 30 多亿美元买燃气轮机却亏损，说明数据中心不再是'有钱就能建'，电力长约和 neocloud 的金融结构是新的风险点。",
+  "Agent 从 demo 走进'要负责'的阶段：Muse 开始收费替用户打商家电话，同时 Fireworks AI 二次泄露波及 Notion 客户聊天记录、苹果审核对 AI 应用越发苛刻——权限、身份披露、数据边界和平台合规，正在变成做 AI 产品绕不开的成本。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 13
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 5
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 2
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 9
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 1
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 4
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh11",
+   "title": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "desc": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+   "lang": "Python",
+   "stars": "69,373",
+   "stars_today": "415 stars today",
+   "summary": "free-claude-code 是一个把 Claude Code、Codex、Antigravity、OpenCode 等十来个 AI 编码 harness 全部聚合起来的终端、IDE、手机、浏览器全套入口，号称提供 13 亿以上免费 token，今天 +415 star 冲到 69k。它火的原因很直接：一个入口就能切换多个 harness 和多个模型，还能白嫖额度，对天天要在不同 agent 工具之间来回切换的开发者来说，吸引力很强。不过这类免费池子通常存在 ToS 和额度可持续性的风险，需要留意后续情况。"
+  },
+  {
+   "id": "gh5",
+   "title": "QwenLM/qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "desc": "An open-source AI coding agent that lives in your terminal.",
+   "lang": "TypeScript",
+   "stars": "29,861",
+   "stars_today": "151 stars today",
+   "summary": "qwen-code 是阿里 Qwen 团队开源的终端 AI 编码 agent，形态和 Claude Code 类似，今天 +151 star、接近 3 万星。它值得关注是因为国内开源模型厂商正式进军 CLI coding agent 这一战场，配上自家 Qwen 模型的低价和中文语境，是对 Claude Code、Gemini CLI 的直接替代选项。"
+  },
+  {
+   "id": "gh10",
+   "title": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "lang": "TypeScript",
+   "stars": "11,665",
+   "stars_today": "298 stars today",
+   "summary": "CopilotKit/OpenBot 主打“开源 AI 同事”：每个 agent 都有独立的浏览器、文件和工具环境，动作执行前先决策、执行后全记录，可以直接接入任意 AG-UI agent，今天 +298 star。它的卖点是把 agent 从聊天框推到真正能干活、可审计的“数字员工”形态，安全和可观测性是设计核心，适合想看 agent 基础设施下一步走向的人。"
+  },
+  {
+   "id": "gh12",
+   "title": "ggml-org/llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "desc": "LLM inference in C/C++",
+   "lang": "C++",
+   "stars": "134,604",
+   "stars_today": "176 stars today",
+   "summary": "llama.cpp 是老牌 C/C++ LLM 推理引擎，13.4 万星，今天仍有 +176 star 的日常热度。它几乎是所有本地推理和量化方案的底座，只要本地部署、端侧推理还是热点，它就是绕不开的基础设施，值得长期放在雷达上。"
+  },
+  {
+   "id": "gh6",
+   "title": "ashhart/TensorFold",
+   "url": "https://github.com/ashhart/TensorFold",
+   "desc": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+   "lang": "Zig",
+   "stars": "1,964",
+   "stars_today": "54 stars today",
+   "summary": "TensorFold 是用 Zig 写的 LLM 推理引擎，目标是同时覆盖 Metal、CUDA 和 Vulkan 三套后端，今天 +54 star 到约 2 千星。亮点在于用 Zig 统一跨 GPU 后端，绕开 CUDA 绑定，想啃本地推理性能和多平台移植这块硬骨头，适合关注推理引擎底层实现的人。"
+  },
+  {
+   "id": "gh0",
+   "title": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "desc": "Keep your coding agent up to date with the latest web best practices",
+   "lang": "TypeScript",
+   "stars": "3,198",
+   "stars_today": "739 stars today",
+   "summary": "GoogleChrome 的 modern-web-guidance-src 是把最新 Web 最佳实践打包成给 coding agent 读的指导源，今天 +739 star，是今天涨得最猛的仓库之一。它火说明一个新趋势：文档不再只写给人看，而是专门为 AI 编码 agent 提供“上下文供给”，Chrome 官方下场做这件事，意味着前端 agent 的生成质量会有一波系统性提升。"
+  }
+ ],
+ "news": [
+  {
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "desc": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "黄仁勋因与多名下属的婚外情丑闻辞去英伟达 CEO，CFO Colette Kress 临时接任，公司没有接班计划。事件已从八卦升级为国安议题（涉疑似中方间谍）、国会传唤他周三作证，特朗普甚至在 Truth Social 上提名 Tim Cook 接任。这是本轮 AI 硬件叙事里最大的一次人事地震，英伟达的对外政策、客户关系和供应链承诺都可能重排。"
+  },
+  {
+   "title": "Introducing Gemini 4 Hydrogen",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "desc": "",
+   "source": "Google DeepMind",
+   "lang": "en",
+   "id": "n35",
+   "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，重点不是跑分而是'会拆题'：多部分问题、错别字满天飞的问题、极度具体的请求都能拆开逐条回答。同一天 Google Search 的 AI Mode 也换成这个模型，能给出更相关的链接和更丰富的视觉结果。搜索入口和前沿模型绑得越来越紧，对做搜索/问答类产品的团队是直接压力。"
+  },
+  {
+   "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+   "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+   "desc": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n46",
+   "summary": "黄仁勋离场让外界开始怀疑英伟达对开源的承诺：129 亿美元收购 Hugging Face、开放权重模型发布、反对出口限制的游说，本质都靠他个人推动。Hugging Face CEO 已公开表态会继续为开源 AI 斗争。如果新管理层收缩，开源模型生态的算力与资金供给会明显变化，做开源/微调的团队要提前想备选方案。"
+  },
+  {
+   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 179,
+   "id": "n11",
+   "summary": "有研究称中国前沿 AI 模型带着'出口管制 GPU 的指纹'，可以反推出训练用了哪些被限制的硬件。这意味着出口管制正从纸面禁令变成可技术审计的手段，也意味着国产模型的硬件披露会越来越谨慎。对关注算力合规和模型溯源的团队是值得跟进的新方向。"
+  },
+  {
+   "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+   "desc": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "Nebius 计划投入 400 亿美元扩张 AI 基建，钱主要靠客户预付款和贷款，而不是自有现金流。但微软数据中心交付延迟让这套 neocloud 财技被打上问号。这是 CoreWeave 之后又一家用'客户垫资'撑资本开支的公司，AI 基建的融资链条正在变长也变脆。"
+  },
+  {
+   "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 68,
+   "id": "n21",
+   "summary": "Edge0-145B 号称能'在自己的电脑上跑出前沿 AI 能力'，把 145B 级模型推到本地部署。这和最近端侧推理、量化、小模型的一串进展是同一个方向：前沿能力正在从 API 下沉到个人设备。对开发者意味着隐私敏感、离线、低延迟的场景突然变得可做。"
+  },
+  {
+   "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+   "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+   "desc": "This is Fireworks' second data breach in as many months.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n56",
+   "summary": "Fireworks AI 遭网络攻击，黑客拿到了 Notion 客户的聊天记录，这是它两个月内第二次数据泄露。推理/中间层服务商成了新的数据泄露薄弱环节——你把用户对话发给推理 API，就等于把数据边界交给了第三方。选型时数据留存和隔离条款值得重新审视。"
+  },
+  {
+   "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+   "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+   "desc": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n49",
+   "summary": "SoftBank 为给 AI 数据中心供电，预付 30 多亿美元抢订天然气涡轮机，结果录得亏损，可能给 AI 的'天然气野心'封顶。这暴露了电力已经成为 AI 扩张的硬约束：谁锁定电源谁就有产能，但长约和预付的财务风险也真实存在。"
+  },
+  {
+   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+   "desc": "",
+   "source": "Hugging Face Blog",
+   "lang": "en",
+   "id": "n37",
+   "summary": "IBM 在 Granite 4.1 3B/8B 上引入 LLMON，一种'LLM 原生'的标记语言，让模型输出更结构化、更容易被程序直接消费。小模型+强结构化输出，正是把模型塞进 agent 工具链的正确姿势，对做本地 agent 和自动化流水线的人有直接参考价值。"
+  },
+  {
+   "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+   "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 110,
+   "id": "n17",
+   "summary": "开发者吐槽 AI 正在把苹果 App Review 变成噩梦，尤其做合成器/音频类 AI 应用的团队，反复被以模糊理由打回。AI 功能的审核标准不透明、判定不一致，是独立开发者发布 AI 应用的现实风险，做 iOS 端 AI 产品要把审核周期和不确定性算进排期。"
+  },
+  {
+   "title": "Muse can now place calls to US businesses — if you pay",
+   "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+   "desc": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Muse 的 AI 现在可以替用户给美国商家打外呼电话，但要付费。这是 voice agent 从演示走向'代替你对外沟通'的收费服务，也是 agent 开始承担真实世界动作的典型场景。随之而来的是身份披露、骚扰滥用和责任归属问题，值得做 agent 产品的人提前设计。"
+  },
+  {
+   "title": "I'm making LLMs work on small and old devices",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 284,
+   "id": "n7",
+   "summary": "HN 上有人分享'让 LLM 跑在小内存和老设备上'的实践，讨论热度不低。这类工程需求真实存在，和 Edge0-145B 这类本地大模型形成呼应：端侧推理的瓶颈更多在内存带宽和量化工程，而不是模型本身。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph7",
+   "title": "three.dev",
+   "url": "https://www.producthunt.com/products/three-dev",
+   "desc": "Find out how your AI agent fails. Before your users do. Discussion | Link",
+   "summary": "three.dev：给 AI agent 做「失败检测」，在用户碰到之前先看你 agent 会在哪些地方翻车。现在大家都在堆 agent，但缺可观测性和回归测试，这个方向切的是生产化刚需，做 agent 工程的值得看一眼它怎么定义失败。"
+  },
+  {
+   "id": "ph0",
+   "title": "Spacefast by Automattic",
+   "url": "https://www.producthunt.com/products/spacefast-by-automattic",
+   "desc": "Give your AI agents a place to build, run, and ship Discussion | Link",
+   "summary": "Spacefast by Automattic：给 AI agent 一个「建、跑、发」的地方，等于 agent 的托管部署平台。Automattic（WordPress 母公司）亲自下场做 agent 运行环境，说明 agent hosting 这条赛道已经被大厂盯上了，值得关注它会不会走 WP 那套生态打法。"
+  },
+  {
+   "id": "ph29",
+   "title": "Harness Memory",
+   "url": "https://www.producthunt.com/products/epsilla",
+   "desc": "Long-term memory for agents, across every harness Discussion | Link",
+   "summary": "Harness Memory：给 agent 做跨 harness 的长期记忆，不管你的 agent 跑在 Claude Code、Codex 还是别的壳里，记忆都能共用。记忆层正在从「每个工具自己做」变成「统一一层」，这是很典型的中间层创业机会。"
+  },
+  {
+   "id": "ph20",
+   "title": "Plurai Simulation",
+   "url": "https://www.producthunt.com/products/plurai",
+   "desc": "A simulated world that makes your agent improve on every run Discussion | Link",
+   "summary": "Plurai Simulation：造一个模拟世界，让你的 agent 每跑一次就变强一点。本质是给 agent 做可复现的仿真训练和评测环境，解决真实环境试错成本太高的问题，做 agent 迭代的团队会很需要。"
+  },
+  {
+   "id": "ph8",
+   "title": "Crossfade",
+   "url": "https://www.producthunt.com/products/crossfade",
+   "desc": "Let your coding agent design in your open Figma file Discussion | Link",
+   "summary": "Crossfade：让你的 coding agent 直接在你打开的 Figma 文件里做设计。把「写代码的 agent」和「设计稿」打通，省掉截图—描述—改稿的来回，对一人多角色的开发者挺实用。"
+  },
+  {
+   "id": "ph25",
+   "title": "Foxpit",
+   "url": "https://www.producthunt.com/products/foxpit",
+   "desc": "Run Claude Code, Codex & OpenCode as one AI team Discussion | Link",
+   "summary": "Foxpit：把 Claude Code、Codex、OpenCode 当成一个 AI 团队一起跑。多 CLI agent 编排是最近很热的一类需求，亮点是跨厂商混用，不被单一模型绑死。"
+  },
+  {
+   "id": "ph9",
+   "title": "Omnigraph",
+   "url": "https://www.producthunt.com/products/omnigraph",
+   "desc": "Open source graph database for your AI agents Discussion | Link",
+   "summary": "Omnigraph：给 AI agent 用的开源图数据库。agent 的记忆和关系数据需要图结构，而现有图库对 agent 场景不友好，开源+agent 原生这个组合有想象空间，做 RAG/记忆层的可以看下。"
+  },
+  {
+   "id": "ph28",
+   "title": "Sluice",
+   "url": "https://www.producthunt.com/products/sluice-2",
+   "desc": "Room to build on your Mac, even with 20 agents at once Discussion | Link",
+   "summary": "Sluice：让 Mac 上同时跑 20 个 agent 也不卡，解决本地并行 agent 的资源隔离问题。和 Gnista 那类「多开 coding agent」工具是一个思路——agent 变多之后，本机资源调度成了新瓶颈。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "llm-gemini 0.37",
+   "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+   "desc": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M)",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon Willison 发布 llm-gemini 0.37 插件，跟上 Google 今天上线的 Gemini 4 Hydrogen——Gemini 4 家族里最便宜的一档。但他吐槽整个 Gemini 4 的定价看不懂：Hydrogen 跟更大的 Carbon、Argon 价格差不了多少，文中直接贴了按日期分档的输入价格表，想选型/算成本的话值得点进去看一眼。"
+  },
+  {
+   "title": "[AINews] D-Day (Decision Models Day)",
+   "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+   "desc": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b10",
+   "summary": "Latent Space 的 AINews 日报：Google 正式杀进 decision model（决策模型）市场；AI Engineer 大会上 Cloudflare 演示了构建失败时哪些环节可以交给分类器处理，TypeSafe AI 则晒了他们的生产客户。适合快速扫一遍当天行业动向。"
+  },
+  {
+   "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+   "url": "https://latent.space/p/jev-revolution/",
+   "desc": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b11",
+   "summary": "AI Engineer Code Summit 现场：Jev（System One 模型）作者 Diogo Almeida 喊话开发者「把所有能自动化的都自动化」，Glean 等公司展示了他们在生产里怎么用 Jev。想知道「系统一」类快模型现在真能干什么，看这篇比看 benchmark 实在。"
+  },
+  {
+   "title": "The Home Repo Pattern",
+   "url": "https://www.aihero.dev/the-home-repo-pattern",
+   "desc": "One repo for your skills, AGENTS.md and shared docs, with pointers to your other repos. A reference, with a setup prompt you can copy.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b7",
+   "summary": "Matt Pocock 提的 Home Repo Pattern：把所有 skills、AGENTS.md 和共享文档集中放一个仓库，其他项目仓库只做指针指过来。文中给了可直接复制的 setup prompt，属于能马上抄的 agent 工程实践。"
+  },
+  {
+   "title": "AI Coding Dictionary",
+   "url": "https://www.aihero.dev/ai-coding-dictionary",
+   "desc": "The vocabulary of AI coding, translated into plain English for engineers.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b8",
+   "summary": "Matt Pocock 做的「AI 编码词典」，把 AI coding 圈的黑话逐个翻译成工程师听得懂的大白话。适合当术语对照表收藏，跟人聊 agent、context、tool use 时不再被词绕晕。"
+  },
+  {
+   "title": "AI | AI Coding Dictionary",
+   "url": "https://www.aihero.dev/ai-coding-dictionary/ai",
+   "desc": "A moving label, not a technology. Points at whatever computers can newly, impressively do — right now, large language models.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b9",
+   "summary": "词典里的「AI」词条本身：AI 不是某一种技术，而是一个不断漂移的标签——永远指向计算机刚刚做到的、看起来很惊艳的那件事，今天指的就是大模型。很短，但对写文章、跟非技术同事解释概念挺有用。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程化已经从\"加分项\"变成 JD 主线。SHEIN 的 AI Agent 岗直接写明任务拆解、上下文管理、Skill/MCP 工具接入、LLM-as-Judge 评测；杭州某头部互联网把 Agentic 后训练（SFT/RM/RLHF/DPO/GRPO）和分层记忆体系写进职责；连 Kimi 都开了 Harness 方向的实习。会写 prompt 已经不够，要能把 Agent 跑通、能定位它为什么失败。",
+   "推理侧 Infra 的需求明显压过训练侧。Toptal 在找懂 vLLM/SGLang/TensorRT-LLM 的推理工程师，上海 GPU 算力平台岗的核心 KPI 是\"提升单位 GPU 的 token 产出\"，联想超节点、阿里 Token Foundry 也都在招训推协同。信号很清楚：模型不再是稀缺品，把每个 token 的成本打下来才是。",
+   "\"给模型出题\"成了独立工种。Toptal 的 Terminal-Bench Task Designer、上海 P6/P7 的大模型评测工程师（要求设计能难住顶级模型的编程任务+自动化评分器+防作弊）、Cocient 按小时雇专家写 eval，本质都是把资深工程经验转成模型的能力边界测试。这类岗位看重真实代码库的踩坑经验，而不是算法论文。",
+   "语言栈上呈现\"Python/TS 打底 + Go 做 Agent 后端 + Rust 做网关/安全\"的三层结构。远程 Agent 后端岗大量要 Go（Salesforge、Benzinga、Kong、以及多个国内远程岗），Rust 出现在 Kong AI Gateway、量化撮合和 Radar 这类低延迟/安全场景。",
+   "FDE（Forward Deployed Engineer）这一类\"能去客户现场把 AI 落下来\"的角色在扩散：Databricks 的 Deployment Strategist、Odette、Oscilar 都在招，北京也有创业公司在招常驻客户现场的 AI 交付工程师。同时安全 × AI 开始成对出现——Apollo Research 招 coding agent 安全产品的首位 AE，新加坡某大厂用 LLM+Agent 搭反欺诈风控工作流。"
+  ],
+  "gigs": [
+   "按件计酬的\"模型训练供应链\"正在成形。Askable 明码标价 US$1,000/task，让你把熟悉仓库里的一次真实改动做成 AI coding 任务，想做多少做多少；Toptal 的 Terminal-Bench 任务设计同理。抢手的是有多年真实代码库经验的人，不是刷题选手。适合当副业现金流，但定价权在平台手里。",
+   "中小老板要的是\"能跑通的 Agent MVP\"，不是自研 SaaS。典型样本：有人招兼职用 n8n + GitHub 商业友好开源项目二次开发，做外贸 B2B 获客 Agent（产品分析→ICP→企业搜索→评分→找邮箱）；还有成品号销售平台的二次开发运维。活儿碎、预算有限、但对能独立交付的人溢价高。",
+   "远程兼职呈两极：一极是碎片化时薪制（加拿大医美 AI 公司每周约 3 小时、月付 10-16K；AI 视频创作兼职），另一极是要 founding engineer 给股权/分成（Matcha.fm、Thankly、Kaida）。中间地带——稳定远程全职——主要来自出海社交/视频类公司，AI 工作流工程师 25-38K，栈是 React+TS+Go。",
+   "地理套利窗口还开着：东京 Voice AI 公司全英文、42-85 万 RMB 年薪包签证和 relocation；美国 remote 岗（Piramidal 200-300K USD、BuildQ 130-150K）基本只招本地。国内远程 AI 应用/产品岗集中在 20-40K 区间。注意：以上关于\"远程市场结构\"的判断来自本周抓取的百来条样本，样本有限，趋势方向可信、具体比例不可当统计结论。"
+  ],
+  "highlights": [
+   {
+    "title": "阿里巴巴 Token Foundry Infra 团队社招",
+    "desc": "支撑 Qwen 系列大模型，挑战万卡集群极限性能 一、团队介绍 阿里巴巴 Token Foundry Infra 团队是支撑 Qwen 系列大模型的核心技术底座，致力于打造业界一流的 AI 训练与工程化平台，构建从底层算力管理到上层训练框架的全栈技术体系，支撑模型高效迭代。 二、重点技术方向 1. 训练加速 面向 Dense/MoE 架构，覆盖预训练到强化学习（ RL ）全阶段，通过并行策略、计算通信重叠与显存优化，持续提升有效算力。 2. 稳定底座 覆盖任务提交、调度运行、资源弹性与故障恢复，建设可工程化、可自动化、可规模化的稳定训练底座，支撑模型持续进化。 3. Agent Infra 建",
+    "url": "https://www.v2ex.com/t/1253934#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m45",
+    "summary": "阿里 Token Foundry Infra（Qwen 底座）社招，把\"Agent Infra\"和训练加速、稳定底座并列成四大方向之一——大厂已经把 Agent 当基础设施而非应用层来做。"
+   },
+   {
+    "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM) @ Toptal",
+    "desc": "Artificial Intelligence, Docker, Git, Graphics Processing Unit, LLM",
+    "url": "https://remoteOK.com/remote-jobs/remote-ml-inference-engineer-terminal-bench-task-designer-vllm-sglang-tensorrt-llm-toptal-1137689",
+    "source": "RemoteOK",
+    "id": "m3",
+    "summary": "Toptal 招 ML Inference Engineer 去做 Terminal-Bench 任务设计，要求 vLLM/SGLang/TensorRT-LLM——推理优化能力正在被单独定价，用途是造评测而不是造产品。"
+   },
+   {
+    "title": "Askable: Software Engineer, AI Coding Tasks (Contract)",
+    "desc": "Headquarters: Australia URL: https://www.askablelabs.com/ We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's ",
+    "url": "https://weworkremotely.com/remote-jobs/askable-software-engineer-ai-coding-tasks-contract",
+    "source": "WeWorkRemotely",
+    "id": "m19",
+    "summary": "Askable 明码 US$1,000/task 收购 AI coding 任务，用你熟悉的代码库造题——模型能力供给已经形成按件结算的分包市场。"
+   },
+   {
+    "title": "[南京/深圳/上海/广州] SHEIN 11 月新出 8 个技术岗，月薪 25-90K， Agent/算法/搜广推/Go/大数据",
+    "desc": "SHEIN （希音）技术岗内推。最近两周新开的 8 个岗位。 [ AI / Agent ] AI Agent 开发工程师｜南京｜ S5 ｜本科｜ 30-45K/月｜ MJ016660\n做公司内部的 AI 办公工作台，员工用自然语言把活交给 Agent 去干。你负责 Agent 核心能力：任务拆解和执行、上下文管理、Skill/MCP 工具接入、LLM-as-a-Judge 评测、问题定位链路。\n要求：TypeScript/Node.js 或 Python 至少熟一门；真的动手做过 Agent ，用 Function Calling 、MCP 或某个 Agent 框架跑通过项目，个人项目、开源都",
+    "url": "https://www.v2ex.com/t/1255233#reply2",
+    "source": "V2EX 酷工作",
+    "id": "m28",
+    "summary": "SHEIN 南京 AI Agent 开发岗（30-45K）JD 直接要求 Function Calling、MCP、LLM-as-Judge 评测和问题定位链路——传统电商巨头的常规岗位已完成 Agent 化改写。"
+   },
+   {
+    "title": "AI Agent / n8n 兼职开发｜GitHub开源Skill二次开发",
+    "desc": "寻找一名兼职 AI Agent / n8n / Python 开发工程师，基于现有 GitHub 商业友好开源项目进行二次开发，完成外贸 B2B 获客 Agent MVP。 第一版不是从零开发完整 SaaS。 核心流程： 产品资料   → AI分析产品   → ICP客户画像   → 海外企业搜索   → 企业官网分析   → 客户筛选/评分   → 联系人查找   → 邮箱获取/验证   → A",
+    "url": "https://eleduck.com/posts/jAfWJg",
+    "source": "电鸭社区",
+    "id": "m70",
+    "summary": "兼职需求：基于开源项目二次开发 n8n 外贸 B2B 获客 Agent MVP——最典型的小额高频 Agent 外包形态，先跑通流程再谈产品。"
+   },
+   {
+    "title": "上海社招， AI Infra / Agent Infra 工程师",
+    "desc": "AI Infra：GPU 算力优化工程师 工作地点：　上海徐汇 经验要求：3–5 年 薪资 30-50k 团队与岗位简介 我们负责公司 AI Infra 算力平台的建设，为企业客户提供统一的 GPU 算力调度底座。平台同时运行 Kubernetes （ Volcano / Kueue ）和 Slurm 两套调度体系，承载大规模分布式训练、批量推理与交互式开发任务，并在推进两者的融合与统一纳管；在算力之上提供 MaaS 模型服务，以 token 计费对外输出算力。我们鼓励你在日常工作中大量使用 AI 提效工具。 岗位职责 负责大模型推理服务的性能优化，提升单位 GPU 的 token 产出，支撑",
+    "url": "https://www.v2ex.com/t/1255084#reply0",
+    "source": "V2EX 酷工作",
+    "id": "m29",
+    "summary": "上海 AI Infra 岗描述里，K8s（Volcano/Kueue）与 Slurm 双调度并存、以 token 计费对外输出算力——算力正在被彻底商品化，优化目标是单位 GPU 的 token 产出。"
+   }
+  ],
+  "week": "2026-W46"
+ },
+ "llm_used": true,
+ "degraded": []
+}
