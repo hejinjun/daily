@@ -1,0 +1,66 @@
+{
+ "skills": [
+  "Agent 工程已经压过“会调 LLM API”成为默认门槛。刷一遍样本，Agent 相关岗位占比最高，而且 JD 写得越来越具体：任务拆解、上下文与状态管理、Skill/MCP 工具接入、Function Calling、多轮对话、LLM-as-a-Judge 评测、线上问题定位（见 m45 SHEIN、m49 超数智能、m35 蚂蚁、m27 短剧团队、m43 千问）。关键变化是：一年前问“用没用过 RAG”，现在问“你亲手跑通过哪个 Agent 框架、效果怎么调的”。只会 prompt 已经不算技能。",
+  "Forward Deployed Engineer（FDE）/产品工程师，正成为 AI 落地公司里相当标准的岗位。m76（Elm AI）、m20（Alloy）、m97（Seal）、m64（珞瑜云科）、m38（Openmart）都是同一个要求：直接跟客户沟通，把模糊需求拆成流程，然后自己写代码交付，对一块业务结果负责。这反映行业正从“造模型”转向“把模型安装进客户流程”，这类岗位要的是工程、沟通和业务判断的结合，技术深度并非最大门槛。",
+  "AI Infra 是薪资最高、进入门槛也最明确的一类：GPU 算子优化、训推框架、K8s（Volcano/Kueue）+ Slurm 双调度、万卡集群稳定性、推理侧 vLLM/SGLang/TensorRT-LLM 的单位 GPU token 产出（m46 上海 GPU 算力、m50 联想超节点、m62 阿里 Token Foundry、m4 Toptal）。而且大厂已经把“Agent Infra”跟训练加速并列写进底座团队的技术方向，说明 Agent 不只是应用层的事，推理调度和长任务执行开始需要底层支持。",
+  "“传统技术栈 + AI 能力”成为普通工程岗的新基线，纯 AI 算法岗反而没那么多。m36 远程 SpringBoot 岗要会接 LLM API、流式响应、限流熔断、上下文维护；m34 广州 Java 全栈要“用 AI 编程工具搭管理后台 + 把 Agent 接进业务流”；m55/m58 的 Flutter/H5 岗直接把“熟练使用 AI Coding 工具提升人效”写进任职要求。信号很明确：AI 能力正在被吸收进常规开发岗，不再单独作为岗位标签。",
+  "垂直行业 AI 需求全面铺开，做的多是重复性劳动多的领域：牙科与医疗 RCM（m75、m84）、建筑 context layer（m85）、风电运维（m63）、保险福利解析、CAD/机械工程（m101 3ive 要做“机械工程版 Cursor”）、表格基础模型（m102 Prior Labs）。共同点是：数据脏、流程长、人工审阅成本高。这类岗位往往更看重懂业务、能把 AI 接进流程的人，而非模型能力本身。"
+ ],
+ "gigs": [
+  "模型训练侧正在形成一类新的零工：为模型设计任务、编写基准、做评判，不参与产品开发。m4 Toptal 招 Terminal-Bench 任务设计师（要求懂 vLLM/SGLang/TensorRT-LLM），m99 OpenTrain AI 按任务付费招后端工程师做 AI Coding 任务设计（$30–100/小时等效，每周约 15 小时，远程美国），m3 Toptal 招懂供应链和 Python 的人做 AI 供应链任务设计，m5 iMerit 视频标注。这类活的好处是门槛取决于经验而不是学历，坏处是单价被平台抽成、不可持续。样本有限，但“用你的行业经验给模型造题和打分”这个方向很确定。",
+  "中文区远程外包高度集中在“AI 工作流与内容生产”的整合岗位：AI 短剧流水线（m27 杭州 2 人 + 1 实习）、AI 视频生成与剪辑（m69、m30）、AI 工作流全栈（m54、m58、m59，20–38K）、兼职做康复运动处方网页 + 自动生成解剖视频（m66）。甲方普遍要求一个人从需求到上线全部做完，React/TS + Go/Python 加 AI 接入是常见组合。报酬已经不低，但竞争也激烈，能拿出真实上线作品的人更容易胜出（对比 m29 那位非科班求职者，靠三个手搓项目就能进面试）。",
+  "按项目/分成合作的早期公司变多，全职岗位在减少。AetherGrid 招 fractional GTM（m98）、Sparcle 明确写“equity / part-time / fractional / project / 收入分成”（m103）、珞瑜云科按项目找 FDE（m64）、Native 招 3 个月 Builder-in-Residence（m81）。判断：种子期公司更愿意先按项目验人再转正，对独立开发者是机会，但要自己承担结算与范围蔓延风险。",
+  "另一个被忽视的需求来源是传统行业甲方直接发外包：m63 澳洲风电服务公司要自建一套 HR/项目/资产管理的 AI 管理系统，m71 要人二次开发 AI 账号销售平台。这类客户不懂技术、预算有限、需求模糊，但一旦合作顺畅，复购和转介绍空间较大，比在平台抢单更稳定。"
+ ],
+ "highlights": [
+  {
+   "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM) @ Toptal",
+   "desc": "Artificial Intelligence, Docker, Git, Graphics Processing Unit, LLM",
+   "url": "https://remoteOK.com/remote-jobs/remote-ml-inference-engineer-terminal-bench-task-designer-vllm-sglang-tensorrt-llm-toptal-1137689",
+   "source": "RemoteOK",
+   "id": "m4",
+   "summary": "Toptal 招 ML 推理工程师做 Terminal-Bench 任务设计，要求熟悉 vLLM/SGLang/TensorRT-LLM——连“出题和基准测试”都外包了，说明评测能力本身已成为稀缺品。"
+  },
+  {
+   "title": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design",
+   "desc": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design OpenTrain AI connects experienced professionals with paid, part-time AI training work. We are the hiring company and are actively filling this role. - $30–$100 per hour equivalent, paid per accepted task\n- 100% remote, United States\n- About 15 hours/week; choose your schedule We need backend engineers to design realis",
+   "url": "https://news.ycombinator.com/item?id=50420399",
+   "source": "HN Who is hiring? (November 2026)",
+   "id": "m99",
+   "summary": "OpenTrain AI 按任务付费招后端工程师设计 AI 编程题（$30–100/小时），是“工程经验变现为模型训练数据”这种新零工形态的典型样本。"
+  },
+  {
+   "title": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe",
+   "desc": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe considered) | Full-time We build AI agents that help companies work with their suppliers. Looking for someone who will talk to customers, figure out what needs building, and then build it. Want a referral? DM me on X @Sarve___tanvesh",
+   "url": "https://news.ycombinator.com/item?id=50481529",
+   "source": "HN Who is hiring? (November 2026)",
+   "id": "m76",
+   "summary": "Elm AI 招 Forward-Deployed Product Engineer（纽约/伦敦，可远程），JD 就是“跟客户聊、判断要做什么、然后自己做出来”——FDE 已是 AI SaaS 的标准配置。"
+  },
+  {
+   "title": "[南京/深圳/上海/广州] SHEIN 11 月新出 8 个技术岗，月薪 25-90K， Agent/算法/搜广推/Go/大数据",
+   "desc": "SHEIN （希音）技术岗内推。最近两周新开的 8 个岗位。 [ AI / Agent ] AI Agent 开发工程师｜南京｜ S5 ｜本科｜ 30-45K/月｜ MJ016660\n做公司内部的 AI 办公工作台，员工用自然语言把活交给 Agent 去干。你负责 Agent 核心能力：任务拆解和执行、上下文管理、Skill/MCP 工具接入、LLM-as-a-Judge 评测、问题定位链路。\n要求：TypeScript/Node.js 或 Python 至少熟一门；真的动手做过 Agent ，用 Function Calling 、MCP 或某个 Agent 框架跑通过项目，个人项目、开源都",
+   "url": "https://www.v2ex.com/t/1255233#reply8",
+   "source": "V2EX 酷工作",
+   "id": "m45",
+   "summary": "SHEIN 招 AI Agent 开发工程师做内部办公工作台，技能栈写得很具体：任务拆解、Skill/MCP 工具接入、LLM-as-a-Judge 评测——传统大厂对 Agent 的要求已经模板化。"
+  },
+  {
+   "title": "阿里巴巴 Token Foundry Infra 团队社招",
+   "desc": "支撑 Qwen 系列大模型，挑战万卡集群极限性能 一、团队介绍 阿里巴巴 Token Foundry Infra 团队是支撑 Qwen 系列大模型的核心技术底座，致力于打造业界一流的 AI 训练与工程化平台，构建从底层算力管理到上层训练框架的全栈技术体系，支撑模型高效迭代。 二、重点技术方向 1. 训练加速 面向 Dense/MoE 架构，覆盖预训练到强化学习（ RL ）全阶段，通过并行策略、计算通信重叠与显存优化，持续提升有效算力。 2. 稳定底座 覆盖任务提交、调度运行、资源弹性与故障恢复，建设可工程化、可自动化、可规模化的稳定训练底座，支撑模型持续进化。 3. Agent Infra 建",
+   "url": "https://www.v2ex.com/t/1253934#reply1",
+   "source": "V2EX 酷工作",
+   "id": "m62",
+   "summary": "阿里 Token Foundry Infra 团队把“Agent Infra”与训练加速、稳定底座并列为三大方向，说明 Agent 的可靠性问题已经向上影响到调度层和训练底座。"
+  },
+  {
+   "title": "3ive | Senior/Staff Software Engineer | REMOTE (Europe) | Full-time | Python, Ty",
+   "desc": "3ive | Senior/Staff Software Engineer | REMOTE (Europe) | Full-time | Python, TypeScript, React, AI Agents We’re building Cursor for mechanical engineering. Imagine an AI that doesn’t just answer questions about a mechanical design, but can actually understand CAD models, work with geometry, and help engineers create and modify real designs. That’s what we’re building. It’s a hard engineering prob",
+   "url": "https://news.ycombinator.com/item?id=50398466",
+   "source": "HN Who is hiring? (November 2026)",
+   "id": "m101",
+   "summary": "3ive 要做“机械工程版 Cursor”，让 AI 真正理解 CAD 几何并修改设计——垂直专业工具正在被 Agent 重做，这是留给创业者的明确空白领域。"
+  }
+ ],
+ "week": "2026-W47"
+}

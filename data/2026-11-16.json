@@ -1,0 +1,426 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "2026-11-16 10:14",
+ "trends": [
+  "治理和地缘政治成了今天的主线：Nvidia 领导层危机从公司内斗外溢成国会推动的芯片出口立法和亚洲各国政府的供应链风险表态，算力供给的政策不确定性已经压过技术不确定性，做 AI 产品的人要把 GPU 价格当成政治变量来规划。",
+  "就业和招聘端信号继续转冷：HN 的「Who is Hiring?」贴数量跌到 12 年低位，AI 已渗透约一半岗位的工作内容；与此同时 coding agent 在逆向 ECU 这类「脏活」上真出活了，工具型机会在垂直、非互联网场景而不是再做通用助手。",
+  "大厂把 AI 从「发能力」推向「验证能力」：OpenAI 用 GPT-6 Astra 参与标准模型格点定义的形式化证明并新开科学博客，Apple 联合 OpenEvidence 做医疗 AI 有效性研究——科学和医疗是接下来落地最快、也最需要证据的两个方向。",
+  "评测可信度成为新痛点：eval awareness vs eval paranoia 的讨论说明模型可能「知道自己在被考」，benchmark 从刷分博弈变成配合度博弈，做 agent 的团队最好尽早自建贴近真实任务的私有评测集。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 12
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 2
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 8
+  },
+  {
+   "name": "The Verge AI",
+   "count": 5
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 0
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 1
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 1
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 4
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh2",
+   "title": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "lang": "TypeScript",
+   "stars": "9,346",
+   "stars_today": "247 stars today",
+   "summary": "Google Labs 出的 Agent Skills 技能库，专门配 Stitch MCP server 用，每个 skill 都遵循 Agent Skills 开放标准，所以 Antigravity、Gemini CLI、Claude Code、Cursor 都能直接吃。今天暴涨 247 星，说明大家在赌一个方向：skill 会像 npm 包一样成为跨 agent 复用的最小分发单元，而 Google 想抢先定标准。"
+  },
+  {
+   "id": "gh11",
+   "title": "NVIDIA/SkillEvaluator",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "desc": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+   "lang": "Python",
+   "stars": "1,754",
+   "stars_today": "122 stars today",
+   "summary": "NVIDIA 出的 AI agent skill 评估框架，带质量门禁、语义重叠检测、自动生成合成评测集，还能实测 skill 挂上之后 agent 行为到底变没变。值得关注是因为现在 skill 数量已经泛滥到需要「评测基础设施」的阶段了，谁能量化 skill 质量，谁就掌握了 skill 生态的话语权——这活儿比再写一百个 skill 更有壁垒。"
+  },
+  {
+   "id": "gh8",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "lang": "Python",
+   "stars": "6,513",
+   "stars_today": "98 stars today",
+   "summary": "一个 Claude Code 的红队/漏洞挖掘 skill 打包，82 个 skill、15 个 slash 命令，把 681 份已披露报告的模式归纳成 24 类核心漏洞，外加企业身份和基础设施攻击矩阵。今天 98 星，反映的是「把安全专家的方法论固化进 agent」这条路已经被验证有人愿意用，做安全工具或想转 AI 安全的人可以拆开看它的知识结构化方式。"
+  },
+  {
+   "id": "gh7",
+   "title": "ggml-org/ggml",
+   "url": "https://github.com/ggml-org/ggml",
+   "desc": "Tensor library for machine learning",
+   "lang": "C++",
+   "stars": "15,936",
+   "stars_today": "43 stars today",
+   "summary": "ggml 这个 C++ 张量库是 llama.cpp 那一整条本地推理生态的地基，几乎所有消费级硬件跑大模型都绕不开它。今日只有 43 星，不是它不重要，而是它已经属于基础设施层——想理解端侧推理、量化、自研推理引擎的话，这是必读代码库。"
+  }
+ ],
+ "news": [
+  {
+   "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+   "desc": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded th",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "Nvidia 间谍丑闻之后，美国国会两党开始推动多项收紧 AI 芯片出口的法案，并要求相关方接受问责。这意味着对华芯片管制可能从行政手段升级为立法，一旦落地会直接改变全球算力供给和 GPU 价格预期，做模型和推理服务的公司需要提前评估供应风险。"
+  },
+  {
+   "title": "A step toward defining the Standard Model on a lattice",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "desc": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI 发布工作，探索在格点上给出标准模型的非微扰定义，并称 GPT-6 Astra 帮助把一个想法推进成了详细证明。两个信号值得注意：AI 已经开始参与理论物理的形式化推导，另一方面 OpenAI 官方文案里首次出现了 GPT-6 这个名字。同期他们还上线了面向科学的新博客。"
+  },
+  {
+   "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+   "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+   "desc": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n41",
+   "summary": "围绕前 CEO Jensen Huang 的剧情报出新进展，有传闻称他可能正在谋划回归。Nvidia 的领导层危机远未结束，公司战略、对开源的支持以及对外芯片供应承诺都处在不确定状态，短期任何与 Nvidia 相关的合作判断都要打折扣。"
+  },
+  {
+   "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+   "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "desc": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n39",
+   "summary": "亚洲多国政府对 Jensen Huang 离职做出正式反应：有的忙着确认芯片供应承诺，有的在评估对本地 AI 项目的影响，还有的在跟进相关调查。这说明 Nvidia 的治理风波已经从一家公司的公关危机，升级成各国产业政策层面的风险事件。"
+  },
+  {
+   "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+   "url": "https://www.hntrends.com/2026/november.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 34,
+   "id": "n21",
+   "summary": "HN 上的「Who is Hiring?」招聘贴数量跌到近 12 年最低，同时 AI 已经覆盖了大约一半岗位的工作内容。招聘渠道和初级岗位的收缩比宏观就业数据看起来更严重，对开发者的现实含义是：要么往 AI 相关岗位靠，要么把 AI 当提效杠杆，否则议价空间会持续被压缩。"
+  },
+  {
+   "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+   "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+   "desc": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by he",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n40",
+   "summary": "Apple 宣布与临床 AI 平台 OpenEvidence 合作开展 Health AI Usage Study，研究人们如何用对话式 AI 问医疗问题、这些回答到底有多大用。苹果在健康 AI 上从「加功能」转向「验证有效性」，如果这套方法跑通，可能成为消费级医疗 AI 的合规与信任范式，也意味着健康赛道对「有临床证据」的要求会越来越高。"
+  },
+  {
+   "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+   "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 342,
+   "id": "n2",
+   "summary": "有人用 Claude Code 和 Codex，靠一块 3 美元的 Arduino 逆向了自己 1994 年 Jeep 的 ECU。这是 coding agent 在真实硬件和嵌入式场景里的硬核用例，说明 agent 的价值正从「帮我写网页」转向「没人愿意干的脏活、累活」，也是做垂直 agent 创业可以直接抄的方向。"
+  },
+  {
+   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+   "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+   "desc": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n33",
+   "summary": "印度芯片初创 Bharat Semi 拿到 2400 万美元种子轮，主打 AI 传感器，并已在 General Atomics 等公司拿下设计订单。芯片创业的机会可能不在训练卡，而在边缘传感器这类细分市场；同时印度在明确扶持本土半导体，供应链多元化的窗口正在打开。"
+  },
+  {
+   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+   "desc": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n34",
+   "summary": "TechCrunch 讨论「Jensen Huang 的坏消息是否等于 AI 行业的坏消息」，核心担忧是整个 AI 经济过度绑定在 Nvidia 一家公司身上——「Jensen 就是 Nvidia，而整个经济都压在 Nvidia 上」。对创业者的启示是：算力供应和 GPU 定价的政治风险，现在和模型能力一样是必须纳入商业计划的一等变量。"
+  },
+  {
+   "title": "Eval Awareness vs. Eval Paranoia",
+   "url": "https://www.lesswrong.com/posts/mepsi7JNKYejq9wry/eval-awareness-vs-eval-paranoia",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 50,
+   "id": "n19",
+   "summary": "一篇讨论「Eval Awareness vs Eval Paranoia」的文章，讲模型是否会察觉自己正在被评测，以及这种怀疑导致的评测失真。做 agent 和模型评估的团队要留意：benchmark 的可信度问题正从「刷分」演变成「模型配合或不配合」的博弈，公开榜单的解释力在下降。"
+  },
+  {
+   "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+   "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+   "desc": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n44",
+   "summary": "当年参与解雇 Sam Altman 的 OpenAI 董事、现 Georgetown CSET 执行主任 Helen Toner 在访谈中表示，我们依然不能信任 AI 公司的 CEO。AI 治理的讨论重心正在从「模型会不会失控」转向「管模型的人是否可信」，这会直接影响监管框架、融资条款和公司治理结构的设计。"
+  },
+  {
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 206,
+   "id": "n4",
+   "summary": "一篇讲现代 LLM 中位置编码（positional embeddings）原理的技术文章，梳理了从绝对位置编码到 RoPE 等方案的设计取舍。属于常被跳过但很关键的基础知识，做长上下文、RAG 召回和推理优化的开发者值得重读一遍。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph6",
+   "title": "Talyn",
+   "url": "https://www.producthunt.com/products/talyn",
+   "desc": "Run Claude Code and Codex in parallel cloud sandboxes Discussion | Link",
+   "summary": "Talyn 让你在云端的沙箱里并行跑 Claude Code 和 Codex，多个编码 agent 同时开工互不干扰。对重度用 AI 写代码的开发者来说，这解决的是「串行等待」的痛点，也是 agent 编排从本地走向云端的一个信号。"
+  },
+  {
+   "id": "ph11",
+   "title": "Perit Marketplace",
+   "url": "https://www.producthunt.com/products/perit-marketplace",
+   "desc": "Sell your data and RL tasks to frontier AI labs Discussion | Link",
+   "summary": "Perit Marketplace 是个让你把自有数据和 RL 训练任务卖给前沿 AI 实验室的市场。值得留意的是它背后的趋势：高质量人类数据和任务标注正在变成可交易的资产，个人开发者也能从中变现。"
+  },
+  {
+   "id": "ph13",
+   "title": "ByteAsk Cloud Agents",
+   "url": "https://www.producthunt.com/products/byteask-cloud-agents",
+   "desc": "Find the fix in big codebases. Ship it from Slack. Discussion | Link",
+   "summary": "ByteAsk Cloud Agents 面向大型代码库，帮你在海量代码里定位问题，并直接从 Slack 里把修复发出去。亮点是把「查 bug + 提交」压缩到聊天窗口内完成，是 AI coding agent 往团队工作流里塞的典型尝试。"
+  },
+  {
+   "id": "ph7",
+   "title": "Pixel Office",
+   "url": "https://www.producthunt.com/products/pixel-office-3",
+   "desc": "Run a team of AI agents from a pixel-art office Discussion | Link",
+   "summary": "Pixel Office 用像素风办公室的可视化界面，让你管理和围观一队 AI agent 干活。把抽象的 agent 编排做成游戏化的「看工位」，有趣也可能真提升多 agent 的可观测性。"
+  },
+  {
+   "id": "ph2",
+   "title": "Rakazo",
+   "url": "https://www.producthunt.com/products/rakazo",
+   "desc": "The open source Grok Bot alternative you actually own Discussion | Link",
+   "summary": "Rakazo 是开源的 Grok Bot 替代品，卖点是你真正拥有它、数据不落在别人手里。在大家担心 AI 助手绑定平台的时代，自托管个人 AI 助手这条线值得关注。"
+  },
+  {
+   "id": "ph8",
+   "title": "Canvas by AgentGrid.io",
+   "url": "https://www.producthunt.com/products/agentgrid-io",
+   "desc": "Agentic Design Canvas - A visual way to collaborate with AI Discussion | Link",
+   "summary": "Canvas by AgentGrid 是个 Agentic Design Canvas，用可视化画布的方式和 AI 协作做设计。把「和 AI 对话」换成「在画布上摆东西」，是 AI 交互范式探索里比较有意思的方向。"
+  },
+  {
+   "id": "ph22",
+   "title": "Thunder",
+   "url": "https://www.producthunt.com/products/thunder-3",
+   "desc": "A blazing-fast, persistent, key-value AI workload database Discussion | Link",
+   "summary": "Thunder 是专为 AI 工作负载设计的持久化 key-value 数据库，主打极快。AI 应用普遍卡在向量/状态存储的性能和成本上，这类专用存储层是基础设施创业的热点。"
+  },
+  {
+   "id": "ph14",
+   "title": "Polylane for Security",
+   "url": "https://www.producthunt.com/products/polylane",
+   "desc": "Catch exploitable vulnerabilities before they ship Discussion | Link",
+   "summary": "Polylane for Security 在代码上线前抓出可被利用的漏洞，属于 AI 加持的代码安全扫描。随着 AI 生成代码大量涌入生产环境，上线前的自动化安全把关会越来越刚需。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "datasette 1.0a43",
+   "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+   "desc": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "Datasette 1.0a43 发布，作者说最近重度依赖 Claude（文中称 Fable 5.2）来推进 1.0 里程碑，目前进度 53%；这个版本最大的 1.0 特性是给输出渲染器加了流式输出支持，内置的 TSV/CSV 导出也切到流式，插件也能用——值得看的是「用 AI 硬啃大版本重构」这种工作方式，以及流式导出对大数据集场景的实际收益。"
+  },
+  {
+   "title": "datasette-maplibre 0.1a0",
+   "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+   "desc": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Cl",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "新插件 datasette-maplibre 0.1a0 发布，把 MapLibre GL 这个矢量地图库和 Zsolt Ero 维护的免费矢量地图服务 OpenFreeMap 接到了 Datasette 上，是好久以来第一个新的地理空间插件；作者强调大部分代码是「一句话 prompt 给 Claude」写出来的——既是一个自托管地图可视化的实用工具，也是 AI 辅助写插件的样本。"
+  },
+  {
+   "title": "datasette-apps 0.4a0",
+   "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+   "desc": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "datasette-apps 0.4a0 发布，所谓 Datasette Apps 就是跑在 Datasette 里的沙箱化 HTML/JS 小应用，作者形容为「Claude Artifacts，但能对你的数据跑 SQL 查询」；这版加了链接支持，可以用 URL 的 #fragment 直接链到某个 app，app 也能读到这个 fragment——对想做「数据 + 可分享小应用」形态的人挺有启发。"
+  },
+  {
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "desc": "The Methods Behind How LLMs Represent Token Positions",
+   "source": "Ahead of AI（Sebastian Raschka）",
+   "lang": "en",
+   "id": "b5",
+   "summary": "Sebastian Raschka 写的科普长文，系统讲现代 LLM 里位置编码（positional embeddings）的各种做法和背后的取舍：为什么模型需要知道 token 顺序、不同方案（如 RoPE 一类）怎么演化——适合补齐 Transformer 基础里最容易被跳过、但又直接影响长上下文表现的一块。"
+  },
+  {
+   "title": "How to Get Claude to Design Without AI Slop in 40 Minutes | Nate Parrott",
+   "url": "https://creatoreconomy.so/p/how-to-fix-ai-slop-with-claude-design-nate-parrott",
+   "desc": "Watch now (42 mins) | The designer behind Claude Design explains his 5 tips to avoid AI slop and demos how he designs features, dashboards, and motion videos with Claude",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b16",
+   "summary": "Peter Yang 对谈 Claude Design 背后的设计师 Nate Parrott（42 分钟视频），主题是怎么让 Claude 做设计而不产出「AI 味」的垃圾：给出 5 条实操建议，并现场演示用 Claude 设计功能、仪表盘和动效视频——做 AI 产品前端/设计协作的人可以直接抄作业。"
+  },
+  {
+   "title": "datasette 0.65.6",
+   "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+   "desc": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: sec",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "datasette 0.65.6 是个安全修复的向后移植版本：如果数据库是用 add_database(db, name=..., route=...) 注册且 route 与 name 不一致，那么被拒绝访问的用户仍能通过 /<route>.db 把整库下载走——自建 Datasette 且用了自定义路由的值得马上升级。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程已经压过“会调 LLM API”成为默认门槛。刷一遍样本，Agent 相关岗位占比最高，而且 JD 写得越来越具体：任务拆解、上下文与状态管理、Skill/MCP 工具接入、Function Calling、多轮对话、LLM-as-a-Judge 评测、线上问题定位（见 m45 SHEIN、m49 超数智能、m35 蚂蚁、m27 短剧团队、m43 千问）。关键变化是：一年前问“用没用过 RAG”，现在问“你亲手跑通过哪个 Agent 框架、效果怎么调的”。只会 prompt 已经不算技能。",
+   "Forward Deployed Engineer（FDE）/产品工程师，正成为 AI 落地公司里相当标准的岗位。m76（Elm AI）、m20（Alloy）、m97（Seal）、m64（珞瑜云科）、m38（Openmart）都是同一个要求：直接跟客户沟通，把模糊需求拆成流程，然后自己写代码交付，对一块业务结果负责。这反映行业正从“造模型”转向“把模型安装进客户流程”，这类岗位要的是工程、沟通和业务判断的结合，技术深度并非最大门槛。",
+   "AI Infra 是薪资最高、进入门槛也最明确的一类：GPU 算子优化、训推框架、K8s（Volcano/Kueue）+ Slurm 双调度、万卡集群稳定性、推理侧 vLLM/SGLang/TensorRT-LLM 的单位 GPU token 产出（m46 上海 GPU 算力、m50 联想超节点、m62 阿里 Token Foundry、m4 Toptal）。而且大厂已经把“Agent Infra”跟训练加速并列写进底座团队的技术方向，说明 Agent 不只是应用层的事，推理调度和长任务执行开始需要底层支持。",
+   "“传统技术栈 + AI 能力”成为普通工程岗的新基线，纯 AI 算法岗反而没那么多。m36 远程 SpringBoot 岗要会接 LLM API、流式响应、限流熔断、上下文维护；m34 广州 Java 全栈要“用 AI 编程工具搭管理后台 + 把 Agent 接进业务流”；m55/m58 的 Flutter/H5 岗直接把“熟练使用 AI Coding 工具提升人效”写进任职要求。信号很明确：AI 能力正在被吸收进常规开发岗，不再单独作为岗位标签。",
+   "垂直行业 AI 需求全面铺开，做的多是重复性劳动多的领域：牙科与医疗 RCM（m75、m84）、建筑 context layer（m85）、风电运维（m63）、保险福利解析、CAD/机械工程（m101 3ive 要做“机械工程版 Cursor”）、表格基础模型（m102 Prior Labs）。共同点是：数据脏、流程长、人工审阅成本高。这类岗位往往更看重懂业务、能把 AI 接进流程的人，而非模型能力本身。"
+  ],
+  "gigs": [
+   "模型训练侧正在形成一类新的零工：为模型设计任务、编写基准、做评判，不参与产品开发。m4 Toptal 招 Terminal-Bench 任务设计师（要求懂 vLLM/SGLang/TensorRT-LLM），m99 OpenTrain AI 按任务付费招后端工程师做 AI Coding 任务设计（$30–100/小时等效，每周约 15 小时，远程美国），m3 Toptal 招懂供应链和 Python 的人做 AI 供应链任务设计，m5 iMerit 视频标注。这类活的好处是门槛取决于经验而不是学历，坏处是单价被平台抽成、不可持续。样本有限，但“用你的行业经验给模型造题和打分”这个方向很确定。",
+   "中文区远程外包高度集中在“AI 工作流与内容生产”的整合岗位：AI 短剧流水线（m27 杭州 2 人 + 1 实习）、AI 视频生成与剪辑（m69、m30）、AI 工作流全栈（m54、m58、m59，20–38K）、兼职做康复运动处方网页 + 自动生成解剖视频（m66）。甲方普遍要求一个人从需求到上线全部做完，React/TS + Go/Python 加 AI 接入是常见组合。报酬已经不低，但竞争也激烈，能拿出真实上线作品的人更容易胜出（对比 m29 那位非科班求职者，靠三个手搓项目就能进面试）。",
+   "按项目/分成合作的早期公司变多，全职岗位在减少。AetherGrid 招 fractional GTM（m98）、Sparcle 明确写“equity / part-time / fractional / project / 收入分成”（m103）、珞瑜云科按项目找 FDE（m64）、Native 招 3 个月 Builder-in-Residence（m81）。判断：种子期公司更愿意先按项目验人再转正，对独立开发者是机会，但要自己承担结算与范围蔓延风险。",
+   "另一个被忽视的需求来源是传统行业甲方直接发外包：m63 澳洲风电服务公司要自建一套 HR/项目/资产管理的 AI 管理系统，m71 要人二次开发 AI 账号销售平台。这类客户不懂技术、预算有限、需求模糊，但一旦合作顺畅，复购和转介绍空间较大，比在平台抢单更稳定。"
+  ],
+  "highlights": [
+   {
+    "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM) @ Toptal",
+    "desc": "Artificial Intelligence, Docker, Git, Graphics Processing Unit, LLM",
+    "url": "https://remoteOK.com/remote-jobs/remote-ml-inference-engineer-terminal-bench-task-designer-vllm-sglang-tensorrt-llm-toptal-1137689",
+    "source": "RemoteOK",
+    "id": "m4",
+    "summary": "Toptal 招 ML 推理工程师做 Terminal-Bench 任务设计，要求熟悉 vLLM/SGLang/TensorRT-LLM——连“出题和基准测试”都外包了，说明评测能力本身已成为稀缺品。"
+   },
+   {
+    "title": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design",
+    "desc": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design OpenTrain AI connects experienced professionals with paid, part-time AI training work. We are the hiring company and are actively filling this role. - $30–$100 per hour equivalent, paid per accepted task\n- 100% remote, United States\n- About 15 hours/week; choose your schedule We need backend engineers to design realis",
+    "url": "https://news.ycombinator.com/item?id=50420399",
+    "source": "HN Who is hiring? (November 2026)",
+    "id": "m99",
+    "summary": "OpenTrain AI 按任务付费招后端工程师设计 AI 编程题（$30–100/小时），是“工程经验变现为模型训练数据”这种新零工形态的典型样本。"
+   },
+   {
+    "title": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe",
+    "desc": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe considered) | Full-time We build AI agents that help companies work with their suppliers. Looking for someone who will talk to customers, figure out what needs building, and then build it. Want a referral? DM me on X @Sarve___tanvesh",
+    "url": "https://news.ycombinator.com/item?id=50481529",
+    "source": "HN Who is hiring? (November 2026)",
+    "id": "m76",
+    "summary": "Elm AI 招 Forward-Deployed Product Engineer（纽约/伦敦，可远程），JD 就是“跟客户聊、判断要做什么、然后自己做出来”——FDE 已是 AI SaaS 的标准配置。"
+   },
+   {
+    "title": "[南京/深圳/上海/广州] SHEIN 11 月新出 8 个技术岗，月薪 25-90K， Agent/算法/搜广推/Go/大数据",
+    "desc": "SHEIN （希音）技术岗内推。最近两周新开的 8 个岗位。 [ AI / Agent ] AI Agent 开发工程师｜南京｜ S5 ｜本科｜ 30-45K/月｜ MJ016660\n做公司内部的 AI 办公工作台，员工用自然语言把活交给 Agent 去干。你负责 Agent 核心能力：任务拆解和执行、上下文管理、Skill/MCP 工具接入、LLM-as-a-Judge 评测、问题定位链路。\n要求：TypeScript/Node.js 或 Python 至少熟一门；真的动手做过 Agent ，用 Function Calling 、MCP 或某个 Agent 框架跑通过项目，个人项目、开源都",
+    "url": "https://www.v2ex.com/t/1255233#reply8",
+    "source": "V2EX 酷工作",
+    "id": "m45",
+    "summary": "SHEIN 招 AI Agent 开发工程师做内部办公工作台，技能栈写得很具体：任务拆解、Skill/MCP 工具接入、LLM-as-a-Judge 评测——传统大厂对 Agent 的要求已经模板化。"
+   },
+   {
+    "title": "阿里巴巴 Token Foundry Infra 团队社招",
+    "desc": "支撑 Qwen 系列大模型，挑战万卡集群极限性能 一、团队介绍 阿里巴巴 Token Foundry Infra 团队是支撑 Qwen 系列大模型的核心技术底座，致力于打造业界一流的 AI 训练与工程化平台，构建从底层算力管理到上层训练框架的全栈技术体系，支撑模型高效迭代。 二、重点技术方向 1. 训练加速 面向 Dense/MoE 架构，覆盖预训练到强化学习（ RL ）全阶段，通过并行策略、计算通信重叠与显存优化，持续提升有效算力。 2. 稳定底座 覆盖任务提交、调度运行、资源弹性与故障恢复，建设可工程化、可自动化、可规模化的稳定训练底座，支撑模型持续进化。 3. Agent Infra 建",
+    "url": "https://www.v2ex.com/t/1253934#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m62",
+    "summary": "阿里 Token Foundry Infra 团队把“Agent Infra”与训练加速、稳定底座并列为三大方向，说明 Agent 的可靠性问题已经向上影响到调度层和训练底座。"
+   },
+   {
+    "title": "3ive | Senior/Staff Software Engineer | REMOTE (Europe) | Full-time | Python, Ty",
+    "desc": "3ive | Senior/Staff Software Engineer | REMOTE (Europe) | Full-time | Python, TypeScript, React, AI Agents We’re building Cursor for mechanical engineering. Imagine an AI that doesn’t just answer questions about a mechanical design, but can actually understand CAD models, work with geometry, and help engineers create and modify real designs. That’s what we’re building. It’s a hard engineering prob",
+    "url": "https://news.ycombinator.com/item?id=50398466",
+    "source": "HN Who is hiring? (November 2026)",
+    "id": "m101",
+    "summary": "3ive 要做“机械工程版 Cursor”，让 AI 真正理解 CAD 几何并修改设计——垂直专业工具正在被 Agent 重做，这是留给创业者的明确空白领域。"
+   }
+  ],
+  "week": "2026-W47"
+ },
+ "llm_used": true,
+ "degraded": []
+}
