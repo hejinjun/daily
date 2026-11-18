@@ -1,0 +1,388 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18 11:44",
+ "trends": [
+  "模型迭代节奏仍在加速，但关键词从「更强」变成「更便宜、更能干活」：OpenAI 一天连发 GPT-6.2 Astra/Sol 与面向销售、法律、科研的垂直版本，微软 MAI Code 2、腾讯 Hy4 Flash 同周跟进，coding 和 agent 场景是唯一主战场。",
+  "编码 agent 普及后，瓶颈从「写代码」转移到「验证代码」：哈佛研究指出 review 成了新堵点，Claude Code 团队也在公开谈验证方法论，CI/review/评测工具链是被验证过的新基础设施机会（StarSling 这类 self-improving CI 就是冲着这个来的）。",
+  "AI 正在吃掉自己的上游流量和入口：Google 自家 AI 摘要让搜索流量掉 40%，同时 Gemini 开始替用户打电话、下单；入口重构期，做「agent 可调用的服务」可能比做「给人看的网页」更有前途。",
+  "资本与安全两条线同时收紧：Anthropic IPO 后亚马逊+谷歌合计持股近 30%、Isomorphic Labs 单轮 50 亿美元，头部集中度进一步提升；另一边模型可被「当成游戏」诱导参与军事目标识别，加上 ONNX Runtime 从 GitHub 消失这类基础设施信任事件，值得做合规与安全的团队留意。"
+ ],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 15
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 7
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 9
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 1
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 1
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 1
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 4
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "desc": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "source": "OpenAI News",
+   "lang": "en",
+   "id": "n30",
+   "summary": "OpenAI 正式发布 GPT-6.2 Astra 与 Sol，官方口径是专业输出、编码、computer use 和效率全面增强，且成本更低，覆盖 ChatGPT Work、Codex 和 API。这是本轮最强的一次模型换代，且明确往下压价格，意味着 agent 类产品（长任务、多步工具调用）的推理成本结构会再变一次。做应用层的可以重估此前因成本放弃的场景。"
+  },
+  {
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 149,
+   "id": "n15",
+   "summary": "有分析称 Google 的 AI 摘要式回答已让搜索流量下降约 40%。这不是小波动，而是「AI 吃掉自己入口」的实证：内容站的 SEO 生意在被系统性抽干，同时用户获取信息的默认路径正在从「点链接」变成「看结论」。对独立开发者的直接影响是，靠搜索流量做冷启动的老套路在失效，得转向 agent 渠道或产品内分发。"
+  },
+  {
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 81,
+   "id": "n21",
+   "summary": "哈佛研究团队发现，AI 编码 agent 大规模落地后，开发瓶颈从写代码转移到了 code review。也就是说 agent 产出的速度已经超过人类审查的能力上限，谁能让 review 变快变准，谁就卡住了新流程的咽喉。这是很明确的工具与流程创业信号。"
+  },
+  {
+   "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+   "desc": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n42",
+   "summary": "Anthropic IPO 后，亚马逊将持股略低于 15%、谷歌接近 14%，两家合计接近 30%，且亚马逊还有继续增持的选项。这说明前沿模型公司的独立性在资本层面被两家云厂商深度绑定，创业者在选模型供应商时实际上也在选云。对生态的影响是：中立第三方模型托管/路由的价值反而上升。"
+  },
+  {
+   "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+   "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+   "desc": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying ",
+   "source": "The Verge AI",
+   "lang": "en",
+   "id": "n58",
+   "summary": "Nvidia 发布 Q3 财报，业绩达标，但整场电话会由临时 CEO Colette Kress 和董事长主持，几乎绕开了黄仁勋离职风波。叠加公司宣布不再向中国卖芯片、SEC 据报已介入调查，Nvidia 正处在前所未有的治理真空里。短期算力供给和定价不会崩，但采购方该开始考虑单一供应商风险。"
+  },
+  {
+   "title": "MAI Code 2 and Code 2 Flash",
+   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 308,
+   "id": "n7",
+   "summary": "微软发布 MAI Code 2 与 Code 2 Flash，主打编码场景，Flash 版本明显是冲着低延迟、低成本去的。这是微软自研模型在开发者工具链上的正面进攻，直接对标 Codex 和 Claude Code。对开发者来说，编码 agent 的选择又多了一条，而且价格战会继续压薄推理成本。"
+  },
+  {
+   "title": "Tencent Hy4 Flash",
+   "url": "https://hy.tencent.ai/research/hy4-flash",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 72,
+   "id": "n23",
+   "summary": "腾讯发布 Hy4 Flash，延续国内厂商「Flash 小快模型」的路线。这类模型的意义不在刷榜，而在于把 agent 高频调用的成本压到可以规模化商用的水平。国内做应用的成本优势还在扩大。"
+  },
+  {
+   "title": "How the Claude Code team thinks about verification",
+   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 275,
+   "id": "n9",
+   "summary": "Claude Code 团队公开讲他们怎么思考「验证」这件事——即怎么确认 agent 写的代码真的对。这是当前 agent 工程里最没被标准化的一环，比 prompt 技巧重要得多。认真做 agent 产品的团队应该把它当成必读的工程方法论，而不是产品宣传。"
+  },
+  {
+   "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+   "desc": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n55",
+   "summary": "从 DeepMind 拆分出来的 AI 制药公司 Isomorphic Labs 完成 50 亿美元 C 轮融资，目标是把候选药物推进临床试验。这是 AI for Science 里金额最大的一笔之一，说明资本愿意为「AI 缩短药物发现周期」这个长周期故事下重注。对技术人来说，生物+AI 的复合背景仍是稀缺资源。"
+  },
+  {
+   "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+   "desc": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "id": "n51",
+   "summary": "旧金山评测公司 Vals 测试发现，只要告诉模型「这是游戏」，多个前沿模型就可能被诱导去识别平民为军事目标。这不是理论风险，而是对 agent 安全对齐的现实拷问：上下文框架一句话就能绕过护栏。做 agent 落地的团队需要把这类「框架诱导」纳入红队测试。"
+  },
+  {
+   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+   "url": "https://github.com/microsoft/onnxruntime",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 166,
+   "id": "n14",
+   "summary": "微软的 ONNX Runtime 仓库突然从 GitHub 上消失，在开发者社区引发不小震动。ONNX 是跨框架模型部署的关键中间层，很多生产推理链路依赖它。事件本身还在澄清，但提醒大家：开源基础设施的可用性并不是理所当然的，关键依赖要有镜像和退路。"
+  },
+  {
+   "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+   "url": "https://starsling.dev",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 60,
+   "id": "n24",
+   "summary": "YC P25 项目 StarSling 登上 Launch HN，做的是面向「agent 提交量爆炸」仓库的自我改进型 CI。它瞄准的正是 agent 让 PR 数量翻倍、传统 CI 和 review 流程被冲垮的痛点。这是把「agent 时代的工作流改造」直接产品化的典型案例，值得观察其留存数据。"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph6",
+   "title": "Versine",
+   "url": "https://www.producthunt.com/products/versine",
+   "desc": "Let your AI send and receive money. We're Venmo for agents. Discussion | Link",
+   "summary": "给 AI Agent 用的 Venmo——让 agent 能收钱付钱，打通 agent 之间的支付环节。值得关注是因为 agent 要真正干活（买数据、调 API、雇别的 agent），绕不开「钱」这一层，这是 agent 经济最卡的基础设施，早期卡位机会。"
+  },
+  {
+   "id": "ph14",
+   "title": "Ballet",
+   "url": "https://www.producthunt.com/products/ballet",
+   "desc": "Deterministic AI workflow automation for Ops teams Discussion | Link",
+   "summary": "面向 Ops 团队的确定性 AI 工作流自动化，强调同一输入必得同一结果、可复现。企业落地 agent 最大的阻力就是 LLM 不确定、出了错说不清，把「确定性」当卖点切中了真实痛点，很可能成为 agent 进生产环境的标配形态。"
+  },
+  {
+   "id": "ph16",
+   "title": "infaiw",
+   "url": "https://www.producthunt.com/products/infaiw",
+   "desc": "Delegate work to sidecar agents that pass an approval script Discussion | Link",
+   "summary": "把活派给 sidecar agent，但它必须先通过一段审批脚本才能执行。本质是给 agent 加一道可编程的权限/合规闸门，agent 越自主，这类「刹车层」越刚需，适合想做 agent 安全与治理方向的开发者。"
+  },
+  {
+   "id": "ph27",
+   "title": "Hako",
+   "url": "https://www.producthunt.com/products/hako",
+   "desc": "Every coding agent on every Mac, in your pocket Discussion | Link",
+   "summary": "手机上就能看和操作每台 Mac 上的所有 coding agent，等于给多机多 agent 一个随身控制台。现在一个人同时跑 Claude Code、Codex 好几个 agent 已是常态，这类「agent 运维界面」是明显的空位。"
+  },
+  {
+   "id": "ph7",
+   "title": "superlog",
+   "url": "https://www.producthunt.com/products/superlog",
+   "desc": "Finds the production bugs your monitoring never sees Discussion | Link",
+   "summary": "专门抓监控看不到的生产环境 bug 的 AI 工具。传统 APM 只能报指标异常，逻辑错误、偶发脏数据这类问题一直靠人肉排查，用 AI 补这块盲区，属于离钱近、价值好衡量的开发者工具。"
+  },
+  {
+   "id": "ph9",
+   "title": "Trading Agents",
+   "url": "https://www.producthunt.com/products/alpha-vantage",
+   "desc": "An equity research desk that argues with itself Discussion | Link",
+   "summary": "一个会跟自己吵架的股票研究台——多个 agent 互相辩论出结论。多 agent 辩论不是新概念，但落到投研这种高价值、天然需要多空对辩的场景很合适，也是观察「多 agent 是否真比单 agent 强」的好样本。"
+  },
+  {
+   "id": "ph8",
+   "title": "Glass Page",
+   "url": "https://www.producthunt.com/products/glass-page",
+   "desc": "A place for people to review an agent's work Discussion | Link",
+   "summary": "给 agent 的产出建一个人类评审页，让人来 review agent 干的活。agent 大量产出后，验收环节反而成了瓶颈，这块「人机协作的审核界面」现在很少有人认真做，可能是被低估的切入点。"
+  },
+  {
+   "id": "ph23",
+   "title": "Lasso",
+   "url": "https://www.producthunt.com/products/lasso-11",
+   "desc": "Draw on your Mac screen, then let AI agents see it Discussion | Link",
+   "summary": "在 Mac 屏幕上随手画几笔，AI agent 就能看到并理解你在指什么。给 agent 加了一种最自然的输入方式——指着说，交互上挺有想象力，也提示未来 agent 的输入端不只是文字。"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+   "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+   "desc": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new mode",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1",
+   "summary": "OpenAI 一口气发了两个新模型：GPT-6.2 Astra 是冲最难项目的旗舰，GPT-6.2 Sol 是日常干活用的高效通用款，API 里分别叫 gpt-6.2-astra 和 gpt-6.2-sol；Simon 顺手发了 LLM 0.38 支持这两个新模型，值得看的是这波「旗舰 + 日常」双线命名和定位怎么划分。"
+  },
+  {
+   "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+   "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+   "desc": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b12",
+   "summary": "AINews 当日汇总：Perplexity 年化收入冲到 10 亿美元、2026 年一年翻了 4 倍，同一天还有 Computer 推出 Teammates（给 agent 配队友）、Perplexity 上线 Monitor API、以及一家新研究实验室开张；值得看的是 AI 搜索这条赛道商业化到底跑通没有的硬数据。"
+  },
+  {
+   "title": "External sandboxes for coding agents",
+   "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+   "desc": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this pr",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0",
+   "summary": "Simon 在折腾给 coding agent 执行的代码套外部沙箱，动机很实际：想放心试本地模型，不怕它犯错或被 prompt injection 之后在你自己机器上乱删乱改；他为此提了个 PR。对想本地跑 agent 的开发者是直接可用的安全思路。"
+  },
+  {
+   "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+   "url": "https://latent.space/p/cloudflare/",
+   "desc": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b11",
+   "summary": "Cloudflare 宣布加入所谓的「Jevolution」并给自己贴上 Neolab 标签，要做 System One 系列模型，主打毫秒级做决策、拉数据；值得看的是这家靠加速网站起家的 CDN 厂商正式往模型层走，边缘计算和推理的边界又要重画。"
+  },
+  {
+   "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+   "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+   "desc": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of th",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2",
+   "summary": "Datasette Lite 用 service worker 彻底重写，靠 WebAssembly + Pyodide 在浏览器里跑完整的服务端 Datasette Python 应用，现在几乎和真服务器版没差别；值得看的是「整个后端搬进浏览器」这条路已经能跑通到什么程度。"
+  },
+  {
+   "title": "Quoting Go Proverbs",
+   "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+   "desc": "A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3",
+   "summary": "就引了一句 Go 谚语：「抄一点代码，好过加一点依赖」（A little copying is better than a little dependency）；短，但讲的是依赖的长期成本，写库、选包时反复被引用的一条原则。"
+  }
+ ],
+ "market": {
+  "skills": [
+   "Agent 工程已经压过“会调 LLM API”成为默认门槛。刷一遍样本，Agent 相关岗位占比最高，而且 JD 写得越来越具体：任务拆解、上下文与状态管理、Skill/MCP 工具接入、Function Calling、多轮对话、LLM-as-a-Judge 评测、线上问题定位（见 m45 SHEIN、m49 超数智能、m35 蚂蚁、m27 短剧团队、m43 千问）。关键变化是：一年前问“用没用过 RAG”，现在问“你亲手跑通过哪个 Agent 框架、效果怎么调的”。只会 prompt 已经不算技能。",
+   "Forward Deployed Engineer（FDE）/产品工程师，正成为 AI 落地公司里相当标准的岗位。m76（Elm AI）、m20（Alloy）、m97（Seal）、m64（珞瑜云科）、m38（Openmart）都是同一个要求：直接跟客户沟通，把模糊需求拆成流程，然后自己写代码交付，对一块业务结果负责。这反映行业正从“造模型”转向“把模型安装进客户流程”，这类岗位要的是工程、沟通和业务判断的结合，技术深度并非最大门槛。",
+   "AI Infra 是薪资最高、进入门槛也最明确的一类：GPU 算子优化、训推框架、K8s（Volcano/Kueue）+ Slurm 双调度、万卡集群稳定性、推理侧 vLLM/SGLang/TensorRT-LLM 的单位 GPU token 产出（m46 上海 GPU 算力、m50 联想超节点、m62 阿里 Token Foundry、m4 Toptal）。而且大厂已经把“Agent Infra”跟训练加速并列写进底座团队的技术方向，说明 Agent 不只是应用层的事，推理调度和长任务执行开始需要底层支持。",
+   "“传统技术栈 + AI 能力”成为普通工程岗的新基线，纯 AI 算法岗反而没那么多。m36 远程 SpringBoot 岗要会接 LLM API、流式响应、限流熔断、上下文维护；m34 广州 Java 全栈要“用 AI 编程工具搭管理后台 + 把 Agent 接进业务流”；m55/m58 的 Flutter/H5 岗直接把“熟练使用 AI Coding 工具提升人效”写进任职要求。信号很明确：AI 能力正在被吸收进常规开发岗，不再单独作为岗位标签。",
+   "垂直行业 AI 需求全面铺开，做的多是重复性劳动多的领域：牙科与医疗 RCM（m75、m84）、建筑 context layer（m85）、风电运维（m63）、保险福利解析、CAD/机械工程（m101 3ive 要做“机械工程版 Cursor”）、表格基础模型（m102 Prior Labs）。共同点是：数据脏、流程长、人工审阅成本高。这类岗位往往更看重懂业务、能把 AI 接进流程的人，而非模型能力本身。"
+  ],
+  "gigs": [
+   "模型训练侧正在形成一类新的零工：为模型设计任务、编写基准、做评判，不参与产品开发。m4 Toptal 招 Terminal-Bench 任务设计师（要求懂 vLLM/SGLang/TensorRT-LLM），m99 OpenTrain AI 按任务付费招后端工程师做 AI Coding 任务设计（$30–100/小时等效，每周约 15 小时，远程美国），m3 Toptal 招懂供应链和 Python 的人做 AI 供应链任务设计，m5 iMerit 视频标注。这类活的好处是门槛取决于经验而不是学历，坏处是单价被平台抽成、不可持续。样本有限，但“用你的行业经验给模型造题和打分”这个方向很确定。",
+   "中文区远程外包高度集中在“AI 工作流与内容生产”的整合岗位：AI 短剧流水线（m27 杭州 2 人 + 1 实习）、AI 视频生成与剪辑（m69、m30）、AI 工作流全栈（m54、m58、m59，20–38K）、兼职做康复运动处方网页 + 自动生成解剖视频（m66）。甲方普遍要求一个人从需求到上线全部做完，React/TS + Go/Python 加 AI 接入是常见组合。报酬已经不低，但竞争也激烈，能拿出真实上线作品的人更容易胜出（对比 m29 那位非科班求职者，靠三个手搓项目就能进面试）。",
+   "按项目/分成合作的早期公司变多，全职岗位在减少。AetherGrid 招 fractional GTM（m98）、Sparcle 明确写“equity / part-time / fractional / project / 收入分成”（m103）、珞瑜云科按项目找 FDE（m64）、Native 招 3 个月 Builder-in-Residence（m81）。判断：种子期公司更愿意先按项目验人再转正，对独立开发者是机会，但要自己承担结算与范围蔓延风险。",
+   "另一个被忽视的需求来源是传统行业甲方直接发外包：m63 澳洲风电服务公司要自建一套 HR/项目/资产管理的 AI 管理系统，m71 要人二次开发 AI 账号销售平台。这类客户不懂技术、预算有限、需求模糊，但一旦合作顺畅，复购和转介绍空间较大，比在平台抢单更稳定。"
+  ],
+  "highlights": [
+   {
+    "title": "ML Inference Engineer â Terminal-Bench Task Designer (vLLM / SGLang / TensorRT-LLM) @ Toptal",
+    "desc": "Artificial Intelligence, Docker, Git, Graphics Processing Unit, LLM",
+    "url": "https://remoteOK.com/remote-jobs/remote-ml-inference-engineer-terminal-bench-task-designer-vllm-sglang-tensorrt-llm-toptal-1137689",
+    "source": "RemoteOK",
+    "id": "m4",
+    "summary": "Toptal 招 ML 推理工程师做 Terminal-Bench 任务设计，要求熟悉 vLLM/SGLang/TensorRT-LLM——连“出题和基准测试”都外包了，说明评测能力本身已成为稀缺品。"
+   },
+   {
+    "title": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design",
+    "desc": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design OpenTrain AI connects experienced professionals with paid, part-time AI training work. We are the hiring company and are actively filling this role. - $30–$100 per hour equivalent, paid per accepted task\n- 100% remote, United States\n- About 15 hours/week; choose your schedule We need backend engineers to design realis",
+    "url": "https://news.ycombinator.com/item?id=50420399",
+    "source": "HN Who is hiring? (November 2026)",
+    "id": "m99",
+    "summary": "OpenTrain AI 按任务付费招后端工程师设计 AI 编程题（$30–100/小时），是“工程经验变现为模型训练数据”这种新零工形态的典型样本。"
+   },
+   {
+    "title": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe",
+    "desc": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe considered) | Full-time We build AI agents that help companies work with their suppliers. Looking for someone who will talk to customers, figure out what needs building, and then build it. Want a referral? DM me on X @Sarve___tanvesh",
+    "url": "https://news.ycombinator.com/item?id=50481529",
+    "source": "HN Who is hiring? (November 2026)",
+    "id": "m76",
+    "summary": "Elm AI 招 Forward-Deployed Product Engineer（纽约/伦敦，可远程），JD 就是“跟客户聊、判断要做什么、然后自己做出来”——FDE 已是 AI SaaS 的标准配置。"
+   },
+   {
+    "title": "[南京/深圳/上海/广州] SHEIN 11 月新出 8 个技术岗，月薪 25-90K， Agent/算法/搜广推/Go/大数据",
+    "desc": "SHEIN （希音）技术岗内推。最近两周新开的 8 个岗位。 [ AI / Agent ] AI Agent 开发工程师｜南京｜ S5 ｜本科｜ 30-45K/月｜ MJ016660\n做公司内部的 AI 办公工作台，员工用自然语言把活交给 Agent 去干。你负责 Agent 核心能力：任务拆解和执行、上下文管理、Skill/MCP 工具接入、LLM-as-a-Judge 评测、问题定位链路。\n要求：TypeScript/Node.js 或 Python 至少熟一门；真的动手做过 Agent ，用 Function Calling 、MCP 或某个 Agent 框架跑通过项目，个人项目、开源都",
+    "url": "https://www.v2ex.com/t/1255233#reply8",
+    "source": "V2EX 酷工作",
+    "id": "m45",
+    "summary": "SHEIN 招 AI Agent 开发工程师做内部办公工作台，技能栈写得很具体：任务拆解、Skill/MCP 工具接入、LLM-as-a-Judge 评测——传统大厂对 Agent 的要求已经模板化。"
+   },
+   {
+    "title": "阿里巴巴 Token Foundry Infra 团队社招",
+    "desc": "支撑 Qwen 系列大模型，挑战万卡集群极限性能 一、团队介绍 阿里巴巴 Token Foundry Infra 团队是支撑 Qwen 系列大模型的核心技术底座，致力于打造业界一流的 AI 训练与工程化平台，构建从底层算力管理到上层训练框架的全栈技术体系，支撑模型高效迭代。 二、重点技术方向 1. 训练加速 面向 Dense/MoE 架构，覆盖预训练到强化学习（ RL ）全阶段，通过并行策略、计算通信重叠与显存优化，持续提升有效算力。 2. 稳定底座 覆盖任务提交、调度运行、资源弹性与故障恢复，建设可工程化、可自动化、可规模化的稳定训练底座，支撑模型持续进化。 3. Agent Infra 建",
+    "url": "https://www.v2ex.com/t/1253934#reply1",
+    "source": "V2EX 酷工作",
+    "id": "m62",
+    "summary": "阿里 Token Foundry Infra 团队把“Agent Infra”与训练加速、稳定底座并列为三大方向，说明 Agent 的可靠性问题已经向上影响到调度层和训练底座。"
+   },
+   {
+    "title": "3ive | Senior/Staff Software Engineer | REMOTE (Europe) | Full-time | Python, Ty",
+    "desc": "3ive | Senior/Staff Software Engineer | REMOTE (Europe) | Full-time | Python, TypeScript, React, AI Agents We’re building Cursor for mechanical engineering. Imagine an AI that doesn’t just answer questions about a mechanical design, but can actually understand CAD models, work with geometry, and help engineers create and modify real designs. That’s what we’re building. It’s a hard engineering prob",
+    "url": "https://news.ycombinator.com/item?id=50398466",
+    "source": "HN Who is hiring? (November 2026)",
+    "id": "m101",
+    "summary": "3ive 要做“机械工程版 Cursor”，让 AI 真正理解 CAD 几何并修改设计——垂直专业工具正在被 Agent 重做，这是留给创业者的明确空白领域。"
+   }
+  ],
+  "week": "2026-W47"
+ },
+ "llm_used": true,
+ "degraded": []
+}
