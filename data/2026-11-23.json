@@ -1,0 +1,308 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23 10:53",
+ "trends": [],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 16
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 1
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 0
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 7
+  },
+  {
+   "name": "The Verge AI",
+   "count": 5
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 2
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh1",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": "324,233",
+   "stars_today": "788 stars today"
+  },
+  {
+   "id": "gh2",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+   "lang": "Python",
+   "stars": "62,862",
+   "stars_today": "699 stars today"
+  },
+  {
+   "id": "gh4",
+   "title": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": "18,489",
+   "stars_today": "294 stars today"
+  },
+  {
+   "id": "gh7",
+   "title": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "lang": "C++",
+   "stars": "12,108",
+   "stars_today": "158 stars today"
+  }
+ ],
+ "news": [
+  {
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 1201,
+   "id": "n0"
+  },
+  {
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 498,
+   "id": "n1"
+  },
+  {
+   "title": "What Happened to Silicon Valley?",
+   "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 462,
+   "id": "n2"
+  },
+  {
+   "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+   "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 376,
+   "id": "n3"
+  },
+  {
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "url": "https://github.com/gulivan/worker755",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 279,
+   "id": "n4"
+  },
+  {
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 271,
+   "id": "n5"
+  },
+  {
+   "title": "Open Social Web Alliance",
+   "url": "https://osw-alliance.net/en/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 227,
+   "id": "n6"
+  },
+  {
+   "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+   "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 166,
+   "id": "n7"
+  },
+  {
+   "title": "A miniature San Francisco with live buses, planes and boats",
+   "url": "https://smallsf.com/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 163,
+   "id": "n8"
+  },
+  {
+   "title": "I joined the NTP Pool, but not with my Stratum 1 Pi",
+   "url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 134,
+   "id": "n9"
+  },
+  {
+   "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+   "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 127,
+   "id": "n10"
+  },
+  {
+   "title": "Ask HN: Tips for transitioning from web development to embedded/firmware?",
+   "url": "https://news.ycombinator.com/item?id=50555002",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 121,
+   "id": "n11"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "Yoroll",
+   "url": "https://www.producthunt.com/products/yoroll",
+   "desc": "Build playable stories without a game engine Discussion | Link"
+  },
+  {
+   "id": "ph1",
+   "title": "Webless Agents",
+   "url": "https://www.producthunt.com/products/webless",
+   "desc": "Agents you want to put in front of customers Discussion | Link"
+  },
+  {
+   "id": "ph2",
+   "title": "Omi CLI",
+   "url": "https://www.producthunt.com/products/omi-cli",
+   "desc": "AI coding agents that work while you're away. Discussion | Link"
+  },
+  {
+   "id": "ph3",
+   "title": "MeshLive",
+   "url": "https://www.producthunt.com/products/meshlive",
+   "desc": "Offline video calls and livestreams over Bluetooth mesh Discussion | Link"
+  },
+  {
+   "id": "ph4",
+   "title": "Creavit Studio 4.0",
+   "url": "https://www.producthunt.com/products/creavit-studio",
+   "desc": "Screen recording, iPhone camera and cinematic demos for Mac Discussion | Link"
+  },
+  {
+   "id": "ph5",
+   "title": "Wispim",
+   "url": "https://www.producthunt.com/products/wispim-online-teleprompter",
+   "desc": "The teleprompter that follows your voice Discussion | Link"
+  },
+  {
+   "id": "ph6",
+   "title": "Mockreel",
+   "url": "https://www.producthunt.com/products/mockreel",
+   "desc": "your screen recording, but in a 3D phone. free, no signup Discussion | Link"
+  },
+  {
+   "id": "ph7",
+   "title": "Squint",
+   "url": "https://www.producthunt.com/products/squint",
+   "desc": "Explains whatever you're looking at, now on Mac Discussion | Link"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Select Styling Specimens",
+   "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+   "desc": "Tool: Select Styling Specimens I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page that shows all of the way",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0"
+  },
+  {
+   "title": "What Should Engineers Do When AI Writes All the Code | Charles Lamanna",
+   "url": "https://creatoreconomy.so/p/what-should-engineers-do-when-ai-writes-all-the-code-charles-lamanna",
+   "desc": "Watch now (19 mins) | Microsoft’s EVP for Copilot on what happens when coding is free, plus 5 unfiltered takeaways from my roundtable with Satya Nadella",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b9"
+  }
+ ],
+ "market": null,
+ "llm_used": false,
+ "degraded": [
+  "github",
+  "news",
+  "products",
+  "bloggers",
+  "market"
+ ]
+}
