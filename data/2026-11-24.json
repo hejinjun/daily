@@ -1,0 +1,386 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24 14:08",
+ "trends": [],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 16
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 3
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 16
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh0",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "lang": "Python",
+   "stars": "20,129",
+   "stars_today": "2,029 stars today"
+  },
+  {
+   "id": "gh3",
+   "title": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+   "lang": "Python",
+   "stars": "69,671",
+   "stars_today": "828 stars today"
+  },
+  {
+   "id": "gh5",
+   "title": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+   "lang": "TypeScript",
+   "stars": "208,131",
+   "stars_today": "924 stars today"
+  },
+  {
+   "id": "gh6",
+   "title": "nginx/nginx",
+   "url": "https://github.com/nginx/nginx",
+   "desc": "The official NGINX Open Source repository.",
+   "lang": "C",
+   "stars": "33,090",
+   "stars_today": "174 stars today"
+  },
+  {
+   "id": "gh8",
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": "71,165",
+   "stars_today": "620 stars today"
+  },
+  {
+   "id": "gh10",
+   "title": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "lang": "TypeScript",
+   "stars": "12,400",
+   "stars_today": "422 stars today"
+  },
+  {
+   "id": "gh11",
+   "title": "mjmirza/app-store-compliance",
+   "url": "https://github.com/mjmirza/app-store-compliance",
+   "desc": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+   "lang": "Shell",
+   "stars": "5,163",
+   "stars_today": "761 stars today"
+  },
+  {
+   "id": "gh12",
+   "title": "Tracer-Cloud/opensre",
+   "url": "https://github.com/Tracer-Cloud/opensre",
+   "desc": "The open-source agent for CI/CD reliability.",
+   "lang": "Python",
+   "stars": "14,910",
+   "stars_today": "436 stars today"
+  },
+  {
+   "id": "gh13",
+   "title": "toeverything/AFFiNE",
+   "url": "https://github.com/toeverything/AFFiNE",
+   "desc": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+   "lang": "TypeScript",
+   "stars": "77,526",
+   "stars_today": "595 stars today"
+  },
+  {
+   "id": "gh14",
+   "title": "XiaoYouChR/Ghost-Downloader-3",
+   "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+   "desc": "The only downloader you need. 下载器的集大成者。",
+   "lang": "Python",
+   "stars": "16,590",
+   "stars_today": "1,087 stars today"
+  }
+ ],
+ "news": [
+  {
+   "title": "Nvidia Reinstates Jensen Huang as CEO",
+   "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 2387,
+   "id": "n0"
+  },
+  {
+   "title": "Ladybird is now in alpha",
+   "url": "https://ladybird.org/posts/alpha/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 1656,
+   "id": "n1"
+  },
+  {
+   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+   "url": "https://twitter.com/ylecun/status/2124550037912920090",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 1444,
+   "id": "n2"
+  },
+  {
+   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "url": "https://z.ai/blog/glm-5.4",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 1094,
+   "id": "n3"
+  },
+  {
+   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+   "url": "https://spelunkr.tv",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 975,
+   "id": "n4"
+  },
+  {
+   "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+   "url": "https://arm.jonpalmisc.com/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 962,
+   "id": "n5"
+  },
+  {
+   "title": "Kagi Mail (public beta)",
+   "url": "https://blog.kagi.com/kagi-mail-public-beta",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 390,
+   "id": "n6"
+  },
+  {
+   "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+   "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 349,
+   "id": "n7"
+  },
+  {
+   "title": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+   "url": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 327,
+   "id": "n8"
+  },
+  {
+   "title": "VP ≠ VNP over Every Field",
+   "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 303,
+   "id": "n9"
+  },
+  {
+   "title": "GPUI is getting its own repository",
+   "url": "https://github.com/zed-industries/gpui",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 207,
+   "id": "n10"
+  },
+  {
+   "title": "Bored.com: Fun, interesting and cool websites to explore when bored",
+   "url": "https://www.bored.com/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 186,
+   "id": "n11"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "Replit Missions",
+   "url": "https://www.producthunt.com/products/replit",
+   "desc": "Set a budget, coordinate teams of AI agents, Discussion | Link"
+  },
+  {
+   "id": "ph1",
+   "title": "Spikely",
+   "url": "https://www.producthunt.com/products/spikely",
+   "desc": "Startup Metric Alerts for iPhone, Mac and Apple Watch Discussion | Link"
+  },
+  {
+   "id": "ph2",
+   "title": "Snowly",
+   "url": "https://www.producthunt.com/products/snowly-2",
+   "desc": "Plan ski trips with friends. Remember every run. Discussion | Link"
+  },
+  {
+   "id": "ph3",
+   "title": "Branchery",
+   "url": "https://www.producthunt.com/products/branchery",
+   "desc": "Branchery, a Git client for Mac Discussion | Link"
+  },
+  {
+   "id": "ph4",
+   "title": "Gauth Personal Study Agent",
+   "url": "https://www.producthunt.com/products/gauth-ai-course",
+   "desc": "An AI study agent that remembers where you struggle Discussion | Link"
+  },
+  {
+   "id": "ph5",
+   "title": "Modem",
+   "url": "https://www.producthunt.com/products/modem",
+   "desc": "Find, fix, and follow up on every customer concern Discussion | Link"
+  },
+  {
+   "id": "ph6",
+   "title": "Motionflare",
+   "url": "https://www.producthunt.com/products/motionflare",
+   "desc": "Turn your website into a stunning launch video in minutes Discussion | Link"
+  },
+  {
+   "id": "ph7",
+   "title": "Omi Work",
+   "url": "https://www.producthunt.com/products/omi-work",
+   "desc": "Omi can build anything. Now it finds your next 100 customers Discussion | Link"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "datasette-charts 0.2a0",
+   "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+   "desc": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0"
+  },
+  {
+   "title": "datasette-agent 0.7a1",
+   "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+   "desc": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent : chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hash",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1"
+  },
+  {
+   "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+   "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+   "desc": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transforme",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2"
+  },
+  {
+   "title": "Ladybird's first alpha release",
+   "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+   "desc": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, f",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b3"
+  },
+  {
+   "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+   "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+   "desc": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b5"
+  }
+ ],
+ "market": null,
+ "llm_used": false,
+ "degraded": [
+  "github",
+  "news",
+  "products",
+  "bloggers",
+  "market"
+ ]
+}
