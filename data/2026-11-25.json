@@ -1,0 +1,306 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25 12:56",
+ "trends": [],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 16
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 6
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 1
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 2
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 20
+  },
+  {
+   "name": "The Verge AI",
+   "count": 10
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 2
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh9",
+   "title": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "lang": "Python",
+   "stars": "74,402",
+   "stars_today": "703 stars today"
+  },
+  {
+   "id": "gh15",
+   "title": "zhouxiaoka/autoclip",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+   "lang": "Python",
+   "stars": "15,559",
+   "stars_today": "980 stars today"
+  }
+ ],
+ "news": [
+  {
+   "title": "The Spray Bottle",
+   "url": "https://mechanical-pencil.com/products/spray-bottle",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 410,
+   "id": "n0"
+  },
+  {
+   "title": "Ternary Bonsai 2.5 27B",
+   "url": "https://prismml.com/news/bonsai-2-5-27b",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 382,
+   "id": "n1"
+  },
+  {
+   "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 314,
+   "id": "n2"
+  },
+  {
+   "title": "Active intrusion campaign against Check Point security management servers",
+   "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 272,
+   "id": "n3"
+  },
+  {
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 214,
+   "id": "n4"
+  },
+  {
+   "title": "An Italian folding bicycle design that fits into a suitcase",
+   "url": "https://www.core77.com/posts/145766/An-Italian-Folding-Bicycle-Design-that-Fits-Into-a-Suitcase",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 148,
+   "id": "n5"
+  },
+  {
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 137,
+   "id": "n6"
+  },
+  {
+   "title": "Gödel Enigma",
+   "url": "https://www.helsinki.fi/en/researchgroups/godel-enigma/research/project-description",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 107,
+   "id": "n7"
+  },
+  {
+   "title": "Calculate how many mesh radio nodes your city needs",
+   "url": "https://meshcoveragecalculator.lalala.ing/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 92,
+   "id": "n8"
+  },
+  {
+   "title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
+   "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 81,
+   "id": "n9"
+  },
+  {
+   "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+   "url": "https://news.ycombinator.com/item?id=50634426",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 77,
+   "id": "n10"
+  },
+  {
+   "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+   "url": "https://buttons.joshwcomeau.com/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 77,
+   "id": "n11"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "distribution.dev",
+   "url": "https://www.producthunt.com/products/distribution-dev",
+   "desc": "Advertise to developers on many sites with one campaign Discussion | Link"
+  },
+  {
+   "id": "ph1",
+   "title": "SparrowDesk Phone Calls",
+   "url": "https://www.producthunt.com/products/sparrowdesk",
+   "desc": "Phone support in the same inbox as email, chat & WhatsApp Discussion | Link"
+  },
+  {
+   "id": "ph2",
+   "title": "tday.com",
+   "url": "https://www.producthunt.com/products/tday",
+   "desc": "AI-recorded Screen Studio style editable demos Discussion | Link"
+  },
+  {
+   "id": "ph3",
+   "title": "Granular.Build",
+   "url": "https://www.producthunt.com/products/granular-build",
+   "desc": "Put your AI agents to work in a visual workspace Discussion | Link"
+  },
+  {
+   "id": "ph4",
+   "title": "Claude Ship",
+   "url": "https://www.producthunt.com/products/claude-code",
+   "desc": "Ship code as fast as you can write it Discussion | Link"
+  },
+  {
+   "id": "ph5",
+   "title": "Finseo",
+   "url": "https://www.producthunt.com/products/finseo-ai",
+   "desc": "Company brain + outreach to get your brand mentioned by AI Discussion | Link"
+  },
+  {
+   "id": "ph6",
+   "title": "Viktor Code",
+   "url": "https://www.producthunt.com/products/viktor",
+   "desc": "Coding agents know your repo. Viktor knows your company. Discussion | Link"
+  },
+  {
+   "id": "ph7",
+   "title": "Cullman",
+   "url": "https://www.producthunt.com/products/cullman",
+   "desc": "Faster voice agent evals, from simulation to production Discussion | Link"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Three LLM inflection points in twelve months",
+   "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+   "desc": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0"
+  },
+  {
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+   "desc": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Be",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1"
+  },
+  {
+   "title": "Armin Ronacher and Mario Zechner on Coding With Agents",
+   "url": "https://www.aihero.dev/armin-ronacher-and-mario-zechner-on-coding-with-agents~fn8vd",
+   "desc": "Armin Ronacher (Flask) and Mario Zechner (Pi) on where agents fall short, why verification is overrated, how much code they still read, and dark factories.",
+   "source": "Matt Pocock（AI Hero）",
+   "lang": "en",
+   "id": "b4"
+  },
+  {
+   "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+   "desc": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b6"
+  }
+ ],
+ "market": null,
+ "llm_used": false,
+ "degraded": [
+  "github",
+  "news",
+  "products",
+  "bloggers",
+  "market"
+ ]
+}
