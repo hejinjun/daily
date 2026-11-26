@@ -1,0 +1,287 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26 12:11",
+ "trends": [],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 16
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 4
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 19
+  },
+  {
+   "name": "The Verge AI",
+   "count": 9
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [],
+ "news": [
+  {
+   "title": "1Password Security Incident",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 1252,
+   "id": "n0"
+  },
+  {
+   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 1068,
+   "id": "n1"
+  },
+  {
+   "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 461,
+   "id": "n2"
+  },
+  {
+   "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+   "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 453,
+   "id": "n3"
+  },
+  {
+   "title": "Much shorter version of GRH Lean verification from Anthropic",
+   "url": "https://github.com/lsernau/grh-lean",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 330,
+   "id": "n4"
+  },
+  {
+   "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+   "url": "https://github.com/xoxorwr/pw-loudness-eq",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 324,
+   "id": "n5"
+  },
+  {
+   "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+   "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 284,
+   "id": "n6"
+  },
+  {
+   "title": "Jev is probably Qwen3.5-35B-A3B",
+   "url": "https://modaic.dev/blog/latency-doesnt-lie",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 258,
+   "id": "n7"
+  },
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 257,
+   "id": "n8"
+  },
+  {
+   "title": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
+   "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 238,
+   "id": "n9"
+  },
+  {
+   "title": "I checked Clojure's core with Lean and found unreported bugs",
+   "url": "https://s.conao3.com/blog/2026/e4f733",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 198,
+   "id": "n10"
+  },
+  {
+   "title": "Slow Ubuntu security response times",
+   "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 180,
+   "id": "n11"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "Falcon by Vybe",
+   "url": "https://www.producthunt.com/products/vybe-4",
+   "desc": "Falcon analyzes your competitors for free, then gets to work Discussion | Link"
+  },
+  {
+   "id": "ph1",
+   "title": "eluna",
+   "url": "https://www.producthunt.com/products/eluna",
+   "desc": "Period tracker for couples that explains WHY, not just WHEN Discussion | Link"
+  },
+  {
+   "id": "ph2",
+   "title": "Airbot",
+   "url": "https://www.producthunt.com/products/airbots",
+   "desc": "The AI chief of staff that texts you first Discussion | Link"
+  },
+  {
+   "id": "ph3",
+   "title": "MyClaw 3.0",
+   "url": "https://www.producthunt.com/products/myclaw-3-0",
+   "desc": "Build an always-on AI team with shared memory Discussion | Link"
+  },
+  {
+   "id": "ph4",
+   "title": "Hiring Right Now",
+   "url": "https://www.producthunt.com/products/hiring-right-now",
+   "desc": "Which startups would hire you? Discussion | Link"
+  },
+  {
+   "id": "ph5",
+   "title": "VibeCode.surf",
+   "url": "https://www.producthunt.com/products/vibecode-surf",
+   "desc": "AI code editor where agents build, run and test your app Discussion | Link"
+  },
+  {
+   "id": "ph6",
+   "title": "OpenEight",
+   "url": "https://www.producthunt.com/products/openeight",
+   "desc": "The deterministic control layer for AI agents Discussion | Link"
+  },
+  {
+   "id": "ph7",
+   "title": "CodeRabbit Verify",
+   "url": "https://www.producthunt.com/products/coderabbit",
+   "desc": "AI agent that tests your running app on every pull request Discussion | Link"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Quoting Scott Aaronson",
+   "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+   "desc": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his tele",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0"
+  },
+  {
+   "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+   "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+   "desc": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t...",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b5"
+  },
+  {
+   "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+   "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+   "desc": "November 25, 2026 — From Erdős problems to new bounds for matrix multiplication and Fourier transforms.",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b6"
+  },
+  {
+   "title": "Gemini 4 Neon and Antigravity Full Course: Build an AI Video Explainer Skill Step by Step",
+   "url": "https://creatoreconomy.so/p/gemini-4-neon-and-antigravity-full-course",
+   "desc": "How I built a free skill that turns any topic into a 1-minute explainer video, using Orchestrator, voice mode, /swarm, browser use, and automations",
+   "source": "Peter Yang（Creator Economy）",
+   "lang": "en",
+   "id": "b9"
+  }
+ ],
+ "market": null,
+ "llm_used": false,
+ "degraded": [
+  "github",
+  "news",
+  "products",
+  "bloggers",
+  "market"
+ ]
+}
