@@ -1,0 +1,324 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27 12:18",
+ "trends": [],
+ "source_stats": [
+  {
+   "name": "GitHub Trending",
+   "count": 16
+  },
+  {
+   "name": "Hacker News",
+   "count": 30
+  },
+  {
+   "name": "OpenAI News",
+   "count": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "count": 0
+  },
+  {
+   "name": "Hugging Face Blog",
+   "count": 4
+  },
+  {
+   "name": "TechCrunch AI",
+   "count": 8
+  },
+  {
+   "name": "The Verge AI",
+   "count": 3
+  },
+  {
+   "name": "机器之心",
+   "count": 0
+  },
+  {
+   "name": "量子位",
+   "count": 10
+  },
+  {
+   "name": "Product Hunt",
+   "count": 30
+  },
+  {
+   "name": "Simon Willison",
+   "count": 4
+  },
+  {
+   "name": "Interconnects（Nathan Lambert）",
+   "count": 0
+  },
+  {
+   "name": "Ahead of AI（Sebastian Raschka）",
+   "count": 0
+  },
+  {
+   "name": "One Useful Thing（Ethan Mollick）",
+   "count": 0
+  },
+  {
+   "name": "Lilian Weng",
+   "count": 0
+  },
+  {
+   "name": "Geoffrey Huntley",
+   "count": 0
+  },
+  {
+   "name": "Matt Pocock（AI Hero）",
+   "count": 1
+  },
+  {
+   "name": "Latent Space（swyx）",
+   "count": 4
+  },
+  {
+   "name": "Peter Yang（Creator Economy）",
+   "count": 2
+  }
+ ],
+ "github": [
+  {
+   "id": "gh1",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars": "327,605",
+   "stars_today": "854 stars today"
+  },
+  {
+   "id": "gh2",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+   "lang": "Python",
+   "stars": "66,486",
+   "stars_today": "746 stars today"
+  },
+  {
+   "id": "gh4",
+   "title": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars": "19,824",
+   "stars_today": "270 stars today"
+  },
+  {
+   "id": "gh7",
+   "title": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "lang": "C++",
+   "stars": "12,844",
+   "stars_today": "176 stars today"
+  }
+ ],
+ "news": [
+  {
+   "title": "1Password Security Incident",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 1639,
+   "id": "n0"
+  },
+  {
+   "title": "Tell HN: Happy Thanksgiving",
+   "url": "https://news.ycombinator.com/item?id=50655664",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 646,
+   "id": "n1"
+  },
+  {
+   "title": "Intel One Mono font (2023)",
+   "url": "https://github.com/intel/intel-one-mono",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 486,
+   "id": "n2"
+  },
+  {
+   "title": "AI made self-hosting fun again",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 419,
+   "id": "n3"
+  },
+  {
+   "title": "Nextcloud Office Desktop app",
+   "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 410,
+   "id": "n4"
+  },
+  {
+   "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+   "url": "https://github.com/antonpictures/youtube-punisher",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 307,
+   "id": "n5"
+  },
+  {
+   "title": "AMD-specific fork of llama.cpp",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 306,
+   "id": "n6"
+  },
+  {
+   "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+   "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 290,
+   "id": "n7"
+  },
+  {
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 278,
+   "id": "n8"
+  },
+  {
+   "title": "Moat: OpenRouter replacement",
+   "url": "https://commandcode.ai/moat",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 261,
+   "id": "n9"
+  },
+  {
+   "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 240,
+   "id": "n10"
+  },
+  {
+   "title": "An algebraic quantization of gravity from the null cone",
+   "url": "https://arxiv.org/abs/2611.34924",
+   "desc": "",
+   "source": "Hacker News",
+   "lang": "en",
+   "points": 225,
+   "id": "n11"
+  }
+ ],
+ "products": [
+  {
+   "id": "ph0",
+   "title": "NEXUS",
+   "url": "https://www.producthunt.com/products/nexus-42",
+   "desc": "Map codebase locally and AI changes only what you approved Discussion | Link"
+  },
+  {
+   "id": "ph1",
+   "title": "Chunkify",
+   "url": "https://www.producthunt.com/products/chunkify",
+   "desc": "Video Streaming API for Developers & AI Agents Discussion | Link"
+  },
+  {
+   "id": "ph2",
+   "title": "WhipDesk",
+   "url": "https://www.producthunt.com/products/whipdesk",
+   "desc": "Control AI coding agents from your phone Discussion | Link"
+  },
+  {
+   "id": "ph3",
+   "title": "InfraThrone DevOps Park",
+   "url": "https://www.producthunt.com/products/infrathrone-devops-park",
+   "desc": "Fix 300+ real production outages in live DevOps labs Discussion | Link"
+  },
+  {
+   "id": "ph4",
+   "title": "Bifura",
+   "url": "https://www.producthunt.com/products/bifura",
+   "desc": "See your website the way AI agents do Discussion | Link"
+  },
+  {
+   "id": "ph5",
+   "title": "iwantmy.app",
+   "url": "https://www.producthunt.com/products/iwantmy-app",
+   "desc": "Describe a mobile app in chat and open it on your phone Discussion | Link"
+  },
+  {
+   "id": "ph6",
+   "title": "Superframes",
+   "url": "https://www.producthunt.com/products/superframes-ai-video-editor",
+   "desc": "Brief an AI Director to edit the whole video Discussion | Link"
+  },
+  {
+   "id": "ph7",
+   "title": "ExtraOrbital",
+   "url": "https://www.producthunt.com/products/extraorbital-deleted-1365752",
+   "desc": "✦ Open bar databases, storage buckets & AI keys for agents Discussion | Link"
+  }
+ ],
+ "bloggers": [
+  {
+   "title": "Quoting Jack Despain Zhou",
+   "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+   "desc": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credent",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b0"
+  },
+  {
+   "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+   "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+   "desc": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b1"
+  },
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+   "desc": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt",
+   "source": "Simon Willison",
+   "lang": "en",
+   "id": "b2"
+  },
+  {
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+   "desc": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+   "source": "Latent Space（swyx）",
+   "lang": "en",
+   "id": "b5"
+  }
+ ],
+ "market": null,
+ "llm_used": false,
+ "degraded": [
+  "github",
+  "news",
+  "products",
+  "bloggers",
+  "market"
+ ]
+}
